@@ -1,0 +1,50 @@
+name: owc-forms
+recipe: wordpress
+
+config:
+  php: 7.2
+  via: nginx
+  ssl: true
+  webroot: htdocs
+  database: mysql:5.7
+  config:
+    vhosts: storage/provision/nginx/default.conf
+    php: storage/provision/php/php.ini
+
+proxy:
+  mailhog:
+    - mail.owc-forms.lndo.site
+  pma:
+    - pma.owc-forms.lndo.site
+
+services:
+  pma:
+    type: phpmyadmin
+    ssl: true
+    hosts:
+      - database
+  mailhog:
+    type: mailhog
+    hogfrom:
+      - appserver
+  appserver:
+    run:
+      - cd $LANDO_MOUNT && composer install
+    overrides:
+      environment:
+        environment: development
+  node:
+    type: node
+    globals:
+      webpack: "latest"
+      npm: "latest"
+      yarn: "latest"
+      grunt: "latest"
+
+tooling:
+  deploy:
+    service: appserver
+    cmd: ./vendor/bin/dep deploy
+  phpunit:
+    service: appserver
+    description: "Run PHP Unit tests: lando phpunit"
