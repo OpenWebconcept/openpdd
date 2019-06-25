@@ -9,7 +9,7 @@ require __DIR__ . '/../vendor/autoload.php';
  * Initialize DotEnv environment variables.
  */
 $dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
-$dotenv->overLoad();
+$dotenv->load();
 
 /**
  * Setup Database Configuration
@@ -17,7 +17,7 @@ $dotenv->overLoad();
 define('DB_NAME', getenv('DB_DATABASE'));
 define('DB_USER', getenv('DB_USER'));
 define('DB_PASSWORD', getenv('DB_PASSWORD'));
-define('DB_HOST', getenv('DB_HOST', 'localhost'));
+define('DB_HOST', getenv('DB_HOST'));
 
 /**
  * Elasticsearch instance
@@ -25,12 +25,12 @@ define('DB_HOST', getenv('DB_HOST', 'localhost'));
 define('EP_HOST', getenv('EP_HOST'));
 
 define('WP_REDIS_HOST', getenv('REDIS_HOST'));
-define('WP_REDIS_DISABLED', getenv('WP_REDIS_DISABLED', false));
+define('WP_REDIS_DISABLED', getenv('WP_REDIS_DISABLED'));
 
-define('WP_DEBUG', getenv('WP_DEBUG', false));
-define('WP_DEBUG_DISPLAY', getenv('WP_DEBUG_DISPLAY', false));
-define('WP_DEBUG_LOG', getenv('WP_DEBUG_LOG', false));
-define('SCRIPT_DEBUG', getenv('SCRIPT_DEBUG', false));
+define('WP_DEBUG', getenv('WP_DEBUG'));
+define('WP_DEBUG_DISPLAY', getenv('WP_DEBUG_DISPLAY'));
+define('WP_DEBUG_LOG', getenv('WP_DEBUG_LOG'));
+define('SCRIPT_DEBUG', getenv('SCRIPT_DEBUG'));
 
 /**
  * Setup secret keys.
@@ -54,17 +54,13 @@ define('DB_COLLATE', '');
 /** License key of WP Migrate DB Pro */
 define('WPMDB_LICENCE', getenv('WPMDB_LICENCE'));
 
-define('ES_INSTANCE', getenv('ES_INSTANCE'));
-define('PORTAL_URL', getenv('PORTAL_URL'));
-define('PORTAL_PDC_SLUG', getenv('PORTAL_PDC_SLUG'));
-
 /**
  * WordPress Database Table prefix.
  *
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = '0wc_pdc_';
+$table_prefix = '0wc_forms_';
 
 /**
  * Custom content directory
