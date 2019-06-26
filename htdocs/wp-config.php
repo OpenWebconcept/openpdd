@@ -19,13 +19,6 @@ define('DB_USER', getenv('DB_USER'));
 define('DB_PASSWORD', getenv('DB_PASSWORD'));
 define('DB_HOST', getenv('DB_HOST'));
 
-/**
- * Elasticsearch instance
- */
-define('EP_HOST', getenv('EP_HOST'));
-
-define('WP_REDIS_HOST', getenv('REDIS_HOST'));
-define('WP_REDIS_DISABLED', getenv('WP_REDIS_DISABLED'));
 
 define('WP_DEBUG', getenv('WP_DEBUG'));
 define('WP_DEBUG_DISPLAY', getenv('WP_DEBUG_DISPLAY'));

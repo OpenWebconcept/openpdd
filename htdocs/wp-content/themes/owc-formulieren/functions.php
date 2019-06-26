@@ -1,8 +1,9 @@
-<?php
+<?php defined('ABSPATH') || exit;
+
 /**
  * Here's what's happening with these hooks:
- * 1. WordPress detects theme in themes/theme
- * 2. When we activate, we tell WordPress that the theme is actually in themes/theme/templates
+ * 1. WordPress detects theme in themes/theme-name
+ * 2. We tell WordPress that the theme is actually in themes/theme/path-to-configured-templates-directory
  * 3. When we call get_template_directory() or get_template_directory_uri(), we point it back to themes/theme
  *
  * We do this so that the Template Hierarchy will look in themes/theme/templates for core WordPress themes
@@ -20,7 +21,7 @@ add_filter('template', function ($stylesheet) {
 
 add_action('after_switch_theme', function () {
     $stylesheet = get_option('template');
-    if (basename($stylesheet) !== 'templates') {
+    if ('templates' !== basename($stylesheet)) {
         update_option('template', $stylesheet . '/templates');
     }
 });
