@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 
     <div id="page">
-        <div class="fixed-top navbar-wrapper">
+        <div class="fixed-top navbar-wrapper" style="display:none;">
             <nav class="navbar navbar-default navbar--top">
                 <div class="container">
                     <header id="masthead" class="site-header">
@@ -56,4 +56,4 @@
             <section class="breadcrumb-bar">
             </section>
         </div>
-        <div class="page-content">
+        <div class="page-content" style="background-color: #FFFFFF !important;">

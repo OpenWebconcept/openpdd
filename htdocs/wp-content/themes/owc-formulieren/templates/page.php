@@ -1,7 +1,7 @@
 <?php
 get_header();
 ?>
-<main class="page-main">
+<main class="page-main" style="box-shadow: none !important;">
     <div class="container">
         <?php while (have_posts()) :
             the_post(); ?>
