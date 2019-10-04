@@ -16,9 +16,6 @@ proxy:
     - mail.owc-forms.lndo.site
   pma:
     - pma.owc-forms.lndo.site
-  appserver_nginx:
-    - owc-forms.lndo.site
-    - "*.owc-forms.lndo.site"
 
 services:
   pma:
