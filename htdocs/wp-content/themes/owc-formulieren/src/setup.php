@@ -41,3 +41,28 @@ define('FS_METHOD', 'direct');
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('style-name', 'https://www.buren.nl/wp-content/themes/gembur2017/assets/dist/css/style.css');
 });
+
+/**
+ * Enable REST API
+ */
+add_filter('config_expander_admin_defaults', function ($defaults) {
+    $defaults['DISABLE_REST_API'] = false;
+    return $defaults;
+});
+
+add_filter('config_expander_rest_endpoints_whitelist', function ($endpoints_whitelist) {
+
+    //remove default root endpoint
+    unset($endpoints_whitelist['wp/v2']);
+
+    $endpoints_whitelist['/irma/v1/gf/handle'] = array(
+        'endpoint_stub' => '/irma/v1/gf/handle',
+        'methods'       => array('POST')
+    );
+    $endpoints_whitelist['/irma/v1/gf/session'] = array(
+        'endpoint_stub' => '/irma/v1/gf/session',
+        'methods'       => array('GET')
+    );
+
+    return $endpoints_whitelist;
+}, 10, 1);
