@@ -50,19 +50,15 @@ add_filter('config_expander_admin_defaults', function ($defaults) {
     return $defaults;
 });
 
-add_filter('config_expander_rest_endpoints_whitelist', function ($endpoints_whitelist) {
-
-    //remove default root endpoint
-    unset($endpoints_whitelist['wp/v2']);
-
-    $endpoints_whitelist['/irma/v1/gf/handle'] = array(
+add_filter('owc/config-expander/rest-api/whitelist', function ($endpoints_whitelist) {
+    $endpoints_whitelist['/irma/v1/gf/handle'] = [
         'endpoint_stub' => '/irma/v1/gf/handle',
-        'methods'       => array('POST')
-    );
-    $endpoints_whitelist['/irma/v1/gf/session'] = array(
+        'methods'       => ['POST']
+    ];
+    $endpoints_whitelist['/irma/v1/gf/session'] = [
         'endpoint_stub' => '/irma/v1/gf/session',
-        'methods'       => array('GET')
-    );
+        'methods'       => ['GET']
+    ];
 
     return $endpoints_whitelist;
 }, 10, 1);
