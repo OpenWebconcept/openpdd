@@ -38,8 +38,8 @@ add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
  * Proper way to enqueue scripts and styles
  */
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('style-name', 'https://www.buren.nl/wp-content/themes/gembur2017/assets/dist/css/style.css');
-});
+    wp_enqueue_style('style', get_template_directory_uri() . '/assets/dist/css/style.css');
+}, 10);
 
 /**
  * Enable REST API
