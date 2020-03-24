@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------
+  Custom colors
+--------------------------------------------------------------*/
+
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #0f4c75,
+  secondary: #3282b8,
+  tertiary: #bbe1fa
+) !default;
+
+$grays: (
+  concrete: #f2f2f2,
+  athens-gray: #f4f4f5,
+  shark: #212529,
+  boulder: #757575,
+  graphic: #949494,
+  ghost: #f4f4f4
+) !default;

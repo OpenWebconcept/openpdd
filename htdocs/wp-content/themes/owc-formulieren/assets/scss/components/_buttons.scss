@@ -1,0 +1,30 @@
+/**
+ * Project buttons
+ */
+.btn {
+  @include button;
+}
+
+.btn-primary {
+  @include button-variant(theme-color("primary"), theme-color("primary"));
+}
+
+.btn-secondary {
+  @include button-variant(theme-color("secondary"), theme-color("secondary"));
+}
+
+.btn-tertiary {
+  @include button-variant(theme-color("tertiary"), theme-color("tertiary"));
+}
+
+.btn-primary-outline {
+  @include button-variant-outline(theme-color("primary"));
+}
+
+.btn-primary-secondary {
+  @include button-variant-outline(theme-color("primary"));
+}
+
+.btn-primary-tertiary {
+  @include button-variant-outline(theme-color("primary"));
+}

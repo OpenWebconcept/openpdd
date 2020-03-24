@@ -1,8 +1,8 @@
 <?php
 get_header();
 ?>
-<main class="page-main" style="box-shadow: none !important;">
-    <div class="container">
+<main class="page-main">
+    <div class="container | bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
         <?php while (have_posts()) :
             the_post(); ?>
 
@@ -14,9 +14,7 @@ get_header();
 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="lead pb-5">
-                        <?php the_content(); ?>
-                    </div>
+                    <?php the_content(); ?>
                 </div>
             </div>
 

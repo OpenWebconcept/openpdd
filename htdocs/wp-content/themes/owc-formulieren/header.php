@@ -56,4 +56,4 @@
             <section class="breadcrumb-bar">
             </section>
         </div>
-        <div class="page-content" style="background-color: #FFFFFF !important;">
+        <div class="page-content">

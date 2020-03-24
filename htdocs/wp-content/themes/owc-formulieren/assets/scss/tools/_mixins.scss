@@ -1,0 +1,30 @@
+/**
+* Standard button
+*/
+@mixin button {
+  padding: $btn-padding-y $btn-padding-x;
+  border-width: $btn-border-width;
+  border-radius: $btn-border-radius;
+  font-family: $btn-font-family;
+  font-size: $btn-font-size;
+  font-weight: $btn-font-weight;
+  line-height: $btn-line-height;
+  transition: $btn-transition;
+
+  @include hover-focus-active {
+    text-decoration: none;
+  }
+}
+
+@mixin button-variant-outline($color) {
+  border-width: 2px;
+  border-style: solid;
+  border-color: $color;
+  background-color: transparent;
+  color: $color;
+
+  @include hover-focus-active {
+    background-color: $color;
+    color: $white;
+  }
+}

@@ -9,6 +9,7 @@ htdocs/wp-content/object-cache.php
 htdocs/wp-content/themes/**/bower_components/
 htdocs/wp-content/themes/**/node_modules/
 htdocs/wp-content/themes/**/vendor/
+!htdocs/wp-content/themes/owc-formulieren/assets/scss/vendor/
 htdocs/wp-content/uploads/
 vendor/*
 .project
