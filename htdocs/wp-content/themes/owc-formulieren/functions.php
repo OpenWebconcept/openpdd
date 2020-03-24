@@ -39,3 +39,7 @@ foreach ($includes as $file) {
     require_once $filepath;
 }
 unset($file, $filepath);
+
+// GravityForms
+add_filter('pre_option_rg_gforms_disable_css', '__return_true');
+add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
