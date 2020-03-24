@@ -1,0 +1,23 @@
+{
+  "name": "hoekschewaard",
+  "version": "1.0.0",
+  "description": "Fusion Wordpress Theme",
+  "author": "Yvette Nikolov",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/webpack-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/webpack-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.3",
+    "sass-loader": "^8.0.2",
+    "stylelint": "^13.2.1",
+    "webpack-mix": "^3.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  }
+}
