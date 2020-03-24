@@ -1,0 +1,15 @@
+.nav {
+  z-index: $zindex-sticky;
+}
+
+.navbar {
+  min-height: $navbar-height;
+  padding: 0 $spacer;
+  background-color: $navbar-background;
+  box-shadow: $navbar-shadow;
+  transition: 0.3s ease all;
+
+  @include media-breakpoint-up(xl) {
+    min-height: $navbar-height-desktop;
+  }
+}

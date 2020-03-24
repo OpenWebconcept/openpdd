@@ -1,6 +1,7 @@
 /* Datepicker styling */
 .ui-datepicker {
   @extend .table;
+  display: none;
   width: auto;
   padding: $spacer;
   border: 1px solid $gray-300;

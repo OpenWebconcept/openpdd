@@ -2,9 +2,6 @@
 
 /**
  * The header for our theme.
- *
- * Displays all of the <head> section and everything up till <div id="content">
- *
  */
 ?>
 <!DOCTYPE html>
@@ -12,48 +9,20 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-
+    <a class="btn btn-primary btn-focus | sr-only sr-only-focusable" href="#main">Spring naar content</a>
     <div id="page">
-        <div class="fixed-top navbar-wrapper" style="display:none;">
-            <nav class="navbar navbar-default navbar--top">
+        <div class="nav">
+            <div class="navbar navbar-expand shadow w-100" role="navigation">
                 <div class="container">
-                    <header id="masthead" class="site-header">
-
-                        <div class="site-branding">
-                            <a href="https://www.buren.nl/" class="custom-logo-link" rel="home" itemprop="url"><img width="300" height="261" src="https://www.buren.nl/wp-content/uploads/2017/03/cropped-buren_png.png" class="custom-logo" alt="Gemeente Buren" itemprop="logo"></a>
-                        </div>
-
-                        <div class="site-name text-center">
-                            <a class="link--unstyle" href="https://www.buren.nl">
-                                <span class="pl-sm-0 pl-md-3">Gemeente Buren</span>
-                            </a>
-                        </div>
-
-                        <nav class="site-navigation main-navigation hidden-md-down">
-                            <div class="menu-menu-1-container">
-                                <ul id="menu-menu-2" class="nav navbar-nav">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-106 nav-item"><a href="https://www.buren.nl/" class="nav-link">Home</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-
-                        <div class="site-phone text-center">
-                            <a href="tel:140344">
-                                <span class="hidden-sm-down">14 0344</span>
-                            </a>
-                        </div>
-                    </header>
+                    <?php get_template_part('partials/site-branding'); ?>
+                    <?php get_template_part('partials/navigation'); ?>
                 </div>
-            </nav>
-        </div>
-        <div class="container">
-            <section class="breadcrumb-bar">
-            </section>
+            </div>
         </div>
         <div class="page-content">

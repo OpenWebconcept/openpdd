@@ -3,6 +3,7 @@
 --------------------------------------------------------------*/
 @import "settings/colors";
 @import "settings/bootstrap";
+@import "settings/variables";
 
 /*--------------------------------------------------------------
   Tools
@@ -20,4 +21,6 @@
 @import "components/buttons";
 @import "components/datepicker";
 @import "components/gravityforms";
+@import "components/navbar";
 @import "components/progress-bar";
+@import "components/site-branding";

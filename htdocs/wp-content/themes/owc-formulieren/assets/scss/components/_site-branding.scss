@@ -1,0 +1,12 @@
+/* Custom logo is defined by WordPress */
+.custom-logo {
+  width: auto;
+  max-width: 175px;
+  height: auto;
+  max-height: 60px;
+
+  @include media-breakpoint-up(xl) {
+    max-width: 260px;
+    max-height: calc(#{$navbar-height-desktop} - 1.5 * #{$spacer});
+  }
+}

@@ -1,0 +1,21 @@
+$wp-admin-bar: 32px;
+
+/* --------------------------------------------------------------
+Navigation
+-------------------------------------------------------------- */
+$navbar-height: 100px;
+$navbar-height-desktop: 100px;
+$navbar-background: #fff;
+
+$full-nav-height: $navbar-height;
+$full-nav-height-desktop: $navbar-height-desktop;
+$navbar-shadow: $box-shadow;
+
+/* --------------------------------------------------------------
+  Widths for wide classes for example wide-100,wide-80
+-------------------------------------------------------------- */
+$wide-widths: (50, 60, 70, 80, 90, 100);
+
+$btn-outline-border-width: 2px;
+$btn-outline-border-style: solid;
+$btn-outline-border-background: transparent;

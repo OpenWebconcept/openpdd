@@ -42,13 +42,6 @@
     }
 
     &_error {
-      background-color: rgba(255, 223, 224, 0.25);
-      margin-bottom: $spacer * 0.5 !important;
-      border-top: 1px solid #c89797;
-      border-bottom: 1px solid #c89797;
-      padding-bottom: $spacer * 0.5;
-      padding-top: $spacer * 0.5;
-
       textarea,
       input {
         @extend .is-invalid;

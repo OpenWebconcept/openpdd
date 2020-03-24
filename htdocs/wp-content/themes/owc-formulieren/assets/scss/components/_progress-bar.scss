@@ -1,4 +1,7 @@
 /* Progress bar */
+$inner-bar-height: 24px;
+$bar-border-radius: 25px;
+
 .gf_progressbar_wrapper {
   width: 100%;
   margin-bottom: $spacer * 2;
@@ -13,22 +16,36 @@
 
   .gf_progressbar {
     position: relative;
-    width: calc(100% - 16px);
+    width: 100%;
     padding: $spacer * 0.5;
     background-color: gray("100");
-    border-radius: 25px;
+    border-radius: $bar-border-radius;
     box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+
+    &::after {
+      position: absolute;
+      margin: $spacer * 0.5;
+      height: $inner-bar-height;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-radius: $bar-border-radius;
+      background-color: gray("200");
+      content: "";
+    }
   }
 
   .gf_progressbar_percentage {
-    height: 24px;
+    position: relative;
+    height: $inner-bar-height;
     text-align: right;
     font-size: $font-size-base * 0.9;
     color: #fff;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: $bar-border-radius;
+    border-bottom-left-radius: $bar-border-radius;
     z-index: 999;
     vertical-align: middle;
     background: repeating-linear-gradient(
@@ -45,8 +62,8 @@
     }
 
     &.percentbar_100 {
-      border-top-right-radius: 20px;
-      border-bottom-right-radius: 20px;
+      border-top-right-radius: $bar-border-radius;
+      border-bottom-right-radius: $bar-border-radius;
     }
 
     span {
