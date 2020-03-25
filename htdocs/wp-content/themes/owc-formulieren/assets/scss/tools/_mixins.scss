@@ -16,15 +16,28 @@
   }
 }
 
+/**
+* Outline button
+*/
 @mixin button-variant-outline($color) {
-  border-width: 2px;
-  border-style: solid;
+  border-width: $btn-outline-border-width;
+  border-style: $btn-outline-border-style;
   border-color: $color;
-  background-color: transparent;
+  background-color: $btn-outline-border-background;
   color: $color;
 
   @include hover-focus-active {
     background-color: $color;
     color: $white;
   }
+}
+
+/**
+* FontAwesome mixin
+* Usage: @include fontawesome("\f061");
+*/
+@mixin fontawesome($icon) {
+  content: $icon;
+  /* stylelint-disable */
+  font-family: "Font Awesome 5 Pro";
 }
