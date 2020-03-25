@@ -33,7 +33,6 @@ add_action('after_setup_theme', function () {
 });
 
 add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
-define('FS_METHOD', 'direct');
 
 /**
  * Proper way to enqueue scripts and styles

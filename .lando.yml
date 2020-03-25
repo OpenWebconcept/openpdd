@@ -28,8 +28,9 @@ services:
     hogfrom:
       - appserver
   appserver:
+    xdebug: true
     run:
-      - cd $LANDO_MOUNT && composer install
+      - cd $LANDO_MOUNT && lando composer install
     overrides:
       environment:
         environment: development
