@@ -1,7 +1,4 @@
 /* Progress bar */
-$inner-bar-height: 24px;
-$bar-border-radius: 25px;
-
 .gf_progressbar_wrapper {
   width: 100%;
   margin-bottom: $spacer * 2;
@@ -10,33 +7,34 @@ $bar-border-radius: 25px;
     font-size: $font-size-base * 0.8;
     font-weight: $font-weight-normal;
     line-height: 1;
-    margin: 0 0 $spacer * 0.5 $spacer * 0.5;
-    opacity: 0.6;
   }
 
   .gf_progressbar {
     position: relative;
     width: 100%;
-    padding: $spacer * 0.5;
-    background-color: gray("100");
+    padding: $bar-padding;
+    background-color: $bar-padding-color;
     border-radius: $bar-border-radius;
     box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
 
     &::after {
       position: absolute;
-      margin: $spacer * 0.5;
+      margin: $bar-padding;
       height: $inner-bar-height;
       top: 0;
       left: 0;
       bottom: 0;
       right: 0;
       border-radius: $bar-border-radius;
-      background-color: gray("200");
+      background-color: $bar-background-color;
       content: "";
     }
   }
 
   .gf_progressbar_percentage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     position: relative;
     height: $inner-bar-height;
     text-align: right;
@@ -46,19 +44,18 @@ $bar-border-radius: 25px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: $bar-border-radius;
     border-bottom-left-radius: $bar-border-radius;
-    z-index: 999;
     vertical-align: middle;
     background: repeating-linear-gradient(
         -45deg,
         rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0) 10px,
-        rgba(0, 0, 0, 0.1) 10px,
-        rgba(0, 0, 0, 0.1) 20px
+        rgba(0, 0, 0, 0) 15px,
+        rgba(0, 0, 0, 0.1) 15px,
+        rgba(0, 0, 0, 0.1) 30px
       ),
-      linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.4));
 
     &.percentbar_blue {
-      background-color: theme-color("primary");
+      background-color: $bar-color;
     }
 
     &.percentbar_100 {
@@ -69,7 +66,6 @@ $bar-border-radius: 25px;
     span {
       display: block;
       width: auto;
-      float: right; // IE11
       margin-right: $spacer * 0.2;
       margin-left: $spacer * 0.5;
     }

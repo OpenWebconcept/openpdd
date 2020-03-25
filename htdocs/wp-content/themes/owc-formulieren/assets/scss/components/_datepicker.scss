@@ -10,6 +10,11 @@
 
   td {
     padding: $spacer * 0.7;
+
+    &:hover {
+      background-color: gray("200");
+      cursor: pointer;
+    }
   }
 
   th {
@@ -23,10 +28,6 @@
   tr:first-child {
     background-color: white;
     font-weight: $font-weight-normal;
-
-    &:hover {
-      background-color: $gray-300;
-    }
   }
 
   &-header {
