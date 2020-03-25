@@ -59,13 +59,32 @@ New (custom) variables should go into _variables.scss instead.
 Navigation
 -------------------------------------------------------------- */
 /* --------------------------------------------------------------
-  Widths for wide classes for example wide-100,wide-80
+  Btn outline 
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+  Progress bar
+-------------------------------------------------------------- */
+/* --------------------------------------------------------------
+  Checkbox & radiobuttons
 -------------------------------------------------------------- */
 /*--------------------------------------------------------------
   Tools
 --------------------------------------------------------------*/
 /**
 * Standard button
+*/
+/**
+* Outline button
+*/
+/**
+* FontAwesome mixin
+* Usage: @include fontawesome("\f061");
+*/
+/**
+* IE10+
+*/
+/**
+* Used for custom checkbox and radiobutton
 */
 /*--------------------------------------------------------------
   Vendor
@@ -220,12 +239,12 @@ sup {
 }
 
 a {
-  color: #001e60;
+  color: #0639a9;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #000614;
+  color: #03205f;
   text-decoration: underline;
 }
 
@@ -2124,7 +2143,7 @@ pre code {
   border: 0;
 }
 
-.form-control, .ginput_container textarea, .ginput_container input[type=text],
+.form-control, .form_saved_message input[type=email], .ginput_container textarea, .ginput_container input[type=text],
 .ginput_container input[type=email],
 .ginput_container input[type=tel],
 .ginput_container input[type=url],
@@ -2145,7 +2164,7 @@ pre code {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
-  .form-control, .ginput_container textarea, .ginput_container input[type=text],
+  .form-control, .form_saved_message input[type=email], .ginput_container textarea, .ginput_container input[type=text],
 .ginput_container input[type=email],
 .ginput_container input[type=tel],
 .ginput_container input[type=url],
@@ -2154,7 +2173,7 @@ pre code {
     transition: none;
   }
 }
-.form-control::-ms-expand, .ginput_container textarea::-ms-expand, .ginput_container input[type=text]::-ms-expand,
+.form-control::-ms-expand, .form_saved_message input[type=email]::-ms-expand, .ginput_container textarea::-ms-expand, .ginput_container input[type=text]::-ms-expand,
 .ginput_container input[type=email]::-ms-expand,
 .ginput_container input[type=tel]::-ms-expand,
 .ginput_container input[type=url]::-ms-expand,
@@ -2163,7 +2182,7 @@ pre code {
   background-color: transparent;
   border: 0;
 }
-.form-control:-moz-focusring, .ginput_container textarea:-moz-focusring, .ginput_container input[type=text]:-moz-focusring,
+.form-control:-moz-focusring, .form_saved_message input[type=email]:-moz-focusring, .ginput_container textarea:-moz-focusring, .ginput_container input[type=text]:-moz-focusring,
 .ginput_container input[type=email]:-moz-focusring,
 .ginput_container input[type=tel]:-moz-focusring,
 .ginput_container input[type=url]:-moz-focusring,
@@ -2172,7 +2191,7 @@ pre code {
   color: transparent;
   text-shadow: 0 0 0 #495057;
 }
-.form-control:focus, .ginput_container textarea:focus, .ginput_container input[type=text]:focus,
+.form-control:focus, .form_saved_message input[type=email]:focus, .ginput_container textarea:focus, .ginput_container input[type=text]:focus,
 .ginput_container input[type=email]:focus,
 .ginput_container input[type=tel]:focus,
 .ginput_container input[type=url]:focus,
@@ -2184,23 +2203,23 @@ pre code {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(47, 136, 27, 0.25);
 }
-.form-control::-webkit-input-placeholder, .ginput_container textarea::-webkit-input-placeholder, .ginput_container input[type=text]::-webkit-input-placeholder, .ginput_container input[type=email]::-webkit-input-placeholder, .ginput_container input[type=tel]::-webkit-input-placeholder, .ginput_container input[type=url]::-webkit-input-placeholder, .ginput_container input[type=number]::-webkit-input-placeholder, .ginput_container select::-webkit-input-placeholder {
+.form-control::-webkit-input-placeholder, .form_saved_message input[type=email]::-webkit-input-placeholder, .ginput_container textarea::-webkit-input-placeholder, .ginput_container input[type=text]::-webkit-input-placeholder, .ginput_container input[type=email]::-webkit-input-placeholder, .ginput_container input[type=tel]::-webkit-input-placeholder, .ginput_container input[type=url]::-webkit-input-placeholder, .ginput_container input[type=number]::-webkit-input-placeholder, .ginput_container select::-webkit-input-placeholder {
   color: #6c757d;
   opacity: 1;
 }
-.form-control::-moz-placeholder, .ginput_container textarea::-moz-placeholder, .ginput_container input[type=text]::-moz-placeholder, .ginput_container input[type=email]::-moz-placeholder, .ginput_container input[type=tel]::-moz-placeholder, .ginput_container input[type=url]::-moz-placeholder, .ginput_container input[type=number]::-moz-placeholder, .ginput_container select::-moz-placeholder {
+.form-control::-moz-placeholder, .form_saved_message input[type=email]::-moz-placeholder, .ginput_container textarea::-moz-placeholder, .ginput_container input[type=text]::-moz-placeholder, .ginput_container input[type=email]::-moz-placeholder, .ginput_container input[type=tel]::-moz-placeholder, .ginput_container input[type=url]::-moz-placeholder, .ginput_container input[type=number]::-moz-placeholder, .ginput_container select::-moz-placeholder {
   color: #6c757d;
   opacity: 1;
 }
-.form-control:-ms-input-placeholder, .ginput_container textarea:-ms-input-placeholder, .ginput_container input[type=text]:-ms-input-placeholder, .ginput_container input[type=email]:-ms-input-placeholder, .ginput_container input[type=tel]:-ms-input-placeholder, .ginput_container input[type=url]:-ms-input-placeholder, .ginput_container input[type=number]:-ms-input-placeholder, .ginput_container select:-ms-input-placeholder {
+.form-control:-ms-input-placeholder, .form_saved_message input[type=email]:-ms-input-placeholder, .ginput_container textarea:-ms-input-placeholder, .ginput_container input[type=text]:-ms-input-placeholder, .ginput_container input[type=email]:-ms-input-placeholder, .ginput_container input[type=tel]:-ms-input-placeholder, .ginput_container input[type=url]:-ms-input-placeholder, .ginput_container input[type=number]:-ms-input-placeholder, .ginput_container select:-ms-input-placeholder {
   color: #6c757d;
   opacity: 1;
 }
-.form-control::-ms-input-placeholder, .ginput_container textarea::-ms-input-placeholder, .ginput_container input[type=text]::-ms-input-placeholder, .ginput_container input[type=email]::-ms-input-placeholder, .ginput_container input[type=tel]::-ms-input-placeholder, .ginput_container input[type=url]::-ms-input-placeholder, .ginput_container input[type=number]::-ms-input-placeholder, .ginput_container select::-ms-input-placeholder {
+.form-control::-ms-input-placeholder, .form_saved_message input[type=email]::-ms-input-placeholder, .ginput_container textarea::-ms-input-placeholder, .ginput_container input[type=text]::-ms-input-placeholder, .ginput_container input[type=email]::-ms-input-placeholder, .ginput_container input[type=tel]::-ms-input-placeholder, .ginput_container input[type=url]::-ms-input-placeholder, .ginput_container input[type=number]::-ms-input-placeholder, .ginput_container select::-ms-input-placeholder {
   color: #6c757d;
   opacity: 1;
 }
-.form-control::placeholder, .ginput_container textarea::placeholder, .ginput_container input[type=text]::placeholder,
+.form-control::placeholder, .form_saved_message input[type=email]::placeholder, .ginput_container textarea::placeholder, .ginput_container input[type=text]::placeholder,
 .ginput_container input[type=email]::placeholder,
 .ginput_container input[type=tel]::placeholder,
 .ginput_container input[type=url]::placeholder,
@@ -2209,12 +2228,12 @@ pre code {
   color: #6c757d;
   opacity: 1;
 }
-.form-control:disabled, .ginput_container textarea:disabled, .ginput_container input[type=text]:disabled,
+.form-control:disabled, .form_saved_message input[type=email]:disabled, .ginput_container textarea:disabled, .ginput_container input[type=text]:disabled,
 .ginput_container input[type=email]:disabled,
 .ginput_container input[type=tel]:disabled,
 .ginput_container input[type=url]:disabled,
 .ginput_container input[type=number]:disabled,
-.ginput_container select:disabled, .form-control[readonly], .ginput_container textarea[readonly], .ginput_container input[readonly][type=text],
+.ginput_container select:disabled, .form-control[readonly], .form_saved_message input[readonly][type=email], .ginput_container textarea[readonly], .ginput_container input[readonly][type=text],
 .ginput_container input[readonly][type=email],
 .ginput_container input[readonly][type=tel],
 .ginput_container input[readonly][type=url],
@@ -2394,7 +2413,7 @@ textarea.form-control, .ginput_container textarea {
   display: block;
 }
 
-.was-validated .form-control:valid, .was-validated .ginput_container textarea:valid, .ginput_container .was-validated textarea:valid, .was-validated .ginput_container input[type=text]:valid, .ginput_container .was-validated input[type=text]:valid,
+.was-validated .form-control:valid, .was-validated .form_saved_message input[type=email]:valid, .form_saved_message .was-validated input[type=email]:valid, .was-validated .ginput_container textarea:valid, .ginput_container .was-validated textarea:valid, .was-validated .ginput_container input[type=text]:valid, .ginput_container .was-validated input[type=text]:valid,
 .was-validated .ginput_container input[type=email]:valid,
 .ginput_container .was-validated input[type=email]:valid,
 .was-validated .ginput_container input[type=tel]:valid,
@@ -2404,7 +2423,7 @@ textarea.form-control, .ginput_container textarea {
 .was-validated .ginput_container input[type=number]:valid,
 .ginput_container .was-validated input[type=number]:valid,
 .was-validated .ginput_container select:valid,
-.ginput_container .was-validated select:valid, .form-control.is-valid, .ginput_container textarea.is-valid, .ginput_container input.is-valid[type=text],
+.ginput_container .was-validated select:valid, .form-control.is-valid, .form_saved_message input.is-valid[type=email], .ginput_container textarea.is-valid, .ginput_container input.is-valid[type=text],
 .ginput_container input.is-valid[type=email],
 .ginput_container input.is-valid[type=tel],
 .ginput_container input.is-valid[type=url],
@@ -2417,7 +2436,7 @@ textarea.form-control, .ginput_container textarea {
   background-position: right calc(0.425em + 0.2rem) center;
   background-size: calc(0.85em + 0.4rem) calc(0.85em + 0.4rem);
 }
-.was-validated .form-control:valid:focus, .was-validated .ginput_container textarea:valid:focus, .ginput_container .was-validated textarea:valid:focus, .was-validated .ginput_container input[type=text]:valid:focus, .ginput_container .was-validated input[type=text]:valid:focus,
+.was-validated .form-control:valid:focus, .was-validated .form_saved_message input[type=email]:valid:focus, .form_saved_message .was-validated input[type=email]:valid:focus, .was-validated .ginput_container textarea:valid:focus, .ginput_container .was-validated textarea:valid:focus, .was-validated .ginput_container input[type=text]:valid:focus, .ginput_container .was-validated input[type=text]:valid:focus,
 .was-validated .ginput_container input[type=email]:valid:focus,
 .ginput_container .was-validated input[type=email]:valid:focus,
 .was-validated .ginput_container input[type=tel]:valid:focus,
@@ -2427,7 +2446,7 @@ textarea.form-control, .ginput_container textarea {
 .was-validated .ginput_container input[type=number]:valid:focus,
 .ginput_container .was-validated input[type=number]:valid:focus,
 .was-validated .ginput_container select:valid:focus,
-.ginput_container .was-validated select:valid:focus, .form-control.is-valid:focus, .ginput_container textarea.is-valid:focus, .ginput_container input.is-valid[type=text]:focus,
+.ginput_container .was-validated select:valid:focus, .form-control.is-valid:focus, .form_saved_message input.is-valid[type=email]:focus, .ginput_container textarea.is-valid:focus, .ginput_container input.is-valid[type=text]:focus,
 .ginput_container input.is-valid[type=email]:focus,
 .ginput_container input.is-valid[type=tel]:focus,
 .ginput_container input.is-valid[type=url]:focus,
@@ -2523,7 +2542,7 @@ textarea.form-control, .ginput_container textarea {
   display: block;
 }
 
-.was-validated .form-control:invalid, .was-validated .ginput_container textarea:invalid, .ginput_container .was-validated textarea:invalid, .was-validated .ginput_container input[type=text]:invalid, .ginput_container .was-validated input[type=text]:invalid,
+.was-validated .form-control:invalid, .was-validated .form_saved_message input[type=email]:invalid, .form_saved_message .was-validated input[type=email]:invalid, .was-validated .ginput_container textarea:invalid, .ginput_container .was-validated textarea:invalid, .was-validated .ginput_container input[type=text]:invalid, .ginput_container .was-validated input[type=text]:invalid,
 .was-validated .ginput_container input[type=email]:invalid,
 .ginput_container .was-validated input[type=email]:invalid,
 .was-validated .ginput_container input[type=tel]:invalid,
@@ -2533,13 +2552,15 @@ textarea.form-control, .ginput_container textarea {
 .was-validated .ginput_container input[type=number]:invalid,
 .ginput_container .was-validated input[type=number]:invalid,
 .was-validated .ginput_container select:invalid,
-.ginput_container .was-validated select:invalid, .form-control.is-invalid, .ginput_container textarea.is-invalid, .ginput_container input.is-invalid[type=text],
+.ginput_container .was-validated select:invalid, .form-control.is-invalid, .form_saved_message input.is-invalid[type=email], .ginput_container textarea.is-invalid, .ginput_container input.is-invalid[type=text],
 .ginput_container input.is-invalid[type=email],
 .ginput_container input.is-invalid[type=tel],
 .ginput_container input.is-invalid[type=url],
 .ginput_container input.is-invalid[type=number],
 .ginput_container select.is-invalid, .gform_wrapper .gfield_error textarea.form-control, .gform_wrapper .gfield_error .ginput_container textarea, .ginput_container .gform_wrapper .gfield_error textarea,
 .gform_wrapper .gfield_error input.form-control,
+.gform_wrapper .gfield_error .form_saved_message input[type=email],
+.form_saved_message .gform_wrapper .gfield_error input[type=email],
 .gform_wrapper .gfield_error .ginput_container input[type=text],
 .ginput_container .gform_wrapper .gfield_error input[type=text],
 .gform_wrapper .gfield_error .ginput_container input[type=email],
@@ -2557,7 +2578,7 @@ textarea.form-control, .ginput_container textarea {
   background-position: right calc(0.425em + 0.2rem) center;
   background-size: calc(0.85em + 0.4rem) calc(0.85em + 0.4rem);
 }
-.was-validated .form-control:invalid:focus, .was-validated .ginput_container textarea:invalid:focus, .ginput_container .was-validated textarea:invalid:focus, .was-validated .ginput_container input[type=text]:invalid:focus, .ginput_container .was-validated input[type=text]:invalid:focus,
+.was-validated .form-control:invalid:focus, .was-validated .form_saved_message input[type=email]:invalid:focus, .form_saved_message .was-validated input[type=email]:invalid:focus, .was-validated .ginput_container textarea:invalid:focus, .ginput_container .was-validated textarea:invalid:focus, .was-validated .ginput_container input[type=text]:invalid:focus, .ginput_container .was-validated input[type=text]:invalid:focus,
 .was-validated .ginput_container input[type=email]:invalid:focus,
 .ginput_container .was-validated input[type=email]:invalid:focus,
 .was-validated .ginput_container input[type=tel]:invalid:focus,
@@ -2567,13 +2588,15 @@ textarea.form-control, .ginput_container textarea {
 .was-validated .ginput_container input[type=number]:invalid:focus,
 .ginput_container .was-validated input[type=number]:invalid:focus,
 .was-validated .ginput_container select:invalid:focus,
-.ginput_container .was-validated select:invalid:focus, .form-control.is-invalid:focus, .ginput_container textarea.is-invalid:focus, .ginput_container input.is-invalid[type=text]:focus,
+.ginput_container .was-validated select:invalid:focus, .form-control.is-invalid:focus, .form_saved_message input.is-invalid[type=email]:focus, .ginput_container textarea.is-invalid:focus, .ginput_container input.is-invalid[type=text]:focus,
 .ginput_container input.is-invalid[type=email]:focus,
 .ginput_container input.is-invalid[type=tel]:focus,
 .ginput_container input.is-invalid[type=url]:focus,
 .ginput_container input.is-invalid[type=number]:focus,
 .ginput_container select.is-invalid:focus, .gform_wrapper .gfield_error textarea.form-control:focus, .gform_wrapper .gfield_error .ginput_container textarea:focus, .ginput_container .gform_wrapper .gfield_error textarea:focus,
 .gform_wrapper .gfield_error input.form-control:focus,
+.gform_wrapper .gfield_error .form_saved_message input[type=email]:focus,
+.form_saved_message .gform_wrapper .gfield_error input[type=email]:focus,
 .gform_wrapper .gfield_error .ginput_container input[type=text]:focus,
 .ginput_container .gform_wrapper .gfield_error input[type=text]:focus,
 .gform_wrapper .gfield_error .ginput_container input[type=email]:focus,
@@ -2677,7 +2700,7 @@ textarea.form-control, .ginput_container textarea {
     align-items: center;
     margin-bottom: 0;
   }
-  .form-inline .form-control, .form-inline .ginput_container textarea, .ginput_container .form-inline textarea, .form-inline .ginput_container input[type=text], .ginput_container .form-inline input[type=text],
+  .form-inline .form-control, .form-inline .form_saved_message input[type=email], .form_saved_message .form-inline input[type=email], .form-inline .ginput_container textarea, .ginput_container .form-inline textarea, .form-inline .ginput_container input[type=text], .ginput_container .form-inline input[type=text],
 .form-inline .ginput_container input[type=email],
 .ginput_container .form-inline input[type=email],
 .form-inline .ginput_container input[type=tel],
@@ -2989,11 +3012,12 @@ textarea.form-control, .ginput_container textarea {
   display: inline-flex;
   vertical-align: middle;
 }
-.btn-group > .btn, .gform_footer .btn-group > input[type=submit],
+.btn-group > .btn, .form_saved_message .btn-group > input[type=submit], .gform_footer .btn-group > input[type=submit],
 .gform_footer .btn-group > input[type=button],
 .gform_page_footer .btn-group > input[type=submit],
 .gform_page_footer .btn-group > input[type=button],
 .btn-group-vertical > .btn,
+.form_saved_message .btn-group-vertical > input[type=submit],
 .gform_footer .btn-group-vertical > input[type=submit],
 .gform_footer .btn-group-vertical > input[type=button],
 .gform_page_footer .btn-group-vertical > input[type=submit],
@@ -3001,38 +3025,42 @@ textarea.form-control, .ginput_container textarea {
   position: relative;
   flex: 1 1 auto;
 }
-.btn-group > .btn:hover, .gform_footer .btn-group > input[type=submit]:hover,
+.btn-group > .btn:hover, .form_saved_message .btn-group > input[type=submit]:hover, .gform_footer .btn-group > input[type=submit]:hover,
 .gform_footer .btn-group > input[type=button]:hover,
 .gform_page_footer .btn-group > input[type=submit]:hover,
 .gform_page_footer .btn-group > input[type=button]:hover,
 .btn-group-vertical > .btn:hover,
+.form_saved_message .btn-group-vertical > input[type=submit]:hover,
 .gform_footer .btn-group-vertical > input[type=submit]:hover,
 .gform_footer .btn-group-vertical > input[type=button]:hover,
 .gform_page_footer .btn-group-vertical > input[type=submit]:hover,
 .gform_page_footer .btn-group-vertical > input[type=button]:hover {
   z-index: 1;
 }
-.btn-group > .btn:focus, .gform_footer .btn-group > input[type=submit]:focus,
+.btn-group > .btn:focus, .form_saved_message .btn-group > input[type=submit]:focus, .gform_footer .btn-group > input[type=submit]:focus,
 .gform_footer .btn-group > input[type=button]:focus,
 .gform_page_footer .btn-group > input[type=submit]:focus,
-.gform_page_footer .btn-group > input[type=button]:focus, .btn-group > .btn:active, .gform_footer .btn-group > input[type=submit]:active,
+.gform_page_footer .btn-group > input[type=button]:focus, .btn-group > .btn:active, .form_saved_message .btn-group > input[type=submit]:active, .gform_footer .btn-group > input[type=submit]:active,
 .gform_footer .btn-group > input[type=button]:active,
 .gform_page_footer .btn-group > input[type=submit]:active,
-.gform_page_footer .btn-group > input[type=button]:active, .btn-group > .btn.active, .gform_footer .btn-group > input.active[type=submit],
+.gform_page_footer .btn-group > input[type=button]:active, .btn-group > .btn.active, .form_saved_message .btn-group > input.active[type=submit], .gform_footer .btn-group > input.active[type=submit],
 .gform_footer .btn-group > input.active[type=button],
 .gform_page_footer .btn-group > input.active[type=submit],
 .gform_page_footer .btn-group > input.active[type=button],
 .btn-group-vertical > .btn:focus,
+.form_saved_message .btn-group-vertical > input[type=submit]:focus,
 .gform_footer .btn-group-vertical > input[type=submit]:focus,
 .gform_footer .btn-group-vertical > input[type=button]:focus,
 .gform_page_footer .btn-group-vertical > input[type=submit]:focus,
 .gform_page_footer .btn-group-vertical > input[type=button]:focus,
 .btn-group-vertical > .btn:active,
+.form_saved_message .btn-group-vertical > input[type=submit]:active,
 .gform_footer .btn-group-vertical > input[type=submit]:active,
 .gform_footer .btn-group-vertical > input[type=button]:active,
 .gform_page_footer .btn-group-vertical > input[type=submit]:active,
 .gform_page_footer .btn-group-vertical > input[type=button]:active,
 .btn-group-vertical > .btn.active,
+.form_saved_message .btn-group-vertical > input.active[type=submit],
 .gform_footer .btn-group-vertical > input.active[type=submit],
 .gform_footer .btn-group-vertical > input.active[type=button],
 .gform_page_footer .btn-group-vertical > input.active[type=submit],
@@ -3049,18 +3077,19 @@ textarea.form-control, .ginput_container textarea {
   width: auto;
 }
 
-.btn-group > .btn:not(:first-child), .gform_footer .btn-group > input[type=submit]:not(:first-child),
+.btn-group > .btn:not(:first-child), .form_saved_message .btn-group > input[type=submit]:not(:first-child), .gform_footer .btn-group > input[type=submit]:not(:first-child),
 .gform_footer .btn-group > input[type=button]:not(:first-child),
 .gform_page_footer .btn-group > input[type=submit]:not(:first-child),
 .gform_page_footer .btn-group > input[type=button]:not(:first-child),
 .btn-group > .btn-group:not(:first-child) {
   margin-left: 0;
 }
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .gform_footer .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle), .form_saved_message .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle), .gform_footer .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle),
 .gform_footer .btn-group > input[type=button]:not(:last-child):not(.dropdown-toggle),
 .gform_page_footer .btn-group > input[type=submit]:not(:last-child):not(.dropdown-toggle),
 .gform_page_footer .btn-group > input[type=button]:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn,
+.form_saved_message .btn-group > .btn-group:not(:last-child) > input[type=submit],
 .gform_footer .btn-group > .btn-group:not(:last-child) > input[type=submit],
 .gform_footer .btn-group > .btn-group:not(:last-child) > input[type=button],
 .gform_page_footer .btn-group > .btn-group:not(:last-child) > input[type=submit],
@@ -3068,11 +3097,12 @@ textarea.form-control, .ginput_container textarea {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn-group > .btn:not(:first-child), .gform_footer .btn-group > input[type=submit]:not(:first-child),
+.btn-group > .btn:not(:first-child), .form_saved_message .btn-group > input[type=submit]:not(:first-child), .gform_footer .btn-group > input[type=submit]:not(:first-child),
 .gform_footer .btn-group > input[type=button]:not(:first-child),
 .gform_page_footer .btn-group > input[type=submit]:not(:first-child),
 .gform_page_footer .btn-group > input[type=button]:not(:first-child),
 .btn-group > .btn-group:not(:first-child) > .btn,
+.form_saved_message .btn-group > .btn-group:not(:first-child) > input[type=submit],
 .gform_footer .btn-group > .btn-group:not(:first-child) > input[type=submit],
 .gform_footer .btn-group > .btn-group:not(:first-child) > input[type=button],
 .gform_page_footer .btn-group > .btn-group:not(:first-child) > input[type=submit],
@@ -3092,7 +3122,7 @@ textarea.form-control, .ginput_container textarea {
   margin-right: 0;
 }
 
-.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .gform_footer .btn-group-sm > input[type=submit] + .dropdown-toggle-split,
+.btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split, .form_saved_message .btn-group-sm > input[type=submit] + .dropdown-toggle-split, .gform_footer .btn-group-sm > input[type=submit] + .dropdown-toggle-split,
 .gform_footer .btn-group-sm > input[type=button] + .dropdown-toggle-split,
 .gform_page_footer .btn-group-sm > input[type=submit] + .dropdown-toggle-split,
 .gform_page_footer .btn-group-sm > input[type=button] + .dropdown-toggle-split {
@@ -3100,7 +3130,7 @@ textarea.form-control, .ginput_container textarea {
   padding-left: 0.375rem;
 }
 
-.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .gform_footer .btn-group-lg > input[type=submit] + .dropdown-toggle-split,
+.btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split, .form_saved_message .btn-group-lg > input[type=submit] + .dropdown-toggle-split, .gform_footer .btn-group-lg > input[type=submit] + .dropdown-toggle-split,
 .gform_footer .btn-group-lg > input[type=button] + .dropdown-toggle-split,
 .gform_page_footer .btn-group-lg > input[type=submit] + .dropdown-toggle-split,
 .gform_page_footer .btn-group-lg > input[type=button] + .dropdown-toggle-split {
@@ -3113,25 +3143,26 @@ textarea.form-control, .ginput_container textarea {
   align-items: flex-start;
   justify-content: center;
 }
-.btn-group-vertical > .btn, .gform_footer .btn-group-vertical > input[type=submit],
+.btn-group-vertical > .btn, .form_saved_message .btn-group-vertical > input[type=submit], .gform_footer .btn-group-vertical > input[type=submit],
 .gform_footer .btn-group-vertical > input[type=button],
 .gform_page_footer .btn-group-vertical > input[type=submit],
 .gform_page_footer .btn-group-vertical > input[type=button],
 .btn-group-vertical > .btn-group {
   width: 100%;
 }
-.btn-group-vertical > .btn:not(:first-child), .gform_footer .btn-group-vertical > input[type=submit]:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .form_saved_message .btn-group-vertical > input[type=submit]:not(:first-child), .gform_footer .btn-group-vertical > input[type=submit]:not(:first-child),
 .gform_footer .btn-group-vertical > input[type=button]:not(:first-child),
 .gform_page_footer .btn-group-vertical > input[type=submit]:not(:first-child),
 .gform_page_footer .btn-group-vertical > input[type=button]:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) {
   margin-top: 0;
 }
-.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .gform_footer .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle),
+.btn-group-vertical > .btn:not(:last-child):not(.dropdown-toggle), .form_saved_message .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle), .gform_footer .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle),
 .gform_footer .btn-group-vertical > input[type=button]:not(:last-child):not(.dropdown-toggle),
 .gform_page_footer .btn-group-vertical > input[type=submit]:not(:last-child):not(.dropdown-toggle),
 .gform_page_footer .btn-group-vertical > input[type=button]:not(:last-child):not(.dropdown-toggle),
 .btn-group-vertical > .btn-group:not(:last-child) > .btn,
+.form_saved_message .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit],
 .gform_footer .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit],
 .gform_footer .btn-group-vertical > .btn-group:not(:last-child) > input[type=button],
 .gform_page_footer .btn-group-vertical > .btn-group:not(:last-child) > input[type=submit],
@@ -3139,11 +3170,12 @@ textarea.form-control, .ginput_container textarea {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.btn-group-vertical > .btn:not(:first-child), .gform_footer .btn-group-vertical > input[type=submit]:not(:first-child),
+.btn-group-vertical > .btn:not(:first-child), .form_saved_message .btn-group-vertical > input[type=submit]:not(:first-child), .gform_footer .btn-group-vertical > input[type=submit]:not(:first-child),
 .gform_footer .btn-group-vertical > input[type=button]:not(:first-child),
 .gform_page_footer .btn-group-vertical > input[type=submit]:not(:first-child),
 .gform_page_footer .btn-group-vertical > input[type=button]:not(:first-child),
 .btn-group-vertical > .btn-group:not(:first-child) > .btn,
+.form_saved_message .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit],
 .gform_footer .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit],
 .gform_footer .btn-group-vertical > .btn-group:not(:first-child) > input[type=button],
 .gform_page_footer .btn-group-vertical > .btn-group:not(:first-child) > input[type=submit],
@@ -3152,22 +3184,24 @@ textarea.form-control, .ginput_container textarea {
   border-top-right-radius: 0;
 }
 
-.btn-group-toggle > .btn, .gform_footer .btn-group-toggle > input[type=submit],
+.btn-group-toggle > .btn, .form_saved_message .btn-group-toggle > input[type=submit], .gform_footer .btn-group-toggle > input[type=submit],
 .gform_footer .btn-group-toggle > input[type=button],
 .gform_page_footer .btn-group-toggle > input[type=submit],
 .gform_page_footer .btn-group-toggle > input[type=button],
 .btn-group-toggle > .btn-group > .btn,
+.form_saved_message .btn-group-toggle > .btn-group > input[type=submit],
 .gform_footer .btn-group-toggle > .btn-group > input[type=submit],
 .gform_footer .btn-group-toggle > .btn-group > input[type=button],
 .gform_page_footer .btn-group-toggle > .btn-group > input[type=submit],
 .gform_page_footer .btn-group-toggle > .btn-group > input[type=button] {
   margin-bottom: 0;
 }
-.btn-group-toggle > .btn input[type=radio], .gform_footer .btn-group-toggle > input[type=submit] input[type=radio],
+.btn-group-toggle > .btn input[type=radio], .form_saved_message .btn-group-toggle > input[type=submit] input[type=radio], .gform_footer .btn-group-toggle > input[type=submit] input[type=radio],
 .gform_footer .btn-group-toggle > input[type=button] input[type=radio],
 .gform_page_footer .btn-group-toggle > input[type=submit] input[type=radio],
 .gform_page_footer .btn-group-toggle > input[type=button] input[type=radio],
 .btn-group-toggle > .btn input[type=checkbox],
+.form_saved_message .btn-group-toggle > input[type=submit] input[type=checkbox],
 .gform_footer .btn-group-toggle > input[type=submit] input[type=checkbox],
 .gform_footer .btn-group-toggle > input[type=button] input[type=checkbox],
 .gform_page_footer .btn-group-toggle > input[type=submit] input[type=checkbox],
@@ -3186,7 +3220,7 @@ textarea.form-control, .ginput_container textarea {
   align-items: stretch;
   width: 100%;
 }
-.input-group > .form-control, .ginput_container .input-group > textarea, .ginput_container .input-group > input[type=text],
+.input-group > .form-control, .form_saved_message .input-group > input[type=email], .ginput_container .input-group > textarea, .ginput_container .input-group > input[type=text],
 .ginput_container .input-group > input[type=email],
 .ginput_container .input-group > input[type=tel],
 .ginput_container .input-group > input[type=url],
@@ -3200,23 +3234,35 @@ textarea.form-control, .ginput_container textarea {
   min-width: 0;
   margin-bottom: 0;
 }
-.input-group > .form-control + .form-control, .ginput_container .input-group > textarea + .form-control, .ginput_container .input-group > .form-control + textarea, .ginput_container .input-group > textarea + textarea, .ginput_container .input-group > input[type=text] + .form-control, .ginput_container .input-group > input[type=text] + textarea,
+.input-group > .form-control + .form-control, .form_saved_message .input-group > input[type=email] + .form-control, .form_saved_message .input-group > .form-control + input[type=email], .form_saved_message .input-group > input[type=email] + input[type=email], .ginput_container .input-group > textarea + .form-control, .ginput_container .form_saved_message .input-group > textarea + input[type=email], .form_saved_message .ginput_container .input-group > textarea + input[type=email], .ginput_container .input-group > .form-control + textarea, .ginput_container .form_saved_message .input-group > input[type=email] + textarea, .form_saved_message .ginput_container .input-group > input[type=email] + textarea, .ginput_container .input-group > textarea + textarea, .ginput_container .input-group > input[type=text] + .form-control, .ginput_container .form_saved_message .input-group > input[type=text] + input[type=email], .form_saved_message .ginput_container .input-group > input[type=text] + input[type=email], .ginput_container .input-group > input[type=text] + textarea,
 .ginput_container .input-group > input[type=email] + .form-control,
+.ginput_container .form_saved_message .input-group > input[type=email] + input[type=email],
+.form_saved_message .ginput_container .input-group > input[type=email] + input[type=email],
 .ginput_container .input-group > input[type=email] + textarea,
 .ginput_container .input-group > input[type=tel] + .form-control,
+.ginput_container .form_saved_message .input-group > input[type=tel] + input[type=email],
+.form_saved_message .ginput_container .input-group > input[type=tel] + input[type=email],
 .ginput_container .input-group > input[type=tel] + textarea,
 .ginput_container .input-group > input[type=url] + .form-control,
+.ginput_container .form_saved_message .input-group > input[type=url] + input[type=email],
+.form_saved_message .ginput_container .input-group > input[type=url] + input[type=email],
 .ginput_container .input-group > input[type=url] + textarea,
 .ginput_container .input-group > input[type=number] + .form-control,
+.ginput_container .form_saved_message .input-group > input[type=number] + input[type=email],
+.form_saved_message .ginput_container .input-group > input[type=number] + input[type=email],
 .ginput_container .input-group > input[type=number] + textarea,
 .ginput_container .input-group > select + .form-control,
-.ginput_container .input-group > select + textarea, .ginput_container .input-group > .form-control + input[type=text], .ginput_container .input-group > textarea + input[type=text], .ginput_container .input-group > input[type=text] + input[type=text],
+.ginput_container .form_saved_message .input-group > select + input[type=email],
+.form_saved_message .ginput_container .input-group > select + input[type=email],
+.ginput_container .input-group > select + textarea, .ginput_container .input-group > .form-control + input[type=text], .ginput_container .form_saved_message .input-group > input[type=email] + input[type=text], .form_saved_message .ginput_container .input-group > input[type=email] + input[type=text], .ginput_container .input-group > textarea + input[type=text], .ginput_container .input-group > input[type=text] + input[type=text],
 .ginput_container .input-group > input[type=email] + input[type=text],
 .ginput_container .input-group > input[type=tel] + input[type=text],
 .ginput_container .input-group > input[type=url] + input[type=text],
 .ginput_container .input-group > input[type=number] + input[type=text],
 .ginput_container .input-group > select + input[type=text],
 .ginput_container .input-group > .form-control + input[type=email],
+.ginput_container .form_saved_message .input-group > input[type=email] + input[type=email],
+.form_saved_message .ginput_container .input-group > input[type=email] + input[type=email],
 .ginput_container .input-group > textarea + input[type=email],
 .ginput_container .input-group > input[type=text] + input[type=email],
 .ginput_container .input-group > input[type=email] + input[type=email],
@@ -3225,6 +3271,8 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + input[type=email],
 .ginput_container .input-group > select + input[type=email],
 .ginput_container .input-group > .form-control + input[type=tel],
+.ginput_container .form_saved_message .input-group > input[type=email] + input[type=tel],
+.form_saved_message .ginput_container .input-group > input[type=email] + input[type=tel],
 .ginput_container .input-group > textarea + input[type=tel],
 .ginput_container .input-group > input[type=text] + input[type=tel],
 .ginput_container .input-group > input[type=email] + input[type=tel],
@@ -3233,6 +3281,8 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + input[type=tel],
 .ginput_container .input-group > select + input[type=tel],
 .ginput_container .input-group > .form-control + input[type=url],
+.ginput_container .form_saved_message .input-group > input[type=email] + input[type=url],
+.form_saved_message .ginput_container .input-group > input[type=email] + input[type=url],
 .ginput_container .input-group > textarea + input[type=url],
 .ginput_container .input-group > input[type=text] + input[type=url],
 .ginput_container .input-group > input[type=email] + input[type=url],
@@ -3241,6 +3291,8 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + input[type=url],
 .ginput_container .input-group > select + input[type=url],
 .ginput_container .input-group > .form-control + input[type=number],
+.ginput_container .form_saved_message .input-group > input[type=email] + input[type=number],
+.form_saved_message .ginput_container .input-group > input[type=email] + input[type=number],
 .ginput_container .input-group > textarea + input[type=number],
 .ginput_container .input-group > input[type=text] + input[type=number],
 .ginput_container .input-group > input[type=email] + input[type=number],
@@ -3249,6 +3301,8 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + input[type=number],
 .ginput_container .input-group > select + input[type=number],
 .ginput_container .input-group > .form-control + select,
+.ginput_container .form_saved_message .input-group > input[type=email] + select,
+.form_saved_message .ginput_container .input-group > input[type=email] + select,
 .ginput_container .input-group > textarea + select,
 .ginput_container .input-group > input[type=text] + select,
 .ginput_container .input-group > input[type=email] + select,
@@ -3257,6 +3311,7 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + select,
 .ginput_container .input-group > select + select,
 .input-group > .form-control + .custom-select,
+.form_saved_message .input-group > input[type=email] + .custom-select,
 .ginput_container .input-group > textarea + .custom-select,
 .ginput_container .input-group > input[type=text] + .custom-select,
 .ginput_container .input-group > input[type=email] + .custom-select,
@@ -3265,6 +3320,7 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + .custom-select,
 .ginput_container .input-group > select + .custom-select,
 .input-group > .form-control + .custom-file,
+.form_saved_message .input-group > input[type=email] + .custom-file,
 .ginput_container .input-group > textarea + .custom-file,
 .ginput_container .input-group > input[type=text] + .custom-file,
 .ginput_container .input-group > input[type=email] + .custom-file,
@@ -3273,6 +3329,7 @@ textarea.form-control, .ginput_container textarea {
 .ginput_container .input-group > input[type=number] + .custom-file,
 .ginput_container .input-group > select + .custom-file,
 .input-group > .form-control-plaintext + .form-control,
+.form_saved_message .input-group > .form-control-plaintext + input[type=email],
 .ginput_container .input-group > .form-control-plaintext + textarea,
 .ginput_container .input-group > .form-control-plaintext + input[type=text],
 .ginput_container .input-group > .form-control-plaintext + input[type=email],
@@ -3283,6 +3340,7 @@ textarea.form-control, .ginput_container textarea {
 .input-group > .form-control-plaintext + .custom-select,
 .input-group > .form-control-plaintext + .custom-file,
 .input-group > .custom-select + .form-control,
+.form_saved_message .input-group > .custom-select + input[type=email],
 .ginput_container .input-group > .custom-select + textarea,
 .ginput_container .input-group > .custom-select + input[type=text],
 .ginput_container .input-group > .custom-select + input[type=email],
@@ -3293,6 +3351,7 @@ textarea.form-control, .ginput_container textarea {
 .input-group > .custom-select + .custom-select,
 .input-group > .custom-select + .custom-file,
 .input-group > .custom-file + .form-control,
+.form_saved_message .input-group > .custom-file + input[type=email],
 .ginput_container .input-group > .custom-file + textarea,
 .ginput_container .input-group > .custom-file + input[type=text],
 .ginput_container .input-group > .custom-file + input[type=email],
@@ -3304,7 +3363,7 @@ textarea.form-control, .ginput_container textarea {
 .input-group > .custom-file + .custom-file {
   margin-left: -1px;
 }
-.input-group > .form-control:focus, .ginput_container .input-group > textarea:focus, .ginput_container .input-group > input[type=text]:focus,
+.input-group > .form-control:focus, .form_saved_message .input-group > input[type=email]:focus, .ginput_container .input-group > textarea:focus, .ginput_container .input-group > input[type=text]:focus,
 .ginput_container .input-group > input[type=email]:focus,
 .ginput_container .input-group > input[type=tel]:focus,
 .ginput_container .input-group > input[type=url]:focus,
@@ -3317,7 +3376,7 @@ textarea.form-control, .ginput_container textarea {
 .input-group > .custom-file .custom-file-input:focus {
   z-index: 4;
 }
-.input-group > .form-control:not(:last-child), .ginput_container .input-group > textarea:not(:last-child), .ginput_container .input-group > input[type=text]:not(:last-child),
+.input-group > .form-control:not(:last-child), .form_saved_message .input-group > input[type=email]:not(:last-child), .ginput_container .input-group > textarea:not(:last-child), .ginput_container .input-group > input[type=text]:not(:last-child),
 .ginput_container .input-group > input[type=email]:not(:last-child),
 .ginput_container .input-group > input[type=tel]:not(:last-child),
 .ginput_container .input-group > input[type=url]:not(:last-child),
@@ -3327,7 +3386,7 @@ textarea.form-control, .ginput_container textarea {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.input-group > .form-control:not(:first-child), .ginput_container .input-group > textarea:not(:first-child), .ginput_container .input-group > input[type=text]:not(:first-child),
+.input-group > .form-control:not(:first-child), .form_saved_message .input-group > input[type=email]:not(:first-child), .ginput_container .input-group > textarea:not(:first-child), .ginput_container .input-group > input[type=text]:not(:first-child),
 .ginput_container .input-group > input[type=email]:not(:first-child),
 .ginput_container .input-group > input[type=tel]:not(:first-child),
 .ginput_container .input-group > input[type=url]:not(:first-child),
@@ -3354,7 +3413,7 @@ textarea.form-control, .ginput_container textarea {
 .input-group-append {
   display: flex;
 }
-.input-group-prepend .btn, .input-group-prepend .gform_footer input[type=submit], .gform_footer .input-group-prepend input[type=submit],
+.input-group-prepend .btn, .input-group-prepend .form_saved_message input[type=submit], .form_saved_message .input-group-prepend input[type=submit], .input-group-prepend .gform_footer input[type=submit], .gform_footer .input-group-prepend input[type=submit],
 .input-group-prepend .gform_footer input[type=button],
 .gform_footer .input-group-prepend input[type=button],
 .input-group-prepend .gform_page_footer input[type=submit],
@@ -3362,6 +3421,8 @@ textarea.form-control, .ginput_container textarea {
 .input-group-prepend .gform_page_footer input[type=button],
 .gform_page_footer .input-group-prepend input[type=button],
 .input-group-append .btn,
+.input-group-append .form_saved_message input[type=submit],
+.form_saved_message .input-group-append input[type=submit],
 .input-group-append .gform_footer input[type=submit],
 .gform_footer .input-group-append input[type=submit],
 .input-group-append .gform_footer input[type=button],
@@ -3373,7 +3434,7 @@ textarea.form-control, .ginput_container textarea {
   position: relative;
   z-index: 2;
 }
-.input-group-prepend .btn:focus, .input-group-prepend .gform_footer input[type=submit]:focus, .gform_footer .input-group-prepend input[type=submit]:focus,
+.input-group-prepend .btn:focus, .input-group-prepend .form_saved_message input[type=submit]:focus, .form_saved_message .input-group-prepend input[type=submit]:focus, .input-group-prepend .gform_footer input[type=submit]:focus, .gform_footer .input-group-prepend input[type=submit]:focus,
 .input-group-prepend .gform_footer input[type=button]:focus,
 .gform_footer .input-group-prepend input[type=button]:focus,
 .input-group-prepend .gform_page_footer input[type=submit]:focus,
@@ -3381,6 +3442,8 @@ textarea.form-control, .ginput_container textarea {
 .input-group-prepend .gform_page_footer input[type=button]:focus,
 .gform_page_footer .input-group-prepend input[type=button]:focus,
 .input-group-append .btn:focus,
+.input-group-append .form_saved_message input[type=submit]:focus,
+.form_saved_message .input-group-append input[type=submit]:focus,
 .input-group-append .gform_footer input[type=submit]:focus,
 .gform_footer .input-group-append input[type=submit]:focus,
 .input-group-append .gform_footer input[type=button]:focus,
@@ -3391,13 +3454,25 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-append input[type=button]:focus {
   z-index: 3;
 }
-.input-group-prepend .btn + .btn, .input-group-prepend .gform_footer input[type=submit] + .btn, .gform_footer .input-group-prepend input[type=submit] + .btn,
+.input-group-prepend .btn + .btn, .input-group-prepend .form_saved_message input[type=submit] + .btn, .form_saved_message .input-group-prepend input[type=submit] + .btn, .input-group-prepend .form_saved_message .btn + input[type=submit], .form_saved_message .input-group-prepend .btn + input[type=submit], .input-group-prepend .form_saved_message input[type=submit] + input[type=submit], .form_saved_message .input-group-prepend input[type=submit] + input[type=submit], .input-group-prepend .gform_footer input[type=submit] + .btn, .input-group-prepend .gform_footer .form_saved_message input[type=submit] + input[type=submit], .form_saved_message .input-group-prepend .gform_footer input[type=submit] + input[type=submit], .gform_footer .input-group-prepend input[type=submit] + .btn, .gform_footer .input-group-prepend .form_saved_message input[type=submit] + input[type=submit], .form_saved_message .gform_footer .input-group-prepend input[type=submit] + input[type=submit],
 .input-group-prepend .gform_footer input[type=button] + .btn,
+.input-group-prepend .gform_footer .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .input-group-prepend .gform_footer input[type=button] + input[type=submit],
 .gform_footer .input-group-prepend input[type=button] + .btn,
+.gform_footer .input-group-prepend .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .gform_footer .input-group-prepend input[type=button] + input[type=submit],
 .input-group-prepend .gform_page_footer input[type=submit] + .btn,
+.input-group-prepend .gform_page_footer .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-prepend .gform_page_footer input[type=submit] + input[type=submit],
 .gform_page_footer .input-group-prepend input[type=submit] + .btn,
+.gform_page_footer .input-group-prepend .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .gform_page_footer .input-group-prepend input[type=submit] + input[type=submit],
 .input-group-prepend .gform_page_footer input[type=button] + .btn,
-.gform_page_footer .input-group-prepend input[type=button] + .btn, .input-group-prepend .gform_footer .btn + input[type=submit], .gform_footer .input-group-prepend .btn + input[type=submit], .input-group-prepend .gform_footer input[type=submit] + input[type=submit], .gform_footer .input-group-prepend input[type=submit] + input[type=submit],
+.input-group-prepend .gform_page_footer .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .input-group-prepend .gform_page_footer input[type=button] + input[type=submit],
+.gform_page_footer .input-group-prepend input[type=button] + .btn,
+.gform_page_footer .input-group-prepend .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .gform_page_footer .input-group-prepend input[type=button] + input[type=submit], .input-group-prepend .gform_footer .btn + input[type=submit], .input-group-prepend .gform_footer .form_saved_message input[type=submit] + input[type=submit], .form_saved_message .input-group-prepend .gform_footer input[type=submit] + input[type=submit], .gform_footer .input-group-prepend .btn + input[type=submit], .gform_footer .input-group-prepend .form_saved_message input[type=submit] + input[type=submit], .form_saved_message .gform_footer .input-group-prepend input[type=submit] + input[type=submit], .input-group-prepend .gform_footer input[type=submit] + input[type=submit], .gform_footer .input-group-prepend input[type=submit] + input[type=submit],
 .input-group-prepend .gform_footer input[type=button] + input[type=submit],
 .gform_footer .input-group-prepend input[type=button] + input[type=submit],
 .input-group-prepend .gform_page_footer .gform_footer input[type=submit] + input[type=submit],
@@ -3409,7 +3484,11 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-prepend .gform_footer input[type=button] + input[type=submit],
 .gform_footer .gform_page_footer .input-group-prepend input[type=button] + input[type=submit],
 .input-group-prepend .gform_footer .btn + input[type=button],
+.input-group-prepend .gform_footer .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .input-group-prepend .gform_footer input[type=submit] + input[type=button],
 .gform_footer .input-group-prepend .btn + input[type=button],
+.gform_footer .input-group-prepend .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .gform_footer .input-group-prepend input[type=submit] + input[type=button],
 .input-group-prepend .gform_footer input[type=submit] + input[type=button],
 .gform_footer .input-group-prepend input[type=submit] + input[type=button],
 .input-group-prepend .gform_footer input[type=button] + input[type=button],
@@ -3423,7 +3502,11 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-prepend .gform_footer input[type=button] + input[type=button],
 .gform_footer .gform_page_footer .input-group-prepend input[type=button] + input[type=button],
 .input-group-prepend .gform_page_footer .btn + input[type=submit],
+.input-group-prepend .gform_page_footer .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-prepend .gform_page_footer input[type=submit] + input[type=submit],
 .gform_page_footer .input-group-prepend .btn + input[type=submit],
+.gform_page_footer .input-group-prepend .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .gform_page_footer .input-group-prepend input[type=submit] + input[type=submit],
 .input-group-prepend .gform_footer .gform_page_footer input[type=submit] + input[type=submit],
 .gform_page_footer .input-group-prepend .gform_footer input[type=submit] + input[type=submit],
 .gform_footer .input-group-prepend .gform_page_footer input[type=submit] + input[type=submit],
@@ -3437,7 +3520,11 @@ textarea.form-control, .ginput_container textarea {
 .input-group-prepend .gform_page_footer input[type=button] + input[type=submit],
 .gform_page_footer .input-group-prepend input[type=button] + input[type=submit],
 .input-group-prepend .gform_page_footer .btn + input[type=button],
+.input-group-prepend .gform_page_footer .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .input-group-prepend .gform_page_footer input[type=submit] + input[type=button],
 .gform_page_footer .input-group-prepend .btn + input[type=button],
+.gform_page_footer .input-group-prepend .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .gform_page_footer .input-group-prepend input[type=submit] + input[type=button],
 .input-group-prepend .gform_footer .gform_page_footer input[type=submit] + input[type=button],
 .gform_page_footer .input-group-prepend .gform_footer input[type=submit] + input[type=button],
 .gform_footer .input-group-prepend .gform_page_footer input[type=submit] + input[type=button],
@@ -3451,6 +3538,8 @@ textarea.form-control, .ginput_container textarea {
 .input-group-prepend .gform_page_footer input[type=button] + input[type=button],
 .gform_page_footer .input-group-prepend input[type=button] + input[type=button],
 .input-group-prepend .btn + .input-group-text,
+.input-group-prepend .form_saved_message input[type=submit] + .input-group-text,
+.form_saved_message .input-group-prepend input[type=submit] + .input-group-text,
 .input-group-prepend .gform_footer input[type=submit] + .input-group-text,
 .gform_footer .input-group-prepend input[type=submit] + .input-group-text,
 .input-group-prepend .gform_footer input[type=button] + .input-group-text,
@@ -3461,6 +3550,8 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-prepend input[type=button] + .input-group-text,
 .input-group-prepend .input-group-text + .input-group-text,
 .input-group-prepend .input-group-text + .btn,
+.input-group-prepend .form_saved_message .input-group-text + input[type=submit],
+.form_saved_message .input-group-prepend .input-group-text + input[type=submit],
 .input-group-prepend .gform_footer .input-group-text + input[type=submit],
 .gform_footer .input-group-prepend .input-group-text + input[type=submit],
 .input-group-prepend .gform_footer .input-group-text + input[type=button],
@@ -3470,16 +3561,42 @@ textarea.form-control, .ginput_container textarea {
 .input-group-prepend .gform_page_footer .input-group-text + input[type=button],
 .gform_page_footer .input-group-prepend .input-group-text + input[type=button],
 .input-group-append .btn + .btn,
+.input-group-append .form_saved_message input[type=submit] + .btn,
+.form_saved_message .input-group-append input[type=submit] + .btn,
+.input-group-append .form_saved_message .btn + input[type=submit],
+.form_saved_message .input-group-append .btn + input[type=submit],
+.input-group-append .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-append input[type=submit] + input[type=submit],
 .input-group-append .gform_footer input[type=submit] + .btn,
+.input-group-append .gform_footer .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-append .gform_footer input[type=submit] + input[type=submit],
 .gform_footer .input-group-append input[type=submit] + .btn,
+.gform_footer .input-group-append .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .gform_footer .input-group-append input[type=submit] + input[type=submit],
 .input-group-append .gform_footer input[type=button] + .btn,
+.input-group-append .gform_footer .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .input-group-append .gform_footer input[type=button] + input[type=submit],
 .gform_footer .input-group-append input[type=button] + .btn,
+.gform_footer .input-group-append .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .gform_footer .input-group-append input[type=button] + input[type=submit],
 .input-group-append .gform_page_footer input[type=submit] + .btn,
+.input-group-append .gform_page_footer .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-append .gform_page_footer input[type=submit] + input[type=submit],
 .gform_page_footer .input-group-append input[type=submit] + .btn,
+.gform_page_footer .input-group-append .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .gform_page_footer .input-group-append input[type=submit] + input[type=submit],
 .input-group-append .gform_page_footer input[type=button] + .btn,
+.input-group-append .gform_page_footer .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .input-group-append .gform_page_footer input[type=button] + input[type=submit],
 .gform_page_footer .input-group-append input[type=button] + .btn,
+.gform_page_footer .input-group-append .form_saved_message input[type=button] + input[type=submit],
+.form_saved_message .gform_page_footer .input-group-append input[type=button] + input[type=submit],
 .input-group-append .gform_footer .btn + input[type=submit],
+.input-group-append .gform_footer .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-append .gform_footer input[type=submit] + input[type=submit],
 .gform_footer .input-group-append .btn + input[type=submit],
+.gform_footer .input-group-append .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .gform_footer .input-group-append input[type=submit] + input[type=submit],
 .input-group-append .gform_footer input[type=submit] + input[type=submit],
 .gform_footer .input-group-append input[type=submit] + input[type=submit],
 .input-group-append .gform_footer input[type=button] + input[type=submit],
@@ -3493,7 +3610,11 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-append .gform_footer input[type=button] + input[type=submit],
 .gform_footer .gform_page_footer .input-group-append input[type=button] + input[type=submit],
 .input-group-append .gform_footer .btn + input[type=button],
+.input-group-append .gform_footer .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .input-group-append .gform_footer input[type=submit] + input[type=button],
 .gform_footer .input-group-append .btn + input[type=button],
+.gform_footer .input-group-append .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .gform_footer .input-group-append input[type=submit] + input[type=button],
 .input-group-append .gform_footer input[type=submit] + input[type=button],
 .gform_footer .input-group-append input[type=submit] + input[type=button],
 .input-group-append .gform_footer input[type=button] + input[type=button],
@@ -3507,7 +3628,11 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-append .gform_footer input[type=button] + input[type=button],
 .gform_footer .gform_page_footer .input-group-append input[type=button] + input[type=button],
 .input-group-append .gform_page_footer .btn + input[type=submit],
+.input-group-append .gform_page_footer .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .input-group-append .gform_page_footer input[type=submit] + input[type=submit],
 .gform_page_footer .input-group-append .btn + input[type=submit],
+.gform_page_footer .input-group-append .form_saved_message input[type=submit] + input[type=submit],
+.form_saved_message .gform_page_footer .input-group-append input[type=submit] + input[type=submit],
 .input-group-append .gform_footer .gform_page_footer input[type=submit] + input[type=submit],
 .gform_page_footer .input-group-append .gform_footer input[type=submit] + input[type=submit],
 .gform_footer .input-group-append .gform_page_footer input[type=submit] + input[type=submit],
@@ -3521,7 +3646,11 @@ textarea.form-control, .ginput_container textarea {
 .input-group-append .gform_page_footer input[type=button] + input[type=submit],
 .gform_page_footer .input-group-append input[type=button] + input[type=submit],
 .input-group-append .gform_page_footer .btn + input[type=button],
+.input-group-append .gform_page_footer .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .input-group-append .gform_page_footer input[type=submit] + input[type=button],
 .gform_page_footer .input-group-append .btn + input[type=button],
+.gform_page_footer .input-group-append .form_saved_message input[type=submit] + input[type=button],
+.form_saved_message .gform_page_footer .input-group-append input[type=submit] + input[type=button],
 .input-group-append .gform_footer .gform_page_footer input[type=submit] + input[type=button],
 .gform_page_footer .input-group-append .gform_footer input[type=submit] + input[type=button],
 .gform_footer .input-group-append .gform_page_footer input[type=submit] + input[type=button],
@@ -3535,6 +3664,8 @@ textarea.form-control, .ginput_container textarea {
 .input-group-append .gform_page_footer input[type=button] + input[type=button],
 .gform_page_footer .input-group-append input[type=button] + input[type=button],
 .input-group-append .btn + .input-group-text,
+.input-group-append .form_saved_message input[type=submit] + .input-group-text,
+.form_saved_message .input-group-append input[type=submit] + .input-group-text,
 .input-group-append .gform_footer input[type=submit] + .input-group-text,
 .gform_footer .input-group-append input[type=submit] + .input-group-text,
 .input-group-append .gform_footer input[type=button] + .input-group-text,
@@ -3545,6 +3676,8 @@ textarea.form-control, .ginput_container textarea {
 .gform_page_footer .input-group-append input[type=button] + .input-group-text,
 .input-group-append .input-group-text + .input-group-text,
 .input-group-append .input-group-text + .btn,
+.input-group-append .form_saved_message .input-group-text + input[type=submit],
+.form_saved_message .input-group-append .input-group-text + input[type=submit],
 .input-group-append .gform_footer .input-group-text + input[type=submit],
 .gform_footer .input-group-append .input-group-text + input[type=submit],
 .input-group-append .gform_footer .input-group-text + input[type=button],
@@ -3584,7 +3717,7 @@ textarea.form-control, .ginput_container textarea {
   margin-top: 0;
 }
 
-.input-group-lg > .form-control:not(textarea), .ginput_container .input-group-lg > textarea:not(textarea), .ginput_container .input-group-lg > input[type=text]:not(textarea),
+.input-group-lg > .form-control:not(textarea), .form_saved_message .input-group-lg > input[type=email]:not(textarea), .ginput_container .input-group-lg > textarea:not(textarea), .ginput_container .input-group-lg > input[type=text]:not(textarea),
 .ginput_container .input-group-lg > input[type=email]:not(textarea),
 .ginput_container .input-group-lg > input[type=tel]:not(textarea),
 .ginput_container .input-group-lg > input[type=url]:not(textarea),
@@ -3594,7 +3727,7 @@ textarea.form-control, .ginput_container textarea {
   height: calc(1.5em + 1rem + 2px);
 }
 
-.input-group-lg > .form-control, .ginput_container .input-group-lg > textarea, .ginput_container .input-group-lg > input[type=text],
+.input-group-lg > .form-control, .form_saved_message .input-group-lg > input[type=email], .ginput_container .input-group-lg > textarea, .ginput_container .input-group-lg > input[type=text],
 .ginput_container .input-group-lg > input[type=email],
 .ginput_container .input-group-lg > input[type=tel],
 .ginput_container .input-group-lg > input[type=url],
@@ -3604,11 +3737,13 @@ textarea.form-control, .ginput_container textarea {
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
+.form_saved_message .input-group-lg > .input-group-prepend > input[type=submit],
 .gform_footer .input-group-lg > .input-group-prepend > input[type=submit],
 .gform_footer .input-group-lg > .input-group-prepend > input[type=button],
 .gform_page_footer .input-group-lg > .input-group-prepend > input[type=submit],
 .gform_page_footer .input-group-lg > .input-group-prepend > input[type=button],
 .input-group-lg > .input-group-append > .btn,
+.form_saved_message .input-group-lg > .input-group-append > input[type=submit],
 .gform_footer .input-group-lg > .input-group-append > input[type=submit],
 .gform_footer .input-group-lg > .input-group-append > input[type=button],
 .gform_page_footer .input-group-lg > .input-group-append > input[type=submit],
@@ -3619,7 +3754,7 @@ textarea.form-control, .ginput_container textarea {
   border-radius: 0.3rem;
 }
 @media (max-width: 1200px) {
-  .input-group-lg > .form-control, .ginput_container .input-group-lg > textarea, .ginput_container .input-group-lg > input[type=text],
+  .input-group-lg > .form-control, .form_saved_message .input-group-lg > input[type=email], .ginput_container .input-group-lg > textarea, .ginput_container .input-group-lg > input[type=text],
 .ginput_container .input-group-lg > input[type=email],
 .ginput_container .input-group-lg > input[type=tel],
 .ginput_container .input-group-lg > input[type=url],
@@ -3629,11 +3764,13 @@ textarea.form-control, .ginput_container textarea {
 .input-group-lg > .input-group-prepend > .input-group-text,
 .input-group-lg > .input-group-append > .input-group-text,
 .input-group-lg > .input-group-prepend > .btn,
+.form_saved_message .input-group-lg > .input-group-prepend > input[type=submit],
 .gform_footer .input-group-lg > .input-group-prepend > input[type=submit],
 .gform_footer .input-group-lg > .input-group-prepend > input[type=button],
 .gform_page_footer .input-group-lg > .input-group-prepend > input[type=submit],
 .gform_page_footer .input-group-lg > .input-group-prepend > input[type=button],
 .input-group-lg > .input-group-append > .btn,
+.form_saved_message .input-group-lg > .input-group-append > input[type=submit],
 .gform_footer .input-group-lg > .input-group-append > input[type=submit],
 .gform_footer .input-group-lg > .input-group-append > input[type=button],
 .gform_page_footer .input-group-lg > .input-group-append > input[type=submit],
@@ -3642,7 +3779,7 @@ textarea.form-control, .ginput_container textarea {
   }
 }
 
-.input-group-sm > .form-control:not(textarea), .ginput_container .input-group-sm > textarea:not(textarea), .ginput_container .input-group-sm > input[type=text]:not(textarea),
+.input-group-sm > .form-control:not(textarea), .form_saved_message .input-group-sm > input[type=email]:not(textarea), .ginput_container .input-group-sm > textarea:not(textarea), .ginput_container .input-group-sm > input[type=text]:not(textarea),
 .ginput_container .input-group-sm > input[type=email]:not(textarea),
 .ginput_container .input-group-sm > input[type=tel]:not(textarea),
 .ginput_container .input-group-sm > input[type=url]:not(textarea),
@@ -3652,7 +3789,7 @@ textarea.form-control, .ginput_container textarea {
   height: calc(1.5em + 0.5rem + 2px);
 }
 
-.input-group-sm > .form-control, .ginput_container .input-group-sm > textarea, .ginput_container .input-group-sm > input[type=text],
+.input-group-sm > .form-control, .form_saved_message .input-group-sm > input[type=email], .ginput_container .input-group-sm > textarea, .ginput_container .input-group-sm > input[type=text],
 .ginput_container .input-group-sm > input[type=email],
 .ginput_container .input-group-sm > input[type=tel],
 .ginput_container .input-group-sm > input[type=url],
@@ -3662,11 +3799,13 @@ textarea.form-control, .ginput_container textarea {
 .input-group-sm > .input-group-prepend > .input-group-text,
 .input-group-sm > .input-group-append > .input-group-text,
 .input-group-sm > .input-group-prepend > .btn,
+.form_saved_message .input-group-sm > .input-group-prepend > input[type=submit],
 .gform_footer .input-group-sm > .input-group-prepend > input[type=submit],
 .gform_footer .input-group-sm > .input-group-prepend > input[type=button],
 .gform_page_footer .input-group-sm > .input-group-prepend > input[type=submit],
 .gform_page_footer .input-group-sm > .input-group-prepend > input[type=button],
 .input-group-sm > .input-group-append > .btn,
+.form_saved_message .input-group-sm > .input-group-append > input[type=submit],
 .gform_footer .input-group-sm > .input-group-append > input[type=submit],
 .gform_footer .input-group-sm > .input-group-append > input[type=button],
 .gform_page_footer .input-group-sm > .input-group-append > input[type=submit],
@@ -3682,18 +3821,20 @@ textarea.form-control, .ginput_container textarea {
   padding-right: 1.7rem;
 }
 
-.input-group > .input-group-prepend > .btn, .gform_footer .input-group > .input-group-prepend > input[type=submit],
+.input-group > .input-group-prepend > .btn, .form_saved_message .input-group > .input-group-prepend > input[type=submit], .gform_footer .input-group > .input-group-prepend > input[type=submit],
 .gform_footer .input-group > .input-group-prepend > input[type=button],
 .gform_page_footer .input-group > .input-group-prepend > input[type=submit],
 .gform_page_footer .input-group > .input-group-prepend > input[type=button],
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,
+.form_saved_message .input-group > .input-group-append:not(:last-child) > input[type=submit],
 .gform_footer .input-group > .input-group-append:not(:last-child) > input[type=submit],
 .gform_footer .input-group > .input-group-append:not(:last-child) > input[type=button],
 .gform_page_footer .input-group > .input-group-append:not(:last-child) > input[type=submit],
 .gform_page_footer .input-group > .input-group-append:not(:last-child) > input[type=button],
 .input-group > .input-group-append:not(:last-child) > .input-group-text,
 .input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.form_saved_message .input-group > .input-group-append:last-child > input[type=submit]:not(:last-child):not(.dropdown-toggle),
 .gform_footer .input-group > .input-group-append:last-child > input[type=submit]:not(:last-child):not(.dropdown-toggle),
 .gform_footer .input-group > .input-group-append:last-child > input[type=button]:not(:last-child):not(.dropdown-toggle),
 .gform_page_footer .input-group > .input-group-append:last-child > input[type=submit]:not(:last-child):not(.dropdown-toggle),
@@ -3703,18 +3844,20 @@ textarea.form-control, .ginput_container textarea {
   border-bottom-right-radius: 0;
 }
 
-.input-group > .input-group-append > .btn, .gform_footer .input-group > .input-group-append > input[type=submit],
+.input-group > .input-group-append > .btn, .form_saved_message .input-group > .input-group-append > input[type=submit], .gform_footer .input-group > .input-group-append > input[type=submit],
 .gform_footer .input-group > .input-group-append > input[type=button],
 .gform_page_footer .input-group > .input-group-append > input[type=submit],
 .gform_page_footer .input-group > .input-group-append > input[type=button],
 .input-group > .input-group-append > .input-group-text,
 .input-group > .input-group-prepend:not(:first-child) > .btn,
+.form_saved_message .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
 .gform_footer .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
 .gform_footer .input-group > .input-group-prepend:not(:first-child) > input[type=button],
 .gform_page_footer .input-group > .input-group-prepend:not(:first-child) > input[type=submit],
 .gform_page_footer .input-group > .input-group-prepend:not(:first-child) > input[type=button],
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text,
 .input-group > .input-group-prepend:first-child > .btn:not(:first-child),
+.form_saved_message .input-group > .input-group-prepend:first-child > input[type=submit]:not(:first-child),
 .gform_footer .input-group > .input-group-prepend:first-child > input[type=submit]:not(:first-child),
 .gform_footer .input-group > .input-group-prepend:first-child > input[type=button]:not(:first-child),
 .gform_page_footer .input-group > .input-group-prepend:first-child > input[type=submit]:not(:first-child),
@@ -8685,7 +8828,7 @@ h3 {
 /**
  * Project buttons
  */
-.btn, .gform_footer input[type=submit],
+.btn, .form_saved_message input[type=submit], .gform_footer input[type=submit],
 .gform_footer input[type=button],
 .gform_page_footer input[type=submit],
 .gform_page_footer input[type=button] {
@@ -8697,20 +8840,20 @@ h3 {
   line-height: 1.7;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.btn:hover, .gform_footer input[type=submit]:hover,
+.btn:hover, .form_saved_message input[type=submit]:hover, .gform_footer input[type=submit]:hover,
 .gform_footer input[type=button]:hover,
 .gform_page_footer input[type=submit]:hover,
-.gform_page_footer input[type=button]:hover, .btn:focus, .gform_footer input[type=submit]:focus,
+.gform_page_footer input[type=button]:hover, .btn:focus, .form_saved_message input[type=submit]:focus, .gform_footer input[type=submit]:focus,
 .gform_footer input[type=button]:focus,
 .gform_page_footer input[type=submit]:focus,
-.gform_page_footer input[type=button]:focus, .btn:active, .gform_footer input[type=submit]:active,
+.gform_page_footer input[type=button]:focus, .btn:active, .form_saved_message input[type=submit]:active, .gform_footer input[type=submit]:active,
 .gform_footer input[type=button]:active,
 .gform_page_footer input[type=submit]:active,
 .gform_page_footer input[type=button]:active {
   text-decoration: none;
 }
 
-.btn-primary, .gform_footer input[type=submit].gform_button, .gform_footer input[type=submit].gform_next_button,
+.btn-primary, .form_saved_message input[type=submit], .gform_footer input[type=submit].gform_button, .gform_footer input[type=submit].gform_next_button,
 .gform_footer input[type=button].gform_button,
 .gform_footer input[type=button].gform_next_button,
 .gform_page_footer input[type=submit].gform_button,
@@ -8721,7 +8864,7 @@ h3 {
   background-color: #2f881b;
   border-color: #2f881b;
 }
-.btn-primary:hover, .gform_footer input[type=submit].gform_button:hover, .gform_footer input[type=submit].gform_next_button:hover,
+.btn-primary:hover, .form_saved_message input[type=submit]:hover, .gform_footer input[type=submit].gform_button:hover, .gform_footer input[type=submit].gform_next_button:hover,
 .gform_footer input[type=button].gform_button:hover,
 .gform_footer input[type=button].gform_next_button:hover,
 .gform_page_footer input[type=submit].gform_button:hover,
@@ -8732,13 +8875,13 @@ h3 {
   background-color: #246815;
   border-color: #205d13;
 }
-.btn-primary:focus, .gform_footer input[type=submit].gform_button:focus, .gform_footer input[type=submit].gform_next_button:focus,
+.btn-primary:focus, .form_saved_message input[type=submit]:focus, .gform_footer input[type=submit].gform_button:focus, .gform_footer input[type=submit].gform_next_button:focus,
 .gform_footer input[type=button].gform_button:focus,
 .gform_footer input[type=button].gform_next_button:focus,
 .gform_page_footer input[type=submit].gform_button:focus,
 .gform_page_footer input[type=submit].gform_next_button:focus,
 .gform_page_footer input[type=button].gform_button:focus,
-.gform_page_footer input[type=button].gform_next_button:focus, .btn-primary.focus, .gform_footer input.focus[type=submit].gform_button, .gform_footer input.focus[type=submit].gform_next_button,
+.gform_page_footer input[type=button].gform_next_button:focus, .btn-primary.focus, .form_saved_message input.focus[type=submit], .gform_footer input.focus[type=submit].gform_button, .gform_footer input.focus[type=submit].gform_next_button,
 .gform_footer input.focus[type=button].gform_button,
 .gform_footer input.focus[type=button].gform_next_button,
 .gform_page_footer input.focus[type=submit].gform_button,
@@ -8750,13 +8893,13 @@ h3 {
   border-color: #205d13;
   box-shadow: 0 0 0 0.2rem rgba(78, 154, 61, 0.5);
 }
-.btn-primary.disabled, .gform_footer input.disabled[type=submit].gform_button, .gform_footer input.disabled[type=submit].gform_next_button,
+.btn-primary.disabled, .form_saved_message input.disabled[type=submit], .gform_footer input.disabled[type=submit].gform_button, .gform_footer input.disabled[type=submit].gform_next_button,
 .gform_footer input.disabled[type=button].gform_button,
 .gform_footer input.disabled[type=button].gform_next_button,
 .gform_page_footer input.disabled[type=submit].gform_button,
 .gform_page_footer input.disabled[type=submit].gform_next_button,
 .gform_page_footer input.disabled[type=button].gform_button,
-.gform_page_footer input.disabled[type=button].gform_next_button, .btn-primary:disabled, .gform_footer input[type=submit].gform_button:disabled, .gform_footer input[type=submit].gform_next_button:disabled,
+.gform_page_footer input.disabled[type=button].gform_next_button, .btn-primary:disabled, .form_saved_message input[type=submit]:disabled, .gform_footer input[type=submit].gform_button:disabled, .gform_footer input[type=submit].gform_next_button:disabled,
 .gform_footer input[type=button].gform_button:disabled,
 .gform_footer input[type=button].gform_next_button:disabled,
 .gform_page_footer input[type=submit].gform_button:disabled,
@@ -8767,19 +8910,19 @@ h3 {
   background-color: #2f881b;
   border-color: #2f881b;
 }
-.btn-primary:not(:disabled):not(.disabled):active, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled):active, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active, .form_saved_message input[type=submit]:not(:disabled):not(.disabled):active, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled):active, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled):active,
 .gform_footer input[type=button].gform_button:not(:disabled):not(.disabled):active,
 .gform_footer input[type=button].gform_next_button:not(:disabled):not(.disabled):active,
 .gform_page_footer input[type=submit].gform_button:not(:disabled):not(.disabled):active,
 .gform_page_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled):active,
 .gform_page_footer input[type=button].gform_button:not(:disabled):not(.disabled):active,
-.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled).active, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled).active,
+.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .form_saved_message input[type=submit]:not(:disabled):not(.disabled).active, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled).active, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled).active,
 .gform_footer input[type=button].gform_button:not(:disabled):not(.disabled).active,
 .gform_footer input[type=button].gform_next_button:not(:disabled):not(.disabled).active,
 .gform_page_footer input[type=submit].gform_button:not(:disabled):not(.disabled).active,
 .gform_page_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled).active,
 .gform_page_footer input[type=button].gform_button:not(:disabled):not(.disabled).active,
-.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .gform_footer .show > input.dropdown-toggle[type=submit].gform_button, .gform_footer .show > input.dropdown-toggle[type=submit].gform_next_button,
+.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle, .form_saved_message .show > input.dropdown-toggle[type=submit], .gform_footer .show > input.dropdown-toggle[type=submit].gform_button, .gform_footer .show > input.dropdown-toggle[type=submit].gform_next_button,
 .gform_footer .show > input.dropdown-toggle[type=button].gform_button,
 .gform_footer .show > input.dropdown-toggle[type=button].gform_next_button,
 .gform_page_footer .show > input.dropdown-toggle[type=submit].gform_button,
@@ -8790,19 +8933,19 @@ h3 {
   background-color: #205d13;
   border-color: #1d5310;
 }
-.btn-primary:not(:disabled):not(.disabled):active:focus, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled):active:focus, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled):active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus, .form_saved_message input[type=submit]:not(:disabled):not(.disabled):active:focus, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled):active:focus, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled):active:focus,
 .gform_footer input[type=button].gform_button:not(:disabled):not(.disabled):active:focus,
 .gform_footer input[type=button].gform_next_button:not(:disabled):not(.disabled):active:focus,
 .gform_page_footer input[type=submit].gform_button:not(:disabled):not(.disabled):active:focus,
 .gform_page_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled):active:focus,
 .gform_page_footer input[type=button].gform_button:not(:disabled):not(.disabled):active:focus,
-.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled).active:focus, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled).active:focus,
+.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .form_saved_message input[type=submit]:not(:disabled):not(.disabled).active:focus, .gform_footer input[type=submit].gform_button:not(:disabled):not(.disabled).active:focus, .gform_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled).active:focus,
 .gform_footer input[type=button].gform_button:not(:disabled):not(.disabled).active:focus,
 .gform_footer input[type=button].gform_next_button:not(:disabled):not(.disabled).active:focus,
 .gform_page_footer input[type=submit].gform_button:not(:disabled):not(.disabled).active:focus,
 .gform_page_footer input[type=submit].gform_next_button:not(:disabled):not(.disabled).active:focus,
 .gform_page_footer input[type=button].gform_button:not(:disabled):not(.disabled).active:focus,
-.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus, .gform_footer .show > input.dropdown-toggle[type=submit].gform_button:focus, .gform_footer .show > input.dropdown-toggle[type=submit].gform_next_button:focus,
+.gform_page_footer input[type=button].gform_next_button:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus, .form_saved_message .show > input.dropdown-toggle[type=submit]:focus, .gform_footer .show > input.dropdown-toggle[type=submit].gform_button:focus, .gform_footer .show > input.dropdown-toggle[type=submit].gform_next_button:focus,
 .gform_footer .show > input.dropdown-toggle[type=button].gform_button:focus,
 .gform_footer .show > input.dropdown-toggle[type=button].gform_next_button:focus,
 .gform_page_footer .show > input.dropdown-toggle[type=submit].gform_button:focus,
@@ -8842,34 +8985,28 @@ h3 {
   box-shadow: 0 0 0 0.2rem rgba(38, 64, 120, 0.5);
 }
 
-.btn-tertiary {
-  color: #fff;
-  background-color: #2f881b;
+.btn-primary-outline, .gform_footer input[type=submit].gform_previous_button,
+.gform_footer input[type=button].gform_previous_button,
+.gform_page_footer input[type=submit].gform_previous_button,
+.gform_page_footer input[type=button].gform_previous_button {
+  border-width: 2px;
+  border-style: solid;
   border-color: #2f881b;
+  background-color: transparent;
+  color: #2f881b;
 }
-.btn-tertiary:hover {
-  color: #fff;
-  background-color: #246815;
-  border-color: #205d13;
-}
-.btn-tertiary:focus, .btn-tertiary.focus {
-  color: #fff;
-  background-color: #246815;
-  border-color: #205d13;
-  box-shadow: 0 0 0 0.2rem rgba(78, 154, 61, 0.5);
-}
-.btn-tertiary.disabled, .btn-tertiary:disabled {
-  color: #fff;
+.btn-primary-outline:hover, .gform_footer input[type=submit].gform_previous_button:hover,
+.gform_footer input[type=button].gform_previous_button:hover,
+.gform_page_footer input[type=submit].gform_previous_button:hover,
+.gform_page_footer input[type=button].gform_previous_button:hover, .btn-primary-outline:focus, .gform_footer input[type=submit].gform_previous_button:focus,
+.gform_footer input[type=button].gform_previous_button:focus,
+.gform_page_footer input[type=submit].gform_previous_button:focus,
+.gform_page_footer input[type=button].gform_previous_button:focus, .btn-primary-outline:active, .gform_footer input[type=submit].gform_previous_button:active,
+.gform_footer input[type=button].gform_previous_button:active,
+.gform_page_footer input[type=submit].gform_previous_button:active,
+.gform_page_footer input[type=button].gform_previous_button:active {
   background-color: #2f881b;
-  border-color: #2f881b;
-}
-.btn-tertiary:not(:disabled):not(.disabled):active, .btn-tertiary:not(:disabled):not(.disabled).active, .show > .btn-tertiary.dropdown-toggle {
   color: #fff;
-  background-color: #205d13;
-  border-color: #1d5310;
-}
-.btn-tertiary:not(:disabled):not(.disabled):active:focus, .btn-tertiary:not(:disabled):not(.disabled).active:focus, .show > .btn-tertiary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(78, 154, 61, 0.5);
 }
 
 .btn-primary-outline, .gform_footer input[type=submit].gform_previous_button,
@@ -8896,30 +9033,6 @@ h3 {
   color: #fff;
 }
 
-.btn-primary-secondary {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #2f881b;
-  background-color: transparent;
-  color: #2f881b;
-}
-.btn-primary-secondary:hover, .btn-primary-secondary:focus, .btn-primary-secondary:active {
-  background-color: #2f881b;
-  color: #fff;
-}
-
-.btn-primary-tertiary {
-  border-width: 2px;
-  border-style: solid;
-  border-color: #2f881b;
-  background-color: transparent;
-  color: #2f881b;
-}
-.btn-primary-tertiary:hover, .btn-primary-tertiary:focus, .btn-primary-tertiary:active {
-  background-color: #2f881b;
-  color: #fff;
-}
-
 /* Datepicker styling */
 .ui-datepicker {
   display: none;
@@ -8932,6 +9045,10 @@ h3 {
 .ui-datepicker td {
   padding: 0.7rem;
 }
+.ui-datepicker td:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+}
 .ui-datepicker th {
   border-top: none;
 }
@@ -8941,9 +9058,6 @@ h3 {
 .ui-datepicker tr:first-child {
   background-color: white;
   font-weight: 400;
-}
-.ui-datepicker tr:first-child:hover {
-  background-color: #dee2e6;
 }
 .ui-datepicker-header {
   margin-bottom: 0.5rem;
@@ -8999,6 +9113,9 @@ h3 {
 }
 .gform_wrapper .gfield_visibility_ {
   display: none;
+}
+.gform_wrapper .gfield_error > label {
+  color: #d02536;
 }
 .gform_wrapper .gfield_error .validation_message {
   display: block;
@@ -9063,7 +9180,7 @@ h3 {
   padding-left: 0;
 }
 .ginput_container_radio label, .ginput_container_checkbox label {
-  padding-left: 1rem;
+  padding-left: 2.2rem;
   font-weight: 400;
 }
 .ginput_container_radio input[type=text], .ginput_container_checkbox input[type=text] {
@@ -9072,9 +9189,12 @@ h3 {
 .ginput_container_radio .gfield_checkbox li,
 .ginput_container_radio .gfield_radio li, .ginput_container_checkbox .gfield_checkbox li,
 .ginput_container_checkbox .gfield_radio li {
-  display: flex;
-  align-items: center;
   margin-bottom: 0.5rem;
+}
+.ginput_container_radio .gfield_checkbox li:last-child,
+.ginput_container_radio .gfield_radio li:last-child, .ginput_container_checkbox .gfield_checkbox li:last-child,
+.ginput_container_checkbox .gfield_radio li:last-child {
+  margin-bottom: 0;
 }
 .ginput_container_radio .gfield_checkbox li input[type=checkbox]:checked + label,
 .ginput_container_radio .gfield_checkbox li input[type=radio]:checked + label,
@@ -9084,6 +9204,96 @@ h3 {
 .ginput_container_checkbox .gfield_radio li input[type=checkbox]:checked + label,
 .ginput_container_checkbox .gfield_radio li input[type=radio]:checked + label {
   font-weight: 700;
+}
+.ginput_container_radio .gfield_checkbox li input[type=checkbox],
+.ginput_container_radio .gfield_radio li input[type=checkbox], .ginput_container_checkbox .gfield_checkbox li input[type=checkbox],
+.ginput_container_checkbox .gfield_radio li input[type=checkbox] {
+  position: relative;
+  -webkit-appearance: none;
+  display: block;
+}
+.ginput_container_radio .gfield_checkbox li input[type=checkbox]:focus,
+.ginput_container_radio .gfield_radio li input[type=checkbox]:focus, .ginput_container_checkbox .gfield_checkbox li input[type=checkbox]:focus,
+.ginput_container_checkbox .gfield_radio li input[type=checkbox]:focus {
+  outline: 0;
+}
+.ginput_container_radio .gfield_checkbox li input[type=checkbox]:focus + label,
+.ginput_container_radio .gfield_radio li input[type=checkbox]:focus + label, .ginput_container_checkbox .gfield_checkbox li input[type=checkbox]:focus + label,
+.ginput_container_checkbox .gfield_radio li input[type=checkbox]:focus + label {
+  font-weight: 700;
+}
+.ginput_container_radio .gfield_checkbox li input[type=checkbox]::before,
+.ginput_container_radio .gfield_radio li input[type=checkbox]::before, .ginput_container_checkbox .gfield_checkbox li input[type=checkbox]::before,
+.ginput_container_checkbox .gfield_radio li input[type=checkbox]::before {
+  content: "\F0C8";
+  /* stylelint-disable */
+  font-family: "Font Awesome 5 Pro";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  color: #949494;
+  font-weight: 300;
+}
+.ginput_container_radio .gfield_checkbox li input[type=checkbox]:checked::before,
+.ginput_container_radio .gfield_radio li input[type=checkbox]:checked::before, .ginput_container_checkbox .gfield_checkbox li input[type=checkbox]:checked::before,
+.ginput_container_checkbox .gfield_radio li input[type=checkbox]:checked::before {
+  content: "\F14A";
+  /* stylelint-disable */
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 700;
+  color: #2f881b;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ginput_container_radio .gfield_checkbox li input[type=checkbox],
+.ginput_container_radio .gfield_radio li input[type=checkbox], .ginput_container_checkbox .gfield_checkbox li input[type=checkbox],
+.ginput_container_checkbox .gfield_radio li input[type=checkbox] {
+    display: inline-block;
+  }
+}
+.ginput_container_radio .gfield_checkbox li input[type=radio],
+.ginput_container_radio .gfield_radio li input[type=radio], .ginput_container_checkbox .gfield_checkbox li input[type=radio],
+.ginput_container_checkbox .gfield_radio li input[type=radio] {
+  position: relative;
+  -webkit-appearance: none;
+  display: block;
+}
+.ginput_container_radio .gfield_checkbox li input[type=radio]:focus,
+.ginput_container_radio .gfield_radio li input[type=radio]:focus, .ginput_container_checkbox .gfield_checkbox li input[type=radio]:focus,
+.ginput_container_checkbox .gfield_radio li input[type=radio]:focus {
+  outline: 0;
+}
+.ginput_container_radio .gfield_checkbox li input[type=radio]:focus + label,
+.ginput_container_radio .gfield_radio li input[type=radio]:focus + label, .ginput_container_checkbox .gfield_checkbox li input[type=radio]:focus + label,
+.ginput_container_checkbox .gfield_radio li input[type=radio]:focus + label {
+  font-weight: 700;
+}
+.ginput_container_radio .gfield_checkbox li input[type=radio]::before,
+.ginput_container_radio .gfield_radio li input[type=radio]::before, .ginput_container_checkbox .gfield_checkbox li input[type=radio]::before,
+.ginput_container_checkbox .gfield_radio li input[type=radio]::before {
+  content: "\F111";
+  /* stylelint-disable */
+  font-family: "Font Awesome 5 Pro";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  color: #949494;
+  font-weight: 300;
+}
+.ginput_container_radio .gfield_checkbox li input[type=radio]:checked::before,
+.ginput_container_radio .gfield_radio li input[type=radio]:checked::before, .ginput_container_checkbox .gfield_checkbox li input[type=radio]:checked::before,
+.ginput_container_checkbox .gfield_radio li input[type=radio]:checked::before {
+  content: "\F192";
+  /* stylelint-disable */
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 700;
+  color: #2f881b;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .ginput_container_radio .gfield_checkbox li input[type=radio],
+.ginput_container_radio .gfield_radio li input[type=radio], .ginput_container_checkbox .gfield_checkbox li input[type=radio],
+.ginput_container_checkbox .gfield_radio li input[type=radio] {
+    display: inline-block;
+  }
 }
 .ginput_container_consent {
   display: flex;
@@ -9128,10 +9338,37 @@ h3 {
 
 .gform_footer,
 .gform_page_footer {
-  border-top: 1px solid #e9ecef;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid #dee2e6;
   padding: 1.5rem 1rem;
   text-align: right;
 }
+.gform_footer input[type=submit].gform_button, .gform_footer input[type=submit].gform_next_button,
+.gform_footer input[type=button].gform_button,
+.gform_footer input[type=button].gform_next_button,
+.gform_page_footer input[type=submit].gform_button,
+.gform_page_footer input[type=submit].gform_next_button,
+.gform_page_footer input[type=button].gform_button,
+.gform_page_footer input[type=button].gform_next_button {
+  order: 2;
+}
+.gform_footer input[type=submit].gform_previous_button,
+.gform_footer input[type=button].gform_previous_button,
+.gform_page_footer input[type=submit].gform_previous_button,
+.gform_page_footer input[type=button].gform_previous_button {
+  margin-right: 1rem;
+  order: 1;
+}
+.gform_footer .gform_save_link,
+.gform_page_footer .gform_save_link {
+  margin-right: auto;
+  order: 0;
+  line-height: 1.2;
+}
+
 .validation_error {
   position: relative;
   padding: 0.75rem 1.25rem;
@@ -9213,6 +9450,39 @@ h3 {
   font-size: 1.575rem;
 }
 
+.form_saved_message form {
+  display: flex;
+}
+.form_saved_message input[type=email] {
+  height: auto;
+  margin-right: 0.5rem;
+}
+@media (min-width: 768px) {
+  .form_saved_message input[type=email] {
+    width: calc(50% - 8px);
+  }
+}
+.form_saved_message .resume_form_link_wrapper {
+  word-break: break-all;
+}
+
+.gfield_html_formatted {
+  padding: 1rem;
+  background-color: rgba(47, 136, 27, 0.08);
+}
+@media (min-width: 768px) {
+  .gfield_html_formatted {
+    padding: 2rem;
+  }
+}
+.gfield_html_formatted h2 {
+  font-size: 1.35rem;
+  margin-top: 1.5rem;
+}
+.gfield_html_formatted h3 {
+  font-size: 1.2375rem;
+  margin-top: 1rem;
+}
 .gfield_html_formatted ul {
   margin-bottom: 1rem;
   margin-left: 2rem;
@@ -9261,54 +9531,53 @@ body .gform_wrapper .gform_body ul.gform_fields li.gfield.gform_validation_conta
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1;
-  margin: 0 0 0.5rem 0.5rem;
-  opacity: 0.6;
 }
 .gf_progressbar_wrapper .gf_progressbar {
   position: relative;
   width: 100%;
-  padding: 0.5rem;
-  background-color: #f8f9fa;
-  border-radius: 25px;
+  padding: 0px;
+  background-color: transparent;
+  border-radius: 5px;
   box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 .gf_progressbar_wrapper .gf_progressbar::after {
   position: absolute;
-  margin: 0.5rem;
-  height: 24px;
+  margin: 0px;
+  height: 38px;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 25px;
-  background-color: #e9ecef;
+  border-radius: 5px;
+  background-color: rgba(175, 204, 255, 0.12);
   content: "";
 }
 .gf_progressbar_wrapper .gf_progressbar_percentage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   position: relative;
-  height: 24px;
+  height: 38px;
   text-align: right;
   font-size: 1.0125rem;
   color: #fff;
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
-  z-index: 999;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   vertical-align: middle;
-  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 10px, rgba(0, 0, 0, 0.1) 10px, rgba(0, 0, 0, 0.1) 20px), linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background: repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 15px, rgba(0, 0, 0, 0.1) 15px, rgba(0, 0, 0, 0.1) 30px), linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.4));
 }
 .gf_progressbar_wrapper .gf_progressbar_percentage.percentbar_blue {
-  background-color: #2f881b;
+  background-color: #6495ed;
 }
 .gf_progressbar_wrapper .gf_progressbar_percentage.percentbar_100 {
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .gf_progressbar_wrapper .gf_progressbar_percentage span {
   display: block;
   width: auto;
-  float: right;
   margin-right: 0.2rem;
   margin-left: 0.5rem;
 }
@@ -9325,6 +9594,20 @@ body .gform_wrapper .gform_body ul.gform_fields li.gfield.gform_validation_conta
     max-width: 260px;
     max-height: calc(100px - 1.5 * 1rem);
   }
+}
+
+/*--------------------------------------------------------------
+  Elements
+--------------------------------------------------------------*/
+.page-content a {
+  border-bottom: 2px solid rgba(6, 57, 169, 0.3);
+  padding-bottom: 1px;
+  transition: all 0.05s ease-out;
+}
+.page-content a:hover, .page-content a:focus, .page-content a:active {
+  border-bottom: 2px solid rgba(6, 57, 169, 0.7);
+  text-decoration: none;
+  color: #0639a9;
 }
 
 /*--------------------------------------------------------------

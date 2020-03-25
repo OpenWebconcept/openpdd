@@ -47,6 +47,10 @@
         @extend .is-invalid;
       }
 
+      > label {
+        color: $danger;
+      }
+
       .validation_message {
         @extend .invalid-feedback;
         display: block;
@@ -121,7 +125,7 @@
     height: $spacer * 2.9;
   }
 
-  // Checkboxes and radio
+  // Checkboxes and radio's
   &_radio,
   &_checkbox {
     @extend .form-check;
@@ -129,24 +133,36 @@
 
     label {
       @extend .form-check-label;
-      padding-left: $spacer * 1;
+      padding-left: $spacer * 2.2;
       font-weight: $font-weight-normal;
     }
 
     input[type="text"] {
-      margin-left: $spacer * 1.3;
+      margin-left: $spacer * 1.3; // For the "other" option
     }
 
     .gfield_checkbox,
     .gfield_radio {
       li {
-        display: flex;
-        align-items: center;
         margin-bottom: $spacer * 0.5;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
 
         input[type="checkbox"]:checked + label,
         input[type="radio"]:checked + label {
           font-weight: $font-weight-bold;
+        }
+
+        // Custom checkbox
+        input[type="checkbox"] {
+          @include custom-input-icon("\f0c8", "\f14a");
+        }
+
+        // Custom radiobutton
+        input[type="radio"] {
+          @include custom-input-icon("\f111", "\f192");
         }
       }
     }
@@ -162,7 +178,6 @@
     }
   }
 
-  // Dates
   &_date {
     .ginput_container_date {
       display: inline-block;
@@ -211,7 +226,11 @@
 
 .gform_footer,
 .gform_page_footer {
-  border-top: 1px solid gray("200");
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid gray("300");
   padding: $spacer * 1.5 $spacer;
   text-align: right;
 
@@ -222,17 +241,26 @@
     &.gform_button,
     &.gform_next_button {
       @extend .btn-primary;
+      order: 2;
     }
 
     &.gform_previous_button {
       @extend .btn-primary-outline;
+      margin-right: $spacer;
+      order: 1;
     }
+  }
+
+  .gform_save_link {
+    margin-right: auto;
+    order: 0;
+    line-height: 1.2;
   }
 }
 
 .validation_error {
   position: relative;
-  padding: #{$spacer * 0.75} #{$spacer * 1.25};
+  padding: $spacer * 0.75 $spacer * 1.25;
   border: 1px solid $danger;
   margin-bottom: $spacer;
   border-radius: 0;
@@ -320,14 +348,54 @@
   }
 }
 
-.gform {
-  &_confirmation_message {
-    @extend .alert;
-    @extend .alert-success;
+.form_saved_message {
+  form {
+    display: flex;
+  }
+
+  input[type="email"] {
+    @extend .form-control;
+    height: auto;
+    margin-right: $spacer * 0.5;
+
+    @include media-breakpoint-up(md) {
+      width: calc(50% - 8px);
+    }
+  }
+
+  input[type="submit"] {
+    @extend .btn;
+    @extend .btn-primary;
+  }
+
+  .resume_form_link_wrapper {
+    word-break: break-all;
   }
 }
 
+.gform_confirmation_message {
+  @extend .alert;
+  @extend .alert-success;
+}
+
 .gfield_html_formatted {
+  padding: $spacer;
+  background-color: rgba(theme-color("primary"), 0.08);
+
+  @include media-breakpoint-up(md) {
+    padding: $spacer * 2;
+  }
+
+  h2 {
+    font-size: $font-size-base * 1.2;
+    margin-top: $spacer * 1.5;
+  }
+
+  h3 {
+    font-size: $font-size-base * 1.1;
+    margin-top: $spacer;
+  }
+
   ul {
     margin-bottom: $spacer;
     margin-left: $spacer * 2;

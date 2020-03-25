@@ -2,11 +2,12 @@
   a {
     border-bottom: 2px solid rgba($link-color, 0.3);
     padding-bottom: 1px;
-    transition: all 0.2s ease-out;
+    transition: all 0.05s ease-out;
 
     @include hover-focus-active {
-      border-bottom: 2px solid rgba($link-color, 0.6);
+      border-bottom: 2px solid rgba($link-color, 0.7);
       text-decoration: none;
+      color: $link-color;
     }
   }
 }

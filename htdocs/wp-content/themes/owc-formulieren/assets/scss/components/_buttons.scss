@@ -13,18 +13,10 @@
   @include button-variant(theme-color("secondary"), theme-color("secondary"));
 }
 
-.btn-tertiary {
-  @include button-variant(theme-color("tertiary"), theme-color("tertiary"));
-}
-
 .btn-primary-outline {
   @include button-variant-outline(theme-color("primary"));
 }
 
-.btn-primary-secondary {
-  @include button-variant-outline(theme-color("primary"));
-}
-
-.btn-primary-tertiary {
+.btn-primary-outline {
   @include button-variant-outline(theme-color("primary"));
 }

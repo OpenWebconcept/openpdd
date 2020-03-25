@@ -41,3 +41,49 @@
   /* stylelint-disable */
   font-family: "Font Awesome 5 Pro";
 }
+
+/**
+* IE10+
+*/
+@mixin internet-explorer() {
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    @content;
+  }
+}
+
+/**
+* Used for custom checkbox and radiobutton
+*/
+@mixin custom-input-icon($unchecked, $checked) {
+  position: relative;
+  -webkit-appearance: none;
+  display: block;
+
+  &:focus {
+    outline: 0;
+    & + label {
+      font-weight: $font-weight-bold;
+    }
+  }
+
+  &::before {
+    @include fontawesome($unchecked);
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    color: $g-color;
+    font-weight: $font-weight-light;
+  }
+
+  &:checked {
+    &::before {
+      @include fontawesome($checked);
+      font-weight: $font-weight-bold;
+      color: $g-color-checked;
+    }
+  }
+
+  @include internet-explorer() {
+    display: inline-block;
+  }
+}

@@ -1,21 +1,30 @@
-$wp-admin-bar: 32px;
-
 /* --------------------------------------------------------------
 Navigation
 -------------------------------------------------------------- */
 $navbar-height: 100px;
 $navbar-height-desktop: 100px;
 $navbar-background: #fff;
-
-$full-nav-height: $navbar-height;
-$full-nav-height-desktop: $navbar-height-desktop;
 $navbar-shadow: $box-shadow;
 
 /* --------------------------------------------------------------
-  Widths for wide classes for example wide-100,wide-80
+  Btn outline 
 -------------------------------------------------------------- */
-$wide-widths: (50, 60, 70, 80, 90, 100);
-
 $btn-outline-border-width: 2px;
 $btn-outline-border-style: solid;
 $btn-outline-border-background: transparent;
+
+/* --------------------------------------------------------------
+  Progress bar
+-------------------------------------------------------------- */
+$inner-bar-height: 38px;
+$bar-border-radius: 5px;
+$bar-padding: 0px;
+$bar-padding-color: transparent;
+$bar-color: #6495ed;
+$bar-background-color: rgba(175, 204, 255, 0.12);
+
+/* --------------------------------------------------------------
+  Checkbox & radiobuttons
+-------------------------------------------------------------- */
+$g-color: gray("graphic");
+$g-color-checked: theme-color("primary");
