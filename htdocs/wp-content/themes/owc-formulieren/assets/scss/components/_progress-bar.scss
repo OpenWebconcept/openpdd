@@ -4,6 +4,7 @@
   margin-bottom: $spacer * 2;
 
   .gf_progressbar_title {
+    display: none;
     font-size: $font-size-base * 0.8;
     font-weight: $font-weight-normal;
     line-height: 1;
