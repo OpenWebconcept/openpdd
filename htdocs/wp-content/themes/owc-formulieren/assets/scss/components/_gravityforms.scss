@@ -19,69 +19,88 @@
     font-size: $font-size-base;
     font-weight: $font-weight-bold;
   }
-
-  .gfield_required {
-    padding-left: 1px;
-    color: $red;
-  }
-
   .hidden_sub_label,
   .screen-reader-text {
     display: none;
   }
+}
 
-  .gfield_description {
-    font-size: $spacer;
+.gfield {
+  margin-bottom: $spacer * 2;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
   }
 
-  .gfield {
-    margin-bottom: $spacer * 2;
+  &_visibility_ {
+    display: none;
+  }
 
-    &_visibility_ {
-      display: none;
+  &_error {
+    textarea,
+    input {
+      @extend .is-invalid;
     }
 
-    &_error {
-      textarea,
-      input {
-        @extend .is-invalid;
-      }
-
-      > label {
-        color: $danger;
-      }
-
-      .validation_message {
-        @extend .invalid-feedback;
-        display: block;
-        margin-top: 0;
-      }
+    > label {
+      color: $danger;
     }
 
-    &_list_container {
-      thead {
-        th {
-          padding-left: $spacer * 1.5;
-        }
-      }
-    }
+    .validation_message {
+      @extend .invalid-feedback;
+      display: block;
+      margin-top: 0;
 
-    &_description {
-      padding: $spacer / 2 0;
-    }
-
-    &_list_icons {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    &_price {
-      input[type="number"] {
-        width: 115px;
+      @include media-breakpoint-up(md) {
+        width: 51%;
       }
     }
   }
+
+  &_list_container {
+    thead {
+      th {
+        padding-left: $spacer * 1.5;
+      }
+    }
+  }
+
+  &_list_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_price {
+    input[type="number"] {
+      width: 115px;
+    }
+  }
+}
+
+.gfield_label {
+  padding-right: $spacer;
+
+  @include media-breakpoint-up(md) {
+    flex: 1 0 50%;
+  }
+}
+
+.gfield_description {
+  font-size: $spacer;
+  padding: $spacer / 2 0;
+
+  @include media-breakpoint-up(md) {
+    padding-left: $spacer * 0.7;
+    width: 51%;
+  }
+}
+
+.gfield_required {
+  padding-left: 1px;
+  color: $red;
 }
 
 /* Heading */
@@ -98,6 +117,10 @@
 }
 
 .ginput_container {
+  @include media-breakpoint-up(md) {
+    flex: 1 0 50%;
+  }
+
   input[type="text"],
   input[type="email"],
   input[type="tel"],
@@ -106,14 +129,12 @@
   select {
     @extend .form-control;
     height: auto;
-
-    @include media-breakpoint-up(md) {
-      width: calc(50% - 8px);
-    }
+    width: 100%;
   }
 
   textarea {
     @extend .form-control;
+    width: 100%;
     height: 120px;
 
     @include media-breakpoint-up(md) {
@@ -138,7 +159,7 @@
     }
 
     input[type="text"] {
-      margin-left: $spacer * 1.3; // For the "other" option
+      margin-left: $spacer * 2; // For the "other" option
     }
 
     .gfield_checkbox,
@@ -224,6 +245,13 @@
   }
 }
 
+.ginput_container_bag_address {
+  .bag-search-button {
+    @extend .btn;
+    @extend .btn-primary;
+  }
+}
+
 .gform_footer,
 .gform_page_footer {
   display: flex;
@@ -278,6 +306,8 @@
     padding-top: $spacer * 0.625;
     padding-bottom: $spacer * 0.625;
     margin-bottom: 0;
+    font-weight: $font-weight-normal;
+    font-size: $spacer;
   }
 
   .ginput {
@@ -300,11 +330,6 @@
       flex-direction: row;
     }
 
-    label {
-      font-weight: $font-weight-normal;
-      font-size: $spacer;
-    }
-
     span,
     input {
       width: 100%;
@@ -323,11 +348,6 @@
       flex-direction: row;
     }
 
-    label {
-      font-weight: $font-weight-normal;
-      font-size: $spacer;
-    }
-
     span,
     input {
       width: 100%;
@@ -342,6 +362,7 @@
 .gsection {
   margin-bottom: $spacer 0;
   border-bottom: 1px solid gray("300");
+  justify-content: flex-start;
 
   .gsection_title {
     font-size: $font-size-base * 1.4;
@@ -379,6 +400,7 @@
 }
 
 .gfield_html_formatted {
+  display: block;
   padding: $spacer;
   background-color: rgba(theme-color("primary"), 0.08);
 
