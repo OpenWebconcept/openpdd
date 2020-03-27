@@ -43,3 +43,17 @@ unset($file, $filepath);
 // GravityForms
 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
 add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
+
+/**
+ * Change the validation error message of the Gravity Forms Real Time Validation Plugin
+ */
+add_filter('lv_default_error_messages', function ($default_messages) {
+    $translation = 'Dit veld is verplicht.';
+    $new_messages = [];
+
+    foreach ($default_messages as $key => $value) {
+        $new_messages[$key] = $translation;
+    };
+
+    return $new_messages;
+});

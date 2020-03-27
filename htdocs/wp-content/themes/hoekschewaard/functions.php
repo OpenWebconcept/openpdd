@@ -63,3 +63,17 @@ add_filter('get_custom_logo', function () {
     // Return
     return $html;
 });
+
+/**
+ * Change the validation error message of the Gravity Forms Real Time Validation Plugin
+ */
+add_filter('lv_default_error_messages', function ($default_messages) {
+    $translation = 'Dit veld is verplicht.';
+    $new_messages = [];
+
+    foreach ($default_messages as $key => $value) {
+        $new_messages[$key] = $translation;
+    };
+
+    return $new_messages;
+});
