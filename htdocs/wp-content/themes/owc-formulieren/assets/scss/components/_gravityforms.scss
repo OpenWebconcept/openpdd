@@ -246,9 +246,67 @@
 }
 
 .ginput_container_bag_address {
+  display: flex;
+  flex-wrap: wrap;
+
+  span {
+    width: 100%;
+  }
+
+  // Zip
+  span:nth-child(1) {
+    flex-basis: 100%;
+
+    @include media-breakpoint-up(sm) {
+      flex-basis: 50%;
+    }
+  }
+
+  // Number & addition
+  span:nth-child(2),
+  span:nth-child(3) {
+    flex-basis: 50%;
+    overflow: hidden;
+
+    @include media-breakpoint-up(sm) {
+      flex-basis: 25%;
+      padding-left: $spacer * 0.8;
+    }
+  }
+
+  // Addition only
+  span:nth-child(3) {
+    padding-left: $spacer;
+  }
+
+  // Search button wrapper
+  span:nth-child(4) {
+    flex-basis: 100%;
+    margin-bottom: $spacer;
+    position: relative;
+
+    &::before {
+      @include fontawesome("\f002");
+      position: absolute;
+      top: 12px;
+      left: 20px;
+      z-index: 1;
+      color: $white;
+    }
+  }
+
   .bag-search-button {
     @extend .btn;
     @extend .btn-primary;
+    position: relative;
+    padding-left: $spacer * 3;
+  }
+
+  .result {
+    color: $danger;
+    font-size: $spacer;
+    margin-bottom: $spacer * 1.5;
+    height: auto !important;
   }
 }
 
