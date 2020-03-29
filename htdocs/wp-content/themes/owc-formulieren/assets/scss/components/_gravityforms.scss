@@ -449,6 +449,16 @@
   .gsection_title {
     font-size: $font-size-base * 1.4;
   }
+
+  ul {
+    margin-bottom: $spacer;
+    margin-left: $spacer * 2;
+    list-style: disc;
+
+    li {
+      margin-bottom: $spacer * 0.5;
+    }
+  }
 }
 
 .form_saved_message {
