@@ -365,20 +365,19 @@
     &.gform_next_button {
       @extend .btn-primary;
       order: 2;
-
-      @media screen and (max-width: 420px) {
-        margin-top: $spacer;
-      }
+      margin-top: $spacer;
     }
 
     &.gform_previous_button {
       @extend .btn-primary-outline;
       margin-right: $spacer;
+      margin-top: $spacer;
       order: 1;
     }
   }
 
   .gform_save_link {
+    margin-top: $spacer;
     margin-right: auto;
     order: 0;
     line-height: 1.2;
