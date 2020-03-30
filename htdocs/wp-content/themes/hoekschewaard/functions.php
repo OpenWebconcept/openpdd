@@ -7,7 +7,7 @@ add_action('wp_enqueue_scripts', function () {
 
 add_action('after_switch_theme', function () {
     $stylesheet = get_option('template');
-    if (basename($stylesheet) !== 'templates') {
+    if ('templates' !== basename($stylesheet)) {
         update_option('template', $stylesheet . '/templates');
     }
 });
@@ -15,6 +15,7 @@ add_action('after_switch_theme', function () {
 // Bootstrap application
 $includes = [
     'src/setup.php',
+    'src/gf-forms-extend.php',
 ];
 
 foreach ($includes as $file) {
@@ -41,10 +42,10 @@ add_filter('get_custom_logo', function () {
 
     if ($custom_logo_id) {
         // Attr
-        $custom_logo_attr = array(
+        $custom_logo_attr = [
             'class'    => 'custom-logo',
             'itemprop' => 'logo',
-        );
+        ];
 
         // Image alt
         $image_alt = get_post_meta($custom_logo_id, '_wp_attachment_image_alt', true);
