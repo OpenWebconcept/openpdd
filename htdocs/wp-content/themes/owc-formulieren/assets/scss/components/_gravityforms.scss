@@ -529,9 +529,8 @@
     flex-basis: 50%;
   }
 }
-/**
-* Honey pot
-*/
+
+// Honey pot
 .gform_validation_container,
 .gform_wrapper .gform_validation_container,
 body .gform_wrapper li.gform_validation_container,
@@ -544,4 +543,38 @@ body
   position: absolute !important;
   left: -9000px;
   display: none !important;
+}
+
+// Submission overview (all_fields)
+.gform_page_fields {
+
+  .gfield_html_formatted {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  table:first-child {
+    background-color: gray('ghost');
+  }
+
+  table tbody table tr {
+    background-color: $pagination-bg;
+
+    td {
+      font-weight: bold;
+    }
+
+    &:nth-child(even) {
+      background-color: $white;
+
+      td {
+        font-weight: normal;
+      }
+    }
+  }
+
+  font {
+    font-family: $font-family-base !important;
+    font-size: 1rem !important;
+  }
 }
