@@ -16,9 +16,9 @@
   }
 
   label {
-    font-size: $font-size-base;
     font-weight: $font-weight-bold;
   }
+
   .hidden_sub_label,
   .screen-reader-text {
     display: none;
@@ -167,7 +167,8 @@
 
   // Checkboxes and radio's
   &_radio,
-  &_checkbox {
+  &_checkbox,
+  &_consent {
     @extend .form-check;
     padding-left: 0;
 
@@ -175,6 +176,11 @@
       @extend .form-check-label;
       padding-left: $spacer * 2.2;
       font-weight: $font-weight-normal;
+
+      @supports (-webkit-touch-callout: none) {
+        /* CSS specific to iOS devices */
+        padding-left: $spacer * 1.4;
+      }
     }
 
     input[type="text"] {
@@ -184,6 +190,8 @@
     .gfield_checkbox,
     .gfield_radio {
       li {
+        display: flex;
+        align-items: flex-start;
         margin-bottom: $spacer * 0.5;
 
         &:last-child {
@@ -210,11 +218,17 @@
 
   &_consent {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 
-    label {
-      padding-left: $spacer * 1.3;
-      margin-bottom: 0;
+    // Custom checkbox
+    input[type="checkbox"] {
+      @include custom-input-icon("\f0c8", "\f14a");
+
+      &:focus {
+        & + label {
+          font-weight: $font-weight-normal;
+        }
+      }
     }
   }
 
@@ -351,6 +365,10 @@
     &.gform_next_button {
       @extend .btn-primary;
       order: 2;
+
+      @media screen and (max-width: 420px) {
+        margin-top: $spacer;
+      }
     }
 
     &.gform_previous_button {
@@ -445,10 +463,6 @@
   margin-bottom: $spacer 0;
   border-bottom: 1px solid gray("300");
   justify-content: flex-start;
-
-  .gsection_title {
-    font-size: $font-size-base * 1.4;
-  }
 
   ul {
     margin-bottom: $spacer;

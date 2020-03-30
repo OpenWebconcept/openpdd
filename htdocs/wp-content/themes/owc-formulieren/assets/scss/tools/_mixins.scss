@@ -6,7 +6,6 @@
   border-width: $btn-border-width;
   border-radius: $btn-border-radius;
   font-family: $btn-font-family;
-  font-size: $btn-font-size;
   font-weight: $btn-font-weight;
   line-height: $btn-line-height;
   transition: $btn-transition;
@@ -56,8 +55,9 @@
 */
 @mixin custom-input-icon($unchecked, $checked) {
   position: relative;
-  -webkit-appearance: none;
-  display: block;
+  appearance: none;
+  border: 0;
+  display: inline;
 
   &:focus {
     outline: 0;
