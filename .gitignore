@@ -12,6 +12,7 @@ htdocs/wp-content/themes/**/node_modules/
 htdocs/wp-content/themes/**/vendor/
 !htdocs/wp-content/themes/owc-formulieren/assets/scss/vendor/
 htdocs/wp-content/uploads/
+storage/cert
 vendor/*
 .project
 project.cfg
