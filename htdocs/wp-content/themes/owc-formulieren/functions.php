@@ -65,3 +65,80 @@ add_filter('gform_incomplete_submissions_expiration_days', function ($expiration
     $expiration_days = 7;
     return $expiration_days;
 });
+
+add_action('init', function () {
+    if (null === get_role('superuser')) {
+        add_role('superuser', 'Super-User', [
+            /*
+             * Default Capabilities
+             */
+            'edit_dashboard'            => true,
+            'edit_files'                => true,
+            'export'                    => false,
+            'import'                    => false,
+            'manage_links'              => false,
+            'manage_options'            => false,
+            'moderate_comments'         => true,
+            'read'                      => true,
+            'unfiltered_html'           => true,
+            'update_core'               => false,
+            'upload_files'              => true,
+            'edit_posts'                => true,
+            'edit_others_posts'         => true,
+            'publish_posts'             => true,
+            'read_private_posts'        => true,
+            'delete_posts'              => true,
+            'delete_private_posts'      => true,
+            'delete_published_posts'    => true,
+            'delete_others_posts'       => true,
+            'edit_private_posts'        => true,
+            'edit_published_posts'      => true,
+            'edit_pages'                => true,
+            'edit_others_pages'         => true,
+            'publish_pages'             => true,
+            'read_private_pages'        => true,
+            'delete_pages'              => true,
+            'delete_private_pages'      => true,
+            'delete_published_pages'    => true,
+            'delete_others_pages'       => true,
+            'edit_private_pages'        => true,
+            'edit_published_pages'      => true,
+            'manage_categories'         => true,
+            'delete_themes'             => false,
+            'edit_theme_options'        => true,
+            'edit_themes'               => false,
+            'install_themes'            => false,
+            'switch_themes'             => false,
+            'update_themes'             => false,
+            'activate_plugins'          => false,
+            'delete_plugins'            => false,
+            'edit_plugins'              => false,
+            'install_plugins'           => false,
+            'update_plugins'            => false,
+            'create_users'              => true,
+            'delete_users'              => true,
+            'edit_users'                => true,
+            'list_users'                => true,
+            'promote_users'             => true,
+            'remove_users'              => true,
+
+            /*
+             * Custom Capabilities
+             */
+            'gravityforms_create_forms'         => true,
+            'gravityforms_delete_forms'         => true,
+            'gravityforms_edit_forms'           => true,
+            'gravityforms_preview_forms'        => true,
+            'gravityforms_view_entries'         => true,
+            'gravityforms_edit_entries'         => true,
+            'gravityforms_delete_entries'       => true,
+            'gravityforms_view_entry_notes'     => true,
+            'gravityforms_edit_entry_notes'     => true,
+            'wpseo_bulk_edit'                   => true,
+            'wpseo_manage_options'              => true,
+            'edit_yard_options'                 => true,
+        ]);
+
+        return;
+    }
+});
