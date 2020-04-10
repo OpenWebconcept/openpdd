@@ -5,11 +5,9 @@ config:
   php: 7.2
   via: nginx
   ssl: true
-  webroot: htdocs
   database: mysql:5.7
   config:
     vhosts: storage/provision/nginx/default.conf
-    php: storage/provision/php/php.ini
 
 proxy:
   mailhog:
@@ -29,7 +27,11 @@ services:
       - appserver
   appserver:
     xdebug: true
+    webroot: htdocs
+    config:
+      php: storage/provision/php/php.ini
     run:
+      #- apt update -y && apt install php-pcov
       - cd $LANDO_MOUNT && lando composer install
     overrides:
       environment:
