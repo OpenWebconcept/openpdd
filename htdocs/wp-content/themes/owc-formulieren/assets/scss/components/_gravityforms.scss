@@ -397,7 +397,6 @@
 // Complex fields
 .gfield_label_before_complex {
   padding-bottom: $spacer * 0.3125;
-  font-size: $font-size-base * 1.5;
 }
 
 .ginput_complex {
@@ -547,14 +546,13 @@ body
 
 // Submission overview (all_fields)
 .gform_page_fields {
-
   .gfield_html_formatted {
     background-color: transparent;
     padding: 0;
   }
 
   table:first-child {
-    background-color: gray('ghost');
+    background-color: gray("ghost");
   }
 
   table tbody table tr {
