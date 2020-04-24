@@ -88,12 +88,16 @@ add_filter('gform_incomplete_submissions_expiration_days', function ($expiration
     return $expiration_days;
 });
 
+require_once __DIR__ . '/inc/Role.php';
+
 /**
- * Add super-user role
+ * Add superuser role
  */
 add_action('init', function () {
-    if (null === get_role('superuser')) {
-        add_role('superuser', 'Super-User', [
+    $role = new Role('superuser');
+
+    if (null === $role->getRole()) {
+        $caps = [
             /*
              * Default Capabilities
              */
@@ -150,20 +154,34 @@ add_action('init', function () {
             /*
              * Custom Capabilities
              */
-            'gravityforms_create_forms'         => true,
-            'gravityforms_delete_forms'         => true,
-            'gravityforms_edit_forms'           => true,
-            'gravityforms_preview_forms'        => true,
-            'gravityforms_view_entries'         => true,
-            'gravityforms_edit_entries'         => true,
-            'gravityforms_delete_entries'       => true,
-            'gravityforms_view_entry_notes'     => true,
-            'gravityforms_edit_entry_notes'     => true,
-            'wpseo_bulk_edit'                   => true,
-            'wpseo_manage_options'              => true,
-            'edit_yard_options'                 => true,
-        ]);
+            'wpseo_bulk_edit'           => true,
+            'wpseo_manage_options'      => true,
+            'edit_yard_options'         => true,
+        ];
 
-        return;
+        $caps = array_merge($caps, $role->getGravityFormsCapsKeyValue());
+
+        $role->addRole('Super-user', $caps);
+    }
+});
+
+/**
+ * Add caps to editor role
+ */
+add_action('init', function () {
+    $role = new Role('editor');
+
+    if (null === $role->getRole()) {
+        return null;
+    }
+
+    $caps = [];
+
+    $caps = array_merge($caps, $role->getGravityFormsCaps());
+
+    foreach ($caps as $cap) {
+        if (!$role->getRole()->has_cap($cap)) {
+            $role->addCap($cap);
+        }
     }
 });
