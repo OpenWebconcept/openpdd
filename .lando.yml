@@ -32,7 +32,7 @@ services:
       php: storage/provision/php/php.ini
     run:
       #- apt update -y && apt install php-pcov
-      - cd $LANDO_MOUNT && lando composer install
+      - cd $LANDO_MOUNT && composer install
     overrides:
       environment:
         environment: development

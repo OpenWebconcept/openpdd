@@ -3,7 +3,6 @@
 $finder = Symfony\Component\Finder\Finder::create()
     ->notPath('htdocs/wp')
     ->notPath('htdocs/wp-content')
-    ->notPath('logs')
     ->notPath('storage')
     ->notPath('tests')
     ->notPath('vendor')

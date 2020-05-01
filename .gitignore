@@ -11,7 +11,7 @@ htdocs/wp-content/themes/**/assets/dist/
 htdocs/wp-content/themes/**/node_modules/
 htdocs/wp-content/themes/**/vendor/
 !htdocs/wp-content/themes/owc-formulieren/assets/scss/vendor/
-htdocs/wp-content/uploads/
+htdocs/wp-content/uploads
 storage/certificates
 vendor/*
 .project
