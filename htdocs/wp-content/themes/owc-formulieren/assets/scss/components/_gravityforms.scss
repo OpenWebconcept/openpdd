@@ -351,7 +351,7 @@
 .gform_page_footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   border-top: 1px solid gray("300");
   padding: $spacer * 1.5 $spacer;
