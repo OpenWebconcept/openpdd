@@ -1,0 +1,30 @@
+$block: "digid";
+
+.#{$block}-btn {
+  border-bottom: 0 !important;
+  border-radius: 14px;
+
+  @include hover-focus-active {
+    background-color: gray("concrete");
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-right: $spacer * 4;
+  }
+
+  &__img {
+    width: 80px;
+  }
+
+  &__text {
+    color: $body-color;
+
+    @include media-breakpoint-up(xl) {
+      padding-left: $spacer !important;
+    }
+  }
+
+  &__title {
+    font-weight: $font-weight-bold;
+  }
+}
