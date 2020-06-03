@@ -3,6 +3,10 @@
  */
 .btn {
   @include button;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 .btn-primary {
