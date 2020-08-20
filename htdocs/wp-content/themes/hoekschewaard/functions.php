@@ -35,7 +35,7 @@ add_action( 'send_headers', function() {
     ]);
 
     // Enforce the use of HTTPS
-    header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
+    // header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
     // Prevent Clickjacking
     header("X-Frame-Options: SAMEORIGIN");
     // Prevent XSS Attack

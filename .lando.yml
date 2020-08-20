@@ -45,6 +45,8 @@ services:
       grunt: "latest"
 
 tooling:
+  npm:
+    service: node
   deploy:
     service: appserver
     cmd: ./vendor/bin/dep deploy
