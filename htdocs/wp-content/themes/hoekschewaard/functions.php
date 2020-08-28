@@ -16,12 +16,8 @@ foreach ($includes as $file) {
 }
 unset($file, $filepath);
 
-// $secureHeaders = new \Bepsvpt\SecureHeaders\SecureHeaders(require('/app/config/secure-headers.php'));
-// var_dump($secureHeaders->headers()); exit;
-
-add_action( 'send_headers', function() {
-
-    $host = parse_url(get_site_url(),PHP_URL_HOST);
+add_action('send_headers', function () {
+    $host = parse_url(get_site_url(), PHP_URL_HOST);
     $wildcard = sprintf('*.%s', $host);
 
     // Set values for the content secure policy:
@@ -35,16 +31,16 @@ add_action( 'send_headers', function() {
     ]);
 
     // Enforce the use of HTTPS
-    // header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
+    header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
     // Prevent Clickjacking
-    header("X-Frame-Options: SAMEORIGIN");
+    // header("X-Frame-Options: SAMEORIGIN");
     // Prevent XSS Attack
     header("Content-Security-Policy: " . $cspSources); // FF 23+ Chrome 25+ Safari 7+ Opera 19+
     header("X-Content-Security-Policy: " . $cspSources); // IE 10+
     // Block Access If XSS Attack Is Suspected
     header("X-XSS-Protection: 1; mode=block");
     // Prevent MIME-Type Sniffing
-    header("X-Content-Type-Options: nosniff");
+    // header("X-Content-Type-Options: nosniff");
     // Referrer Policy
     header("Referrer-Policy: no-referrer-when-downgrade");
 });

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Here's what's happening with these hooks:
  * 1. WordPress detects theme in themes/theme-name
@@ -41,6 +42,11 @@ add_action('after_switch_theme', function () {
  */
 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
 add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
+
+add_filter('gform_get_form_filter', function ($form_string, $form) {
+    // $form_string = str_replace('gform_wrapper', 'gform_wrapper rs_preserve', $form_string);
+    return $form_string;
+}, 10, 2);
 
 /**
  * Change the custom logo URL
@@ -194,8 +200,8 @@ add_action('init', function () {
     }
 });
 
-add_filter( 'script_loader_tag', 'add_integrity_crossorigin', 10, 3 );
-add_filter( 'style_loader_tag', 'add_integrity_crossorigin', 10, 4 );
+add_filter('script_loader_tag', 'add_integrity_crossorigin', 10, 3);
+add_filter('style_loader_tag', 'add_integrity_crossorigin', 10, 4);
 
 /**
  * Add integrity and crossorigin parameters to resources.
@@ -218,10 +224,11 @@ add_filter( 'style_loader_tag', 'add_integrity_crossorigin', 10, 4 );
  * @param string $media Optional. The style media value. Equal to null when filtering the script tag.
  * @return string The filtered HTML tag.
  */
-function add_integrity_crossorigin( string $tag, string $handle, string $src, string $media = null ) {
+function add_integrity_crossorigin(string $tag, string $handle, string $src, string $media = null)
+{
     global $wp_scripts, $wp_styles;
 
-    if ( null === $media ) {
+    if (null === $media) {
         $tag_name = 'script';
         $resource_object = $wp_scripts;
     } else {
@@ -229,30 +236,30 @@ function add_integrity_crossorigin( string $tag, string $handle, string $src, st
         $resource_object = $wp_styles;
     }
 
-    if ( ! empty( $resource_object->registered[$handle]->extra['integrity'] ) ) {
-        if ( preg_match( '/integrity="[^"]*"/', $tag, $match ) ) {
-            $tag = str_replace( $match[0], 'integrity="' . esc_attr( $resource_object->registered[$handle]->extra['integrity'] ) . '"', $tag );
+    if (!empty($resource_object->registered[$handle]->extra['integrity'])) {
+        if (preg_match('/integrity="[^"]*"/', $tag, $match)) {
+            $tag = str_replace($match[0], 'integrity="' . esc_attr($resource_object->registered[$handle]->extra['integrity']) . '"', $tag);
         } else {
-            $tag = str_replace( '<' . $tag_name . ' ', '<' . esc_attr( $tag_name ) . ' integrity="' . esc_attr( $resource_object->registered[$handle]->extra['integrity'] ) . '" ', $tag );
+            $tag = str_replace('<' . $tag_name . ' ', '<' . esc_attr($tag_name) . ' integrity="' . esc_attr($resource_object->registered[$handle]->extra['integrity']) . '" ', $tag);
         }
     }
 
-    if ( ! empty( $resource_object->registered[$handle]->extra['crossorigin'] ) ) {
-        if ( preg_match( '/crossorigin="[^"]*"/', $tag, $match ) ) {
-            $tag = str_replace( $match[0], 'crossorigin="' . esc_attr( $resource_object->registered[$handle]->extra['crossorigin'] ) . '"', $tag );
+    if (!empty($resource_object->registered[$handle]->extra['crossorigin'])) {
+        if (preg_match('/crossorigin="[^"]*"/', $tag, $match)) {
+            $tag = str_replace($match[0], 'crossorigin="' . esc_attr($resource_object->registered[$handle]->extra['crossorigin']) . '"', $tag);
         } else {
-            $tag = str_replace( '<' . $tag_name . ' ', '<' . esc_attr( $tag_name ) . ' crossorigin="' . esc_attr( $resource_object->registered[$handle]->extra['crossorigin'] ) . '" ', $tag );
+            $tag = str_replace('<' . $tag_name . ' ', '<' . esc_attr($tag_name) . ' crossorigin="' . esc_attr($resource_object->registered[$handle]->extra['crossorigin']) . '" ', $tag);
         }
     }
 
     return $tag;
 }
 
-add_action( 'wp_enqueue_scripts',function() {
-    wp_deregister_script( 'jquery' );
-    wp_deregister_script( 'jquery-migrate' );
+add_action('wp_enqueue_scripts', function () {
+    wp_deregister_script('jquery');
+    wp_deregister_script('jquery-migrate');
 
     wp_enqueue_script('jquery', '//code.jquery.com/jquery-3.5.1.min.js', [], '3.5.1', false); // jQuery v3
-    wp_script_add_data( 'jquery', 'integrity', 'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=');
-    wp_script_add_data( 'jquery', 'crossorigin', 'anonymous');
+    wp_script_add_data('jquery', 'integrity', 'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=');
+    wp_script_add_data('jquery', 'crossorigin', 'anonymous');
 });

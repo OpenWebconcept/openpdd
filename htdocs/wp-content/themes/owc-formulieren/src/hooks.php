@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Here's what's happening with these hooks:
  * 1. WordPress detects theme in themes/theme-name
@@ -30,6 +31,11 @@ add_action('after_switch_theme', function () {
  */
 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
 add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
+
+add_filter('gform_get_form_filter', function ($form_string, $form) {
+    // $form_string = str_replace('gform_wrapper', 'gform_wrapper rs_preserve', $form_string);
+    return $form_string;
+}, 10, 2);
 
 /**
  * Change the validation error message of the Gravity Forms Real Time Validation Plugin
@@ -151,11 +157,11 @@ add_action('init', function () {
     }
 });
 
-add_action( 'wp_enqueue_scripts',function() {
-    wp_deregister_script( 'jquery' );
-    wp_deregister_script( 'jquery-migrate' );
+add_action('wp_enqueue_scripts', function () {
+    wp_deregister_script('jquery');
+    wp_deregister_script('jquery-migrate');
 
     wp_register_script('jquery3', 'https://code.jquery.com/jquery-3.5.1.min.js', array(), '3.5.1', false); // jQuery v3
     wp_enqueue_script('jquery3');
-    wp_script_add_data( 'jquery3', array( 'integrity', 'crossorigin' ) , array( 'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous' ) );
+    wp_script_add_data('jquery3', array('integrity', 'crossorigin'), array('sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous'));
 });
