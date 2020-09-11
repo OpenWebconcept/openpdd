@@ -15,6 +15,14 @@
 </footer>
 </div>
 
+<script type="text/javascript">
+    window.rsConf = {
+        general: {
+            usePost: true
+        }
+    };
+</script>
+
 <?php wp_footer(); ?>
 </body>
 
