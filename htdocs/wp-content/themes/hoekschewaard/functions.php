@@ -1,5 +1,7 @@
 <?php defined('ABSPATH') || exit;
 
+use PHPMailer\PHPMailer\PHPMailer;
+
 // Bootstrap application
 $includes = [
     'src/hooks.php',
@@ -23,7 +25,7 @@ unset($file, $filepath);
  *
  * Values are constants set in wp-config.php
  */
-add_action('phpmailer_init', function (\PHPMailer $phpmailer) {
+add_action('phpmailer_init', function (PHPMailer $phpmailer) {
     $phpmailer->isSMTP();
     $phpmailer->Host = 'form01.yard.nl';
     $phpmailer->Port = 25;
