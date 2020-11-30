@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+  Settings
+--------------------------------------------------------------*/
+@import "settings/colors";
+@import "settings/bootstrap";
+@import "tools/mixins";
+
+/*--------------------------------------------------------------
+  Parent theme
+--------------------------------------------------------------*/
+@import "../../../owc-formulieren/assets/scss/style";
+
+/*--------------------------------------------------------------
+  Components
+--------------------------------------------------------------*/
+@import "components/buttons";
+@import "components/gravityforms";
+@import "components/navbar";
+@import "components/progress-bar";
+@import "components/site-branding";
+
+/*--------------------------------------------------------------
+  Elements
+--------------------------------------------------------------*/
+@import "elements/links";
+@import "elements/body";
+
+/*--------------------------------------------------------------
+  Generic
+--------------------------------------------------------------*/
+@import "generic/typography";
+@import "generic/heading";

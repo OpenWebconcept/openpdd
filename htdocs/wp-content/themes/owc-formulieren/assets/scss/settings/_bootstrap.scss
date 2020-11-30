@@ -8,11 +8,11 @@ New (custom) variables should go into _variables.scss instead.
 /*--------------------------------------------------------------
   Fonts
 --------------------------------------------------------------*/
-$font-size-base: 1.125rem;
+$font-size-base: 1.125rem !default;
 $font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
   "Segoe UI Symbol";
-$font-family-base: "Ubuntu", $font-family-sans-serif;
+$font-family-base: "Ubuntu", $font-family-sans-serif !default;
 $line-height-base: 1.7;
 $enable-responsive-font-sizes: true;
 
@@ -25,21 +25,29 @@ $spacer: 1rem;
   Paragraph
 --------------------------------------------------------------*/
 $body-color: #333;
-$body-bg: gray("ghost");
+$body-bg: gray("ghost") !default;
+
+/*--------------------------------------------------------------
+  Headings
+--------------------------------------------------------------*/
+$h1-color: $body-color !default;
+$headings-font-weight: 300 !default;
+$headings-margin-bottom: $spacer * 0.5 !default;
 
 /*--------------------------------------------------------------
   Buttons
 --------------------------------------------------------------*/
-$btn-padding-y: 0.7rem;
-$btn-padding-x: 1.3rem;
-$btn-border-width: 0;
-$btn-border-radius: 42px;
-$btn-font-weight: 600;
+$btn-padding-y: 0.7rem !default;
+$btn-padding-x: 1.3rem !default;
+$btn-border-width: 0 !default;
+$btn-border-radius: 42px !default;
+$btn-font-weight: 600 !default;
+$btn-border-style: solid !default;
 
 /*--------------------------------------------------------------
   Links
 --------------------------------------------------------------*/
-$link-color: #0639a9;
+$link-color: #0639a9 !default;
 
 /*--------------------------------------------------------------
   Tables
@@ -49,7 +57,7 @@ $table-striped: false;
 /*--------------------------------------------------------------
   Forms
 --------------------------------------------------------------*/
-$input-bg: #fff;
+$input-bg: #fff !default;
 $danger: #d02536;
 
 /*--------------------------------------------------------------
@@ -61,13 +69,13 @@ $box-shadow: 0 2px 3px 0 rgba(40, 44, 53, 0.08),
   Pagination
 --------------------------------------------------------------*/
 
-$pagination-padding-y: 0.8rem;
-$pagination-padding-x: 1.2rem;
-$pagination-color: theme-color("secondary");
-$pagination-bg: lighten(theme-color("secondary"), 80%);
-$pagination-active-color: #fff;
-$pagination-active-bg: theme-color("secondary");
-$pagination-focus-box-shadow: 0 0 0 0.2rem rgba(theme-color("secondary"), 0.25);
+$pagination-padding-y: 0.8rem !default;
+$pagination-padding-x: 1.2rem !default;
+$pagination-color: theme-color("secondary") !default;
+$pagination-bg: lighten(theme-color("secondary"), 80%) !default;
+$pagination-active-color: #fff !default;
+$pagination-active-bg: theme-color("secondary") !default;
+$pagination-focus-box-shadow: 0 0 0 0.2rem rgba(theme-color("secondary"), 0.25) !default;
 
 /*--------------------------------------------------------------
   Forms
