@@ -10,6 +10,11 @@ config:
     vhosts: storage/provision/nginx/default.conf
 
 proxy:
+  appserver_nginx:
+    - owc-forms.lndo.site
+    - buren.owc-forms.lndo.site
+    - hw.owc-forms.lndo.site
+    - nijmegen.owc-forms.lndo.site
   mailhog:
     - mail.owc-forms.lndo.site
   pma:
@@ -26,23 +31,20 @@ services:
     hogfrom:
       - appserver
   appserver:
+    build:
+      - composer install
     xdebug: true
     webroot: htdocs
+    overrides:
+      volumes:
+        - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
     config:
       php: storage/provision/php/php.ini
-    run:
-      #- apt update -y && apt install php-pcov
-      - cd $LANDO_MOUNT && composer install
-    overrides:
-      environment:
-        environment: development
   node:
     type: node
     globals:
       webpack: "latest"
       npm: "latest"
-      yarn: "latest"
-      grunt: "latest"
 
 tooling:
   npm:

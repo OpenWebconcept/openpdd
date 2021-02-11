@@ -60,7 +60,7 @@ add_action('wp_enqueue_scripts', function () {
 /**
  * Enable REST API
  */
-add_filter('config_expander_admin_defaults', function ($defaults) {
+add_filter('yard/config-expander/config/admin', function ($defaults) {
     $defaults['DISABLE_REST_API'] = false;
     return $defaults;
 });

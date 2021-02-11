@@ -2,13 +2,15 @@
 
 $finder = Symfony\Component\Finder\Finder::create()
     ->notPath('htdocs/wp')
-    ->notPath('htdocs/wp-content')
     ->notPath('storage')
-    ->notPath('tests')
     ->notPath('vendor')
     ->in(__DIR__)
+    ->in(__DIR__.'/htdocs/wp-content/themes')
     ->name('*.php')
-    ->notName('*.blade.php');
+    ->name('_ide_helper')
+    ->notName('*.blade.php')
+    ->ignoreDotFiles(true)
+    ->ignoreVCS(true);
 
 return PhpCsFixer\Config::create()
     ->setRules([

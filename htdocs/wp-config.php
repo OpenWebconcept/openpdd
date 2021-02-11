@@ -1,15 +1,13 @@
 <?php
-
 /**
  * Autoload dependencies with Composer
  */
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';
 
 /**
  * Initialize DotEnv environment variables.
  */
-$dotenv = new Dotenv\Dotenv(__DIR__ . '/../');
-$dotenv->load();
+\Dotenv\Dotenv::create(__DIR__ . '/../')->load();
 
 /**
  * Setup Database Configuration
