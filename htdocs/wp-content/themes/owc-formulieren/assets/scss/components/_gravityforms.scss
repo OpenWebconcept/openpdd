@@ -23,6 +23,21 @@
   .screen-reader-text {
     display: none;
   }
+
+  .radio-buttons--horizontal {
+    ul {
+      display: flex;
+
+      li {
+        margin-right: 2rem;
+      }
+
+      label {
+        padding-top: 2rem;
+        padding-left: 0.1rem;
+      }
+    }
+  }
 }
 
 .gfield {
