@@ -2,7 +2,7 @@ name: owc-forms
 recipe: wordpress
 
 config:
-  php: 7.2
+  php: 7.4
   via: nginx
   ssl: true
   database: mysql:5.7
