@@ -2,7 +2,6 @@ name: owc-forms
 recipe: wordpress
 
 config:
-  php: 7.4
   via: nginx
   ssl: true
   database: mysql:5.7
@@ -31,10 +30,12 @@ services:
     hogfrom:
       - appserver
   appserver:
+    type: php:7.4
     build:
       - composer install
-    xdebug: true
+    xdebug: false
     webroot: htdocs
+    composer_version: 2
     overrides:
       volumes:
         - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
