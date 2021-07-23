@@ -26,6 +26,31 @@ add_action('after_switch_theme', function () {
     }
 });
 
+add_action( 'init', function() {
+    $labels = array(
+        'name'              => _x( 'Owner', 'taxonomy general name', 'openpdd-hoeksche-waard' ),
+        'singular_name'     => _x( 'Owner', 'taxonomy singular name', 'openpdd-hoeksche-waard' ),
+        'search_items'      => __( 'Search owners', 'openpdd-hoeksche-waard' ),
+        'all_items'         => __( 'All owners', 'openpdd-hoeksche-waard' ),
+        'parent_item'       => __( 'Parent owner', 'openpdd-hoeksche-waard' ),
+        'parent_item_colon' => __( 'Parent owner:', 'openpdd-hoeksche-waard' ),
+        'edit_item'         => __( 'Edit owner', 'openpdd-hoeksche-waard' ),
+        'update_item'       => __( 'Update owner', 'openpdd-hoeksche-waard' ),
+        'add_new_item'      => __( 'Add new owner', 'openpdd-hoeksche-waard' ),
+        'new_item_name'     => __( 'New owner name', 'openpdd-hoeksche-waard' ),
+        'menu_name'         => __( 'Owner', 'openpdd-hoeksche-waard' ),
+    );
+
+    register_taxonomy('form-owner', 'page', [
+        'hierarchical'      => true,
+        'labels'            => $labels,
+        'show_ui'           => true,
+        'show_admin_column' => true,
+        'query_var'         => false,
+    ]);
+    register_taxonomy_for_object_type( 'category', 'page' );
+});
+
 add_action('wp_enqueue_scripts', function () {
     wp_enqueue_style('child-theme-style', get_stylesheet_directory_uri() . '/assets/dist/css/style.css', [], filemtime(__DIR__));
 });
