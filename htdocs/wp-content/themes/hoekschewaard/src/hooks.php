@@ -47,6 +47,7 @@ add_action( 'init', function() {
         'show_ui'           => true,
         'show_admin_column' => true,
         'query_var'         => false,
+        'show_in_rest'      => true,
     ]);
     register_taxonomy_for_object_type( 'category', 'page' );
 });
