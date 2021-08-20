@@ -4,7 +4,7 @@ recipe: wordpress
 config:
   via: nginx
   ssl: true
-  database: mysql:5.7
+  database: mysql
   config:
     vhosts: storage/provision/nginx/default.conf
 
@@ -27,6 +27,7 @@ services:
       - database
   mailhog:
     type: mailhog
+    portforward: true
     hogfrom:
       - appserver
   appserver:
@@ -44,15 +45,24 @@ services:
   node:
     type: node
     globals:
-      webpack: "latest"
-      npm: "latest"
+      webpack: 'latest'
+      npm: 'latest'
 
 tooling:
-  npm:
-    service: node
+  phpunit:
+    service: appserver
   deploy:
     service: appserver
     cmd: ./vendor/bin/dep deploy
-  phpunit:
+  npm:
+    service: node
+  xdebug-on:
     service: appserver
-    description: "Run PHP Unit tests: lando phpunit"
+    description: Enable xdebug for nginx.
+    cmd: docker-php-ext-enable xdebug && pkill -o -USR2 php-fpm && echo "Enabling xdebug"
+    user: root
+  xdebug-off:
+    service: appserver
+    description: CUSTOM Disable xdebug for nginx.
+    cmd: rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && pkill -o -USR2 php-fpm && echo "Disabling xdebug"
+    user: root

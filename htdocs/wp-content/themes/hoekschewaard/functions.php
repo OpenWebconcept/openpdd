@@ -26,9 +26,11 @@ unset($file, $filepath);
  * Values are constants set in wp-config.php
  */
 add_action('phpmailer_init', function (PHPMailer $phpmailer) {
-    $phpmailer->isSMTP();
-    $phpmailer->Host = 'form01.yard.nl';
-    $phpmailer->Port = 25;
+    if (  in_array(env('APP_ENV'), ['production']) ) {
+        $phpmailer->isSMTP();
+        $phpmailer->Host = 'form01.yard.nl';
+        $phpmailer->Port = 25;
+    }
 });
 
 add_action('send_headers', function () {
