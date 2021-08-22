@@ -8,7 +8,7 @@ require __DIR__.'/../vendor/autoload.php';
 /**
  * Initialize DotEnv environment variables.
  */
-\Dotenv\Dotenv::create(__DIR__ . '/../')->load();
+\Dotenv\Dotenv::createImmutable(__DIR__ . '/../')->load();
 
 /**
  * Setup Database Configuration
@@ -17,7 +17,6 @@ define('DB_NAME', getenv('DB_DATABASE'));
 define('DB_USER', getenv('DB_USER'));
 define('DB_PASSWORD', getenv('DB_PASSWORD'));
 define('DB_HOST', getenv('DB_HOST'));
-
 
 define('WP_DEBUG', filter_var(getenv('WP_DEBUG'), FILTER_SANITIZE_STRING));
 define('WP_DEBUG_DISPLAY', filter_var(getenv('WP_DEBUG_DISPLAY'), FILTER_SANITIZE_STRING));
