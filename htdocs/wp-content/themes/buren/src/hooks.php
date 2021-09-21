@@ -53,7 +53,7 @@ add_filter('gform_get_form_filter', function ($form_string, $form) {
  */
 add_filter('get_custom_logo', function () {
     $custom_logo_id = get_theme_mod('custom_logo');
-    $site_url = 'buren.nl';
+    $site_url = 'https://www.buren.nl';
 
     if ($custom_logo_id) {
         $custom_logo_attr = [
@@ -67,9 +67,10 @@ add_filter('get_custom_logo', function () {
         }
 
         $html = sprintf(
-            '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a><a href="" class="site-branding__title h2 font-weight-bold d-none d-md-block text-dark mb-0 pl-3">Gemeente Buren</a>',
+            '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a><a href="%3$s" class="site-branding__title h2 font-weight-bold d-none d-md-block text-dark mb-0 pl-3">Gemeente Buren</a>',
             esc_url($site_url),
-            wp_get_attachment_image($custom_logo_id, 'full', false, $custom_logo_attr)
+            wp_get_attachment_image($custom_logo_id, 'full', false, $custom_logo_attr),
+            site_url('/')
         );
     }
 
