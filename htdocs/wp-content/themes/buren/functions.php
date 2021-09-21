@@ -38,11 +38,11 @@ add_action('send_headers', function () {
     // Set values for the content secure policy:
     $cspSources = implode('; ', [
         "default-src 'self' {$host} {$wildcard} *.fontawesome.com *.readspeaker.com",
-        "script-src 'self' 'unsafe-inline' {$wildcard} *.googleapis.com *.google-analytics.com *.fontawesome.com *.readspeaker.com *.jquery.com",
-        "style-src 'self' 'unsafe-inline' {$wildcard} *.googleapis.com *.fontawesome.com *.readspeaker.com",
-        "font-src data: 'self' {$wildcard} fonts.gstatic.com *.fontawesome.com *.readspeaker.com",
-        "media-src 'self' {$wildcard} *.fontawesome.com *.readspeaker.com",
-        "img-src data: 'self' {$wildcard} *.fontawesome.com *.google-analytics.com *.readspeaker.com"
+        "script-src 'self' 'unsafe-inline' {$host} {$wildcard} *.googleapis.com *.google-analytics.com *.fontawesome.com *.readspeaker.com *.jquery.com",
+        "style-src 'self' 'unsafe-inline' {$host} {$wildcard} *.googleapis.com *.fontawesome.com *.readspeaker.com",
+        "font-src data: 'self' {$host} {$wildcard} fonts.gstatic.com *.fontawesome.com *.readspeaker.com",
+        "media-src 'self' {$host} {$wildcard} *.fontawesome.com *.readspeaker.com",
+        "img-src data: 'self' {$host} {$wildcard} *.fontawesome.com *.google-analytics.com *.readspeaker.com"
     ]);
 
     // Enforce the use of HTTPS
