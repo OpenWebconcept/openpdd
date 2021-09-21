@@ -22,3 +22,6 @@ project.cfg
 .env
 _ide_helper.php
 .php_cs.cache
+.php-cs-fixer.cache
+.phpunit.result.cache
+tests/coverage

@@ -52,33 +52,27 @@ add_filter('gform_get_form_filter', function ($form_string, $form) {
  * Change the custom logo URL
  */
 add_filter('get_custom_logo', function () {
-    $custom_logo_id = get_theme_mod('custom_logo'); // The logo
+    $custom_logo_id = get_theme_mod('custom_logo');
     $site_url = 'buren.nl';
 
     if ($custom_logo_id) {
-        // Attr
         $custom_logo_attr = [
             'class'    => 'custom-logo',
             'itemprop' => 'logo',
         ];
 
-        // Image alt
         $image_alt = get_post_meta($custom_logo_id, '_wp_attachment_image_alt', true);
         if (empty($image_alt)) {
             $custom_logo_attr['alt'] = get_bloginfo('name', 'display');
         }
 
-        // Get the image
         $html = sprintf(
             '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a><a href="" class="site-branding__title h2 font-weight-bold d-none d-md-block text-dark mb-0 pl-3">Gemeente Buren</a>',
             esc_url($site_url),
             wp_get_attachment_image($custom_logo_id, 'full', false, $custom_logo_attr)
         );
     }
-    // var_dump($html);
-    // die;
 
-    // Return
     return $html;
 });
 
@@ -109,7 +103,7 @@ require_once get_stylesheet_directory() . '/inc/Role.php';
 /**
  * Add superuser role
  */
-add_action('init', function () {
+add_action('after_switch_theme', function () {
     $role = new Role('superuser');
 
     if (null === $role->getRole()) {
@@ -184,7 +178,7 @@ add_action('init', function () {
 /**
  * Add caps to editor role
  */
-add_action('init', function () {
+add_action('after_switch_theme', function () {
     $role = new Role('editor');
 
     if (null === $role->getRole()) {

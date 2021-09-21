@@ -1,7 +1,5 @@
 <?php defined('ABSPATH') || exit;
 
-use PHPMailer\PHPMailer\PHPMailer;
-
 // Bootstrap application
 $includes = [
     'src/hooks.php',
@@ -25,10 +23,12 @@ unset($file, $filepath);
  *
  * Values are constants set in wp-config.php
  */
-add_action('phpmailer_init', function (PHPMailer $phpmailer) {
-    $phpmailer->isSMTP();
-    $phpmailer->Host = 'form01.yard.nl';
-    $phpmailer->Port = 25;
+add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer) {
+    if (in_array(env('APP_ENV'), ['production'])) {
+        $phpmailer->isSMTP();
+        $phpmailer->Host = 'form01.yard.nl';
+        $phpmailer->Port = 25;
+    }
 });
 
 add_action('send_headers', function () {
@@ -37,7 +37,7 @@ add_action('send_headers', function () {
 
     // Set values for the content secure policy:
     $cspSources = implode('; ', [
-        "default-src 'self' {$wildcard} *.fontawesome.com *.readspeaker.com",
+        "default-src 'self' {$host} {$wildcard} *.fontawesome.com *.readspeaker.com",
         "script-src 'self' 'unsafe-inline' {$wildcard} *.googleapis.com *.google-analytics.com *.fontawesome.com *.readspeaker.com *.jquery.com",
         "style-src 'self' 'unsafe-inline' {$wildcard} *.googleapis.com *.fontawesome.com *.readspeaker.com",
         "font-src data: 'self' {$wildcard} fonts.gstatic.com *.fontawesome.com *.readspeaker.com",
