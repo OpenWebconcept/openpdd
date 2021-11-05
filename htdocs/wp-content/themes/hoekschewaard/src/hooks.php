@@ -289,3 +289,18 @@ add_action('wp_enqueue_scripts', function () {
     wp_script_add_data('jquery', 'integrity', 'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=');
     wp_script_add_data('jquery', 'crossorigin', 'anonymous');
 });
+
+if (class_exists(\GF_Fields::class)) {
+    \GF_Fields::register(new HW\Gravityforms\Fields\HWCodesValidation());
+}
+add_filter( 'gform_export_fields', [HW\Gravityforms\Export::class, 'modifyHeading'], 10, 1);
+add_filter( 'gform_export_field_value', [HW\Gravityforms\Export::class, 'modifyValue'], 10, 4 );
+
+add_filter('gform_field_groups_form_editor', function ($field_groups) {
+    $field_groups['hw_fields'] = [
+        'name'   => 'hw_fields',
+        'label'  => 'Gemeente Hoeksche Waard velden',
+        'fields' => []
+    ];
+    return $field_groups;
+});

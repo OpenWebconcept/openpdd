@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Yard | Hoeksche Waard\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-07-23 10:50+0200\n"
+"POT-Creation-Date: 2021-11-05 20:34+0100\n"
 "POT-Revision-Date: Fri Nov 27 2015 13:26:26 GMT+0100 (W. Europe Standard Time)\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;"
 "__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;"
 "esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 3.0\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: assets\n"
 "X-Poedit-SearchPathExcluded-1: node_modules\n"
@@ -29,56 +29,72 @@ msgstr ""
 msgid "Error locating %s for inclusion"
 msgstr ""
 
+#: src/Gravityforms/Fields/HWCodesValidation.php:24
+msgid "Code validation field"
+msgstr ""
+
+#: src/Gravityforms/Fields/HWCodesValidation.php:161
+msgid "Code validation"
+msgstr ""
+
+#: src/Gravityforms/Fields/HWCodesValidation.php:178
+msgid "This field is required"
+msgstr ""
+
+#: src/Gravityforms/Fields/HWCodesValidation.php:183
+msgid "The code is not valid"
+msgstr ""
+
 #: src/gf-forms-extend.php:143
 msgid "Click to view"
 msgstr ""
 
-#: src/hooks.php:36
+#: src/hooks.php:31
 msgctxt "taxonomy general name"
 msgid "Owner"
 msgstr ""
 
-#: src/hooks.php:37
+#: src/hooks.php:32
 msgctxt "taxonomy singular name"
 msgid "Owner"
 msgstr ""
 
-#: src/hooks.php:38
+#: src/hooks.php:33
 msgid "Search owners"
 msgstr ""
 
-#: src/hooks.php:39
+#: src/hooks.php:34
 msgid "All owners"
 msgstr ""
 
-#: src/hooks.php:40
+#: src/hooks.php:35
 msgid "Parent owner"
 msgstr ""
 
-#: src/hooks.php:41
+#: src/hooks.php:36
 msgid "Parent owner:"
 msgstr ""
 
-#: src/hooks.php:42
+#: src/hooks.php:37
 msgid "Edit owner"
 msgstr ""
 
-#: src/hooks.php:43
+#: src/hooks.php:38
 msgid "Update owner"
 msgstr ""
 
-#: src/hooks.php:44
-msgid "Add New owner"
+#: src/hooks.php:39
+msgid "Add new owner"
 msgstr ""
 
-#: src/hooks.php:45
+#: src/hooks.php:40
 msgid "New owner name"
 msgstr ""
 
-#: src/hooks.php:46
+#: src/hooks.php:41
 msgid "Owner"
 msgstr ""
 
-#: src/setup.php:47
+#: src/setup.php:41
 msgid "Primary Menu"
 msgstr ""
