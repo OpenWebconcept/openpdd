@@ -3,3 +3,13 @@
   margin-top: -50px;
   padding-bottom: $spacer;
 }
+
+#js-countdown {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-left: auto;
+  width: fit-content;
+  min-height: 30px;
+  text-align: right;
+  float: right;
+}

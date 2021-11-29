@@ -28,3 +28,12 @@ $block: "digid";
     font-weight: $font-weight-bold;
   }
 }
+
+#logoutLink {
+  @include button-variant(theme-color("primary"), theme-color("primary"));
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  color: $white;
+  float: right;
+}
