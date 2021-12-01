@@ -13,9 +13,8 @@ htdocs/wp-content/themes/**/vendor/
 !htdocs/wp-content/themes/owc-formulieren/assets/scss/vendor/
 htdocs/wp-content/uploads
 storage/certificates
+tests/coverage
 vendor/*
-.project
-project.cfg
 .settings/*
 .buildpath
 .DS_Store

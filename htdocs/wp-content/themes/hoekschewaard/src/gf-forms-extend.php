@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 /**
 * Better Pre-submission Confirmation
 * http://gravitywiz.com/2012/08/04/better-pre-submission-confirmation/
@@ -19,7 +19,7 @@ class GWPreviewConfirmation
         }
 
         $current_page = isset(GFFormDisplay::$submission[$form['id']]) ? GFFormDisplay::$submission[$form['id']]['page_number'] : 1;
-        $fields       = [];
+        $fields = [];
 
         // get all HTML fields on the current page
         foreach ($form['fields'] as &$field) {
@@ -69,8 +69,8 @@ class GWPreviewConfirmation
         $input_type = RGFormsModel::get_input_type($field);
         
         $is_upload_field = in_array($input_type, ['post_image', 'fileupload']);
-        $is_multi_input  = is_array(rgar($field, 'inputs'));
-        $is_input        = intval($input_id) != $input_id;
+        $is_multi_input = is_array(rgar($field, 'inputs'));
+        $is_input = intval($input_id) != $input_id;
         
         if (!$is_upload_field && !$is_multi_input) {
             return $value;
@@ -81,8 +81,8 @@ class GWPreviewConfirmation
             return $value;
         }
             
-        $form     = RGFormsModel::get_form_meta($field['formId']);
-        $lead     = self::create_lead($form);
+        $form = RGFormsModel::get_form_meta($field['formId']);
+        $lead = self::create_lead($form);
         $currency = GFCommon::get_currency();
 
         if (is_array(rgar($field, 'inputs'))) {
@@ -106,9 +106,9 @@ class GWPreviewConfirmation
 
     public static function preview_image_value($input_name, $field, $form, $lead)
     {
-        $field_id  = $field['id'];
+        $field_id = $field['id'];
         $file_info = RGFormsModel::get_temp_filename($form['id'], $input_name);
-        $source    = RGFormsModel::get_upload_url($form['id']) . "/tmp/" . $file_info["temp_filename"];
+        $source = RGFormsModel::get_upload_url($form['id']) . "/tmp/" . $file_info["temp_filename"];
 
         if (!$file_info) {
             return '';
@@ -118,7 +118,7 @@ class GWPreviewConfirmation
 
             case "post_image":
                 list(, $image_title, $image_caption, $image_description) = explode("|:|", $lead[$field['id']]);
-                $value                                                   = !empty($source) ? $source . "|:|" . $image_title . "|:|" . $image_caption . "|:|" . $image_description : "";
+                $value = !empty($source) ? $source . "|:|" . $image_title . "|:|" . $image_caption . "|:|" . $image_description : "";
                 break;
 
             case "fileupload":
@@ -135,12 +135,12 @@ class GWPreviewConfirmation
 
         // need to get the tmp $file_info to retrieve real uploaded filename, otherwise will display ugly tmp name
         $input_name = "input_" . str_replace('.', '_', $field['id']);
-        $file_info  = RGFormsModel::get_temp_filename($form['id'], $input_name);
+        $file_info = RGFormsModel::get_temp_filename($form['id'], $input_name);
 
         $file_path = $value;
         if (!empty($file_path)) {
             $file_path = esc_attr(str_replace(" ", "%20", $file_path));
-            $value     = "<a href='$file_path' target='_blank' title='" . __("Click to view", "gravityforms") . "'>" . $file_info['uploaded_filename'] . "</a>";
+            $value = "<a href='$file_path' target='_blank' title='" . __("Click to view", "gravityforms") . "'>" . $file_info['uploaded_filename'] . "</a>";
         }
         return $value;
     }

@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 $name = get_bloginfo('name');
 $description = get_bloginfo('description', 'display');
 ?>

@@ -1,4 +1,5 @@
-<?php defined('ABSPATH') || exit;
+<?php declare(strict_types=1);
+defined('ABSPATH') || exit;
 
 // Bootstrap application
 $includes = [

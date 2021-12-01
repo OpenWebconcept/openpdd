@@ -1,10 +1,9 @@
-<?php
+<?php declare(strict_types=1);
 
 /**
  * Setup theme
  */
 add_action('after_setup_theme', function () {
-
     load_theme_textdomain('openpdd-hoeksche-waard', get_stylesheet_directory() . '/languages/');
 
     // Add default posts and comments RSS feed links to head.

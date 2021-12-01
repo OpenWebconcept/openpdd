@@ -1,4 +1,63 @@
-<?php
+<?php declare(strict_types=1);
+
+add_action('init', function () {
+    if (is_admin() or is_rest()) {
+        return;
+    }
+
+    if (!function_exists('csp_nonce')) {
+        return;
+    }
+
+    $nonceScript = csp_nonce('script');
+    $nonceStyle = csp_nonce('style');
+
+    ob_end_clean();
+    ob_start();
+    add_action('shutdown', function () use ($nonceScript, $nonceStyle) {
+        $content = ob_get_clean();
+        echo App\Security\CSP::make($content, $nonceScript, $nonceStyle)->add();
+    }, 0);
+});
+
+add_action('send_headers', function () {
+    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT .'/config/secure-headers.php')->send();
+});
+
+function is_rest()
+{
+    $prefix = rest_get_url_prefix();
+    if (defined('REST_REQUEST') && REST_REQUEST // (#1)
+        || isset($_GET['rest_route']) // (#2)
+            && strpos(trim($_GET['rest_route'], '\\/'), $prefix, 0) === 0) {
+        return true;
+    }
+    // (#3)
+    global $wp_rewrite;
+    if (null === $wp_rewrite) {
+        $wp_rewrite = new WP_Rewrite();
+    }
+
+    // (#4)
+    $rest_url = wp_parse_url(trailingslashit(rest_url()));
+    $current_url = wp_parse_url(add_query_arg([ ]));
+    return (strpos($current_url['path'], $rest_url['path'], 0) === 0);
+}
+
+/**
+ * This function will connect wp_mail to your authenticated
+ * SMTP server. This improves reliability of wp_mail, and
+ * avoids many potential problems.
+ *
+ * Values are constants set in wp-config.php
+ */
+add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer) {
+    if (in_array(env('APP_ENV'), ['production'])) {
+        $phpmailer->isSMTP();
+        $phpmailer->Host = 'form01.yard.nl';
+        $phpmailer->Port = 25;
+    }
+});
 
 /**
  * Here's what's happening with these hooks:
@@ -43,11 +102,6 @@ add_action('after_switch_theme', function () {
 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
 add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
 
-add_filter('gform_get_form_filter', function ($form_string, $form) {
-    // $form_string = str_replace('gform_wrapper', 'gform_wrapper rs_preserve', $form_string);
-    return $form_string;
-}, 10, 2);
-
 /**
  * Change the custom logo URL
  */
@@ -86,7 +140,7 @@ add_filter('lv_default_error_messages', function ($default_messages) {
 
     foreach ($default_messages as $key => $value) {
         $new_messages[$key] = $translation;
-    };
+    }
 
     return $new_messages;
 });
@@ -98,8 +152,6 @@ add_filter('gform_incomplete_submissions_expiration_days', function ($expiration
     $expiration_days = 7;
     return $expiration_days;
 });
-
-require_once get_stylesheet_directory() . '/inc/Role.php';
 
 /**
  * Add superuser role
@@ -197,66 +249,8 @@ add_action('after_switch_theme', function () {
     }
 });
 
-add_filter('script_loader_tag', 'add_integrity_crossorigin', 10, 3);
-add_filter('style_loader_tag', 'add_integrity_crossorigin', 10, 4);
-
-/**
- * Add integrity and crossorigin parameters to resources.
- *
- * Add integrity and crossorigin parameters to script and link resources
- * when the values are set via wp_script_add_data or wp_style_add_data.
- *
- * wp_script_add_data( 'script-handle', 'integrity', 'sha384-sDc5PYnGGjKkmKOlkzS+YesGwz4SwiEm6fhX1vbXuVxeS6sSooIz0V3E7y8Gk2CB' );
- * wp_script_add_data( 'script-handle', 'crossorigin', 'anonymous' );
- *
- * wp_style_add_data( 'style-handle', 'integrity', 'sha384-5N3soZvYZ/q8LjWj8vDk5cHod041te75qnL+79nIM6NfuSK5ZJLu5CE6nRu6kefr' );
- * wp_style_add_data( 'style-handle', 'crossorigin', 'anonymous' );
- *
- * @global \WP_Scripts $wp_scripts The global WP_Scripts object, containing registered scripts.
- * @global \WP_Styles $wp_styles The global WP_Styles object, containing registered styles.
- *
- * @param string $tag The filtered HTML tag.
- * @param string $handle The handle for the registered script/style.
- * @param string $src The resource URL.
- * @param string $media Optional. The style media value. Equal to null when filtering the script tag.
- * @return string The filtered HTML tag.
- */
-function add_integrity_crossorigin(string $tag, string $handle, string $src, string $media = null)
-{
-    global $wp_scripts, $wp_styles;
-
-    if (null === $media) {
-        $tag_name = 'script';
-        $resource_object = $wp_scripts;
-    } else {
-        $tag_name = 'link';
-        $resource_object = $wp_styles;
+add_action('wp_default_scripts', function ($scripts) {
+    if (! is_admin() && ! empty($scripts->registered['jquery'])) {
+        $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, [ 'jquery-migrate' ]);
     }
-
-    if (!empty($resource_object->registered[$handle]->extra['integrity'])) {
-        if (preg_match('/integrity="[^"]*"/', $tag, $match)) {
-            $tag = str_replace($match[0], 'integrity="' . esc_attr($resource_object->registered[$handle]->extra['integrity']) . '"', $tag);
-        } else {
-            $tag = str_replace('<' . $tag_name . ' ', '<' . esc_attr($tag_name) . ' integrity="' . esc_attr($resource_object->registered[$handle]->extra['integrity']) . '" ', $tag);
-        }
-    }
-
-    if (!empty($resource_object->registered[$handle]->extra['crossorigin'])) {
-        if (preg_match('/crossorigin="[^"]*"/', $tag, $match)) {
-            $tag = str_replace($match[0], 'crossorigin="' . esc_attr($resource_object->registered[$handle]->extra['crossorigin']) . '"', $tag);
-        } else {
-            $tag = str_replace('<' . $tag_name . ' ', '<' . esc_attr($tag_name) . ' crossorigin="' . esc_attr($resource_object->registered[$handle]->extra['crossorigin']) . '" ', $tag);
-        }
-    }
-
-    return $tag;
-}
-
-add_action('wp_enqueue_scripts', function () {
-    wp_deregister_script('jquery');
-    wp_deregister_script('jquery-migrate');
-
-    wp_enqueue_script('jquery', '//code.jquery.com/jquery-3.5.1.min.js', [], '3.5.1', false); // jQuery v3
-    wp_script_add_data('jquery', 'integrity', 'sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=');
-    wp_script_add_data('jquery', 'crossorigin', 'anonymous');
 });

@@ -3,7 +3,9 @@
 /**
  * Autoload dependencies with Composer
  */
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
+
+define('APP_ROOT', realpath(__DIR__ . '/../'));
 
 /**
  * Initialize DotEnv environment variables.
@@ -18,10 +20,16 @@ define('DB_USER', env('DB_USER'));
 define('DB_PASSWORD', env('DB_PASSWORD'));
 define('DB_HOST', env('DB_HOST'));
 
-define('WP_DEBUG', filter_var(env('WP_DEBUG'), FILTER_SANITIZE_STRING));
-define('WP_DEBUG_DISPLAY', filter_var(env('WP_DEBUG_DISPLAY'), FILTER_SANITIZE_STRING));
-define('WP_DEBUG_LOG', filter_var(env('WP_DEBUG_LOG'), FILTER_SANITIZE_STRING));
-define('SCRIPT_DEBUG', filter_var(env('SCRIPT_DEBUG'), FILTER_SANITIZE_STRING));
+/**
+ * License keys
+ */
+define('WPMDB_LICENCE', env('WPMDB_LICENCE'));
+define('META_BOX_KEY', env('META_BOX_KEY'));
+
+define('WP_DEBUG', filter_var(env('WP_DEBUG'), FILTER_VALIDATE_BOOL));
+define('WP_DEBUG_DISPLAY', filter_var(env('WP_DEBUG_DISPLAY'), FILTER_VALIDATE_BOOL));
+define('WP_DEBUG_LOG', filter_var(env('WP_DEBUG_LOG'), FILTER_VALIDATE_BOOL));
+define('SCRIPT_DEBUG', filter_var(env('SCRIPT_DEBUG'), FILTER_VALIDATE_BOOL));
 
 /**
  * Setup secret keys.
@@ -36,12 +44,9 @@ define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 define('NONCE_SALT', env('NONCE_SALT'));
 define('WP_CACHE_KEY_SALT', env('WP_CACHE_KEY_SALT'));
 
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
-
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
-
+/**
+ * Multisite config.
+ */
 define('WP_ALLOW_MULTISITE', true);
 define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', false);
@@ -50,16 +55,13 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
-/**
- * TWOFAS
- */
 define('TWOFAS_LIGHT_CHECK_CONFLICTED_PLUGINS', false);
 
-/**
- * License keys
- */
-define('WPMDB_LICENCE', env('WPMDB_LICENCE'));
-define('META_BOX_KEY', env('META_BOX_KEY'));
+/** Database Charset to use in creating database tables. */
+define('DB_CHARSET', 'utf8');
+
+/** The Database Collate type. Don't change this if in doubt. */
+define('DB_COLLATE', '');
 
 /**
  * WordPress Database Table prefix.

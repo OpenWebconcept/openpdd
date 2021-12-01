@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 /**
  * Here's what's happening with these hooks:
@@ -32,11 +32,6 @@ add_action('after_switch_theme', function () {
 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
 add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
 
-add_filter('gform_get_form_filter', function ($form_string, $form) {
-    // $form_string = str_replace('gform_wrapper', 'gform_wrapper rs_preserve', $form_string);
-    return $form_string;
-}, 10, 2);
-
 /**
  * Change the validation error message of the Gravity Forms Real Time Validation Plugin
  */
@@ -59,12 +54,10 @@ add_filter('gform_incomplete_submissions_expiration_days', function ($expiration
     return $expiration_days;
 });
 
-require_once get_stylesheet_directory() . '/inc/Role.php';
-
 /**
  * Add superuser role
  */
-add_action('init', function () {
+add_action('after_switch_theme', function () {
     $role = new Role('superuser');
 
     if (null === $role->getRole()) {
@@ -139,7 +132,7 @@ add_action('init', function () {
 /**
  * Add caps to editor role
  */
-add_action('init', function () {
+add_action('after_switch_theme', function () {
     $role = new Role('editor');
 
     if (null === $role->getRole()) {
