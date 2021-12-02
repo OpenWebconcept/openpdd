@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 add_action('init', function () {
     if (is_admin() or is_rest()) {
@@ -21,15 +23,17 @@ add_action('init', function () {
 });
 
 add_action('send_headers', function () {
-    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT .'/config/secure-headers.php')->send();
+    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
 });
 
 function is_rest()
 {
     $prefix = rest_get_url_prefix();
-    if (defined('REST_REQUEST') && REST_REQUEST // (#1)
+    if (
+        defined('REST_REQUEST') && REST_REQUEST // (#1)
         || isset($_GET['rest_route']) // (#2)
-            && strpos(trim($_GET['rest_route'], '\\/'), $prefix, 0) === 0) {
+        && strpos(trim($_GET['rest_route'], '\\/'), $prefix, 0) === 0
+    ) {
         return true;
     }
     // (#3)
@@ -40,8 +44,9 @@ function is_rest()
 
     // (#4)
     $rest_url = wp_parse_url(trailingslashit(rest_url()));
-    $current_url = wp_parse_url(add_query_arg([ ]));
-    return (strpos($current_url['path'], $rest_url['path'], 0) === 0);
+    $current_url = wp_parse_url(add_query_arg([]));
+    $current_url_path = $current_url['path'] ?? '';
+    return (strpos($current_url_path, $rest_url['path'], 0) === 0);
 }
 
 /**
@@ -278,16 +283,16 @@ add_action('after_switch_theme', function () {
 });
 
 add_action('wp_default_scripts', function ($scripts) {
-    if (! is_admin() && ! empty($scripts->registered['jquery'])) {
-        $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, [ 'jquery-migrate' ]);
+    if (!is_admin() && !empty($scripts->registered['jquery'])) {
+        $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, ['jquery-migrate']);
     }
 });
 
 if (class_exists(\GF_Fields::class)) {
     \GF_Fields::register(new HW\Gravityforms\Fields\HWCodesValidation());
 }
-add_filter( 'gform_export_fields', [HW\Gravityforms\Export::class, 'modifyHeading'], 10, 1);
-add_filter( 'gform_export_field_value', [HW\Gravityforms\Export::class, 'modifyValue'], 10, 4 );
+add_filter('gform_export_fields', [HW\Gravityforms\Export::class, 'modifyHeading'], 10, 1);
+add_filter('gform_export_field_value', [HW\Gravityforms\Export::class, 'modifyValue'], 10, 4);
 
 add_filter('gform_field_groups_form_editor', function ($field_groups) {
     $field_groups['hw_fields'] = [
