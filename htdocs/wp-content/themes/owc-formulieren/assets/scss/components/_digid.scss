@@ -32,8 +32,9 @@ $block: "digid";
 #logoutLink {
   @include button-variant(theme-color("primary"), theme-color("primary"));
   display: inline-block;
-  margin-bottom: 1rem;
+  margin-top: 0.75rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
   color: $white;
-  float: right;
 }

@@ -5,11 +5,15 @@
 }
 
 #js-countdown {
-  display: inline-block;
+  display: contents;
   margin-top: 1rem;
   margin-left: auto;
   width: fit-content;
   min-height: 30px;
   text-align: right;
   float: right;
+}
+
+#js-countdown + form {
+  margin-top: 1rem;
 }
