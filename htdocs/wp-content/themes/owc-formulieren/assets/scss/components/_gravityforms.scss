@@ -374,17 +374,19 @@
 
   input[type="submit"],
   input[type="button"] {
-    @extend .btn;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border: none !important;
 
     &.gform_button,
     &.gform_next_button {
-      @extend .btn-primary;
+      @include button-variant(theme-color("primary"), theme-color("primary"));
       order: 2;
       margin-top: $spacer;
     }
 
     &.gform_previous_button {
-      @extend .btn-primary-outline;
+      @include button-variant-outline(gray("concrete"));
       margin-right: $spacer;
       margin-top: $spacer;
       order: 1;
