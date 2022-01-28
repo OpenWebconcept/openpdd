@@ -386,7 +386,8 @@
     }
 
     &.gform_previous_button {
-      @include button-variant-outline(gray("concrete"));
+      @include button-variant(gray("concrete"), darken(gray("concrete"), 20%));
+      color: $black !important;
       margin-right: $spacer;
       margin-top: $spacer;
       order: 1;
