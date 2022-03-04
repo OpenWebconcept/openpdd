@@ -1,32 +1,38 @@
-# Loco Gettext template
-#, fuzzy
+# Copyright (C) 2022 Yard | Digital Agency
+# This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Yard | Hoeksche Waard\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 20:34+0100\n"
-"POT-Revision-Date: Fri Nov 27 2015 13:26:26 GMT+0100 (W. Europe Standard Time)\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
-"Language-Team: Yard | Digital Agency <info@yard.nl>\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"Project-Id-Version: Hoeksche Waard | Formulieren 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hoekschewaard\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;"
-"__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;"
-"esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c\n"
-"X-Generator: Poedit 3.0\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPathExcluded-0: assets\n"
-"X-Poedit-SearchPathExcluded-1: node_modules\n"
-"X-Poedit-SearchPathExcluded-2: vendor\n"
+"POT-Creation-Date: 2022-03-04T10:36:35+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+
+#. Theme Name of the theme
+#. Description of the theme
+msgid "Hoeksche Waard | Formulieren"
+msgstr ""
+
+#. Theme URI of the theme
+#. Author URI of the theme
+msgid "https://www.yard.nl"
+msgstr ""
+
+#. Author of the theme
+msgid "Yard | Digital Agency"
+msgstr ""
 
 #: functions.php:14
-#, php-format
 msgid "Error locating %s for inclusion"
+msgstr ""
+
+#: src/gf-forms-extend.php:143
+msgid "Click to view"
 msgstr ""
 
 #: src/Gravityforms/Fields/HWCodesValidation.php:24
@@ -45,56 +51,98 @@ msgstr ""
 msgid "The code is not valid"
 msgstr ""
 
-#: src/gf-forms-extend.php:143
-msgid "Click to view"
-msgstr ""
-
-#: src/hooks.php:31
+#: src/hooks.php:95
 msgctxt "taxonomy general name"
 msgid "Owner"
 msgstr ""
 
-#: src/hooks.php:32
+#: src/hooks.php:96
 msgctxt "taxonomy singular name"
 msgid "Owner"
 msgstr ""
 
-#: src/hooks.php:33
+#: src/hooks.php:97
 msgid "Search owners"
 msgstr ""
 
-#: src/hooks.php:34
+#: src/hooks.php:98
 msgid "All owners"
 msgstr ""
 
-#: src/hooks.php:35
+#: src/hooks.php:99
 msgid "Parent owner"
 msgstr ""
 
-#: src/hooks.php:36
+#: src/hooks.php:100
 msgid "Parent owner:"
 msgstr ""
 
-#: src/hooks.php:37
+#: src/hooks.php:101
 msgid "Edit owner"
 msgstr ""
 
-#: src/hooks.php:38
+#: src/hooks.php:102
 msgid "Update owner"
 msgstr ""
 
-#: src/hooks.php:39
+#: src/hooks.php:103
 msgid "Add new owner"
 msgstr ""
 
-#: src/hooks.php:40
+#: src/hooks.php:104
 msgid "New owner name"
 msgstr ""
 
-#: src/hooks.php:41
+#: src/hooks.php:105
 msgid "Owner"
 msgstr ""
 
-#: src/setup.php:41
+#: src/hooks.php:121
+msgctxt "taxonomy general name"
+msgid "Link"
+msgstr ""
+
+#: src/hooks.php:122
+msgctxt "taxonomy singular name"
+msgid "Link"
+msgstr ""
+
+#: src/hooks.php:123
+msgid "Search Links"
+msgstr ""
+
+#: src/hooks.php:124
+msgid "All Links"
+msgstr ""
+
+#: src/hooks.php:125
+msgid "Parent Link"
+msgstr ""
+
+#: src/hooks.php:126
+msgid "Parent Link:"
+msgstr ""
+
+#: src/hooks.php:127
+msgid "Edit Link"
+msgstr ""
+
+#: src/hooks.php:128
+msgid "Update Link"
+msgstr ""
+
+#: src/hooks.php:129
+msgid "Add new Link"
+msgstr ""
+
+#: src/hooks.php:130
+msgid "New Link name"
+msgstr ""
+
+#: src/hooks.php:131
+msgid "Link"
+msgstr ""
+
+#: src/setup.php:40
 msgid "Primary Menu"
 msgstr ""

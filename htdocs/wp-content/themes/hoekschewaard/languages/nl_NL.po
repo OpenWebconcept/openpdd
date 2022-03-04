@@ -2,9 +2,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Yard | Hoeksche Waard\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-05 20:34+0100\n"
-"PO-Revision-Date: 2021-11-05 20:34+0100\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hoekschewaard\n"
+"POT-Creation-Date: 2022-03-04T10:36:35+00:00\n"
+"PO-Revision-Date: 2022-03-04 11:40+0100\n"
 "Last-Translator: \n"
 "Language-Team: Yard | Digital Agency <info@yard.nl>\n"
 "Language: nl_NL\n"
@@ -21,16 +21,33 @@ msgstr ""
 "_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
 "esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
 "esc_html_x:1,2c\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 2.4.3\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: assets\n"
 "X-Poedit-SearchPathExcluded-1: node_modules\n"
 "X-Poedit-SearchPathExcluded-2: vendor\n"
 
+#. Theme Name of the theme
+#. Description of the theme
+msgid "Hoeksche Waard | Formulieren"
+msgstr "Hoeksche Waard | Formulieren"
+
+#. Theme URI of the theme
+#. Author URI of the theme
+msgid "https://www.yard.nl"
+msgstr "https://www.yard.nl"
+
+#. Author of the theme
+msgid "Yard | Digital Agency"
+msgstr "Yard | Digital Agency"
+
 #: functions.php:14
-#, php-format
 msgid "Error locating %s for inclusion"
 msgstr "Fout bij het lokaliseren van %s voor opname"
+
+#: src/gf-forms-extend.php:143
+msgid "Click to view"
+msgstr "Bekijk eigenaar"
 
 #: src/Gravityforms/Fields/HWCodesValidation.php:24
 msgid "Code validation field"
@@ -48,56 +65,98 @@ msgstr "Dit veld is verplicht"
 msgid "The code is not valid"
 msgstr "De code is niet geldig"
 
-#: src/gf-forms-extend.php:143
-msgid "Click to view"
-msgstr "Bekijk eigenaar"
-
-#: src/hooks.php:31
+#: src/hooks.php:95
 msgctxt "taxonomy general name"
 msgid "Owner"
 msgstr "Eigenaar"
 
-#: src/hooks.php:32
+#: src/hooks.php:96
 msgctxt "taxonomy singular name"
 msgid "Owner"
 msgstr "Eigenaar"
 
-#: src/hooks.php:33
+#: src/hooks.php:97
 msgid "Search owners"
 msgstr "Zoek eigenaren"
 
-#: src/hooks.php:34
+#: src/hooks.php:98
 msgid "All owners"
 msgstr "Alle eigenaren"
 
-#: src/hooks.php:35
+#: src/hooks.php:99
 msgid "Parent owner"
 msgstr "Hoofd eigenaar"
 
-#: src/hooks.php:36
+#: src/hooks.php:100
 msgid "Parent owner:"
 msgstr "Hoofd eigenaar:"
 
-#: src/hooks.php:37
+#: src/hooks.php:101
 msgid "Edit owner"
 msgstr "Bewerk eigenaar"
 
-#: src/hooks.php:38
+#: src/hooks.php:102
 msgid "Update owner"
 msgstr "Sla eigenaar op"
 
-#: src/hooks.php:39
+#: src/hooks.php:103
 msgid "Add new owner"
 msgstr "Voeg eigenaar toe"
 
-#: src/hooks.php:40
+#: src/hooks.php:104
 msgid "New owner name"
 msgstr "Nieuwe eigenaar naam"
 
-#: src/hooks.php:41
+#: src/hooks.php:105
 msgid "Owner"
 msgstr "Eigenaar"
 
-#: src/setup.php:41
+#: src/hooks.php:121
+msgctxt "taxonomy general name"
+msgid "Link"
+msgstr "Link"
+
+#: src/hooks.php:122
+msgctxt "taxonomy singular name"
+msgid "Link"
+msgstr "Link"
+
+#: src/hooks.php:123
+msgid "Search Links"
+msgstr "Zoek Links"
+
+#: src/hooks.php:124
+msgid "All Links"
+msgstr "Alle links"
+
+#: src/hooks.php:125
+msgid "Parent Link"
+msgstr "Hoofd link"
+
+#: src/hooks.php:126
+msgid "Parent Link:"
+msgstr "Hoofd link:"
+
+#: src/hooks.php:127
+msgid "Edit Link"
+msgstr "Bewerk link"
+
+#: src/hooks.php:128
+msgid "Update Link"
+msgstr "Sla link op"
+
+#: src/hooks.php:129
+msgid "Add new Link"
+msgstr "Voeg link toe"
+
+#: src/hooks.php:130
+msgid "New Link name"
+msgstr "Nieuwe link naam"
+
+#: src/hooks.php:131
+msgid "Link"
+msgstr "Link"
+
+#: src/setup.php:40
 msgid "Primary Menu"
-msgstr "Primair menu"
+msgstr "Hoofdmenu"
