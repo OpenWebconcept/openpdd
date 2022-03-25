@@ -327,7 +327,7 @@ return [
             'allow'         => [
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com'
+                '*.readspeaker.com',
             ],
         ],
 
@@ -337,7 +337,7 @@ return [
             'allow' => [
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com'
+                '*.readspeaker.com'
             ],
         ],
 
@@ -350,7 +350,7 @@ return [
                 'fonts.gstatic.com',
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com'
+                '*.readspeaker.com'
             ],
             'schemes' => [
                 'data:',
@@ -381,7 +381,7 @@ return [
             'allow'         => [
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com',
+                '*.readspeaker.com',
                 'secure.gravatar.com'
             ],
             'schemes'       => [
@@ -403,7 +403,7 @@ return [
             'allow'         => [
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com'
+                '*.readspeaker.com'
             ],
         ],
 
@@ -458,7 +458,7 @@ return [
             'allow'         => [
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com',
+                '*.readspeaker.com',
                 'code.jquery.com',
                 'siteimproveanalytics.com'
             ],
@@ -484,7 +484,7 @@ return [
             'allow'         => [
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com',
+                '*.readspeaker.com',
                 'code.jquery.com',
                 'siteimproveanalytics.com'
             ],
@@ -508,7 +508,7 @@ return [
                 'fonts.googleapis.com',
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com'
+                '*.readspeaker.com'
             ],
             'unsafe-inline' => true
         ],
@@ -528,7 +528,7 @@ return [
                 'fonts.googleapis.com',
                 'kit.fontawesome.com',
                 'ka-p.fontawesome.com',
-                'cdn1.readspeaker.com'
+                '*.readspeaker.com'
             ],
             'unsafe-inline' => true
         ],
