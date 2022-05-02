@@ -1,11 +1,11 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace GGD\AFAS;
 
+use function GGD\AFAS\Helpers\resolve;
 use GGD\AFAS\Models\FormData;
 use GGD\AFAS\Models\Person;
 use GGD\AFAS\TeamsLogger;
-use function GGD\AFAS\Helpers\resolve;
 
 class AFAS
 {
@@ -53,9 +53,9 @@ class AFAS
             $person = $this->getPerson($formData);
         } catch (\Exception $e) {
             $this->teams->addRecord('error', 'GGD klachtenformulier', [
-                'message' => sprintf('AFAS error: could not retrieve person (%s) from AFAS. Error: %s.', $formData->email(), $e->getMessage())
+                'message' => $e->getMessage()
             ]);
-            return $form;
+            $person = [];
         }
 
         try {
@@ -90,7 +90,7 @@ class AFAS
         try {
             $person = (new \GGD\AFAS\SOAP\Requests\getPerson(resolve('SOAPGetRequest'), $formData->email()))->get();
         } catch (\Exception $e) {
-            throw new \Exception(sprintf('AFAS error: could not retrieve person from AFAS. Error: %s', $e->getMessage()));
+            throw new \Exception(sprintf('AFAS error: could not retrieve person (%s) from AFAS. Error: %s.', $formData->email(), $e->getMessage()));
         }
 
         return $person;
