@@ -5,10 +5,10 @@ defined('ABSPATH') || exit;
 
 // PSR autoloader
 spl_autoload_register(function ($className) {
-    $baseDir   = __DIR__ . '/src/';
+    $baseDir = __DIR__ . '/src/';
     $namespace = str_replace("\\", "/", __NAMESPACE__);
     $className = str_replace("\\", "/", $className);
-    $class     = $baseDir . (empty($namespace) ? "" : $namespace . "/") . $className . '.php';
+    $class = $baseDir . (empty($namespace) ? "" : $namespace . "/") . $className . '.php';
     if (file_exists($class)) {
         require_once $class;
     }
@@ -32,3 +32,5 @@ unset($file, $filepath);
 
 (new GGD\AFAS\AfasServiceProvider());
 (new GGD\AFAS\SOAP\SOAPContainer());
+
+add_filter('gform_enable_legacy_markup', '__return_true');
