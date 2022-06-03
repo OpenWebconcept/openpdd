@@ -247,20 +247,13 @@
     }
   }
 
-  &_date {
-    .ginput_container_date {
-      display: inline-block;
-      padding-right: $spacer * 0.5;
-    }
-  }
 
   &_time {
     display: inline-block;
 
     input[type="number"] {
-      width: auto;
+      width: 100%;
       min-width: 100px;
-      margin-right: $spacer * 0.25;
     }
 
     i {
@@ -440,6 +433,7 @@
 
   &.gf_name_has_2 {
     display: flex;
+    gap: 0.5rem; 
     flex-direction: column;
 
     @include media-breakpoint-up(md) {
@@ -449,15 +443,12 @@
     span,
     input {
       width: 100%;
-
-      @include media-breakpoint-up(md) {
-        padding-right: $spacer;
-      }
     }
   }
 
   &.gf_name_has_3 {
     display: flex;
+    gap: 0.5rem; 
     flex-direction: column;
 
     @include media-breakpoint-up(md) {
@@ -467,10 +458,6 @@
     span,
     input {
       width: 100%;
-
-      @include media-breakpoint-up(md) {
-        padding-right: $spacer;
-      }
     }
   }
 }
@@ -544,6 +531,25 @@
 .clear-multi {
   @include media-breakpoint-up(md) {
     flex-basis: 50%;
+  }
+}
+
+.ginput_complex {
+  .clear-multi {
+    display: flex;
+    gap: 0.5rem;
+
+    > .ginput_container {
+      flex: auto; 
+    }
+
+    // .ginput_container_date {
+    //   &.gfield_date_day,
+    //   &.gfield_date_month,
+    //   &.gfield_date_year {
+    //     width: calc(50% - 1);
+    //   }
+    // }
   }
 }
 
