@@ -46,13 +46,6 @@ add_action('after_setup_theme', function () {
 add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
 
 /**
- * Proper way to enqueue scripts and styles
- */
-add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('style', get_stylesheet_directory_uri() . '/assets/dist/css/style.css', [], filemtime(__DIR__));
-}, 10);
-
-/**
  * Enable REST API
  */
 add_filter('yard/config-expander/config/admin', function ($defaults) {

@@ -86,7 +86,8 @@ add_action('after_switch_theme', function () {
 });
 
 add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('child-theme-style', get_stylesheet_directory_uri() . '/assets/dist/css/style.css', [], filemtime(__DIR__));
+    wp_enqueue_style('child-theme-style', get_stylesheet_directory_uri() . '/assets/dist/frontend.css', [], filemtime(__DIR__));
+    wp_enqueue_script('child-theme-script', get_template_directory_uri() . '/assets/dist/frontend.js', ['jquery'], filemtime(__DIR__), true);
 });
 
 add_action('after_switch_theme', function () {

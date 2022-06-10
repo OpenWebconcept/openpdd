@@ -7,550 +7,555 @@
  */
 
 .gform_wrapper {
-  table {
-    @extend .table;
-  }
+	table {
+		@extend .table;
+	}
 
-  ul {
-    @extend .list-unstyled;
-  }
+	ul {
+		@extend .list-unstyled;
+	}
 
-  label {
-    font-weight: $font-weight-bold;
-  }
+	label {
+		font-weight: $font-weight-bold;
+	}
 
-  .hidden_sub_label,
-  .screen-reader-text {
-    display: none;
-  }
+	.hidden_sub_label,
+	.screen-reader-text {
+		display: none;
+	}
 
-  .radio-buttons--horizontal {
-    ul {
-      display: flex;
+	.radio-buttons--horizontal {
+		ul {
+			display: flex;
 
-      li {
-        margin-right: 2rem;
-      }
+			li {
+				margin-right: 2rem;
+			}
 
-      label {
-        padding-top: 2rem;
-        padding-left: 0.1rem;
-      }
-    }
-  }
+			label {
+				padding-top: 2rem;
+				padding-left: 0.1rem;
+			}
+		}
+	}
 }
 
 .gfield {
-  margin-bottom: $spacer * 2;
+	margin-bottom: $spacer * 2;
 
-  @include media-breakpoint-up(md) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
+	@include media-breakpoint-up( md ) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
 
-  &_visibility_ {
-    display: none;
-  }
+	&_visibility_ {
+		display: none;
+	}
 
-  &_error {
-    textarea,
-    input {
-      @extend .is-invalid;
-    }
+	&_error {
+		textarea,
+		input {
+			@extend .is-invalid;
+		}
 
-    > label {
-      color: $danger;
-    }
+		> label {
+			color: $danger;
+		}
 
-    .validation_message {
-      @extend .invalid-feedback;
-      display: block;
-      margin-top: 0;
+		.validation_message {
+			@extend .invalid-feedback;
+			display: block;
+			margin-top: 0;
 
-      @include media-breakpoint-up(md) {
-        width: 51%;
-      }
-    }
-  }
+			@include media-breakpoint-up( md ) {
+				width: 51%;
+			}
+		}
+	}
 
-  &_list_container {
-    thead {
-      th {
-        padding-left: $spacer * 1.5;
-      }
-    }
-  }
+	&_list_container {
+		thead {
+			th {
+				padding-left: $spacer * 1.5;
+			}
+		}
+	}
 
-  &_list_icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+	&_list_icons {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 
-  &_price {
-    input[type="number"] {
-      width: 115px;
-    }
-  }
+	&_price {
+		input[type='number'] {
+			width: 115px;
+		}
+	}
 }
 
 .gfield_label {
-  padding-right: $spacer;
-  transition: 0.2s ease all;
+	padding-right: $spacer;
+	transition: 0.2s ease all;
 
-  @include media-breakpoint-up(md) {
-    flex: 1 0 50%;
-  }
+	@include media-breakpoint-up( md ) {
+		flex: 1 0 50%;
+	}
 }
 
 .gfield_description {
-  font-size: $spacer;
-  padding: $spacer / 2 0;
+	padding: $spacer * 0.5 0;
+	font-size: $spacer;
 
-  @include media-breakpoint-up(md) {
-    padding-left: $spacer * 0.7;
-    width: 51%;
-  }
+	@include media-breakpoint-up( md ) {
+		width: 51%;
+		padding-left: $spacer * 0.7;
+	}
 
-  ul {
-    margin-bottom: $spacer;
-    margin-left: $spacer * 2;
-    list-style: disc;
+	ul {
+		margin-bottom: $spacer;
+		margin-left: $spacer * 2;
+		list-style: disc;
 
-    li {
-      margin-bottom: $spacer * 0.5;
-    }
-  }
+		li {
+			margin-bottom: $spacer * 0.5;
+		}
+	}
 }
 
 .gfield_required {
-  padding-left: 1px;
-  color: $red;
+	padding-left: 1px;
+	color: $red;
 }
 
 /* Heading */
 .gform_heading {
-  margin-bottom: $spacer;
+	margin-bottom: $spacer;
 
-  .gform_title {
-    display: none;
-  }
+	.gform_title {
+		display: none;
+	}
 
-  .gform_description {
-    margin-bottom: $spacer * 0.5;
-  }
+	.gform_description {
+		margin-bottom: $spacer * 0.5;
+	}
 }
 
 .ginput_container {
-  @include media-breakpoint-up(md) {
-    flex: 1 0 50%;
-  }
+	@include media-breakpoint-up( md ) {
+		flex: 1 0 50%;
+	}
 
-  input[type="text"],
-  input[type="email"],
-  input[type="tel"],
-  input[type="url"],
-  input[type="number"],
-  select {
-    @extend .form-control;
-    height: auto;
-    width: 100%;
+	input[type='text'],
+	input[type='email'],
+	input[type='tel'],
+	input[type='url'],
+	input[type='number'],
+	select {
+		@extend .form-control;
+		width: 100%;
+		height: auto;
 
-    &::placeholder {
-      color: gray("500");
-    }
-  }
+		&::placeholder {
+			color: gray( '500' );
+		}
+	}
 
-  textarea {
-    @extend .form-control;
-    width: 100%;
-    height: 120px;
+	textarea {
+		@extend .form-control;
+		width: 100%;
+		height: 120px;
 
-    @include media-breakpoint-up(md) {
-      height: 160px;
-    }
+		@include media-breakpoint-up( md ) {
+			height: 160px;
+		}
 
-    &::placeholder {
-      color: gray("500");
-    }
-  }
+		&::placeholder {
+			color: gray( '500' );
+		}
+	}
 
-  select {
-    height: $spacer * 2.9;
-  }
+	select {
+		height: $spacer * 2.9;
+	}
 
-  // Checkboxes and radio's
-  &_radio,
-  &_checkbox,
-  &_consent {
-    @extend .form-check;
-    padding-left: 0;
+	// Checkboxes and radio's
+	&_radio,
+	&_checkbox,
+	&_consent {
+		@extend .form-check;
+		padding-left: 0;
 
-    label {
-      @extend .form-check-label;
-      padding-left: $spacer * 2.2;
-      font-weight: $font-weight-normal;
+		label {
+			@extend .form-check-label;
+			padding-left: $spacer * 2.2;
+			font-weight: $font-weight-normal;
 
-      @supports (-webkit-touch-callout: none) {
-        /* CSS specific to iOS devices */
-        padding-left: $spacer * 1.4;
-      }
-    }
+			@supports ( -webkit-touch-callout: none ) {
+				/* CSS specific to iOS devices */
+				padding-left: $spacer * 1.4;
+			}
+		}
 
-    input[type="text"] {
-      margin-left: $spacer * 2; // For the "other" option
-    }
+		input[type='text'] {
+			margin-left: $spacer * 2; // For the "other" option
+		}
 
-    .gfield_checkbox,
-    .gfield_radio {
-      li {
-        display: flex;
-        align-items: flex-start;
-        margin-bottom: $spacer * 0.5;
+		.gfield_checkbox,
+		.gfield_radio {
+			li {
+				display: flex;
+				align-items: flex-start;
+				margin-bottom: $spacer * 0.5;
 
-        &:last-child {
-          margin-bottom: 0;
-        }
+				&:last-child {
+					margin-bottom: 0;
+				}
 
-        input[type="checkbox"]:checked + label,
-        input[type="radio"]:checked + label {
-          font-weight: $font-weight-bold;
-        }
+				input[type='checkbox']:checked + label,
+				input[type='radio']:checked + label {
+					font-weight: $font-weight-bold;
+				}
 
-        // Custom checkbox
-        input[type="checkbox"] {
-          @include custom-input-icon("\f0c8", "\f14a");
-        }
+				// Custom checkbox
+				input[type='checkbox'] {
+					@include custom-input-icon( '\f0c8', '\f14a' );
+				}
 
-        // Custom radiobutton
-        input[type="radio"] {
-          @include custom-input-icon("\f111", "\f192");
-        }
-      }
-    }
-  }
+				// Custom radiobutton
+				input[type='radio'] {
+					@include custom-input-icon( '\f111', '\f192' );
+				}
+			}
+		}
+	}
 
-  &_consent {
-    display: flex;
-    align-items: flex-start;
+	&_consent {
+		display: flex;
+		align-items: flex-start;
 
-    // Custom checkbox
-    input[type="checkbox"] {
-      @include custom-input-icon("\f0c8", "\f14a");
+		// Custom checkbox
+		input[type='checkbox'] {
+			@include custom-input-icon( '\f0c8', '\f14a' );
 
-      &:focus {
-        & + label {
-          font-weight: $font-weight-normal;
-        }
-      }
-    }
-  }
+			&:focus {
+				& + label {
+					font-weight: $font-weight-normal;
+				}
+			}
+		}
+	}
 
+	&_time {
+		display: inline-block;
 
-  &_time {
-    display: inline-block;
+		input[type='number'] {
+			width: 100%;
+			min-width: 100px;
+		}
 
-    input[type="number"] {
-      width: 100%;
-      min-width: 100px;
-    }
+		i {
+			display: none;
+		}
 
-    i {
-      display: none;
-    }
+		label {
+			font-weight: $font-weight-normal;
+		}
+	}
 
-    label {
-      font-weight: $font-weight-normal;
-    }
-  }
+	&_list {
+		@extend .table-responsive;
+	}
 
-  &_list {
-    @extend .table-responsive;
-  }
+	.add_list_item,
+	.delete_list_item {
+		width: $spacer * 1.75;
+		height: $spacer * 1.75;
+		margin: #{$spacer * 0.25} auto;
 
-  .add_list_item,
-  .delete_list_item {
-    width: $spacer * 1.75;
-    height: $spacer * 1.75;
-    margin: #{$spacer * 0.25} auto;
+		img {
+			width: 100% !important;
+			height: 100% !important;
+			margin: 0;
+		}
+	}
 
-    img {
-      width: 100% !important;
-      height: 100% !important;
-      margin: 0;
-    }
-  }
-
-  .ginput_counter {
-    font-size: $spacer;
-  }
+	.ginput_counter {
+		font-size: $spacer;
+	}
 }
 
 .ginput_container_bag_address {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 
-  span {
-    width: 100%;
-  }
+	span {
+		width: 100%;
+	}
 
-  // Zip
-  span:nth-child(1) {
-    flex-basis: 100%;
+	// Zip
+	span:nth-child( 1 ) {
+		flex-basis: 100%;
 
-    @include media-breakpoint-up(sm) {
-      flex-basis: 50%;
-    }
-  }
+		@include media-breakpoint-up( sm ) {
+			flex-basis: 50%;
+		}
+	}
 
-  // Number & addition
-  span:nth-child(2),
-  span:nth-child(3) {
-    flex-basis: 50%;
-    overflow: hidden;
+	// Number & addition
+	span:nth-child( 2 ),
+	span:nth-child( 3 ) {
+		overflow: hidden;
+		flex-basis: 50%;
 
-    @include media-breakpoint-up(sm) {
-      flex-basis: 25%;
-      padding-left: $spacer * 0.8;
-    }
-  }
+		@include media-breakpoint-up( sm ) {
+			flex-basis: 25%;
+			padding-left: $spacer * 0.8;
+		}
+	}
 
-  // Addition only
-  span:nth-child(3) {
-    padding-left: $spacer;
-  }
+	// Addition only
+	span:nth-child( 3 ) {
+		padding-left: $spacer;
+	}
 
-  // Search button wrapper
-  span:nth-child(4) {
-    flex-basis: 100%;
-    margin: $spacer 0;
-    position: relative;
+	// Search button wrapper
+	span:nth-child( 4 ) {
+		position: relative;
+		flex-basis: 100%;
+		margin: $spacer 0;
 
-    &::before {
-      @include fontawesome("\f002");
-      position: absolute;
-      top: 12px;
-      left: 20px;
-      z-index: 1;
-      font-weight: $font-weight-bold;
-      color: $white;
-      transition: 0.15s ease all;
-      pointer-events: none;
-    }
-  }
+		&::before {
+			@include fontawesome( '\f002' );
+			position: absolute;
+			z-index: 1;
+			top: 12px;
+			left: 20px;
+			color: $white;
+			font-weight: $font-weight-bold;
+			pointer-events: none;
+			transition: 0.15s ease all;
+		}
+	}
 
-  .bag-search-button {
-    @extend .btn;
-    @extend .btn-secondary;
-    position: relative;
-    padding-left: $spacer * 3;
-  }
+	.bag-search-button {
+		@extend .btn;
+		@extend .btn-secondary;
+		position: relative;
+		padding-left: $spacer * 3;
+	}
 
-  .result {
-    color: $danger;
-    font-size: $spacer;
-    margin-bottom: $spacer * 1.5;
-    height: auto !important;
-  }
+	.result {
+		height: auto !important;
+		margin-bottom: $spacer * 1.5;
+		color: $danger;
+		font-size: $spacer;
+	}
 }
 
 .gform_footer,
 .gform_page_footer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: center;
-  border-top: 1px solid gray("300");
-  padding: $spacer * 1.5 $spacer;
-  text-align: right;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: flex-end;
+	padding: $spacer * 1.5 $spacer;
+	border-top: 1px solid gray( '300' );
+	text-align: right;
 
-  input[type="submit"],
-  input[type="button"] {
-    margin-left: 1rem;
-    padding: 0.5rem 1rem;
-    border: none !important;
+	input[type='submit'],
+	input[type='button'] {
+		padding: 0.5rem 1rem;
+		border: none !important;
+		margin-left: 1rem;
 
-    &.gform_button,
-    &.gform_next_button {
-      @include button-variant(theme-color("primary"), theme-color("primary"));
-      order: 2;
-      margin-top: $spacer;
-    }
+		&.gform_button,
+		&.gform_next_button {
+			@include button-variant(
+				theme-color( 'primary' ),
+				theme-color( 'primary' )
+			);
+			order: 2;
+			margin-top: $spacer;
+		}
 
-    &.gform_previous_button {
-      @include button-variant(gray("concrete"), darken(gray("concrete"), 20%));
-      color: $black !important;
-      margin-right: $spacer;
-      margin-top: $spacer;
-      order: 1;
-    }
-  }
+		&.gform_previous_button {
+			@include button-variant(
+				gray( 'concrete' ),
+				darken( gray( 'concrete' ), 20% )
+			);
+			order: 1;
+			margin-top: $spacer;
+			margin-right: $spacer;
+			color: $black !important;
+		}
+	}
 
-  .gform_save_link {
-    margin-top: $spacer;
-    margin-right: auto;
-    order: 0;
-    line-height: 1.2;
-  }
+	.gform_save_link {
+		order: 0;
+		margin-top: $spacer;
+		margin-right: auto;
+		line-height: 1.2;
+	}
 }
 
 .validation_error {
-  display: none;
-  position: relative;
-  padding: $spacer * 0.75 $spacer * 1.25;
-  border: 1px solid $danger;
-  margin-bottom: $spacer;
-  border-radius: 0;
-  color: $danger;
+	position: relative;
+	display: none;
+	padding: $spacer * 0.75 $spacer * 1.25;
+	border: 1px solid $danger;
+	margin-bottom: $spacer;
+	border-radius: 0;
+	color: $danger;
 }
 
 // Complex fields
 .gfield_label_before_complex {
-  padding-bottom: $spacer * 0.3125;
+	padding-bottom: $spacer * 0.3125;
 }
 
 .ginput_complex {
-  label {
-    padding-top: $spacer * 0.625;
-    padding-bottom: $spacer * 0.625;
-    margin-bottom: 0;
-    font-weight: $font-weight-normal;
-    font-size: $spacer;
-  }
+	label {
+		padding-top: $spacer * 0.625;
+		padding-bottom: $spacer * 0.625;
+		margin-bottom: 0;
+		font-size: $spacer;
+		font-weight: $font-weight-normal;
+	}
 
-  .ginput {
-    &_full {
-      display: block;
-    }
+	.ginput {
+		&_full {
+			display: block;
+		}
 
-    &_left,
-    &_right {
-      display: inline-block;
-      width: 100%;
-    }
-  }
+		&_left,
+		&_right {
+			display: inline-block;
+			width: 100%;
+		}
+	}
 
-  &.gf_name_has_2 {
-    display: flex;
-    gap: 0.5rem; 
-    flex-direction: column;
+	&.gf_name_has_2 {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
 
-    @include media-breakpoint-up(md) {
-      flex-direction: row;
-    }
+		@include media-breakpoint-up( md ) {
+			flex-direction: row;
+		}
 
-    span,
-    input {
-      width: 100%;
-    }
-  }
+		span,
+		input {
+			width: 100%;
+		}
+	}
 
-  &.gf_name_has_3 {
-    display: flex;
-    gap: 0.5rem; 
-    flex-direction: column;
+	&.gf_name_has_3 {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
 
-    @include media-breakpoint-up(md) {
-      flex-direction: row;
-    }
+		@include media-breakpoint-up( md ) {
+			flex-direction: row;
+		}
 
-    span,
-    input {
-      width: 100%;
-    }
-  }
+		span,
+		input {
+			width: 100%;
+		}
+	}
 }
 
 .gsection {
-  margin-bottom: $spacer 0;
-  border-bottom: 1px solid gray("300");
-  justify-content: flex-start;
+	justify-content: flex-start;
+	border-bottom: 1px solid gray( '300' );
+	margin-bottom: $spacer 0;
 
-  ul {
-    margin-bottom: $spacer;
-    margin-left: $spacer * 2;
-    list-style: disc;
+	ul {
+		margin-bottom: $spacer;
+		margin-left: $spacer * 2;
+		list-style: disc;
 
-    li {
-      margin-bottom: $spacer * 0.5;
-    }
-  }
+		li {
+			margin-bottom: $spacer * 0.5;
+		}
+	}
 }
 
 .form_saved_message {
-  form {
-    display: flex;
-  }
+	form {
+		display: flex;
+	}
 
-  input[type="email"] {
-    @extend .form-control;
-    height: auto;
-    margin-right: $spacer * 0.5;
+	input[type='email'] {
+		@extend .form-control;
+		height: auto;
+		margin-right: $spacer * 0.5;
 
-    @include media-breakpoint-up(md) {
-      width: calc(50% - 8px);
-    }
-  }
+		@include media-breakpoint-up( md ) {
+			width: calc( 50% - 8px );
+		}
+	}
 
-  input[type="submit"] {
-    @extend .btn;
-    @extend .btn-primary;
-  }
+	input[type='submit'] {
+		@extend .btn;
+		@extend .btn-primary;
+	}
 
-  .resume_form_link_wrapper {
-    word-break: break-all;
-  }
+	.resume_form_link_wrapper {
+		word-break: break-all;
+	}
 }
 
 .gform_confirmation_message {
-  @extend .alert;
-  @extend .alert-success;
+	@extend .alert;
+	@extend .alert-success;
 }
 
 .gfield_html_formatted {
-  display: block;
-  padding: $spacer;
-  background-color: rgba(theme-color("primary"), 0.08);
+	display: block;
+	padding: $spacer;
+	background-color: rgba( theme-color( 'primary' ), 0.08 );
 
-  @include media-breakpoint-up(md) {
-    padding: $spacer * 2;
-  }
+	@include media-breakpoint-up( md ) {
+		padding: $spacer * 2;
+	}
 
-  ul {
-    margin-bottom: $spacer;
-    margin-left: $spacer * 2;
-    list-style: disc;
+	ul {
+		margin-bottom: $spacer;
+		margin-left: $spacer * 2;
+		list-style: disc;
 
-    li {
-      margin-bottom: $spacer * 0.5;
-    }
-  }
+		li {
+			margin-bottom: $spacer * 0.5;
+		}
+	}
 }
 
 .clear-multi {
-  @include media-breakpoint-up(md) {
-    flex-basis: 50%;
-  }
+	@include media-breakpoint-up( md ) {
+		flex-basis: 50%;
+	}
 }
 
 .ginput_complex {
-  .clear-multi {
-    display: flex;
-    gap: 0.5rem;
+	.clear-multi {
+		display: flex;
+		gap: 0.5rem;
 
-    > .ginput_container {
-      flex: auto; 
-    }
+		> .ginput_container {
+			flex: auto;
+		}
 
-    // .ginput_container_date {
-    //   &.gfield_date_day,
-    //   &.gfield_date_month,
-    //   &.gfield_date_year {
-    //     width: calc(50% - 1);
-    //   }
-    // }
-  }
+		// .ginput_container_date {
+		//   &.gfield_date_day,
+		//   &.gfield_date_month,
+		//   &.gfield_date_year {
+		//     width: calc(50% - 1);
+		//   }
+		// }
+	}
 }
 
 // Honey pot
@@ -559,44 +564,44 @@
 body .gform_wrapper li.gform_validation_container,
 body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container,
 body
-  .gform_wrapper
-  .gform_body
-  ul.gform_fields
-  li.gfield.gform_validation_container {
-  position: absolute !important;
-  left: -9000px;
-  display: none !important;
+	.gform_wrapper
+	.gform_body
+	ul.gform_fields
+	li.gfield.gform_validation_container {
+	position: absolute !important;
+	left: -9000px;
+	display: none !important;
 }
 
 // Submission overview (all_fields)
 .gform_page_fields {
-  .gfield_html_formatted {
-    background-color: transparent;
-    padding: 0;
-  }
+	.gfield_html_formatted {
+		padding: 0;
+		background-color: transparent;
+	}
 
-  table:first-child {
-    background-color: gray("ghost");
-  }
+	table:first-child {
+		background-color: gray( 'ghost' );
+	}
 
-  table tbody table tr {
-    background-color: $pagination-bg;
+	table tbody table tr {
+		background-color: $pagination-bg;
 
-    td {
-      font-weight: bold;
-    }
+		td {
+			font-weight: bold;
+		}
 
-    &:nth-child(even) {
-      background-color: $white;
+		&:nth-child( even ) {
+			background-color: $white;
 
-      td {
-        font-weight: normal;
-      }
-    }
-  }
+			td {
+				font-weight: normal;
+			}
+		}
+	}
 
-  font {
-    font-family: $font-family-base !important;
-    font-size: 1rem !important;
-  }
+	font {
+		font-family: $font-family-base !important;
+		font-size: 1rem !important;
+	}
 }

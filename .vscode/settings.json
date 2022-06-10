@@ -1,0 +1,13 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"css.validate": false,
+	"scss.validate": false,
+	"eslint.workingDirectories": [
+		{
+			"directory": "htdocs/wp-content/themes",
+			"changeProcessCWD": true
+		}
+	],
+	"prettier.configPath": "htdocs/wp-content/themes/.prettierrc.js",
+	"stylelint.validate": ["css", "scss"]
+}
