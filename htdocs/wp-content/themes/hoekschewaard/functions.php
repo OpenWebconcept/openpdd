@@ -26,7 +26,7 @@ add_filter('the_content', function ($content) {
     if (strpos($content, '[gravityforms') === false) {
         return $content;
     }
-
+    
     $userAgent = $_SERVER['HTTP_USER_AGENT'];
     $browsers = [
         '/chrome/i' => 'Chrome',
