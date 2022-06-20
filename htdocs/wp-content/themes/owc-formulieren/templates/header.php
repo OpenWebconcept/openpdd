@@ -27,4 +27,7 @@
                 </div>
             </div>
         </div>
+        <?php if (get_current_blog_id() === env('HW_SITE_ID', 4)) : ?>
+            <?php get_template_part('partials/a11y-toolbar'); ?>
+        <?php endif; ?>
         <div class="page-content">

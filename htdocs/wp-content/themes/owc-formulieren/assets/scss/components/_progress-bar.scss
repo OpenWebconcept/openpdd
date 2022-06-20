@@ -1,74 +1,78 @@
 /* Progress bar */
 .gf_progressbar_wrapper {
-  width: 100%;
-  margin-bottom: $spacer * 2;
+	width: 100%;
+	margin-bottom: $spacer * 2;
 
-  .gf_progressbar_title {
-    display: none;
-    font-size: $font-size-base * 0.8;
-    font-weight: $font-weight-normal;
-    line-height: 1;
-  }
+	.gf_progressbar_title {
+		display: none;
+		font-size: $font-size-base * 0.8;
+		font-weight: $font-weight-normal;
+		line-height: 1;
+	}
 
-  .gf_progressbar {
-    position: relative;
-    width: 100%;
-    padding: $bar-padding;
-    background-color: $bar-padding-color;
-    border-radius: $bar-border-radius;
-    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+	.gf_progressbar {
+		position: relative;
+		width: 100%;
+		padding: $bar-padding;
+		background-color: $bar-padding-color;
+		border-radius: $bar-border-radius;
+		box-shadow: inset 0px 0px 1px 1px rgba( 0, 0, 0, 0.05 );
 
-    &::after {
-      position: absolute;
-      margin: $bar-padding;
-      height: $inner-bar-height;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      border-radius: $bar-border-radius;
-      background-color: $bar-background-color;
-      content: "";
-    }
-  }
+		&::after {
+			position: absolute;
+			margin: $bar-padding;
+			height: $inner-bar-height;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			border-radius: $bar-border-radius;
+			background-color: $bar-background-color;
+			content: '';
+		}
+	}
 
-  .gf_progressbar_percentage {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    position: relative;
-    height: $inner-bar-height;
-    text-align: right;
-    font-size: $font-size-base * 0.9;
-    color: #fff;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: $bar-border-radius;
-    border-bottom-left-radius: $bar-border-radius;
-    vertical-align: middle;
-    background: repeating-linear-gradient(
-        -45deg,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0) 15px,
-        rgba(0, 0, 0, 0.1) 15px,
-        rgba(0, 0, 0, 0.1) 30px
-      ),
-      linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.4));
+	.gf_progressbar_percentage {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		position: relative;
+		height: $inner-bar-height;
+		text-align: right;
+		font-size: $font-size-base * 0.9;
+		color: #fff;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-top-left-radius: $bar-border-radius;
+		border-bottom-left-radius: $bar-border-radius;
+		vertical-align: middle;
+		background: repeating-linear-gradient(
+				-45deg,
+				rgba( 0, 0, 0, 0 ),
+				rgba( 0, 0, 0, 0 ) 15px,
+				rgba( 0, 0, 0, 0.1 ) 15px,
+				rgba( 0, 0, 0, 0.1 ) 30px
+			),
+			linear-gradient(
+				to bottom,
+				rgba( 255, 255, 255, 0.1 ),
+				rgba( 0, 0, 0, 0.4 )
+			);
 
-    &.percentbar_blue {
-      background-color: $bar-color;
-    }
+		&.percentbar_blue {
+			background-color: $bar-color;
+		}
 
-    &.percentbar_100 {
-      border-top-right-radius: $bar-border-radius;
-      border-bottom-right-radius: $bar-border-radius;
-    }
+		&.percentbar_100 {
+			border-top-right-radius: $bar-border-radius;
+			border-bottom-right-radius: $bar-border-radius;
+		}
 
-    span {
-      display: block;
-      width: auto;
-      margin-right: $spacer * 0.2;
-      margin-left: $spacer * 0.5;
-    }
-  }
+		span {
+			display: block;
+			width: auto;
+			padding-right: $spacer * 0.2;
+			padding-left: $spacer * 0.5;
+		}
+	}
 }

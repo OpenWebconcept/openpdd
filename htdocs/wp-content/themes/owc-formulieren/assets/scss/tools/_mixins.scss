@@ -2,88 +2,104 @@
 * Standard button
 */
 @mixin button {
-  padding: $btn-padding-y $btn-padding-x;
-  border-width: $btn-border-width;
-  border-radius: $btn-border-radius;
-  font-family: $btn-font-family;
-  font-weight: $btn-font-weight;
-  line-height: $btn-line-height;
-  transition: $btn-transition;
+	padding: $btn-padding-y $btn-padding-x;
+	border-width: $btn-border-width;
+	border-radius: $btn-border-radius;
+	font-family: $btn-font-family;
+	font-weight: $btn-font-weight;
+	line-height: $btn-line-height;
+	transition: $btn-transition;
 
-  @include hover-focus-active {
-    text-decoration: none;
-  }
+	@include hover-focus-active {
+		text-decoration: none;
+	}
 }
 
 /**
 * Outline button
 */
-@mixin button-variant-outline($color) {
-  border-width: $btn-outline-border-width;
-  border-style: $btn-outline-border-style;
-  border-color: $color;
-  background-color: $btn-outline-border-background;
-  color: $color;
+@mixin button-variant-outline( $color ) {
+	border-width: $btn-outline-border-width;
+	border-style: $btn-outline-border-style;
+	border-color: $color;
+	background-color: $btn-outline-border-background;
+	color: $color;
 
-  @include hover-focus-active {
-    background-color: $color;
-    color: $white;
-  }
+	@include hover-focus-active {
+		background-color: $color;
+		color: $white;
+	}
 }
 
 /**
 * FontAwesome mixin
 * Usage: @include fontawesome("\f061");
 */
-@mixin fontawesome($icon) {
-  content: $icon;
-  /* stylelint-disable */
-  font-family: "Font Awesome 5 Pro";
+@mixin fontawesome( $icon ) {
+	content: $icon;
+	/* stylelint-disable */
+	font-family: 'Font Awesome 5 Pro';
 }
 
 /**
 * IE10+
 */
 @mixin internet-explorer() {
-  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    @content;
-  }
+	@media screen and ( -ms-high-contrast: active ),
+		( -ms-high-contrast: none ) {
+		@content;
+	}
 }
 
 /**
 * Used for custom checkbox and radiobutton
 */
-@mixin custom-input-icon($unchecked, $checked) {
-  position: relative;
-  appearance: none;
-  border: 0;
-  display: inline;
+@mixin custom-input-icon( $unchecked, $checked ) {
+	position: relative;
+	appearance: none;
+	border: 0;
+	display: inline;
 
-  &:focus {
-    outline: 0;
-    & + label {
-      font-weight: $font-weight-bold;
-    }
-  }
+	&:focus {
+		outline: 0;
+		& + label {
+			font-weight: $font-weight-bold;
+		}
+	}
 
-  &::before {
-    @include fontawesome($unchecked);
-    position: absolute;
-    top: 2px;
-    left: 4px;
-    color: $g-color;
-    font-weight: $font-weight-light;
-  }
+	&::before {
+		@include fontawesome( $unchecked );
+		position: absolute;
+		top: 2px;
+		left: 4px;
+		color: $g-color;
+		font-weight: $font-weight-light;
+	}
 
-  &:checked {
-    &::before {
-      @include fontawesome($checked);
-      font-weight: $font-weight-bold;
-      color: $g-color-checked;
-    }
-  }
+	&:checked {
+		&::before {
+			@include fontawesome( $checked );
+			font-weight: $font-weight-bold;
+			color: $g-color-checked;
+		}
+	}
 
-  @include internet-explorer() {
-    display: inline-block;
-  }
+	@include internet-explorer() {
+		display: inline-block;
+	}
+}
+
+@mixin all-focusable-elements {
+	input[type='radio']:focus + label,
+	input[type='checkbox']:focus + label,
+	input:focus:not( [type='radio'] ):not( [type='checkbox'] ),
+	textarea:focus,
+	a:focus,
+	button:focus,
+	select:focus,
+	area:focus,
+	iframe:focus,
+	details:focus {
+		@content;
+	}
 }

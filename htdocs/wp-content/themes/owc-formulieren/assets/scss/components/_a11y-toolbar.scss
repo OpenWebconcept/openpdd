@@ -1,0 +1,192 @@
+$block: 'a11y-toolbar';
+
+.#{$block} {
+	position: fixed;
+	z-index: 2;
+	top: 30vh;
+	right: 0;
+	min-height: 100px;
+	box-shadow: $box-shadow;
+
+	&__button {
+		height: auto;
+		box-sizing: border-box;
+		border: none;
+		background: none;
+		border-radius: 0;
+		color: theme-color( 'secondary' );
+
+		&:hover {
+			background-color: theme-color( 'secondary' );
+
+			.#{$block}__icon {
+				color: $white;
+			}
+		}
+	}
+
+	&__icon {
+		font-size: $font-size-base * 1.5;
+		pointer-events: none;
+	}
+}
+
+.a11y-high-contrast {
+	$link-color-dark: #ffd900;
+	$background-color-dark: #233348;
+	$border-color-dark: #9e9e9e;
+
+	background-color: $background-color-dark;
+
+	*,
+	*::placeholder {
+		border-color: $border-color-dark !important;
+		background-color: $background-color-dark !important;
+		color: $white !important;
+	}
+
+	*::before,
+	*::after {
+		border-color: $border-color-dark !important;
+		background-color: transparent !important;
+	}
+
+	button,
+	button *,
+	input[type='button'],
+	input[type='button'].button.gform_previous_button,
+	a,
+	a *,
+	.ginput_container_radio
+		.gfield_checkbox
+		li
+		input[type='radio']:checked::before,
+	.ginput_container_radio
+		.gfield_radio
+		li
+		input[type='radio']:checked::before {
+		background-color: transparent !important;
+		color: $link-color-dark !important;
+	}
+
+	.validation_message {
+		color: $link-color-dark !important;
+	}
+
+	.page-main > .container,
+	input,
+	ul.dropdown-menu,
+	.a11y-toolbar,
+	.wp-block-button__link,
+	.btn {
+		border: 1px solid $border-color-dark !important;
+	}
+
+	footer,
+	footer *,
+	.navbar,
+	.navbar *,
+	.navbar *::placeholder {
+		background-color: lighten( $background-color-dark, 7% ) !important;
+	}
+
+	.container,
+	.container > div,
+	.row,
+	.yard-blocks-grid-column,
+	.yard-blocks-iconlist {
+		background-color: transparent !important;
+	}
+
+	label svg,
+	label svg path,
+	.site-branding__svg path,
+	.custom-logo path,
+	.cli-modal-close svg path:first-child {
+		fill: $white !important;
+	}
+
+	&.js-user-is-tabbing {
+		@include all-focusable-elements {
+			outline: 2px solid $white !important;
+		}
+	}
+
+	img.custom-logo {
+		filter: brightness( 0 ) invert( 1 );
+		background-color: transparent !important;
+	}
+
+	.ginput_container_radio .gfield_radio li input[type='radio'],
+	.ginput_container_checkbox .gfield_checkbox li input[type='checkbox'] {
+		border: 0 !important;
+	}
+
+	input[type='button'].gform_next_button {
+		color: $background-color-dark !important;
+		background-color: $link-color-dark !important;
+	}
+
+	.gf_progressbar_percentage {
+		background: repeating-linear-gradient(
+				-45deg,
+				rgba( 0, 0, 0, 0 ),
+				rgba( 0, 0, 0, 0 ) 15px,
+				rgba( 0, 0, 0, 0.1 ) 15px,
+				rgba( 0, 0, 0, 0.1 ) 30px
+			),
+			linear-gradient(
+				to bottom,
+				rgba( 255, 255, 255, 0.9 ),
+				rgba( 255, 255, 255, 0.4 )
+			) !important;
+	}
+}
+
+.a11y-increased-text {
+	$increased-text: $font-size-base * 1.3;
+	$increased-text-h1: $increased-text * 1.6 !important;
+	$increased-text-h2: $increased-text * 1.5 !important;
+	$increased-text-h3: $increased-text * 1.2 !important;
+
+	font-size: $increased-text !important;
+
+	p,
+	input,
+	label,
+	button,
+	span,
+	time,
+	table,
+	a {
+		font-size: $increased-text !important;
+	}
+
+	h2,
+	.h2 {
+		font-size: $increased-text-h2;
+
+		a {
+			font-size: $increased-text-h2;
+		}
+	}
+
+	h3,
+	h4,
+	h5,
+	h6,
+	.h3,
+	.h4,
+	.h5,
+	.h6 {
+		font-size: $increased-text-h3;
+
+		a {
+			font-size: $increased-text-h3;
+		}
+	}
+
+	.a11y-toolbar__button-text {
+		font-size: 1rem !important;
+	}
+}
