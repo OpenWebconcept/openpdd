@@ -6,6 +6,7 @@
 	"scripts": {
 		"start": "node cli.js -s",
 		"dev": "wp-scripts start --config ./config/frontend.config.js",
+		"dev-all": "run-p -l \"dev -- --env theme=owc-formulieren\" \"dev -- --env theme=buren\" \"dev -- --env theme=ggd-hollands-noorden\" \"dev -- --env theme=hoekschewaard\" \"dev -- --env theme=buren\"",
 		"prod": "wp-scripts build --config ./config/frontend.config.js",
 		"prod-all": "run-p -l \"prod -- --env theme=owc-formulieren\" \"prod -- --env theme=buren\" \"prod -- --env theme=ggd-hollands-noorden\" \"prod -- --env theme=hoekschewaard\" \"prod -- --env theme=buren\"",
 		"format:js": "wp-scripts format \"./**/assets/js/src/**/*.{js,ts}\"",
