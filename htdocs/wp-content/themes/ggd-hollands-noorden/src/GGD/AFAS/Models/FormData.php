@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types=1);
 
 namespace GGD\AFAS\Models;
 
@@ -13,56 +13,81 @@ class FormData
 
     public function firstName(): string
     {
-        return $this->data['firstName'] ?? '';
+        $firstName = $this->data['firstName'] ?? '';
+
+        return $this->removeSpaces($firstName);
     }
 
     public function lastNamePrefix(): string
     {
-        return $this->data['lastNamePrefix'] ?? '';
+        $lastNamePrefix = $this->data['lastNamePrefix'] ?? '';
+
+        return $this->removeSpaces($lastNamePrefix);
     }
 
     public function lastName(): string
     {
-        return $this->data['lastName'] ?? '';
+        $lastName = $this->data['lastName'] ?? '';
+
+        return $this->removeSpaces($lastName);
     }
 
     public function gender(): string
     {
-        return $this->data['gender'] ?? '';
+        $gender = $this->data['gender'] ?? '';
+
+        return $this->removeSpaces($gender);
     }
 
     public function street(): string
     {
-        return $this->data['street'] ?? '';
+        $street = $this->data['street'] ?? '';
+
+        return $this->removeSpaces($street);
     }
 
     public function housenumber(): string
     {
-        return $this->data['housenumber'] ?? '';
+        $housenumber = $this->data['housenumber'] ?? '';
+
+        return $this->removeSpaces($housenumber);
     }
 
     public function city(): string
     {
-        return $this->data['city'] ?? '';
+        $city = $this->data['city'] ?? '';
+
+        return $this->removeSpaces($city);
     }
 
     public function postalCode(): string
     {
-        return $this->data['postalCode'] ?? '';
+        $postalCode = $this->data['postalCode'] ?? '';
+
+        return $this->removeSpaces($postalCode);
     }
 
     public function email(): string
     {
-        return $this->data['email'] ?? '';
+        $email = $this->data['email'] ?? '';
+
+        return $this->removeSpaces($email);
     }
 
     public function phonenumber(): string
     {
-        return $this->data['phonenumber'] ?? '';
+        $phonenumber = $this->data['phonenumber'] ?? '';
+
+        return $this->removeSpaces($phonenumber);
     }
 
     public function complaint(): string
     {
         return $this->data['complaint'] ?? '';
+    }
+
+    protected function removeSpaces(string $value): string
+    {
+        return str_replace(' ', '', $value);
     }
 }
