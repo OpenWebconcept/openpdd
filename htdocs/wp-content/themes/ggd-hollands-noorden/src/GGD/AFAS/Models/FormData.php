@@ -13,72 +13,52 @@ class FormData
 
     public function firstName(): string
     {
-        $firstName = $this->data['firstName'] ?? '';
-
-        return $this->removeSpaces($firstName);
+        return trim($this->data['firstName'] ?? '');
     }
 
     public function lastNamePrefix(): string
     {
-        $lastNamePrefix = $this->data['lastNamePrefix'] ?? '';
-
-        return $this->removeSpaces($lastNamePrefix);
+        return trim($this->data['lastNamePrefix'] ?? '');
     }
 
     public function lastName(): string
     {
-        $lastName = $this->data['lastName'] ?? '';
-
-        return $this->removeSpaces($lastName);
+        return trim($this->data['lastName'] ?? '');
     }
 
     public function gender(): string
     {
-        $gender = $this->data['gender'] ?? '';
-
-        return $this->removeSpaces($gender);
+        return trim($this->data['gender'] ?? '');
     }
 
     public function street(): string
     {
-        $street = $this->data['street'] ?? '';
-
-        return $this->removeSpaces($street);
+        return trim($this->data['street'] ?? '');
     }
 
     public function housenumber(): string
     {
-        $housenumber = $this->data['housenumber'] ?? '';
-
-        return $this->removeSpaces($housenumber);
+        return trim($this->data['housenumber'] ?? '');
     }
 
     public function city(): string
     {
-        $city = $this->data['city'] ?? '';
-
-        return $this->removeSpaces($city);
+        return trim($this->data['city'] ?? '');
     }
 
     public function postalCode(): string
     {
-        $postalCode = $this->data['postalCode'] ?? '';
-
-        return $this->removeSpaces($postalCode);
+        return $this->removeSpaces($this->data['postalCode'] ?? '');
     }
 
     public function email(): string
     {
-        $email = $this->data['email'] ?? '';
-
-        return $this->removeSpaces($email);
+        return $this->removeSpaces($this->data['email'] ?? '');
     }
 
     public function phonenumber(): string
     {
-        $phonenumber = $this->data['phonenumber'] ?? '';
-
-        return $this->removeSpaces($phonenumber);
+        return $this->removeSpaces($this->data['phonenumber'] ?? '');
     }
 
     public function complaint(): string
@@ -88,6 +68,6 @@ class FormData
 
     protected function removeSpaces(string $value): string
     {
-        return str_replace(' ', '', $value);
+        return str_replace(' ', '', trim($value));
     }
 }
