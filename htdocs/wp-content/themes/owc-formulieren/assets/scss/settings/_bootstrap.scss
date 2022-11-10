@@ -3,17 +3,17 @@ README
 Override Bootstrap variables here.
 New (custom) variables should go into _variables.scss instead.
 --------------------------------------------------------------*/
-@import "./colors";
+@import './colors';
 
 /*--------------------------------------------------------------
   Fonts
 --------------------------------------------------------------*/
 $font-size-base: 1.125rem !default;
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-base: "Ubuntu", $font-family-sans-serif !default;
-$line-height-base: 1.7;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+	'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+	'Segoe UI Symbol';
+$font-family-base: 'Ubuntu', $font-family-sans-serif !default;
+$line-height-base: 1.7 !default;
 $enable-responsive-font-sizes: true;
 
 /*--------------------------------------------------------------
@@ -24,8 +24,8 @@ $spacer: 1rem;
 /*--------------------------------------------------------------
   Paragraph
 --------------------------------------------------------------*/
-$body-color: #333;
-$body-bg: gray("ghost") !default;
+$body-color: #333 !default;
+$body-bg: gray( 'ghost' ) !default;
 
 /*--------------------------------------------------------------
   Headings
@@ -58,27 +58,28 @@ $table-striped: false;
   Forms
 --------------------------------------------------------------*/
 $input-bg: #fff !default;
-$danger: #d02536;
+$danger: #d02536 !default;
 
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
-$box-shadow: 0 2px 3px 0 rgba(40, 44, 53, 0.08),
-  0 1px 1px 0 rgba(40, 44, 53, 0.1);
+$box-shadow: 0 2px 3px 0 rgba( 40, 44, 53, 0.08 ),
+	0 1px 1px 0 rgba( 40, 44, 53, 0.1 ) !default;
 /*--------------------------------------------------------------
   Pagination
 --------------------------------------------------------------*/
 
 $pagination-padding-y: 0.8rem !default;
 $pagination-padding-x: 1.2rem !default;
-$pagination-color: theme-color("secondary") !default;
-$pagination-bg: lighten(theme-color("secondary"), 80%) !default;
+$pagination-color: theme-color( 'secondary' ) !default;
+$pagination-bg: lighten( theme-color( 'secondary' ), 80% ) !default;
 $pagination-active-color: #fff !default;
-$pagination-active-bg: theme-color("secondary") !default;
-$pagination-focus-box-shadow: 0 0 0 0.2rem rgba(theme-color("secondary"), 0.25) !default;
+$pagination-active-bg: theme-color( 'secondary' ) !default;
+$pagination-focus-box-shadow: 0 0 0 0.2rem
+	rgba( theme-color( 'secondary' ), 0.25 ) !default;
 
 /*--------------------------------------------------------------
   Forms
 --------------------------------------------------------------*/
-$input-padding-y: 0.4rem;
-$input-padding-x: 0.7rem;
+$input-padding-y: 0.4rem !default;
+$input-padding-x: 0.7rem !default;

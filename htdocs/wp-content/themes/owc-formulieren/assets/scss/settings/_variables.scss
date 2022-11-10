@@ -21,10 +21,10 @@ $bar-border-radius: 5px;
 $bar-padding: 0px;
 $bar-padding-color: transparent;
 $bar-color: #6495ed;
-$bar-background-color: rgba(175, 204, 255, 0.12);
+$bar-background-color: rgba( 175, 204, 255, 0.12 );
 
 /* --------------------------------------------------------------
   Checkbox & radiobuttons
 -------------------------------------------------------------- */
-$g-color: gray("graphic");
-$g-color-checked: theme-color("primary");
+$g-color: gray( 'graphic' );
+$g-color-checked: theme-color( 'primary' ) !default;

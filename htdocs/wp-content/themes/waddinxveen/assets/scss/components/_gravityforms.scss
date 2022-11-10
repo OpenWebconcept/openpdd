@@ -1,8 +1,20 @@
 .gform_footer,
 .gform_page_footer {
-  input[type="submit"],
-  input[type="button"] {
-    padding: $btn-padding-y $btn-padding-x;
-    border-radius: $btn-border-radius;
-  }
+	input[type='submit'],
+	input[type='button'] {
+		padding: $btn-padding-y $btn-padding-x;
+		border-radius: $btn-border-radius;
+
+		&.gform_button,
+		&.gform_next_button {
+			@include button-variant( $yellow, $black );
+			transition: 0.15s ease all;
+
+			@include hover-focus-active {
+				background-color: darken( $yellow, 7% ) !important;
+				color: $black !important;
+				outline: none;
+			}
+		}
+	}
 }
