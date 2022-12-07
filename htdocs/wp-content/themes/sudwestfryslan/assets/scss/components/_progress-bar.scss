@@ -1,0 +1,81 @@
+/* Progress bar */
+$inner-bar-height: 20px;
+$bar-border-radius: 5px;
+$bar-padding: 0px;
+$bar-padding-color: transparent;
+$bar-color: theme-color("primary");
+$bar-background-color: rgba(175, 204, 255, 0.12);
+
+.gf_progressbar_wrapper {
+  width: 100%;
+  margin-bottom: $spacer * 2;
+
+  .gf_progressbar_title {
+    margin-bottom: $spacer;
+    font-size: $spacer;
+    font-weight: $font-weight-normal;
+    line-height: 1;
+  }
+
+  .gf_progressbar {
+    position: relative;
+    width: 100%;
+    padding: $bar-padding;
+    background-color: $bar-padding-color;
+    border-radius: $bar-border-radius;
+    box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 0.05);
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: $inner-bar-height;
+      margin: $bar-padding;
+      background-color: $bar-background-color;
+      border-radius: $bar-border-radius;
+      content: "";
+    }
+  }
+
+  .gf_progressbar_percentage {
+    position: relative;
+    display: flex;
+    height: $inner-bar-height;
+    align-items: center;
+    justify-content: flex-end;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0) 15px,
+        rgba(0, 0, 0, 0.05) 15px,
+        rgba(0, 0, 0, 0.05) 30px
+      ),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.4));
+    border-bottom-left-radius: $bar-border-radius;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: $bar-border-radius;
+    border-top-right-radius: 0px;
+    color: #fff;
+    font-size: $font-size-base * 0.9;
+    text-align: right;
+    vertical-align: middle;
+
+    &.percentbar_blue {
+      background-color: $bar-color;
+    }
+
+    &.percentbar_100 {
+      border-bottom-right-radius: $bar-border-radius;
+      border-top-right-radius: $bar-border-radius;
+    }
+
+    span {
+      display: block;
+      width: auto;
+      margin-right: $spacer * 0.2;
+      margin-left: $spacer * 0.5;
+    }
+  }
+}

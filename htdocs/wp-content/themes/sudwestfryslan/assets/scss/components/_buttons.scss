@@ -1,0 +1,26 @@
+/**
+ * Project buttons
+ */
+.btn {
+  @include button;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-primary {
+  @include primary-button-variant(theme-color("primary"));
+}
+
+.btn-secondary {
+  @include secondary-button-variant(theme-color("secondary"));
+}
+
+.btn-tertiary {
+  @include tertiary-button-variant(theme-color("tertiary"));
+}
+
+.btn-gray {
+  @include gray-button-variant(gray("concrete"));
+}

@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node cli.js -s",
     "dev": "wp-scripts start --config ./config/frontend.config.js",
-    "dev-all": "run-p -l \"dev -- --env theme=owc-formulieren\" \"dev -- --env theme=buren\" \"dev -- --env theme=ggd-hollands-noorden\" \"dev -- --env theme=waddinxveen\" \"dev -- --env theme=hoekschewaard\"",
+    "dev-all": "run-p -l \"dev -- --env theme=owc-formulieren\" \"dev -- --env theme=buren\" \"dev -- --env theme=ggd-hollands-noorden\" \"dev -- --env theme=waddinxveen\" \"dev -- --env theme=hoekschewaard\" \"dev -- --env theme=sudwestfryslan\"",
     "prod": "wp-scripts build --config ./config/frontend.config.js",
-    "prod-all": "run-p -l \"prod -- --env theme=owc-formulieren\" \"prod -- --env theme=buren\" \"prod -- --env theme=ggd-hollands-noorden\" \"prod -- --env theme=waddinxveen\" \"prod -- --env theme=hoekschewaard\"",
+    "prod-all": "run-p -l \"prod -- --env theme=owc-formulieren\" \"prod -- --env theme=buren\" \"prod -- --env theme=ggd-hollands-noorden\" \"prod -- --env theme=waddinxveen\" \"prod -- --env theme=hoekschewaard\" \"prod -- --env theme=sudwestfryslan\"",
     "format:js": "wp-scripts format \"./**/assets/js/src/**/*.{js,ts}\"",
     "lint:js": "wp-scripts lint-js \"./**/assets/js/src/**/*.js\"",
     "lint:scss": "stylelint './**/assets/scss/**/*.scss' --fix"
@@ -19,7 +19,7 @@
     "@wordpress/babel-plugin-import-jsx-pragma": "^3.1.2",
     "@wordpress/eslint-plugin": "^7.2.0",
     "@wordpress/prettier-config": "^1.1.3",
-    "@wordpress/scripts": "^19.2.2",
+    "@wordpress/scripts": "^24.6.0",
     "commander": "^8.3.0",
     "inquirer": "^8.2.0",
     "mini-css-extract-plugin": "^2.1.0",

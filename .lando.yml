@@ -2,67 +2,68 @@ name: owc-forms
 recipe: wordpress
 
 config:
-  via: nginx
-  ssl: true
-  database: mysql
-  config:
-    vhosts: storage/provision/nginx/default.conf
+    via: nginx
+    ssl: true
+    database: mysql
+    config:
+        vhosts: storage/provision/nginx/default.conf
 
 proxy:
-  appserver_nginx:
-    - owc-forms.lndo.site
-    - buren.owc-forms.lndo.site
-    - hw.owc-forms.lndo.site
-    - nijmegen.owc-forms.lndo.site
-  mailhog:
-    - mail.owc-forms.lndo.site
-  pma:
-    - pma.owc-forms.lndo.site
+    appserver_nginx:
+        - owc-forms.lndo.site
+        - buren.owc-forms.lndo.site
+        - hw.owc-forms.lndo.site
+        - nijmegen.owc-forms.lndo.site
+        - sudwestfryslan.owc-forms.lndo.site
+    mailhog:
+        - mail.owc-forms.lndo.site
+    pma:
+        - pma.owc-forms.lndo.site
 
 services:
-  pma:
-    type: phpmyadmin
-    ssl: true
-    hosts:
-      - database
-  mailhog:
-    type: mailhog
-    portforward: true
-    hogfrom:
-      - appserver
-  appserver:
-    type: php:7.4
-    build:
-      - composer install
-    xdebug: false
-    webroot: htdocs
-    composer_version: 2
-    overrides:
-      volumes:
-        - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
-    config:
-      php: storage/provision/php/php.ini
-  node:
-    type: node
-    globals:
-      webpack: 'latest'
-      npm: 'latest'
+    pma:
+        type: phpmyadmin
+        ssl: true
+        hosts:
+            - database
+    mailhog:
+        type: mailhog
+        portforward: true
+        hogfrom:
+            - appserver
+    appserver:
+        type: php:7.4
+        build:
+            - composer install
+        xdebug: false
+        webroot: htdocs
+        composer_version: 2
+        overrides:
+            volumes:
+                - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
+        config:
+            php: storage/provision/php/php.ini
+    node:
+        type: node
+        globals:
+            webpack: 'latest'
+            npm: 'latest'
 
 tooling:
-  phpunit:
-    service: appserver
-  deploy:
-    service: appserver
-    cmd: ./vendor/bin/dep deploy
-  npm:
-    service: node
-  xdebug-on:
-    service: appserver
-    description: Enable xdebug for nginx.
-    cmd: docker-php-ext-enable xdebug && pkill -o -USR2 php-fpm && echo "Enabling xdebug"
-    user: root
-  xdebug-off:
-    service: appserver
-    description: CUSTOM Disable xdebug for nginx.
-    cmd: rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && pkill -o -USR2 php-fpm && echo "Disabling xdebug"
-    user: root
+    phpunit:
+        service: appserver
+    deploy:
+        service: appserver
+        cmd: ./vendor/bin/dep deploy
+    npm:
+        service: node
+    xdebug-on:
+        service: appserver
+        description: Enable xdebug for nginx.
+        cmd: docker-php-ext-enable xdebug && pkill -o -USR2 php-fpm && echo "Enabling xdebug"
+        user: root
+    xdebug-off:
+        service: appserver
+        description: CUSTOM Disable xdebug for nginx.
+        cmd: rm /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini && pkill -o -USR2 php-fpm && echo "Disabling xdebug"
+        user: root
