@@ -1,14 +1,21 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
+@import "settings/design-token-variables";
 @import "settings/colors";
 @import "settings/bootstrap";
+@import "settings/global";
 @import "tools/mixins";
 
 /*--------------------------------------------------------------
   Parent theme
 --------------------------------------------------------------*/
 @import "../../../owc-formulieren/assets/scss/style";
+
+/*--------------------------------------------------------------
+  Layouts
+--------------------------------------------------------------*/
+@import "blocks/wp/shared";
 
 /*--------------------------------------------------------------
   Components
@@ -23,9 +30,12 @@
   Elements
 --------------------------------------------------------------*/
 @import "elements/body";
+@import "elements/typography";
+@import "elements/heading";
 
 /*--------------------------------------------------------------
-  Generic
+  Layouts
 --------------------------------------------------------------*/
-@import "generic/typography";
-@import "generic/heading";
+@import "layouts/page";
+@import "layouts/template-pip";
+

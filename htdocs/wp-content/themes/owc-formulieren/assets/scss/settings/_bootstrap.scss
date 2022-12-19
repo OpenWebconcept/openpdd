@@ -14,12 +14,12 @@ $font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
 	'Segoe UI Symbol';
 $font-family-base: 'Ubuntu', $font-family-sans-serif !default;
 $line-height-base: 1.7 !default;
-$enable-responsive-font-sizes: true;
+$enable-responsive-font-sizes: true !default;
 
 /*--------------------------------------------------------------
   Spacing
 --------------------------------------------------------------*/
-$spacer: 1rem;
+$spacer: 1rem !default;
 
 /*--------------------------------------------------------------
   Paragraph

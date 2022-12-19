@@ -1,40 +1,30 @@
-$block: "digid";
+$block: 'digid';
 
 .#{$block}-btn {
-  border-bottom: 0 !important;
-  border-radius: 14px;
+	border-bottom: 0 !important;
+	border-radius: 14px;
 
-  @include hover-focus-active {
-    background-color: gray("concrete");
-  }
+	@include hover-focus-active {
+		background-color: gray( 'concrete' );
+	}
 
-  @include media-breakpoint-up(xl) {
-    margin-right: $spacer * 4;
-  }
+	@include media-breakpoint-up( xl ) {
+		margin-right: $spacer * 4;
+	}
 
-  &__img {
-    width: 80px;
-  }
+	&__img {
+		width: 80px;
+	}
 
-  &__text {
-    color: $body-color;
+	&__text {
+		color: $body-color;
 
-    @include media-breakpoint-up(xl) {
-      padding-left: $spacer !important;
-    }
-  }
+		@include media-breakpoint-up( xl ) {
+			padding-left: $spacer !important;
+		}
+	}
 
-  &__title {
-    font-weight: $font-weight-bold;
-  }
-}
-
-#logoutLink {
-  @include button-variant(theme-color("primary"), theme-color("primary"));
-  display: inline-block;
-  margin-top: 0.75rem;
-  margin-left: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  color: $white;
+	&__title {
+		font-weight: $font-weight-bold;
+	}
 }

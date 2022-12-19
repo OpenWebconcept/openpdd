@@ -5,6 +5,7 @@
   padding: $btn-padding-y $btn-padding-x;
   border-width: $btn-border-width;
   border-radius: $btn-border-radius;
+  border-color: currentColor;
   border-style: $btn-border-style;
   font-family: $btn-font-family;
   font-size: $btn-font-size;
@@ -14,51 +15,6 @@
 
   @include hover-focus-active {
     text-decoration: none;
-  }
-}
-
-/**
-  * Button variants
-  */
-@mixin primary-button-variant($color) {
-  @include button-variant($color, $color, $color);
-  border-bottom-color: darken($color, 15%);
-  border-right-color: $color;
-  border-style: solid;
-
-  @include hover-focus-active {
-    border-color: $color;
-    background-color: $white;
-    color: $color;
-  }
-}
-
-@mixin secondary-button-variant($color) {
-  @include button-variant($color, $color, $color);
-
-  @include hover-focus-active {
-    background-color: theme-color("primary");
-    border-color: theme-color("primary");
-  }
-}
-
-@mixin tertiary-button-variant($color) {
-  @include button-variant($color, $color, $color);
-  border-bottom-color: darken($color, 15%);
-
-  @include hover-focus-active {
-    border: 2px solid $color;
-    background-color: $white;
-  }
-}
-
-@mixin gray-button-variant($color) {
-  @include button-variant($color, $color, $color);
-  border-bottom-color: darken($color, 15%);
-
-  @include hover-focus-active {
-    border: 2px solid $color;
-    background-color: $white;
   }
 }
 
@@ -79,4 +35,15 @@
     text-decoration: none;
     color: $black;
   }
+}
+
+@mixin button-color( $background, $hover-background: darken( $background, 7% ) ) {
+	background-color: $background;
+	color: color-yiq( $background );
+  border-color: $background;
+
+	@include hover-focus-active {
+		background-color: $hover-background !important; // Overwrite Gutenberg inline style
+    border-color: $hover-background !important; 
+	}
 }

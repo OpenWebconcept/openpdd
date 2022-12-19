@@ -15,7 +15,7 @@ module.exports = ( env ) => {
 				path.resolve(
 					process.cwd(),
 					'owc-formulieren',
-					'assets/js',
+					'assets/js/frontend',
 					'app.js'
 				),
 				path.resolve(

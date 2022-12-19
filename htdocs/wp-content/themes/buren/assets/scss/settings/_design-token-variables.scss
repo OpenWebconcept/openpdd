@@ -1,0 +1,148 @@
+// Do not edit directly
+// Generated on Tue, 19 Apr 2022 10:05:06 GMT
+
+$utrecht-textarea-border-width: 1px;
+$utrecht-textarea-border-radius: 4px;
+$utrecht-paragraph-margin-block-end: 1.5rem; //
+$utrecht-heading-3-margin-block-end: 1.25rem; //
+$utrecht-heading-2-margin-block-end: 1.25rem; //
+$utrecht-heading-1-margin-block-end: 1.25rem; //
+$utrecht-select-padding-inline-start: 12px;
+$utrecht-select-padding-inline-end: 12px;
+$utrecht-select-padding-block-start: 6px;
+$utrecht-select-padding-block-end: 6px;
+$utrecht-select-border-width: 1px;
+$utrecht-select-border-radius: 4px;
+$utrecht-form-input-padding-inline-start: 12px;
+$utrecht-form-input-padding-inline-end: 12px;
+$utrecht-form-input-padding-block-start: 11px; // To temporary compensate for height of inputs in formulieren.buren.nl set by line-height of text
+$utrecht-form-input-padding-block-end: 11px; // To temporary compensate for height of inputs in formulieren.buren.nl set by line-height of text
+$utrecht-form-input-border-width: 1px;
+$utrecht-form-input-border-radius: 4px;
+$utrecht-button-padding-inline-end: 17.6px;
+$utrecht-button-padding-inline-start: 17.6px;
+$utrecht-button-padding-block-end: 12.8px;
+$utrecht-button-padding-block-start: 12.8px;
+$utrecht-button-border-radius: 2px; // fix me, i don not exist
+$utrecht-button-border-width: 0;
+$utrecht-space-column-5xl: 40px;
+$utrecht-space-column-4xl: 36px;
+$utrecht-space-column-3xl: 32px;
+$utrecht-space-column-2xl: 28px;
+$utrecht-space-column-xl: 24px;
+$utrecht-space-column-lg: 20px;
+$utrecht-space-column-md: 16px;
+$utrecht-space-column-sm: 12px;
+$utrecht-space-column-xs: 8px;
+$utrecht-space-column-2xs: 4px;
+$utrecht-space-column-3xs: 0;
+$utrecht-space-row-5xl: 40px;
+$utrecht-space-row-4xl: 36px;
+$utrecht-space-row-3xl: 32px;
+$utrecht-space-row-2xl: 28px;
+$utrecht-space-row-xl: 24px;
+$utrecht-space-row-lg: 20px;
+$utrecht-space-row-md: 16px;
+$utrecht-space-row-sm: 12px;
+$utrecht-space-row-xs: 8px;
+$utrecht-space-row-2xs: 4px;
+$utrecht-space-row-3xs: 0;
+$utrecht-space-inline-3xl: 3ch;
+$utrecht-space-inline-2xl: 2ch;
+$utrecht-space-inline-xl: 1.75ch;
+$utrecht-space-inline-lg: 1.5ch;
+$utrecht-space-inline-md: 1ch;
+$utrecht-space-inline-sm: 0.75ch;
+$utrecht-space-inline-xs: 0.5ch;
+$utrecht-space-inline-2xs: 0.25ch;
+$utrecht-space-inline-3xs: 0.125ch;
+$utrecht-space-block-5xl: 40px;
+$utrecht-space-block-4xl: 36px;
+$utrecht-space-block-3xl: 32px;
+$utrecht-space-block-2xl: 28px;
+$utrecht-space-block-xl: 24px;
+$utrecht-space-block-lg: 20px;
+$utrecht-space-block-md: 16px;
+$utrecht-space-block-sm: 12px;
+$utrecht-space-block-xs: 8px;
+$utrecht-space-block-2xs: 4px;
+$utrecht-space-block-3xs: 0;
+$buren-typography-line-height-lg-line-height: 1.7;
+$buren-typography-line-height-md-line-height: 1.5;
+$buren-typography-line-height-sm-line-height: 1.25;
+$buren-typography-line-height-xs-line-height: 1;
+$buren-typography-weight-scale-normal-font-weight: 400;
+$buren-typography-weight-scale-bold-font-weight: 700;
+$buren-typography-scale-4xl-font-size: 2.2rem; // 34.4px
+$buren-typography-scale-3xl-font-size: 1.6rem; // 25.6px
+$buren-typography-scale-2xl-font-size: 1.3rem; // 20.8px
+$buren-typography-scale-xl-font-size: 1.25rem; // 19.2px
+$buren-typography-scale-lg-font-size: 1.1rem; // 18px
+$buren-typography-scale-md-font-size: 1rem; // 16px
+$buren-typography-scale-sm-font-size: .9rem; // 14.4px
+$buren-typography-scale-xs-font-size: 0.75rem; // 12px
+$buren-typography-sans-serif-font-family: Roboto, sans-serif;
+$buren-color-feedback-danger: #d41422;
+$buren-color-feedback-succes: #0d8228;
+$buren-color-grijs-100: #333; // 
+$buren-color-grijs-80: #555; // Donker grijs
+$buren-color-grijs-60: #757575; // Donker grijs
+$buren-color-grijs-40: #949494; // Mid grijs
+$buren-color-grijs-30: #ced4da; // Licht grijs
+$buren-color-grijs-20: #e9ecef; // Licht grijs
+$buren-color-grijs-10: #f2f2f2; // Licht grijs
+$buren-color-grijs-0: #fff; // Puur wit
+$buren-color-geel-50: #fbbe04; // Standaard geel
+$buren-color-rood-60: #b1111c; // Button focus achtergrond
+$buren-color-rood-50: #d41422; // Standaard rood
+$buren-color-rood-30: #f2757f; // Used for focus outline
+$utrecht-textarea-read-only-background-color: $buren-color-grijs-20;
+$utrecht-textarea-invalid-border-color: $buren-color-feedback-danger;
+$utrecht-textarea-disabled-background-color: $buren-color-grijs-20;
+$utrecht-textarea-placeholder-color: $buren-color-grijs-60;
+$utrecht-textarea-font-size: $buren-typography-scale-md-font-size;
+$utrecht-textarea-font-family: $buren-typography-sans-serif-font-family;
+$utrecht-textarea-color: $buren-color-grijs-100;
+$utrecht-textarea-border-color: $buren-color-grijs-30;
+$utrecht-paragraph-lead-font-size: $buren-typography-scale-xl-font-size;
+$utrecht-paragraph-line-height: $buren-typography-line-height-lg-line-height;
+$utrecht-paragraph-font-size: $buren-typography-scale-md-font-size;
+$utrecht-paragraph-color: $buren-color-grijs-100;
+$utrecht-link-hover-color: $buren-color-grijs-100;
+$utrecht-link-color: $buren-color-rood-50;
+$utrecht-heading-font-weight: $buren-typography-weight-scale-bold-font-weight;
+$utrecht-heading-3-line-height: $buren-typography-line-height-sm-line-height;
+$utrecht-heading-3-font-size: $buren-typography-scale-2xl-font-size;
+$utrecht-heading-2-line-height: $buren-typography-line-height-sm-line-height;
+$utrecht-heading-2-font-size: $buren-typography-scale-3xl-font-size;
+$utrecht-heading-1-line-height: $buren-typography-line-height-sm-line-height;
+$utrecht-heading-1-font-size: $buren-typography-scale-4xl-font-size;
+$utrecht-heading-1-color: $buren-color-rood-50;
+$utrecht-select-invalid-border-color: $buren-color-feedback-danger;
+$utrecht-select-font-family: $buren-typography-sans-serif-font-family;
+$utrecht-select-border-color: $buren-color-grijs-30;
+$utrecht-form-label-font-size: $buren-typography-scale-lg-font-size;
+$utrecht-form-label-font-weight: $buren-typography-weight-scale-bold-font-weight;
+$utrecht-form-label-color: $buren-color-grijs-100;
+$utrecht-form-input-read-only-background-color: $buren-color-grijs-20;
+$utrecht-form-input-invalid-border-color: $buren-color-feedback-danger;
+$utrecht-form-input-disabled-background-color: $buren-color-grijs-20;
+$utrecht-form-input-placeholder-color: $buren-color-grijs-60;
+$utrecht-form-input-font-size: $buren-typography-scale-md-font-size;
+$utrecht-form-input-font-family: $buren-typography-sans-serif-font-family;
+$utrecht-form-input-color: $buren-color-grijs-100;
+$utrecht-form-input-border-color: $buren-color-grijs-30;
+$utrecht-document-line-height: [object Object];
+$utrecht-document-font-weight: [object Object];
+$utrecht-document-font-size: $buren-typography-scale-md-font-size;
+$utrecht-document-font-family: $buren-typography-sans-serif-font-family;
+$utrecht-document-color: $buren-color-grijs-100;
+$utrecht-document-background-color: $buren-color-grijs-0;
+$utrecht-button-hover-color: $buren-color-rood-50;
+$utrecht-button-hover-background-color: $buren-color-grijs-0;
+$utrecht-button-focus-background-color: $buren-color-rood-60;
+$utrecht-button-active-background-color: $buren-color-rood-60;
+$utrecht-button-color: $buren-color-grijs-0;
+$utrecht-button-border-color: $buren-color-rood-50; // fix me, i don not exist
+$utrecht-button-background-color: $buren-color-rood-50;
+$utrecht-focus-outline-color: $buren-color-rood-30;

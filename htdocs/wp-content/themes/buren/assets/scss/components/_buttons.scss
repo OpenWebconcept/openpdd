@@ -10,17 +10,13 @@
 }
 
 .btn-primary {
-  @include primary-button-variant(theme-color("primary"));
+  @include button-color(theme-color("primary"));
 }
 
 .btn-secondary {
-  @include secondary-button-variant(theme-color("secondary"));
-}
-
-.btn-tertiary {
-  @include tertiary-button-variant(theme-color("tertiary"));
+  @include button-color(theme-color("secondary"));
 }
 
 .btn-gray {
-  @include gray-button-variant(gray("concrete"));
+  @include button-color($buren-color-grijs-10);
 }

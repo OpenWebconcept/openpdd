@@ -3,13 +3,13 @@
 }
 
 .bag-search-button {
-  @extend .btn-tertiary;
+  @extend .btn-secondary;
   position: relative;
   padding-left: $spacer * 3;
 }
 
 .btn.gf_irma_qr {
-  @extend .btn-tertiary;
+  @extend .btn-secondary;
 }
 
 .gform_footer,
@@ -23,9 +23,9 @@
 
   .gform_save_link {
     @include button;
-    @include gray-button-variant(gray("concrete"));
+    @include button-color($buren-color-grijs-10);
     border: 2px solid $white;
-    border-bottom-color: darken(gray("concrete"), 15%);
+    border-bottom-color: $buren-color-grijs-20;
 
     &:hover {
       box-shadow: none;

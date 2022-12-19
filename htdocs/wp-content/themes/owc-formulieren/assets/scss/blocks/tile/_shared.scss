@@ -1,0 +1,66 @@
+$block: 'tile';
+
+.#{$block} {
+	position: relative;
+	padding: $tile-block-padding;
+	border: $tile-block-border;
+	margin: $tile-block-margin;
+	background-color: $tile-block-background;
+	border-radius: $tile-block-border-radius;
+	box-shadow: $tile-block-shadow;
+	text-align: $tile-block-text-align;
+
+	&:hover {
+		.#{$block}-icon {
+			background-color: $tile-block-icon-background-color-hover;
+		}
+	}
+
+	&-icon {
+		width: $tile-block-icon-size;
+		height: $tile-block-icon-size;
+		border: $tile-block-icon-border;
+		margin: $tile-block-icon-margin;
+		background-color: $tile-block-icon-background-color;
+		border-radius: $tile-block-icon-border-radius;
+		color: $tile-block-icon-color;
+		font-size: $tile-block-icon-font-size;
+		line-height: $tile-block-icon-line-height;
+		transition: 0.15s ease all;
+	}
+
+	h3 {
+		margin: $tile-block-title-margin;
+		color: $tile-block-title-color;
+		font-size: $tile-block-title-font-size;
+		font-weight: $tile-block-title-font-weight;
+
+		a {
+			border-bottom: 0 !important;
+			color: $tile-block-title-color;
+
+			&:hover {
+				color: $tile-block-title-color !important;
+			}
+
+			// Makes area linkable with a parent that contains `position:relative`
+			// Usage: <div class="position-relative">Whole area clickable<a class="a-linkable-area">Link</a></div>
+			&::after {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				content: '';
+			}
+		}
+	}
+
+	p {
+		margin: $tile-block-paragraph-margin;
+		color: $tile-block-paragraph-color;
+		font-size: $tile-block-paragraph-font-size;
+		font-weight: $tile-block-paragraph-font-weight;
+		line-height: $tile-block-paragraph-line-height;
+	}
+}

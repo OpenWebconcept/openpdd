@@ -1,0 +1,96 @@
+$layout: 'page-template-template-pip';
+
+:root {
+	--wp--style--block-gap: 0;
+	--zaak-collapse-button-background-color: #{$buren-color-grijs-10};
+	--zaak-collapse-button-background-color-hover: #{$buren-color-rood-50};
+	--zaak-collapse-button-color-hover: #{$buren-color-grijs-0};
+}
+
+.#{$layout} {
+	/* Extend responsive column styling to 782px (Default is 600px) */
+	.wp-block-column {
+		@media ( max-width: 991px ) {
+			flex-wrap: wrap;
+			width: 100%;
+		}
+	}
+
+	.wp-block-navigation__container {
+		width: 100%;
+		gap: 0;
+
+		@include media-breakpoint-up( md ) {
+			padding-top: 0.5rem;
+			padding-right: 2rem;
+		}
+
+		@include media-breakpoint-up( xl ) {
+			padding-right: 3rem;
+		}
+	}
+
+	.wp-block-navigation__responsive-container-open {
+		border: 1px solid $buren-color-grijs-40;
+		border-radius: $btn-border-radius;
+		padding: 0.4rem 0.6rem;
+		margin-bottom: 2rem;
+
+		&::after {
+			content: 'Navigatie';
+			padding-left: 0.5rem;
+			padding-top: 1px;
+			font-size: $small-font-size;
+		}
+	}
+
+	.wp-block-navigation-item {
+		width: 100%;
+
+		&.current-menu-item .wp-block-navigation-item__content {
+			color: theme-color( 'primary' ) !important;
+		}
+
+		&:nth-child( 1 ) .wp-block-navigation-item__content::before {
+			@include fontawesome( '\f00a' );
+		}
+
+		&:nth-child( 2 ) .wp-block-navigation-item__content::before {
+			@include fontawesome( '\f187' );
+		}
+
+		&:nth-child( 3 ) .wp-block-navigation-item__content::before {
+			@include fontawesome( '\f15c' );
+		}
+
+		&:nth-child( 4 ) .wp-block-navigation-item__content::before {
+			@include fontawesome( '\f007' );
+		}
+
+		&:nth-child( 5 ) .wp-block-navigation-item__content::before {
+			@include fontawesome( '\f15c' );
+		}
+
+		&:last-child .wp-block-navigation-item__content {
+			border-bottom: 1px solid $buren-color-grijs-20 !important;
+		}
+	}
+
+	.wp-block-navigation-item__content {
+		width: 100%;
+		border-top: 1px solid $buren-color-grijs-20;
+		border-bottom: 0 !important;
+		padding: 0.7rem 0 0.7rem 0.5rem !important;
+		color: $black;
+
+		&::before {
+			margin-right: 0.75rem;
+			min-width: 17px;
+			display: inline-block;
+		}
+
+		&:focus {
+			color: $black !important;
+		}
+	}
+}

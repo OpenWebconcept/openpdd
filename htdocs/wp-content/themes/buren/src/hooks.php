@@ -92,6 +92,15 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('child-theme-script', get_template_directory_uri() . '/assets/dist/frontend.js', ['jquery'], filemtime(__DIR__), true);
 });
 
+add_action('enqueue_block_editor_assets', function () {
+    wp_enqueue_script('theme-blocks-js', get_stylesheet_directory_uri() . '/assets/dist/editor.js', [], filemtime(__DIR__));
+    wp_enqueue_style('theme-blocks-css', get_stylesheet_directory_uri() . '/assets/dist/editor.css', [], filemtime(__DIR__));
+});
+
+add_action('admin_enqueue_scripts', function () {
+    wp_enqueue_script('fontawesome', 'https://kit.fontawesome.com/8442ade4bd.js', [], null, true);
+});
+
 add_action('after_switch_theme', function () {
     $stylesheet = get_option('template');
     if ('templates' !== basename($stylesheet)) {
@@ -124,10 +133,11 @@ add_filter('get_custom_logo', function () {
         }
 
         $html = sprintf(
-            '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a><a href="%3$s" class="site-branding__title h2 font-weight-bold d-none d-md-block text-dark mb-0 pl-3">Gemeente Buren</a>',
+            '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a><a href="%3$s" class="site-branding__title h2 font-weight-bold d-none d-md-block text-dark mb-0 pl-3">%4$s</a>',
             esc_url($site_url),
             wp_get_attachment_image($custom_logo_id, 'full', false, $custom_logo_attr),
-            site_url('/')
+            site_url('/overzicht'),
+            get_bloginfo('name')
         );
     }
 

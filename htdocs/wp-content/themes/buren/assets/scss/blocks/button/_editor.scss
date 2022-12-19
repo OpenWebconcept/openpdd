@@ -1,0 +1,22 @@
+@import './shared';
+
+.yard-blocks-button {
+	display: inline-block;
+}
+
+// Gutenberg width settings
+.wp-block-button__width-25 {
+	width: calc( 25% - 0.5em );
+}
+
+.wp-block-button__width-50 {
+	width: calc( 50% - 0.5em );
+}
+
+.wp-block-button__width-75 {
+	width: calc( 75% - 0.5em );
+}
+
+.wp-block-button__width-100 {
+	width: calc( 100% - 0.5em );
+}

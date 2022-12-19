@@ -360,7 +360,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: flex-end;
-	padding: $spacer * 1.5 $spacer;
+	padding: ( $spacer * 1.5 ) 0;
 	border-top: 1px solid gray( '300' );
 	text-align: right;
 

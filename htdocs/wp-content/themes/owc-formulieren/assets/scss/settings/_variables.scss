@@ -1,3 +1,5 @@
+@import '~bootstrap/scss/variables';
+
 /* --------------------------------------------------------------
 Navigation
 -------------------------------------------------------------- */
@@ -27,4 +29,39 @@ $bar-background-color: rgba( 175, 204, 255, 0.12 );
   Checkbox & radiobuttons
 -------------------------------------------------------------- */
 $g-color: gray( 'graphic' );
-$g-color-checked: theme-color( 'primary' ) !default;
+$g-color-checked: theme-color( 'primary' );
+
+/* --------------------------------------------------------------
+  Tile block
+-------------------------------------------------------------- */
+$tile-block-background: transparent !default;
+$tile-block-border: 0 !default;
+$tile-block-border-radius: 0 !default;
+$tile-block-padding: 0 !default;
+$tile-block-margin: 0 !default;
+$tile-block-shadow: none !default;
+$tile-block-text-align: center !default;
+
+$tile-block-icon-size: 100px !default;
+$tile-block-icon-background-color: theme-color( 'primary' ) !default;
+$tile-block-icon-background-color-hover: darken(
+	theme-color( 'primary' ),
+	7%
+) !default;
+$tile-block-icon-border-radius: $tile-block-icon-size !default;
+$tile-block-icon-border: 0 !default;
+$tile-block-icon-color: #fff !default;
+$tile-block-icon-font-size: 2.5rem !default;
+$tile-block-icon-margin: 0 0 1.5rem 0 !default;
+$tile-block-icon-line-height: $tile-block-icon-size !default;
+
+$tile-block-title-color: inherit !default;
+$tile-block-title-font-size: $h3-font-size !default;
+$tile-block-title-font-weight: 700 !default;
+$tile-block-title-margin: 0 0 1.5rem 0 !default;
+
+$tile-block-paragraph-color: $body-color !default;
+$tile-block-paragraph-font-size: $font-size-base !default;
+$tile-block-paragraph-font-weight: $font-weight-normal !default;
+$tile-block-paragraph-margin: 0 0 $paragraph-margin-bottom 0 !default;
+$tile-block-paragraph-line-height: $line-height-base !default;

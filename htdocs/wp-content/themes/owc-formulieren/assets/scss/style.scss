@@ -14,13 +14,13 @@
   Vendor
 --------------------------------------------------------------*/
 @import 'vendor/bootstrap';
+@import 'vendor/owc-gf-digid-toolbar';
 
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
 @import 'components/a11y-toolbar';
 @import 'components/buttons';
-@import 'components/countdown';
 @import 'components/datepicker';
 @import 'components/digid';
 @import 'components/gravityforms';
@@ -33,3 +33,8 @@
 --------------------------------------------------------------*/
 @import 'elements/links';
 @import 'elements/body';
+
+/*--------------------------------------------------------------
+  Blocks
+--------------------------------------------------------------*/
+@import 'blocks/tile/shared';

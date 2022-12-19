@@ -1,0 +1,13 @@
+:root {
+	scroll-behavior: smooth;
+
+	--color-palette-primary: #d41422;
+	--color-palette-secondary: #fbbe04;
+
+	--typography-font-size-small: #{$small-font-size};
+	--typography-font-size-medium: #{$font-size-base};
+	--typography-font-size-lead: #{$lead-font-size};
+
+	--layout-content-size: 800px;
+	--layout-wide-size: #{map-get( $container-max-widths, 'xl' )};
+}
