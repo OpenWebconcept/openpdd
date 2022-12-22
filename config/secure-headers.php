@@ -363,6 +363,9 @@ return [
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/form-action
         'form-action' => [
             'self' => true,
+            'allow' => [
+                '*.readspeaker.com',
+            ],
         ],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors
@@ -374,7 +377,8 @@ return [
         'frame-src' => [
             'self' => true,
             'allow' => [
-                '*.google.com'
+                '*.google.com',
+                '*.readspeaker.com',
             ],
         ],
 
