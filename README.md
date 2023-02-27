@@ -1,3 +1,3 @@
-# OpenPDD Formulieren
+# OpenPDD
 
-OpenPDD is onderdeel van het Open Webconcept.
+The OpenPDD WordPress installation.
