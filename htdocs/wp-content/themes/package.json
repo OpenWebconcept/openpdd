@@ -31,7 +31,7 @@
     "@wordpress/i18n": "^4.22.0",
     "@wordpress/notices": "^3.22.0",
     "@wordpress/prettier-config": "^1.4.0",
-    "@wordpress/scripts": "^19.2.2",
+    "@wordpress/scripts": "^25.4.0",
     "commander": "^8.3.0",
     "inquirer": "^8.2.5",
     "mini-css-extract-plugin": "^2.7.2",
