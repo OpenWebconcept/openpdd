@@ -1,3 +1,3 @@
 # OpenPDD
 
-The OpenPDD WordPress installation.
+The OpenPDD WordPress (Multisite) installation.

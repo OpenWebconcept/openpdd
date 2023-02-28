@@ -1,4 +1,4 @@
-name: owc-forms
+name: openpdd
 recipe: wordpress
 
 config:
@@ -10,15 +10,15 @@ config:
 
 proxy:
     appserver_nginx:
-        - owc-forms.lndo.site
-        - buren.owc-forms.lndo.site
-        - hw.owc-forms.lndo.site
-        - nijmegen.owc-forms.lndo.site
-        - sudwestfryslan.owc-forms.lndo.site
+        - openpdd.lndo.site
+        - buren.openpdd.lndo.site
+        - hw.openpdd.lndo.site
+        - nijmegen.openpdd.lndo.site
+        - sudwestfryslan.openpdd.lndo.site
     mailhog:
-        - mail.owc-forms.lndo.site
+        - mail.openpdd.lndo.site
     pma:
-        - pma.owc-forms.lndo.site
+        - pma.openpdd.lndo.site
 
 services:
     pma:

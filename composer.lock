@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "301c1110c03fb12211cb5db7bd8a581b",
+    "content-hash": "b61ad6b0f756c6950b29081cede11d50",
     "packages": [
         {
             "name": "aura/session",
@@ -2028,6 +2028,69 @@
             "time": "2022-11-10T10:24:47+00:00"
         },
         {
+            "name": "plugin/openzaak",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:OpenWebconcept/plugin-openzaak.git",
+                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openzaak/zipball/de9944bbc1b9caf3f58bbe203848274ece434706",
+                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^6.1",
+                "php": ">=7.0",
+                "php-di/php-di": "^6.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "dev-master",
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "mockery/mockery": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.0",
+                "szepeviktor/phpstan-wordpress": "^0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "OWC\\OpenZaak\\": "./src/OpenZaak"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OWC\\OpenZaak\\Tests\\": "./tests/Unit"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "format": [
+                    "vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "Implement the OpenZaak API",
+            "support": {
+                "source": "https://github.com/OpenWebconcept/plugin-openzaak/tree/v1.0.3",
+                "issues": "https://github.com/OpenWebconcept/plugin-openzaak/issues"
+            },
+            "time": "2023-02-28T15:41:04+00:00"
+        },
+        {
             "name": "plugin/owc-gravityforms-bag-address",
             "version": "v1.1.3",
             "source": {
@@ -2159,59 +2222,6 @@
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
             "time": "2022-01-10T09:55:12+00:00"
-        },
-        {
-            "name": "plugin/owc-openzaak",
-            "version": "dev-feature/use-bsn",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:openwebconcept/plugin-owc-openzaak.git",
-                "reference": "38d21e9d8e1250573c7a2ea4604e5930e24197d6"
-            },
-            "require": {
-                "firebase/php-jwt": "^6.1",
-                "php": ">=7.0",
-                "php-di/php-di": "^6.0"
-            },
-            "require-dev": {
-                "10up/wp_mock": "dev-master",
-                "friendsofphp/php-cs-fixer": "^2.18",
-                "mockery/mockery": "^1.0",
-                "phpstan/phpstan": "^0.12",
-                "phpunit/phpunit": "^9.0",
-                "szepeviktor/phpstan-wordpress": "^0.6.0"
-            },
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "OWC\\OpenZaak\\": "./src/OpenZaak"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "OWC\\OpenZaak\\Tests\\": "./tests/Unit"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
-                ],
-                "format": [
-                    "vendor/bin/php-cs-fixer fix"
-                ],
-                "phpstan": [
-                    "./vendor/bin/phpstan analyse"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "Yard | Digital Agency",
-                    "email": "info@yard.nl",
-                    "homepage": "https://www.yard.nl"
-                }
-            ],
-            "description": "Implement the OpenZaak API",
-            "time": "2022-11-02T14:45:01+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -7951,7 +7961,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
-        "plugin/owc-openzaak": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
