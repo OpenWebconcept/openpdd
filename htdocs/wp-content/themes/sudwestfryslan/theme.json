@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "customGradient": false,
+      "customDuotone": false,
+      "palette": [
+        {
+          "slug": "primary",
+          "color": "#bf0042",
+          "name": "Primair"
+        },
+        {
+          "slug": "secondary",
+          "color": "#009ad5",
+          "name": "Secundair"
+        },
+        {
+          "slug": "tertiary",
+          "color": "#f9dc00",
+          "name": "Tertiair"
+        },
+        {
+          "slug": "theme-white",
+          "color": "#FFF",
+          "name": "Wit"
+        },
+        {
+          "slug": "theme-black",
+          "color": "#000",
+          "name": "Zwart"
+        }
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "textDecoration": false,
+      "textTransform": false,
+      "fontSizes": [
+        {
+          "slug": "small",
+          "size": "var(--typography-font-size-small)",
+          "name": "Klein "
+        },
+        {
+          "slug": "medium",
+          "size": "var(--typography-font-size-medium)",
+          "name": "Standaard "
+        },
+        {
+          "slug": "lead",
+          "size": "var(--typography-font-size-lead)",
+          "name": "Lead "
+        }
+      ]
+    },
+    "layout": {
+      "contentSize": "1014px",
+      "wideSize": "var(--layout-wide-size)"
+    },
+    "blocks": {
+      "core/heading": {
+        "typography": {
+          "fontSizes": []
+        }
+      },
+      "core/button": {
+        "border": {
+          "radius": false
+        }
+      }
+    }
+  }
+}
