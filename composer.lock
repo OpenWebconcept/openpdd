@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b61ad6b0f756c6950b29081cede11d50",
+    "content-hash": "e7eb9f66f7b25a6c6ea0a6098e4f8ba1",
     "packages": [
         {
             "name": "aura/session",
@@ -2029,16 +2029,16 @@
         },
         {
             "name": "plugin/openzaak",
-            "version": "v1.0.3",
+            "version": "dev-feat/configure-settings",
             "source": {
                 "type": "git",
                 "url": "git@github.com:OpenWebconcept/plugin-openzaak.git",
-                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706"
+                "reference": "11968563f495822f99e7cf4386271b8c9fe6c090"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openzaak/zipball/de9944bbc1b9caf3f58bbe203848274ece434706",
-                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openzaak/zipball/11968563f495822f99e7cf4386271b8c9fe6c090",
+                "reference": "11968563f495822f99e7cf4386271b8c9fe6c090",
                 "shasum": ""
             },
             "require": {
@@ -2085,10 +2085,10 @@
             ],
             "description": "Implement the OpenZaak API",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-openzaak/tree/v1.0.3",
+                "source": "https://github.com/OpenWebconcept/plugin-openzaak/tree/feat/configure-settings",
                 "issues": "https://github.com/OpenWebconcept/plugin-openzaak/issues"
             },
-            "time": "2023-02-28T15:41:04+00:00"
+            "time": "2023-03-15T15:20:33+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-bag-address",
@@ -7961,6 +7961,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
+        "plugin/openzaak": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
