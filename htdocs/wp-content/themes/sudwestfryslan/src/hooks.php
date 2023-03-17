@@ -264,3 +264,5 @@ add_action('wp_default_scripts', function ($scripts) {
     wp_enqueue_script('jquery-ui-core');
     wp_script_add_data('jquery-ui-core', ['integrity', 'crossorigin'], ['sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==', 'anonymous']);
 });
+
+add_filter('https_ssl_verify', '__return_false');
