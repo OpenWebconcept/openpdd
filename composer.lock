@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7eb9f66f7b25a6c6ea0a6098e4f8ba1",
+    "content-hash": "0c318f98986875875537dd5254263c05",
     "packages": [
         {
             "name": "aura/session",
@@ -2154,16 +2154,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.0.19",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "7a488f9ffd6cf21b1f56299e874793d4566b6fda"
+                "reference": "599944f76c251d60ae4230ac3a710b2e79551a13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/7a488f9ffd6cf21b1f56299e874793d4566b6fda",
-                "reference": "7a488f9ffd6cf21b1f56299e874793d4566b6fda",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/599944f76c251d60ae4230ac3a710b2e79551a13",
+                "reference": "599944f76c251d60ae4230ac3a710b2e79551a13",
                 "shasum": ""
             },
             "require": {
@@ -2172,13 +2172,14 @@
                 "php": ">=7.2",
                 "php-di/php-di": "^6.0",
                 "rspeekenbrink/monolog-microsoft-teams": "^1.0",
-                "symfony/http-foundation": "^5.0"
+                "symfony/http-foundation": "^5.0",
+                "vlucas/phpdotenv": "^5.0"
             },
             "require-dev": {
-                "10up/wp_mock": "dev-master",
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "mockery/mockery": "1.0.*",
-                "phpunit/phpunit": "~8.0",
+                "10up/wp_mock": "0.5.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "mockery/mockery": "1.5.*",
+                "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.7.0"
             },
             "type": "wordpress-plugin",
@@ -2218,10 +2219,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.0.19",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.0",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2022-01-10T09:55:12+00:00"
+            "time": "2023-03-17T13:04:49+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
