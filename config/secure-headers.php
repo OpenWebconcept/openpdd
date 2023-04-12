@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 return [
 
-    /*
+    /**
      * Server
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Server
@@ -14,7 +14,7 @@ return [
 
     'server' => 'Yard | Digital Agency',
 
-    /*
+    /**
      * X-Content-Type-Options
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options
@@ -24,7 +24,7 @@ return [
 
     'x-content-type-options' => 'nosniff',
 
-    /*
+    /**
      * X-Download-Options
      *
      * Reference: https://msdn.microsoft.com/en-us/library/jj542450(v=vs.85).aspx
@@ -34,7 +34,7 @@ return [
 
     'x-download-options' => 'noopen',
 
-    /*
+    /**
      * X-Frame-Options
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options
@@ -44,7 +44,7 @@ return [
 
     'x-frame-options' => 'sameorigin',
 
-    /*
+    /**
      * X-Permitted-Cross-Domain-Policies
      *
      * Reference: https://www.adobe.com/devnet/adobe-media-server/articles/cross-domain-xml-for-streaming.html
@@ -54,7 +54,7 @@ return [
 
     'x-permitted-cross-domain-policies' => 'none',
 
-    /*
+    /**
      * X-Powered-By
      *
      * Note: it will not add to response header if the value is empty string.
@@ -62,7 +62,7 @@ return [
 
     'x-powered-by' => 'Yard | Digital Agency',
 
-    /*
+    /**
      * X-XSS-Protection
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-XSS-Protection
@@ -72,7 +72,7 @@ return [
 
     'x-xss-protection' => '1; mode=block',
 
-    /*
+    /**
      * Referrer-Policy
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
@@ -83,7 +83,7 @@ return [
 
     'referrer-policy' => 'same-origin',
 
-    /*
+    /**
      * Clear-Site-Data
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Clear-Site-Data
@@ -98,7 +98,7 @@ return [
         'executionContexts' => true,
     ],
 
-    /*
+    /**
      * HTTP Strict Transport Security
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security
@@ -113,7 +113,7 @@ return [
         'preload'             => true,
     ],
 
-    /*
+    /**
      * Expect-CT
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Expect-CT
@@ -127,7 +127,7 @@ return [
         'report-uri' => env('SENTRY_SECURITY_HEADERS_REPORT'),
     ],
 
-    /*
+    /**
      * Permissions Policy
      *
      * Reference: https://w3c.github.io/webappsec-permissions-policy/
@@ -293,7 +293,7 @@ return [
         ],
     ],
 
-    /*
+    /**
      * Content Security Policy
      *
      * Reference: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
