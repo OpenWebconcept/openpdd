@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+  Settings
+--------------------------------------------------------------*/
+@import 'settings/design-token-variables';
+@import 'settings/colors';
+@import 'settings/bootstrap';
+@import 'settings/global';
+
+/*--------------------------------------------------------------
+  Parent theme
+--------------------------------------------------------------*/
+@import '~ParentTheme/assets/scss/editor';
+
+.editor-styles-wrapper {
+	background-color: #fff;
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+
+	/*--------------------------------------------------------------
+    Parent theme
+  --------------------------------------------------------------*/
+	@import '~ParentTheme/assets/scss/settings/bootstrap';
+	@import '~ParentTheme/assets/scss/tools/mixins';
+	@import '~ParentTheme/assets/scss/vendor/bootstrap';
+
+	/*--------------------------------------------------------------
+    Vendor
+  --------------------------------------------------------------*/
+	@import 'tools/mixins';
+
+	/*--------------------------------------------------------------
+    Components
+  --------------------------------------------------------------*/
+	@import 'components/menu';
+
+	/*--------------------------------------------------------------
+    Elements
+  --------------------------------------------------------------*/
+	@import './elements/heading';
+
+	/*--------------------------------------------------------------
+    Layouts
+  --------------------------------------------------------------*/
+	@import './layouts/template-openzaak';
+}

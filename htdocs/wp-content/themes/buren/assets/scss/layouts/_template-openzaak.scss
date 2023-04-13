@@ -1,0 +1,10 @@
+$layout: 'template-openzaak';
+
+.#{$layout} {
+	.container {
+		padding: 5rem;
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		background-color: white;
+	}
+}

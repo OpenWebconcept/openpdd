@@ -20,12 +20,6 @@ define('DB_USER', env('DB_USER'));
 define('DB_PASSWORD', env('DB_PASSWORD'));
 define('DB_HOST', env('DB_HOST'));
 
-/**
- * License keys
- */
-define('WPMDB_LICENCE', env('WPMDB_LICENCE'));
-define('META_BOX_KEY', env('META_BOX_KEY'));
-
 define('WP_DEBUG', filter_var(env('WP_DEBUG'), FILTER_VALIDATE_BOOL));
 define('WP_DEBUG_DISPLAY', filter_var(env('WP_DEBUG_DISPLAY'), FILTER_VALIDATE_BOOL));
 define('WP_DEBUG_LOG', filter_var(env('WP_DEBUG_LOG'), FILTER_VALIDATE_BOOL));

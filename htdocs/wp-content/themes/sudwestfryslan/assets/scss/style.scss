@@ -1,31 +1,35 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
-@import "settings/colors";
-@import "settings/bootstrap";
-@import "tools/mixins";
+@import 'settings/design-token-variables';
+@import 'settings/colors';
+@import 'settings/bootstrap';
+@import 'settings/global';
+@import 'tools/mixins';
 
 /*--------------------------------------------------------------
   Parent theme
 --------------------------------------------------------------*/
-@import "../../../owc-formulieren/assets/scss/style";
+@import '../../../owc-formulieren/assets/scss/style';
 
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
-@import "components/buttons";
-@import "components/gravityforms";
-@import "components/navbar";
-@import "components/progress-bar";
-@import "components/site-branding";
+@import 'components/buttons';
+@import 'components/gravityforms';
+@import 'components/menu';
+@import 'components/navbar';
+@import 'components/progress-bar';
+@import 'components/site-branding';
 
 /*--------------------------------------------------------------
   Elements
 --------------------------------------------------------------*/
-@import "elements/body";
+@import 'elements/body';
+@import 'elements/typography';
+@import 'elements/heading';
 
 /*--------------------------------------------------------------
-  Generic
+  Layouts
 --------------------------------------------------------------*/
-@import "generic/typography";
-@import "generic/heading";
+@import 'layouts/template-openzaak';

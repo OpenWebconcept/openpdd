@@ -1,4 +1,4 @@
-$layout: 'page-template-template-pip';
+$block: 'menu';
 
 :root {
 	--wp--style--block-gap: 0;
@@ -7,12 +7,12 @@ $layout: 'page-template-template-pip';
 	--zaak-collapse-button-color-hover: #{$buren-color-grijs-0};
 }
 
-.#{$layout} {
+.#{$block} {
 	/* Extend responsive column styling to 782px (Default is 600px) */
 	.wp-block-column {
 		@media ( max-width: 991px ) {
-			flex-wrap: wrap;
 			width: 100%;
+			flex-wrap: wrap;
 		}
 	}
 
@@ -31,15 +31,15 @@ $layout: 'page-template-template-pip';
 	}
 
 	.wp-block-navigation__responsive-container-open {
-		border: 1px solid $buren-color-grijs-40;
-		border-radius: $btn-border-radius;
 		padding: 0.4rem 0.6rem;
+		border: 1px solid $buren-color-grijs-40;
 		margin-bottom: 2rem;
+		border-radius: $btn-border-radius;
 
 		&::after {
-			content: 'Navigatie';
-			padding-left: 0.5rem;
 			padding-top: 1px;
+			padding-left: 0.5rem;
+			content: 'Navigatie';
 			font-size: $small-font-size;
 		}
 	}
@@ -78,15 +78,15 @@ $layout: 'page-template-template-pip';
 
 	.wp-block-navigation-item__content {
 		width: 100%;
+		padding: 0.7rem 0 0.7rem 0.5rem !important;
 		border-top: 1px solid $buren-color-grijs-20;
 		border-bottom: 0 !important;
-		padding: 0.7rem 0 0.7rem 0.5rem !important;
 		color: $black;
 
 		&::before {
-			margin-right: 0.75rem;
-			min-width: 17px;
 			display: inline-block;
+			min-width: 17px;
+			margin-right: 0.75rem;
 		}
 
 		&:focus {

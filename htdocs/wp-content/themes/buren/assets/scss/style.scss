@@ -1,41 +1,40 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
-@import "settings/design-token-variables";
-@import "settings/colors";
-@import "settings/bootstrap";
-@import "settings/global";
-@import "tools/mixins";
+@import 'settings/design-token-variables';
+@import 'settings/colors';
+@import 'settings/bootstrap';
+@import 'settings/global';
+@import 'tools/mixins';
 
 /*--------------------------------------------------------------
   Parent theme
 --------------------------------------------------------------*/
-@import "../../../owc-formulieren/assets/scss/style";
+@import '../../../owc-formulieren/assets/scss/style';
 
 /*--------------------------------------------------------------
   Layouts
 --------------------------------------------------------------*/
-@import "blocks/wp/shared";
+@import 'blocks/wp/shared';
 
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
-@import "components/buttons";
-@import "components/gravityforms";
-@import "components/navbar";
-@import "components/progress-bar";
-@import "components/site-branding";
+@import 'components/buttons';
+@import 'components/gravityforms';
+@import 'components/menu';
+@import 'components/navbar';
+@import 'components/progress-bar';
+@import 'components/site-branding';
 
 /*--------------------------------------------------------------
   Elements
 --------------------------------------------------------------*/
-@import "elements/body";
-@import "elements/typography";
-@import "elements/heading";
+@import 'elements/body';
+@import 'elements/typography';
+@import 'elements/heading';
 
 /*--------------------------------------------------------------
   Layouts
 --------------------------------------------------------------*/
-@import "layouts/page";
-@import "layouts/template-pip";
-
+@import 'layouts/template-openzaak';
