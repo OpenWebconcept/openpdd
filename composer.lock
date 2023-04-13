@@ -4647,9 +4647,6 @@
             "require": {
                 "php": "~7.0"
             },
-            "replace": {
-                "deployer/recipes": "self.version"
-            },
             "require-dev": {
                 "deployer/deployer": "^6.3"
             },
@@ -8034,5 +8031,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
