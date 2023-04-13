@@ -1,54 +1,70 @@
 /*--------------------------------------------------------------
-  Fonts
+  Typography
 --------------------------------------------------------------*/
-$font-size-base: 1rem;
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-base: "Roboto", $font-family-sans-serif;
-$line-height-base: 1.7;
+$font-size-base: $buren-typography-scale-md-font-size;
+$line-height-base: $buren-typography-line-height-lg-line-height;
+$font-weight-base: $buren-typography-weight-scale-normal-font-weight;
+$yiq-contrasted-threshold: 140;
 $enable-responsive-font-sizes: true;
-$font-weight-base: 300;
+$font-family-base: $buren-typography-sans-serif-font-family;
+$font-weight-bold: $buren-typography-weight-scale-bold-font-weight;
 
-$h1-font-size: $font-size-base * 2.2;
-$h2-font-size: $font-size-base * 1.6;
-$h3-font-size: $font-size-base * 1.3;
-$h4-font-size: $font-size-base * 1.25;
-$h5-font-size: $font-size-base * 1.1;
-$h6-font-size: $font-size-base;
+$small-font-size: $buren-typography-scale-sm-font-size;
+$lead-font-size: $buren-typography-scale-lg-font-size;
+
+$h1-font-size: $buren-typography-scale-4xl-font-size;
+$h2-font-size: $buren-typography-scale-3xl-font-size;
+$h3-font-size: $buren-typography-scale-2xl-font-size;
+$h4-font-size: $buren-typography-scale-xl-font-size;
+$h5-font-size: $buren-typography-scale-lg-font-size;
+$h6-font-size: $buren-typography-scale-md-font-size;
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px,
+);
 
 /*--------------------------------------------------------------
-  Paragraph
+  Colors
 --------------------------------------------------------------*/
-$body-bg: #f2f2f2;
-$body-color: #333;
+$body-bg: $buren-color-grijs-10;
+$body-color: $buren-color-grijs-100;
+$danger: $buren-color-feedback-danger;
+$succes: $buren-color-feedback-succes;
+
+/*--------------------------------------------------------------
+  Paragraphs
+--------------------------------------------------------------*/
+$paragraph-margin-bottom: $utrecht-paragraph-margin-block-end;
 
 /*--------------------------------------------------------------
   Headings
 --------------------------------------------------------------*/
-$h1-color: theme-color("primary");
-$headings-font-weight: 700;
-$headings-margin-bottom: 1.25rem;
+$headings-font-weight: $buren-typography-weight-scale-bold-font-weight;
+$headings-margin-bottom: $utrecht-heading-3-margin-block-end;
 
 /*--------------------------------------------------------------
   Links
 --------------------------------------------------------------*/
-$link-color: #d41422;
+$link-color: $buren-color-rood-50;
 
 /*--------------------------------------------------------------
   Buttons
 --------------------------------------------------------------*/
-$btn-padding-y: 0.8rem;
-$btn-padding-x: 1.1rem;
-$btn-border-width: 2px;
-$btn-border-radius: 3px;
+$btn-padding-y: $utrecht-button-padding-block-end;
+$btn-padding-x: $utrecht-button-padding-inline-end;
+$btn-border-width: $utrecht-button-border-width;
+$btn-border-radius: $utrecht-button-border-radius;
 $btn-border-style: solid;
-$btn-font-weight: 400;
+$btn-font-size: $font-size-base;
+$btn-font-weight: $font-weight-base;
 
 /*--------------------------------------------------------------
   Pagination
 --------------------------------------------------------------*/
-$pagination-color: #000;
-$pagination-bg: theme-color("secondary");
-$pagination-active-color: #000;
-$pagination-active-bg: theme-color("secondary");
+$pagination-color: $buren-color-grijs-100;
+$pagination-bg: $buren-color-geel-50;
+$pagination-active-color: $buren-color-grijs-100;
+$pagination-active-bg: $buren-color-geel-50;
