@@ -5,7 +5,7 @@ get_header();
     <div class="container | bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
         <?php while (have_posts()) : the_post(); ?>
         <header class="section__header | d-flex flex-column pb-3">
-            <h1 class="section__title">
+            <h1 class="section__title | mb-3">
                 <?php echo get_the_title() ?>
             </h1>
             <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve mb-3">
