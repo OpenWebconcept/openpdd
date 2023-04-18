@@ -66,7 +66,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:OpenWebconcept/plugin-openzaak.git"
+      "url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
     },
     {
       "type": "vcs",
@@ -91,8 +91,8 @@
     "plugin/gravityforms": "^2.0",
     "plugin/owc-gravityforms-bag-address": "^1.1",
     "plugin/owc-gravityforms-digid": "^1.1.0",
+    "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/gravityformszapier": "^4.0",
-    "plugin/openzaak": "dev-feat/configure-settings",
     "plugin/prefill-gravity-forms": "^1.0",
     "plugin/real-time-validation-for-gravity-forms": "^1.7",
     "plugin/waardepapieren": "dev-feature/fieldlab",
