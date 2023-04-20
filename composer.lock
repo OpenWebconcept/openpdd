@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "704c4ea78f4ffbd0abec35f558c48793",
+    "content-hash": "e4bff040178edb30420bbdcfcdf9ac8f",
     "packages": [
         {
             "name": "aura/session",
@@ -2257,13 +2257,76 @@
             "version": "v1.0.10",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "c69e49a07974b3d28cb5784116e788b8e5dadfa9"
+                "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
+                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/c69e49a07974b3d28cb5784116e788b8e5dadfa9",
-                "reference": "c69e49a07974b3d28cb5784116e788b8e5dadfa9",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/de9944bbc1b9caf3f58bbe203848274ece434706",
+                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^6.1",
+                "php": ">=7.0",
+                "php-di/php-di": "^6.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "dev-master",
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "mockery/mockery": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.0",
+                "szepeviktor/phpstan-wordpress": "^0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "OWC\\OpenZaak\\": "./src/OpenZaak"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OWC\\OpenZaak\\Tests\\": "./tests/Unit"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "format": [
+                    "vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "Implement the OpenZaak API",
+            "support": {
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v1.0.3",
+                "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
+            },
+            "time": "2023-02-28T15:41:04+00:00"
+        },
+        {
+            "name": "plugin/prefill-gravity-forms",
+            "version": "dev-feat/multi-party-mike",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
+                "reference": "24e3697784aa653d8d4989b6e91e28f8eac4f5d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/24e3697784aa653d8d4989b6e91e28f8eac4f5d2",
+                "reference": "24e3697784aa653d8d4989b6e91e28f8eac4f5d2",
                 "shasum": ""
             },
             "require": {
@@ -2309,10 +2372,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.10",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/multi-party-mike",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2022-02-23T08:53:27+00:00"
+            "time": "2023-04-24T10:03:33+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -8023,6 +8086,7 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/prefill-gravity-forms": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
