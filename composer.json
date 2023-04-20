@@ -108,7 +108,7 @@
     "plugin/owc-gravityforms-bag-address": "^1.1",
     "plugin/owc-gravityforms-digid": "^1.1.0",
     "plugin/owc-gravityforms-zaaksysteem": "dev-feat/multi-party-mike",
-    "plugin/prefill-gravity-forms": "^1.0",
+    "plugin/prefill-gravity-forms": "dev-feat/multi-party-mike",
     "plugin/real-time-validation-for-gravity-forms": "^1.7",
     "plugin/waardepapieren": "dev-feature/fieldlab",
     "privacybydesign/irma-wp": "@dev",
@@ -124,7 +124,7 @@
     "wpackagist-plugin/wp-seopress": "^6.0"
   },
   "require-dev": {
-    "10up/wp_mock": "*",
+    "10up/wp_mock": "~0.5",
     "deployer/deployer": "^6.0",
     "deployer/recipes": "dev-master",
     "friendsofphp/php-cs-fixer": "^3.0",
