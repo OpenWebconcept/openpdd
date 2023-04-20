@@ -8070,6 +8070,7 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/prefill-gravity-forms": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
