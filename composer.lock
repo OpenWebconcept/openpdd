@@ -1137,20 +1137,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "de3b59e7e724bdc6c334f93ddbf2f9e06a92267b"
+                "reference": "8054207cbc412fa8575bfc82d4d684f5f2063e3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/de3b59e7e724bdc6c334f93ddbf2f9e06a92267b",
-                "reference": "de3b59e7e724bdc6c334f93ddbf2f9e06a92267b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8054207cbc412fa8575bfc82d4d684f5f2063e3c",
+                "reference": "8054207cbc412fa8575bfc82d4d684f5f2063e3c",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.2.0",
+                "johnpbloch/wordpress-core": "6.2.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -1179,20 +1179,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-03-30T04:14:55+00:00"
+            "time": "2023-05-16T16:54:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "cec139b6b71913343b68fbf043c468407a921225"
+                "reference": "5c079d327a849f6ca05082a5099879f4ffc50597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/cec139b6b71913343b68fbf043c468407a921225",
-                "reference": "cec139b6b71913343b68fbf043c468407a921225",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5c079d327a849f6ca05082a5099879f4ffc50597",
+                "reference": "5c079d327a849f6ca05082a5099879f4ffc50597",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.1.3"
+                "wordpress/core-implementation": "6.2.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1960,6 +1960,28 @@
                 "issues": "https://github.com/ConductionNL/formio-wordpress/issues"
             },
             "time": "2022-04-21T14:07:54+00:00"
+        },
+        {
+            "name": "plugin/gravity-pdf",
+            "version": "v6.5.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/gravity-pdf.git",
+                "reference": "f72bd8de620e975682c40b3b9e97d14f822446ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/gravity-pdf/zipball/f72bd8de620e975682c40b3b9e97d14f822446ae",
+                "reference": "f72bd8de620e975682c40b3b9e97d14f822446ae",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "Gravity Forms add-on to generate PDF files",
+            "support": {
+                "source": "https://github.com/yardinternet/gravity-pdf/tree/v6.5.5",
+                "issues": "https://github.com/yardinternet/gravity-pdf/issues"
+            },
+            "time": "2023-04-25T07:47:31+00:00"
         },
         {
             "name": "plugin/gravityforms",
