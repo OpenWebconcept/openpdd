@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4bff040178edb30420bbdcfcdf9ac8f",
+    "content-hash": "09468e28b9647643f0051584017cca77",
     "packages": [
         {
             "name": "aura/session",
@@ -394,25 +394,25 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.4.0",
+            "version": "v6.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "4dd1e007f22a927ac77da5a3fbb067b42d3bc224"
+                "reference": "e94e7353302b0c11ec3cfff7180cd0b1743975d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/4dd1e007f22a927ac77da5a3fbb067b42d3bc224",
-                "reference": "4dd1e007f22a927ac77da5a3fbb067b42d3bc224",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/e94e7353302b0c11ec3cfff7180cd0b1743975d2",
+                "reference": "e94e7353302b0c11ec3cfff7180cd0b1743975d2",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1||^8.0"
+                "php": "^7.4||^8.0"
             },
             "require-dev": {
                 "guzzlehttp/guzzle": "^6.5||^7.4",
-                "phpspec/prophecy-phpunit": "^1.1",
-                "phpunit/phpunit": "^7.5||^9.5",
+                "phpspec/prophecy-phpunit": "^2.0",
+                "phpunit/phpunit": "^9.5",
                 "psr/cache": "^1.0||^2.0",
                 "psr/http-client": "^1.0",
                 "psr/http-factory": "^1.0"
@@ -451,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.4.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.5.0"
             },
-            "time": "2023-02-09T21:01:23+00:00"
+            "time": "2023-05-12T15:47:07+00:00"
         },
         {
             "name": "gogentooss/samlbase",
@@ -1142,20 +1142,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "de3b59e7e724bdc6c334f93ddbf2f9e06a92267b"
+                "reference": "8054207cbc412fa8575bfc82d4d684f5f2063e3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/de3b59e7e724bdc6c334f93ddbf2f9e06a92267b",
-                "reference": "de3b59e7e724bdc6c334f93ddbf2f9e06a92267b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8054207cbc412fa8575bfc82d4d684f5f2063e3c",
+                "reference": "8054207cbc412fa8575bfc82d4d684f5f2063e3c",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.2.0",
+                "johnpbloch/wordpress-core": "6.2.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -1184,20 +1184,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-03-30T04:14:55+00:00"
+            "time": "2023-05-16T16:54:51+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.2.0",
+            "version": "6.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "cec139b6b71913343b68fbf043c468407a921225"
+                "reference": "5c079d327a849f6ca05082a5099879f4ffc50597"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/cec139b6b71913343b68fbf043c468407a921225",
-                "reference": "cec139b6b71913343b68fbf043c468407a921225",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5c079d327a849f6ca05082a5099879f4ffc50597",
+                "reference": "5c079d327a849f6ca05082a5099879f4ffc50597",
                 "shasum": ""
             },
             "require": {
@@ -1205,7 +1205,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.2.0"
+                "wordpress/core-implementation": "6.2.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1232,7 +1232,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-03-30T04:14:50+00:00"
+            "time": "2023-05-16T16:54:48+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1290,10 +1290,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "6.2",
+            "version": "6.2.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/6.2/nl_NL.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.2.1/nl_NL.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1853,16 +1853,16 @@
         },
         {
             "name": "plugin/config-expander",
-            "version": "v2.0.25",
+            "version": "v2.0.26",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/config-expander.git",
-                "reference": "707bfe487161d8f36ab2c06d3d3606a2fcb066f9"
+                "reference": "216c5ac48b5b6b3bd22774cc1e0adc14ac0d9ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/config-expander/zipball/707bfe487161d8f36ab2c06d3d3606a2fcb066f9",
-                "reference": "707bfe487161d8f36ab2c06d3d3606a2fcb066f9",
+                "url": "https://api.github.com/repos/yardinternet/config-expander/zipball/216c5ac48b5b6b3bd22774cc1e0adc14ac0d9ca8",
+                "reference": "216c5ac48b5b6b3bd22774cc1e0adc14ac0d9ca8",
                 "shasum": ""
             },
             "require": {
@@ -1938,10 +1938,10 @@
             "description": "Config Expander for WordPress",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/config-expander/tree/v2.0.25",
+                "source": "https://github.com/yardinternet/config-expander/tree/v2.0.26",
                 "issues": "https://github.com/yardinternet/config-expander/issues"
             },
-            "time": "2023-05-05T14:13:54+00:00"
+            "time": "2023-05-12T12:58:23+00:00"
         },
         {
             "name": "plugin/formio-wordpress",
@@ -1965,6 +1965,28 @@
                 "issues": "https://github.com/ConductionNL/formio-wordpress/issues"
             },
             "time": "2022-04-21T14:07:54+00:00"
+        },
+        {
+            "name": "plugin/gravity-pdf",
+            "version": "v6.5.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/gravity-pdf.git",
+                "reference": "f72bd8de620e975682c40b3b9e97d14f822446ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/gravity-pdf/zipball/f72bd8de620e975682c40b3b9e97d14f822446ae",
+                "reference": "f72bd8de620e975682c40b3b9e97d14f822446ae",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "Gravity Forms add-on to generate PDF files",
+            "support": {
+                "source": "https://github.com/yardinternet/gravity-pdf/tree/v6.5.5",
+                "issues": "https://github.com/yardinternet/gravity-pdf/issues"
+            },
+            "time": "2023-04-25T07:47:31+00:00"
         },
         {
             "name": "plugin/gravityforms",
@@ -2258,12 +2280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706"
+                "reference": "af94a0575b69cca79ffcdb84470857272d6ac092"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/de9944bbc1b9caf3f58bbe203848274ece434706",
-                "reference": "de9944bbc1b9caf3f58bbe203848274ece434706",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/af94a0575b69cca79ffcdb84470857272d6ac092",
+                "reference": "af94a0575b69cca79ffcdb84470857272d6ac092",
                 "shasum": ""
             },
             "require": {
@@ -2282,12 +2304,12 @@
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
-                    "OWC\\OpenZaak\\": "./src/OpenZaak"
+                    "OWC\\Zaaksysteem\\": "./src/Zaaksysteem"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "OWC\\OpenZaak\\Tests\\": "./tests/Unit"
+                    "OWC\\Zaaksysteem\\Tests\\": "./tests/Unit"
                 }
             },
             "scripts": {
@@ -2308,12 +2330,12 @@
                     "homepage": "https://www.yard.nl"
                 }
             ],
-            "description": "Implement the OpenZaak API",
+            "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v1.0.3",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/multi-party-mike",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-02-28T15:41:04+00:00"
+            "time": "2023-05-17T17:01:57+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -2321,12 +2343,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "24e3697784aa653d8d4989b6e91e28f8eac4f5d2"
+                "reference": "6e4c25e6c820bc196ffa91df52040bb491960643"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/24e3697784aa653d8d4989b6e91e28f8eac4f5d2",
-                "reference": "24e3697784aa653d8d4989b6e91e28f8eac4f5d2",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/6e4c25e6c820bc196ffa91df52040bb491960643",
+                "reference": "6e4c25e6c820bc196ffa91df52040bb491960643",
                 "shasum": ""
             },
             "require": {
@@ -2375,7 +2397,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/multi-party-mike",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-04-24T10:03:33+00:00"
+            "time": "2023-05-17T12:51:30+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -5784,16 +5806,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.7",
+            "version": "9.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c993f0d3b0489ffc42ee2fe0bd645af1538a63b2"
+                "reference": "17d621b3aff84d0c8b62539e269e87d8d5baa76e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c993f0d3b0489ffc42ee2fe0bd645af1538a63b2",
-                "reference": "c993f0d3b0489ffc42ee2fe0bd645af1538a63b2",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/17d621b3aff84d0c8b62539e269e87d8d5baa76e",
+                "reference": "17d621b3aff84d0c8b62539e269e87d8d5baa76e",
                 "shasum": ""
             },
             "require": {
@@ -5867,7 +5889,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.7"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.8"
             },
             "funding": [
                 {
@@ -5883,7 +5905,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-14T08:58:40+00:00"
+            "time": "2023-05-11T05:14:45+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -6337,16 +6359,16 @@
         },
         {
             "name": "sebastian/diff",
-            "version": "4.0.4",
+            "version": "4.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d"
+                "reference": "74be17022044ebaaecfdf0c5cd504fc9cd5a7131"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/3461e3fccc7cfdfc2720be910d3bd73c69be590d",
-                "reference": "3461e3fccc7cfdfc2720be910d3bd73c69be590d",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/74be17022044ebaaecfdf0c5cd504fc9cd5a7131",
+                "reference": "74be17022044ebaaecfdf0c5cd504fc9cd5a7131",
                 "shasum": ""
             },
             "require": {
@@ -6391,7 +6413,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/diff/issues",
-                "source": "https://github.com/sebastianbergmann/diff/tree/4.0.4"
+                "source": "https://github.com/sebastianbergmann/diff/tree/4.0.5"
             },
             "funding": [
                 {
@@ -6399,7 +6421,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-10-26T13:10:38+00:00"
+            "time": "2023-05-07T05:35:17+00:00"
         },
         {
             "name": "sebastian/environment",
