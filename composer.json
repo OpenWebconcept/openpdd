@@ -87,6 +87,10 @@
     {
       "type": "vcs",
       "url": "git@github.com:ConductionNL/formio-wordpress.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:yardinternet/gravity-pdf.git"
     }
   ],
   "require": {
@@ -107,6 +111,7 @@
     "plugin/gravityperks-limit-submissions": "^1.0",
     "plugin/owc-gravityforms-bag-address": "^1.1",
     "plugin/owc-gravityforms-digid": "^1.1.0",
+    "plugin/gravity-pdf": "6.5.*",
     "plugin/owc-gravityforms-zaaksysteem": "dev-feat/multi-party-mike",
     "plugin/prefill-gravity-forms": "dev-feat/multi-party-mike",
     "plugin/real-time-validation-for-gravity-forms": "^1.7",
