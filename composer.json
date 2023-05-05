@@ -54,6 +54,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:yardinternet/gravityperks-limit-choices.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:yardinternet/gravityforms-zapier.git"
     },
     {
@@ -93,6 +97,7 @@
     "plugin/owc-gravityforms-digid": "^1.1.0",
     "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/gravityformszapier": "^4.0",
+    "plugin/gravityperks-limit-choices": "1.7.*",
     "plugin/prefill-gravity-forms": "^1.0",
     "plugin/real-time-validation-for-gravity-forms": "^1.7",
     "plugin/waardepapieren": "dev-feature/fieldlab",
