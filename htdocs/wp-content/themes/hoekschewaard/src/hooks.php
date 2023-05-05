@@ -172,6 +172,13 @@ add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
  * GravityPerks Limit Choices
  */
 add_filter('gplc_remove_choices', '__return_false');
+add_filter('gplc_pre_render_choice', function ($choice, $exceededLimit, $field, $form, $count) {
+    $limit = rgar($choice, 'limit');
+    $choicesLeft = max($limit - $count, 0);
+    $message = sprintf('(%s plekken over)', $choicesLeft);
+    $choice['text'] = sprintf('%s %s', $choice['text'], $message);
+    return $choice;
+}, 10, 5);
 
 /**
  * Change the custom logo URL

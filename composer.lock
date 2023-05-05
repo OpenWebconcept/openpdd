@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f898a403a8c3c12fadf55a0e97a21a8b",
+    "content-hash": "363d24df4db135de051b632d4533666c",
     "packages": [
         {
             "name": "aura/session",
@@ -1853,16 +1853,16 @@
         },
         {
             "name": "plugin/config-expander",
-            "version": "v2.0.24",
+            "version": "v2.0.25",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/config-expander.git",
-                "reference": "bfa2bb25a60d932d5dff4ad125f43136bb5a1443"
+                "reference": "707bfe487161d8f36ab2c06d3d3606a2fcb066f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/config-expander/zipball/bfa2bb25a60d932d5dff4ad125f43136bb5a1443",
-                "reference": "bfa2bb25a60d932d5dff4ad125f43136bb5a1443",
+                "url": "https://api.github.com/repos/yardinternet/config-expander/zipball/707bfe487161d8f36ab2c06d3d3606a2fcb066f9",
+                "reference": "707bfe487161d8f36ab2c06d3d3606a2fcb066f9",
                 "shasum": ""
             },
             "require": {
@@ -1938,10 +1938,10 @@
             "description": "Config Expander for WordPress",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/config-expander/tree/v2.0.24",
+                "source": "https://github.com/yardinternet/config-expander/tree/v2.0.25",
                 "issues": "https://github.com/yardinternet/config-expander/issues"
             },
-            "time": "2023-04-03T17:43:30+00:00"
+            "time": "2023-05-05T14:13:54+00:00"
         },
         {
             "name": "plugin/formio-wordpress",
@@ -2009,6 +2009,28 @@
                 "issues": "https://github.com/yardinternet/gravityforms-zapier/issues"
             },
             "time": "2022-11-10T10:24:47+00:00"
+        },
+        {
+            "name": "plugin/gravityperks",
+            "version": "v2.2.9",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/gravityperks.git",
+                "reference": "cdf62d8bd42b709e861872e9c7e6d2f4c65b0336"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/gravityperks/zipball/cdf62d8bd42b709e861872e9c7e6d2f4c65b0336",
+                "reference": "cdf62d8bd42b709e861872e9c7e6d2f4c65b0336",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "Gravityforms addon by GravityWiz",
+            "support": {
+                "source": "https://github.com/yardinternet/gravityperks/tree/v2.2.9",
+                "issues": "https://github.com/yardinternet/gravityperks/issues"
+            },
+            "time": "2023-01-27T13:15:59+00:00"
         },
         {
             "name": "plugin/gravityperks-limit-choices",
