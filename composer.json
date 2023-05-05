@@ -61,10 +61,6 @@
       "url": "git@github.com:yardinternet/gravityforms-zapier.git"
     },
     {
-      "type": "composer",
-      "url": "https://composer.deliciousbrains.com"
-    },
-    {
       "type": "vcs",
       "url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
     },
@@ -84,7 +80,6 @@
   "require": {
     "bepsvpt/secure-headers": "^7.0",
     "composer/installers": "^1.0",
-    "deliciousbrains-plugin/wp-migrate-db-pro": "*",
     "illuminate/support": "^8.83",
     "johnpbloch/wordpress": "6.1.*",
     "johnpbloch/wordpress-core": "6.1.*",

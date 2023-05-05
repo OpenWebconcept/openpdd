@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f30fe53428c4b6a25d3966d5fc1079a",
+    "content-hash": "f898a403a8c3c12fadf55a0e97a21a8b",
     "packages": [
         {
             "name": "aura/session",
@@ -300,18 +300,6 @@
                 }
             ],
             "time": "2021-09-13T08:19:44+00:00"
-        },
-        {
-            "name": "deliciousbrains-plugin/wp-migrate-db-pro",
-            "version": "2.6.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.deliciousbrains.com/?wc-api=delicious-brains&request=composer_download&package=wp-migrate-db-pro&version=2.6.5"
-            },
-            "require": {
-                "composer/installers": "~1.0 || ~2.0"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "doctrine/inflector",
