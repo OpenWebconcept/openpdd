@@ -8,11 +8,11 @@
     "dev": "run-p -l \"dev:** -- {@}\" --",
     "dev:editor": "wp-scripts start --config ./config/editor.config.js",
     "dev:frontend": "wp-scripts start --config ./config/frontend.config.js",
-    "dev-all": "run-p -l \"dev -- --env theme=owc-formulieren\" \"dev -- --env theme=buren\" \"dev -- --env theme=ggd-hollands-noorden\" \"dev -- --env theme=waddinxveen\" \"dev -- --env theme=hoekschewaard\" \"dev -- --env theme=sudwestfryslan\"",
+    "dev-all": "run-p -l \"dev -- --env theme=owc-formulieren\" \"dev -- --env theme=buren\" \"dev -- --env theme=ggd-hollands-noorden\" \"dev -- --env theme=waddinxveen\" \"dev -- --env theme=hollandskroon\" \"dev -- --env theme=hoekschewaard\" \"dev -- --env theme=sudwestfryslan\"",
     "prod": "run-p -l \"prod:** -- {@}\" --",
     "prod:editor": "wp-scripts build --config ./config/editor.config.js",
     "prod:frontend": "wp-scripts build --config ./config/frontend.config.js",
-    "prod-all": "run-p -l \"prod -- --env theme=owc-formulieren\" \"prod -- --env theme=buren\" \"prod -- --env theme=ggd-hollands-noorden\" \"prod -- --env theme=waddinxveen\" \"prod -- --env theme=hoekschewaard\" \"prod -- --env theme=sudwestfryslan\"",
+    "prod-all": "run-p -l \"prod -- --env theme=owc-formulieren\" \"prod -- --env theme=buren\" \"prod -- --env theme=ggd-hollands-noorden\" \"prod -- --env theme=waddinxveen\" \"prod -- --env theme=hollandskroon\" \"prod -- --env theme=hoekschewaard\" \"prod -- --env theme=sudwestfryslan\"",
     "format:js": "wp-scripts format \"./**/assets/js/src/**/*.{js,ts}\"",
     "lint:js": "wp-scripts lint-js \"./**/assets/js/src/**/*.js\"",
     "lint:scss": "stylelint './**/assets/scss/**/*.scss' --fix"

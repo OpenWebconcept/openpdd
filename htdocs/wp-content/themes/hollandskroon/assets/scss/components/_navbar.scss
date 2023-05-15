@@ -1,0 +1,37 @@
+.navbar {
+  .menu-item {
+    position: relative;
+    height: 100%;
+    align-items: center;
+
+    &::before {
+      position: absolute;
+      bottom: -8px;
+      left: 10%;
+      width: 80%;
+      height: 3px;
+      background-color: theme-color("primary");
+      content: "";
+      transform: scaleX(0);
+      transition: all 0.4s ease-in-out;
+      visibility: hidden;
+    }
+
+    @include hover-focus-active() {
+      &::before {
+        transform: scaleX(1);
+        visibility: visible;
+      }
+    }
+
+    a {
+      color: theme-color("secondary");
+      font-size: $font-size-base;
+      font-weight: $font-weight-bold;
+
+      @include hover-focus-active() {
+        text-decoration: none;
+      }
+    }
+  }
+}

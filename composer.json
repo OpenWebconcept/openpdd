@@ -156,6 +156,7 @@
   "autoload": {
     "psr-4": {
       "App\\": "app/",
+      "HK\\": "htdocs/wp-content/themes/hollandskroon/src",
       "HW\\": "htdocs/wp-content/themes/hoekschewaard/src"
     },
     "files": []
