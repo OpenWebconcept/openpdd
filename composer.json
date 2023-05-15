@@ -92,12 +92,12 @@
     "plugin/config-expander": "^2.0",
     "plugin/formio-wordpress": "dev-main",
     "plugin/gravityforms": "^2.0",
-    "plugin/owc-gravityforms-bag-address": "^1.1",
-    "plugin/owc-gravityforms-digid": "^1.1.0",
-    "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/gravityformszapier": "^4.0",
     "plugin/gravityperks": "2.2.*",
     "plugin/gravityperks-limit-choices": "1.7.*",
+    "plugin/owc-gravityforms-bag-address": "^1.1",
+    "plugin/owc-gravityforms-digid": "^1.1.0",
+    "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/prefill-gravity-forms": "^1.0",
     "plugin/real-time-validation-for-gravity-forms": "^1.7",
     "plugin/waardepapieren": "dev-feature/fieldlab",
@@ -110,6 +110,7 @@
     "wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
     "wpackagist-plugin/onelogin-saml-sso": "^3.4",
     "wpackagist-plugin/user-switching": "^1.0",
+    "wpackagist-plugin/wordpress-importer": "^0.8.1",
     "wpackagist-plugin/wp-seopress": "^6.0"
   },
   "require-dev": {
