@@ -21,7 +21,7 @@ class Role
     public function getGravityFormsCapsKeyValue(): array
     {
         return [
-            'gravityforms_create_forms'         => true,
+            'gravityforms_create_form'          => true,
             'gravityforms_delete_forms'         => true,
             'gravityforms_edit_forms'           => true,
             'gravityforms_preview_forms'        => true,
