@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09468e28b9647643f0051584017cca77",
+    "content-hash": "9d3efe1f5a9f205f75a0f5f1f16853f5",
     "packages": [
         {
             "name": "aura/session",
@@ -686,16 +686,16 @@
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "1.5.2",
+            "version": "1.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "b94b2807d85443f9719887892882d0329d1e2598"
+                "reference": "67ab6e18aaa14d753cc148911d273f6e6cb6721e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/b94b2807d85443f9719887892882d0329d1e2598",
-                "reference": "b94b2807d85443f9719887892882d0329d1e2598",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/67ab6e18aaa14d753cc148911d273f6e6cb6721e",
+                "reference": "67ab6e18aaa14d753cc148911d273f6e6cb6721e",
                 "shasum": ""
             },
             "require": {
@@ -705,11 +705,6 @@
                 "symfony/phpunit-bridge": "^4.4 || ^5.1"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.5-dev"
-                }
-            },
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -750,7 +745,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
-                "source": "https://github.com/guzzle/promises/tree/1.5.2"
+                "source": "https://github.com/guzzle/promises/tree/1.5.3"
             },
             "funding": [
                 {
@@ -766,7 +761,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-08-28T14:55:35+00:00"
+            "time": "2023-05-21T12:31:43+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -1142,20 +1137,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.2.1",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "8054207cbc412fa8575bfc82d4d684f5f2063e3c"
+                "reference": "236680349aff347c8bac55665245d3b347d162f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/8054207cbc412fa8575bfc82d4d684f5f2063e3c",
-                "reference": "8054207cbc412fa8575bfc82d4d684f5f2063e3c",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/236680349aff347c8bac55665245d3b347d162f0",
+                "reference": "236680349aff347c8bac55665245d3b347d162f0",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.2.1",
+                "johnpbloch/wordpress-core": "6.2.2",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=5.6.20"
             },
@@ -1184,20 +1179,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-05-16T16:54:51+00:00"
+            "time": "2023-05-20T04:40:46+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.2.1",
+            "version": "6.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "5c079d327a849f6ca05082a5099879f4ffc50597"
+                "reference": "5ed6d4a0469ff42d7ec4a1f72558be8f897a6e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5c079d327a849f6ca05082a5099879f4ffc50597",
-                "reference": "5c079d327a849f6ca05082a5099879f4ffc50597",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/5ed6d4a0469ff42d7ec4a1f72558be8f897a6e18",
+                "reference": "5ed6d4a0469ff42d7ec4a1f72558be8f897a6e18",
                 "shasum": ""
             },
             "require": {
@@ -1205,7 +1200,7 @@
                 "php": ">=5.6.20"
             },
             "provide": {
-                "wordpress/core-implementation": "6.2.1"
+                "wordpress/core-implementation": "6.2.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1232,7 +1227,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-05-16T16:54:48+00:00"
+            "time": "2023-05-20T04:40:42+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1290,10 +1285,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "6.2.1",
+            "version": "6.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/6.2.1/nl_NL.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.2.2/nl_NL.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1503,16 +1498,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.66.0",
+            "version": "2.67.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "496712849902241f04902033b0441b269effe001"
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/496712849902241f04902033b0441b269effe001",
-                "reference": "496712849902241f04902033b0441b269effe001",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c1001b3bc75039b07f38a79db5237c4c529e04c8",
+                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8",
                 "shasum": ""
             },
             "require": {
@@ -1601,7 +1596,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-29T18:53:47+00:00"
+            "time": "2023-05-25T22:09:47+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -1990,25 +1985,25 @@
         },
         {
             "name": "plugin/gravityforms",
-            "version": "v2.7.5",
+            "version": "v2.7.6.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/gravityforms.git",
-                "reference": "8ef68bc2a7b738b6d94ba21fb5838d30d1a70ff9"
+                "reference": "62ebfbd150a21f6feab0ece6cff243e53e3ce95d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/8ef68bc2a7b738b6d94ba21fb5838d30d1a70ff9",
-                "reference": "8ef68bc2a7b738b6d94ba21fb5838d30d1a70ff9",
+                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/62ebfbd150a21f6feab0ece6cff243e53e3ce95d",
+                "reference": "62ebfbd150a21f6feab0ece6cff243e53e3ce95d",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "description": "Gravityforms",
             "support": {
-                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.5",
+                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.6.1",
                 "issues": "https://github.com/yardinternet/gravityforms/issues"
             },
-            "time": "2023-05-04T13:02:12+00:00"
+            "time": "2023-05-24T10:08:20+00:00"
         },
         {
             "name": "plugin/gravityformszapier",
@@ -2216,12 +2211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "c22bad62a5c034a5a6287020815e62ca2ca6fcc4"
+                "reference": "67f0b9a1b8fb999576360afccd63fed4bf579724"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/c22bad62a5c034a5a6287020815e62ca2ca6fcc4",
-                "reference": "c22bad62a5c034a5a6287020815e62ca2ca6fcc4",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/67f0b9a1b8fb999576360afccd63fed4bf579724",
+                "reference": "67f0b9a1b8fb999576360afccd63fed4bf579724",
                 "shasum": ""
             },
             "require": {
@@ -2272,20 +2267,20 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-05-09T10:54:38+00:00"
+            "time": "2023-05-15T11:37:35+00:00"
         },
         {
-            "name": "plugin/prefill-gravity-forms",
-            "version": "v1.0.10",
+            "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
+            "version": "dev-feat/multi-party-mike",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "af94a0575b69cca79ffcdb84470857272d6ac092"
+                "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
+                "reference": "c3027811f5a14cee5928a62ddada38f280de8e50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/af94a0575b69cca79ffcdb84470857272d6ac092",
-                "reference": "af94a0575b69cca79ffcdb84470857272d6ac092",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/c3027811f5a14cee5928a62ddada38f280de8e50",
+                "reference": "c3027811f5a14cee5928a62ddada38f280de8e50",
                 "shasum": ""
             },
             "require": {
@@ -2294,22 +2289,23 @@
                 "php-di/php-di": "^6.0"
             },
             "require-dev": {
-                "10up/wp_mock": "dev-master",
+                "10up/wp_mock": "~0.5",
                 "friendsofphp/php-cs-fixer": "^2.18",
                 "mockery/mockery": "^1.0",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
-                    "OWC\\Zaaksysteem\\": "./src/Zaaksysteem"
+                    "OWC\\EnableU\\Zaaksysteem\\": "./src/Zaaksysteem"
                 }
             },
             "autoload-dev": {
                 "psr-4": {
-                    "OWC\\Zaaksysteem\\Tests\\": "./tests/Unit"
+                    "OWC\\EnableU\\Zaaksysteem\\Tests\\": "./tests/Unit"
                 }
             },
             "scripts": {
@@ -2332,10 +2328,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/multi-party-mike",
-                "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/feat/multi-party-mike",
+                "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
-            "time": "2023-05-17T17:01:57+00:00"
+            "time": "2023-05-30T11:29:31+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -2343,12 +2339,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "6e4c25e6c820bc196ffa91df52040bb491960643"
+                "reference": "505630c36319984ccb24ea2fc21b9389a9fc7da1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/6e4c25e6c820bc196ffa91df52040bb491960643",
-                "reference": "6e4c25e6c820bc196ffa91df52040bb491960643",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/505630c36319984ccb24ea2fc21b9389a9fc7da1",
+                "reference": "505630c36319984ccb24ea2fc21b9389a9fc7da1",
                 "shasum": ""
             },
             "require": {
@@ -2356,8 +2352,8 @@
                 "php-di/php-di": "^6.0"
             },
             "require-dev": {
-                "10up/wp_mock": "dev-master",
-                "friendsofphp/php-cs-fixer": "^2.18",
+                "10up/wp_mock": "^0.5.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
                 "mockery/mockery": "^1.0",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^9.0",
@@ -2397,7 +2393,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/multi-party-mike",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-05-17T12:51:30+00:00"
+            "time": "2023-05-25T11:16:02+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -2834,16 +2830,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.4.23",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "bb7b7988c898c94f5338e16403c52b5a3cae1d93"
+                "reference": "4645e032d0963fb614969398ca28e47605b1a7da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/bb7b7988c898c94f5338e16403c52b5a3cae1d93",
-                "reference": "bb7b7988c898c94f5338e16403c52b5a3cae1d93",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/4645e032d0963fb614969398ca28e47605b1a7da",
+                "reference": "4645e032d0963fb614969398ca28e47605b1a7da",
                 "shasum": ""
             },
             "require": {
@@ -2903,7 +2899,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.23"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -2919,7 +2915,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-21T15:04:16+00:00"
+            "time": "2023-05-05T14:42:55+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2990,16 +2986,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.23",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "af9fbb378f5f956c8f29d4886644c84c193780ac"
+                "reference": "3c59f97f6249ce552a44f01b93bfcbd786a954f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/af9fbb378f5f956c8f29d4886644c84c193780ac",
-                "reference": "af9fbb378f5f956c8f29d4886644c84c193780ac",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3c59f97f6249ce552a44f01b93bfcbd786a954f5",
+                "reference": "3c59f97f6249ce552a44f01b93bfcbd786a954f5",
                 "shasum": ""
             },
             "require": {
@@ -3046,7 +3042,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.23"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -3062,7 +3058,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-18T06:30:11+00:00"
+            "time": "2023-05-19T07:21:23+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3723,16 +3719,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v5.4.22",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "9a401392f01bc385aa42760eff481d213a0cc2ba"
+                "reference": "de237e59c5833422342be67402d487fbf50334ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/9a401392f01bc385aa42760eff481d213a0cc2ba",
-                "reference": "9a401392f01bc385aa42760eff481d213a0cc2ba",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/de237e59c5833422342be67402d487fbf50334ff",
+                "reference": "de237e59c5833422342be67402d487fbf50334ff",
                 "shasum": ""
             },
             "require": {
@@ -3800,7 +3796,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v5.4.22"
+                "source": "https://github.com/symfony/translation/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -3816,7 +3812,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-27T16:07:23+00:00"
+            "time": "2023-05-19T12:34:17+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -4189,15 +4185,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "8.14.1",
+            "version": "8.15",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/8.14.1"
+                "reference": "tags/8.15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.14.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.15.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4852,16 +4848,16 @@
         },
         {
             "name": "doctrine/deprecations",
-            "version": "v1.0.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/deprecations.git",
-                "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de"
+                "reference": "8cffffb2218e01f3b370bf763e00e81697725259"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
-                "reference": "0e2a4f1f8cdfc7a92ec3b01c9334898c806b30de",
+                "url": "https://api.github.com/repos/doctrine/deprecations/zipball/8cffffb2218e01f3b370bf763e00e81697725259",
+                "reference": "8cffffb2218e01f3b370bf763e00e81697725259",
                 "shasum": ""
             },
             "require": {
@@ -4889,9 +4885,9 @@
             "homepage": "https://www.doctrine-project.org/",
             "support": {
                 "issues": "https://github.com/doctrine/deprecations/issues",
-                "source": "https://github.com/doctrine/deprecations/tree/v1.0.0"
+                "source": "https://github.com/doctrine/deprecations/tree/v1.1.0"
             },
-            "time": "2022-05-02T15:47:09+00:00"
+            "time": "2023-05-29T18:55:17+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -5043,16 +5039,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.16.0",
+            "version": "v3.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "d40f9436e1c448d309fa995ab9c14c5c7a96f2dc"
+                "reference": "3f0ed862f22386c55a767461ef5083bddceeed79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d40f9436e1c448d309fa995ab9c14c5c7a96f2dc",
-                "reference": "d40f9436e1c448d309fa995ab9c14c5c7a96f2dc",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3f0ed862f22386c55a767461ef5083bddceeed79",
+                "reference": "3f0ed862f22386c55a767461ef5083bddceeed79",
                 "shasum": ""
             },
             "require": {
@@ -5127,7 +5123,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.16.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.17.0"
             },
             "funding": [
                 {
@@ -5135,7 +5131,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-04-02T19:30:06+00:00"
+            "time": "2023-05-22T19:59:32+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -5321,16 +5317,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.15.4",
+            "version": "v4.15.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "6bb5176bc4af8bcb7d926f88718db9b96a2d4290"
+                "reference": "11e2663a5bc9db5d714eedb4277ee300403b4a9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/6bb5176bc4af8bcb7d926f88718db9b96a2d4290",
-                "reference": "6bb5176bc4af8bcb7d926f88718db9b96a2d4290",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/11e2663a5bc9db5d714eedb4277ee300403b4a9e",
+                "reference": "11e2663a5bc9db5d714eedb4277ee300403b4a9e",
                 "shasum": ""
             },
             "require": {
@@ -5371,9 +5367,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.4"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v4.15.5"
             },
-            "time": "2023-03-05T19:49:14+00:00"
+            "time": "2023-05-19T20:20:00+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -7025,16 +7021,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.4.23",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "90f21e27d0d88ce38720556dd164d4a1e4c3934c"
+                "reference": "560fc3ed7a43e6d30ea94a07d77f9a60b8ed0fb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/90f21e27d0d88ce38720556dd164d4a1e4c3934c",
-                "reference": "90f21e27d0d88ce38720556dd164d4a1e4c3934c",
+                "url": "https://api.github.com/repos/symfony/console/zipball/560fc3ed7a43e6d30ea94a07d77f9a60b8ed0fb8",
+                "reference": "560fc3ed7a43e6d30ea94a07d77f9a60b8ed0fb8",
                 "shasum": ""
             },
             "require": {
@@ -7104,7 +7100,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.4.23"
+                "source": "https://github.com/symfony/console/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -7120,7 +7116,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-24T18:47:29+00:00"
+            "time": "2023-05-26T05:13:16+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -7644,16 +7640,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v5.4.23",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "4b842fc4b61609e0a155a114082bd94e31e98287"
+                "reference": "e3c46cc5689c8782944274bb30702106ecbe3b64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/4b842fc4b61609e0a155a114082bd94e31e98287",
-                "reference": "4b842fc4b61609e0a155a114082bd94e31e98287",
+                "url": "https://api.github.com/repos/symfony/process/zipball/e3c46cc5689c8782944274bb30702106ecbe3b64",
+                "reference": "e3c46cc5689c8782944274bb30702106ecbe3b64",
                 "shasum": ""
             },
             "require": {
@@ -7686,7 +7682,7 @@
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/process/tree/v5.4.23"
+                "source": "https://github.com/symfony/process/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -7702,7 +7698,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-18T13:50:24+00:00"
+            "time": "2023-05-17T11:26:05+00:00"
         },
         {
             "name": "symfony/stopwatch",
@@ -7854,16 +7850,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.23",
+            "version": "v5.4.24",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "9a8a5b6d6508928174ded2109e29328a55342a42"
+                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/9a8a5b6d6508928174ded2109e29328a55342a42",
-                "reference": "9a8a5b6d6508928174ded2109e29328a55342a42",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
+                "reference": "8e12706bf9c68a2da633f23bfdc15b4dce5970b3",
                 "shasum": ""
             },
             "require": {
@@ -7872,7 +7868,6 @@
                 "symfony/polyfill-php80": "^1.16"
             },
             "conflict": {
-                "phpunit/phpunit": "<5.4.3",
                 "symfony/console": "<4.4"
             },
             "require-dev": {
@@ -7923,7 +7918,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.23"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.24"
             },
             "funding": [
                 {
@@ -7939,7 +7934,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-04-18T09:26:27+00:00"
+            "time": "2023-05-25T13:05:00+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -8068,15 +8063,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.2",
+            "version": "3.12.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.2"
+                "reference": "tags/3.12.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8108,6 +8103,7 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/owc-gravityforms-zaaksysteem-enable-u": 20,
         "plugin/prefill-gravity-forms": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
