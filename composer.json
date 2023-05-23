@@ -82,6 +82,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:OpenWebconcept/plugin-waardepapieren.git"
     },
     {
@@ -112,7 +116,8 @@
     "plugin/owc-gravityforms-bag-address": "^1.1",
     "plugin/owc-gravityforms-digid": "^1.1.0",
     "plugin/gravity-pdf": "6.5.*",
-    "plugin/owc-gravityforms-zaaksysteem": "dev-feat/multi-party-mike",
+    "plugin/owc-gravityforms-zaaksysteem": "dev-master",
+    "plugin/owc-gravityforms-zaaksysteem-enable-u": "dev-feat/multi-party-mike",
     "plugin/prefill-gravity-forms": "dev-feat/multi-party-mike",
     "plugin/real-time-validation-for-gravity-forms": "^1.7",
     "plugin/waardepapieren": "dev-feature/fieldlab",
