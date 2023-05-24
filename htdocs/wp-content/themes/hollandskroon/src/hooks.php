@@ -241,7 +241,7 @@ add_action('after_switch_theme', function () {
 
     if (null === $role->getRole()) {
         $caps = [
-            /*
+            /**
              * Default Capabilities
              */
             'edit_dashboard'            => true,
@@ -294,7 +294,7 @@ add_action('after_switch_theme', function () {
             'promote_users'             => true,
             'remove_users'              => true,
 
-            /*
+            /**
              * Custom Capabilities
              */
             'wpseo_bulk_edit'           => true,
@@ -333,21 +333,6 @@ add_action('wp_default_scripts', function ($scripts) {
     if (!is_admin() && !empty($scripts->registered['jquery'])) {
         $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, ['jquery-migrate']);
     }
-});
-
-if (class_exists(\GF_Fields::class)) {
-    \GF_Fields::register(new HK\Gravityforms\Fields\HKCodesValidation());
-}
-add_filter('gform_export_fields', [HK\Gravityforms\Export::class, 'modifyHeading'], 10, 1);
-add_filter('gform_export_field_value', [HK\Gravityforms\Export::class, 'modifyValue'], 10, 4);
-
-add_filter('gform_field_groups_form_editor', function ($field_groups) {
-    $field_groups['hk_fields'] = [
-        'name'   => 'hk_fields',
-        'label'  => 'Gemeente Hoeksche Waard velden',
-        'fields' => []
-    ];
-    return $field_groups;
 });
 
 \add_action('wp_enqueue_scripts', function () {
