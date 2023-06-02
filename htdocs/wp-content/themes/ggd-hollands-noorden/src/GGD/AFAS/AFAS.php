@@ -5,7 +5,6 @@ namespace GGD\AFAS;
 use function GGD\AFAS\Helpers\resolve;
 use GGD\AFAS\Models\FormData;
 use GGD\AFAS\Models\Person;
-use GGD\AFAS\TeamsLogger;
 
 class AFAS
 {
@@ -34,9 +33,9 @@ class AFAS
         }
 
         $formData = [
-            'firstName' => rgar($entry, '1'),
-            'lastNamePrefix' => rgar($entry, '7'),
-            'lastName' => rgar($entry, '2'),
+            'firstName' => rgar($entry, '11.3'),
+            'lastNamePrefix' => rgar($entry, '11.4'),
+            'lastName' => rgar($entry, '11.6'),
             'gender' => rgar($entry, '3'),
             'street' => rgar($entry, '4.1'),
             'housenumber' => rgar($entry, '4.2'),
