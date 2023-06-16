@@ -54,6 +54,14 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:yardinternet/gravityforms-survey.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:yardinternet/gravityforms-zapier.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:yardinternet/gravityperks.git"
     },
     {
@@ -62,7 +70,7 @@
     },
     {
       "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityforms-zapier.git"
+      "url": "git@github.com:yardinternet/gravityperks-limit-submissions.git"
     },
     {
       "type": "vcs",
@@ -92,9 +100,11 @@
     "plugin/config-expander": "^2.0",
     "plugin/formio-wordpress": "dev-main",
     "plugin/gravityforms": "^2.0",
+    "plugin/gravityformssurvey": "^3.0",
     "plugin/gravityformszapier": "^4.0",
     "plugin/gravityperks": "2.2.*",
     "plugin/gravityperks-limit-choices": "1.7.*",
+    "plugin/gravityperks-limit-submissions": "^1.0",
     "plugin/owc-gravityforms-bag-address": "^1.1",
     "plugin/owc-gravityforms-digid": "^1.1.0",
     "plugin/owc-gravityforms-zaaksysteem": "dev-master",
