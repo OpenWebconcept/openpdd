@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4049ebf4b3f86448fb4b343420f0f973",
+    "content-hash": "7f5a520b6ad41d2e1fca24413de9338f",
     "packages": [
         {
             "name": "aura/session",
@@ -1227,7 +1227,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-05-20T04:40:34+00:00"
+            "time": "2023-05-20T04:40:42+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -2313,17 +2313,81 @@
             "time": "2023-05-15T11:37:35+00:00"
         },
         {
-            "name": "plugin/prefill-gravity-forms",
-            "version": "v1.0.13",
+            "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "0980cc532b5ad9beb657ea15ed3abc9972e2527f"
+                "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
+                "reference": "98d0e51eec9e4dc7712f4bdee898c7e619b7859c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/0980cc532b5ad9beb657ea15ed3abc9972e2527f",
-                "reference": "0980cc532b5ad9beb657ea15ed3abc9972e2527f",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/98d0e51eec9e4dc7712f4bdee898c7e619b7859c",
+                "reference": "98d0e51eec9e4dc7712f4bdee898c7e619b7859c",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "^6.1",
+                "php": ">=7.0",
+                "php-di/php-di": "^6.0",
+                "rspeekenbrink/monolog-microsoft-teams": "^1.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "~0.5",
+                "friendsofphp/php-cs-fixer": "^2.18",
+                "mockery/mockery": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^9.0",
+                "szepeviktor/phpstan-wordpress": "^0.6.0"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "OWC\\EnableU\\Zaaksysteem\\": "./src/Zaaksysteem"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "OWC\\EnableU\\Zaaksysteem\\Tests\\": "./tests/Unit"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "format": [
+                    "vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
+            "support": {
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v0.0.1",
+                "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
+            },
+            "time": "2023-06-20T12:49:23+00:00"
+        },
+        {
+            "name": "plugin/prefill-gravity-forms",
+            "version": "v1.0.14",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
+                "reference": "cbe85f2e7376e5ba4f0340b34cfb4ca4be7f8a65"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/cbe85f2e7376e5ba4f0340b34cfb4ca4be7f8a65",
+                "reference": "cbe85f2e7376e5ba4f0340b34cfb4ca4be7f8a65",
                 "shasum": ""
             },
             "require": {
