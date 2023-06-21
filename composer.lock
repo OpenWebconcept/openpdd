@@ -394,16 +394,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.7.0",
+            "version": "v6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "71278f20b0a623389beefe87a641d03948a38870"
+                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/71278f20b0a623389beefe87a641d03948a38870",
-                "reference": "71278f20b0a623389beefe87a641d03948a38870",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
+                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
                 "shasum": ""
             },
             "require": {
@@ -451,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.7.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
             },
-            "time": "2023-06-14T15:29:26+00:00"
+            "time": "2023-06-20T16:45:35+00:00"
         },
         {
             "name": "gogentooss/samlbase",
@@ -2314,16 +2314,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-            "version": "v0.0.1",
+            "version": "v0.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-                "reference": "98d0e51eec9e4dc7712f4bdee898c7e619b7859c"
+                "reference": "4db4d80ba6cee9cc0c40c5c8ae3b81bbc24153d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/98d0e51eec9e4dc7712f4bdee898c7e619b7859c",
-                "reference": "98d0e51eec9e4dc7712f4bdee898c7e619b7859c",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/4db4d80ba6cee9cc0c40c5c8ae3b81bbc24153d3",
+                "reference": "4db4d80ba6cee9cc0c40c5c8ae3b81bbc24153d3",
                 "shasum": ""
             },
             "require": {
@@ -2371,10 +2371,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v0.0.1",
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v0.0.5",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
-            "time": "2023-06-20T12:49:23+00:00"
+            "time": "2023-06-21T13:45:08+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -2382,12 +2382,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "cbe85f2e7376e5ba4f0340b34cfb4ca4be7f8a65"
+                "reference": "474e2e2b2f1932fffaa0db84714a448b2ab13861"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/cbe85f2e7376e5ba4f0340b34cfb4ca4be7f8a65",
-                "reference": "cbe85f2e7376e5ba4f0340b34cfb4ca4be7f8a65",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/474e2e2b2f1932fffaa0db84714a448b2ab13861",
+                "reference": "474e2e2b2f1932fffaa0db84714a448b2ab13861",
                 "shasum": ""
             },
             "require": {
@@ -2436,7 +2436,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.14",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-06-20T11:44:01+00:00"
+            "time": "2023-06-21T09:32:09+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
