@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ccb40d103d171388ebc0d4b058f2aa3",
+    "content-hash": "5f3240f0603909d469b7247885572715",
     "packages": [
         {
             "name": "aura/session",
@@ -2250,16 +2250,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "dev-master",
+            "version": "dev-feat/roxit-part-3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "67f0b9a1b8fb999576360afccd63fed4bf579724"
+                "reference": "3be1cfc3d8c53e9bf5102640861e1c48dd8cb7b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/67f0b9a1b8fb999576360afccd63fed4bf579724",
-                "reference": "67f0b9a1b8fb999576360afccd63fed4bf579724",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/3be1cfc3d8c53e9bf5102640861e1c48dd8cb7b9",
+                "reference": "3be1cfc3d8c53e9bf5102640861e1c48dd8cb7b9",
                 "shasum": ""
             },
             "require": {
@@ -2275,7 +2275,6 @@
                 "phpunit/phpunit": "^9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2307,10 +2306,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/roxit-part-3",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-05-15T11:37:35+00:00"
+            "time": "2023-06-07T13:07:03+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -8164,5 +8163,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
