@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbca5a23058e42a7675d3caa6eb0da54",
+    "content-hash": "1c0dbc1802398652c5728c071ffd76f2",
     "packages": [
         {
             "name": "aura/session",
@@ -2004,6 +2004,28 @@
                 "issues": "https://github.com/yardinternet/gravityforms/issues"
             },
             "time": "2023-06-23T14:05:15+00:00"
+        },
+        {
+            "name": "plugin/gravityforms-webhooks",
+            "version": "v1.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/gravityforms-webhooks.git",
+                "reference": "a2f9e99550c3c47d5278beed3473d1ddbfcdddb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/gravityforms-webhooks/zipball/a2f9e99550c3c47d5278beed3473d1ddbfcdddb9",
+                "reference": "a2f9e99550c3c47d5278beed3473d1ddbfcdddb9",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "GravityForms Webhooks Extension",
+            "support": {
+                "source": "https://github.com/yardinternet/gravityforms-webhooks/tree/v1.5",
+                "issues": "https://github.com/yardinternet/gravityforms-webhooks/issues"
+            },
+            "time": "2021-07-02T10:52:23+00:00"
         },
         {
             "name": "plugin/gravityformssurvey",
@@ -4283,6 +4305,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/onelogin-saml-sso/"
+        },
+        {
+            "name": "wpackagist-plugin/pronamic-ideal",
+            "version": "9.4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
+                "reference": "tags/9.4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.4.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pronamic-ideal/"
         },
         {
             "name": "wpackagist-plugin/user-switching",
