@@ -66,6 +66,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:yardinternet/gravityperks-advanced-select.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:yardinternet/gravityperks-limit-choices.git"
     },
     {
@@ -107,15 +111,16 @@
     "php-di/php-di": "^6.0",
     "plugin/config-expander": "^2.0",
     "plugin/formio-wordpress": "dev-main",
+    "plugin/gravity-pdf": "6.5.*",
     "plugin/gravityforms": "^2.0",
     "plugin/gravityformssurvey": "^3.0",
     "plugin/gravityformszapier": "^4.0",
     "plugin/gravityperks": "2.2.*",
+    "plugin/gravityperks-advanced-select": "^1.0",
     "plugin/gravityperks-limit-choices": "1.7.*",
     "plugin/gravityperks-limit-submissions": "^1.0",
     "plugin/owc-gravityforms-bag-address": "^1.1",
     "plugin/owc-gravityforms-digid": "^1.1.0",
-    "plugin/gravity-pdf": "6.5.*",
     "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.0.0",
     "plugin/prefill-gravity-forms": "^1.0.14",
