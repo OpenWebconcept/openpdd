@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c0dbc1802398652c5728c071ffd76f2",
+    "content-hash": "e7818f305edeb17685d4b344e8387fab",
     "packages": [
         {
             "name": "aura/session",
@@ -2004,6 +2004,79 @@
                 "issues": "https://github.com/yardinternet/gravityforms/issues"
             },
             "time": "2023-06-23T14:05:15+00:00"
+        },
+        {
+            "name": "plugin/gravityforms-amp-booking",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
+                "reference": "e258c77268111aa559573d06047feeccfad8905f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/e258c77268111aa559573d06047feeccfad8905f",
+                "reference": "e258c77268111aa559573d06047feeccfad8905f",
+                "shasum": ""
+            },
+            "require": {
+                "aura/session": "^2.1",
+                "php": "^7.4|^8.0",
+                "php-di/php-di": "^6.0",
+                "rspeekenbrink/monolog-microsoft-teams": "^1.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "~0.5",
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "mockery/mockery": "^1.5",
+                "phpunit/phpunit": "~9.0",
+                "szepeviktor/phpstan-wordpress": "^1.1"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "GravityFormsAMPBooking\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "GravityFormsAMPBooking\\Tests\\": "./tests"
+                }
+            },
+            "scripts": {
+                "format": [
+                    "./vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse --no-progress  --memory-limit 500M"
+                ],
+                "test": [
+                    "@unit"
+                ],
+                "unit": [
+                    "clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "unit-coverage": [
+                    "clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
+                ],
+                "package": [
+                    "chmod +x ./bin/package.sh && ./bin/package.sh"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "GravityForms AMP Booking",
+            "support": {
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
+                "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
+            },
+            "time": "2023-07-17T13:40:07+00:00"
         },
         {
             "name": "plugin/gravityforms-webhooks",
@@ -8217,6 +8290,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
+        "plugin/gravityforms-amp-booking": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,

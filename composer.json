@@ -82,6 +82,10 @@
     },
     {
       "type": "vcs",
+      "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git"
+    },
+    {
+      "type": "vcs",
       "url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
     },
     {
@@ -117,6 +121,7 @@
     "plugin/formio-wordpress": "dev-main",
     "plugin/gravity-pdf": "6.5.*",
     "plugin/gravityforms": "^2.0",
+    "plugin/gravityforms-amp-booking": "dev-main",
     "plugin/gravityforms-webhooks": "^1.5",
     "plugin/gravityformssurvey": "^3.0",
     "plugin/gravityformszapier": "^4.0",
