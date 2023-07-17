@@ -2200,16 +2200,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "b4a9c6c5aeed2774d0b43548848a59caa159c211"
+                "reference": "2e6793e67412fde811931d3878a254e159e25923"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/b4a9c6c5aeed2774d0b43548848a59caa159c211",
-                "reference": "b4a9c6c5aeed2774d0b43548848a59caa159c211",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/2e6793e67412fde811931d3878a254e159e25923",
+                "reference": "2e6793e67412fde811931d3878a254e159e25923",
                 "shasum": ""
             },
             "require": {
@@ -2265,10 +2265,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.1",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2023-07-10T10:27:09+00:00"
+            "time": "2023-07-17T07:16:18+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
