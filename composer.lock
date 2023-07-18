@@ -2109,12 +2109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "e258c77268111aa559573d06047feeccfad8905f"
+                "reference": "c7e70328988dc8b11d5bc359105ceec82df138cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/e258c77268111aa559573d06047feeccfad8905f",
-                "reference": "e258c77268111aa559573d06047feeccfad8905f",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/c7e70328988dc8b11d5bc359105ceec82df138cc",
+                "reference": "c7e70328988dc8b11d5bc359105ceec82df138cc",
                 "shasum": ""
             },
             "require": {
@@ -2174,7 +2174,7 @@
                 "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-07-17T13:40:07+00:00"
+            "time": "2023-07-18T09:51:53+00:00"
         },
         {
             "name": "plugin/gravityforms-webhooks",
