@@ -2109,12 +2109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "c7e70328988dc8b11d5bc359105ceec82df138cc"
+                "reference": "ea1b48d319b12c891653f6a245125136bb2690b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/c7e70328988dc8b11d5bc359105ceec82df138cc",
-                "reference": "c7e70328988dc8b11d5bc359105ceec82df138cc",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/ea1b48d319b12c891653f6a245125136bb2690b8",
+                "reference": "ea1b48d319b12c891653f6a245125136bb2690b8",
                 "shasum": ""
             },
             "require": {
@@ -2174,7 +2174,7 @@
                 "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-07-18T09:51:53+00:00"
+            "time": "2023-07-18T12:47:36+00:00"
         },
         {
             "name": "plugin/gravityforms-webhooks",
@@ -5628,11 +5628,11 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "library/helpers.php",
-                    "library/Mockery.php"
+                    "src/helpers.php",
+                    "src/Mockery.php"
                 ],
                 "psr-4": {
-                    "Mockery\\": "library/Mockery"
+                    "Mockery\\": "src/Mockery"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -8531,11 +8531,8 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/gravityforms-amp-booking": 20,
-<<<<<<< HEAD
         "plugin/gravityforms-power-automate": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
-=======
->>>>>>> 83a839b ((chore): add amp booking plugin)
         "plugin/owc-gravityforms-zaaksysteem": 20,
         "plugin/owc-gravityforms-zaaksysteem-enable-u": 20,
         "plugin/waardepapieren": 20,
