@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7818f305edeb17685d4b344e8387fab",
+    "content-hash": "c11e0a0d9227029c1641a1ea67c43f62",
     "packages": [
         {
             "name": "aura/session",
@@ -394,16 +394,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.0",
+            "version": "v6.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b"
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/48b0210c51718d682e53210c24d25c5a10a2299b",
-                "reference": "48b0210c51718d682e53210c24d25c5a10a2299b",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
                 "shasum": ""
             },
             "require": {
@@ -451,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.0"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
             },
-            "time": "2023-06-20T16:45:35+00:00"
+            "time": "2023-07-14T18:33:00+00:00"
         },
         {
             "name": "gogentooss/samlbase",
@@ -1498,16 +1498,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.67.0",
+            "version": "2.68.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8"
+                "reference": "4f991ed2a403c85efbc4f23eb4030063fdbe01da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/c1001b3bc75039b07f38a79db5237c4c529e04c8",
-                "reference": "c1001b3bc75039b07f38a79db5237c4c529e04c8",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4f991ed2a403c85efbc4f23eb4030063fdbe01da",
+                "reference": "4f991ed2a403c85efbc4f23eb4030063fdbe01da",
                 "shasum": ""
             },
             "require": {
@@ -1596,7 +1596,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-05-25T22:09:47+00:00"
+            "time": "2023-06-20T18:29:04+00:00"
         },
         {
             "name": "php-di/invoker",
@@ -1985,25 +1985,25 @@
         },
         {
             "name": "plugin/gravityforms",
-            "version": "v2.7.9",
+            "version": "v2.7.10",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/gravityforms.git",
-                "reference": "5d11314059294787e8cc175490674034a2554651"
+                "reference": "65689112001d31ed8d320e573804211ce76eb4d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/5d11314059294787e8cc175490674034a2554651",
-                "reference": "5d11314059294787e8cc175490674034a2554651",
+                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/65689112001d31ed8d320e573804211ce76eb4d2",
+                "reference": "65689112001d31ed8d320e573804211ce76eb4d2",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "description": "Gravityforms",
             "support": {
-                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.9",
+                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.10",
                 "issues": "https://github.com/yardinternet/gravityforms/issues"
             },
-            "time": "2023-06-23T14:05:15+00:00"
+            "time": "2023-07-17T07:26:56+00:00"
         },
         {
             "name": "plugin/gravityforms-amp-booking",
@@ -2011,12 +2011,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "c7e70328988dc8b11d5bc359105ceec82df138cc"
+                "reference": "ea1b48d319b12c891653f6a245125136bb2690b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/c7e70328988dc8b11d5bc359105ceec82df138cc",
-                "reference": "c7e70328988dc8b11d5bc359105ceec82df138cc",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/ea1b48d319b12c891653f6a245125136bb2690b8",
+                "reference": "ea1b48d319b12c891653f6a245125136bb2690b8",
                 "shasum": ""
             },
             "require": {
@@ -2076,7 +2076,7 @@
                 "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-07-18T09:51:53+00:00"
+            "time": "2023-07-18T12:47:36+00:00"
         },
         {
             "name": "plugin/gravityforms-webhooks",
@@ -4309,15 +4309,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.15.7",
+            "version": "6.15.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.15.7"
+                "reference": "tags/6.15.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.15.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.15.13.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4345,15 +4345,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "8.16",
+            "version": "8.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/8.16"
+                "reference": "tags/8.17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.17.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4381,15 +4381,15 @@
         },
         {
             "name": "wpackagist-plugin/pronamic-ideal",
-            "version": "9.4.4",
+            "version": "9.4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-                "reference": "tags/9.4.4"
+                "reference": "tags/9.4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.4.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.4.6.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4435,15 +4435,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-seopress",
-            "version": "6.7.2",
+            "version": "6.8.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-seopress/",
-                "reference": "tags/6.7.2"
+                "reference": "tags/6.8.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-seopress.6.7.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-seopress.6.8.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5221,16 +5221,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.20.0",
+            "version": "v3.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "0e8249e0b15e2bc022fbbd1090ce29d071481e69"
+                "reference": "92b019f6c8d79aa26349d0db7671d37440dc0ff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/0e8249e0b15e2bc022fbbd1090ce29d071481e69",
-                "reference": "0e8249e0b15e2bc022fbbd1090ce29d071481e69",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/92b019f6c8d79aa26349d0db7671d37440dc0ff3",
+                "reference": "92b019f6c8d79aa26349d0db7671d37440dc0ff3",
                 "shasum": ""
             },
             "require": {
@@ -5254,6 +5254,7 @@
                 "symfony/stopwatch": "^5.4 || ^6.0"
             },
             "require-dev": {
+                "facile-it/paraunit": "^1.3 || ^2.0",
                 "justinrainbow/json-schema": "^5.2",
                 "keradus/cli-executor": "^2.0",
                 "mikey179/vfsstream": "^1.6.11",
@@ -5305,7 +5306,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.20.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.22.0"
             },
             "funding": [
                 {
@@ -5313,7 +5314,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-27T20:22:39+00:00"
+            "time": "2023-07-16T23:08:06+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -5368,44 +5369,39 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.2",
+            "version": "1.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "13a7fa2642c76c58fa2806ef7f565344c817a191"
+                "reference": "b1be135c1ba7632f0248e07ee5e6e412576a309d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/13a7fa2642c76c58fa2806ef7f565344c817a191",
-                "reference": "13a7fa2642c76c58fa2806ef7f565344c817a191",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/b1be135c1ba7632f0248e07ee5e6e412576a309d",
+                "reference": "b1be135c1ba7632f0248e07ee5e6e412576a309d",
                 "shasum": ""
             },
             "require": {
                 "hamcrest/hamcrest-php": "^2.0.1",
                 "lib-pcre": ">=7.0",
-                "php": "^7.4 || ^8.0"
+                "php": ">=7.4,<8.3"
             },
             "conflict": {
                 "phpunit/phpunit": "<8.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5 || ^9.3",
-                "psalm/plugin-phpunit": "^0.18",
-                "vimeo/psalm": "^5.9"
+                "psalm/plugin-phpunit": "^0.18.4",
+                "vimeo/psalm": "^5.13.1"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "1.6.x-dev"
-                }
-            },
             "autoload": {
                 "files": [
-                    "library/helpers.php",
-                    "library/Mockery.php"
+                    "src/helpers.php",
+                    "src/Mockery.php"
                 ],
                 "psr-4": {
-                    "Mockery\\": "library/Mockery"
+                    "Mockery\\": "src/Mockery"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5416,12 +5412,20 @@
                 {
                     "name": "Pádraic Brady",
                     "email": "padraic.brady@gmail.com",
-                    "homepage": "http://blog.astrumfutura.com"
+                    "homepage": "https://github.com/padraic",
+                    "role": "Author"
                 },
                 {
                     "name": "Dave Marshall",
                     "email": "dave.marshall@atstsolutions.co.uk",
-                    "homepage": "http://davedevelopment.co.uk"
+                    "homepage": "https://davedevelopment.co.uk",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Nathanael Esayeas",
+                    "email": "nathanael.esayeas@protonmail.com",
+                    "homepage": "https://github.com/ghostwriter",
+                    "role": "Lead Developer"
                 }
             ],
             "description": "Mockery is a simple yet flexible PHP mock object framework",
@@ -5439,10 +5443,13 @@
                 "testing"
             ],
             "support": {
+                "docs": "https://docs.mockery.io/",
                 "issues": "https://github.com/mockery/mockery/issues",
-                "source": "https://github.com/mockery/mockery/tree/1.6.2"
+                "rss": "https://github.com/mockery/mockery/releases.atom",
+                "security": "https://github.com/mockery/mockery/security/advisories",
+                "source": "https://github.com/mockery/mockery"
             },
-            "time": "2023-06-07T09:07:52+00:00"
+            "time": "2023-07-18T17:47:29+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5990,16 +5997,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.9",
+            "version": "9.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "a9aceaf20a682aeacf28d582654a1670d8826778"
+                "reference": "a6d351645c3fe5a30f5e86be6577d946af65a328"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a9aceaf20a682aeacf28d582654a1670d8826778",
-                "reference": "a9aceaf20a682aeacf28d582654a1670d8826778",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a6d351645c3fe5a30f5e86be6577d946af65a328",
+                "reference": "a6d351645c3fe5a30f5e86be6577d946af65a328",
                 "shasum": ""
             },
             "require": {
@@ -6073,7 +6080,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.9"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.10"
             },
             "funding": [
                 {
@@ -6089,7 +6096,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-11T06:13:56+00:00"
+            "time": "2023-07-10T04:04:23+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -8251,15 +8258,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.12.3",
+            "version": "3.13.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.12.3"
+                "reference": "tags/3.13.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.12.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.13.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8300,5 +8307,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
