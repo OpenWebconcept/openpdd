@@ -2,10 +2,10 @@
 get_header();
 ?>
 <main class="page-main">
-    <div class="container | bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
+    <div class="page-container | container bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
         <?php while (have_posts()) : the_post(); ?>
-        <header class="section__header | d-flex flex-column pb-3">
-            <h1 class="section__title | mb-3">
+        <header class="page-header | d-flex flex-column pb-3">
+            <h1 class="page-title | mb-3">
                 <?php echo get_the_title() ?>
             </h1>
             <div id="readspeaker_button1" class="rs_skip rsbtn rs_preserve mb-3">
@@ -18,7 +18,7 @@ get_header();
                 </a>
             </div>
         </header>
-        <div id="readspeaker">
+        <div class="page-content" id="readspeaker">
             <?php the_content(); ?>
         </div>
 
