@@ -1,0 +1,46 @@
+$layout: 'page';
+$banner-height-xs: 250px;
+$banner-height-sm: 455px;
+
+// !important to overwrite Bootstrap utility classes
+.#{$layout} {
+	&-container {
+		margin-top: 5rem !important;
+		border-radius: $border-radius-lg;
+		box-shadow: none !important;
+
+		&::before {
+			position: absolute;
+			z-index: -1;
+			top: $navbar-height;
+			right: 0;
+			left: 0;
+			height: $banner-height-xs;
+			background-color: $green;
+			content: '';
+			pointer-events: none;
+		}
+
+		@include media-breakpoint-up( sm ) {
+			&::before {
+				height: $banner-height-sm;
+				min-height: $banner-height-sm;
+			}
+		}
+
+		@include media-breakpoint-up( xl ) {
+			max-width: 960px;
+			padding: 4rem !important;
+		}
+	}
+
+	&-content {
+		> p:first-child {
+			font-size: $font-size-base;
+
+			@include media-breakpoint-up( sm ) {
+				font-size: $lead-font-size;
+			}
+		}
+	}
+}
