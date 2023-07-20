@@ -1,0 +1,58 @@
+/**
+  * Standard button
+  */
+@mixin button {
+	position: relative;
+	padding: $btn-padding-y $btn-padding-x;
+	padding-right: 3rem;
+	border-width: $btn-border-width;
+	border-radius: $btn-border-radius;
+	box-shadow: $btn-box-shadow;
+	font-family: $btn-font-family;
+	font-size: $btn-font-size;
+	font-weight: $btn-font-weight;
+	line-height: $btn-line-height;
+	text-decoration: none;
+	transition: $btn-transition;
+
+	&::after {
+		@include fontawesome( '\f061' );
+		position: absolute;
+		top: calc( 50% - 14px );
+		right: 18px;
+		font-size: 1.1rem;
+		font-weight: $font-weight-light;
+		pointer-events: none;
+		transition: transform 0.2s ease-in-out;
+	}
+
+	@include hover-focus-active {
+		outline: none;
+		text-decoration: none;
+
+		&::after {
+			transform: translateX( 4px );
+		}
+	}
+
+	&:active {
+		transform: scale( 0.96 );
+	}
+
+	@include media-breakpoint-down( sm ) {
+		font-size: $xs-small-font-size;
+	}
+}
+
+@mixin button-color(
+	$background,
+	$hover-background: darken( $background, 7% )
+) {
+	background-color: $background;
+	color: color-yiq( $background );
+
+	@include hover-focus-active {
+		background-color: $hover-background !important; // Overwrite Gutenberg inline style
+		color: color-yiq( $hover-background );
+	}
+}

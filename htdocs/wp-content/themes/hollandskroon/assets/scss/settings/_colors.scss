@@ -2,8 +2,20 @@
   Custom colors
 --------------------------------------------------------------*/
 
+$green: #008032;
+$green-light: #e5f3eb;
+$red: #a7142b;
+$gray: #eef4f7;
+
 $theme-colors: (
-  primary: #2f881b,
-  secondary: #001e60,
-  tertiary: #2f881b
-);
+	primary: $green,
+	secondary: $red,
+) !default;
+
+/*--------------------------------------------------------------
+  Bootstrap colors
+--------------------------------------------------------------*/
+$danger: $red;
+$success: $green;
+$body-bg: $gray;
+$link-color: $green;

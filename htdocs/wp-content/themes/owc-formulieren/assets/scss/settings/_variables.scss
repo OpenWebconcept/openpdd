@@ -3,8 +3,8 @@
 /* --------------------------------------------------------------
 Navigation
 -------------------------------------------------------------- */
-$navbar-height: 100px;
-$navbar-height-desktop: 100px;
+$navbar-height: 100px !default;
+$navbar-height-desktop: 100px !default;
 $navbar-background: #fff;
 $navbar-shadow: $box-shadow;
 
@@ -22,7 +22,7 @@ $inner-bar-height: 38px;
 $bar-border-radius: 5px;
 $bar-padding: 0px;
 $bar-padding-color: transparent;
-$bar-color: #6495ed;
+$bar-color: #6495ed !default;
 $bar-background-color: rgba( 175, 204, 255, 0.12 );
 
 /* --------------------------------------------------------------
