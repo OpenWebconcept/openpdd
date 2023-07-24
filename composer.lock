@@ -2109,12 +2109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "61ef627761090e182cbb0c7416dd2d07bedd13b8"
+                "reference": "efc16e5354c29d3df157f1d794ebd819266586d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/61ef627761090e182cbb0c7416dd2d07bedd13b8",
-                "reference": "61ef627761090e182cbb0c7416dd2d07bedd13b8",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/efc16e5354c29d3df157f1d794ebd819266586d7",
+                "reference": "efc16e5354c29d3df157f1d794ebd819266586d7",
                 "shasum": ""
             },
             "require": {
@@ -2124,9 +2124,7 @@
                 "rspeekenbrink/monolog-microsoft-teams": "^1.0"
             },
             "require-dev": {
-                "10up/wp_mock": "~0.5",
                 "friendsofphp/php-cs-fixer": "^2.0",
-                "mockery/mockery": "^1.5",
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^1.1"
             },
@@ -2174,7 +2172,7 @@
                 "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-07-19T07:11:29+00:00"
+            "time": "2023-07-24T14:18:50+00:00"
         },
         {
             "name": "plugin/gravityforms-webhooks",
