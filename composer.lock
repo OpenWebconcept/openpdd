@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "980412926b7e16020b04e07c3aae8354",
+    "content-hash": "bc7827d5c5583bc3f6cfe5f31b32a012",
     "packages": [
         {
             "name": "aura/session",
@@ -2138,11 +2138,17 @@
         },
         {
             "name": "plugin/owc-gravityforms-bag-address",
-            "version": "v1.1.3",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:openwebconcept/owc-gravityforms-bag-address.git",
-                "reference": "48d7ea9de925969dc1074fae06e00daea1e26312"
+                "url": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address.git",
+                "reference": "018e3875c860e48817d1772fac6f33f67c2f8f0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-gravityforms-bag-address/zipball/018e3875c860e48817d1772fac6f33f67c2f8f0d",
+                "reference": "018e3875c860e48817d1772fac6f33f67c2f8f0d",
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
@@ -2196,7 +2202,11 @@
                 }
             ],
             "description": "Add a BAG address field to GravityForms",
-            "time": "2022-07-11T08:53:47+00:00"
+            "support": {
+                "source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.4",
+                "issues": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/issues"
+            },
+            "time": "2023-08-03T13:28:11+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-digid",
@@ -8194,5 +8204,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
