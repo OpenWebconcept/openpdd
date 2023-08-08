@@ -1,196 +1,196 @@
 {
-  "name": "openwebconcept/open-pdd",
-  "description": "OpenPDD",
-  "version": "1.0.0",
-  "type": "project",
-  "config": {
-    "preferred-install": "dist",
-    "optimize-autoloader": true,
-    "sort-packages": true,
-    "allow-plugins": {
-      "composer/installers": true,
-      "johnpbloch/wordpress-core-installer": true,
-      "koodimonni/composer-dropin-installer": true
-    }
-  },
-  "authors": [
-    {
-      "name": "Yard | Digital Agency",
-      "email": "info@yard.nl"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://wpackagist.org"
-    },
-    {
-      "type": "composer",
-      "url": "https://wp-languages.github.io"
-    },
-    {
-      "type": "vcs",
-      "url": "git@bitbucket.org:openwebconcept/irma-wp.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@bitbucket.org:openwebconcept/owc-gravityforms-bag-address.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/owc-gravityforms-digid.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/real-time-validation-for-gravity-forms.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/config-expander.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityforms.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityforms-survey.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityforms-zapier.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityperks.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityperks-advanced-select.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityperks-limit-choices.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravityperks-limit-submissions.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:OpenWebconcept/plugin-waardepapieren.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:ConductionNL/formio-wordpress.git"
-    },
-    {
-      "type": "vcs",
-      "url": "git@github.com:yardinternet/gravity-pdf.git"
-    }
-  ],
-  "require": {
-    "bepsvpt/secure-headers": "^7.0",
-    "composer/installers": "^1.0",
-    "illuminate/support": "^8.83",
-    "johnpbloch/wordpress": "6.2.*",
-    "johnpbloch/wordpress-core": "6.2.*",
-    "koodimonni-language/core-nl_nl": "6.2.*",
-    "php-di/php-di": "^6.0",
-    "plugin/config-expander": "^2.0",
-    "plugin/formio-wordpress": "dev-main",
-    "plugin/gravity-pdf": "6.5.*",
-    "plugin/gravityforms": "^2.0",
-    "plugin/gravityformssurvey": "^3.0",
-    "plugin/gravityformszapier": "^4.0",
-    "plugin/gravityperks": "2.2.*",
-    "plugin/gravityperks-advanced-select": "^1.0",
-    "plugin/gravityperks-limit-choices": "1.7.*",
-    "plugin/gravityperks-limit-submissions": "^1.0",
-    "plugin/owc-gravityforms-bag-address": "^1.1",
-    "plugin/owc-gravityforms-digid": "^1.1.0",
-    "plugin/owc-gravityforms-zaaksysteem": "dev-master",
-    "plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.0",
-    "plugin/prefill-gravity-forms": "^1.0.14",
-    "plugin/real-time-validation-for-gravity-forms": "^1.7",
-    "plugin/waardepapieren": "dev-feature/fieldlab",
-    "privacybydesign/irma-wp": "@dev",
-    "rspeekenbrink/monolog-microsoft-teams": "^1.0",
-    "vlucas/phpdotenv": "^5.0",
-    "wpackagist-plugin/2fas-light": "^3.0",
-    "wpackagist-plugin/coming-soon": "^6.0",
-    "wpackagist-plugin/duplicate-post": "^4.0",
-    "wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
-    "wpackagist-plugin/onelogin-saml-sso": "^3.4",
-    "wpackagist-plugin/user-switching": "^1.0",
-    "wpackagist-plugin/wordpress-importer": "^0.8.1",
-    "wpackagist-plugin/wp-seopress": "^6.0"
-  },
-  "require-dev": {
-    "10up/wp_mock": "~0.5",
-    "deployer/deployer": "^6.0",
-    "deployer/recipes": "dev-master",
-    "friendsofphp/php-cs-fixer": "^3.0",
-    "mockery/mockery": "^1.0",
-    "phpunit/phpunit": "^8.0 | ^9.0",
-    "symfony/var-dumper": "^5.0",
-    "wpackagist-plugin/query-monitor": "*",
-    "wpackagist-plugin/wa11y": "*"
-  },
-  "scripts": {
-    "format": "vendor/bin/php-cs-fixer fix",
-    "post-install-cmd": [
-      "@post-root-package-install"
-    ],
-    "post-root-package-install": [
-      "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-    ],
-    "test": [
-      "@unit"
-    ],
-    "unit": "./vendor/bin/phpunit --colors=always",
-    "unit-coverage": "clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --colors=always --coverage-html ./tests/coverage"
-  },
-  "extra": {
-    "wordpress-install-dir": "htdocs/wp",
-    "installer-paths": {
-      "htdocs/wp-content/plugins/{$name}/": [
-        "type:wordpress-plugin"
-      ],
-      "htdocs/wp-content/themes/{$name}/": [
-        "type:wordpress-theme"
-      ]
-    },
-    "dropin-paths": {
-      "htdocs/wp-content/languages/": [
-        "vendor:koodimonni-language"
-      ]
-    }
-  },
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/",
-      "HK\\": "htdocs/wp-content/themes/hollandskroon/src",
-      "HW\\": "htdocs/wp-content/themes/hoekschewaard/src"
-    },
-    "files": []
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\": "tests/"
-    },
-    "classmap": []
-  }
+	"name": "openwebconcept/open-pdd",
+	"description": "OpenPDD",
+	"version": "1.0.0",
+	"type": "project",
+	"config": {
+		"preferred-install": "dist",
+		"optimize-autoloader": true,
+		"sort-packages": true,
+		"allow-plugins": {
+			"composer/installers": true,
+			"johnpbloch/wordpress-core-installer": true,
+			"koodimonni/composer-dropin-installer": true
+		}
+	},
+	"authors": [
+		{
+			"name": "Yard | Digital Agency",
+			"email": "info@yard.nl"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		},
+		{
+			"type": "composer",
+			"url": "https://wp-languages.github.io"
+		},
+		{
+			"type": "vcs",
+			"url": "git@bitbucket.org:openwebconcept/irma-wp.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-gravityforms-bag-address.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/owc-gravityforms-digid.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/real-time-validation-for-gravity-forms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/config-expander.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityforms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityforms-survey.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityforms-zapier.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityperks.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityperks-advanced-select.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityperks-limit-choices.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravityperks-limit-submissions.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-waardepapieren.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:ConductionNL/formio-wordpress.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/gravity-pdf.git"
+		}
+	],
+	"require": {
+		"bepsvpt/secure-headers": "^7.0",
+		"composer/installers": "^1.0",
+		"illuminate/support": "^8.83",
+		"johnpbloch/wordpress": "6.2.*",
+		"johnpbloch/wordpress-core": "6.2.*",
+		"koodimonni-language/core-nl_nl": "6.2.*",
+		"php-di/php-di": "^6.0",
+		"plugin/config-expander": "^2.0",
+		"plugin/formio-wordpress": "dev-main",
+		"plugin/gravity-pdf": "6.5.*",
+		"plugin/gravityforms": "^2.0",
+		"plugin/gravityformssurvey": "^3.0",
+		"plugin/gravityformszapier": "^4.0",
+		"plugin/gravityperks": "2.2.*",
+		"plugin/gravityperks-advanced-select": "^1.0",
+		"plugin/gravityperks-limit-choices": "1.7.*",
+		"plugin/gravityperks-limit-submissions": "^1.0",
+		"plugin/owc-gravityforms-bag-address": "^1.1",
+		"plugin/owc-gravityforms-digid": "^1.1.0",
+		"plugin/owc-gravityforms-zaaksysteem": "dev-master",
+		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.0",
+		"plugin/prefill-gravity-forms": "^1.0.14",
+		"plugin/real-time-validation-for-gravity-forms": "^1.7",
+		"plugin/waardepapieren": "dev-feature/fieldlab",
+		"privacybydesign/irma-wp": "@dev",
+		"rspeekenbrink/monolog-microsoft-teams": "^1.0",
+		"vlucas/phpdotenv": "^5.0",
+		"wpackagist-plugin/2fas-light": "^3.0",
+		"wpackagist-plugin/coming-soon": "^6.0",
+		"wpackagist-plugin/duplicate-post": "^4.0",
+		"wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
+		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
+		"wpackagist-plugin/user-switching": "^1.0",
+		"wpackagist-plugin/wordpress-importer": "^0.8.1",
+		"wpackagist-plugin/wp-seopress": "^6.0"
+	},
+	"require-dev": {
+		"10up/wp_mock": "~0.5",
+		"deployer/deployer": "^6.0",
+		"deployer/recipes": "dev-master",
+		"friendsofphp/php-cs-fixer": "^3.0",
+		"mockery/mockery": "^1.0",
+		"phpunit/phpunit": "^8.0 | ^9.0",
+		"symfony/var-dumper": "^5.0",
+		"wpackagist-plugin/query-monitor": "*",
+		"wpackagist-plugin/wa11y": "*"
+	},
+	"scripts": {
+		"format": "vendor/bin/php-cs-fixer fix",
+		"post-install-cmd": [
+			"@post-root-package-install"
+		],
+		"post-root-package-install": [
+			"php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+		],
+		"test": [
+			"@unit"
+		],
+		"unit": "./vendor/bin/phpunit --colors=always",
+		"unit-coverage": "clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --colors=always --coverage-html ./tests/coverage"
+	},
+	"extra": {
+		"wordpress-install-dir": "htdocs/wp",
+		"installer-paths": {
+			"htdocs/wp-content/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"htdocs/wp-content/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		},
+		"dropin-paths": {
+			"htdocs/wp-content/languages/": [
+				"vendor:koodimonni-language"
+			]
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"HK\\": "htdocs/wp-content/themes/hollandskroon/src",
+			"HW\\": "htdocs/wp-content/themes/hoekschewaard/src"
+		},
+		"files": []
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\": "tests/"
+		},
+		"classmap": []
+	}
 }
