@@ -24,7 +24,6 @@ proxy:
         - mijn.bar-organisatie.lndo.site
         - mijnportaal.gouda.lndo.site
         - mijn.defryskemarren.lndo.site
-
     mailhog:
         - mail.openpdd.lndo.site
     pma:
