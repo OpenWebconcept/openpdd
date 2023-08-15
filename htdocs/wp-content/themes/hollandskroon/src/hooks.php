@@ -297,9 +297,10 @@ add_action('after_switch_theme', function () {
             /**
              * Custom Capabilities
              */
-            'wpseo_bulk_edit'           => true,
-            'wpseo_manage_options'      => true,
             'edit_yard_options'         => true,
+            'gravityforms_power_automate' => true,
+            'wpseo_bulk_edit'           => true,
+            'wpseo_manage_options'      => true
         ];
 
         $caps = array_merge($caps, $role->getGravityFormsCapsKeyValue());
