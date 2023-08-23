@@ -8,11 +8,7 @@
  */
 ?>
 </div>
-<footer class="page-footer py-5" style="display: none;">
-    <div class="container text-center pt-4">
 
-    </div>
-</footer>
 </div>
 
 <script type="text/javascript">
