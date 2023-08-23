@@ -476,7 +476,7 @@ return [
                 // 'https:',
             ],
             /* followings are only work for `script` and `style` related directives */
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
             'unsafe-eval' => true,
             // https://www.w3.org/TR/CSP3/#unsafe-hashes-usage
             'unsafe-hashes' => false,
@@ -502,7 +502,7 @@ return [
                 // 'https:',
             ],
             /* followings are only work for `script` and `style` related directives */
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem
         'script-src-elem' => [
@@ -519,13 +519,13 @@ return [
                 'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
-            'unsafe-inline' => true
+            'unsafe-inline' => false
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr
         'style-src-attr' => [
             'none'          => false,
             'self'          => true,
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
             'report-sample' => true
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem
@@ -539,7 +539,7 @@ return [
                 'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
-            'unsafe-inline' => true
+            'unsafe-inline' => false
         ],
         // https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive
         'trusted-types' => [
