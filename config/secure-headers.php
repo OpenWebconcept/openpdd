@@ -477,7 +477,7 @@ return [
             ],
             /* followings are only work for `script` and `style` related directives */
             'unsafe-inline' => false,
-            'unsafe-eval' => true,
+            'unsafe-eval' => false,
             // https://www.w3.org/TR/CSP3/#unsafe-hashes-usage
             'unsafe-hashes' => false,
             // Enable `strict-dynamic` will *ignore* `self`, `unsafe-inline`,
