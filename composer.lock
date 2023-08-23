@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de965679f0df8361b1d08b6d2385fb60",
+    "content-hash": "d84b915a69dcf46bbbcd31c98f06ddcf",
     "packages": [
         {
             "name": "aura/session",
@@ -2010,6 +2010,193 @@
             "time": "2023-08-10T14:10:14+00:00"
         },
         {
+            "name": "plugin/gravityforms-amp-booking",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
+                "reference": "9ca394e4262e6a838792fd395b6fcbb6a91c7d05"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
+                "reference": "9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
+                "shasum": ""
+            },
+            "require": {
+                "aura/session": "^2.1",
+                "php": "^7.4|^8.0",
+                "php-di/php-di": "^6.0",
+                "rspeekenbrink/monolog-microsoft-teams": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "~9.0",
+                "szepeviktor/phpstan-wordpress": "^1.1"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "GravityFormsAMPBooking\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "GravityFormsAMPBooking\\Tests\\": "./tests"
+                }
+            },
+            "scripts": {
+                "format": [
+                    "./vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse --no-progress  --memory-limit 500M"
+                ],
+                "test": [
+                    "@unit"
+                ],
+                "unit": [
+                    "clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "unit-coverage": [
+                    "clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
+                ],
+                "package": [
+                    "chmod +x ./bin/package.sh && ./bin/package.sh"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "GravityForms AMP Booking",
+            "support": {
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
+                "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
+            },
+            "time": "2023-08-14T17:24:00+00:00"
+        },
+        {
+            "name": "plugin/gravityforms-power-automate",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/plugin-gravityforms-power-automate.git",
+                "reference": "cc6a7b9edcf47a8ae721f540424f7c2a50fa5450"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-power-automate/zipball/cc6a7b9edcf47a8ae721f540424f7c2a50fa5450",
+                "reference": "cc6a7b9edcf47a8ae721f540424f7c2a50fa5450",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "description": "GravityForms Power Automate",
+            "support": {
+                "source": "https://github.com/yardinternet/plugin-gravityforms-power-automate/tree/main",
+                "issues": "https://github.com/yardinternet/plugin-gravityforms-power-automate/issues"
+            },
+            "time": "2023-08-15T06:56:50+00:00"
+        },
+        {
+            "name": "plugin/gravityforms-amp-booking",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
+                "reference": "039213800acdcec8f7bc61fdd009194735ce551b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
+                "reference": "9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
+                "shasum": ""
+            },
+            "require": {
+                "aura/session": "^2.1",
+                "php": "^7.4|^8.0",
+                "php-di/php-di": "^6.0",
+                "rspeekenbrink/monolog-microsoft-teams": "^1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "~9.0",
+                "szepeviktor/phpstan-wordpress": "^1.1"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "GravityFormsAMPBooking\\": "./src"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "GravityFormsAMPBooking\\Tests\\": "./tests"
+                }
+            },
+            "scripts": {
+                "format": [
+                    "./vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse --no-progress  --memory-limit 500M"
+                ],
+                "test": [
+                    "@unit"
+                ],
+                "unit": [
+                    "clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "unit-coverage": [
+                    "clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
+                ],
+                "package": [
+                    "chmod +x ./bin/package.sh && ./bin/package.sh"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "GravityForms AMP Booking",
+            "support": {
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
+                "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
+            },
+            "time": "2023-08-14T17:24:00+00:00"
+        },
+        {
+            "name": "plugin/gravityforms-webhooks",
+            "version": "v1.5",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/gravityforms-webhooks.git",
+                "reference": "a2f9e99550c3c47d5278beed3473d1ddbfcdddb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/gravityforms-webhooks/zipball/a2f9e99550c3c47d5278beed3473d1ddbfcdddb9",
+                "reference": "a2f9e99550c3c47d5278beed3473d1ddbfcdddb9",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "description": "GravityForms Webhooks Extension",
+            "support": {
+                "source": "https://github.com/yardinternet/gravityforms-webhooks/tree/v1.5",
+                "issues": "https://github.com/yardinternet/gravityforms-webhooks/issues"
+            },
+            "time": "2021-07-02T10:52:23+00:00"
+        },
+        {
             "name": "plugin/gravityformssurvey",
             "version": "v3.8",
             "source": {
@@ -2285,6 +2472,77 @@
             "time": "2023-07-17T07:16:18+00:00"
         },
         {
+            "name": "plugin/owc-gravityforms-eherkenning",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
+                "reference": "be9f90184ed8a1420980633fc90f21b51d53f572"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/be9f90184ed8a1420980633fc90f21b51d53f572",
+                "reference": "be9f90184ed8a1420980633fc90f21b51d53f572",
+                "shasum": ""
+            },
+            "require": {
+                "aura/session": "^2.1",
+                "gogentooss/samlbase": "^1.3",
+                "php": ">=7.2",
+                "php-di/php-di": "^6.0",
+                "rspeekenbrink/monolog-microsoft-teams": "^1.1",
+                "symfony/http-foundation": "^5.0",
+                "vlucas/phpdotenv": "^5.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.5.0",
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "mockery/mockery": "1.5.*",
+                "phpunit/phpunit": "~9.0",
+                "szepeviktor/phpstan-wordpress": "^0.6.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Yard\\eHerkenning\\": "./src/eHerkenning"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Yard\\Tests\\eHerkenning\\": "./tests/Unit"
+                }
+            },
+            "scripts": {
+                "cs": [
+                    "./vendor/bin/php-cs-fixer fix"
+                ],
+                "integration": [
+                    "clear && ./vendor/bin/phpunit --stderr --testsuite 'Integration Test Suite' --colors=always"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse --error-format raw --no-progress  --memory-limit 100M"
+                ],
+                "test": [
+                    "@unit",
+                    "@integration"
+                ],
+                "unit": [
+                    "clear && ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "unit-coverage": [
+                    "clear && ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
+                ]
+            },
+            "description": "Add a eHerkenning login field to GravityForms",
+            "homepage": "https://www.yard.nl",
+            "support": {
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/master",
+                "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
+            },
+            "time": "2023-08-14T08:51:38+00:00"
+        },
+        {
             "name": "plugin/owc-gravityforms-zaaksysteem",
             "version": "dev-master",
             "source": {
@@ -2350,16 +2608,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-            "version": "v1.0.5",
+            "version": "dev-feat/add-zaak-property-email",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-                "reference": "bef1ce13494e23644cf27e648f757ee1ffb82674"
+                "reference": "0acfc8c3aa988a966be4dbf27b6672478cfbb4e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/bef1ce13494e23644cf27e648f757ee1ffb82674",
-                "reference": "bef1ce13494e23644cf27e648f757ee1ffb82674",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/0acfc8c3aa988a966be4dbf27b6672478cfbb4e9",
+                "reference": "0acfc8c3aa988a966be4dbf27b6672478cfbb4e9",
                 "shasum": ""
             },
             "require": {
@@ -2407,10 +2665,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.0.5",
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/feat/add-zaak-property-email",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
-            "time": "2023-08-10T13:34:01+00:00"
+            "time": "2023-08-18T09:03:59+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -4345,6 +4603,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/onelogin-saml-sso/"
+        },
+        {
+            "name": "wpackagist-plugin/pronamic-ideal",
+            "version": "9.4.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
+                "reference": "tags/9.4.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.4.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/pronamic-ideal/"
         },
         {
             "name": "wpackagist-plugin/user-switching",
@@ -8249,7 +8525,11 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
+        "plugin/gravityforms-amp-booking": 20,
+        "plugin/gravityforms-power-automate": 20,
+        "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/owc-gravityforms-zaaksysteem-enable-u": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
