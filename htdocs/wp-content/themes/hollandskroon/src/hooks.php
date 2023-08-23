@@ -2,29 +2,29 @@
 
 declare(strict_types=1);
 
-add_action('init', function () {
-    if (is_admin() or is_rest()) {
-        return;
-    }
+// add_action('init', function () {
+//     if (is_admin() or is_rest()) {
+//         return;
+//     }
 
-    if (!function_exists('csp_nonce')) {
-        return;
-    }
+//     if (!function_exists('csp_nonce')) {
+//         return;
+//     }
 
-    $nonceScript = csp_nonce('script');
-    $nonceStyle = csp_nonce('style');
+//     $nonceScript = csp_nonce('script');
+//     $nonceStyle = csp_nonce('style');
 
-    ob_end_clean();
-    ob_start();
-    add_action('shutdown', function () use ($nonceScript, $nonceStyle) {
-        $content = ob_get_clean();
-        echo App\Security\CSP::make($content, $nonceScript, $nonceStyle)->add();
-    }, 0);
-});
+//     ob_end_clean();
+//     ob_start();
+//     add_action('shutdown', function () use ($nonceScript, $nonceStyle) {
+//         $content = ob_get_clean();
+//         echo App\Security\CSP::make($content, $nonceScript, $nonceStyle)->add();
+//     }, 0);
+// });
 
-add_action('send_headers', function () {
-    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
-});
+// add_action('send_headers', function () {
+//     \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
+// });
 
 function is_rest()
 {
@@ -297,9 +297,10 @@ add_action('after_switch_theme', function () {
             /**
              * Custom Capabilities
              */
-            'wpseo_bulk_edit'           => true,
-            'wpseo_manage_options'      => true,
             'edit_yard_options'         => true,
+            'gravityforms_power_automate' => true,
+            'wpseo_bulk_edit'           => true,
+            'wpseo_manage_options'      => true
         ];
 
         $caps = array_merge($caps, $role->getGravityFormsCapsKeyValue());
@@ -341,3 +342,5 @@ add_action('wp_default_scripts', function ($scripts) {
     wp_enqueue_script('jquery-ui-core');
     wp_script_add_data('jquery-ui-core', ['integrity', 'crossorigin'], ['sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==', 'anonymous']);
 });
+
+add_filter('gform_enable_legacy_markup', '__return_true');

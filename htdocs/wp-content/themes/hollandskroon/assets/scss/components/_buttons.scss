@@ -1,0 +1,8 @@
+.wp-block-button__link {
+	@include button;
+	@include button-color( $red );
+
+	&.has-secondary-background-color {
+		@include button-color( $red );
+	}
+}
