@@ -529,18 +529,7 @@ return [
             'report-sample' => true
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem
-        'style-src-elem' => [
-            'none'          => false,
-            'self'          => true,
-            'report-sample' => true,
-            'allow'         => [
-                'fonts.googleapis.com',
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
-                '*.readspeaker.com'
-            ],
-            'unsafe-inline' => false
-        ],
+        'style-src-elem' => [],
         // https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive
         'trusted-types' => [
             'enable'           => false,
