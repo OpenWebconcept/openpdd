@@ -326,9 +326,7 @@ return [
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src
         'connect-src' => [
             'self' => true,
-            'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
+            'allow' => [
                 '*.readspeaker.com',
             ],
         ],
@@ -337,8 +335,6 @@ return [
         'default-src' => [
             'self' => true,
             'allow' => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
         ],
@@ -350,8 +346,6 @@ return [
             'report-sample' => true,
             'allow' => [
                 'fonts.gstatic.com',
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
             'schemes' => [
@@ -388,8 +382,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com',
                 'secure.gravatar.com'
             ],
@@ -410,8 +402,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
         ],
@@ -465,8 +455,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com',
                 'code.jquery.com',
                 'siteimproveanalytics.com'
@@ -491,8 +479,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com',
                 'code.jquery.com',
                 'siteimproveanalytics.com'
@@ -515,8 +501,6 @@ return [
             'report-sample' => true,
             'allow'         => [
                 'fonts.googleapis.com',
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
             'unsafe-inline' => false
