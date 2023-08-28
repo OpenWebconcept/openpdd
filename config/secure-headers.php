@@ -422,9 +422,7 @@ return [
         ],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/prefetch-src
-        'prefetch-src' => [
-            'self' => true
-        ],
+        // Deprecated and Non-standard
 
         // https://w3c.github.io/webappsec-trusted-types/dist/spec/#integration-with-content-security-policy
         'require-trusted-types-for' => [

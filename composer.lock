@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d84b915a69dcf46bbbcd31c98f06ddcf",
+    "content-hash": "021edb2771f852351faeb2f5810cbd0b",
     "packages": [
         {
             "name": "aura/session",
@@ -2104,77 +2104,6 @@
             "time": "2023-08-15T06:56:50+00:00"
         },
         {
-            "name": "plugin/gravityforms-amp-booking",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "039213800acdcec8f7bc61fdd009194735ce551b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
-                "reference": "9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
-                "shasum": ""
-            },
-            "require": {
-                "aura/session": "^2.1",
-                "php": "^7.4|^8.0",
-                "php-di/php-di": "^6.0",
-                "rspeekenbrink/monolog-microsoft-teams": "^1.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.0",
-                "phpunit/phpunit": "~9.0",
-                "szepeviktor/phpstan-wordpress": "^1.1"
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "autoload": {
-                "psr-4": {
-                    "GravityFormsAMPBooking\\": "./src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "GravityFormsAMPBooking\\Tests\\": "./tests"
-                }
-            },
-            "scripts": {
-                "format": [
-                    "./vendor/bin/php-cs-fixer fix"
-                ],
-                "phpstan": [
-                    "./vendor/bin/phpstan analyse --no-progress  --memory-limit 500M"
-                ],
-                "test": [
-                    "@unit"
-                ],
-                "unit": [
-                    "clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
-                ],
-                "unit-coverage": [
-                    "clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
-                ],
-                "package": [
-                    "chmod +x ./bin/package.sh && ./bin/package.sh"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "Yard | Digital Agency",
-                    "email": "info@yard.nl",
-                    "homepage": "https://www.yard.nl"
-                }
-            ],
-            "description": "GravityForms AMP Booking",
-            "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
-                "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
-            },
-            "time": "2023-08-14T17:24:00+00:00"
-        },
-        {
             "name": "plugin/gravityforms-webhooks",
             "version": "v1.5",
             "source": {
@@ -2548,12 +2477,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "34924b985436d1894406da25ed39f1877be61c3f"
+                "reference": "e584b4e0fa7d5dbc9242413edbafb41354810d53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/34924b985436d1894406da25ed39f1877be61c3f",
-                "reference": "34924b985436d1894406da25ed39f1877be61c3f",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/e584b4e0fa7d5dbc9242413edbafb41354810d53",
+                "reference": "e584b4e0fa7d5dbc9242413edbafb41354810d53",
                 "shasum": ""
             },
             "require": {
@@ -2601,10 +2530,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v1.1.0",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-07-25T11:00:24+00:00"
+            "time": "2023-08-28T10:21:29+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -8538,5 +8467,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
