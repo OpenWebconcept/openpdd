@@ -346,9 +346,22 @@ add_filter('gform_field_groups_form_editor', function ($field_groups) {
     return $field_groups;
 });
 
-\add_action('wp_enqueue_scripts', function () {
+/**
+ * The following code is used to replace certain parts which are not compatible with the CSP (yet).
+ */
+add_action('wp_enqueue_scripts', function () {
+
+    // jQuery UI Core
     wp_deregister_script('jquery-ui-core');
     wp_enqueue_script('jquery-ui-core', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', ['jquery'], '1.13.2', 1);
     wp_enqueue_script('jquery-ui-core');
     wp_script_add_data('jquery-ui-core', ['integrity', 'crossorigin'], ['sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==', 'anonymous']);
+
+    // https://github.com/WordPress/WordPress/blob/master/wp-includes/js/dist/a11y.js unsafe inline style attribute
+    wp_deregister_script('wp-a11y');
+    wp_enqueue_script('wp-a11y', get_stylesheet_directory_uri() . '/assets/libs/a11y.js', ['wp', 'domReady'], false, 1);
+
+    // https://github.com/WordPress/WordPress/blob/master/wp-includes/js/plupload/moxie.js unsafe inline style attribute
+    wp_deregister_script('moxiejs');
+    wp_enqueue_script('moxiejs', get_stylesheet_directory_uri() . '/assets/libs/moxie.js', [], '1.3.5', 1);
 });

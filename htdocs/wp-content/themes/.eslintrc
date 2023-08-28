@@ -14,5 +14,6 @@
 		"FWP": true,
 		"jQuery": "readonly",
 		"wp": "readonly"
-	}
+	},
+  "ignorePatterns": ["**/assets/libs/*.js"]
 }
