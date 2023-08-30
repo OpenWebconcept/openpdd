@@ -169,7 +169,12 @@ add_action('enqueue_block_editor_assets', function () {
     wp_enqueue_style('theme-blocks-css', get_stylesheet_directory_uri() . '/assets/dist/editor.css', [], filemtime(__DIR__));
 });
 
+/**
+ * The following code is used to update certain libraries to their latest version.
+ */
 add_action('wp_enqueue_scripts', function () {
+
+    // jQuery UI Core
     wp_deregister_script('jquery-ui-core');
     wp_enqueue_script('jquery-ui-core', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', ['jquery'], '1.13.2', 1);
     wp_enqueue_script('jquery-ui-core');

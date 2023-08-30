@@ -224,7 +224,12 @@ add_action('wp_default_scripts', function ($scripts) {
     }
 });
 
-\add_action('wp_enqueue_scripts', function () {
+/**
+ * The following code is used to update certain libraries to their latest version.
+ */
+add_action('wp_enqueue_scripts', function () {
+
+    // jQuery UI Core
     wp_deregister_script('jquery-ui-core');
     wp_enqueue_script('jquery-ui-core', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', ['jquery'], '1.13.2', 1);
     wp_enqueue_script('jquery-ui-core');
