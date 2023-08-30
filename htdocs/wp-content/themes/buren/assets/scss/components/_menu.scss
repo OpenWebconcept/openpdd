@@ -10,6 +10,8 @@ $block: 'menu';
 .#{$block} {
 	/* Extend responsive column styling to 782px (Default is 600px) */
 	.wp-block-column {
+    flex-basis: 25% !important;
+
 		@media ( max-width: 991px ) {
 			width: 100%;
 			flex-wrap: wrap;
