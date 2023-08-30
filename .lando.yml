@@ -11,9 +11,9 @@ config:
 proxy:
     appserver_nginx:
         - openpdd.lndo.site
-        - formulieren.buren.lndo.site
-        - formulieren.gemeentehw.lndo.site
-        - formulieren.ggdhollandsnoorden.lndo.site
+        - buren.openpdd.lndo.site
+        - gemeentehw.openpdd.lndo.site
+        - ggdhollandsnoorden.openpdd.lndo.site
     mailhog:
         - mail.openpdd.lndo.site
     pma:

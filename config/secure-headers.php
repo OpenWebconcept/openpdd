@@ -326,9 +326,7 @@ return [
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src
         'connect-src' => [
             'self' => true,
-            'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
+            'allow' => [
                 '*.readspeaker.com',
             ],
         ],
@@ -337,8 +335,6 @@ return [
         'default-src' => [
             'self' => true,
             'allow' => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
         ],
@@ -350,8 +346,6 @@ return [
             'report-sample' => true,
             'allow' => [
                 'fonts.gstatic.com',
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
             'schemes' => [
@@ -388,8 +382,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com',
                 'secure.gravatar.com'
             ],
@@ -410,8 +402,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
         ],
@@ -432,9 +422,7 @@ return [
         ],
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/prefetch-src
-        'prefetch-src' => [
-            'self' => true
-        ],
+        // Deprecated and Non-standard
 
         // https://w3c.github.io/webappsec-trusted-types/dist/spec/#integration-with-content-security-policy
         'require-trusted-types-for' => [
@@ -465,8 +453,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com',
                 'code.jquery.com',
                 'siteimproveanalytics.com'
@@ -476,8 +462,8 @@ return [
                 // 'https:',
             ],
             /* followings are only work for `script` and `style` related directives */
-            'unsafe-inline' => true,
-            'unsafe-eval' => true,
+            'unsafe-inline' => false,
+            'unsafe-eval' => false,
             // https://www.w3.org/TR/CSP3/#unsafe-hashes-usage
             'unsafe-hashes' => false,
             // Enable `strict-dynamic` will *ignore* `self`, `unsafe-inline`,
@@ -491,8 +477,6 @@ return [
             'self'          => true,
             'report-sample' => true,
             'allow'         => [
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com',
                 'code.jquery.com',
                 'siteimproveanalytics.com'
@@ -502,7 +486,7 @@ return [
                 // 'https:',
             ],
             /* followings are only work for `script` and `style` related directives */
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem
         'script-src-elem' => [
@@ -515,32 +499,19 @@ return [
             'report-sample' => true,
             'allow'         => [
                 'fonts.googleapis.com',
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
                 '*.readspeaker.com'
             ],
-            'unsafe-inline' => true
+            'unsafe-inline' => false
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr
         'style-src-attr' => [
             'none'          => false,
             'self'          => true,
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
             'report-sample' => true
         ],
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem
-        'style-src-elem' => [
-            'none'          => false,
-            'self'          => true,
-            'report-sample' => true,
-            'allow'         => [
-                'fonts.googleapis.com',
-                'kit.fontawesome.com',
-                'ka-p.fontawesome.com',
-                '*.readspeaker.com'
-            ],
-            'unsafe-inline' => true
-        ],
+        'style-src-elem' => [],
         // https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive
         'trusted-types' => [
             'enable'           => false,

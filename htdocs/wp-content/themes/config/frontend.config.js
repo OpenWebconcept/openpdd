@@ -1,6 +1,7 @@
 const path = require( 'path' );
 const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
 const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
+const CopyPlugin = require( 'copy-webpack-plugin' );
 const { getCurrentTheme } = require( './helpers' );
 
 const isProduction = process.env.NODE_ENV === 'production';
@@ -49,6 +50,18 @@ module.exports = ( env ) => {
 			// Remove CleanWebpackPlugin otherwise assets will be deleted
 			...defaultConfig.plugins.filter( ( plugin ) => {
 				return ! ( plugin instanceof CleanWebpackPlugin );
+			} ),
+			new CopyPlugin( {
+				patterns: [
+					{
+						from: './node_modules/@fortawesome/fontawesome-pro/webfonts',
+						to: './fontawesome/webfonts',
+					},
+					{
+						from: './node_modules/@fortawesome/fontawesome-pro/css',
+						to: './fontawesome/css',
+					},
+				],
 			} ),
 		],
 		optimization: {
