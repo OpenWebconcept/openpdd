@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c26c62bedd8be0703a32a15f2091e15f",
+    "content-hash": "7cb5f82bb7429ebdbce06c975508a367",
     "packages": [
         {
             "name": "aura/session",
@@ -1137,27 +1137,27 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.3.0",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762"
+                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/552f6f783dfb08b950e2bb113cfa9b2726780762",
-                "reference": "552f6f783dfb08b950e2bb113cfa9b2726780762",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
+                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.3.0",
+                "johnpbloch/wordpress-core": "6.3.1",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
-                "php": ">=5.6.20"
+                "php": ">=7.0.0"
             },
             "type": "package",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -1179,28 +1179,28 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-08-10T16:07:29+00:00"
+            "time": "2023-08-29T14:28:17+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.3.0",
+            "version": "6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a"
+                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/d8a7716377714e21ab44e0d3c5632a57ada5788a",
-                "reference": "d8a7716377714e21ab44e0d3c5632a57ada5788a",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fc432f78ae5256b7fa28e810cfdf0b968d003699",
+                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=5.6.20"
+                "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.3.0"
+                "wordpress/core-implementation": "6.3.1"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1227,7 +1227,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-08-10T16:07:25+00:00"
+            "time": "2023-08-29T14:28:14+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1285,10 +1285,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "6.3",
+            "version": "6.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/6.3/nl_NL.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.3.1/nl_NL.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1989,25 +1989,25 @@
         },
         {
             "name": "plugin/gravityforms",
-            "version": "v2.7.12",
+            "version": "v2.7.13",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/gravityforms.git",
-                "reference": "b64adc7c6c33f869b5d9b87829af2ccc005b36b6"
+                "reference": "1ab27b7a78eba68a727dd7f281bbe50788e5cd73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/b64adc7c6c33f869b5d9b87829af2ccc005b36b6",
-                "reference": "b64adc7c6c33f869b5d9b87829af2ccc005b36b6",
+                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/1ab27b7a78eba68a727dd7f281bbe50788e5cd73",
+                "reference": "1ab27b7a78eba68a727dd7f281bbe50788e5cd73",
                 "shasum": ""
             },
             "type": "wordpress-plugin",
             "description": "Gravityforms",
             "support": {
-                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.12",
+                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.13",
                 "issues": "https://github.com/yardinternet/gravityforms/issues"
             },
-            "time": "2023-08-10T14:10:14+00:00"
+            "time": "2023-08-29T07:47:21+00:00"
         },
         {
             "name": "plugin/gravityforms-amp-booking",
@@ -2079,6 +2079,66 @@
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
             "time": "2023-08-14T17:24:00+00:00"
+        },
+        {
+            "name": "plugin/gravityforms-csp-fixer",
+            "version": "v0.0.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
+                "reference": "1bb015c060f5e6323c95f653eee045c2eb38df3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/1bb015c060f5e6323c95f653eee045c2eb38df3e",
+                "reference": "1bb015c060f5e6323c95f653eee045c2eb38df3e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "10up/wp_mock": "~0.5",
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "mockery/mockery": "^1.5",
+                "phpunit/phpunit": "~9.0",
+                "szepeviktor/phpstan-wordpress": "^1.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "Yard\\CSP\\": "./src/CSP"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Yard\\CSP\\Tests\\Unit\\": "./tests/Unit"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
+                ],
+                "format": [
+                    "vendor/bin/php-cs-fixer fix"
+                ],
+                "phpstan": [
+                    "./vendor/bin/phpstan analyse"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Yard | Digital Agency",
+                    "email": "info@yard.nl",
+                    "homepage": "https://www.yard.nl"
+                }
+            ],
+            "description": "Fixes GravityForms plugin so it is CSP compliant.",
+            "support": {
+                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.2",
+                "issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
+            },
+            "time": "2023-08-30T10:58:26+00:00"
         },
         {
             "name": "plugin/gravityforms-power-automate",
@@ -2541,12 +2601,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-                "reference": "fef857c9fd792ef1f460b847a05e35d973fcafb6"
+                "reference": "e6c3c1d5e33a313b38f5f67244f81f88579342ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/fef857c9fd792ef1f460b847a05e35d973fcafb6",
-                "reference": "fef857c9fd792ef1f460b847a05e35d973fcafb6",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/e6c3c1d5e33a313b38f5f67244f81f88579342ea",
+                "reference": "e6c3c1d5e33a313b38f5f67244f81f88579342ea",
                 "shasum": ""
             },
             "require": {
@@ -2595,10 +2655,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.1.0",
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.1.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
-            "time": "2023-08-28T12:04:47+00:00"
+            "time": "2023-08-29T07:04:20+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -4590,15 +4650,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-seopress",
-            "version": "6.9",
+            "version": "6.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-seopress/",
-                "reference": "tags/6.9"
+                "reference": "tags/6.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-seopress.6.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-seopress.6.9.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5379,16 +5439,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.23.0",
+            "version": "v3.24.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "35af3cbbacfa91e164b252a28ec0b644f1ed4e78"
+                "reference": "bb6c9d7945dcbf6942e151b018c44d3767e21403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/35af3cbbacfa91e164b252a28ec0b644f1ed4e78",
-                "reference": "35af3cbbacfa91e164b252a28ec0b644f1ed4e78",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/bb6c9d7945dcbf6942e151b018c44d3767e21403",
+                "reference": "bb6c9d7945dcbf6942e151b018c44d3767e21403",
                 "shasum": ""
             },
             "require": {
@@ -5464,7 +5524,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.23.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.24.0"
             },
             "funding": [
                 {
@@ -5472,7 +5532,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-14T12:27:35+00:00"
+            "time": "2023-08-29T23:18:45+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
