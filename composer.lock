@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7cb5f82bb7429ebdbce06c975508a367",
+    "content-hash": "fc460418d95fd740ca73c892b9618a9e",
     "packages": [
         {
             "name": "aura/session",
@@ -2597,7 +2597,7 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-            "version": "dev-main",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
@@ -2623,7 +2623,6 @@
                 "phpunit/phpunit": "^9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -8522,7 +8521,6 @@
         "plugin/gravityforms-power-automate": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
-        "plugin/owc-gravityforms-zaaksysteem-enable-u": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
