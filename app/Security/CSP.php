@@ -27,7 +27,7 @@ class CSP
         $content = preg_replace($this->getScriptRegex(), "<$1 nonce=\"{$this->getNonceScript()}\"$2>", $this->content);
         $content = preg_replace($this->getStyleRegex(), "<$1 nonce=\"{$this->getNonceStyle()}\"$2>", $content);
         $content = preg_replace($this->getHTMLRegex(), "$1nonce=\"{$this->getNonceScript()}\" $2", $content);
-        $content = preg_replace($this->getInlineStyleRegex(), '$1nonce=${3}' . $this->getNonceStyle() .'$3 $2', $content);
+        //$content = preg_replace($this->getInlineStyleRegex(), '$1nonce=${3}' . $this->getNonceStyle() .'$3 $2', $content);
         return $content;
     }
 
