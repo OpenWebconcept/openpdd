@@ -306,22 +306,21 @@ add_action('after_switch_theme', function () {
 });
 
 /**
- * Add caps to editor role
+ * Add caps to existing roles
  */
 add_action('after_switch_theme', function () {
-    $role = new Role('editor');
+    $roles = ['editor', 'superuser'];
 
-    if (null === $role->getRole()) {
-        return null;
-    }
-
-    $caps = [];
-
-    $caps = array_merge($caps, $role->getGravityFormsCaps());
-
-    foreach ($caps as $cap) {
-        if (!$role->getRole()->has_cap($cap)) {
-            $role->addCap($cap);
+    foreach ($roles as $role) {
+        $role = new Role($role);
+        if (null === $role->getRole()) {
+            continue;
+        }
+    
+        foreach ($role->getGravityFormsCaps() as $cap) {
+            if (!$role->getRole()->has_cap($cap)) {
+                $role->addCap($cap);
+            }
         }
     }
 });

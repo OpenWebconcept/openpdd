@@ -30,6 +30,8 @@ class Role
             'gravityforms_delete_entries'       => true,
             'gravityforms_view_entry_notes'     => true,
             'gravityforms_edit_entry_notes'     => true,
+            'gravityforms_export_entries'       => true,
+            'gravityforms_import_entries'       => true,
         ];
     }
 
@@ -42,7 +44,7 @@ class Role
         return array_keys($this->getGravityFormsCapsKeyValue());
     }
 
-    public function addRole(string $displayName, array $caps): void
+    public function addRole(string $displayName, array $caps = []): void
     {
         add_role($this->role, $displayName, $caps);
     }
