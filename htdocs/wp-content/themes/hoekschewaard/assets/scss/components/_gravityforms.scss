@@ -1,0 +1,15 @@
+.gform_footer,
+.gform_page_footer {
+	.gform_save_link {
+		@include button-variant-outline( theme-color( 'primary' ) );
+		display: inline-block;
+		padding: 0.4rem 1rem !important;
+		border-color: theme-color( 'primary' ) !important;
+		line-height: $line-height-base;
+
+		@include hover-focus-active {
+			color: $white !important;
+			text-decoration: none;
+		}
+	}
+}
