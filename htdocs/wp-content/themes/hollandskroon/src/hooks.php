@@ -2,29 +2,29 @@
 
 declare(strict_types=1);
 
-// add_action('init', function () {
-//     if (is_admin() or is_rest()) {
-//         return;
-//     }
+add_action('init', function () {
+    if (is_admin() or is_rest()) {
+        return;
+    }
 
-//     if (!function_exists('csp_nonce')) {
-//         return;
-//     }
+    if (!function_exists('csp_nonce')) {
+        return;
+    }
 
-//     $nonceScript = csp_nonce('script');
-//     $nonceStyle = csp_nonce('style');
+    $nonceScript = csp_nonce('script');
+    $nonceStyle = csp_nonce('style');
 
-//     ob_end_clean();
-//     ob_start();
-//     add_action('shutdown', function () use ($nonceScript, $nonceStyle) {
-//         $content = ob_get_clean();
-//         echo App\Security\CSP::make($content, $nonceScript, $nonceStyle)->add();
-//     }, 0);
-// });
+    ob_end_clean();
+    ob_start();
+    add_action('shutdown', function () use ($nonceScript, $nonceStyle) {
+        $content = ob_get_clean();
+        echo App\Security\CSP::make($content, $nonceScript, $nonceStyle)->add();
+    }, 0);
+});
 
-// add_action('send_headers', function () {
-//     \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
-// });
+add_action('send_headers', function () {
+    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
+});
 
 function is_rest()
 {
