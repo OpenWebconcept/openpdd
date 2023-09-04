@@ -15,6 +15,7 @@ proxy:
         - gemeentehw.openpdd.lndo.site
         - ggdhollandsnoorden.openpdd.lndo.site
         - hollandskroon.openpdd.lndo.site
+        - sudwestfryslan.openpdd.lndo.site
     mailhog:
         - mail.openpdd.lndo.site
     pma:
