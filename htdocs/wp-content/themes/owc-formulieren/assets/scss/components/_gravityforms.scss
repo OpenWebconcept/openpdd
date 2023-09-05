@@ -284,6 +284,10 @@
 	.ginput_counter {
 		font-size: $spacer;
 	}
+
+	.gform_fileupload_multifile input[type='file'] {
+		opacity: 0;
+	}
 }
 
 .ginput_container_bag_address {
