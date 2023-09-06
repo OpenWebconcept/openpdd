@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1555d7ff8cff537e7ab2ba0cd6ab9589",
+    "content-hash": "1b82ddf06322a08511b23da7f0ffb2ac",
     "packages": [
         {
             "name": "aura/session",
@@ -2389,16 +2389,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.1.4",
+            "version": "v1.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "554ba4fa910cea4aefab1770dea518fca7c1d848"
+                "reference": "722eedac75c9cb557dacb3423e8fb13fe55eb366"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/554ba4fa910cea4aefab1770dea518fca7c1d848",
-                "reference": "554ba4fa910cea4aefab1770dea518fca7c1d848",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/722eedac75c9cb557dacb3423e8fb13fe55eb366",
+                "reference": "722eedac75c9cb557dacb3423e8fb13fe55eb366",
                 "shasum": ""
             },
             "require": {
@@ -2454,10 +2454,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.4",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.5",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2023-09-06T11:46:16+00:00"
+            "time": "2023-09-06T12:38:54+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",

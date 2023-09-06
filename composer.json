@@ -144,7 +144,7 @@
 		"plugin/gravityperks-limit-choices": "1.7.*",
 		"plugin/gravityperks-limit-submissions": "^1.0",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
-		"plugin/owc-gravityforms-digid": "^1.1.4",
+		"plugin/owc-gravityforms-digid": "^1.1.5",
     "plugin/owc-gravityforms-eherkenning": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
