@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4cae29eb09721d62b8f37e8d52ffb3c",
+    "content-hash": "1555d7ff8cff537e7ab2ba0cd6ab9589",
     "packages": [
         {
             "name": "aura/session",
@@ -2011,16 +2011,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "dev-main",
+            "version": "v0.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "9ca394e4262e6a838792fd395b6fcbb6a91c7d05"
+                "reference": "632511f498f1e835078fc1c59bfb6dabc17a407d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
-                "reference": "9ca394e4262e6a838792fd395b6fcbb6a91c7d05",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/632511f498f1e835078fc1c59bfb6dabc17a407d",
+                "reference": "632511f498f1e835078fc1c59bfb6dabc17a407d",
                 "shasum": ""
             },
             "require": {
@@ -2034,7 +2034,6 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^1.1"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2075,10 +2074,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.1",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-08-14T17:24:00+00:00"
+            "time": "2023-09-06T11:52:42+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -2390,16 +2389,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.1.3",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "cd4e8c1f6b70bcb10554233e9151d36f6d4e8742"
+                "reference": "554ba4fa910cea4aefab1770dea518fca7c1d848"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/cd4e8c1f6b70bcb10554233e9151d36f6d4e8742",
-                "reference": "cd4e8c1f6b70bcb10554233e9151d36f6d4e8742",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/554ba4fa910cea4aefab1770dea518fca7c1d848",
+                "reference": "554ba4fa910cea4aefab1770dea518fca7c1d848",
                 "shasum": ""
             },
             "require": {
@@ -2455,10 +2454,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.3",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.4",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2023-08-28T14:01:22+00:00"
+            "time": "2023-09-06T11:46:16+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
@@ -8262,7 +8261,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
-        "plugin/gravityforms-amp-booking": 20,
         "plugin/gravityforms-power-automate": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
@@ -8274,5 +8272,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
