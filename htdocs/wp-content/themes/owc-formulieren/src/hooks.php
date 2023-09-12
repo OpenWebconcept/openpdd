@@ -156,7 +156,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_deregister_script('jquery');
     wp_deregister_script('jquery-migrate');
 
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.5.1.min.js', [], '3.5.1', false); // jQuery v3
+    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
     wp_enqueue_script('jquery');
     wp_script_add_data('jquery', ['integrity', 'crossorigin'], ['sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous']);
 

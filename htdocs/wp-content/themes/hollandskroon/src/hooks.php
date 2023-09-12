@@ -316,7 +316,7 @@ add_action('after_switch_theme', function () {
         if (null === $role->getRole()) {
             continue;
         }
-    
+
         foreach ($role->getGravityFormsCaps() as $cap) {
             if (!$role->getRole()->has_cap($cap)) {
                 $role->addCap($cap);
@@ -335,6 +335,13 @@ add_action('wp_default_scripts', function ($scripts) {
  * The following code is used to update certain libraries to their latest version.
  */
 add_action('wp_enqueue_scripts', function () {
+    // jQuery core.
+    wp_deregister_script('jquery');
+    wp_deregister_script('jquery-migrate');
+
+    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
+    wp_enqueue_script('jquery');
+    wp_script_add_data('jquery', ['integrity', 'crossorigin'], ['sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous']);
 
     // jQuery UI Core
     wp_deregister_script('jquery-ui-core');

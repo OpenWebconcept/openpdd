@@ -350,8 +350,15 @@ add_filter('gform_field_groups_form_editor', function ($field_groups) {
  * The following code is used to update certain libraries to their latest version.
  */
 add_action('wp_enqueue_scripts', function () {
+    // jQuery core.
+    wp_deregister_script('jquery');
+    wp_deregister_script('jquery-migrate');
 
-    // jQuery UI Core
+    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
+    wp_enqueue_script('jquery');
+    wp_script_add_data('jquery', ['integrity', 'crossorigin'], ['sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous']);
+
+    // jQuery UI Core.
     wp_deregister_script('jquery-ui-core');
     wp_enqueue_script('jquery-ui-core', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', ['jquery'], '1.13.2', 1);
     wp_enqueue_script('jquery-ui-core');
