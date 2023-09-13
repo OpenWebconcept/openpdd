@@ -2,7 +2,14 @@
 
 declare(strict_types=1);
 
+/**
+ * Add CSP to admin-ajax and initialize nonces for resources.
+ */
 add_action('init', function () {
+    if (strpos(sanitize_text_field($_SERVER['REQUEST_URI']), '/wp-admin/admin-ajax.php') !== false) {
+        header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self';");
+    }
+
     if (is_admin() or is_rest()) {
         return;
     }
@@ -22,8 +29,11 @@ add_action('init', function () {
     }, 0);
 });
 
+/**
+ * Add a complete CSP to the document.
+ */
 add_action('send_headers', function () {
-    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT .'/config/secure-headers.php')->send();
+    \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
 });
 
 function is_rest()
@@ -282,3 +292,15 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('jquery-ui-core');
     wp_script_add_data('jquery-ui-core', ['integrity', 'crossorigin'], ['sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q==', 'anonymous']);
 });
+
+function add_csp_header_to_admin_ajax($headers) {
+    // Check if the current request matches the desired path
+    if (strpos($_SERVER['REQUEST_URI'], '/wp-admin/admin-ajax.php') !== false) {
+        // Add the CSP header for admin-ajax.php
+        $headers['Content-Security-Policy'] = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';";
+    }
+
+    return $headers;
+}
+
+add_filter('wp_headers', 'add_csp_header_to_admin_ajax');
