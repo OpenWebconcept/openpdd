@@ -333,6 +333,7 @@ return [
 
         // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/default-src
         'default-src' => [
+            'none' => true,
             'self' => true,
             'allow' => [
                 '*.readspeaker.com'
