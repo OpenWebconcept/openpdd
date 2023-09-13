@@ -11,7 +11,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <script src="//cdn1.readspeaker.com/script/13499/webReader/webReader.js?pids=wr" type="text/javascript"></script>
+    <script src="https://cdn1.readspeaker.com/script/13499/webReader/webReader.js?pids=wr" integrity="sha384-P4pKFwnZFv+ryFiXdXC18T/nbayji5oJIlV7iIUh5xnHIDvBDMC64ZWCrGuCF2ny" crossorigin="anonymous"></script>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/brands.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/solid.min.css" rel="stylesheet">
