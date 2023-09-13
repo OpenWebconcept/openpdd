@@ -2,7 +2,14 @@
 
 declare(strict_types=1);
 
+/**
+ * Add CSP to admin-ajax and initialize nonces for resources.
+ */
 add_action('init', function () {
+    if (strpos(sanitize_text_field($_SERVER['REQUEST_URI']), '/wp-admin/admin-ajax.php') !== false) {
+        header("Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self';");
+    }
+
     if (is_admin() or is_rest()) {
         return;
     }
@@ -22,6 +29,9 @@ add_action('init', function () {
     }, 0);
 });
 
+/**
+ * Add a complete CSP to the document.
+ */
 add_action('send_headers', function () {
     \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
 });
