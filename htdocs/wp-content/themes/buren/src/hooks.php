@@ -33,6 +33,10 @@ add_action('init', function () {
  * Add a complete CSP to the document.
  */
 add_action('send_headers', function () {
+    if (is_admin()) {
+        return;
+    }
+    
     \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
 });
 
@@ -279,16 +283,17 @@ add_action('wp_default_scripts', function ($scripts) {
  */
 add_action('wp_enqueue_scripts', function () {
     // jQuery core.
-    wp_deregister_script('jquery');
     wp_deregister_script('jquery-migrate');
 
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
-    wp_enqueue_script('jquery');
+    $wpScripts = wp_scripts();
 
-    // jQuery UI Core.
-    wp_deregister_script('jquery-ui-core');
-    wp_enqueue_script('jquery-ui-core', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', ['jquery'], '1.13.2', 1);
-    wp_enqueue_script('jquery-ui-core');
+    if (isset( $wpScripts->registered['jquery'])) {
+        $wpScripts->registered['jquery']->src = 'https://code.jquery.com/jquery-3.7.1.min.js';
+    }
+
+    if (isset( $wpScripts->registered['jquery-ui-core'])) {
+        $wpScripts->registered['jquery-ui-core']->src = 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js';
+    }
 });
 
 /**
@@ -296,22 +301,25 @@ add_action('wp_enqueue_scripts', function () {
  */
 function theme_script_loader_tag($tag, $handle)
 {
-  $scripts_to_load = [
-    [
-      ('name')      => 'jquery',
-      ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
-    ],
-    [
-      ('name')      => 'jquery-ui-core',
-      ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
-    ]
-  ];
+    if (!is_admin()) {
+        $scripts_to_load = [
+            [
+                ('name')      => 'jquery',
+                ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
+            ],
+            [
+                ('name')      => 'jquery-ui-core',
+                ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
+            ]
+        ];
+    
+        $key = array_search($handle, array_column($scripts_to_load, 'name'));
+        
+        if (false !== $key) {
+            $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
+        }
+    }
 
-  $key = array_search($handle, array_column($scripts_to_load, 'name'));
-  if (false !== $key) {
-    $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
-  }
-
-  return $tag;
+    return $tag;
 }
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
