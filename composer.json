@@ -1,5 +1,5 @@
 {
-	"name": "openwebconcept/open-pdd",
+	"name": "openwebconcept/openpdd",
 	"description": "OpenPDD",
 	"version": "1.0.0",
 	"type": "project",
@@ -92,6 +92,10 @@
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git"
 		},
+    {
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-gravityforms-nested-forms.git"
+		},
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-power-automate.git"
@@ -133,9 +137,10 @@
 		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravity-pdf": "6.5.*",
 		"plugin/gravityforms": "^2.7.12",
-    "plugin/gravityforms-amp-booking": "^0.0.1",
+    "plugin/gravityforms-amp-booking": "^0.0.2",
     "plugin/gravityforms-csp-fixer": "^0.0.2",
 		"plugin/gravityforms-power-automate": "dev-main",
+		"plugin/gravityforms-nested-forms": "dev-main",
 		"plugin/gravityforms-webhooks": "^1.5",
 		"plugin/gravityformssurvey": "^3.0",
 		"plugin/gravityformszapier": "^4.0",
