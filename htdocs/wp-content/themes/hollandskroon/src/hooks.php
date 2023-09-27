@@ -307,10 +307,19 @@ add_action('after_switch_theme', function () {
             /**
              * Custom Capabilities
              */
-            'edit_yard_options'         => true,
-            'gravityforms_power_automate' => true,
-            'wpseo_bulk_edit'           => true,
-            'wpseo_manage_options'      => true
+            'edit_yard_options'             => true,
+            'gravityforms_power_automate'   => true,
+            'gravityforms_pronamic_pay'     => true,
+            'gravityforms_webhooks'         => true,
+            'edit_payment'                  => true,
+            'read_payment'                  => true,
+            'edit_payments'                 => true,
+            'edit_others_payments'          => true,
+            'read_private_payments'         => true,
+            'edit_private_payments'         => true,
+            'edit_published_payments'       => true,
+            'wpseo_bulk_edit'               => true,
+            'wpseo_manage_options'          => true,
         ];
 
         $caps = array_merge($caps, $role->getGravityFormsCapsKeyValue());
