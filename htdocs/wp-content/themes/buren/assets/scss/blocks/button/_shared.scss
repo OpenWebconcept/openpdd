@@ -14,11 +14,11 @@
 	}
 
 	&.has-white-background-color {
-		@include button-color($white);
+		@include button-color( $white );
 	}
 
 	&.has-black-background-color {
-		@include button-color($black);
+		@include button-color( $black );
 	}
 }
 
@@ -45,8 +45,8 @@
  * Buttons wrapper: basic style
  */
 .wp-block-buttons {
+	margin-bottom: 2rem;
 	gap: 0.5em;
-  margin-bottom: 2rem;
 }
 
 // Gutenberg width settings
@@ -88,4 +88,3 @@
 		left: 1rem;
 	}
 }
-

@@ -2,25 +2,31 @@
  * Project buttons
  */
 .btn {
-  @include button;
+	@include button;
 
-  &:focus {
-    outline: none;
-  }
+	&:focus {
+		outline: none;
+	}
 }
 
 .btn-primary {
-  @include button-variant(theme-color("primary"), theme-color("primary"));
+	@include button-variant(
+		theme-color( 'primary' ),
+		theme-color( 'primary' )
+	);
 }
 
 .btn-secondary {
-  @include button-variant(theme-color("secondary"), theme-color("secondary"));
+	@include button-variant(
+		theme-color( 'secondary' ),
+		theme-color( 'secondary' )
+	);
 }
 
 .btn-primary-outline {
-  @include button-variant-outline(theme-color("primary"));
+	@include button-variant-outline( theme-color( 'primary' ) );
 }
 
 .btn-outline-primary {
-  @include button-variant-outline(theme-color("primary"));
+	@include button-variant-outline( theme-color( 'primary' ) );
 }

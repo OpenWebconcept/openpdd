@@ -20,32 +20,24 @@
 
 		&::after {
 			position: absolute;
-			margin: $bar-padding;
-			height: $inner-bar-height;
 			top: 0;
-			left: 0;
-			bottom: 0;
 			right: 0;
-			border-radius: $bar-border-radius;
+			bottom: 0;
+			left: 0;
+			height: $inner-bar-height;
+			margin: $bar-padding;
 			background-color: $bar-background-color;
+			border-radius: $bar-border-radius;
 			content: '';
 		}
 	}
 
 	.gf_progressbar_percentage {
+		position: relative;
 		display: flex;
+		height: $inner-bar-height;
 		align-items: center;
 		justify-content: flex-end;
-		position: relative;
-		height: $inner-bar-height;
-		text-align: right;
-		font-size: $font-size-base * 0.9;
-		color: #fff;
-		border-top-right-radius: 0px;
-		border-bottom-right-radius: 0px;
-		border-top-left-radius: $bar-border-radius;
-		border-bottom-left-radius: $bar-border-radius;
-		vertical-align: middle;
 		background: repeating-linear-gradient(
 				-45deg,
 				rgba( 0, 0, 0, 0 ),
@@ -58,14 +50,22 @@
 				rgba( 255, 255, 255, 0.1 ),
 				rgba( 0, 0, 0, 0.4 )
 			);
+		border-bottom-left-radius: $bar-border-radius;
+		border-bottom-right-radius: 0px;
+		border-top-left-radius: $bar-border-radius;
+		border-top-right-radius: 0px;
+		color: #fff;
+		font-size: $font-size-base * 0.9;
+		text-align: right;
+		vertical-align: middle;
 
 		&.percentbar_blue {
 			background-color: $bar-color;
 		}
 
 		&.percentbar_100 {
-			border-top-right-radius: $bar-border-radius;
 			border-bottom-right-radius: $bar-border-radius;
+			border-top-right-radius: $bar-border-radius;
 		}
 
 		span {

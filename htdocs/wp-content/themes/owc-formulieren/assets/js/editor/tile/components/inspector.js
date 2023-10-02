@@ -1,8 +1,8 @@
 /**
  * WordPress dependencies
  */
-import { InspectorControls, FontSizePicker } from '@wordpress/block-editor';
-import { PanelBody, TextControl } from '@wordpress/components';
+import { InspectorControls } from '@wordpress/block-editor';
+import { PanelBody } from '@wordpress/components';
 import { __ } from '@wordpress/i18n';
 
 /**

@@ -23,7 +23,9 @@ program
 	.parse( process.argv );
 
 function runTask( task = 'dev', theme ) {
-	shell.exec( `npm run ${ task } -- --env theme=${ theme }` );
+	shell.exec( `npm run ${ task } -- --env theme=${ theme }`, {
+		env: { FORCE_COLOR: true, ...process.env },
+	} );
 }
 
 function runAll() {

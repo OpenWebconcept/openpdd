@@ -113,8 +113,8 @@ $block: 'a11y-toolbar';
 	}
 
 	img.custom-logo {
-		filter: brightness( 0 ) invert( 1 );
 		background-color: transparent !important;
+		filter: brightness( 0 ) invert( 1 );
 	}
 
 	.ginput_container_radio .gfield_radio li input[type='radio'],
@@ -123,8 +123,8 @@ $block: 'a11y-toolbar';
 	}
 
 	input[type='button'].gform_next_button {
-		color: $background-color-dark !important;
 		background-color: $link-color-dark !important;
+		color: $background-color-dark !important;
 	}
 
 	.gf_progressbar_percentage {
