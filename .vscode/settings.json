@@ -1,13 +1,43 @@
 {
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[css]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.prettier": true,
+			"source.fixAll.stylelint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.prettier": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": false
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[php]": {
+		"editor.defaultFormatter": "junstyle.php-cs-fixer"
+	},
+	"[scss]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.prettier": true,
+			"source.fixAll.stylelint": true
+		},
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
 	"css.validate": false,
-	"scss.validate": false,
+	"editor.formatOnSave": true,
 	"eslint.workingDirectories": [
 		{
-			"directory": "htdocs/wp-content/themes",
-			"changeProcessCWD": true
+			"changeProcessCWD": true,
+			"mode": "auto"
 		}
 	],
+	"php-cs-fixer.allowRisky": false,
+	"php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+	"php-cs-fixer.onsave": true,
 	"prettier.configPath": "htdocs/wp-content/themes/.prettierrc.js",
+	"scss.validate": false,
 	"stylelint.validate": ["css", "scss"]
 }

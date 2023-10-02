@@ -8,11 +8,10 @@ $block: 'menu';
 }
 
 .#{$block} {
-  flex-basis: 25% !important;
-  
+	flex-basis: 25% !important;
+
 	/* Extend responsive column styling to 782px (Default is 600px) */
 	.wp-block-column {
-
 		@media ( max-width: 991px ) {
 			width: 100%;
 			flex-wrap: wrap;

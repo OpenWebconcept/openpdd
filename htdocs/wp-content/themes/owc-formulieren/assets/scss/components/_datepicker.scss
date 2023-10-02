@@ -1,64 +1,64 @@
 /* Datepicker styling */
 .ui-datepicker {
-  @extend .table;
-  display: none;
-  width: auto;
-  padding: $spacer;
-  border: 1px solid $gray-300;
-  background-color: $white;
-  border-radius: $border-radius;
+	@extend .table;
+	display: none;
+	width: auto;
+	padding: $spacer;
+	border: 1px solid $gray-300;
+	background-color: $white;
+	border-radius: $border-radius;
 
-  td {
-    padding: $spacer * 0.3;
+	td {
+		padding: $spacer * 0.3;
 
-    &:hover {
-      background-color: gray("200");
-      cursor: pointer;
-    }
-  }
+		&:hover {
+			background-color: gray( '200' );
+			cursor: pointer;
+		}
+	}
 
-  th {
-    border-top: none;
-  }
+	th {
+		border-top: none;
+	}
 
-  tr:hover {
-    cursor: pointer;
-  }
+	tr:hover {
+		cursor: pointer;
+	}
 
-  tr:first-child {
-    background-color: white;
-    font-weight: $font-weight-normal;
-  }
+	tr:first-child {
+		background-color: white;
+		font-weight: $font-weight-normal;
+	}
 
-  &-header {
-    margin-bottom: $spacer * 0.5;
-    text-align: center;
-  }
+	&-header {
+		margin-bottom: $spacer * 0.5;
+		text-align: center;
+	}
 
-  &-calendar {
-    margin-bottom: 0;
-    border: none;
-  }
+	&-calendar {
+		border: none;
+		margin-bottom: 0;
+	}
 
-  &-week-end {
-    font-weight: $font-weight-bold;
-  }
+	&-week-end {
+		font-weight: $font-weight-bold;
+	}
 
-  .ui-corner-all {
-    cursor: pointer;
-  }
+	.ui-corner-all {
+		cursor: pointer;
+	}
 
-  &-prev {
-    float: left;
-    text-align: left;
-  }
+	&-prev {
+		float: left;
+		text-align: left;
+	}
 
-  &-next {
-    float: right;
-    text-align: right;
-  }
+	&-next {
+		float: right;
+		text-align: right;
+	}
 }
 
 .datepicker {
-  width: 115px;
+	width: 115px;
 }
