@@ -1,5 +1,5 @@
 h1,
 .h1 {
-  font-weight: $buren-typography-weight-scale-bold-font-weight;
-  color: theme-color("primary");
+	color: theme-color( 'primary' );
+	font-weight: $buren-typography-weight-scale-bold-font-weight;
 }

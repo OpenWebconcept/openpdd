@@ -2,81 +2,81 @@
 * Standard button
 */
 @mixin button {
-  padding: $btn-padding-y $btn-padding-x;
-  border-width: $btn-border-width;
-  border-radius: $btn-border-radius;
-  border-style: $btn-border-style;
-  font-family: $btn-font-family;
-  font-size: $btn-font-size;
-  font-weight: $btn-font-weight;
-  line-height: $btn-line-height;
-  transition: $btn-transition;
+	padding: $btn-padding-y $btn-padding-x;
+	border-width: $btn-border-width;
+	border-style: $btn-border-style;
+	border-radius: $btn-border-radius;
+	font-family: $btn-font-family;
+	font-size: $btn-font-size;
+	font-weight: $btn-font-weight;
+	line-height: $btn-line-height;
+	transition: $btn-transition;
 
-  @include hover-focus-active {
-    text-decoration: none;
-  }
+	@include hover-focus-active {
+		text-decoration: none;
+	}
 }
 
 /**
   * Button variants
   */
-@mixin primary-button-variant($color) {
-  @include button-variant($color, $color, $color);
-  border-bottom-color: darken($color, 15%);
-  border-right-color: $color;
-  border-style: solid;
+@mixin primary-button-variant( $color ) {
+	@include button-variant( $color, $color, $color );
+	border-style: solid;
+	border-right-color: $color;
+	border-bottom-color: darken( $color, 15% );
 
-  @include hover-focus-active {
-    border-color: $color;
-    background-color: $white;
-    color: $color;
-  }
+	@include hover-focus-active {
+		border-color: $color;
+		background-color: $white;
+		color: $color;
+	}
 }
 
-@mixin secondary-button-variant($color) {
-  @include button-variant($color, $color, $color);
+@mixin secondary-button-variant( $color ) {
+	@include button-variant( $color, $color, $color );
 
-  @include hover-focus-active {
-    background-color: theme-color("primary");
-    border-color: theme-color("primary");
-  }
+	@include hover-focus-active {
+		border-color: theme-color( 'primary' );
+		background-color: theme-color( 'primary' );
+	}
 }
 
-@mixin tertiary-button-variant($color) {
-  @include button-variant($color, $color, $color);
-  border-bottom-color: darken($color, 15%);
+@mixin tertiary-button-variant( $color ) {
+	@include button-variant( $color, $color, $color );
+	border-bottom-color: darken( $color, 15% );
 
-  @include hover-focus-active {
-    border: 2px solid $color;
-    background-color: $white;
-  }
+	@include hover-focus-active {
+		border: 2px solid $color;
+		background-color: $white;
+	}
 }
 
-@mixin gray-button-variant($color) {
-  @include button-variant($color, $color, $color);
-  border-bottom-color: darken($color, 15%);
+@mixin gray-button-variant( $color ) {
+	@include button-variant( $color, $color, $color );
+	border-bottom-color: darken( $color, 15% );
 
-  @include hover-focus-active {
-    border: 2px solid $color;
-    background-color: $white;
-  }
+	@include hover-focus-active {
+		border: 2px solid $color;
+		background-color: $white;
+	}
 }
 
 @mixin box-shadow-underline(
-  $border-color: rgba(theme-color("secondary"), 0.5),
-  $box-shadow-color: rgba(theme-color("tertiary"), 0.5),
-  $text-color: #000
+	$border-color: rgba( theme-color( 'secondary' ), 0.5 ),
+	$box-shadow-color: rgba( theme-color( 'tertiary' ), 0.5 ),
+	$text-color: #000
 ) {
-  border-bottom: 1px solid theme-color("primary");
-  padding-bottom: 1px;
-  box-shadow: $box-shadow-color 0px 0px 0px inset;
-  font-weight: $font-weight-normal;
-  transition: 0.4s all ease-out;
+	padding-bottom: 1px;
+	border-bottom: 1px solid theme-color( 'primary' );
+	box-shadow: $box-shadow-color 0px 0px 0px inset;
+	font-weight: $font-weight-normal;
+	transition: 0.4s all ease-out;
 
-  @include hover-focus-active {
-    box-shadow: $box-shadow-color 0px -2rem 0px inset;
-    border-bottom: 1px solid darken(theme-color("primary"), 15%);
-    text-decoration: none;
-    color: $black;
-  }
+	@include hover-focus-active {
+		border-bottom: 1px solid darken( theme-color( 'primary' ), 15% );
+		box-shadow: $box-shadow-color 0px -2rem 0px inset;
+		color: $black;
+		text-decoration: none;
+	}
 }

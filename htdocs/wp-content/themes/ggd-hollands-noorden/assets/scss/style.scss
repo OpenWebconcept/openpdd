@@ -1,22 +1,22 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
-@import "settings/colors";
-@import "settings/bootstrap";
+@import 'settings/colors';
+@import 'settings/bootstrap';
 
 /*--------------------------------------------------------------
   Parent theme
 --------------------------------------------------------------*/
-@import "../../../owc-formulieren/assets/scss/style";
+@import '../../../owc-formulieren/assets/scss/style';
 
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
-@import "components/gravityforms";
-@import "components/navbar";
+@import 'components/gravityforms';
+@import 'components/navbar';
 
 /*--------------------------------------------------------------
   Generic
 --------------------------------------------------------------*/
-@import "generic/typography";
-@import "generic/heading";
+@import 'generic/typography';
+@import 'generic/heading';

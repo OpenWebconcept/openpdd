@@ -2,21 +2,21 @@
  * Project buttons
  */
 .btn {
-  @include button;
+	@include button;
 
-  &:focus {
-    outline: none;
-  }
+	&:focus {
+		outline: none;
+	}
 }
 
 .btn-primary {
-  @include button-color(theme-color("primary"));
+	@include button-color( theme-color( 'primary' ) );
 }
 
 .btn-secondary {
-  @include button-color(theme-color("secondary"));
+	@include button-color( theme-color( 'secondary' ) );
 }
 
 .btn-gray {
-  @include button-color($buren-color-grijs-10);
+	@include button-color( $buren-color-grijs-10 );
 }

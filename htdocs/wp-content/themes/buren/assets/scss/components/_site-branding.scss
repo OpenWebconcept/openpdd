@@ -1,17 +1,17 @@
-$block: "site-branding";
+$block: 'site-branding';
 
 .#{$block} {
-  &__title {
-    white-space: nowrap;
-  }
+	&__title {
+		white-space: nowrap;
+	}
 
-  .custom-logo {
-    height: 80px;
-    width: auto;
-    max-height: none;
+	.custom-logo {
+		width: auto;
+		height: 80px;
+		max-height: none;
 
-    @include media-breakpoint-up(md) {
-      padding-left: 15px;
-    }
-  }
+		@include media-breakpoint-up( md ) {
+			padding-left: 15px;
+		}
+	}
 }
