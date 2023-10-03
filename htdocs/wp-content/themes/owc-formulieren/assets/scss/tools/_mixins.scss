@@ -1,17 +1,39 @@
+// Bootstrap
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 /**
 * Standard button
 */
 @mixin button {
 	padding: $btn-padding-y $btn-padding-x;
 	border-width: $btn-border-width;
+	border-style: $btn-border-style;
+	border-color: currentColor;
 	border-radius: $btn-border-radius;
 	font-family: $btn-font-family;
+	font-size: $btn-font-size;
 	font-weight: $btn-font-weight;
 	line-height: $btn-line-height;
 	transition: $btn-transition;
 
 	@include hover-focus-active {
 		text-decoration: none;
+	}
+}
+
+@mixin button-color(
+	$background,
+	$hover-background: darken( $background, 7% )
+) {
+	border-color: $background;
+	background-color: $background;
+	color: color-yiq( $background );
+
+	@include hover-focus-active {
+		border-color: $hover-background !important;
+		background-color: $hover-background !important; // Overwrite Gutenberg inline style
+		color: color-yiq( $hover-background );
 	}
 }
 
@@ -101,5 +123,73 @@
 	iframe:focus,
 	details:focus {
 		@content;
+	}
+}
+
+// Enables blocks to adhere to the Gutenberg alignment options.
+@mixin add-gutenberg-alignment-layouts {
+	max-width: calc( 100% - #{$grid-gutter-width} );
+	margin-right: auto;
+	margin-left: auto;
+
+	@include media-breakpoint-up( sm ) {
+		max-width: map-get( $container-max-widths, 'sm' );
+	}
+
+	@include media-breakpoint-up( md ) {
+		max-width: map-get( $container-max-widths, 'md' );
+	}
+
+	@include media-breakpoint-up( xl ) {
+		max-width: var( --layout-content-size );
+	}
+
+	// Equals the Bootstrap containers
+	&.alignwide {
+		@include media-breakpoint-up( lg ) {
+			max-width: map-get( $container-max-widths, 'lg' );
+		}
+
+		@include media-breakpoint-up( xl ) {
+			max-width: map-get( $container-max-widths, 'xl' );
+		}
+	}
+
+	&.alignfull {
+		max-width: 100%;
+	}
+
+	&.alignleft {
+		@include create-float-alignment( left, right );
+	}
+
+	&.alignright {
+		@include create-float-alignment( right, left );
+	}
+}
+
+// Create the appropriate CSS for floating images.
+@mixin create-float-alignment( $direction, $opposite-direction ) {
+	@include media-breakpoint-up( sm ) {
+		float: #{$direction}; // Only float starting from sm breakpoint
+		margin-#{$opposite-direction}: 1rem;
+	}
+
+	@include media-breakpoint-up( sm ) {
+		margin-#{$direction}: calc(
+			( 100% - map-get( $container-max-widths, 'sm' ) ) * 0.5
+		) !important;
+	}
+
+	@include media-breakpoint-up( md ) {
+		margin-#{$direction}: calc(
+			( 100% - #{map-get( $container-max-widths, 'md' )} ) * 0.5
+		) !important;
+	}
+
+	@include media-breakpoint-up( xl ) {
+		margin-#{$direction}: calc(
+			( 100% - var( --layout-content-size ) ) * 0.5
+		) !important;
 	}
 }
