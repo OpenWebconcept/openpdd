@@ -1,0 +1,82 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"color": {
+			"customDuotone": false,
+			"customGradient": false,
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"duotone": [],
+			"gradients": [],
+			"palette": [
+				{
+					"slug": "primary",
+					"color": "var(--color-palette-primary)",
+					"name": "Primair"
+				},
+				{
+					"slug": "secondary",
+					"color": "var(--color-palette-secondary)",
+					"name": "Secundair"
+				},
+				{
+					"slug": "white",
+					"color": "var(--color-palette-white)",
+					"name": "Wit"
+				},
+				{
+					"slug": "black",
+					"color": "var(--color-palette-black)",
+					"name": "Zwart"
+				}
+			]
+		},
+		"typography": {
+			"customFontSize": false,
+			"dropCap": false,
+			"fontFamilies": [],
+			"fontSizes": [],
+			"fontStyle": false,
+			"fontWeight": false,
+			"letterSpacing": false,
+			"lineHeight": false,
+			"textDecoration": false,
+			"textTransform": false
+		},
+		"layout": {
+			"contentSize": "var(--layout-content-size)",
+			"wideSize": "var(--layout-wide-size)"
+		},
+		"blocks": {
+			"core/button": {
+				"border": {
+					"radius": false
+				}
+			}
+		}
+	},
+	"styles": {
+		"elements": {
+			"button": {
+				"typography": {
+					"fontSize": "",
+					"fontFamily": "",
+					"lineHeight": "",
+					"textDecoration": ""
+				},
+				"color": {
+					"text": "",
+					"background": ""
+				},
+				"border": {
+					"width": ""
+				},
+				"spacing": {
+					"padding": {}
+				}
+			}
+		}
+	}
+}
