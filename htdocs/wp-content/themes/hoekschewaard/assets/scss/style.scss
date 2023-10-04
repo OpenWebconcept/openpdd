@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 @import 'settings/colors';
 @import 'settings/bootstrap';
+@import 'settings/root';
+@import 'settings/typography';
 
 /*--------------------------------------------------------------
   Parent theme
@@ -12,11 +14,6 @@
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
+@import 'components/footer';
 @import 'components/gravityforms';
 @import 'components/navbar';
-
-/*--------------------------------------------------------------
-  Generic
---------------------------------------------------------------*/
-@import 'generic/typography';
-@import 'generic/heading';

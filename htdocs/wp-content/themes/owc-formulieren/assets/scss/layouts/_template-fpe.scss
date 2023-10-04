@@ -1,37 +1,7 @@
 $layout: 'page-template-template-fpe';
 
-// This template enables full page editing with all the functionality
 .#{$layout} .page-main {
 	> * {
-		max-width: calc( 100% - #{$grid-gutter-width} );
-		margin-right: auto;
-		margin-left: auto;
-
-		@include media-breakpoint-up( sm ) {
-			max-width: map-get( $container-max-widths, 'sm' );
-		}
-
-		@include media-breakpoint-up( md ) {
-			max-width: map-get( $container-max-widths, 'md' );
-		}
-
-		@include media-breakpoint-up( xl ) {
-			max-width: var( --layout-content-size );
-		}
-
-		// Equals the Bootstrap containers
-		&.alignwide {
-			@include media-breakpoint-up( lg ) {
-				max-width: calc( #{map-get( $container-max-widths, 'lg' )} );
-			}
-
-			@include media-breakpoint-up( xl ) {
-				max-width: calc( #{map-get( $container-max-widths, 'xl' )} );
-			}
-		}
-
-		&.alignfull {
-			max-width: 100%;
-		}
+		@include add-gutenberg-alignment-layouts;
 	}
 }
