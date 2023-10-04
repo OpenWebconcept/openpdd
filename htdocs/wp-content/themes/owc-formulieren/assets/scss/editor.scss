@@ -5,7 +5,12 @@
 @import 'settings/bootstrap';
 @import 'settings/variables';
 @import 'settings/root';
+
+/*--------------------------------------------------------------
+  Tools
+--------------------------------------------------------------*/
 @import 'tools/mixins';
+@import 'tools/helpers';
 
 /*--------------------------------------------------------------
   Components
