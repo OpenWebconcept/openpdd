@@ -1,13 +1,17 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
-@import '~ParentTheme/assets/scss/editor';
 @import 'settings/colors';
 @import 'settings/bootstrap';
 @import 'settings/root';
 
+/*--------------------------------------------------------------
+  Parent theme
+--------------------------------------------------------------*/
+@import '~ParentTheme/assets/scss/editor';
+
 .editor-styles-wrapper {
-	background-color: $body-bg;
+	background-color: $white;
 	font-family: $font-family-base;
 	font-size: $font-size-base;
 	font-weight: $font-weight-base;

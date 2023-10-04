@@ -1,0 +1,29 @@
+$layout: 'page-template-template-mijn-zaken';
+
+.#{$layout} {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+
+	.page-main {
+		flex: 1 0 auto;
+		background-color: $white;
+		overflow-x: hidden;
+
+		> * {
+			@include add-gutenberg-alignment-layouts;
+		}
+	}
+
+	.footer {
+		margin-top: auto;
+	}
+
+	// Remove container padding to properly align everything
+	.container {
+		@include media-breakpoint-up( sm ) {
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
+}

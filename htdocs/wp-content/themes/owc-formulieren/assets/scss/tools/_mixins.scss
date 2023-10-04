@@ -169,7 +169,8 @@
 	}
 }
 
-// Create the appropriate CSS for floating images.
+// Create the appropriate CSS for floating images. See
+// https://github.com/WordPress/gutenberg/issues/33385#issuecomment-893551418
 @mixin create-float-alignment( $direction, $opposite-direction ) {
 	@include media-breakpoint-up( sm ) {
 		float: #{$direction}; // Only float starting from sm breakpoint

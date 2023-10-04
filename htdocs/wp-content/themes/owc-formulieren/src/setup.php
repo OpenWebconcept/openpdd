@@ -45,6 +45,7 @@ add_action('after_setup_theme', function () {
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus([
         'primary' => __('Primary Menu', 'yard-startertheme'),
+        'primary-mijn-zaken' => __('Mijn Zaken menu', 'yard-startertheme'),
     ]);
 });
 
