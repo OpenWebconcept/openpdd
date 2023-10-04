@@ -7,7 +7,7 @@ const app = () => {
 	A11yToolbar();
 	Dropdown();
 	Navigation();
-    fetchOpenPubData( '7101', '.openpdd-news' );
+	fetchOpenPubData( '7101', '.openpdd-news' );
 };
 
 document.addEventListener( 'DOMContentLoaded', app );
