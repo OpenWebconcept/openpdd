@@ -37,8 +37,42 @@ add_action('after_setup_theme', function () {
 
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus([
-        'primary' => __('Primary Menu', 'openpdd-hoeksche-waard'),
+        'primary'            => __('Primary Menu', 'openpdd-hoeksche-waard'),
+        'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-hoeksche-waard'),
+        'footer-bottom'      => __('Footer bottom', 'openpdd-hoeksche-waard'),
     ]);
+
+    $sidebars = [
+        [
+            'name'        => __('Footer column 1', 'openpdd-hoeksche-waard'),
+            'id'          => 'footer-1',
+            'description' => '',
+            'class'       => '',
+        ],
+        [
+            'name'        => __('Footer column 2', 'openpdd-hoeksche-waard'),
+            'id'          => 'footer-2',
+            'description' => '',
+            'class'       => '',
+        ],
+        [
+            'name'        => __('Footer column 3', 'openpdd-hoeksche-waard'),
+            'id'          => 'footer-3',
+            'description' => '',
+            'class'       => '',
+        ],
+    ];
+
+    foreach ($sidebars as $sidebar) {
+        register_sidebar([
+            'name'          => $sidebar['name'],
+            'id'            => $sidebar['id'],
+            'description'   => $sidebar['description'],
+            'class'         => $sidebar['class'],
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+        ]);
+    }
 });
 
 add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
