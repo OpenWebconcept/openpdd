@@ -40,7 +40,7 @@
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-digid.git"
 		},
-    {
+		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git"
 		},
@@ -56,7 +56,7 @@
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/gravityforms.git"
 		},
-    {
+		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/gravityforms-webhooks.git"
 		},
@@ -84,15 +84,15 @@
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/gravityperks-limit-submissions.git"
 		},
-    {
+		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git"
 		},
-    {
+		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git"
 		},
-    {
+		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-nested-forms.git"
 		},
@@ -137,10 +137,10 @@
 		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravity-pdf": "6.5.*",
 		"plugin/gravityforms": "^2.7.12",
-    "plugin/gravityforms-amp-booking": "^0.0.2",
-    "plugin/gravityforms-csp-fixer": "^0.0.2",
+		"plugin/gravityforms-amp-booking": "^0.0.2",
+		"plugin/gravityforms-csp-fixer": "^0.0.2",
 		"plugin/gravityforms-power-automate": "dev-main",
-		"plugin/gravityforms-nested-forms": "dev-main",
+		"plugin/plugin-gravityforms-nested-forms": "dev-main",
 		"plugin/gravityforms-webhooks": "^1.5",
 		"plugin/gravityformssurvey": "^3.0",
 		"plugin/gravityformszapier": "^4.0",
@@ -150,7 +150,7 @@
 		"plugin/gravityperks-limit-submissions": "^1.0",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "^1.1.5",
-    "plugin/owc-gravityforms-eherkenning": "dev-master",
+		"plugin/owc-gravityforms-eherkenning": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
 		"plugin/prefill-gravity-forms": "^1.0.14",
@@ -164,7 +164,7 @@
 		"wpackagist-plugin/duplicate-post": "^4.0",
 		"wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
 		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
-    "wpackagist-plugin/pronamic-ideal": "^9.4",
+		"wpackagist-plugin/pronamic-ideal": "^9.4",
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8.1",
 		"wpackagist-plugin/wp-seopress": "^6.0"
