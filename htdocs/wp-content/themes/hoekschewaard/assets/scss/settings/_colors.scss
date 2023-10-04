@@ -1,9 +1,19 @@
 /*--------------------------------------------------------------
-  Custom colors
+  Colors
 --------------------------------------------------------------*/
+$green-400: #328725;
+$secondary-100: #e9efff;
+$secondary-200: #4d6eb9;
+$secondary-300: #001d5f;
+$secondary-400: #000e2f;
+$yellow-400: #f8d62d;
+
+$black: #000000;
+$white: #ffffff;
+
+$link-color: $secondary-200;
 
 $theme-colors: (
-	primary: #2f881b,
-	secondary: #001e60,
-	tertiary: #2f881b,
+	primary: $green-400,
+	secondary: $secondary-400,
 );
