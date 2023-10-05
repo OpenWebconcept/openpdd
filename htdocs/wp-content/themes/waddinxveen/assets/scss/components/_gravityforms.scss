@@ -2,9 +2,6 @@
 .gform_page_footer {
 	input[type='submit'],
 	input[type='button'] {
-		padding: $btn-padding-y $btn-padding-x;
-		border-radius: $btn-border-radius;
-
 		&.gform_button,
 		&.gform_next_button {
 			@include button-variant( $yellow, $black );
