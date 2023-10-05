@@ -98,13 +98,6 @@ add_filter('template', function ($stylesheet) {
     return dirname($stylesheet);
 });
 
-add_action('after_switch_theme', function () {
-    $stylesheet = get_option('template');
-    if ('templates' !== basename($stylesheet)) {
-        update_option('template', $stylesheet . '/templates');
-    }
-});
-
 add_action('init', function () {
     $labels = [
         'name'              => _x('Owner', 'taxonomy general name', 'openpdd-hoeksche-waard'),
@@ -159,13 +152,6 @@ add_action('init', function () {
 
 add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
 add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
-
-add_action('after_switch_theme', function () {
-    $stylesheet = get_option('template');
-    if ('templates' !== basename($stylesheet)) {
-        update_option('template', $stylesheet . '/templates');
-    }
-});
 
 /**
  * Remove Gravity Forms styling
