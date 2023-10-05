@@ -21,13 +21,6 @@ add_filter('template', function ($stylesheet) {
     return dirname($stylesheet);
 });
 
-add_action('after_switch_theme', function () {
-    $stylesheet = get_option('template');
-    if ('templates' !== basename($stylesheet)) {
-        update_option('template', $stylesheet . '/templates');
-    }
-});
-
 /**
  * Remove Gravity Forms styling
  */
