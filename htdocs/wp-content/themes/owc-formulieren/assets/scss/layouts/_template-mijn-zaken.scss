@@ -30,17 +30,29 @@ $layout: 'page-template-template-mijn-zaken';
 
 .page-main--mijn-zaken {
 	display: grid;
-	grid-template-areas: 'aside' 'content';
+	gap: var( --openpdd-mijn-zaken-gap, 2rem );
+	grid-template-areas: var(
+		--openpdd-mijn-zaken-template,
+		'aside' 'content'
+	);
 
 	@include media-breakpoint-up( lg ) {
-		grid-template-areas: 'aside content content';
+		--openpdd-mijn-zaken-template: 'aside content content';
+		--openpdd-mijn-zaken-gap: 2.5rem;
 	}
 
-	.page-main__aside & {
+	.page-main__aside {
+		height: fit-content;
 		grid-area: aside;
+
+		@include media-breakpoint-up( lg ) {
+			position: sticky;
+			top: var( --openpdd-mijn-zaken-gap );
+			bottom: var( --openpdd-mijn-zaken-gap );
+		}
 	}
 
-	.page-main__content & {
+	.page-main__content {
 		grid-area: content;
 	}
 }
