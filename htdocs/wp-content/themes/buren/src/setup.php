@@ -38,6 +38,8 @@ add_action('after_setup_theme', function () {
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus([
         'primary' => __('Primary Menu', 'openpdd-buren'),
+        'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-buren'),
+        'footer-bottom'      => __('Footer bottom', 'openpdd-buren'),
     ]);
 });
 

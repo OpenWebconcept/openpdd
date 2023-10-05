@@ -32,6 +32,12 @@ $g-color: gray( 'graphic' );
 $g-color-checked: theme-color( 'primary' );
 
 /* --------------------------------------------------------------
+  Mijn Zaken: footer
+-------------------------------------------------------------- */
+$mijn-zaken-footer-color: $white !default;
+$mijn-zaken-footer-bg-color: theme-color( 'secondary' ) !default;
+
+/* --------------------------------------------------------------
   Tile block
 -------------------------------------------------------------- */
 $tile-block-background: transparent !default;

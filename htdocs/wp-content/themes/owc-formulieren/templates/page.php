@@ -1,5 +1,6 @@
 <?php declare(strict_types=1);
 get_header();
+
 ?>
 <main class="page-main">
     <div class="page-container | container bg-white p-3 p-md-4 p-lg-5 my-5 shadow">

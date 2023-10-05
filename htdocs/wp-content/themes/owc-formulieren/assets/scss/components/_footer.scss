@@ -1,0 +1,27 @@
+$footer: 'footer';
+
+.#{$footer} {
+	background-color: $mijn-zaken-footer-bg-color;
+	color: $mijn-zaken-footer-color;
+
+	&-bottom-menu {
+		display: flex;
+		height: 100%;
+		flex-wrap: wrap;
+		margin: 0;
+		gap: 1rem;
+
+		@include media-breakpoint-up( lg ) {
+			flex-direction: row;
+		}
+
+		.menu-item {
+			flex-basis: calc( 50% - 1rem );
+			margin: 0;
+
+			@include media-breakpoint-up( sm ) {
+				flex-basis: auto;
+			}
+		}
+	}
+}
