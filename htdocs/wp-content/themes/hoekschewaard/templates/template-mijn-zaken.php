@@ -3,7 +3,6 @@
  * Template name: Mijn Zaken
  */
 get_template_part('mijn-zaken/header');
-
 ?>
     <main class="page-main page-main--mijn-zaken container" id="readspeaker">
         <aside class="page-main__aside">
