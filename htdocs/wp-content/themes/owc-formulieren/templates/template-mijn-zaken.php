@@ -11,7 +11,8 @@ get_template_part('mijn-zaken/header');
         </aside>
         <article class="page-main__content">
             <?php the_content(); ?>
+            <?php get_template_part('partials/anchor-collapses'); ?>
         </article>
     </main>
 <?php
-get_template_part('templates/mijn-zaken/footer');
+get_template_part('mijn-zaken/footer');
