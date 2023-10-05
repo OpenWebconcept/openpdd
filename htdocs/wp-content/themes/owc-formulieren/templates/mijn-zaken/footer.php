@@ -2,7 +2,7 @@
 
 declare(strict_types=1); ?>
 
-<footer class="footer | bg-secondary text-white">
+<footer class="footer">
     <div class="container pt-5 pb-4">
         <div class="row">
             <div class="col-sm-4">
