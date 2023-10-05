@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "167c6b4faba6f04f2e2a034fd000bb7f",
+    "content-hash": "5355515c2ba5094e6af10d65498c0fa6",
     "packages": [
         {
             "name": "aura/session",
@@ -394,16 +394,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.1",
+            "version": "v6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f03270e63eaccf3019ef0f32849c497385774e11",
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11",
                 "shasum": ""
             },
             "require": {
@@ -451,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.9.0"
             },
-            "time": "2023-07-14T18:33:00+00:00"
+            "time": "2023-10-05T00:24:42+00:00"
         },
         {
             "name": "gogentooss/samlbase",
@@ -2532,16 +2532,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "dev-master",
+            "version": "dev-feat/remove-enable-u-add-individual-service-urls-frontend",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "fab005d994b5ed7987263b57c7ab6c3d74425e54"
+                "reference": "d6a6d8ba557902347841cf7738dbe48263376868"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/fab005d994b5ed7987263b57c7ab6c3d74425e54",
-                "reference": "fab005d994b5ed7987263b57c7ab6c3d74425e54",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/d6a6d8ba557902347841cf7738dbe48263376868",
+                "reference": "d6a6d8ba557902347841cf7738dbe48263376868",
                 "shasum": ""
             },
             "require": {
@@ -2550,14 +2550,13 @@
                 "php-di/php-di": "^6.0"
             },
             "require-dev": {
-                "10up/wp_mock": "dev-master",
-                "friendsofphp/php-cs-fixer": "^2.18",
+                "10up/wp_mock": "^0.5.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
                 "mockery/mockery": "^1.0",
                 "phpstan/phpstan": "^0.12",
                 "phpunit/phpunit": "^9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2589,10 +2588,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls-frontend",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-09-20T14:40:52+00:00"
+            "time": "2023-10-05T12:06:08+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
