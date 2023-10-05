@@ -10,8 +10,11 @@ export default class NLDS_DenHaag_AnchorCollapse {
             focus: 'denhaag-anchor-collapse--focus',
         }
 
+        this.scrollDelay = 500;
+
         this.collapses = [];
         this.toggles = [];
+        this.anchorLinks = [];
     }
 
     /**
@@ -19,14 +22,33 @@ export default class NLDS_DenHaag_AnchorCollapse {
      */
     init() {
         this.initialized = this.collapses.length > 0;
+        this.anchorLinks = Array.from( document.querySelectorAll( '.denhaag-sidenav__link[href*="#"]' ) );
         this.collapses = Array.from( document.getElementsByClassName( 'denhaag-anchor-collapse' ) );
         this.toggles = Array.from( document.getElementsByClassName( 'denhaag-anchor-collapse__toggle' ) );
+    }
+
+
+    /**
+     * Update active-state on window scroll after a delay.
+     */
+    scrollEvents() {
+        let scrollTimeout;
+        clearTimeout( scrollTimeout );
+        scrollTimeout = setTimeout( () => this.updateOnScroll(), this.scrollDelay );
+    }
+
+    /**
+     * Update anchor navigation active state on the viewport position.
+     */
+    updateOnScroll() {
+        // @todo: check which section is closest to the top of the viewport.
+        // @todo: loop through the anchor links and add active class to the closest section.
     }
 
     /**
      * Fire on-resize event.
      */
-    resize() {
+    resizeEvents() {
         if (!this.initialized) {
             return;
         }

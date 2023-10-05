@@ -13,5 +13,7 @@ document.addEventListener( 'DOMContentLoaded', () => {
 	nlds_dh_ac.toggleEvents();
 } );
 
-window.addEventListener( 'resize', () => nlds_dh_ac.resize() );
-window.addEventListener( 'orientationchange', () => nlds_dh_ac.resize() );
+window.addEventListener( 'resize', () => nlds_dh_ac.resizeEvents() );
+window.addEventListener( 'orientationchange', () => nlds_dh_ac.resizeEvents() );
+
+window.addEventListener( 'scroll', () => nlds_dh_ac.scrollEvents() );
