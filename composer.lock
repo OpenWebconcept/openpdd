@@ -2574,7 +2574,7 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "dev-master",
+            "version": "dev-feat/remove-enable-u-add-individual-service-urls-frontend",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
@@ -2599,7 +2599,6 @@
                 "phpunit/phpunit": "^9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
