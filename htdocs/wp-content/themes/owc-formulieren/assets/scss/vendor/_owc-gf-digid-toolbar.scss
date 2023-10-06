@@ -11,6 +11,7 @@ $block: 'owc-gf-digid-toolbar';
 		display: inline-block;
 		padding: 0.4rem 1rem !important;
 		margin: 1rem 0;
+		border-radius: $btn-border-radius;
 
 		&:hover {
 			text-decoration: none;

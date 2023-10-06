@@ -344,8 +344,8 @@
 	}
 
 	.bag-search-button {
-		@extend .btn;
-		@extend .btn-secondary;
+		@include button;
+		@include button-color( theme-color( 'primary' ) );
 		position: relative;
 		padding-left: $spacer * 3;
 	}
@@ -371,9 +371,9 @@
 	input[type='submit'],
 	input[type='button'] {
 		padding: $btn-padding-y $btn-padding-x;
-		border-radius: $btn-border-radius;
 		border: none !important;
 		margin-left: 1rem;
+		border-radius: $btn-border-radius;
 
 		&.gform_button,
 		&.gform_next_button {
