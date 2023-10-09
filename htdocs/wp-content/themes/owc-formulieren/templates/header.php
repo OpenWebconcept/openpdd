@@ -12,9 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <?php if (get_current_blog_id() === env('GGD_SITE_ID', 5)): ?>
-        <script src="https://cdn1.readspeaker.com/script/13499/webReader/webReader.js?pids=wr" integrity="sha384-P4pKFwnZFv+ryFiXdXC18T/nbayji5oJIlV7iIUh5xnHIDvBDMC64ZWCrGuCF2ny" crossorigin="anonymous"></script>
+        <script src="https://cdn1.readspeaker.com/script/13499/webReader/webReader.js?pids=wr" integrity="sha384-76zFw0GBmiEWCfR6N1FbWYgwoCosY1aGDGeolfEnkhZvVhJ5x7x0562YwAz7ffy+" crossorigin="anonymous"></script>
     <?php else: ?>
-        <script src="https://cdn1.readspeaker.com/script/8150/webReader/webReader.js?pids=wr" integrity="sha384-EdpaT4shVN18IWo/z7MCKk1CTQ0zYrD5ykKf4wPwtGM97A7fJOXh7NRbeVJVm21p" crossorigin="anonymous"></script>
+        <script src="https://cdn1.readspeaker.com/script/8150/webReader/webReader.js?pids=wr" integrity="sha384-fSI6639Q1xrU43pEpwyTWDOFknjF3MiUirZTpJybCkMG+lhC1As1I1gyleMJA5j3" crossorigin="anonymous"></script>
     <?php endif; ?>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/brands.min.css" rel="stylesheet">
