@@ -159,15 +159,10 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
     wp_enqueue_script('jquery');
     wp_script_add_data('jquery', ['integrity', 'crossorigin'], ['sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous']);
-
-    wp_enqueue_style('style', get_template_directory_uri() . '/assets/dist/frontend.css', [], filemtime(__DIR__));
-    wp_enqueue_script('script', get_template_directory_uri() . '/assets/dist/frontend.js', ['jquery'], filemtime(__DIR__), true);
 });
 
-add_action('enqueue_block_editor_assets', function () {
-    wp_enqueue_script('theme-blocks-js', get_stylesheet_directory_uri() . '/assets/dist/editor.js', [], filemtime(__DIR__));
-    wp_enqueue_style('theme-blocks-css', get_stylesheet_directory_uri() . '/assets/dist/editor.css', [], filemtime(__DIR__));
-});
+add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
+add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
 
 /**
  * The following code is used to update certain libraries to their latest version.
@@ -191,22 +186,22 @@ add_action('wp_enqueue_scripts', function () {
  */
 function theme_script_loader_tag($tag, $handle)
 {
-  $scripts_to_load = [
-    [
-      ('name')      => 'jquery',
-      ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
-    ],
-    [
-      ('name')      => 'jquery-ui-core',
-      ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
-    ]
-  ];
+    $scripts_to_load = [
+      [
+        ('name')      => 'jquery',
+        ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
+      ],
+      [
+        ('name')      => 'jquery-ui-core',
+        ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
+      ]
+    ];
 
-  $key = array_search($handle, array_column($scripts_to_load, 'name'));
-  if (false !== $key) {
-    $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
-  }
+    $key = array_search($handle, array_column($scripts_to_load, 'name'));
+    if (false !== $key) {
+        $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
+    }
 
-  return $tag;
+    return $tag;
 }
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
