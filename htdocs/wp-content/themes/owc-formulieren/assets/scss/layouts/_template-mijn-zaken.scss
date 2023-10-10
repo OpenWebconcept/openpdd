@@ -1,35 +1,17 @@
-$layout: 'page-template-template-mijn-zaken';
-
-.#{$layout} {
+.page-template-template-mijn-zaken {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	background-color: $white;
-
-	.page-main {
-		flex: 1 0 auto;
-		overflow-x: hidden;
-
-		> * {
-			@include add-gutenberg-alignment-layouts;
-		}
-	}
+	background-color: var( --color-palette-white );
 
 	.footer {
 		margin-top: auto;
-	}
-
-	// Remove container padding to properly align everything
-	.container {
-		@include media-breakpoint-up( sm ) {
-			padding-right: 0;
-			padding-left: 0;
-		}
 	}
 }
 
 .page-main--mijn-zaken {
 	display: grid;
+	flex: 1 0 auto;
 	gap: var( --openpdd-mijn-zaken-gap, 2rem );
 	grid-template-areas: var(
 		--openpdd-mijn-zaken-template,

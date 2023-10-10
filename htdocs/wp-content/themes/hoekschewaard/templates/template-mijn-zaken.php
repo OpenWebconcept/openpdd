@@ -4,9 +4,14 @@
  */
 get_template_part('mijn-zaken/header');
 ?>
-
-<main class="page-main" id="readspeaker">
-    <?php the_content(); ?>
-</main>
-
-<?php get_template_part('mijn-zaken/footer');
+    <main class="page-main page-main--mijn-zaken container" id="readspeaker">
+        <aside class="page-main__aside">
+            <?php get_template_part('partials/sidebar', 'mijn-zaken'); ?>
+        </aside>
+        <article class="page-main__content">
+            <?php the_content(); ?>
+            <?php get_template_part('partials/anchor-collapses'); ?>
+        </article>
+    </main>
+<?php
+get_template_part('mijn-zaken/footer');
