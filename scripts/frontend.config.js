@@ -1,13 +1,19 @@
+/**
+ * External dependencies
+ */
 const path = require( 'path' );
 const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
 const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 const CopyPlugin = require( 'copy-webpack-plugin' );
-const { getCurrentTheme } = require( './helpers' );
+
+/**
+ * Internal dependencies
+ */
+const { getPathToTheme } = require( './helpers' );
 
 const isProduction = process.env.NODE_ENV === 'production';
 
-module.exports = ( env ) => {
-	const theme = env.theme ? env.theme : getCurrentTheme(); // fallback when no env.theme is set
+module.exports = ( { theme } ) => {
 	return {
 		...defaultConfig,
 		mode: isProduction ? 'production' : 'development',
@@ -15,13 +21,13 @@ module.exports = ( env ) => {
 			frontend: [
 				path.resolve(
 					process.cwd(),
-					'owc-formulieren',
+					getPathToTheme( 'owc-formulieren' ),
 					'assets/js/frontend',
 					'app.js'
 				),
 				path.resolve(
 					process.cwd(),
-					theme,
+					getPathToTheme( theme ),
 					'assets/scss',
 					'style.scss'
 				),
@@ -29,7 +35,7 @@ module.exports = ( env ) => {
 		},
 		devtool: isProduction ? false : 'inline-source-map',
 		output: {
-			path: path.resolve( theme, 'assets/dist' ),
+			path: path.resolve( getPathToTheme( theme ), 'assets/dist' ),
 		},
 		resolve: {
 			...defaultConfig.resolve,

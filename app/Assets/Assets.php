@@ -19,7 +19,7 @@ class Assets
         );
 
         wp_enqueue_script('theme');
-        
+
         wp_enqueue_style('theme', $assetDetails['baseUrl'] . 'frontend.css', [], $assetDetails['scriptAsset']['version']);
     }
 
@@ -37,7 +37,7 @@ class Assets
             $assetDetails['scriptAsset']['version'],
             true
         );
-        
+
         wp_enqueue_script('theme-block-editor');
         wp_enqueue_style('theme-block-editor', $assetDetails['baseUrl'] . 'editor.css', [], $assetDetails['scriptAsset']['version']);
     }
