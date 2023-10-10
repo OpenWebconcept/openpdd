@@ -1,0 +1,49 @@
+{
+	"extends": [
+		"stylelint-config-recommended",
+		"stylelint-config-idiomatic-order"
+	],
+	"plugins": [ "stylelint-scss" ],
+	"overrides": [
+		{
+			"files": [ "htdocs/wp-content/themes/**/assets/scss/**/*.scss" ],
+			"customSyntax": "postcss-scss"
+		}
+	],
+	"rules": {
+		"at-rule-no-unknown": null,
+		"function-no-unknown": null,
+		"scss/function-no-unknown": null,
+		"no-descending-specificity": null,
+		"no-invalid-position-at-import-rule": null,
+		"selector-pseudo-element-colon-notation": "double",
+		"font-family-no-missing-generic-family-keyword": [
+			true,
+			{
+				"ignoreFontFamilies": [ "/Font Awesome/" ]
+			}
+		],
+		"rule-empty-line-before": [
+			"always-multi-line",
+			{
+				"ignore": [ "after-comment" ],
+				"except": [ "first-nested" ]
+			}
+		],
+		"comment-empty-line-before": "always",
+		"scss/double-slash-comment-whitespace-inside": "always",
+		"scss/double-slash-comment-empty-line-before": [
+			"always",
+			{
+				"ignore": [ "between-comments", "stylelint-commands" ],
+				"except": [ "first-nested" ]
+			}
+		],
+		"annotation-no-unknown": [
+			true,
+			{
+				"ignoreAnnotations": [ "default" ]
+			}
+		]
+	}
+}

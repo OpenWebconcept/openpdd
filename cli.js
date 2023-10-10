@@ -6,13 +6,11 @@ const inquirer = require( 'inquirer' );
 const { readdirSync, statSync } = require( 'fs' );
 
 const dirs = ( dirPath ) =>
-	readdirSync( dirPath )
-		.filter( ( folder ) =>
-			statSync( path.join( dirPath, folder ) ).isDirectory()
-		)
-		.filter(
-			( folder ) => folder !== 'node_modules' && folder !== 'config'
-		);
+	readdirSync( dirPath ).filter( ( folder ) =>
+		statSync( path.join( dirPath, folder ) ).isDirectory()
+	);
+
+const themesDirPath = path.join( __dirname, 'htdocs/wp-content/themes' );
 
 program
 	.version( '0.0.0', 'v, version' )
@@ -29,7 +27,7 @@ function runTask( task = 'dev', theme ) {
 }
 
 function runAll() {
-	const themes = dirs( __dirname );
+	const themes = dirs( themesDirPath );
 	const questions = [
 		{
 			type: 'list',
@@ -44,7 +42,6 @@ function runAll() {
 				'prod:editor',
 				'prod:frontend',
 				'prod-all',
-				'critical-css',
 			],
 		},
 		{
@@ -60,7 +57,7 @@ function runAll() {
 }
 
 function startDev() {
-	const themes = dirs( __dirname );
+	const themes = dirs( themesDirPath );
 	const questions = [
 		{
 			type: 'list',
@@ -75,7 +72,7 @@ function startDev() {
 }
 
 function startProd() {
-	const themes = dirs( __dirname );
+	const themes = dirs( themesDirPath );
 	const questions = [
 		{
 			type: 'list',
