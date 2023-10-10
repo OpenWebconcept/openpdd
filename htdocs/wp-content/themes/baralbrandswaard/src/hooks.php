@@ -96,15 +96,8 @@ add_filter('template', function ($stylesheet) {
     return dirname($stylesheet);
 });
 
-add_action('wp_enqueue_scripts', function () {
-    wp_enqueue_style('child-theme-style', get_stylesheet_directory_uri() . '/assets/dist/frontend.css', [], filemtime(__DIR__));
-    wp_enqueue_script('child-theme-script', get_template_directory_uri() . '/assets/dist/frontend.js', ['jquery'], filemtime(__DIR__), true);
-});
-
-add_action('enqueue_block_editor_assets', function () {
-    wp_enqueue_script('theme-blocks-js', get_stylesheet_directory_uri() . '/assets/dist/editor.js', [], filemtime(__DIR__));
-    wp_enqueue_style('theme-blocks-css', get_stylesheet_directory_uri() . '/assets/dist/editor.css', [], filemtime(__DIR__));
-});
+add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
+add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
 
 /**
  * Remove Gravity Forms styling
