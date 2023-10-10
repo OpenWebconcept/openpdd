@@ -20,7 +20,7 @@
 		"packages-update": "wp-scripts packages-update"
 	},
 	"author": "Yard | Digital Agency",
-	"license": "ISC",
+	"license": "EUPL-1.2",
 	"lint-staged": {
 		"**/assets/js/src/**/*.{js,ts}": [
 			"npm run format:js --fix",
