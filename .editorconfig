@@ -1,8 +1,9 @@
 # This file is for unifying the coding style for different editors and IDEs
-# editorconfig.org
-
+# For more information, visit http://editorconfig.org/
 # WordPress Coding Standards
 # https://make.wordpress.org/core/handbook/coding-standards/
+# Github mirror : https://github.com/WordPress/wordpress-develop/blob/trunk/.editorconfig
+# SVN original  : https://core.trac.wordpress.org/browser/trunk/.editorconfig
 
 root = true
 
@@ -22,18 +23,3 @@ trim_trailing_whitespace = false
 
 [{*.txt,wp-config-sample.php}]
 end_of_line = crlf
-
-# ====================================================================
-# The rules above ↑this↑ line are the exact contents of WordPress' config file.'
-# Github mirror : https://github.com/WordPress/wordpress-develop/blob/trunk/.editorconfig
-# SVN original  : https://core.trac.wordpress.org/browser/trunk/.editorconfig
-
-# ======= Custom Yard rules =======
-[*.{js},*.{jsx}, *.{ts}, *.{tsx}]
-indent_style = tabs
-
-[*.scss]
-indent_style = tabs
-
-[{.eslintrc,*.json,*.yml}]
-indent_style = spaces
