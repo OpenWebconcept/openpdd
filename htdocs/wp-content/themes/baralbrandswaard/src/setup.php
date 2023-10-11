@@ -40,6 +40,8 @@ add_action('after_setup_theme', function () {
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus([
         'primary' => __('Primary Menu', 'baralbrandswaard'),
+        'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-hoeksche-waard'),
+        'footer-bottom'      => __('Footer bottom', 'openpdd-hoeksche-waard'),
     ]);
 });
 
@@ -50,17 +52,18 @@ add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
  */
 add_filter('yard/config-expander/config/admin', function ($defaults) {
     $defaults['DISABLE_REST_API'] = false;
+
     return $defaults;
 });
 
 add_filter('owc/config-expander/rest-api/whitelist', function ($endpoints_whitelist) {
     $endpoints_whitelist['/irma/v1/gf/handle'] = [
         'endpoint_stub' => '/irma/v1/gf/handle',
-        'methods'       => ['POST']
+        'methods'       => ['POST'],
     ];
     $endpoints_whitelist['/irma/v1/gf/session'] = [
         'endpoint_stub' => '/irma/v1/gf/session',
-        'methods'       => ['GET']
+        'methods'       => ['GET'],
     ];
 
     return $endpoints_whitelist;
