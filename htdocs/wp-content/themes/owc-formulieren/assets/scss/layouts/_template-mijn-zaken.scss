@@ -1,29 +1,42 @@
-$layout: 'page-template-template-mijn-zaken';
-
-.#{$layout} {
+.page-template-template-mijn-zaken {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-
-	.page-main {
-		flex: 1 0 auto;
-		background-color: $white;
-		overflow-x: hidden;
-
-		> * {
-			@include add-gutenberg-alignment-layouts;
-		}
-	}
+	background-color: var( --color-palette-white );
 
 	.footer {
 		margin-top: auto;
 	}
+}
 
-	// Remove container padding to properly align everything
-	.container {
-		@include media-breakpoint-up( sm ) {
-			padding-right: 0;
-			padding-left: 0;
+.page-main--mijn-zaken {
+	display: grid;
+	flex: 1 0 auto;
+	gap: var( --openpdd-mijn-zaken-gap, 2rem );
+	grid-template-areas: var(
+		--openpdd-mijn-zaken-template,
+		'aside' 'content'
+	);
+	padding-block-end: 3rem;
+	padding-block-start: 3rem;
+
+	@include media-breakpoint-up( md ) {
+		--openpdd-mijn-zaken-template: 'aside content content';
+		--openpdd-mijn-zaken-gap: 2.5rem;
+	}
+
+	.page-main__aside {
+		height: fit-content;
+		grid-area: aside;
+
+		@include media-breakpoint-up( md ) {
+			position: sticky;
+			top: var( --openpdd-mijn-zaken-gap );
+			bottom: var( --openpdd-mijn-zaken-gap );
 		}
+	}
+
+	.page-main__content {
+		grid-area: content;
 	}
 }
