@@ -5,8 +5,8 @@ $banner-height-sm: 455px;
 // !important to overwrite Bootstrap utility classes
 .#{$layout} {
 	&-container {
-		margin-top: 5rem !important;
 		border-radius: $border-radius-lg;
+		margin-top: 5rem !important;
 		box-shadow: none !important;
 
 		&::before {

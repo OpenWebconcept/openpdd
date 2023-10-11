@@ -1,11 +1,20 @@
 @import './colors';
+
 /*--------------------------------------------------------------
   Fonts
 --------------------------------------------------------------*/
 $font-size-base: 1rem;
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-	Source Sans Pro, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-	'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family-sans-serif:
+	-apple-system,
+	BlinkMacSystemFont,
+	'Segoe UI',
+	Source Sans Pro,
+	'Helvetica Neue',
+	Arial,
+	sans-serif,
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol';
 $font-family-base: 'Open Sans', $font-family-sans-serif;
 $font-weight-base: 400;
 $font-weight-semibold: 600;
@@ -74,9 +83,11 @@ $table-striped: false;
   Components
 --------------------------------------------------------------*/
 $box-shadow-sm: rgba( 0, 0, 0, 0.05 ) 0px 1px 2px 0px;
-$box-shadow: rgba( 0, 0, 0, 0.1 ) 0px 1px 3px 0px,
+$box-shadow:
+	rgba( 0, 0, 0, 0.1 ) 0px 1px 3px 0px,
 	rgba( 0, 0, 0, 0.06 ) 0px 1px 2px 0px;
-$box-shadow-lg: rgba( 0, 0, 0, 0.1 ) 0px 4px 6px -1px,
+$box-shadow-lg:
+	rgba( 0, 0, 0, 0.1 ) 0px 4px 6px -1px,
 	rgba( 0, 0, 0, 0.06 ) 0px 2px 4px -1px;
 
 /*--------------------------------------------------------------

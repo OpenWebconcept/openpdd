@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+  Settings
+--------------------------------------------------------------*/
+@import '~ParentTheme/assets/scss/editor';
+@import 'settings/colors';
+@import 'settings/bootstrap';
+
+.editor-styles-wrapper {
+	background-color: $body-bg;
+	font-family: $font-family-base;
+	font-size: $font-size-base;
+	font-weight: $font-weight-base;
+	line-height: $line-height-base;
+}

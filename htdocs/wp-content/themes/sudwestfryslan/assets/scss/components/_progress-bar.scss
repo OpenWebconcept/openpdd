@@ -21,8 +21,8 @@ $bar-background-color: rgba( 175, 204, 255, 0.12 );
 		position: relative;
 		width: 100%;
 		padding: $bar-padding;
-		background-color: $bar-padding-color;
 		border-radius: $bar-border-radius;
+		background-color: $bar-padding-color;
 		box-shadow: inset 0px 0px 1px 1px rgba( 0, 0, 0, 0.05 );
 
 		&::after {
@@ -32,9 +32,9 @@ $bar-background-color: rgba( 175, 204, 255, 0.12 );
 			bottom: 0;
 			left: 0;
 			height: $inner-bar-height;
+			border-radius: $bar-border-radius;
 			margin: $bar-padding;
 			background-color: $bar-background-color;
-			border-radius: $bar-border-radius;
 			content: '';
 		}
 	}
