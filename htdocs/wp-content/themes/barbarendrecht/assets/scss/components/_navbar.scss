@@ -1,10 +1,10 @@
 .navbar {
 	.menu-item {
 		position: relative;
+		display: flex;
 		height: 100%;
 		height: $navbar-height;
 		align-items: center;
-		display: flex;
 		justify-content: center;
 
 		&::before {

@@ -1,8 +1,8 @@
 $block: 'digid';
 
 .#{$block}-btn {
-	border-bottom: 0 !important;
 	border-radius: 14px;
+	border-bottom: 0 !important;
 
 	@include hover-focus-active {
 		background-color: gray( 'concrete' );

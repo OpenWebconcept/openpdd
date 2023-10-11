@@ -1,9 +1,10 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
-@import '../../../owc-formulieren/assets/scss/editor';
+@import '~ParentTheme/assets/scss/editor';
 @import 'settings/colors';
 @import 'settings/bootstrap';
+@import 'settings/root';
 
 .editor-styles-wrapper {
 	background-color: $body-bg;

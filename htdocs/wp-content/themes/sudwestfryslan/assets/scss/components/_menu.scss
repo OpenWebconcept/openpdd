@@ -35,8 +35,8 @@ $block: 'menu';
 	.wp-block-navigation__responsive-container-open {
 		padding: 0.4rem 0.6rem;
 		border: 1px solid $buren-color-grijs-40;
-		margin-bottom: 2rem;
 		border-radius: $btn-border-radius;
+		margin-bottom: 2rem;
 
 		&::after {
 			padding-top: 1px;

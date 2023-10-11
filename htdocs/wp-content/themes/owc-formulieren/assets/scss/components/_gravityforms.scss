@@ -372,8 +372,8 @@
 	input[type='button'] {
 		padding: $btn-padding-y $btn-padding-x;
 		border: none !important;
-		margin-left: 1rem;
 		border-radius: $btn-border-radius;
+		margin-left: 1rem;
 
 		&.gform_button,
 		&.gform_next_button {
@@ -410,8 +410,8 @@
 	display: none;
 	padding: $spacer * 0.75 $spacer * 1.25;
 	border: 1px solid $danger;
-	margin-bottom: $spacer;
 	border-radius: 0;
+	margin-bottom: $spacer;
 	color: $danger;
 }
 
@@ -468,6 +468,15 @@
 		span,
 		input {
 			width: 100%;
+		}
+	}
+
+	.clear-multi {
+		display: flex;
+		gap: 0.5rem;
+
+		> .ginput_container {
+			flex: auto;
 		}
 	}
 }
@@ -541,25 +550,6 @@
 .clear-multi {
 	@include media-breakpoint-up( md ) {
 		flex-basis: 50%;
-	}
-}
-
-.ginput_complex {
-	.clear-multi {
-		display: flex;
-		gap: 0.5rem;
-
-		> .ginput_container {
-			flex: auto;
-		}
-
-		// .ginput_container_date {
-		//   &.gfield_date_day,
-		//   &.gfield_date_month,
-		//   &.gfield_date_year {
-		//     width: calc(50% - 1);
-		//   }
-		// }
 	}
 }
 
