@@ -10,7 +10,7 @@
 <nav class="denhaag-sidenav">
     <ul class="denhaag-sidenav__list">
         <li class="denhaag-sidenav__item">
-            <a href="/" aria-current="page" class="denhaag-sidenav__link denhaag-sidenav__link--current">
+            <a href="<?php echo home_url("overzicht"); ?>" <?php echo is_page('overzicht') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('overzicht') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -22,7 +22,7 @@
             </a>
         </li>
         <li class="denhaag-sidenav__item">
-            <a href="#mijn-berichten" class="denhaag-sidenav__link">
+		<a href="<?php echo home_url("mijn-berichten"); ?>" <?php echo is_page('mijn-berichten') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-berichten') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -40,7 +40,7 @@
             </a>
         </li>
         <li class="denhaag-sidenav__item">
-            <a href="#mjn-zaken" class="denhaag-sidenav__link">
+			<a href="<?php echo home_url("mijn-zaken"); ?>" <?php echo is_page('mijn-zaken') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-zaken') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -58,7 +58,7 @@
             </a>
         </li>
         <li class="denhaag-sidenav__item">
-            <a href="#mijn-wijk" class="denhaag-sidenav__link">
+			<a href="<?php echo home_url("mijn-wijk"); ?>" <?php echo is_page('mijn-wijk') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-wijk') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -74,7 +74,7 @@
     <hr class="denhaag-divider" role="presentation">
     <ul class="denhaag-sidenav__list">
         <li class="denhaag-sidenav__item">
-            <a href="/mijn-gegevens" class="denhaag-sidenav__link">
+			<a href="<?php echo home_url("mijn-gegevens"); ?>" <?php echo is_page('mijn-gegevens') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-gegevens') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
