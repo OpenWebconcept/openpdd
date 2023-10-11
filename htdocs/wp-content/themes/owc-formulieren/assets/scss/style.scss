@@ -49,3 +49,13 @@
   Blocks
 --------------------------------------------------------------*/
 @import 'blocks/tile/shared';
+
+/**
+NL Design System Components seperated on the Municipality
+ */
+@import 'nlds/denhaag/tokens';
+@import 'nlds/denhaag/anchor-collapse';
+@import 'nlds/denhaag/badge-counter';
+@import 'nlds/denhaag/dot-indicator';
+@import 'nlds/denhaag/icon';
+@import 'nlds/denhaag/sidenav';
