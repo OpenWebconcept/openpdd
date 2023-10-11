@@ -55,7 +55,7 @@ module.exports = ( { theme } ) => {
 		plugins: [
 			// Remove CleanWebpackPlugin otherwise assets will be deleted
 			...defaultConfig.plugins.filter( ( plugin ) => {
-				return ! ( plugin instanceof CleanWebpackPlugin );
+				return ! ( plugin.constructor.name === 'CleanWebpackPlugin' );
 			} ),
 			new CopyPlugin( {
 				patterns: [
