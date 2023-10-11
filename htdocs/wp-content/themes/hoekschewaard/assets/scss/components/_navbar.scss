@@ -72,9 +72,6 @@
 				content: '';
 			}
 
-			&::after {
-			}
-
 			@include hover-focus-active {
 				background-color: theme-color( 'secondary' );
 				color: $white;
