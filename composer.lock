@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "167c6b4faba6f04f2e2a034fd000bb7f",
+    "content-hash": "f1f5dbdddcf38147eb84168b7e68b90c",
     "packages": [
         {
             "name": "aura/session",
@@ -2596,16 +2596,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-            "version": "v1.1.3",
+            "version": "v1.1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-                "reference": "45f15abe7f5bffd8377537b8d13a38cca29b99c4"
+                "reference": "a24fb10a924743f33ed0e4a1c179a1bf162f971b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/45f15abe7f5bffd8377537b8d13a38cca29b99c4",
-                "reference": "45f15abe7f5bffd8377537b8d13a38cca29b99c4",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/a24fb10a924743f33ed0e4a1c179a1bf162f971b",
+                "reference": "a24fb10a924743f33ed0e4a1c179a1bf162f971b",
                 "shasum": ""
             },
             "require": {
@@ -2653,10 +2653,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.1.3",
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.1.4",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
-            "time": "2023-09-01T12:01:12+00:00"
+            "time": "2023-10-11T08:17:08+00:00"
         },
         {
             "name": "plugin/plugin-gravityforms-nested-forms",
