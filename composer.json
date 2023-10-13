@@ -22,6 +22,10 @@
 	"repositories": [
 		{
 			"type": "composer",
+			"url": "https://packagist.yard.nl/satispress"
+		},
+		{
+			"type": "composer",
 			"url": "https://wpackagist.org"
 		},
 		{
@@ -54,14 +58,6 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityforms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityforms-webhooks.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@github.com:yardinternet/gravityforms-survey.git"
 		},
 		{
@@ -79,10 +75,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/gravityperks-limit-choices.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityperks-limit-submissions.git"
 		},
 		{
 			"type": "vcs",
@@ -136,23 +128,20 @@
 		"plugin/config-expander": "^2.0",
 		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravity-pdf": "6.5.*",
-		"plugin/gravityforms": "^2.7.12",
 		"plugin/gravityforms-amp-booking": "^0.0.2",
 		"plugin/gravityforms-csp-fixer": "^0.0.2",
 		"plugin/gravityforms-power-automate": "dev-main",
-		"plugin/plugin-gravityforms-nested-forms": "dev-main",
-		"plugin/gravityforms-webhooks": "^1.5",
 		"plugin/gravityformssurvey": "^3.0",
 		"plugin/gravityformszapier": "^4.0",
 		"plugin/gravityperks": "2.2.*",
 		"plugin/gravityperks-advanced-select": "^1.0",
 		"plugin/gravityperks-limit-choices": "1.7.*",
-		"plugin/gravityperks-limit-submissions": "^1.0",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "^1.1.5",
 		"plugin/owc-gravityforms-eherkenning": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
+		"plugin/plugin-gravityforms-nested-forms": "dev-main",
 		"plugin/prefill-gravity-forms": "^1.0.14",
 		"plugin/real-time-validation-for-gravity-forms": "^1.7",
 		"plugin/waardepapieren": "dev-feature/fieldlab",
@@ -167,7 +156,10 @@
 		"wpackagist-plugin/pronamic-ideal": "^9.4",
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8.1",
-		"wpackagist-plugin/wp-seopress": "^6.0"
+		"wpackagist-plugin/wp-seopress": "^6.0",
+		"ypackagist/gp-limit-submissions": "1.1.12",
+		"ypackagist/gravityforms": "2.7.15.1",
+		"ypackagist/gravityformswebhooks": "1.5"
 	},
 	"require-dev": {
 		"10up/wp_mock": "~0.5",

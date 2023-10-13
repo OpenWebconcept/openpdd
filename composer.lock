@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1f5dbdddcf38147eb84168b7e68b90c",
+    "content-hash": "f904320743d1a720719e813fb3926eef",
     "packages": [
         {
             "name": "aura/session",
@@ -1988,28 +1988,6 @@
             "time": "2023-04-25T07:47:31+00:00"
         },
         {
-            "name": "plugin/gravityforms",
-            "version": "v2.7.14",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityforms.git",
-                "reference": "be17ba893af0e56efbaccf4304c176b7e4bf7ac5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms/zipball/be17ba893af0e56efbaccf4304c176b7e4bf7ac5",
-                "reference": "be17ba893af0e56efbaccf4304c176b7e4bf7ac5",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravityforms",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityforms/tree/v2.7.14",
-                "issues": "https://github.com/yardinternet/gravityforms/issues"
-            },
-            "time": "2023-09-20T07:11:46+00:00"
-        },
-        {
             "name": "plugin/gravityforms-amp-booking",
             "version": "v0.0.2",
             "source": {
@@ -2292,28 +2270,6 @@
                 "issues": "https://github.com/yardinternet/gravityperks-limit-choices/issues"
             },
             "time": "2023-04-14T12:59:16+00:00"
-        },
-        {
-            "name": "plugin/gravityperks-limit-submissions",
-            "version": "v1.1.8",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityperks-limit-submissions.git",
-                "reference": "2cbb060f792e00a7a9aefa8ae561a3e9b336be44"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityperks-limit-submissions/zipball/2cbb060f792e00a7a9aefa8ae561a3e9b336be44",
-                "reference": "2cbb060f792e00a7a9aefa8ae561a3e9b336be44",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravityforms addon by GravityWiz",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityperks-limit-submissions/tree/v1.1.8",
-                "issues": "https://github.com/yardinternet/gravityperks-limit-submissions/issues"
-            },
-            "time": "2023-06-16T11:58:22+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-bag-address",
@@ -4686,6 +4642,63 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-seopress/"
+        },
+        {
+            "name": "ypackagist/gp-limit-submissions",
+            "version": "1.1.12",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.12",
+                "shasum": "9652366ecf51239c157d92c82d62c616cd40ab9e"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "http://gravitywiz.com"
+            },
+            "description": "Limit the number of entries that can be submitted by almost anything (e.g. user, role, IP, field value).",
+            "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-submissions/"
+        },
+        {
+            "name": "ypackagist/gravityforms",
+            "version": "2.7.15.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.7.15.1",
+                "shasum": "befa0469055cb5452a0587196997ee6209785567"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Easily create web forms and manage form entries within the WordPress admin.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "ypackagist/gravityformswebhooks",
+            "version": "1.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gravityformswebhooks/1.5",
+                "shasum": "fe73815016984dd865fbb6dd54546e60314521e4"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Integrates Gravity Forms with third party services using custom webhooks.",
+            "homepage": "https://gravityforms.com"
         }
     ],
     "packages-dev": [
@@ -8288,9 +8301,9 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/gravityforms-power-automate": 20,
-        "plugin/plugin-gravityforms-nested-forms": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/plugin-gravityforms-nested-forms": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
