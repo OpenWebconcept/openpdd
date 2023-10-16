@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62b3729928e945bc55177a97f939be87",
+    "content-hash": "1d17990ed9cda9ea07f96a1389420c2a",
     "packages": [
         {
             "name": "aura/session",
@@ -4632,6 +4632,25 @@
             },
             "description": "Limit how many times a choice may be selected for Radio Button, Drop Down and Checkbox fields.",
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-choices/"
+        },
+        {
+            "name": "ypackagist/wp-migrate-db-pro",
+            "version": "2.6.10",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/wp-migrate-db-pro/2.6.10",
+                "shasum": "d0b7fbed734961347d6087274fbe967db72d1efa"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "WP Engine",
+                "homepage": "https://deliciousbrains.com"
+            },
+            "description": "Migrate between any two environments. Push, pull, and export full sites. Find and replace content including serialized data. Import and back up the database.",
+            "homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
         }
     ],
     "packages-dev": [

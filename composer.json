@@ -126,7 +126,8 @@
 		"ypackagist/gravityformswebhooks": "^1.5",
 		"ypackagist/gravityformszapier": "^4.2.1",
 		"ypackagist/gravityperks": "^2.3.4",
-		"ypackagist/gwlimitchoices": "^1.7.13"
+		"ypackagist/gwlimitchoices": "^1.7.13",
+		"ypackagist/wp-migrate-db-pro": "2.6.10"
 	},
 	"require-dev": {
 		"10up/wp_mock": "~0.5",
