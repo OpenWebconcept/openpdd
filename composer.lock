@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "574da400a1c58564d11f4588a6b210e6",
+    "content-hash": "62b3729928e945bc55177a97f939be87",
     "packages": [
         {
             "name": "aura/session",
@@ -1966,39 +1966,17 @@
             "time": "2022-04-21T14:07:54+00:00"
         },
         {
-            "name": "plugin/gravity-pdf",
-            "version": "v6.5.5",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravity-pdf.git",
-                "reference": "f72bd8de620e975682c40b3b9e97d14f822446ae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravity-pdf/zipball/f72bd8de620e975682c40b3b9e97d14f822446ae",
-                "reference": "f72bd8de620e975682c40b3b9e97d14f822446ae",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravity Forms add-on to generate PDF files",
-            "support": {
-                "source": "https://github.com/yardinternet/gravity-pdf/tree/v6.5.5",
-                "issues": "https://github.com/yardinternet/gravity-pdf/issues"
-            },
-            "time": "2023-04-25T07:47:31+00:00"
-        },
-        {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v0.0.2",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "74c8a4cc22fe44ac15a5c9e6f035e75f78097fb6"
+                "reference": "39c4cf57f4a789b098d04e52c2c56bc7751baf28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/74c8a4cc22fe44ac15a5c9e6f035e75f78097fb6",
-                "reference": "74c8a4cc22fe44ac15a5c9e6f035e75f78097fb6",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/39c4cf57f4a789b098d04e52c2c56bc7751baf28",
+                "reference": "39c4cf57f4a789b098d04e52c2c56bc7751baf28",
                 "shasum": ""
             },
             "require": {
@@ -2052,10 +2030,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.2",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.3",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-09-27T12:01:09+00:00"
+            "time": "2023-10-16T09:45:34+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
