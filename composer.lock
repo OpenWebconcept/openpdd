@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f904320743d1a720719e813fb3926eef",
+    "content-hash": "574da400a1c58564d11f4588a6b210e6",
     "packages": [
         {
             "name": "aura/session",
@@ -394,16 +394,16 @@
         },
         {
             "name": "firebase/php-jwt",
-            "version": "v6.8.1",
+            "version": "v6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/f03270e63eaccf3019ef0f32849c497385774e11",
+                "reference": "f03270e63eaccf3019ef0f32849c497385774e11",
                 "shasum": ""
             },
             "require": {
@@ -451,9 +451,9 @@
             ],
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
+                "source": "https://github.com/firebase/php-jwt/tree/v6.9.0"
             },
-            "time": "2023-07-14T18:33:00+00:00"
+            "time": "2023-10-05T00:24:42+00:00"
         },
         {
             "name": "gogentooss/samlbase",
@@ -1137,20 +1137,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.3.1",
+            "version": "6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6"
+                "reference": "95f0b339643817935ac043b98d4aa1e1a0d08049"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
-                "reference": "45e299b8eae626d7b1db1eb53a69e63b9cc75bf6",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/95f0b339643817935ac043b98d4aa1e1a0d08049",
+                "reference": "95f0b339643817935ac043b98d4aa1e1a0d08049",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.3.1",
+                "johnpbloch/wordpress-core": "6.3.2",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=7.0.0"
             },
@@ -1179,20 +1179,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2023-08-29T14:28:17+00:00"
+            "time": "2023-10-12T19:02:29+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.3.1",
+            "version": "6.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699"
+                "reference": "0a18695e2ae028ea8485c45053c14525544c1dc7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/fc432f78ae5256b7fa28e810cfdf0b968d003699",
-                "reference": "fc432f78ae5256b7fa28e810cfdf0b968d003699",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/0a18695e2ae028ea8485c45053c14525544c1dc7",
+                "reference": "0a18695e2ae028ea8485c45053c14525544c1dc7",
                 "shasum": ""
             },
             "require": {
@@ -1200,7 +1200,7 @@
                 "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.3.1"
+                "wordpress/core-implementation": "6.3.2"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1227,7 +1227,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2023-08-29T14:28:14+00:00"
+            "time": "2023-10-12T19:02:24+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1285,10 +1285,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "6.3.1",
+            "version": "6.3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/6.3.1/nl_NL.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.3.2/nl_NL.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -2118,160 +2118,6 @@
             "time": "2023-08-30T10:58:26+00:00"
         },
         {
-            "name": "plugin/gravityforms-power-automate",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/plugin-gravityforms-power-automate.git",
-                "reference": "cc6a7b9edcf47a8ae721f540424f7c2a50fa5450"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-power-automate/zipball/cc6a7b9edcf47a8ae721f540424f7c2a50fa5450",
-                "reference": "cc6a7b9edcf47a8ae721f540424f7c2a50fa5450",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "description": "GravityForms Power Automate",
-            "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-power-automate/tree/main",
-                "issues": "https://github.com/yardinternet/plugin-gravityforms-power-automate/issues"
-            },
-            "time": "2023-08-15T06:56:50+00:00"
-        },
-        {
-            "name": "plugin/gravityforms-webhooks",
-            "version": "v1.5",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityforms-webhooks.git",
-                "reference": "a2f9e99550c3c47d5278beed3473d1ddbfcdddb9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms-webhooks/zipball/a2f9e99550c3c47d5278beed3473d1ddbfcdddb9",
-                "reference": "a2f9e99550c3c47d5278beed3473d1ddbfcdddb9",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "GravityForms Webhooks Extension",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityforms-webhooks/tree/v1.5",
-                "issues": "https://github.com/yardinternet/gravityforms-webhooks/issues"
-            },
-            "time": "2021-07-02T10:52:23+00:00"
-        },
-        {
-            "name": "plugin/gravityformssurvey",
-            "version": "v3.8",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityforms-survey.git",
-                "reference": "2c759b301ba3855403f61609c051143c69148314"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms-survey/zipball/2c759b301ba3855403f61609c051143c69148314",
-                "reference": "2c759b301ba3855403f61609c051143c69148314",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityforms-survey/tree/v3.8",
-                "issues": "https://github.com/yardinternet/gravityforms-survey/issues"
-            },
-            "time": "2023-06-16T11:46:11+00:00"
-        },
-        {
-            "name": "plugin/gravityformszapier",
-            "version": "v4.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityforms-zapier.git",
-                "reference": "ba9a389e4ca2f2a1e9bd38e7b2b5f7de199a5855"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityforms-zapier/zipball/ba9a389e4ca2f2a1e9bd38e7b2b5f7de199a5855",
-                "reference": "ba9a389e4ca2f2a1e9bd38e7b2b5f7de199a5855",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravityforms Zapier",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityforms-zapier/tree/v4.2",
-                "issues": "https://github.com/yardinternet/gravityforms-zapier/issues"
-            },
-            "time": "2022-11-10T10:24:47+00:00"
-        },
-        {
-            "name": "plugin/gravityperks",
-            "version": "v2.2.9",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityperks.git",
-                "reference": "cdf62d8bd42b709e861872e9c7e6d2f4c65b0336"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityperks/zipball/cdf62d8bd42b709e861872e9c7e6d2f4c65b0336",
-                "reference": "cdf62d8bd42b709e861872e9c7e6d2f4c65b0336",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravityforms addon by GravityWiz",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityperks/tree/v2.2.9",
-                "issues": "https://github.com/yardinternet/gravityperks/issues"
-            },
-            "time": "2023-01-27T13:15:59+00:00"
-        },
-        {
-            "name": "plugin/gravityperks-advanced-select",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityperks-advanced-select.git",
-                "reference": "12245c66c14e9802f1802536bc1ce3b9e295a3f0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityperks-advanced-select/zipball/12245c66c14e9802f1802536bc1ce3b9e295a3f0",
-                "reference": "12245c66c14e9802f1802536bc1ce3b9e295a3f0",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravityforms addon by GravityWiz",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityperks-advanced-select/tree/v1.0.0",
-                "issues": "https://github.com/yardinternet/gravityperks-advanced-select/issues"
-            },
-            "time": "2023-07-14T06:16:35+00:00"
-        },
-        {
-            "name": "plugin/gravityperks-limit-choices",
-            "version": "1.7.11",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/gravityperks-limit-choices.git",
-                "reference": "b76eff518937853df309cb854a7861f4aeaeaa55"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/gravityperks-limit-choices/zipball/b76eff518937853df309cb854a7861f4aeaeaa55",
-                "reference": "b76eff518937853df309cb854a7861f4aeaeaa55",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "description": "Gravityforms addon by GravityWiz",
-            "support": {
-                "source": "https://github.com/yardinternet/gravityperks-limit-choices/tree/1.7.11",
-                "issues": "https://github.com/yardinternet/gravityperks-limit-choices/issues"
-            },
-            "time": "2023-04-14T12:59:16+00:00"
-        },
-        {
             "name": "plugin/owc-gravityforms-bag-address",
             "version": "v1.1.5",
             "source": {
@@ -2545,7 +2391,7 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feature/open-catalogi",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
             "time": "2023-09-20T14:40:52+00:00"
@@ -2613,29 +2459,6 @@
                 "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
             "time": "2023-10-11T08:17:08+00:00"
-        },
-        {
-            "name": "plugin/plugin-gravityforms-nested-forms",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:yardinternet/plugin-gravityforms-nested-forms.git",
-                "reference": "83bc66a565f223c8241f90a4d806e58fc0df8819"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-nested-forms/zipball/83bc66a565f223c8241f90a4d806e58fc0df8819",
-                "reference": "83bc66a565f223c8241f90a4d806e58fc0df8819",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "description": "Create forms within forms for better management of complex forms. Formception!",
-            "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-nested-forms/tree/main",
-                "issues": "https://github.com/yardinternet/plugin-gravityforms-nested-forms/issues"
-            },
-            "time": "2023-09-26T15:09:12+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
@@ -4537,21 +4360,39 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "8.20.0",
+            "version": "8.20.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/8.20.0"
+                "reference": "tags/8.20.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.20.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.20.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
+        },
+        {
+            "name": "wpackagist-plugin/gravity-forms-pdf-extended",
+            "version": "6.7.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
+                "reference": "tags/6.7.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.7.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gravity-forms-pdf-extended/"
         },
         {
             "name": "wpackagist-plugin/onelogin-saml-sso",
@@ -4644,6 +4485,25 @@
             "homepage": "https://wordpress.org/plugins/wp-seopress/"
         },
         {
+            "name": "ypackagist/gp-advanced-select",
+            "version": "1.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gp-advanced-select/1.0.1",
+                "shasum": "e8d09f8569b9c397f5a7fbef4b8d63899a3b0df6"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "https://gravitywiz.com/"
+            },
+            "description": "Modern Drop Down and Multi Select fields with search and powerful integrations.",
+            "homepage": "https://gravitywiz.com/documentation/gravity-forms-advanced-select/"
+        },
+        {
             "name": "ypackagist/gp-limit-submissions",
             "version": "1.1.12",
             "dist": {
@@ -4661,6 +4521,25 @@
             },
             "description": "Limit the number of entries that can be submitted by almost anything (e.g. user, role, IP, field value).",
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-submissions/"
+        },
+        {
+            "name": "ypackagist/gravity-forms-power-automate",
+            "version": "1.5.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gravity-forms-power-automate/1.5.1",
+                "shasum": "6783dac4ea5f3443a891c6c548955c499a563f9f"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Reenhanced LLC",
+                "homepage": "https://www.reenhanced.com/"
+            },
+            "description": "Integrates Gravity Forms with Microsoft Power Automate.",
+            "homepage": "https://reenhanced.com/products/gravity-forms-power-automate"
         },
         {
             "name": "ypackagist/gravityforms",
@@ -4682,6 +4561,25 @@
             "homepage": "https://gravityforms.com"
         },
         {
+            "name": "ypackagist/gravityformssurvey",
+            "version": "3.8",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gravityformssurvey/3.8",
+                "shasum": "b324147e9fc3ebdedbf9589751aefd77dec86bfa"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Allows you to quickly and easily deploy Surveys on your web site using the power of Gravity Forms.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
             "name": "ypackagist/gravityformswebhooks",
             "version": "1.5",
             "dist": {
@@ -4699,6 +4597,63 @@
             },
             "description": "Integrates Gravity Forms with third party services using custom webhooks.",
             "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "ypackagist/gravityformszapier",
+            "version": "4.2.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gravityformszapier/4.2.1",
+                "shasum": "a32a048f7a00ce9c2e533979d9418d84d965d0ad"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Forms",
+                "homepage": "https://gravityforms.com"
+            },
+            "description": "Integrates Gravity Forms with Zapier, allowing form submissions to be automatically sent to your configured Zaps.",
+            "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "ypackagist/gravityperks",
+            "version": "2.3.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gravityperks/2.3.4",
+                "shasum": "8b84763c581dd562f33544b3e103c0ec77aa069f"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "https://gravitywiz.com/"
+            },
+            "description": "Effortlessly install and manage small functionality enhancements (aka \"perks\") for Gravity Forms.",
+            "homepage": "https://gravitywiz.com/"
+        },
+        {
+            "name": "ypackagist/gwlimitchoices",
+            "version": "1.7.13",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gwlimitchoices/1.7.13",
+                "shasum": "cf2efe3f35e5010d87e5d5226fa72cec63e9d47b"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "http://gravitywiz.com/"
+            },
+            "description": "Limit how many times a choice may be selected for Radio Button, Drop Down and Checkbox fields.",
+            "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-choices/"
         }
     ],
     "packages-dev": [
@@ -4798,16 +4753,16 @@
         },
         {
             "name": "composer/pcre",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2"
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
-                "reference": "4bff79ddd77851fe3cdd11616ed3f92841ba5bd2",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
                 "shasum": ""
             },
             "require": {
@@ -4849,7 +4804,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.0"
+                "source": "https://github.com/composer/pcre/tree/3.1.1"
             },
             "funding": [
                 {
@@ -4865,7 +4820,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-17T09:50:14+00:00"
+            "time": "2023-10-11T07:11:09+00:00"
         },
         {
             "name": "composer/semver",
@@ -5272,16 +5227,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.34.1",
+            "version": "v3.35.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "98bf1b1068b4ceddbbc2a2b70b67a5e380add9e3"
+                "reference": "ec1ccc264994b6764882669973ca435cf05bab08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/98bf1b1068b4ceddbbc2a2b70b67a5e380add9e3",
-                "reference": "98bf1b1068b4ceddbbc2a2b70b67a5e380add9e3",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/ec1ccc264994b6764882669973ca435cf05bab08",
+                "reference": "ec1ccc264994b6764882669973ca435cf05bab08",
                 "shasum": ""
             },
             "require": {
@@ -5314,8 +5269,6 @@
                 "phpspec/prophecy": "^1.16",
                 "phpspec/prophecy-phpunit": "^2.0",
                 "phpunit/phpunit": "^9.5",
-                "phpunitgoodpractices/polyfill": "^1.6",
-                "phpunitgoodpractices/traits": "^1.9.2",
                 "symfony/phpunit-bridge": "^6.2.3",
                 "symfony/yaml": "^5.4 || ^6.0"
             },
@@ -5355,7 +5308,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.34.1"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.35.1"
             },
             "funding": [
                 {
@@ -5363,7 +5316,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-03T23:51:05+00:00"
+            "time": "2023-10-12T13:47:26+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8300,10 +8253,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
-        "plugin/gravityforms-power-automate": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
-        "plugin/plugin-gravityforms-nested-forms": 20,
         "plugin/waardepapieren": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
