@@ -98,7 +98,7 @@
 		"plugin/gravityforms-amp-booking": "^0.0.3",
 		"plugin/gravityforms-csp-fixer": "^0.0.2",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
-		"plugin/owc-gravityforms-digid": "^1.1.5",
+		"plugin/owc-gravityforms-digid": "^1.1.6",
 		"plugin/owc-gravityforms-eherkenning": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
