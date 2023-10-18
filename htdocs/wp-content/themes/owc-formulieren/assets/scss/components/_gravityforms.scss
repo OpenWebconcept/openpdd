@@ -95,6 +95,12 @@
 	}
 }
 
+.gfield_visibility_hidden {
+	position: absolute;
+	left: -9999px;
+	visibility: hidden;
+}
+
 .gfield_label {
 	padding-right: $spacer;
 	transition: 0.2s ease all;
