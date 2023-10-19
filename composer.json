@@ -74,6 +74,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-owc-datab.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
 		},
 		{
@@ -97,6 +101,7 @@
 		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravityforms-amp-booking": "^0.0.4",
 		"plugin/gravityforms-csp-fixer": "^0.0.2",
+		"plugin/owc-datab": "0.0.*",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "^1.1.6",
 		"plugin/owc-gravityforms-eherkenning": "dev-master",
@@ -118,6 +123,7 @@
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8.1",
 		"wpackagist-plugin/wp-seopress": "^6.0",
+		"ypackagist/advanced-custom-fields-pro": "*",
 		"ypackagist/gp-advanced-select": "^1.0.1",
 		"ypackagist/gp-limit-submissions": "^1.1.12",
 		"ypackagist/gravity-forms-power-automate": "^1.5.1",
