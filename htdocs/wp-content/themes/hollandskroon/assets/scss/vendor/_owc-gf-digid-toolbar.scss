@@ -1,0 +1,7 @@
+$block: 'owc-gf-digid-toolbar';
+
+.#{$block} {
+	&-countdown {
+		visibility: hidden;
+	}
+}

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d3f2cb9d160736bf419a140d13f4afc",
+    "content-hash": "9fc174d6a330ae398261c916731f97fd",
     "packages": [
         {
             "name": "aura/session",
@@ -2008,16 +2008,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v0.0.4",
+            "version": "v0.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "7460b41d06b7879b33f845e7fc20cc09eb304741"
+                "reference": "cdba25d3659dfdd712aab166b9fe684663bc87b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/7460b41d06b7879b33f845e7fc20cc09eb304741",
-                "reference": "7460b41d06b7879b33f845e7fc20cc09eb304741",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/cdba25d3659dfdd712aab166b9fe684663bc87b6",
+                "reference": "cdba25d3659dfdd712aab166b9fe684663bc87b6",
                 "shasum": ""
             },
             "require": {
@@ -2071,10 +2071,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.4",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.5",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-10-18T07:53:44+00:00"
+            "time": "2023-10-20T06:56:47+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -8380,5 +8380,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
