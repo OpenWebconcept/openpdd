@@ -23,21 +23,21 @@ There are a bunch of optional plugins which you can find at the [Open Webconcept
 
 ## 🚘 Test drive
 
-We have included a dockerfile which you can use to quickly test drive the OpenPDD.
+We have included a Dockerfile which you can use to quickly test drive the OpenPDD.
 
 **Requirements:**
 
 - Docker
-- PHP and Composer, alternatively you run composer inside Docker with `docker compose run composer <command>`
+- PHP and Composer, alternatively you can run composer inside Docker with `docker compose run composer <command>`
 
 Please note that packages prefixed with `ypackagist` are paid and you should provide your own source for them.
 
 ```sh
 # 1. install composer dependencies
-cd bedrock && composer install
+sh ./scripts/setup.sh
 
-# 2. run the docker container
-cd ../ && docker compose up
+# 2. import test database
+sh ./scripts/import.sh
 
 # 3. you can now access the installation at https://localhost:8082
 ```
