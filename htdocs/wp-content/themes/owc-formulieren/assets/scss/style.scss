@@ -51,9 +51,13 @@
   Blocks
 --------------------------------------------------------------*/
 @import 'blocks/tile/shared';
-
 @import 'nlds/denhaag/tokens';
 @import 'nlds/denhaag/badge-counter';
 @import 'nlds/denhaag/dot-indicator';
 @import 'nlds/denhaag/icon';
 @import 'nlds/denhaag/sidenav';
+@import 'blocks/openpdd-sidemenu/shared';
+@import 'blocks/tasks/shared';
+@import 'blocks/affairs/shared';
+@import 'blocks/news/shared';
+@import 'blocks/personal-heading/shared';
