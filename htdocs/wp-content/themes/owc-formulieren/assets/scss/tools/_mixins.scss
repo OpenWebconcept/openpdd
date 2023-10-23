@@ -15,6 +15,7 @@
 	font-size: $btn-font-size;
 	font-weight: $btn-font-weight;
 	line-height: $btn-line-height;
+	text-decoration: none;
 	transition: $btn-transition;
 
 	@include hover-focus-active {
