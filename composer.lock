@@ -2349,21 +2349,21 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "be9f90184ed8a1420980633fc90f21b51d53f572"
+                "reference": "161b56710c42693be51d8a48a54accdd5f806586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/be9f90184ed8a1420980633fc90f21b51d53f572",
-                "reference": "be9f90184ed8a1420980633fc90f21b51d53f572",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/161b56710c42693be51d8a48a54accdd5f806586",
+                "reference": "161b56710c42693be51d8a48a54accdd5f806586",
                 "shasum": ""
             },
             "require": {
                 "aura/session": "^2.1",
+                "cmdisp/monolog-microsoft-teams": "1.3.0",
                 "gogentooss/samlbase": "^1.3",
                 "php": ">=7.2",
                 "php-di/php-di": "^6.0",
-                "rspeekenbrink/monolog-microsoft-teams": "^1.1",
-                "symfony/http-foundation": "^5.0",
+                "symfony/http-foundation": "~5.3",
                 "vlucas/phpdotenv": "^5.0"
             },
             "require-dev": {
@@ -2412,7 +2412,7 @@
                 "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/master",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2023-08-14T08:51:38+00:00"
+            "time": "2023-10-20T13:51:19+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
@@ -2544,16 +2544,16 @@
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "v1.0.16",
+            "version": "v1.0.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "137afa2c812c8ffe3bc8465bbe9abeab1fb8ae51"
+                "reference": "a4b5387c7edd31b857811d5d6341231d8b129c02"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/137afa2c812c8ffe3bc8465bbe9abeab1fb8ae51",
-                "reference": "137afa2c812c8ffe3bc8465bbe9abeab1fb8ae51",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/a4b5387c7edd31b857811d5d6341231d8b129c02",
+                "reference": "a4b5387c7edd31b857811d5d6341231d8b129c02",
                 "shasum": ""
             },
             "require": {
@@ -2599,10 +2599,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.16",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.17",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-06-29T12:27:24+00:00"
+            "time": "2023-10-23T10:21:56+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -8331,15 +8331,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.14.0",
+            "version": "3.14.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.14.0"
+                "reference": "tags/3.14.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.14.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.14.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8380,5 +8380,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
