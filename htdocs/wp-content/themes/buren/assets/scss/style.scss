@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
   Settings
 --------------------------------------------------------------*/
-@import 'settings/design-token-variables';
+@import 'settings/design-token-variables'; // Todo: refractor to CSS variables
 @import 'settings/colors';
 @import 'settings/bootstrap';
 @import 'settings/global';
@@ -12,6 +12,11 @@
   Parent theme
 --------------------------------------------------------------*/
 @import '../../../owc-formulieren/assets/scss/style';
+
+/*--------------------------------------------------------------
+  Tokens
+--------------------------------------------------------------*/
+@import 'nlds/denhaag/tokens';
 
 /*--------------------------------------------------------------
   Layouts
