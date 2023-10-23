@@ -2,6 +2,7 @@ $block: 'site-branding';
 
 .#{$block} {
 	&__title {
+		text-decoration: none;
 		white-space: nowrap;
 	}
 

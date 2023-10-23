@@ -1,4 +1,6 @@
 :root {
+	text-underline-offset: 0.25em;
+
 	--color-palette-primary: #{theme-color( 'primary' )};
 	--color-palette-secondary: #{theme-color( 'secondary' )};
 	--color-palette-white: #fff;
