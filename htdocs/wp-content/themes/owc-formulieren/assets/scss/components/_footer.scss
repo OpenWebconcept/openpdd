@@ -4,6 +4,10 @@ $footer: 'footer';
 	background-color: $mijn-zaken-footer-bg-color;
 	color: $mijn-zaken-footer-color;
 
+	a:not( .wp-block-button__link ) {
+		color: inherit;
+	}
+
 	&-bottom-menu {
 		display: flex;
 		height: 100%;
