@@ -15,7 +15,7 @@ This means you can use your own WordPress setup but must use at least use the re
 
 ### Required plugins
 
-See the composer.json file for an example.
+See this projects wiki: [Required plugins](https://github.com/OpenWebconcept/openpdd/wiki/Required-plugins).
 
 ### Optional plugins
 
