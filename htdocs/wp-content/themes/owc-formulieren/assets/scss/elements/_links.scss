@@ -1,5 +1,5 @@
 .page-content {
-	a:not( .wp-block-button__link ):not( .owc-gf-digid-toolbar-logout ) {
+	a:not( .wp-block-button__link ):not( .owc-gf-digid-toolbar-logout ):not( [class*="openpdd-"] ) {
 		padding-bottom: 1px;
 		border-bottom: 2px solid rgba( $link-color, 0.3 );
 		transition: all 0.05s ease-out;
