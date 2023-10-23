@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5355515c2ba5094e6af10d65498c0fa6",
+    "content-hash": "69309ab756c31396f2c4c76c7eb07c70",
     "packages": [
         {
             "name": "aura/session",
@@ -2420,12 +2420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "c204777343e1db1dacd2717f47a4d8d7a1e88a35"
+                "reference": "9ae050cbfed99b95592741a4107287503d875e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/c204777343e1db1dacd2717f47a4d8d7a1e88a35",
-                "reference": "c204777343e1db1dacd2717f47a4d8d7a1e88a35",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/9ae050cbfed99b95592741a4107287503d875e2f",
+                "reference": "9ae050cbfed99b95592741a4107287503d875e2f",
                 "shasum": ""
             },
             "require": {
@@ -2475,7 +2475,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls-frontend",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-10-05T14:38:07+00:00"
+            "time": "2023-10-09T09:58:36+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -5228,6 +5228,9 @@
             },
             "require": {
                 "php": "~7.0"
+            },
+            "replace": {
+                "deployer/recipes": "self.version"
             },
             "require-dev": {
                 "deployer/deployer": "^6.3"
