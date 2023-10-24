@@ -1,8 +1,0 @@
-:root {
-	--color-palette-primary: #{theme-color( 'primary' )};
-	--color-palette-secondary: #{theme-color( 'secondary' )};
-	--color-palette-white: #fff;
-	--color-palette-black: #000;
-	--layout-content-size: 800px;
-	--layout-wide-size: #{map-get( $container-max-widths, 'xl' )};
-}
