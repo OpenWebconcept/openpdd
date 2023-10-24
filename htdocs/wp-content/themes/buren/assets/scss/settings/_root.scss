@@ -1,0 +1,24 @@
+:root {
+	scroll-behavior: smooth;
+
+	--color-palette-primary: #{$buren-color-rood-50};
+	--color-palette-secondary: #fbbe04;
+
+	--typography-font-size-small: #{$small-font-size};
+	--typography-font-size-medium: #{$font-size-base};
+	--typography-font-size-lead: #{$lead-font-size};
+
+	--layout-content-size: 800px;
+	--layout-wide-size: #{map-get( $container-max-widths, 'xl' )};
+
+	/* --------------------------------------------------------------
+		Overwrite CSS variables
+	-------------------------------------------------------------- */
+	--zaak-tabs-link-active-border-color: #{$buren-color-rood-50};
+	--zaak-header-title-border-bottom: 2px solid #{$buren-color-rood-50};
+	--zaak-header-title-border-left: 2px solid #{$buren-color-rood-50};
+
+	.zaak-process-steps {
+		--zaak-process-steps-color-succes: #{$buren-color-rood-50};
+	}
+}
