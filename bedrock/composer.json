@@ -55,7 +55,6 @@
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
-    "plugin/owc-gravityforms-digid": "dev-master",
     "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/prefill-gravity-forms": "dev-main",
     "roots/bedrock-autoloader": "^1.0",
@@ -64,7 +63,8 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-theme/twentytwentythree": "^1.0",
-    "ypackagist/gravityforms": "^2.7.15.1"
+    "ypackagist/gravityforms": "^2.7.15.1",
+    "roots/acorn": "^3.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
@@ -91,6 +91,9 @@
   "scripts": {
     "test": [
       "phpcs"
-    ]
+    ],
+    "post-autoload-dump": [
+      "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
+    ]  
   }
 }
