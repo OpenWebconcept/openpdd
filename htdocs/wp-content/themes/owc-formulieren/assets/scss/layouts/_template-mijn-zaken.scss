@@ -10,6 +10,7 @@
 }
 
 .page-main--mijn-zaken {
+	--openpdd-mijn-zaken-container-spacing: 3rem;
 	display: grid;
 	flex: 1 0 auto;
 	gap: var( --openpdd-mijn-zaken-gap, 2rem );
@@ -17,8 +18,8 @@
 		--openpdd-mijn-zaken-template,
 		'aside' 'content'
 	);
-	padding-block-end: 3rem;
-	padding-block-start: 3rem;
+	padding-block-end: var( --openpdd-mijn-zaken-container-spacing );
+	padding-block-start: var( --openpdd-mijn-zaken-container-spacing );
 
 	@include media-breakpoint-up( md ) {
 		--openpdd-mijn-zaken-template: 'aside content content';
@@ -38,5 +39,11 @@
 
 	.page-main__content {
 		grid-area: content;
+
+		@include media-breakpoint-up( md ) {
+			margin-top: calc(
+				var( --openpdd-mijn-zaken-container-spacing ) * -1
+			);
+		}
 	}
 }

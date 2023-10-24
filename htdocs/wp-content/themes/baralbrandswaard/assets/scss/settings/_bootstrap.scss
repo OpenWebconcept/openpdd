@@ -96,3 +96,8 @@ $input-border-radius: 0;
 --------------------------------------------------------------*/
 $transition-timing: cubic-bezier( 0.22, 1, 0.36, 1 ); // EaseOutQuint
 $transition-base: all 0.5s $transition-timing; // EaseOutQuint
+
+/*--------------------------------------------------------------
+  Dropdown
+--------------------------------------------------------------*/
+$dropdown-border-radius: $theme-border-radius;

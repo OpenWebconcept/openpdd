@@ -6,6 +6,10 @@ $component: 'dropdown';
 	}
 
 	&-item {
+		&:hover {
+			text-decoration: $dropdown-link-hover-decoration;
+		}
+
 		&.active {
 			font-weight: $dropdown-link-active-font-weight;
 		}
