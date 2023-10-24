@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a4883f08be4aa1feb4290a1f13e11638",
+    "content-hash": "2689068e67aa3f22708475ccd399745b",
     "packages": [
         {
             "name": "aura/session",
@@ -2442,16 +2442,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "dev-feat/remove-enable-u-add-individual-service-urls-frontend",
+            "version": "dev-feat/remove-enable-u-add-individual-service-urls",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "9ae050cbfed99b95592741a4107287503d875e2f"
+                "reference": "f0928d44d435afaab79f1154fa61352b376d2f29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/9ae050cbfed99b95592741a4107287503d875e2f",
-                "reference": "9ae050cbfed99b95592741a4107287503d875e2f",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/f0928d44d435afaab79f1154fa61352b376d2f29",
+                "reference": "f0928d44d435afaab79f1154fa61352b376d2f29",
                 "shasum": ""
             },
             "require": {
@@ -2498,10 +2498,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls-frontend",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-10-09T09:58:36+00:00"
+            "time": "2023-10-24T07:11:39+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
