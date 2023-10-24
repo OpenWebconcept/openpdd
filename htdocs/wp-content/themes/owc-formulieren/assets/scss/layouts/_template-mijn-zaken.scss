@@ -39,11 +39,5 @@
 
 	.page-main__content {
 		grid-area: content;
-
-		@include media-breakpoint-up( md ) {
-			margin-top: calc(
-				var( --openpdd-mijn-zaken-container-spacing ) * -1
-			);
-		}
 	}
 }
