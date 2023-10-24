@@ -34,6 +34,7 @@ $breakpoint-xl: 1200px;
 		border-block-end: 1px solid var( --openpdd-task-border-color, #d2d2d2 );
 		color: var( --openpdd-task-color, #333 );
 		gap: 1.5rem;
+		text-decoration: none;
 
 		@media ( max-width: $breakpoint-lg ) {
 			flex-wrap: wrap;

@@ -56,3 +56,15 @@ $breakpoint-xl: 1200px;
 		object-fit: cover;
 	}
 }
+
+.page-main__content {
+	grid-area: content;
+
+	> .openpdd-personal-heading:first-child {
+		@include media-breakpoint-up( md ) {
+			margin-top: calc(
+				var( --openpdd-mijn-zaken-container-spacing ) * -1
+			);
+		}
+	}
+}
