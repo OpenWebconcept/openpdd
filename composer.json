@@ -11,6 +11,9 @@
 			"composer/installers": true,
 			"johnpbloch/wordpress-core-installer": true,
 			"koodimonni/composer-dropin-installer": true
+		},
+		"platform": {
+			"php": "7.4"
 		}
 	},
 	"authors": [
@@ -20,6 +23,10 @@
 		}
 	],
 	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://packagist.yard.nl/satispress"
+		},
 		{
 			"type": "composer",
 			"url": "https://wpackagist.org"
@@ -54,51 +61,11 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityforms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityforms-webhooks.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityforms-survey.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityforms-zapier.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityperks.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityperks-advanced-select.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityperks-limit-choices.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravityperks-limit-submissions.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git"
 		},
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-gravityforms-nested-forms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-gravityforms-power-automate.git"
 		},
 		{
 			"type": "vcs",
@@ -110,19 +77,15 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-owc-datab.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-waardepapieren.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@github.com:ConductionNL/formio-wordpress.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/gravity-pdf.git"
 		}
 	],
 	"require": {
@@ -135,27 +98,16 @@
 		"php-di/php-di": "^6.0",
 		"plugin/config-expander": "^2.0",
 		"plugin/formio-wordpress": "dev-main",
-		"plugin/gravity-pdf": "6.5.*",
-		"plugin/gravityforms": "^2.7.12",
-		"plugin/gravityforms-amp-booking": "^0.0.2",
+		"plugin/gravityforms-amp-booking": "^0.0.5",
 		"plugin/gravityforms-csp-fixer": "^0.0.2",
-		"plugin/gravityforms-power-automate": "dev-main",
-		"plugin/plugin-gravityforms-nested-forms": "dev-main",
-		"plugin/gravityforms-webhooks": "^1.5",
-		"plugin/gravityformssurvey": "^3.0",
-		"plugin/gravityformszapier": "^4.0",
-		"plugin/gravityperks": "2.2.*",
-		"plugin/gravityperks-advanced-select": "^1.0",
-		"plugin/gravityperks-limit-choices": "1.7.*",
-		"plugin/gravityperks-limit-submissions": "^1.0",
+		"plugin/owc-datab": "0.0.*",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
-		"plugin/owc-gravityforms-digid": "^1.1.5",
+		"plugin/owc-gravityforms-digid": "1.1.7",
 		"plugin/owc-gravityforms-eherkenning": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/remove-enable-u-add-individual-service-urls-frontend",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
 		"plugin/prefill-gravity-forms": "^1.0.14",
 		"plugin/real-time-validation-for-gravity-forms": "^1.7",
-		"plugin/waardepapieren": "dev-feature/fieldlab",
 		"privacybydesign/irma-wp": "@dev",
 		"rspeekenbrink/monolog-microsoft-teams": "^1.0",
 		"vlucas/phpdotenv": "^5.0",
@@ -163,11 +115,23 @@
 		"wpackagist-plugin/coming-soon": "^6.0",
 		"wpackagist-plugin/duplicate-post": "^4.0",
 		"wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
+		"wpackagist-plugin/gravity-forms-pdf-extended": "^6.7",
 		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
 		"wpackagist-plugin/pronamic-ideal": "^9.4",
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8.1",
-		"wpackagist-plugin/wp-seopress": "^6.0"
+		"wpackagist-plugin/wp-seopress": "^6.0",
+		"ypackagist/advanced-custom-fields-pro": "*",
+		"ypackagist/gp-advanced-select": "^1.0.1",
+		"ypackagist/gp-limit-submissions": "^1.1.12",
+		"ypackagist/gravity-forms-power-automate": "^1.5.1",
+		"ypackagist/gravityforms": "^2.7.15.1",
+		"ypackagist/gravityformssurvey": "^3.8",
+		"ypackagist/gravityformswebhooks": "^1.5",
+		"ypackagist/gravityformszapier": "^4.2.1",
+		"ypackagist/gravityperks": "^2.3.4",
+		"ypackagist/gwlimitchoices": "^1.7.13",
+		"ypackagist/wp-migrate-db-pro": "2.6.10"
 	},
 	"require-dev": {
 		"10up/wp_mock": "~0.5",

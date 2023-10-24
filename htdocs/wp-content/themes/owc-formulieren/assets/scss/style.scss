@@ -4,7 +4,6 @@
 @import 'settings/colors';
 @import 'settings/bootstrap';
 @import 'settings/variables';
-@import 'settings/root';
 
 /*--------------------------------------------------------------
   Tools
@@ -35,6 +34,7 @@
 /*--------------------------------------------------------------
   Elements
 --------------------------------------------------------------*/
+@import 'elements/headings';
 @import 'elements/links';
 @import 'elements/lists';
 @import 'elements/body';
@@ -54,8 +54,12 @@
 @import 'nlds/denhaag/dot-indicator';
 @import 'nlds/denhaag/icon';
 @import 'nlds/denhaag/sidenav';
-@import 'blocks/openpdd-sidemenu/shared';
 @import 'blocks/tasks/shared';
 @import 'blocks/affairs/shared';
 @import 'blocks/news/shared';
 @import 'blocks/personal-heading/shared';
+
+/*--------------------------------------------------------------
+  Root settings
+--------------------------------------------------------------*/
+@import 'settings/root';

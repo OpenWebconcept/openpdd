@@ -4,81 +4,82 @@ $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
 .openpdd-tasks {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  --icon-arrow-right-color: #4D6EB9;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	--icon-arrow-right-color: #4d6eb9;
 
-  > * {
-    margin: 0;
-  }
+	> * {
+		margin: 0;
+	}
 
-  &__list {
-    list-style: none;
-    padding: 0;
-  }
+	&__list {
+		padding: 0;
+		list-style: none;
+	}
 
-  &__arrow-right {
-    translate: 0 0;
-    transition: translate .2s ease-out;
+	&__arrow-right {
+		transition: translate 0.2s ease-out;
+		translate: 0 0;
 
-    @media (max-width: $breakpoint-lg) {
-      margin-inline-start: auto;
-    }
-  }
+		@media ( max-width: $breakpoint-lg ) {
+			margin-inline-start: auto;
+		}
+	}
 
-  &__link {
-    display: flex;
-    align-items: center;
-    padding: var(--openpdd-task-padding, 1rem);
-    gap: 1.5rem;
-    color: var(--openpdd-task-color, #333);
-    border-block-end: 1px solid var(--openpdd-task-border-color, #D2D2D2);
+	&__link {
+		display: flex;
+		align-items: center;
+		padding: var( --openpdd-task-padding, 1rem );
+		border-block-end: 1px solid var( --openpdd-task-border-color, #d2d2d2 );
+		color: var( --openpdd-task-color, #333 );
+		gap: 1.5rem;
+		text-decoration: none;
 
-    @media (max-width: $breakpoint-lg) {
-      flex-wrap: wrap;
-      gap: .5rem;
-    }
+		@media ( max-width: $breakpoint-lg ) {
+			flex-wrap: wrap;
+			gap: 0.5rem;
+		}
 
-    @media (hover: hover) {
-      &:where(:hover, :focus) {
-        color: var(--openpdd-task-color, #333);
-        text-decoration: none;
+		@media ( hover: hover ) {
+			&:where( :hover, :focus ) {
+				color: var( --openpdd-task-color, #333 );
+				text-decoration: none;
 
-        .openpdd-tasks__task-title {
-          text-decoration: underline;
-        }
+				.openpdd-tasks__task-title {
+					text-decoration: underline;
+				}
 
-        .openpdd-tasks__arrow-right {
-          translate: .5rem 0;
-        }
-      }
-    }
-  }
+				.openpdd-tasks__arrow-right {
+					translate: 0.5rem 0;
+				}
+			}
+		}
+	}
 
-  [class*="__task-status"] {
-    display: inline-flex;
-    align-items: center;
-    gap: .5rem;
-  }
+	[class*='__task-status'] {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
 
-  &__task-status--error {
-    color: var(--openpdd-error-color, #8C3600);
-    font-weight: 700;
-  }
+	&__task-status--error {
+		color: var( --openpdd-error-color, #8c3600 );
+		font-weight: 700;
+	}
 
-  &__task-title {
-    margin-inline-end: auto;
-    font-size: 1.125rem;
+	&__task-title {
+		font-size: 1.125rem;
+		margin-inline-end: auto;
 
-    @media (max-width: $breakpoint-lg) {
-      width: 100%;
-    }
-  }
+		@media ( max-width: $breakpoint-lg ) {
+			width: 100%;
+		}
+	}
 
-  &__header {
-    display: inline-flex;
-    align-items: center;
-    gap: .5rem;
-  }
+	&__header {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
 }
