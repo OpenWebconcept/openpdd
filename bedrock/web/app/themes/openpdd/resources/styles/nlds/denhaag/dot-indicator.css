@@ -1,0 +1,28 @@
+.denhaag-dot-indicator {
+	position: relative;
+	display: inline-flex;
+	flex-shrink: 0;
+	vertical-align: middle;
+}
+
+.denhaag-dot-indicator__dot {
+	position: absolute;
+	width: var( --denhaag-dot-indicator-size, 8px );
+	height: var( --denhaag-dot-indicator-size, 8px );
+	border: var( --denhaag-dot-indicator-border, 2px );
+	border-radius: 50%;
+	background-color: var( --denhaag-dot-indicator-background-color, #ff0000 );
+	transform: scale( 1 ) translate( 50%, -50% );
+}
+
+.denhaag-dot-indicator--overlap-rectangle .denhaag-dot-indicator__dot {
+	top: 0;
+	right: 0;
+	transform: scale( 1 ) translate( 50%, -50% );
+}
+
+.denhaag-dot-indicator--overlap-circle .denhaag-dot-indicator__dot {
+	top: 14%;
+	right: 14%;
+	transform: scale( 1 ) translate( 50%, -50% );
+}

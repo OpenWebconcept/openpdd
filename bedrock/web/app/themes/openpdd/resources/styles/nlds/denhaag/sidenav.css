@@ -1,0 +1,69 @@
+/* Version 0.1.0-alpha.164 */
+.denhaag-sidenav {
+	display: var( --denhaag-sidenav-display );
+	min-width: var( --denhaag-sidenav-min-width );
+	flex-direction: var( --denhaag-sidenav-flex-direction );
+	row-gap: var( --denhaag-sidenav-row-gap );
+}
+
+@media ( width <= 767px ) {
+	.denhaag-sidenav {
+		display: var( --denhaag-sidenav-mobile-display );
+	}
+}
+
+.denhaag-sidenav__list {
+	list-style: none;
+	margin-block-end: 0;
+	margin-block-start: 0;
+	padding-block-end: 0;
+	padding-block-start: 0;
+	padding-inline-start: 0;
+}
+
+.denhaag-sidenav__list--child {
+	margin-inline-start: var(
+		--denhaag-sidenav-list-child-margin-inline-start
+	);
+}
+
+.denhaag-sidenav__item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	line-height: 1.5;
+}
+
+.denhaag-sidenav__link {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+	align-items: center;
+	color: var( --denhaag-sidenav-link-color );
+	column-gap: 16px;
+	padding-block-end: var( --denhaag-sidenav-link-padding-block-end );
+	padding-block-start: var( --denhaag-sidenav-link-padding-block-start );
+	text-decoration: none;
+}
+
+.denhaag-sidenav__link:hover,
+.denhaag-sidenav__link--hover {
+	color: var( --denhaag-sidenav-link-hover-color );
+	cursor: pointer;
+}
+
+.denhaag-sidenav__link:focus-visible,
+.denhaag-sidenav__link--focus {
+	outline: var( --denhaag-focus-border );
+}
+
+.denhaag-sidenav__link--current {
+	color: var( --denhaag-sidenav-link-active-color );
+	font-weight: var( --denhaag-sidenav-link-active-font-weight );
+}
+
+.denhaag-sidenav__link--child {
+	padding-inline-start: var(
+		--denhaag-sidenav-link-child-padding-inline-start
+	);
+}

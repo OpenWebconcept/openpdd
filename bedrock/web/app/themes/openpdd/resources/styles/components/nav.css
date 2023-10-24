@@ -1,0 +1,58 @@
+.nav {
+  > .menu-item {
+    @apply relative h-full;
+
+    &::before {
+      @apply invisible absolute top-8 left-[20%] h-1 w-[60%] scale-0 bg-primary-600 duration-300 ease-in-out content-[''];
+    }
+
+    &:hover::before {
+      @apply visible scale-100;
+    }
+
+    a {
+      @apply flex h-full items-center px-4 text-black no-underline hover:text-primary-600;
+    }
+  }
+
+  .current-menu-ancestor,
+  .current_page_item {
+    &::before {
+      @apply visible scale-100;
+    }
+
+    > a {
+      @apply text-primary-600;
+    }
+  }
+
+  .menu-item-has-children {
+    &:hover,
+    &:focus-within {
+      &::before {
+        @apply invisible;
+      }
+
+      > a::after {
+        @apply translate-y-1;
+      }
+
+      > .sub-menu {
+        @apply visible translate-y-0 opacity-100 transition;
+      }
+    }
+
+
+  }
+
+  .sub-menu {
+    @apply invisible absolute mb-0 min-w-max -translate-y-3 list-none bg-white pl-0 opacity-0 shadow-md transition-all duration-150 ease-in-out;
+
+    .menu-item {
+      a {
+        @apply py-3 px-6;
+
+      }
+    }
+  }
+}

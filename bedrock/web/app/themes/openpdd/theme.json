@@ -1253,139 +1253,59 @@
           "slug": "rose-950"
         },
         {
-          "color": "#d6ddf8",
+          "color": "#f0fdf9",
+          "name": "Primary 50",
+          "slug": "primary-50"
+        },
+        {
+          "color": "#cdfaec",
           "name": "Primary 100",
           "slug": "primary-100"
         },
         {
-          "color": "#aebbf1",
+          "color": "#9cf3da",
           "name": "Primary 200",
           "slug": "primary-200"
         },
         {
-          "color": "#8599e9",
+          "color": "#62e6c5",
           "name": "Primary 300",
           "slug": "primary-300"
         },
         {
-          "color": "#5d77e2",
+          "color": "#32cfad",
           "name": "Primary 400",
           "slug": "primary-400"
         },
         {
-          "color": "#3455db",
+          "color": "#1abc9c",
           "name": "Primary 500",
           "slug": "primary-500"
         },
         {
-          "color": "#2a44af",
+          "color": "#11907a",
           "name": "Primary 600",
           "slug": "primary-600"
         },
         {
-          "color": "#1f3383",
+          "color": "#127362",
           "name": "Primary 700",
           "slug": "primary-700"
         },
         {
-          "color": "#152258",
+          "color": "#135c51",
           "name": "Primary 800",
           "slug": "primary-800"
         },
         {
-          "color": "#0a112c",
+          "color": "#154c44",
           "name": "Primary 900",
           "slug": "primary-900"
         },
         {
-          "color": "#d4d4e0",
-          "name": "Secondary 100",
-          "slug": "secondary-100"
-        },
-        {
-          "color": "#a8aac0",
-          "name": "Secondary 200",
-          "slug": "secondary-200"
-        },
-        {
-          "color": "#7d7fa1",
-          "name": "Secondary 300",
-          "slug": "secondary-300"
-        },
-        {
-          "color": "#515581",
-          "name": "Secondary 400",
-          "slug": "secondary-400"
-        },
-        {
-          "color": "#262a62",
-          "name": "Secondary 500",
-          "slug": "secondary-500"
-        },
-        {
-          "color": "#1e224e",
-          "name": "Secondary 600",
-          "slug": "secondary-600"
-        },
-        {
-          "color": "#17193b",
-          "name": "Secondary 700",
-          "slug": "secondary-700"
-        },
-        {
-          "color": "#0f1127",
-          "name": "Secondary 800",
-          "slug": "secondary-800"
-        },
-        {
-          "color": "#080814",
-          "name": "Secondary 900",
-          "slug": "secondary-900"
-        },
-        {
-          "color": "#daf5f3",
-          "name": "Tertiary 100",
-          "slug": "tertiary-100"
-        },
-        {
-          "color": "#b5ebe8",
-          "name": "Tertiary 200",
-          "slug": "tertiary-200"
-        },
-        {
-          "color": "#90e0dc",
-          "name": "Tertiary 300",
-          "slug": "tertiary-300"
-        },
-        {
-          "color": "#6bd6d1",
-          "name": "Tertiary 400",
-          "slug": "tertiary-400"
-        },
-        {
-          "color": "#46ccc5",
-          "name": "Tertiary 500",
-          "slug": "tertiary-500"
-        },
-        {
-          "color": "#38a39e",
-          "name": "Tertiary 600",
-          "slug": "tertiary-600"
-        },
-        {
-          "color": "#2a7a76",
-          "name": "Tertiary 700",
-          "slug": "tertiary-700"
-        },
-        {
-          "color": "#1c524f",
-          "name": "Tertiary 800",
-          "slug": "tertiary-800"
-        },
-        {
-          "color": "#0e2927",
-          "name": "Tertiary 900",
-          "slug": "tertiary-900"
+          "color": "#052e29",
+          "name": "Primary 950",
+          "slug": "primary-950"
         }
       ]
     },

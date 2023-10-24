@@ -4,13 +4,7 @@
 
 @include('sections.header')
 
-@hasSection('sidebar')
-    <aside class="sidebar">
-        @yield('sidebar')
-    </aside>
-@endif
-
-<main id="main" class="main">
+<main id="main" class="flex-auto my-12">
     @yield('content')
 </main>
 

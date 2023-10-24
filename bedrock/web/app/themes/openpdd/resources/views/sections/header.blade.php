@@ -1,11 +1,15 @@
-<header class="banner">
-    <a class="brand" href="{{ home_url('/') }}">
-        {!! $siteName !!}
-    </a>
+<header class="navigation-bar | bg-white">
+    <div class="container | flex h-24 items-center justify-between">
+        @include('partials.header.brand')
 
-    @if (has_nav_menu('primary_navigation'))
-        <nav class="nav-primary" aria-label="{{ wp_get_nav_menu_name('primary_navigation') }}">
-            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav', 'echo' => false]) !!}
-        </nav>
-    @endif
+        @include('partials.header.navigation')
+
+        @include('partials.header.hamburger')
+
+        @include('partials.header.login-btn', [
+            'classes' => 'hidden lg:flex items-center',
+        ])
+    </div>
 </header>
+
+@include('partials.header.mobile-menu')

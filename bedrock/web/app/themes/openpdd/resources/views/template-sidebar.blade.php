@@ -2,7 +2,7 @@
   Template Name: Sidebar
 --}}
 
-@extends('layouts.app')
+@extends('layouts.sidebar')
 
 @section('sidebar')
     @include('sections.sidebar')

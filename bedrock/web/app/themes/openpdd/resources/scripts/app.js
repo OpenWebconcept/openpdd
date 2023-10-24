@@ -1,10 +1,11 @@
 import domReady from '@roots/sage/client/dom-ready';
+import MobileMenu from './components/MobileMenu.js';
 
 /**
  * Application entrypoint
  */
 domReady(async () => {
-  // ...
+  MobileMenu();
 });
 
 /**

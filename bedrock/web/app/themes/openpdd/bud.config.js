@@ -16,7 +16,7 @@ export default async (app) => {
   app
     .entry('app', ['@scripts/app', '@styles/app'])
     .entry('editor', ['@scripts/editor', '@styles/editor'])
-    .assets(['images'])
+    .assets(['images', 'fonts'])
     .tap(async (bud) =>
       bud.postcss.setPlugin('postcss-mixins', [
         await bud.module.resolve('postcss-mixins'),
@@ -39,7 +39,7 @@ export default async (app) => {
    */
   app
     .setUrl('http://localhost:3000')
-    .setProxyUrl('http://example.test')
+    .setProxyUrl('http://localhost:8082/')
     .watch(['resources/views', 'app']);
 
   /**

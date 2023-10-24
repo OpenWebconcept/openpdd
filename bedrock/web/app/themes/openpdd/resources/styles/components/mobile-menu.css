@@ -1,0 +1,43 @@
+.mobile-menu-navigation {
+  .menu-item {
+    a {
+      @apply block py-1 text-xl text-black no-underline;
+    }
+  }
+
+  .current-menu-ancestor,
+  .current_page_item {
+    > a {
+      @apply text-primary-600;
+    }
+  }
+
+  .sub-menu {
+    @apply mb-4 mt-2 list-none pr-2;
+
+    .menu-item {
+      a {
+        @apply py-0 text-base md:text-lg;
+      }
+    }
+  }
+}
+
+.hamburger[aria-expanded='true'] span {
+  &:nth-child(1) {
+    @apply translate-y-2.5 scale-0;
+  }
+
+  &:nth-child(2) {
+    @apply rotate-45;
+    transform: rotate(45deg);
+  }
+
+  &:nth-child(3) {
+    @apply -rotate-45;
+  }
+
+  &:nth-child(4) {
+    @apply -translate-y-2.5 scale-0;
+  }
+}
