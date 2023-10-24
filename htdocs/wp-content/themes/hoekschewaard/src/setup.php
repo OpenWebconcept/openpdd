@@ -40,6 +40,7 @@ add_action('after_setup_theme', function () {
         'primary'            => __('Primary Menu', 'openpdd-hoeksche-waard'),
         'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-hoeksche-waard'),
         'footer-bottom'      => __('Footer bottom', 'openpdd-hoeksche-waard'),
+        'sidenav-mijn-zaken' => __('Side-menu Mijn zaken', 'yard-startertheme'),
     ]);
 
     $sidebars = [
