@@ -26,13 +26,13 @@ add_filter('the_content', function ($content) {
     if (strpos($content, '[gravityforms') === false) {
         return $content;
     }
-    
+
     $userAgent = $_SERVER['HTTP_USER_AGENT'];
     $browsers = [
         '/chrome/i' => 'Chrome',
         '/edge/i' => 'Edge'
     ];
-        
+
     foreach ($browsers as $regex => $value) {
         if (!preg_match($regex, $userAgent)) {
             continue;
@@ -42,4 +42,8 @@ add_filter('the_content', function ($content) {
     }
 
     return str_replace('[gravityforms', '<p class="alert-danger | p-2">Dit formulier werkt helaas niet in de browser die u momenteel gebruikt. Open het formulier in <a href="https://www.microsoft.com/nl-nl/edge" target="_blank" rel="noopener noreferrer">Edge</a> of <a href="https://www.google.com/intl/nl_nl/chrome/" target="_blank" rel="noopener noreferrer">Chrome</a> om uw aanvraag te voltooien.</p> [gravityforms', $content);
+});
+
+add_action('admin_init', function() {
+	new App\Navigation\NavigationMetaFields();
 });
