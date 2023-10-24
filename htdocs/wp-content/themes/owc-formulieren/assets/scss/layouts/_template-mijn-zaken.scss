@@ -24,6 +24,7 @@
 	@include media-breakpoint-up( md ) {
 		--openpdd-mijn-zaken-template: 'aside content content';
 		--openpdd-mijn-zaken-gap: 2.5rem;
+		grid-template-columns: 1fr 3fr;
 	}
 
 	.page-main__aside {
