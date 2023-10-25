@@ -47,7 +47,7 @@ $btn-border-style: solid !default;
 /*--------------------------------------------------------------
   Links
 --------------------------------------------------------------*/
-$link-color: #0639a9 !default;
+$link-color: theme-color( 'primary' ) !default;
 $link-decoration: underline !default;
 
 /*--------------------------------------------------------------
