@@ -1419,16 +1419,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902"
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "shasum": ""
             },
             "require": {
@@ -1475,7 +1475,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2023-07-14T13:56:28+00:00"
+            "time": "2023-10-17T13:38:16+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2446,12 +2446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "f0928d44d435afaab79f1154fa61352b376d2f29"
+                "reference": "4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/f0928d44d435afaab79f1154fa61352b376d2f29",
-                "reference": "f0928d44d435afaab79f1154fa61352b376d2f29",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c",
+                "reference": "4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c",
                 "shasum": ""
             },
             "require": {
@@ -2501,7 +2501,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-10-24T07:11:39+00:00"
+            "time": "2023-10-24T16:38:51+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4450,6 +4450,25 @@
             },
             "description": "Modern Drop Down and Multi Select fields with search and powerful integrations.",
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-advanced-select/"
+        },
+        {
+            "name": "ypackagist/gp-limit-dates",
+            "version": "1.1.25",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gp-limit-dates/1.1.25",
+                "shasum": "d933bedc3f78038d58aa8ab8df3d2bb975f5a872"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "http://gravitywiz.com/"
+            },
+            "description": "Limit which days are selectable for your Gravity Forms Date Picker fields.",
+            "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-dates/"
         },
         {
             "name": "ypackagist/gp-limit-submissions",
