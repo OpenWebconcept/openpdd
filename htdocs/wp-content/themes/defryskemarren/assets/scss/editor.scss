@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------
+  Settings
+--------------------------------------------------------------*/
+@import 'settings/colors';
+@import 'settings/bootstrap';
+@import 'settings/variables';
+
+/*--------------------------------------------------------------
+  Parent theme
+--------------------------------------------------------------*/
+@import '../../../owc-formulieren/assets/scss/editor';
+@import 'settings/root';
