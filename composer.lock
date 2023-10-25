@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9cb68d1203a89ff2fb9814c813e46eee",
+    "content-hash": "9c555bccad7c1b8026f075e16f87291b",
     "packages": [
         {
             "name": "aura/session",
@@ -1419,16 +1419,16 @@
         },
         {
             "name": "laravel/serializable-closure",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/serializable-closure.git",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902"
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/e5a3057a5591e1cfe8183034b0203921abe2c902",
-                "reference": "e5a3057a5591e1cfe8183034b0203921abe2c902",
+                "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "shasum": ""
             },
             "require": {
@@ -1475,7 +1475,7 @@
                 "issues": "https://github.com/laravel/serializable-closure/issues",
                 "source": "https://github.com/laravel/serializable-closure"
             },
-            "time": "2023-07-14T13:56:28+00:00"
+            "time": "2023-10-17T13:38:16+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -4453,6 +4453,25 @@
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-advanced-select/"
         },
         {
+            "name": "ypackagist/gp-limit-dates",
+            "version": "1.1.25",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gp-limit-dates/1.1.25",
+                "shasum": "d933bedc3f78038d58aa8ab8df3d2bb975f5a872"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "http://gravitywiz.com/"
+            },
+            "description": "Limit which days are selectable for your Gravity Forms Date Picker fields.",
+            "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-dates/"
+        },
+        {
             "name": "ypackagist/gp-limit-submissions",
             "version": "1.1.12",
             "dist": {
@@ -5077,9 +5096,6 @@
             },
             "require": {
                 "php": "~7.0"
-            },
-            "replace": {
-                "deployer/recipes": "self.version"
             },
             "require-dev": {
                 "deployer/deployer": "^6.3"
@@ -8317,5 +8333,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
