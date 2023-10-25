@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 /**
- * Template name: Mijn Zaken
+ * Template name: Mijn Zaken + Sidebar
  */
 get_template_part('mijn-zaken/header');
 

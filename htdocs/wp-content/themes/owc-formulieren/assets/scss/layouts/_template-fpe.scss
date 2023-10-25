@@ -1,7 +1,0 @@
-$layout: 'page-template-template-fpe';
-
-.#{$layout} .page-main {
-	> * {
-		@include add-gutenberg-alignment-layouts;
-	}
-}

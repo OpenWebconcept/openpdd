@@ -1,14 +1,11 @@
 <?php declare(strict_types=1);
 /**
- * Template name: Mijn Zaken + Sidebar
+ * Template name: Mijn Zaken + Main
  */
 get_template_part('mijn-zaken/header');
 
 ?>
-    <main class="page-main page-main--mijn-zaken container" id="readspeaker">
-        <aside class="page-main__aside">
-            <?php get_template_part('mijn-zaken/sidebar'); ?>
-        </aside>
+    <main class="page-main page-main--mijn-zaken-main container" id="readspeaker">
         <article class="page-main__content">
             <?php the_content(); ?>
         </article>
