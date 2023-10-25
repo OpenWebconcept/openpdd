@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32852ce4bc4da9e3e41fe806f1c69322",
+    "content-hash": "dc84bb80dbe960e2599e38d16d35bb2e",
     "packages": [
         {
             "name": "aura/session",
@@ -2034,16 +2034,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v0.0.6",
+            "version": "v0.0.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8"
+                "reference": "8bae6e9414cf05a4415db79536608c53300de7e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
-                "reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/8bae6e9414cf05a4415db79536608c53300de7e1",
+                "reference": "8bae6e9414cf05a4415db79536608c53300de7e1",
                 "shasum": ""
             },
             "require": {
@@ -2097,10 +2097,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.6",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.7",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-10-25T13:00:00+00:00"
+            "time": "2023-10-25T15:03:32+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
