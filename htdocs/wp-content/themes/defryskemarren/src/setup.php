@@ -43,6 +43,38 @@ add_action('after_setup_theme', function () {
         'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-hoeksche-waard'),
         'footer-bottom'      => __('Footer bottom', 'openpdd-hoeksche-waard'),
     ]);
+
+    $sidebars = [
+        [
+            'name'        => __('Footer column 1', 'defryskemarren'),
+            'id'          => 'footer-1',
+            'description' => '',
+            'class'       => '',
+        ],
+        [
+            'name'        => __('Footer column 2', 'defryskemarren'),
+            'id'          => 'footer-2',
+            'description' => '',
+            'class'       => '',
+        ],
+        [
+            'name'        => __('Footer column 3', 'defryskemarren'),
+            'id'          => 'footer-3',
+            'description' => '',
+            'class'       => '',
+        ],
+    ];
+
+    foreach ($sidebars as $sidebar) {
+        register_sidebar([
+            'name'          => $sidebar['name'],
+            'id'            => $sidebar['id'],
+            'description'   => $sidebar['description'],
+            'class'         => $sidebar['class'],
+            'before_widget' => '<div class="widget %2$s">',
+            'after_widget'  => '</div>',
+        ]);
+    }
 });
 
 add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
