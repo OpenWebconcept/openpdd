@@ -1,0 +1,19 @@
+:root {
+	--color-palette-primary: #{theme-color( 'primary' )};
+	--color-palette-secondary: #{theme-color( 'secondary' )};
+	--color-palette-white: #fff;
+	--color-palette-black: #000;
+	--layout-content-size: 800px;
+	--layout-wide-size: #{map-get( $container-max-widths, 'xl' )};
+
+	/* --------------------------------------------------------------
+		Overwrite CSS variables
+	-------------------------------------------------------------- */
+	--zaak-tabs-link-active-border-color: #{theme-color( 'primary' )};
+	--zaak-header-title-border-bottom: 2px solid #{theme-color( 'primary' )};
+	--zaak-header-title-border-left: 2px solid #{theme-color( 'primary' )};
+
+	.zaak-process-steps {
+		--zaak-process-steps-color-succes: #{theme-color( 'primary' )};
+	}
+}
