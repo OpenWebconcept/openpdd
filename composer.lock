@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "83be62250050455c0b39c16bc6d161ce",
+	"content-hash": "32852ce4bc4da9e3e41fe806f1c69322",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -1909,16 +1909,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-amp-booking",
-			"version": "v1.1.2",
+			"version": "v0.0.6",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "89f5728a8f3cd554249ab19b209084fc918d66ac"
+				"reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/89f5728a8f3cd554249ab19b209084fc918d66ac",
-				"reference": "89f5728a8f3cd554249ab19b209084fc918d66ac",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
+				"reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
 				"shasum": ""
 			},
 			"require": {
@@ -1966,10 +1966,10 @@
 			],
 			"description": "GravityForms AMP Booking",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.1.2",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.6",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2023-11-14T13:55:53+00:00"
+			"time": "2023-10-25T13:00:00+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
@@ -2285,16 +2285,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "dev-feat/remove-enable-u-add-individual-service-urls-frontend",
+			"version": "dev-feat/remove-enable-u-add-individual-service-urls",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "c204777343e1db1dacd2717f47a4d8d7a1e88a35"
+				"reference": "4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/c204777343e1db1dacd2717f47a4d8d7a1e88a35",
-				"reference": "c204777343e1db1dacd2717f47a4d8d7a1e88a35",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c",
+				"reference": "4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c",
 				"shasum": ""
 			},
 			"require": {
@@ -2337,10 +2337,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls-frontend",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2023-10-05T14:38:07+00:00"
+			"time": "2023-10-24T16:38:51+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -2404,16 +2404,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.1",
+			"version": "v1.0.17",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3"
+				"reference": "a4b5387c7edd31b857811d5d6341231d8b129c02"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
-				"reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/a4b5387c7edd31b857811d5d6341231d8b129c02",
+				"reference": "a4b5387c7edd31b857811d5d6341231d8b129c02",
 				"shasum": ""
 			},
 			"require": {
@@ -2455,10 +2455,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.1",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.17",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2023-11-03T12:51:38+00:00"
+			"time": "2023-10-23T10:21:56+00:00"
 		},
 		{
 			"name": "plugin/real-time-validation-for-gravity-forms",
@@ -3113,16 +3113,16 @@
 		},
 		{
 			"name": "symfony/http-foundation",
-			"version": "v5.4.31",
+			"version": "v5.4.28",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/http-foundation.git",
-				"reference": "f84fd4fd8311a541ceb2ae3f257841d002450a90"
+				"reference": "365992c83a836dfe635f1e903ccca43ee03d3dd2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/http-foundation/zipball/f84fd4fd8311a541ceb2ae3f257841d002450a90",
-				"reference": "f84fd4fd8311a541ceb2ae3f257841d002450a90",
+				"url": "https://api.github.com/repos/symfony/http-foundation/zipball/365992c83a836dfe635f1e903ccca43ee03d3dd2",
+				"reference": "365992c83a836dfe635f1e903ccca43ee03d3dd2",
 				"shasum": ""
 			},
 			"require": {
@@ -3165,7 +3165,7 @@
 			"description": "Defines an object-oriented layer for the HTTP specification",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/http-foundation/tree/v5.4.31"
+				"source": "https://github.com/symfony/http-foundation/tree/v5.4.28"
 			},
 			"funding": [
 				{
@@ -3181,7 +3181,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2023-11-06T22:05:57+00:00"
+			"time": "2023-08-21T07:23:18+00:00"
 		},
 		{
 			"name": "symfony/polyfill-ctype",
@@ -3558,16 +3558,16 @@
 		},
 		{
 			"name": "symfony/translation",
-			"version": "v5.4.31",
+			"version": "v5.4.24",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/translation.git",
-				"reference": "ba72f72fceddf36f00bd495966b5873f2d17ad8f"
+				"reference": "de237e59c5833422342be67402d487fbf50334ff"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/translation/zipball/ba72f72fceddf36f00bd495966b5873f2d17ad8f",
-				"reference": "ba72f72fceddf36f00bd495966b5873f2d17ad8f",
+				"url": "https://api.github.com/repos/symfony/translation/zipball/de237e59c5833422342be67402d487fbf50334ff",
+				"reference": "de237e59c5833422342be67402d487fbf50334ff",
 				"shasum": ""
 			},
 			"require": {
@@ -3629,7 +3629,7 @@
 			"description": "Provides tools to internationalize your application",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/translation/tree/v5.4.31"
+				"source": "https://github.com/symfony/translation/tree/v5.4.24"
 			},
 			"funding": [
 				{
@@ -3645,7 +3645,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2023-11-03T16:16:43+00:00"
+			"time": "2023-05-19T12:34:17+00:00"
 		},
 		{
 			"name": "symfony/translation-contracts",
@@ -4046,15 +4046,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/pronamic-ideal",
-			"version": "9.6.3",
+			"version": "9.5.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-				"reference": "tags/9.6.3"
+				"reference": "tags/9.5.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.3.zip"
+				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.5.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -4118,11 +4118,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.2.3",
+			"version": "6.2.1.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.3",
-				"shasum": "775f2d7788ac43858689757111fb58f8d950431c"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.1.1",
+				"shasum": "3bb77d3a9df8cc1f909e7a8f2b9404124b5879a1"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -4213,11 +4213,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.7.17.1",
+			"version": "2.7.15.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.7.17.1",
-				"shasum": "5c8134f11a56aa9841eec61f66a43574892d4201"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.7.15.1",
+				"shasum": "befa0469055cb5452a0587196997ee6209785567"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -4869,16 +4869,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.38.2",
+			"version": "v3.35.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "d872cdd543797ade030aaa307c0a4954a712e081"
+				"reference": "ec1ccc264994b6764882669973ca435cf05bab08"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d872cdd543797ade030aaa307c0a4954a712e081",
-				"reference": "d872cdd543797ade030aaa307c0a4954a712e081",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/ec1ccc264994b6764882669973ca435cf05bab08",
+				"reference": "ec1ccc264994b6764882669973ca435cf05bab08",
 				"shasum": ""
 			},
 			"require": {
@@ -4946,7 +4946,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.2"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.35.1"
 			},
 			"funding": [
 				{
@@ -4954,7 +4954,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2023-11-14T00:19:22+00:00"
+			"time": "2023-10-12T13:47:26+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -7566,16 +7566,16 @@
 		},
 		{
 			"name": "symfony/yaml",
-			"version": "v5.4.31",
+			"version": "v5.4.23",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/yaml.git",
-				"reference": "f387675d7f5fc4231f7554baa70681f222f73563"
+				"reference": "4cd2e3ea301aadd76a4172756296fe552fb45b0b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/yaml/zipball/f387675d7f5fc4231f7554baa70681f222f73563",
-				"reference": "f387675d7f5fc4231f7554baa70681f222f73563",
+				"url": "https://api.github.com/repos/symfony/yaml/zipball/4cd2e3ea301aadd76a4172756296fe552fb45b0b",
+				"reference": "4cd2e3ea301aadd76a4172756296fe552fb45b0b",
 				"shasum": ""
 			},
 			"require": {
@@ -7615,7 +7615,7 @@
 			"description": "Loads and dumps YAML files",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/yaml/tree/v5.4.31"
+				"source": "https://github.com/symfony/yaml/tree/v5.4.23"
 			},
 			"funding": [
 				{
@@ -7631,7 +7631,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2023-11-03T14:41:28+00:00"
+			"time": "2023-04-23T19:33:36+00:00"
 		},
 		{
 			"name": "theseer/tokenizer",
