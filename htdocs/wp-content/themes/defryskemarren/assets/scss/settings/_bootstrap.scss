@@ -1,0 +1,93 @@
+@import './colors';
+
+/*--------------------------------------------------------------
+  Fonts
+--------------------------------------------------------------*/
+$font-size-base: 1.063rem; // 17px
+$font-family-sans-serif:
+	-apple-system,
+	BlinkMacSystemFont,
+	'Segoe UI',
+	Source Sans Pro,
+	'Helvetica Neue',
+	Arial,
+	sans-serif,
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol';
+$font-family-base: 'Roboto', $font-family-sans-serif;
+$font-weight-base: 300;
+$line-height-base: 1.7;
+$enable-responsive-font-sizes: true;
+
+$small-font-size: $font-size-base * 0.9;
+$xs-small-font-size: $small-font-size * 0.9;
+
+$lead-font-weight: 400;
+$lead-font-size: $font-size-base * 1.1;
+
+/*--------------------------------------------------------------
+  Colors
+--------------------------------------------------------------*/
+$body-bg: #f0f5f8;
+$body-color: #000;
+$danger: #e5322c;
+$succes: #009a3e;
+$text-muted: #687078;
+$yiq-contrasted-threshold: 125;
+
+/*--------------------------------------------------------------
+  Paragraph
+--------------------------------------------------------------*/
+$paragraph-margin-bottom: 1.5rem;
+
+/*--------------------------------------------------------------
+  Headings
+--------------------------------------------------------------*/
+$h1-font-size: $font-size-base * 2.3;
+$h2-font-size: $font-size-base * 1.7;
+$h3-font-size: $font-size-base * 1.3;
+$h4-font-size: $font-size-base * 1.2;
+$h5-font-size: $font-size-base * 1.1;
+$h6-font-size: $font-size-base;
+
+$headings-color: theme-color( 'primary' );
+$headings-font-family: $font-family-base;
+$headings-margin-bottom: 0.6rem;
+$headings-font-weight: 700;
+
+/*--------------------------------------------------------------
+  Border radius
+--------------------------------------------------------------*/
+$border-radius: 0;
+$border-radius-sm: 5px;
+$border-radius: 9px;
+
+/*--------------------------------------------------------------
+  Buttons
+--------------------------------------------------------------*/
+$btn-padding-y: 0.8rem;
+$btn-padding-x: 1.7rem;
+$btn-border-width: 0;
+$btn-border-radius: $border-radius-sm;
+$btn-font-weight: 400;
+$btn-box-shadow: none;
+
+/*--------------------------------------------------------------
+  Components
+--------------------------------------------------------------*/
+$box-shadow:
+	0 4px 15px 0 rgba( 40, 44, 53, 0.06 ),
+	0 2px 2px 0 rgba( 40, 44, 53, 0.08 );
+
+/*--------------------------------------------------------------
+  Forms
+--------------------------------------------------------------*/
+$input-padding-y: 0.5rem;
+$input-padding-x: 0.8rem;
+$input-border-radius: 0;
+$input-border-color: gray( 'graphic' );
+$input-focus-border-color: theme-color( 'secondary' );
+$input-focus-box-shadow: none;
+$input-border-width: 0;
+$input-bg: #fff;
