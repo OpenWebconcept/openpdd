@@ -311,3 +311,10 @@ function theme_script_loader_tag($tag, $handle)
     return $tag;
 }
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
+
+add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($templates) {
+    $templates[] = 'template-mijn-zaken';
+    $templates[] = 'template-mijn-zaken-main';
+
+    return $templates;
+});
