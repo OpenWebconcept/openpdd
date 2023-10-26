@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types=1 );
+
 namespace App\Navigation;
 
 class NavigationMetaFields {
@@ -8,8 +10,8 @@ class NavigationMetaFields {
 	 * NavigationMetaFields constructor.
 	 */
 	public function __construct() {
-		add_action( 'wp_nav_menu_item_custom_fields', [ self::class, 'addCustomFields' ], 10, 2 );
-		add_action( 'wp_update_nav_menu_item', [ self::class, 'updateNavItems' ], 10, 2 );
+		add_action( 'wp_nav_menu_item_custom_fields', [ $this, 'addCustomFields' ], 10, 2 );
+		add_action( 'wp_update_nav_menu_item', [ $this, 'updateNavItems' ], 10, 2 );
 	}
 
 	/**
@@ -17,12 +19,12 @@ class NavigationMetaFields {
 	 *
 	 * @data-structure: 'FIELD_DESCRIPTION' => [
 	 *    'meta_field' => 'META_FIELD_NAME',
-	 *    'text' 	   => 'TEXT_SHOWN_BESIDE_CHECKBOX'
+	 *    'text'       => 'TEXT_SHOWN_BESIDE_CHECKBOX'
 	 * ]
 	 *
 	 * @return array[]
 	 */
-	public static function getFields() {
+	public function getFields(): array {
 		return [
 			'counter' => [
 				'meta_field' => '_show-counter',
@@ -43,8 +45,8 @@ class NavigationMetaFields {
 	 *
 	 * @return void
 	 */
-	public static function addCustomFields( $item_id, $item ) {
-		foreach ( self::getFields() as $field_name => $meta_data ) {
+	public function addCustomFields( $item_id, $item ): void {
+		foreach ( $this->getFields() as $field_name => $meta_data ) {
 			$is_current_active = get_post_meta( $item_id, $meta_data['meta_field'], true );
 			?>
 			<p class="owc-<?php echo $field_name; ?> description description-wide">
@@ -69,12 +71,9 @@ class NavigationMetaFields {
 	 *
 	 * @return void
 	 */
-	public static function updateNavItems( $menu_id, $menu_item_db_id ) {
-		foreach ( self::getFields() as $field_name => $meta_data ) {
-			$value = (
-				isset( $_POST[ $field_name ][ $menu_item_db_id ] )
-				&& $_POST[ $field_name ][ $menu_item_db_id ] == 'on'
-			);
+	public function updateNavItems( $menu_id, $menu_item_db_id ): void {
+		foreach ( $this->getFields() as $field_name => $meta_data ) {
+			$value = ( $_POST[ $field_name ][ $menu_item_db_id ] ?? '' ) == 'on';
 			update_post_meta( $menu_item_db_id, $meta_data['meta_field'], $value );
 		}
 	}

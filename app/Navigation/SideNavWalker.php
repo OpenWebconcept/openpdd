@@ -1,5 +1,7 @@
 <?php
 
+declare( strict_types=1 );
+
 namespace App\Navigation;
 
 class SideNavWalker extends \Walker_Nav_Menu {
@@ -15,7 +17,7 @@ class SideNavWalker extends \Walker_Nav_Menu {
 	 *
 	 * @return string
 	 */
-	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ) {
+	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0 ): string {
 		$current_class = $item->current ? 'denhaag-sidenav__link--current' : '';
 		$svg           = $this->getSvgByClassName( $item );
 		$counter       = get_post_meta( $item->ID, '_show-counter', true )
@@ -52,7 +54,7 @@ class SideNavWalker extends \Walker_Nav_Menu {
 	 *
 	 * @return string
 	 */
-	public function end_el( &$output, $item, $depth = 0, $args = array() ) {
+	public function end_el( &$output, $item, $depth = 0, $args = array() ): string {
 		$output .= '</li>';
 
 		return $output;
@@ -65,9 +67,9 @@ class SideNavWalker extends \Walker_Nav_Menu {
 	 *
 	 * @param $item
 	 *
-	 * @return false|string
+	 * @return string
 	 */
-	public function getSvgByClassName( $item ) {
+	public function getSvgByClassName( $item ): string {
 		$first_class = $item->classes[0] ?? '';
 
 		if ( ! $first_class ) {
@@ -80,7 +82,7 @@ class SideNavWalker extends \Walker_Nav_Menu {
 			return '';
 		}
 
-		return file_get_contents( get_template_directory() . $path );
+		return file_get_contents( get_template_directory() . $path ) ?: '';
 	}
 }
 
