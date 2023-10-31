@@ -39,5 +39,5 @@ sh ./scripts/setup.sh
 # 2. import test database
 sh ./scripts/import.sh
 
-# 3. you can now access the installation at https://localhost:8082
+# 3. you can now access the installation at https://localhost:8082 and the admin at https://localhost:8082/wp/wp-admin
 ```

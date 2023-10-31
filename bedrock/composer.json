@@ -45,6 +45,10 @@
 			"url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
 		},
     {
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-owc-openpdd-sanitizer.git"
+		},
+    {
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
@@ -57,6 +61,7 @@
     "oscarotero/env": "^2.1",
     "plugin/owc-gravityforms-digid": "dev-master",
     "plugin/owc-gravityforms-zaaksysteem": "dev-master",
+    "plugin/owc-openpdd-sanitizer": "^0.0.1",
     "plugin/prefill-gravity-forms": "dev-main",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
