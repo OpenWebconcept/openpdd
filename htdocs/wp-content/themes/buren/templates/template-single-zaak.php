@@ -35,7 +35,7 @@ get_template_part('mijn-zaken/header');
 					</tr>
 					<tr>
 						<th>Status</th>
-						<td><?php echo $status; ?></td>
+						<td><?php echo $zaak->statusExplanation() ?: 'Onbekend'; ?></td>
 					</tr>
 				</table>
 			</div>
