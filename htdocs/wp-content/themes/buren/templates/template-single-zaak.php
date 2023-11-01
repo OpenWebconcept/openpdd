@@ -22,12 +22,12 @@ get_template_part('mijn-zaken/header');
 				<table class="zaak-details-table">
 					<tr>
 						<th>Registratiedatum</th>
-						<td><?php echo $zaak->registratiedatum->format('j F Y'); ?> </td>
+						<td><?php echo $zaak->registerDate('j F Y'); ?> </td>
 						<td><a href="#">Bekijk originele aanvraag</a></td>
 					</tr>
 					<tr>
 						<th>Startdatum</th>
-						<td><?php echo $zaak->startdatum->format('j F Y'); ?></td>
+						<td><?php echo $zaak->startDate('j F Y'); ?></td>
 					</tr>
 					<tr>
 						<th>Zaaknummer</th>
