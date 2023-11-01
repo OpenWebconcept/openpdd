@@ -9,3 +9,21 @@
 .gap-4 {
 	gap: 1.5rem;
 }
+
+.object-fit-cover {
+	object-fit: cover;
+}
+
+.h-400px {
+	height: 400px;
+}
+
+.normalize-child-margin {
+	> :first-child {
+		margin-top: 0;
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
