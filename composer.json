@@ -81,6 +81,10 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
 		},
 		{
@@ -106,6 +110,7 @@
 		"plugin/owc-gravityforms-eherkenning": "^1.0.5",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/remove-enable-u-add-individual-service-urls",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
+		"plugin/signicat-openid": "dev-main",
 		"plugin/prefill-gravity-forms": "^1.1",
 		"plugin/real-time-validation-for-gravity-forms": "^1.7",
 		"privacybydesign/irma-wp": "@dev",
