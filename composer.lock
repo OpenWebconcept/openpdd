@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db9642687ccd05d2a1cadae43d612491",
+    "content-hash": "cdba817fe7728b10f7aa6555a97eabb2",
     "packages": [
         {
             "name": "aura/session",
@@ -2715,12 +2715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "b21739d05f46b335f1bb75a1632ab103cd86fba7"
+                "reference": "948631e4dd57ae13d408f79024f63e272bfef781"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/b21739d05f46b335f1bb75a1632ab103cd86fba7",
-                "reference": "b21739d05f46b335f1bb75a1632ab103cd86fba7",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/948631e4dd57ae13d408f79024f63e272bfef781",
+                "reference": "948631e4dd57ae13d408f79024f63e272bfef781",
                 "shasum": ""
             },
             "require": {
@@ -2770,7 +2770,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-11-01T14:04:09+00:00"
+            "time": "2023-11-01T14:28:58+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -2929,13 +2929,13 @@
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-                "reference": "57eb3804f1fbed1fabe0b00557f7f1d12fa41708"
+                "url": "git@github.com:yardinternet/plugin-signicat-openid.git",
+                "reference": "3f2beb132c73ee2e6c399acb024b4e5881f43787"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/57eb3804f1fbed1fabe0b00557f7f1d12fa41708",
-                "reference": "57eb3804f1fbed1fabe0b00557f7f1d12fa41708",
+                "url": "https://api.github.com/repos/yardinternet/plugin-signicat-openid/zipball/3f2beb132c73ee2e6c399acb024b4e5881f43787",
+                "reference": "3f2beb132c73ee2e6c399acb024b4e5881f43787",
                 "shasum": ""
             },
             "require": {
@@ -2991,10 +2991,10 @@
             ],
             "description": "Signicat OpenID",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/main",
-                "issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
+                "source": "https://github.com/yardinternet/plugin-signicat-openid/tree/main",
+                "issues": "https://github.com/yardinternet/plugin-signicat-openid/issues"
             },
-            "time": "2023-08-23T07:32:26+00:00"
+            "time": "2023-11-01T14:08:08+00:00"
         },
         {
             "name": "privacybydesign/irma-wp",
@@ -5436,9 +5436,6 @@
             },
             "require": {
                 "php": "~7.0"
-            },
-            "replace": {
-                "deployer/recipes": "self.version"
             },
             "require-dev": {
                 "deployer/deployer": "^6.3"
@@ -8677,5 +8674,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
