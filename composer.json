@@ -81,7 +81,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git"
+			"url": "git@github.com:yardinternet/plugin-signicat-openid.git"
 		},
 		{
 			"type": "vcs",
