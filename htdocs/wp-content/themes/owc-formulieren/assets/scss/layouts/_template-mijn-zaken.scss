@@ -1,5 +1,6 @@
 .page-template-template-mijn-zaken,
-.page-template-template-mijn-zaken-main {
+.page-template-template-mijn-zaken-main,
+.page-template-template-mijn-zaken-home {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -53,5 +54,16 @@
 		max-width: 800px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+}
+
+.page-template-template-mijn-zaken-home {
+	.page-main--mijn-zaken-main {
+		padding-block-end: 0;
+	}
+
+	.page-main__content {
+		margin-top: -5rem;
+		margin-bottom: -400px;
 	}
 }
