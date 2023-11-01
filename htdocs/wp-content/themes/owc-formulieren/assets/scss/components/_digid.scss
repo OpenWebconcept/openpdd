@@ -3,6 +3,7 @@ $block: 'digid';
 .#{$block}-btn {
 	border-radius: 14px;
 	border-bottom: 0 !important;
+	text-decoration: none;
 
 	@include hover-focus-active {
 		background-color: gray( 'concrete' );
