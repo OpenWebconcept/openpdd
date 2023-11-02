@@ -27,3 +27,17 @@
 		margin-bottom: 0;
 	}
 }
+
+// Temp, todo remove
+.zaak-header {
+	position: relative;
+}
+
+.zaak-header-image {
+	position: absolute;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	object-fit: cover;
+}
