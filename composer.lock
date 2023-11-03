@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdba817fe7728b10f7aa6555a97eabb2",
+    "content-hash": "1dd6ffd94fd85690e8b558b790e0780a",
     "packages": [
         {
             "name": "aura/session",
@@ -2838,16 +2838,16 @@
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "v1.0.17",
+            "version": "v1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "a4b5387c7edd31b857811d5d6341231d8b129c02"
+                "reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/a4b5387c7edd31b857811d5d6341231d8b129c02",
-                "reference": "a4b5387c7edd31b857811d5d6341231d8b129c02",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
+                "reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
                 "shasum": ""
             },
             "require": {
@@ -2893,10 +2893,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.17",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.1",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-10-23T10:21:56+00:00"
+            "time": "2023-11-03T12:51:38+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
