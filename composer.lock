@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1dd6ffd94fd85690e8b558b790e0780a",
+    "content-hash": "db16867cc6749d13a93a3a58f813089c",
     "packages": [
         {
             "name": "aura/session",
@@ -2303,16 +2303,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v0.0.7",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "8bae6e9414cf05a4415db79536608c53300de7e1"
+                "reference": "344f19a1939b51a48b9c63580c773b985d9bdc15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/8bae6e9414cf05a4415db79536608c53300de7e1",
-                "reference": "8bae6e9414cf05a4415db79536608c53300de7e1",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/344f19a1939b51a48b9c63580c773b985d9bdc15",
+                "reference": "344f19a1939b51a48b9c63580c773b985d9bdc15",
                 "shasum": ""
             },
             "require": {
@@ -2366,10 +2366,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.7",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.0.0",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-10-25T15:03:32+00:00"
+            "time": "2023-11-07T16:01:24+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -8674,5 +8674,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
