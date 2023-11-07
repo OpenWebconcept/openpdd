@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5c45e184899d1ae76af3495267b356cf",
+    "content-hash": "d4a28c2c12ddcb8ee9ed0d165233aece",
     "packages": [
         {
             "name": "aura/session",
@@ -2034,16 +2034,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v0.0.6",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8"
+                "reference": "344f19a1939b51a48b9c63580c773b985d9bdc15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
-                "reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/344f19a1939b51a48b9c63580c773b985d9bdc15",
+                "reference": "344f19a1939b51a48b9c63580c773b985d9bdc15",
                 "shasum": ""
             },
             "require": {
@@ -2097,10 +2097,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.6",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.0.0",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-10-25T13:00:00+00:00"
+            "time": "2023-11-07T16:01:24+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -4344,15 +4344,15 @@
         },
         {
             "name": "wpackagist-plugin/pronamic-ideal",
-            "version": "9.5.1",
+            "version": "9.6.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-                "reference": "tags/9.5.1"
+                "reference": "tags/9.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.5.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4416,11 +4416,11 @@
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
-            "version": "6.2.1.1",
+            "version": "6.2.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.1.1",
-                "shasum": "3bb77d3a9df8cc1f909e7a8f2b9404124b5879a1"
+                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.2",
+                "shasum": "9e4b56ac3e62942cd72e54a10e09d54843d19a1b"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4511,11 +4511,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.7.15.1",
+            "version": "2.7.16",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.7.15.1",
-                "shasum": "befa0469055cb5452a0587196997ee6209785567"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.7.16",
+                "shasum": "ba637d3293cbc5e2079ca538f2310928b781e030"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5097,6 +5097,9 @@
             "require": {
                 "php": "~7.0"
             },
+            "replace": {
+                "deployer/recipes": "self.version"
+            },
             "require-dev": {
                 "deployer/deployer": "^6.3"
             },
@@ -5211,16 +5214,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.37.1",
+            "version": "v3.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "c3fe76976081ab871aa654e872da588077e19679"
+                "reference": "7e6070026e76aa09d77a47519625c86593fb8e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/c3fe76976081ab871aa654e872da588077e19679",
-                "reference": "c3fe76976081ab871aa654e872da588077e19679",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7e6070026e76aa09d77a47519625c86593fb8e31",
+                "reference": "7e6070026e76aa09d77a47519625c86593fb8e31",
                 "shasum": ""
             },
             "require": {
@@ -5292,7 +5295,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.37.1"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.0"
             },
             "funding": [
                 {
@@ -5300,7 +5303,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-29T20:51:23+00:00"
+            "time": "2023-11-07T08:44:54+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8333,5 +8336,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }
