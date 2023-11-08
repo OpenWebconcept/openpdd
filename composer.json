@@ -107,7 +107,7 @@
 		"plugin/owc-datab": "0.0.*",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "1.1.7",
-		"plugin/owc-gravityforms-eherkenning": "dev-master",
+		"plugin/owc-gravityforms-eherkenning": "dev-feat/setup",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/remove-enable-u-add-individual-service-urls",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
 		"plugin/signicat-openid": "dev-main",

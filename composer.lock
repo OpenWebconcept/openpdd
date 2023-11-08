@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db16867cc6749d13a93a3a58f813089c",
+    "content-hash": "be00a888ceac689a7c3361df3b921c9c",
     "packages": [
         {
             "name": "aura/session",
@@ -2640,25 +2640,26 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "dev-master",
+            "version": "dev-feat/setup",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "39743c5ab52f3049b2c6461f9354a348c987391a"
+                "reference": "c0958a93f80becba209dfde3bf0155ecb22805c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/39743c5ab52f3049b2c6461f9354a348c987391a",
-                "reference": "39743c5ab52f3049b2c6461f9354a348c987391a",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/c0958a93f80becba209dfde3bf0155ecb22805c0",
+                "reference": "c0958a93f80becba209dfde3bf0155ecb22805c0",
                 "shasum": ""
             },
             "require": {
                 "aura/session": "^2.1",
                 "cmdisp/monolog-microsoft-teams": "1.3.0",
-                "gogentooss/samlbase": "~1.5",
+                "gogentooss/samlbase": "^1.3",
+                "guzzlehttp/guzzle": "^7.8",
                 "php": ">=7.2",
                 "php-di/php-di": "^6.0",
-                "symfony/http-foundation": "~5.3",
+                "symfony/http-foundation": "~5.0",
                 "vlucas/phpdotenv": "^5.0"
             },
             "require-dev": {
@@ -2668,7 +2669,6 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2704,10 +2704,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/master",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/feat/setup",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2023-10-24T09:36:24+00:00"
+            "time": "2023-10-17T09:18:59+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
