@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "32852ce4bc4da9e3e41fe806f1c69322",
+	"content-hash": "db16867cc6749d13a93a3a58f813089c",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -1285,6 +1285,44 @@
 			"time": "2020-04-16T21:44:57+00:00"
 		},
 		{
+			"name": "jumbojett/openid-connect-php",
+			"version": "v0.9.10",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/jumbojett/OpenID-Connect-PHP.git",
+				"reference": "45aac47b525f0483dd4db3324bb1f1cab4666061"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/jumbojett/OpenID-Connect-PHP/zipball/45aac47b525f0483dd4db3324bb1f1cab4666061",
+				"reference": "45aac47b525f0483dd4db3324bb1f1cab4666061",
+				"shasum": ""
+			},
+			"require": {
+				"ext-curl": "*",
+				"ext-json": "*",
+				"paragonie/random_compat": ">=2",
+				"php": ">=5.4",
+				"phpseclib/phpseclib": "~2.0 || ^3.0"
+			},
+			"require-dev": {
+				"roave/security-advisories": "dev-master",
+				"yoast/phpunit-polyfills": "^1.0"
+			},
+			"type": "library",
+			"autoload": {
+				"classmap": [ "src/" ]
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [ "Apache-2.0" ],
+			"description": "Bare-bones OpenID Connect client",
+			"support": {
+				"issues": "https://github.com/jumbojett/OpenID-Connect-PHP/issues",
+				"source": "https://github.com/jumbojett/OpenID-Connect-PHP/tree/v0.9.10"
+			},
+			"time": "2022-09-30T12:34:46+00:00"
+		},
+		{
 			"name": "koodimonni-language/core-nl_nl",
 			"version": "6.3.2",
 			"dist": {
@@ -1573,6 +1611,114 @@
 			"time": "2023-09-25T11:31:05+00:00"
 		},
 		{
+			"name": "paragonie/constant_time_encoding",
+			"version": "v2.6.3",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/paragonie/constant_time_encoding.git",
+				"reference": "58c3f47f650c94ec05a151692652a868995d2938"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/58c3f47f650c94ec05a151692652a868995d2938",
+				"reference": "58c3f47f650c94ec05a151692652a868995d2938",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7|^8"
+			},
+			"require-dev": {
+				"phpunit/phpunit": "^6|^7|^8|^9",
+				"vimeo/psalm": "^1|^2|^3|^4"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"ParagonIE\\ConstantTime\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [ "MIT" ],
+			"authors": [
+				{
+					"name": "Paragon Initiative Enterprises",
+					"email": "security@paragonie.com",
+					"homepage": "https://paragonie.com",
+					"role": "Maintainer"
+				},
+				{
+					"name": "Steve 'Sc00bz' Thomas",
+					"email": "steve@tobtu.com",
+					"homepage": "https://www.tobtu.com",
+					"role": "Original Developer"
+				}
+			],
+			"description": "Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)",
+			"keywords": [
+				"base16",
+				"base32",
+				"base32_decode",
+				"base32_encode",
+				"base64",
+				"base64_decode",
+				"base64_encode",
+				"bin2hex",
+				"encoding",
+				"hex",
+				"hex2bin",
+				"rfc4648"
+			],
+			"support": {
+				"email": "info@paragonie.com",
+				"issues": "https://github.com/paragonie/constant_time_encoding/issues",
+				"source": "https://github.com/paragonie/constant_time_encoding"
+			},
+			"time": "2022-06-14T06:56:20+00:00"
+		},
+		{
+			"name": "paragonie/random_compat",
+			"version": "v9.99.100",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/paragonie/random_compat.git",
+				"reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/paragonie/random_compat/zipball/996434e5492cb4c3edcb9168db6fbb1359ef965a",
+				"reference": "996434e5492cb4c3edcb9168db6fbb1359ef965a",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">= 7"
+			},
+			"require-dev": {
+				"phpunit/phpunit": "4.*|5.*",
+				"vimeo/psalm": "^1"
+			},
+			"suggest": {
+				"ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+			},
+			"type": "library",
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [ "MIT" ],
+			"authors": [
+				{
+					"name": "Paragon Initiative Enterprises",
+					"email": "security@paragonie.com",
+					"homepage": "https://paragonie.com"
+				}
+			],
+			"description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+			"keywords": [ "csprng", "polyfill", "pseudorandom", "random" ],
+			"support": {
+				"email": "info@paragonie.com",
+				"issues": "https://github.com/paragonie/random_compat/issues",
+				"source": "https://github.com/paragonie/random_compat"
+			},
+			"time": "2020-10-15T08:29:30+00:00"
+		},
+		{
 			"name": "php-di/invoker",
 			"version": "2.3.4",
 			"source": {
@@ -1803,6 +1949,112 @@
 			"time": "2023-11-12T21:59:55+00:00"
 		},
 		{
+			"name": "phpseclib/phpseclib",
+			"version": "3.0.33",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/phpseclib/phpseclib.git",
+				"reference": "33fa69b2514a61138dd48e7a49f99445711e0ad0"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/33fa69b2514a61138dd48e7a49f99445711e0ad0",
+				"reference": "33fa69b2514a61138dd48e7a49f99445711e0ad0",
+				"shasum": ""
+			},
+			"require": {
+				"paragonie/constant_time_encoding": "^1|^2",
+				"paragonie/random_compat": "^1.4|^2.0|^9.99.99",
+				"php": ">=5.6.1"
+			},
+			"require-dev": {
+				"phpunit/phpunit": "*"
+			},
+			"suggest": {
+				"ext-dom": "Install the DOM extension to load XML formatted public keys.",
+				"ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+				"ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+				"ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+				"ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+			},
+			"type": "library",
+			"autoload": {
+				"files": [ "phpseclib/bootstrap.php" ],
+				"psr-4": {
+					"phpseclib3\\": "phpseclib/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [ "MIT" ],
+			"authors": [
+				{
+					"name": "Jim Wigginton",
+					"email": "terrafrost@php.net",
+					"role": "Lead Developer"
+				},
+				{
+					"name": "Patrick Monnerat",
+					"email": "pm@datasphere.ch",
+					"role": "Developer"
+				},
+				{
+					"name": "Andreas Fischer",
+					"email": "bantu@phpbb.com",
+					"role": "Developer"
+				},
+				{
+					"name": "Hans-Jürgen Petrich",
+					"email": "petrich@tronic-media.com",
+					"role": "Developer"
+				},
+				{
+					"name": "Graham Campbell",
+					"email": "graham@alt-three.com",
+					"role": "Developer"
+				}
+			],
+			"description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+			"homepage": "http://phpseclib.sourceforge.net",
+			"keywords": [
+				"BigInteger",
+				"aes",
+				"asn.1",
+				"asn1",
+				"blowfish",
+				"crypto",
+				"cryptography",
+				"encryption",
+				"rsa",
+				"security",
+				"sftp",
+				"signature",
+				"signing",
+				"ssh",
+				"twofish",
+				"x.509",
+				"x509"
+			],
+			"support": {
+				"issues": "https://github.com/phpseclib/phpseclib/issues",
+				"source": "https://github.com/phpseclib/phpseclib/tree/3.0.33"
+			},
+			"funding": [
+				{
+					"url": "https://github.com/terrafrost",
+					"type": "github"
+				},
+				{
+					"url": "https://www.patreon.com/phpseclib",
+					"type": "patreon"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+					"type": "tidelift"
+				}
+			],
+			"time": "2023-10-21T14:00:39+00:00"
+		},
+		{
 			"name": "plugin/config-expander",
 			"version": "v2.0.26",
 			"source": {
@@ -1909,16 +2161,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-amp-booking",
-			"version": "v0.0.6",
+			"version": "v1.1.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8"
+				"reference": "89f5728a8f3cd554249ab19b209084fc918d66ac"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
-				"reference": "66157c0aa39fdefa03dd6e8f5e876e4477b6d4a8",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/89f5728a8f3cd554249ab19b209084fc918d66ac",
+				"reference": "89f5728a8f3cd554249ab19b209084fc918d66ac",
 				"shasum": ""
 			},
 			"require": {
@@ -1966,10 +2218,10 @@
 			],
 			"description": "GravityForms AMP Booking",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v0.0.6",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.1.2",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2023-10-25T13:00:00+00:00"
+			"time": "2023-11-14T13:55:53+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
@@ -2153,16 +2405,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "v1.2.0",
+			"version": "v1.1.7",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-				"reference": "8c684fb863e7c687990ca41cb772750b520309a4"
+				"reference": "7920e011a3e5a3d92334975998c0bc6391332fb1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/8c684fb863e7c687990ca41cb772750b520309a4",
-				"reference": "8c684fb863e7c687990ca41cb772750b520309a4",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/7920e011a3e5a3d92334975998c0bc6391332fb1",
+				"reference": "7920e011a3e5a3d92334975998c0bc6391332fb1",
 				"shasum": ""
 			},
 			"require": {
@@ -2212,23 +2464,23 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.2.0",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.7",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2023-11-24T07:52:30+00:00"
+			"time": "2023-10-24T09:18:51+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
-			"version": "v1.0.5",
+			"version": "dev-master",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-				"reference": "5ea89b9eb2e5c824b89e9ff012b34f5807a23531"
+				"reference": "f17a50746d843f7c7e77b31c5e81d0ade67b8107"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/5ea89b9eb2e5c824b89e9ff012b34f5807a23531",
-				"reference": "5ea89b9eb2e5c824b89e9ff012b34f5807a23531",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/f17a50746d843f7c7e77b31c5e81d0ade67b8107",
+				"reference": "f17a50746d843f7c7e77b31c5e81d0ade67b8107",
 				"shasum": ""
 			},
 			"require": {
@@ -2248,6 +2500,7 @@
 				"phpunit/phpunit": "~9.0",
 				"szepeviktor/phpstan-wordpress": "^0.6.0"
 			},
+			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -2278,10 +2531,10 @@
 			"description": "Add a eHerkenning login field to GravityForms",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.5",
+				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/feat/modal",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
 			},
-			"time": "2023-11-27T12:22:58+00:00"
+			"time": "2023-11-16T20:18:22+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -2289,12 +2542,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c"
+				"reference": "6cf7dc1be1f2159e8fe4cd699bdedc81326706eb"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c",
-				"reference": "4dd9cec70b2cba4e8426dd07b53f7a67d9bd684c",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/6cf7dc1be1f2159e8fe4cd699bdedc81326706eb",
+				"reference": "6cf7dc1be1f2159e8fe4cd699bdedc81326706eb",
 				"shasum": ""
 			},
 			"require": {
@@ -2340,7 +2593,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/remove-enable-u-add-individual-service-urls",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2023-10-24T16:38:51+00:00"
+			"time": "2023-11-02T07:12:17+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -2404,16 +2657,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.0.17",
+			"version": "v1.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "a4b5387c7edd31b857811d5d6341231d8b129c02"
+				"reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/a4b5387c7edd31b857811d5d6341231d8b129c02",
-				"reference": "a4b5387c7edd31b857811d5d6341231d8b129c02",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
+				"reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
 				"shasum": ""
 			},
 			"require": {
@@ -2455,10 +2708,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.0.17",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2023-10-23T10:21:56+00:00"
+			"time": "2023-11-03T12:51:38+00:00"
 		},
 		{
 			"name": "plugin/real-time-validation-for-gravity-forms",
@@ -2485,6 +2738,72 @@
 				"issues": "https://github.com/yardinternet/real-time-validation-for-gravity-forms/issues"
 			},
 			"time": "2020-03-30T06:32:06+00:00"
+		},
+		{
+			"name": "plugin/signicat-openid",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-signicat-openid.git",
+				"reference": "3f2beb132c73ee2e6c399acb024b4e5881f43787"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-signicat-openid/zipball/3f2beb132c73ee2e6c399acb024b4e5881f43787",
+				"reference": "3f2beb132c73ee2e6c399acb024b4e5881f43787",
+				"shasum": ""
+			},
+			"require": {
+				"aura/session": "^2.1",
+				"jumbojett/openid-connect-php": "^0.9.10",
+				"php": "^7.4|^8.0",
+				"php-di/php-di": "^6.0",
+				"rspeekenbrink/monolog-microsoft-teams": "^1.0"
+			},
+			"require-dev": {
+				"friendsofphp/php-cs-fixer": "^2.0",
+				"phpunit/phpunit": "~9.0",
+				"szepeviktor/phpstan-wordpress": "^1.1"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"autoload": {
+				"psr-4": {
+					"SignicatOpenID\\": "./src"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"SignicatOpenID\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"format": [ "./vendor/bin/php-cs-fixer fix" ],
+				"phpstan": [
+					"./vendor/bin/phpstan analyse --no-progress  --memory-limit 500M"
+				],
+				"test": [ "@unit" ],
+				"unit": [
+					"clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
+				],
+				"unit-coverage": [
+					"clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
+				],
+				"package": [ "chmod +x ./bin/package.sh && ./bin/package.sh" ]
+			},
+			"authors": [
+				{
+					"name": "Yard | Digital Agency",
+					"email": "info@yard.nl",
+					"homepage": "https://www.yard.nl"
+				}
+			],
+			"description": "Signicat OpenID",
+			"support": {
+				"source": "https://github.com/yardinternet/plugin-signicat-openid/tree/main",
+				"issues": "https://github.com/yardinternet/plugin-signicat-openid/issues"
+			},
+			"time": "2023-11-01T14:08:08+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -3113,16 +3432,16 @@
 		},
 		{
 			"name": "symfony/http-foundation",
-			"version": "v5.4.28",
+			"version": "v5.4.31",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/http-foundation.git",
-				"reference": "365992c83a836dfe635f1e903ccca43ee03d3dd2"
+				"reference": "f84fd4fd8311a541ceb2ae3f257841d002450a90"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/http-foundation/zipball/365992c83a836dfe635f1e903ccca43ee03d3dd2",
-				"reference": "365992c83a836dfe635f1e903ccca43ee03d3dd2",
+				"url": "https://api.github.com/repos/symfony/http-foundation/zipball/f84fd4fd8311a541ceb2ae3f257841d002450a90",
+				"reference": "f84fd4fd8311a541ceb2ae3f257841d002450a90",
 				"shasum": ""
 			},
 			"require": {
@@ -3165,7 +3484,7 @@
 			"description": "Defines an object-oriented layer for the HTTP specification",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/http-foundation/tree/v5.4.28"
+				"source": "https://github.com/symfony/http-foundation/tree/v5.4.31"
 			},
 			"funding": [
 				{
@@ -3181,7 +3500,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2023-08-21T07:23:18+00:00"
+			"time": "2023-11-06T22:05:57+00:00"
 		},
 		{
 			"name": "symfony/polyfill-ctype",
@@ -3558,16 +3877,16 @@
 		},
 		{
 			"name": "symfony/translation",
-			"version": "v5.4.24",
+			"version": "v5.4.31",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/translation.git",
-				"reference": "de237e59c5833422342be67402d487fbf50334ff"
+				"reference": "ba72f72fceddf36f00bd495966b5873f2d17ad8f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/translation/zipball/de237e59c5833422342be67402d487fbf50334ff",
-				"reference": "de237e59c5833422342be67402d487fbf50334ff",
+				"url": "https://api.github.com/repos/symfony/translation/zipball/ba72f72fceddf36f00bd495966b5873f2d17ad8f",
+				"reference": "ba72f72fceddf36f00bd495966b5873f2d17ad8f",
 				"shasum": ""
 			},
 			"require": {
@@ -3629,7 +3948,7 @@
 			"description": "Provides tools to internationalize your application",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/translation/tree/v5.4.24"
+				"source": "https://github.com/symfony/translation/tree/v5.4.31"
 			},
 			"funding": [
 				{
@@ -3645,7 +3964,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2023-05-19T12:34:17+00:00"
+			"time": "2023-11-03T16:16:43+00:00"
 		},
 		{
 			"name": "symfony/translation-contracts",
@@ -4046,15 +4365,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/pronamic-ideal",
-			"version": "9.5.1",
+			"version": "9.6.3",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-				"reference": "tags/9.5.1"
+				"reference": "tags/9.6.3"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.5.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.3.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -4118,11 +4437,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.2.1.1",
+			"version": "6.2.3",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.1.1",
-				"shasum": "3bb77d3a9df8cc1f909e7a8f2b9404124b5879a1"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.3",
+				"shasum": "775f2d7788ac43858689757111fb58f8d950431c"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -4213,11 +4532,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.7.15.1",
+			"version": "2.7.17.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.7.15.1",
-				"shasum": "befa0469055cb5452a0587196997ee6209785567"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.7.17.1",
+				"shasum": "5c8134f11a56aa9841eec61f66a43574892d4201"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -4869,16 +5188,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.35.1",
+			"version": "v3.38.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "ec1ccc264994b6764882669973ca435cf05bab08"
+				"reference": "d872cdd543797ade030aaa307c0a4954a712e081"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/ec1ccc264994b6764882669973ca435cf05bab08",
-				"reference": "ec1ccc264994b6764882669973ca435cf05bab08",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d872cdd543797ade030aaa307c0a4954a712e081",
+				"reference": "d872cdd543797ade030aaa307c0a4954a712e081",
 				"shasum": ""
 			},
 			"require": {
@@ -4946,7 +5265,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.35.1"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.2"
 			},
 			"funding": [
 				{
@@ -4954,7 +5273,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2023-10-12T13:47:26+00:00"
+			"time": "2023-11-14T00:19:22+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -7566,16 +7885,16 @@
 		},
 		{
 			"name": "symfony/yaml",
-			"version": "v5.4.23",
+			"version": "v5.4.31",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/yaml.git",
-				"reference": "4cd2e3ea301aadd76a4172756296fe552fb45b0b"
+				"reference": "f387675d7f5fc4231f7554baa70681f222f73563"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/yaml/zipball/4cd2e3ea301aadd76a4172756296fe552fb45b0b",
-				"reference": "4cd2e3ea301aadd76a4172756296fe552fb45b0b",
+				"url": "https://api.github.com/repos/symfony/yaml/zipball/f387675d7f5fc4231f7554baa70681f222f73563",
+				"reference": "f387675d7f5fc4231f7554baa70681f222f73563",
 				"shasum": ""
 			},
 			"require": {
@@ -7615,7 +7934,7 @@
 			"description": "Loads and dumps YAML files",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/yaml/tree/v5.4.23"
+				"source": "https://github.com/symfony/yaml/tree/v5.4.31"
 			},
 			"funding": [
 				{
@@ -7631,7 +7950,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2023-04-23T19:33:36+00:00"
+			"time": "2023-11-03T14:41:28+00:00"
 		},
 		{
 			"name": "theseer/tokenizer",
@@ -7720,7 +8039,9 @@
 	"minimum-stability": "stable",
 	"stability-flags": {
 		"plugin/formio-wordpress": 20,
+		"plugin/owc-gravityforms-eherkenning": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/signicat-openid": 20,
 		"privacybydesign/irma-wp": 20,
 		"deployer/recipes": 20
 	},
