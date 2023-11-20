@@ -1,9 +1,8 @@
 // Version 0.1.0-alpha.164
 .denhaag-sidenav {
-	display: var( --denhaag-sidenav-display );
+	display: flex;
 	min-width: var( --denhaag-sidenav-min-width );
-	flex-direction: var( --denhaag-sidenav-flex-direction );
-	row-gap: var( --denhaag-sidenav-row-gap );
+	flex-direction: column;
 }
 
 @media ( width <= 767px ) {
@@ -31,10 +30,6 @@
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-
-	// font-family: var( --denhaag-sidenav-item-font-family, sans-serif );
-	// font-size: var( --denhaag-sidenav-item-font-size );
-	// font-weight: var( --denhaag-sidenav-item-font-weight, normal );
 	line-height: 1.5;
 }
 
@@ -54,11 +49,6 @@
 .denhaag-sidenav__link--hover {
 	color: var( --denhaag-sidenav-link-hover-color );
 	cursor: pointer;
-}
-
-.denhaag-sidenav__link:focus-visible,
-.denhaag-sidenav__link--focus {
-	outline: var( --denhaag-focus-border );
 }
 
 .denhaag-sidenav__link--current {
