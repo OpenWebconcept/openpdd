@@ -102,7 +102,7 @@
 		"plugin/gravityforms-csp-fixer": "^0.0.2",
 		"plugin/owc-datab": "0.0.*",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
-		"plugin/owc-gravityforms-digid": "1.1.7",
+		"plugin/owc-gravityforms-digid": "1.1.*",
 		"plugin/owc-gravityforms-eherkenning": "^1.0.0",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-master",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
