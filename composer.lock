@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "28b843499d776e30ebbaedccad58f727",
+    "content-hash": "3670efae8b2e8faa47405ae17c9aac04",
     "packages": [
         {
             "name": "aura/session",
@@ -2371,16 +2371,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "b7edac08f006f22753d817acd1a98c673067b65f"
+                "reference": "498bc66b1812bc2aaf7e54829b50d63c1f179887"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/b7edac08f006f22753d817acd1a98c673067b65f",
-                "reference": "b7edac08f006f22753d817acd1a98c673067b65f",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/498bc66b1812bc2aaf7e54829b50d63c1f179887",
+                "reference": "498bc66b1812bc2aaf7e54829b50d63c1f179887",
                 "shasum": ""
             },
             "require": {
@@ -2435,10 +2435,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.2",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.3",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2023-11-21T14:53:08+00:00"
+            "time": "2023-11-22T09:51:20+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
@@ -8335,5 +8335,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
