@@ -2034,16 +2034,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v1.1.2",
+            "version": "v1.1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "89f5728a8f3cd554249ab19b209084fc918d66ac"
+                "reference": "223669dca8809bab1d79fd70162e3c46e4ec4a7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/89f5728a8f3cd554249ab19b209084fc918d66ac",
-                "reference": "89f5728a8f3cd554249ab19b209084fc918d66ac",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/223669dca8809bab1d79fd70162e3c46e4ec4a7f",
+                "reference": "223669dca8809bab1d79fd70162e3c46e4ec4a7f",
                 "shasum": ""
             },
             "require": {
@@ -2097,10 +2097,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.1.2",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.1.3",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-11-14T13:55:53+00:00"
+            "time": "2023-11-27T14:23:58+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
