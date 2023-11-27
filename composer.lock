@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3eeb1c96dcc9ba5ea43342ef8ea4c9ee",
+    "content-hash": "83be62250050455c0b39c16bc6d161ce",
     "packages": [
         {
             "name": "aura/session",
@@ -2371,16 +2371,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "b204fdf1aa80a6f94b87b795680fe10d91fc79eb"
+                "reference": "5ea89b9eb2e5c824b89e9ff012b34f5807a23531"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/b204fdf1aa80a6f94b87b795680fe10d91fc79eb",
-                "reference": "b204fdf1aa80a6f94b87b795680fe10d91fc79eb",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/5ea89b9eb2e5c824b89e9ff012b34f5807a23531",
+                "reference": "5ea89b9eb2e5c824b89e9ff012b34f5807a23531",
                 "shasum": ""
             },
             "require": {
@@ -2435,10 +2435,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.4",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.5",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2023-11-22T16:22:55+00:00"
+            "time": "2023-11-27T12:22:58+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
