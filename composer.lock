@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "db16867cc6749d13a93a3a58f813089c",
+	"content-hash": "b1999acd344841a293e14fb6c5fc5322",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2405,16 +2405,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "v1.1.7",
+			"version": "v1.2.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-				"reference": "7920e011a3e5a3d92334975998c0bc6391332fb1"
+				"reference": "8c684fb863e7c687990ca41cb772750b520309a4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/7920e011a3e5a3d92334975998c0bc6391332fb1",
-				"reference": "7920e011a3e5a3d92334975998c0bc6391332fb1",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/8c684fb863e7c687990ca41cb772750b520309a4",
+				"reference": "8c684fb863e7c687990ca41cb772750b520309a4",
 				"shasum": ""
 			},
 			"require": {
@@ -2464,23 +2464,23 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.1.7",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.2.0",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2023-10-24T09:18:51+00:00"
+			"time": "2023-11-24T07:52:30+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
-			"version": "dev-master",
+			"version": "v1.0.5",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-				"reference": "f17a50746d843f7c7e77b31c5e81d0ade67b8107"
+				"reference": "5ea89b9eb2e5c824b89e9ff012b34f5807a23531"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/f17a50746d843f7c7e77b31c5e81d0ade67b8107",
-				"reference": "f17a50746d843f7c7e77b31c5e81d0ade67b8107",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/5ea89b9eb2e5c824b89e9ff012b34f5807a23531",
+				"reference": "5ea89b9eb2e5c824b89e9ff012b34f5807a23531",
 				"shasum": ""
 			},
 			"require": {
@@ -2500,7 +2500,6 @@
 				"phpunit/phpunit": "~9.0",
 				"szepeviktor/phpstan-wordpress": "^0.6.0"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -2531,10 +2530,10 @@
 			"description": "Add a eHerkenning login field to GravityForms",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/feat/modal",
+				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.5",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
 			},
-			"time": "2023-11-16T20:18:22+00:00"
+			"time": "2023-11-27T12:22:58+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -8039,7 +8038,6 @@
 	"minimum-stability": "stable",
 	"stability-flags": {
 		"plugin/formio-wordpress": 20,
-		"plugin/owc-gravityforms-eherkenning": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/signicat-openid": 20,
 		"privacybydesign/irma-wp": 20,
