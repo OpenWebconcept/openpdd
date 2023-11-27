@@ -2562,7 +2562,6 @@
 				"phpunit/phpunit": "~9.0",
 				"szepeviktor/phpstan-wordpress": "^0.6.0"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -8158,7 +8157,6 @@
 	"minimum-stability": "stable",
 	"stability-flags": {
 		"plugin/formio-wordpress": 20,
-		"plugin/owc-gravityforms-eherkenning": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/signicat-openid": 20,
 		"privacybydesign/irma-wp": 20,
