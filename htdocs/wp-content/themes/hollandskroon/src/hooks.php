@@ -190,7 +190,7 @@ add_filter('gplc_pre_render_choice', function ($choice, $exceededLimit, $field, 
  */
 add_filter('get_custom_logo', function () {
     $custom_logo_id = get_theme_mod('custom_logo'); // The logo
-    $site_url = 'hollandskroon.nl';
+    $site_url = 'https://www.hollandskroon.nl/';
 
     if ($custom_logo_id) {
         // Attr
