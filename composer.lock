@@ -2442,16 +2442,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-                "reference": "a549be733c99aa5c7ae2585e847f31b3a131cb1b"
+                "reference": "47e42d03844728324ba6bd9d7c7ac47e2a641453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/a549be733c99aa5c7ae2585e847f31b3a131cb1b",
-                "reference": "a549be733c99aa5c7ae2585e847f31b3a131cb1b",
+                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/47e42d03844728324ba6bd9d7c7ac47e2a641453",
+                "reference": "47e42d03844728324ba6bd9d7c7ac47e2a641453",
                 "shasum": ""
             },
             "require": {
@@ -2497,10 +2497,10 @@
             ],
             "description": "Yard | KVK Prefill GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.0.1",
+                "source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.0.2",
                 "issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
             },
-            "time": "2023-11-27T15:44:15+00:00"
+            "time": "2023-11-29T09:15:27+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
