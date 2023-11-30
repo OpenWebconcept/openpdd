@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d74f3325300f59c34b3fdcd5919676f6",
+    "content-hash": "f495d4793a6b269343c62a92b795d3d7",
     "packages": [
         {
             "name": "aura/session",
@@ -2371,16 +2371,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.0.6",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "576cf46a86ac5ec822bc187d58f00cc472b30d9b"
+                "reference": "b4b0d5292b3afb1da50f7ee2bcfb338733bd51f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/576cf46a86ac5ec822bc187d58f00cc472b30d9b",
-                "reference": "576cf46a86ac5ec822bc187d58f00cc472b30d9b",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/b4b0d5292b3afb1da50f7ee2bcfb338733bd51f7",
+                "reference": "b4b0d5292b3afb1da50f7ee2bcfb338733bd51f7",
                 "shasum": ""
             },
             "require": {
@@ -2435,10 +2435,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.6",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.7",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2023-11-28T08:33:43+00:00"
+            "time": "2023-11-30T11:48:31+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
