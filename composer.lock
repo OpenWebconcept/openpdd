@@ -2441,16 +2441,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.0.8",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "29e0558d94425142d9f0e24605d2d00234654e44"
+                "reference": "2a92aab4fa619c4851a179b3d323af408cc39b41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/29e0558d94425142d9f0e24605d2d00234654e44",
-                "reference": "29e0558d94425142d9f0e24605d2d00234654e44",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/2a92aab4fa619c4851a179b3d323af408cc39b41",
+                "reference": "2a92aab4fa619c4851a179b3d323af408cc39b41",
                 "shasum": ""
             },
             "require": {
@@ -2505,10 +2505,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.8",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.0.9",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2023-12-05T14:19:37+00:00"
+            "time": "2023-12-05T15:04:07+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
