@@ -82,6 +82,22 @@ get_template_part('mijn-zaken/header');
 					<?php endif; ?>
 				</ol>
 			</div>
+			<?php if ($zaak->informationObjects() && $zaak->informationObjects()->count() > 0): ?>
+				<div class="zaak-documents">
+					<h3>Documenten</h3>
+					<ul>
+						<?php foreach ($zaak->informationObjects() as $document) : ?>
+							<?php if (! empty($document->informatieobject->downloadUrl())) : ?>
+								<li>
+									<a href="<?= $document->informatieobject->downloadUrl(); ?>">
+										<?= $document->informatieobject->fileName(); ?> <?php if ($document->informatieobject->sizeFormatted()): ?>(<?= $document->informatieobject->sizeFormatted(); ?>) <?php endif ?>
+									</a>
+								</li>
+							<?php endif ?>
+						<?php endforeach; ?>
+					</ul>
+				</div>
+			<?php endif ?>
 			<?php else : ?>
 				<div class="zaak-header">
 					<h1 class="zaak-header-title">Er ging iets fout..</h1>
