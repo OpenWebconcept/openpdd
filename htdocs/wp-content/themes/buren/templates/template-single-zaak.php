@@ -20,25 +20,38 @@ get_template_part('mijn-zaken/header');
 			</div>
 			<div class="zaak-details">
 				<h2>Details</h2>
-				<table class="zaak-details-table">
-					<tr>
-						<th>Registratiedatum</th>
-						<td><?php echo $zaak->registerDate('j F Y'); ?> </td>
-						<td><a href="#">Bekijk originele aanvraag</a></td>
-					</tr>
-					<tr>
-						<th>Startdatum</th>
-						<td><?php echo $zaak->startDate('j F Y'); ?></td>
-					</tr>
-					<tr>
-						<th>Zaaknummer</th>
-						<td><?php echo $zaak->identificatie; ?></td>
-					</tr>
-					<tr>
-						<th>Status</th>
-						<td><?php echo $zaak->statusExplanation() ?: 'Onbekend'; ?></td>
-					</tr>
-				</table>
+				<div class="table-responsive">
+					<table class="table zaak-details-table">
+						<?php if (! empty($zaak->registerDate('j F Y'))) : ?>
+							<tr>
+								<th>Registratiedatum</th>
+								<td><?php echo $zaak->registerDate('j F Y'); ?> </td>
+								<td><a href="#">Bekijk originele aanvraag</a></td>
+							</tr>
+						<?php endif; ?>
+
+						<?php if (! empty($zaak->startDate('j F Y'))) : ?>
+							<tr>
+								<th>Startdatum</th>
+								<td><?php echo $zaak->startDate('j F Y'); ?></td>
+							</tr>
+						<?php endif; ?>
+
+						<?php if (! empty($zaak->identificatie)) : ?>
+							<tr>
+								<th>Zaaknummer</th>
+								<td><?php echo $zaak->identificatie; ?></td>
+							</tr>
+						<?php endif; ?>
+
+						<?php if (! empty($zaak->statusExplanation())) : ?>
+							<tr>
+								<th>Status</th>
+								<td><?php echo $zaak->statusExplanation(); ?></td>
+							</tr>
+						<?php endif; ?>
+					</table>
+				</div>
 			</div>
 			<div class="zaak-process">
 				<h2>Status</h2>
