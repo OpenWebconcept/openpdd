@@ -87,9 +87,9 @@ get_template_part('mijn-zaken/header');
 					<h3>Documenten</h3>
 					<ul>
 						<?php foreach ($zaak->informationObjects() as $document) : ?>
-							<?php if (! empty($document->informatieobject->downloadUrl())) : ?>
+							<?php if (! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
 								<li>
-									<a href="<?= $document->informatieobject->downloadUrl(); ?>">
+									<a href="<?= $document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')); ?>">
 										<?= $document->informatieobject->fileName(); ?> <?php if ($document->informatieobject->sizeFormatted()): ?>(<?= $document->informatieobject->sizeFormatted(); ?>) <?php endif ?>
 									</a>
 								</li>
