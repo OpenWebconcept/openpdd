@@ -1,0 +1,11 @@
+.page-template-template-single-zaak {
+	.zaak-details-table {
+		font-size: $small-font-size;
+		hyphens: auto;
+		word-break: break-word;
+
+		@include media-breakpoint-up( lg ) {
+			font-size: $font-size-base;
+		}
+	}
+}
