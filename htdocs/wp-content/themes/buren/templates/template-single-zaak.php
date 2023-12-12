@@ -24,7 +24,6 @@ get_template_part('mijn-zaken/header');
 					<tr>
 						<th>Registratiedatum</th>
 						<td><?php echo $zaak->registerDate('j F Y'); ?> </td>
-						<td><a href="#">Bekijk originele aanvraag</a></td>
 					</tr>
 					<tr>
 						<th>Startdatum</th>
