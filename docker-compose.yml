@@ -52,5 +52,20 @@ services:
     volumes:
       - ./bedrock:/var/www/html:rw,cached
 
+  wpcli:
+    image: wordpress:cli
+    volumes:
+        - ./bedrock:/var/www/html:rw,cached
+        - ./docker/wordpress/php.ini:/usr/local/etc/php/conf.d/php.ini
+    depends_on:
+      - mysql
+      - wordpress
+    environment:
+      - WORDPRESS_DB_HOST=mysql
+      - WORDPRESS_DB_NAME=openpdd
+      - WORDPRESS_DB_PASSWORD=password
+      - WORDPRESS_TABLE_PREFIX=wp_
+      - WP_CLI_ALLOW_ROOT=true
+
 volumes:
   openpdd-mysql:
