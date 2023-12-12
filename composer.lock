@@ -2785,12 +2785,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "a7575f6ae8747ab1dbec6852fc341eb85f619cfc"
+                "reference": "96ebcda290d1d5d2a501c28e3cf6776e3d61bf6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/a7575f6ae8747ab1dbec6852fc341eb85f619cfc",
-                "reference": "a7575f6ae8747ab1dbec6852fc341eb85f619cfc",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/96ebcda290d1d5d2a501c28e3cf6776e3d61bf6a",
+                "reference": "96ebcda290d1d5d2a501c28e3cf6776e3d61bf6a",
                 "shasum": ""
             },
             "require": {
@@ -2841,7 +2841,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-12-12T13:44:26+00:00"
+            "time": "2023-12-12T14:15:35+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
