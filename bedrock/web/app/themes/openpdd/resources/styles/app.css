@@ -15,3 +15,7 @@
 @import 'nlds/denhaag/dot-indicator';
 @import 'nlds/denhaag/icon';
 @import 'nlds/denhaag/sidenav';
+
+/* Layouts */
+@imports 'layouts/template-single-zaak';
+

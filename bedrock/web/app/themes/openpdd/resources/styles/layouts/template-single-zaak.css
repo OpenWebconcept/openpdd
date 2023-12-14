@@ -1,0 +1,68 @@
+.zaak-details-table {
+	font-size: var(--small-font-size);
+	hyphens: auto;
+	word-break: break-word;
+}
+
+@media (min-width: 992px) {
+	.zaak-details-table {
+		font-size: var(--font-size-base);
+	}
+}
+
+.zaak-documents {
+	display: grid;
+	padding-left: 0;
+	margin-bottom: 0;
+	gap: 1rem;
+	list-style: none;
+}
+
+@media (min-width: 992px) {
+	.zaak-documents {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+.zaak-documents-item {
+	display: flex;
+	align-items: center;
+	border: 1px solid var(--grey-3, #7a7a7a);
+	background: var(--warm-grey-1, #f8f7f5);
+	break-inside: avoid-column;
+	line-height: 1.5;
+}
+
+.zaak-documents-item-icon {
+	width: 56px;
+}
+
+.zaak-documents-item-link {
+	display: flex;
+	height: 100%;
+	flex: 1 0 0;
+	flex-direction: column;
+	padding: var(--spacings-spacing-3, 0.75rem) 1rem;
+	background-color: var(--white, #ffffff);
+	color: var(--grey-4, #4b4b4b);
+	gap: 0.25rem;
+	text-decoration: none;
+	position: relative;
+}
+
+.zaak-documents-item-link::after {
+	position: absolute;
+	inset: 0;
+}
+
+.zaak-documents-item-link:hover,
+.zaak-documents-item-link:focus {
+	text-decoration: none;
+}
+
+.zaak-documents-item-download-button {
+	display: flex;
+	align-items: center;
+	color: var(--secondary-400, theme-color('primary'));
+	gap: 0.25rem;
+}
