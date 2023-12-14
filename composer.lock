@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2398361d6c333ea3884edbbdea895cc8",
+    "content-hash": "2d38bd5e864c37ba3e2bc19afcd4eaae",
     "packages": [
         {
             "name": "aura/session",
@@ -2909,16 +2909,16 @@
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "v1.1",
+            "version": "dev-feat/dynamic-prefill-block",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3"
+                "reference": "85bb4ddd206a6963f052505fa28292d30d31dcb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
-                "reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/85bb4ddd206a6963f052505fa28292d30d31dcb7",
+                "reference": "85bb4ddd206a6963f052505fa28292d30d31dcb7",
                 "shasum": ""
             },
             "require": {
@@ -2964,10 +2964,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.1",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/dynamic-prefill-block",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-11-03T12:51:38+00:00"
+            "time": "2023-12-14T15:11:08+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -8733,6 +8733,7 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/prefill-gravity-forms": 20,
         "plugin/signicat-openid": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
@@ -8744,5 +8745,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
