@@ -2,14 +2,10 @@
 
 declare(strict_types=1);
 
-if (is_user_logged_in()) : ?>
-    <?php
-    $current_user = wp_get_current_user();
-    $first_name = $current_user->first_name ? $current_user->first_name : $current_user->user_login;
-    ?>
+if (method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN()) : ?>
     <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle white-space-nowrap" aria-expanded="false" aria-haspopup="true">
-            <?php echo esc_html($first_name); ?>
+            <?php echo do_blocks('<!-- wp:prefill-gravity-forms/personal-data-row {"selectedOption":{"value":"naam.voornaam","label":"Voornamen"}, "htmlElement":"span"} /-->') ?>
         </button>
         <div class="shadow dropdown-menu dropdown-menu-right" aria-hidden="true">
             <div class="dropdown-item d-flex justify-content-between align-items-center font-weight-bold text-dark text-decoration-none mb-2" href="<?php echo home_url('/overzicht'); ?>">
