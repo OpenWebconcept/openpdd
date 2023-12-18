@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec65da0ab3f4d94bb56c256e93f7b1b7",
+    "content-hash": "2b690860a78ab51ad1c01271f13c8c53",
     "packages": [
         {
             "name": "aura/session",
@@ -2373,16 +2373,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "dev-main",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "3937b9a9d9a9ce5acf0313cbf8f7481bb466e782"
+                "reference": "9a2226a4df2b23c000c60d22d1868d7944bd26ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/3937b9a9d9a9ce5acf0313cbf8f7481bb466e782",
-                "reference": "3937b9a9d9a9ce5acf0313cbf8f7481bb466e782",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/9a2226a4df2b23c000c60d22d1868d7944bd26ca",
+                "reference": "9a2226a4df2b23c000c60d22d1868d7944bd26ca",
                 "shasum": ""
             },
             "require": {
@@ -2396,7 +2396,6 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^1.1"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2437,10 +2436,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/main",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.2.0",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2023-12-15T14:54:30+00:00"
+            "time": "2023-12-18T09:40:15+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -8733,7 +8732,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
-        "plugin/gravityforms-amp-booking": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
         "plugin/prefill-gravity-forms": 20,
         "plugin/signicat-openid": 20,
