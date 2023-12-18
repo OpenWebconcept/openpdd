@@ -1,0 +1,42 @@
+// Not wanting to use the whole NLDS (100kb+ of tokens, zipped), we only use the tokens we need.
+:root {
+	--denhaag-color-red-3: hsl( 6 93% 42% );
+	--denhaag-color-grey-1: hsl( 0 0% 95% );
+	--denhaag-color-grey-4: hsl( 0 0% 29% );
+	--denhaag-color-green-3: hsl( 138 58% 33% );
+	--denhaag-border-radius: 3px;
+	--denhaag-typography-scale-s-font-size: 0.875rem;
+	--denhaag-typography-weight-bold: 700;
+
+	// Dot indicator
+	--denhaag-dot-indicator-size: 12px;
+	--denhaag-dot-indicator-border-size: 2px;
+	--denhaag-dot-indicator-background-color: var( --denhaag-color-red-3 );
+
+	// Badge-counter
+	--utrecht-badge-counter-border-radius: var( --denhaag-border-radius );
+	--utrecht-badge-border-radius: var( --denhaag-border-radius );
+	--utrecht-badge-counter-background-color: var( --denhaag-color-grey-1 );
+	--utrecht-badge-counter-color: var( --denhaag-color-grey-4 );
+	--utrecht-badge-counter-padding-block: 5px;
+	--utrecht-badge-padding-block: 6px;
+	--utrecht-badge-counter-padding-inline: 6px;
+	--utrecht-badge-padding-inline: 8px;
+	--utrecht-badge-counter-font-size: var(
+		--denhaag-typography-scale-s-font-size
+	);
+
+	// Sidenav
+	--denhaag-sidenav-min-width: 14.5rem;
+	--denhaag-sidenav-mobile-display: none;
+	--denhaag-sidenav-list-child-margin-inline-start: 24px;
+	--denhaag-sidenav-link-color: var( --denhaag-color-grey-4 );
+	--denhaag-sidenav-link-padding-block-end: 12px;
+	--denhaag-sidenav-link-padding-block-start: 12px;
+	--denhaag-sidenav-link-hover-color: var( --denhaag-color-green-3 );
+	--denhaag-sidenav-link-active-color: var( --denhaag-color-green-3 );
+	--denhaag-sidenav-link-active-font-weight: var(
+		--denhaag-typography-weight-bold
+	);
+	--denhaag-sidenav-link-child-padding-inline-start: 16px;
+}

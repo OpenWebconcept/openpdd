@@ -1,0 +1,63 @@
+.zaak-details-table {
+	font-size: $small-font-size;
+	hyphens: auto;
+	word-break: break-word;
+
+	@include media-breakpoint-up( lg ) {
+		font-size: $font-size-base;
+	}
+}
+
+.zaak-documents {
+	display: grid;
+	padding-left: 0;
+	margin-bottom: 0;
+	gap: 1rem;
+	list-style: none;
+
+	@include media-breakpoint-up( lg ) {
+		grid-template-columns: repeat( 2, 1fr );
+	}
+
+	&-item {
+		display: flex;
+		align-items: center;
+		border: 1px solid var( --grey-3, #7a7a7a );
+		background: var( --warm-grey-1, #f8f7f5 );
+		break-inside: avoid-column;
+		line-height: 1.5;
+	}
+
+	&-item-icon {
+		width: 56px;
+	}
+
+	&-item-link {
+		display: flex;
+		height: 100%;
+		flex: 1 0 0;
+		flex-direction: column;
+		padding: var( --spacings-spacing-3, 0.75rem ) 1rem;
+		background-color: var( --white, $white );
+		color: var( --grey-4, #4b4b4b );
+		gap: 0.25rem;
+		text-decoration: none;
+
+		&::after {
+			position: absolute;
+			inset: 0;
+		}
+
+		&:hover,
+		&:focus {
+			text-decoration: none;
+		}
+	}
+
+	&-item-download-button {
+		display: flex;
+		align-items: center;
+		color: var( --secondary-400, theme-color( 'primary' ) );
+		gap: 0.25rem;
+	}
+}

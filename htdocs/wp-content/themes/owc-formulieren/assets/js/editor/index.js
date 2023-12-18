@@ -5,3 +5,4 @@ import './tasks';
 import './affairs';
 import './news';
 import './personal-heading';
+import './block-styles';

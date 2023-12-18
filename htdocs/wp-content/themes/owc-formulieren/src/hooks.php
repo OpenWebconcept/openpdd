@@ -46,8 +46,16 @@ add_filter('lv_default_error_messages', function ($default_messages) {
  */
 add_filter('gform_incomplete_submissions_expiration_days', function ($expiration_days) {
     $expiration_days = 7;
+
     return $expiration_days;
 });
+
+/**
+ * Uploads are not protected by default. Let's protect them.
+ */
+add_filter('gform_require_login_pre_download', function () {
+    return true;
+}, 10, 0);
 
 /**
  * Add superuser role
@@ -139,7 +147,7 @@ add_action('after_switch_theme', function () {
     $caps = array_merge($caps, $role->getGravityFormsCaps());
 
     foreach ($caps as $cap) {
-        if (!$role->getRole()->has_cap($cap)) {
+        if (! $role->getRole()->has_cap($cap)) {
             $role->addCap($cap);
         }
     }
@@ -180,14 +188,14 @@ add_action('wp_enqueue_scripts', function () {
 function theme_script_loader_tag($tag, $handle)
 {
     $scripts_to_load = [
-      [
-        ('name')      => 'jquery',
-        ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
-      ],
-      [
-        ('name')      => 'jquery-ui-core',
-        ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
-      ]
+        [
+            ('name')      => 'jquery',
+            ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
+        ],
+        [
+            ('name')      => 'jquery-ui-core',
+            ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
+        ],
     ];
 
     $key = array_search($handle, array_column($scripts_to_load, 'name'));
@@ -198,3 +206,14 @@ function theme_script_loader_tag($tag, $handle)
     return $tag;
 }
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
+
+/**
+ * A11y: add aria-label to custom logo
+ */
+add_filter('get_custom_logo', function ($html) {
+    $blog_name = get_bloginfo('name');
+    $aria_label = 'Home ' . $blog_name;
+    $html = str_replace('<a', '<a aria-label="' . esc_attr($aria_label) . '"', $html);
+
+    return $html;
+});

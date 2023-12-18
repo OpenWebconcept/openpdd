@@ -14,7 +14,7 @@
     <?php if (get_current_blog_id() === env('GGD_SITE_ID', 5)): ?>
         <script src="https://cdn1.readspeaker.com/script/13499/webReader/webReader.js?pids=wr" integrity="sha384-76zFw0GBmiEWCfR6N1FbWYgwoCosY1aGDGeolfEnkhZvVhJ5x7x0562YwAz7ffy+" crossorigin="anonymous"></script>
     <?php else: ?>
-        <script src="https://cdn1.readspeaker.com/script/8150/webReader/webReader.js?pids=wr" integrity="sha384-fSI6639Q1xrU43pEpwyTWDOFknjF3MiUirZTpJybCkMG+lhC1As1I1gyleMJA5j3" crossorigin="anonymous"></script>
+        <script src="https://cdn1.readspeaker.com/script/8150/webReader/webReader.js?pids=wr" integrity="sha384-w4BXfMtezSMOl9gkJQbO/XOEEsevIPJi94+dxNjCi+i8/zKJgTg0p/xaivXR7VFS" crossorigin="anonymous"></script>
     <?php endif; ?>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/brands.min.css" rel="stylesheet">

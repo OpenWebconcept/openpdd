@@ -227,6 +227,13 @@ add_filter('gform_incomplete_submissions_expiration_days', function ($expiration
 });
 
 /**
+ * Uploads are not protected by default. Let's protect them.
+ */
+add_filter('gform_require_login_pre_download', function () {
+    return true;
+}, 10, 0);
+
+/**
  * Add superuser role
  */
 add_action('after_switch_theme', function () {

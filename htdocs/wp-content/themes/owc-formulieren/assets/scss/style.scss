@@ -16,6 +16,7 @@
 --------------------------------------------------------------*/
 @import 'vendor/bootstrap';
 @import 'vendor/owc-gf-digid-toolbar';
+@import 'vendor/owc-gf-eherkenning-toolbar';
 
 /*--------------------------------------------------------------
   Components
@@ -24,6 +25,7 @@
 @import 'components/buttons';
 @import 'components/datepicker';
 @import 'components/digid';
+@import 'components/eherkenning';
 @import 'components/dropdown';
 @import 'components/footer';
 @import 'components/gravityforms';
@@ -43,12 +45,15 @@
   Layouts
 --------------------------------------------------------------*/
 @import 'layouts/template-mijn-zaken';
+@import 'layouts/template-mijn-zaken';
+@import 'layouts/template-single-zaak';
 
 /*--------------------------------------------------------------
   Blocks
 --------------------------------------------------------------*/
 @import 'blocks/tile/shared';
-@import 'nlds/denhaag/tokens';
+//@import 'nlds/denhaag/tokens';
+@import 'nlds/denhaag/tokens-used'; // Not wanting to use the whole NLDS (100kb+ of tokens, zipped), we only use the tokens we need.
 @import 'nlds/denhaag/badge-counter';
 @import 'nlds/denhaag/dot-indicator';
 @import 'nlds/denhaag/icon';
