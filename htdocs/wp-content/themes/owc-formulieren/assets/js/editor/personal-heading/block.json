@@ -2,13 +2,28 @@
 	"name": "theme/personal-heading",
 	"category": "layout",
 	"attributes": {
-		"icon": {
-			"type": "string",
-			"default": "fal fa-envelope"
+		"bgImageMorningId": {
+			"type": "number"
 		},
-		"altText": {
+		"bgImageMorningUrl": {
+			"type": "string"
+		},
+		"bgImageAfternoonId": {
+			"type": "number"
+		},
+		"bgImageAfternoonUrl": {
+			"type": "string"
+		},
+		"bgImageEveningId": {
+			"type": "number"
+		},
+		"bgImageEveningUrl": {
+			"type": "string"
+		},
+		"textContent": {
 			"type": "string",
-			"default": ""
+			"selector": "p"
 		}
 	}
 }
+
