@@ -324,4 +324,7 @@ function theme_script_loader_tag($tag, $handle)
 
     return $tag;
 }
+
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
+
+add_filter('gform_enable_legacy_markup', '__return_true');
