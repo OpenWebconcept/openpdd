@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b690860a78ab51ad1c01271f13c8c53",
+    "content-hash": "d1ed148d22d269f40ac37e8ea27cc0e7",
     "packages": [
         {
             "name": "aura/session",
@@ -2638,16 +2638,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.2.2",
+            "version": "v1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "34f9d2edec072d98380c7b9102c8a52f0ba9b7cd"
+                "reference": "5d9aa95cb33f523017614faddd0f7c6e90613cc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/34f9d2edec072d98380c7b9102c8a52f0ba9b7cd",
-                "reference": "34f9d2edec072d98380c7b9102c8a52f0ba9b7cd",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/5d9aa95cb33f523017614faddd0f7c6e90613cc2",
+                "reference": "5d9aa95cb33f523017614faddd0f7c6e90613cc2",
                 "shasum": ""
             },
             "require": {
@@ -2703,10 +2703,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.2.2",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.3",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2023-12-11T10:24:16+00:00"
+            "time": "2023-12-19T06:46:51+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
@@ -4702,15 +4702,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "8.22.0",
+            "version": "8.23.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/8.22.0"
+                "reference": "tags/8.23.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.22.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.23.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4756,15 +4756,15 @@
         },
         {
             "name": "wpackagist-plugin/pronamic-ideal",
-            "version": "9.6.3",
+            "version": "9.6.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-                "reference": "tags/9.6.3"
+                "reference": "tags/9.6.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5508,9 +5508,6 @@
             },
             "require": {
                 "php": "~7.0"
-            },
-            "replace": {
-                "deployer/recipes": "self.version"
             },
             "require-dev": {
                 "deployer/deployer": "^6.3"
@@ -8745,5 +8742,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
