@@ -2512,16 +2512,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-                "reference": "c1712e28b0a93746ba31559be547e5efcee37b56"
+                "reference": "93ce2f18395f8a6f04034d3306175b946590c09f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/c1712e28b0a93746ba31559be547e5efcee37b56",
-                "reference": "c1712e28b0a93746ba31559be547e5efcee37b56",
+                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/93ce2f18395f8a6f04034d3306175b946590c09f",
+                "reference": "93ce2f18395f8a6f04034d3306175b946590c09f",
                 "shasum": ""
             },
             "require": {
@@ -2567,10 +2567,10 @@
             ],
             "description": "Yard | KVK Prefill GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.0.4",
+                "source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.0.5",
                 "issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
             },
-            "time": "2023-12-06T10:20:24+00:00"
+            "time": "2023-12-20T07:56:46+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
@@ -4441,15 +4441,15 @@
         },
         {
             "name": "wpackagist-plugin/gravity-forms-pdf-extended",
-            "version": "6.7.3",
+            "version": "6.7.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-                "reference": "tags/6.7.3"
+                "reference": "tags/6.7.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.7.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.7.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
