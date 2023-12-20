@@ -56,19 +56,7 @@ module.exports = ( { theme } ) => {
 			// Remove CleanWebpackPlugin otherwise assets will be deleted
 			...defaultConfig.plugins.filter( ( plugin ) => {
 				return ! ( plugin.constructor.name === 'CleanWebpackPlugin' );
-			} ),
-			new CopyPlugin( {
-				patterns: [
-					{
-						from: './node_modules/@fortawesome/fontawesome-pro/webfonts',
-						to: './fontawesome/webfonts',
-					},
-					{
-						from: './node_modules/@fortawesome/fontawesome-pro/css',
-						to: './fontawesome/css',
-					},
-				],
-			} ),
+			} )
 		],
 		optimization: {
 			splitChunks: {

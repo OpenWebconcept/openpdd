@@ -51,6 +51,7 @@
   Blocks
 --------------------------------------------------------------*/
 @import 'blocks/tile/shared';
+@import 'blocks/news/shared';
 
 // @import 'nlds/denhaag/tokens';
 @import 'nlds/denhaag/tokens-used'; // Not wanting to use the whole NLDS (100kb+ of tokens, zipped), we only use the tokens we need.
