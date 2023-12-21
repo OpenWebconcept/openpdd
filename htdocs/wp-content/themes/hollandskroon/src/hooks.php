@@ -404,3 +404,10 @@ function theme_script_loader_tag($tag, $handle)
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
 add_filter('gform_enable_legacy_markup', '__return_true');
+
+/**
+ * Purpose: Display decrypted BSN values exclusively on GF administration pages within the Hollands Kroon theme.
+ * Reason: Vital for Hollands Kroon's processes, as they heavily rely on decrypted BSN values.
+ * Caution: Adding this filter to additional themes carries inherent risks.
+ */
+add_filter('owc_gravityforms_digid_use_value_bsn_decrypted', '__return_true');
