@@ -2369,16 +2369,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.3",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "5d9aa95cb33f523017614faddd0f7c6e90613cc2"
+                "reference": "705dfe827dc7883c52aaa7293ee2ad38b9c72858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/5d9aa95cb33f523017614faddd0f7c6e90613cc2",
-                "reference": "5d9aa95cb33f523017614faddd0f7c6e90613cc2",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/705dfe827dc7883c52aaa7293ee2ad38b9c72858",
+                "reference": "705dfe827dc7883c52aaa7293ee2ad38b9c72858",
                 "shasum": ""
             },
             "require": {
@@ -2434,10 +2434,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.3",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.3.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2023-12-19T06:46:51+00:00"
+            "time": "2023-12-21T12:57:34+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
