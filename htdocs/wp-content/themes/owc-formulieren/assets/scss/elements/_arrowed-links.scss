@@ -1,0 +1,27 @@
+// List styles, WordPress default behaviour on core/list.
+.is-style-arrows {
+	li {
+		&:before {
+			color: var(--primary);
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+// Class added by custom code in this project for paragraphs.
+.openpdd-arrowed-links {
+	a {
+		text-decoration: none;
+
+		&:before {
+			padding-inline-end: 0.5rem;
+			content: "→";
+			scale: 1.1;
+			// Get the styling consistent to the arrowed lists added by WordPress, where the arrow is added to the li.
+			border-bottom: 3px solid white;
+		}
+	}
+}
