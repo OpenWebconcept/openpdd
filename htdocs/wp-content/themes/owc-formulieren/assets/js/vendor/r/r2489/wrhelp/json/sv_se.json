@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:clicklisten] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Klicka på menyalternativet för att slå på eller av detta verktyg. En grön bock visar att det är påslaget. När verktyget är aktivt läser webReader texten i det stycke du klickar på. Det gör att du enkelt kan lyssna på ett stycke utan att först behöva markera texten och sedan klicka på Lyssna-knappen. På mobila enheter använder man verktyget genom att trycka på ett stycke (\"Tryck och lyssna\").<\/p>",
+                "02": "<p>För åtkomst via tangentbord: när verktyget är aktiverat kan du använda vänster-\/högerpilarna för att fokusera på nästa\/föregående avsnitt eller nästa\/föregående stycke i ett avsnitt. Nedåtpilen flyttar ner fokus till ett stycke i avsnittet. Uppåtpilen flyttar tillbaka fokus till ett större avsnitt. Tangenten L börjar spela det fokuserade stycket\/avsnittet. <\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i> Klicka och lyssna"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Flytta fokus till handtaget: [shortcut:detachfocus]<\/p>",
+                "01": "<p>När du skrollar ner på en sida kommer Lyssna-knappen, spelaren och verktygspanelen förflyttas till en ny position för att förbli synlig. Lyssna-knappen kommer nu att visa ett handtag.<br \/><img alt=\"webReaders Lyssnaknapp i flytande läge med synligt handtag för manuell ompositionering.\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>Du kan använda handtaget för att dra Lyssna-knappen, spelaren och menyn till en plats på skärmen där de är som mest lämpliga i förhållande till innehållet som visas. De kommer flyttas tillbaka till den ursprungliga positionen när du skrollar upp igen. De kommer alltid placeras på den plats du senast drog dem till.<\/p>",
+                "03": "<p>(Notera att om det finns flera spelare på en sida kommer en spelare bara förflyttas om den faktiskt är i spelande läge)<\/p>"
+            },
+            "title": "Frikopplad lyssna-knapp, spelare och meny"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>webReaders popup-fönster<\/h2>",
+                "01": "<p>Några av webReaders funktioner, såsom Textläge, Ordbok, Översättning och Inställningar öppnar popup-fönster. Alla webReaders popup-fönster har en uppspelningsknapp [button:player-play] för att lyssna på innehållet som visas. Du kan även ändra textformateringen för att underlätta läsningen för dig.<\/p>",
+                "02": "<p>Du kan:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Spela [button:player-play], pausa [button:player-pause], eller stoppa [button:player-stop] uppspelningen<\/li>",
+                "05": "<li>Göra texten större [button:font-plus] eller mindre [button:font-minus]<\/li>",
+                "06": "<li>Ändra volymen [button:player-volume]<\/li>",
+                "07": "<li>Ändra läshastigheten [button:player-speed]<\/li>",
+                "08": "<li>Använda textinställningsknappen [button:dialog-textsettings] för att anpassa textstorlek, typsnitt, textfärger och radavstånd<\/li>",
+                "09": "<li>Flytta fönstret genom att dra i den gråa listen i toppen<\/li>",
+                "10": "<li>Göra fönstret större eller mindre genom att dra i nedre högra hörnet<\/li>",
+                "11": "<li>Maximera fönsterstorleken [button:dialog-maximise] för en enklare och mer fokuserad läsning<\/li>",
+                "12": "<li>Stänga fönstret med stängningsknappen längst ner eller knappen i övre högra hörnet [button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Alla bilder i detta hjälpverktyg refererar till standardimplementationen av webReader, och stämmer nödvändigtvis inte överens med en implementation av webReader med en anpassad design.<\/p>"
+            },
+            "title": "Friskrivning"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:download] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Klicka för att ladda ned en mp3-fil med uppläsning av sidans innehåll eller den markerade texten.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Ladda ner mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:enlarge] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Klicka på menyalternativet för att slå på eller av detta verktyg. En grön bock visar att det är påslaget. Förstorad text innebär att meningen som läses upp samtidigt visas uppförstorad i nederkanten av webbsidan. Du kan starta, pausa och stoppa ljudet samt justera storleken på den förstorade texten.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Förstorad text"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Aktivera eller inaktivera formReader. Med formReader aktiverad läses onlineformulär, inklusive text du fyller i samt alternativ du väljer i formuläret.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Formulärläsning"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:help] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Hjälpsidan ger dig mer information om de olika funktionerna i ReadSpeaker webReader. Mer information om ReadSpeaker kan du hitta på <a href=\"https:\/\/www.readspeaker.com\" alt=\"Länk till www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Hjälp"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Med ReadSpeaker webReader kan du få texten på en hemsida uppläst för dig, var och när som helst. Detta gör hemsidan mer tillgänglig och det kan bli lättare att förstå informationen på den. Som användare behöver du inte ladda ner någonting för att använda tjänsten.<\/p>"
+            },
+            "title": "Så använder du ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Många av webReaders funktioner kan aktiveras med tangentbordskommandon (kortkommandon). Varje funktion har sitt eget kommando, och du kan ändra dessa i Inställningarna.<\/p>",
+                "01": "<p>Med nuvarande kortkommandon, som de just nu är valda, kan du flytta fokus till webReaders Lyssna-knapp med kommandot [shortcut:playerfocus]. Även kommandot [shortcut:play] flyttar fokus till knappen, och startar dessutom uppspelningen.<\/p>",
+                "02": "<p>Några av de viktiga kortkommandona är:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Flytta fokus till Lyssna-knappen: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Flytta fokus till spelaren och starta läsningen: [shortcut:play]<\/li>",
+                "07": "<li>Flytta fokus till pausknappen, och pausa (eller återuppta) uppläsningen: [shortcut:pause]<\/li>",
+                "08": "<li>Flytta fokus till Stopp-knappen: [shortcut:stop]<\/li>",
+                "09": "<li>Öppna\/stäng menyn: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>När fokus är någonstans i spelaren eller menyn, kan tangenterna tab\/skift+tab användas för att navigera. Tangenterna retur eller mellanslag används för att aktivera en knapp eller ett valalternativ.<\/p>",
+                "13": "<p>Kortkommandona för olika funktioner beskrivs i respektive sektion nedan. Funktioner som återfinns i menyn kan endast aktiveras först efter att menyn har öppnats.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Tangentbordsnavigering"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Lyssna på textinnehållet<\/h2>",
+                "01": "<p>För att lyssna på sidans textinnehåll trycker du på Lyssna-knappen:<br \/><img alt=\"webReaders Lyssnaknapp.\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>En spelare öppnas (se bild nedan) och ReadSpeaker webReader börjar läsa upp texten på sidan.<br \/><img alt=\"webReaders spelare.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>I spelaren kan du: <\/p>",
+                "04": "<ul>",
+                "05": "<li>Pausa [button:player-pause] eller återuppta [button:player-play] uppläsningen<\/li>",
+                "06": "<li>Stoppa uppläsningen [button:player-stop]<\/li>",
+                "07": "<li>Starta om uppläsningen från början [button:player-restart] efter att ljudet stoppats<\/li>",
+                "08": "<li>Spola bakåt [button:player-skipbackward] eller framåt [button:player-skipforward] i ljudet<\/li>",
+                "09": "<li>Justera volymen [button:player-volume]<\/li>",
+                "10": "<li>Justera läshastigheten [button:player-speed]<\/li>",
+                "11": "<li>Stänga spelaren [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Så använder du funktionerna i menyn<\/h2>",
+                "02": "<p>Klicka på knappen [button:player-menu] till vänster i Lyssna-knappen för att öppna menyn (se bild nedan). Där finns flera användbara funktioner som förklaras i respektive sektion.<br \/><img alt=\"webReaders meny.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:pagemask] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Det här verktyget tonar ned hela sidan förutom en upplyst del som följer muspekaren (eller ditt finger på en pekskärm). Detta gör det enklare att fokusera på en liten del av texten åt gången. För att stänga av fokus\/nedtoning, tryck på Escape-tangenten eller klicka på krysset verktygets högra kant. Tryck på plus- eller minustangenterna för att göra fokusområdet större eller mindre.<\/p>",
+                "02": "<p>När fokus\/nedtoning är aktiv, tryck på mellanslagstangenten för att aktivera (eller avaktivera) tangentbordsnavigeringsläget. En liten tangentbordsikon kommer visas strax ovanför fokusområdet när tangentbordsnavigeringsläget är aktivt. För att flytta fokusområdet kan piltangenterna användas (eller shift + piltangent för snabbare navigering). Plus- och minus-tangenterna ändrar fokusområdets storlek.<\/p>",
+                "03": "<p class=\"disclaimer\">Notera: Fokus\/nedtoning är ett rent grafiskt verktyg som kan hjälpa vissa användare att fokusera, men är eventuellt inte lika användbart för personer med nedsatt syn.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Fokus\/nedtoning"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Popup-spelare<\/h2>",
+                "01": "<p class=\"accesskey\">Kortkommando: [shortcut:controlpanel]<\/p>",
+                "02": "<p>Under uppspelning visas en kontrollpanel i nedre högra hörnet av skärmen. Där kan du:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Pausa [button:player-pause] och återuppta [button:player-play] uppläsningen<\/li>",
+                "05": "<li>Spola bakåt [button:player-skipbackward] eller framåt [button:player-skipforward] i ljudet<\/li>",
+                "06": "<li>Slå på eller av automatisk sidskrollning<\/li><br \/><img alt=\"WebReaders popup-spelare.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker kommer att behandla följande personuppgiftskategorier:<br \/> <br \/> 1) ReadSpeakers tjänst webReader behandlar textinnehållet på kundens webbplats  (webbsidesinnehåll) på de sidor där tjänsten utnyttjas. Eftersom tjänsten behandlar information på kundens webbplats, som denne har skapat och publicerat, bör den inte innehålla känsliga personuppgifter.<br\/> <br\/> 2) Som en del av tjänsten har personuppgifter (kundinformation) lagrats i en backend-databas. Lagrade uppgifter utgörs av kundens namn (juridisk person), kontaktperson(er) samt kontaktuppgifter (e-postadress(er). <br \/> <br \/> 3) Beroende på hur kunderna använder sig av tjänsten, kan slutanvändarnas IP-nummer, användaragentsträng och URL, om tjänsterna har aktiverats, komma att registreras i applikationsserverns\/webbserverns loggfil."
+            },
+            "title": "Sekretesspolicy"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Funktioner för markerad text<\/h2>",
+                "01": "<p>När du markerar text på en sida aktiveras en eller fler av funktionerna Lyssna, Ordbok och Översättning. Om något av alternativen inte syns för dig, är det inte tillgänligt på denna sida. <br \/><img alt=\"webReaders Popup-meny som visas vid markering av text.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Läs markerad text<\/h3>",
+                "03": "<p>Om du vill lyssna på någon del av en text markerar du texten och klickar på knappen Lyssna i popup-menyn. <\/p>",
+                "04": "<h3>Ordbok<\/h3>",
+                "05": "<p>Om du vill slå upp ett ord för att få det förklarat markerar du ordet och klickar på alternativet Ordbok i popup-menyn. Ett popup-fönster öppnas med en förklaring av sökordet. Om flera ord har markerats, kommer endast det första ordet förklaras.<\/p>",
+                "06": "<h3>Översättning<\/h3>",
+                "07": "<p>Om du vill översätta någon del av en text markerar du den och klickar på knappen Översättning i popup-menyn. En språkväljare visas, där du kan välja målspråk. Översättningen visas i ett popup-fönster.<\/p>",
+                "08": "<p class=\"disclaimer\">Notera: funktionerna som nämns nedan är endast tillgängliga om du kan markera text på sidan. Det är eventuellt inte möjligt om du enbart använder tangentbordskontroller.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:settings] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Klicka för att anpassa webReader efter dina önskemål. Ett popup-fönster öppnas där du kan justera vissa inställningar som påverkar hur webReader fungerar. Läs om varje inställning nedan. Dina personliga inställningar sparas mellan sessionerna. <\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Textmarkering<\/h2>",
+                "03": "<h3>Textmarkering på\/av<\/h3>",
+                "04": "<p>Aktiverar eller inaktiverar synkroniserad markering av texten under uppläsningen.<\/p>",
+                "05": "<h3>Vad ska markeras<\/h3>",
+                "06": "<p>Anger om den synkroniserade markeringen ska ske på ord- och\/eller meningsnivå. Alternativen är:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Ord och mening<\/li>",
+                "09": "<li>Enbart mening<\/li>",
+                "10": "<li>Enbart ord<\/li>",
+                "11": "<li>Ingen textmarkering<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Ordfärg<\/h3>",
+                "14": "<p>Välj färg som ska användas för markeringen av ord medan de läses upp, eller ange att orden ska strykas under i stället för att markeras.<\/p>",
+                "15": "<h3>Meningsfärg<\/h3>",
+                "16": "<p>Välj färg som ska användas för markering av meningar medan de läses upp, eller ange att meningarna ska strykas under i stället för att markeras.<\/p>",
+                "17": "<h3>Textfärg<\/h3>",
+                "18": "<p>Ställer in färgen på texten.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Övriga inställningar<\/h2>",
+                "20": "<h3>Automatisk skrollning<\/h3>",
+                "21": "<p>Aktivera eller inaktivera automatisk skrollning (på\/av). När funktionen är aktiverad kommer sidan skrolla automatiskt för att följa den lästa texten. Den här inställningen kan också aktiveras\/inaktiveras i popup-spelaren som visas samtidigt som läsningen pågår.<\/p>",
+                "22": "<h3>Popup-meny för textmarkering<\/h3>",
+                "23": "<p>Aktivera eller inaktivera popup-menyn för textmarkering som visas när text markeras.<\/p>",
+                "24": "<h3>Inställningar för popup-meny<\/h3>",
+                "25": "<p>Om du vill att popup-menyn ska stängas automatiskt väljer du det alternativet och ställer in antalet sekunder som menyn ska visas.<\/p>",
+                "26": "<p>Om du föredrar att popup-menyn förblir synlig tills du antingen väljer något i menyn eller markerar annat innehåll på sidan, då väljer du alternativet \"Stäng inte\".<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Ställ in kortkommandon för tangentbordsnavigering<\/h2>",
+                "28": "<p>Du kan ändra kortkommandot för en rad olika funktioner i spelaren. För att ändra kommandot för en specifik funktion, klicka på knappen som visar det nuvarande kommandot och tryck sedan ner tangenterna för ditt nya kommando på tangentbordet. Det nya kommandot visas nu istället i knappen.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Återställ inställningar<\/h2>",
+                "30": "<p>Markera checkboxarna för de inställningar du vill återställa till sina ursprungsvärden. Markera \"Allt\", eller markera en eller flera boxar.<\/p>",
+                "31": "<ul>",
+                "32": "<li>Inställningar för Textläge och andra popup-fönster<\/li>",
+                "33": "<li>Inställningar för textmarkering<\/li>",
+                "34": "<li>Inställningar för automatisk skrollning och popup-meny för markerad text.<\/li>",
+                "35": "<li>Kortkommandon<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Inställningar"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:textmode] (fungerar först efter att menyn har öppnats första gången)<\/p>",
+                "01": "<p>Det här verktyget öppnar ett dialogfönster med den aktuella sidan i en textbaserad version. Du kan välja hur texten ska visas (läs mer under \"webReaders popup-fönster\"). Bilder visas också och eventuella alternativa (alt-texter) läses.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Verktyg för textläge"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Kortkommando: [shortcut:readingvoice] (kräver att menyn är öppen för att uppläsningsspråk ska kunna väljas)<\/p>",
+                "01": "<p>Från denna rullgardinsmeny väljer du med vilken röst som webReader ska läsa upp texten. Observera att denna funktion endast visas när det finns mer än en tillgänglig uppläsningsröst.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Uppläsningsröst"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

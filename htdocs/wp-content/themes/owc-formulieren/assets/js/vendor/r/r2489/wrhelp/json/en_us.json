@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:clicklisten] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>Click \"Click and Listen\" to turn this feature on or off. A green tick on the toggle switch indicates that it is on. webReader will then start reading a paragraph when you click anywhere in the paragraph. This allows you to listen to a paragraph you want to read without having to select it first and then click the Listen button. On mobile devices, the feature works when you tap in the paragraph (‘Tap and Listen’).<\/p>",
+                "02": "<p>For keyboard accessibility: when the feature is activated, you can use the right\/left arrow keys to focus the next\/previous section or the next\/previous paragraph within a section. The down arrow key puts the focus on a paragraph within a section. The up arrow key brings the focus back up to a larger section. The key L will start playing the focused paragraph or section.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i> Click and Listen"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Put focus on drag handle: [shortcut:detachfocus]<\/p>",
+                "01": "<p>When you scroll down on the page, the Listen button, player, and menu will float to a different position to remain visible. The floating Listen button or player will show a drag handle.<br \/><img alt=\"The webReader Listen button with drag handle.\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>You can use the drag handle to drag the Listen button, player and menu to where it is most convenient in relation to the content shown on the page. They will move back to the default position when you scroll back up. They will always float to the position you last dragged them to.<\/p>",
+                "03": "<p>(Note that if there are multiple players on one page, a player will only float if it is actually in playing mode)<\/p>"
+            },
+            "title": "Floating Listen Button, Player, and Menu"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>webReader Pop-up Windows<\/h2>",
+                "01": "<p>Sometimes webReader opens a pop-up window. This happens for the features Text Mode, Dictionary, Translate, and Settings. Pop-up windows have a play button [button:player-play] so you can listen to the text in the window. You can choose how the text should look to make reading along easiest for you.<\/p>",
+                "02": "<p>You can:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Play [button:player-play], pause [button:player-pause], or stop [button:player-stop] the audio<\/li>",
+                "05": "<li>Make the text larger [button:font-plus] or smaller [button:font-minus]<\/li>",
+                "06": "<li>Adjust the volume [button:player-volume]<\/li>",
+                "07": "<li>Adjust the reading speed [button:player-speed]<\/li>",
+                "08": "<li>Use the Settings button [button:dialog-textsettings] to adjust the size, font, and colors of the text as well as the line spacing<\/li>",
+                "09": "<li>Move the window by dragging it by the grey bar at the top<\/li>",
+                "10": "<li>Make the window larger or smaller by dragging the bottom right corner<\/li>",
+                "11": "<li>Maximize the window size [button:dialog-maximise] for easier and undistracted reading<\/li>",
+                "12": "<li>Close the window with the Close button at the bottom or the button at the top right [button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Any visuals described in this help tool refer to the standard ReadSpeaker skin implementation of webReader and might not apply if the webReader tool has been given a customized skin.<\/p>"
+            },
+            "title": "Disclaimer"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:download] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>Click to download an mp3 file with an audio version of the web page or selected text.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Download mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:enlarge] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>Click \"Enlarge Text\" to turn this feature on or off. A green tick on the toggle switch indicates that it is on. webReader will then display the sentence being read at the bottom of the page, with a larger font size and simultaneous word highlighting. You can play, pause or stop the reading and make the text larger or smaller.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Enlarge Text"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Turn the formReader module on or off. When it is on, online forms will be read aloud, including the text you enter or the option you choose.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Form Reading"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:help] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>The help page gives you more information about the different tools in ReadSpeaker webReader. To learn more about ReadSpeaker, please visit <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link to www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Help"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>ReadSpeaker webReader reads text content on a website aloud. By listening to the text while you read, you can better understand the text. You can listen anywhere, on any online device, and at any time. This makes the website more accessible and more pleasant to visit. As a user, you don't have to download anything.<\/p>"
+            },
+            "title": "Using ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>You can use keyboard combinations (keyboard shortcuts) to activate most features. Each feature has its own shortcut. You can change these shortcuts in the Settings pop-up window.<\/p>",
+                "01": "<p>With the shortcuts as they are set now, webReader can be activated, i.e. focus can be set on the Listen button, with the shortcut [shortcut:playerfocus]. [shortcut:play] will set focus on the player and also start the reading.<\/p>",
+                "02": "<p>Some important shortcuts are:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Put focus on Listen button: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Put focus on player and start the reading: [shortcut:play]<\/li>",
+                "07": "<li>Put focus on pause button and pause or resume the reading: [shortcut:pause]<\/li>",
+                "08": "<li>Put focus on stop button and stop the reading: [shortcut:stop]<\/li>",
+                "09": "<li>Open\/close menu: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>Inside the player and menu, i.e. when the user has set focus on the player, tab\/shift+tab can be used to navigate and the enter or space key to activate a certain button or option.<\/p>",
+                "13": "<p>The shortcuts for the individual features are mentioned in the respective sections below. For the features that are accessed from the menu, they will only function if the menu has been opened on the page.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Keyboard Navigation"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Listen to the Content<\/h2>",
+                "01": "<p>Simply click the Listen button to listen to a web page:<br \/><img alt=\"The webReader Listen button.\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>An audio player appears (see image below) and webReader starts reading the web page out loud.<br \/><img alt=\"The webReader player.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>In the player, you can: <\/p>",
+                "04": "<ul>",
+                "05": "<li>Pause [button:player-pause] and continue [button:player-play] the reading<\/li>",
+                "06": "<li>Stop the reading [button:player-stop]<\/li>",
+                "07": "<li>Restart the reading from the beginning [button:player-restart] after using the stop button<\/li>",
+                "08": "<li>Use the skip buttons to rewind [button:player-skipbackward] or forward [button:player-skipforward] the audio<\/li>",
+                "09": "<li>Adjust the volume [button:player-volume]<\/li>",
+                "10": "<li>Adjust the reading speed [button:player-speed]<\/li>",
+                "11": "<li>Close the player [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Using the Features in the Menu<\/h2>",
+                "02": "<p>Click the menu button [button:player-menu] to the left of the Listen button to open the menu. The menu (see image below) has many useful features. Each feature is explained below in a separate section.<br \/><img alt=\"The webReader menu.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:pagemask] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>Click \"Page Mask\" to see the page with a focus bar. The rest of the page is dimmed. The focus bar follows the mouse cursor, or the finger on touch devices, to make it easier to focus on smaller portions of text at a time. Hit the escape key or click the cross on the right edge of the focus bar to turn the page mask off. Click on the + or - to make the focus area larger or smaller.<\/p>",
+                "02": "<p>To enter (or exit) keyboard navigation mode when page mask is showing, hit the space key. A small keyboard icon will show just above the focus area when keyboard navigation mode is active. When active, arrow keys can be used to move the focus area (or shift key + arrow key for faster movement). Plus and minus keys will change the size of the focus area.<\/p>",
+                "03": "<p class=\"disclaimer\">Please note: Page Mask is a purely graphic tool that can help some users focus but might not be useful to people with low vision.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Page Mask"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Pop-up Player<\/h2>",
+                "01": "<p class=\"accesskey\">Keyboard access: [shortcut:controlpanel]<\/p>",
+                "02": "<p>When text is read aloud, you will see a pop-up player at the bottom right of the screen where you can:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Pause [button:player-pause] and continue [button:player-play] the reading<\/li>",
+                "05": "<li>Use the skip buttons to rewind [button:player-skipbackward] or forward [button:player-skipforward] the audio<\/li>",
+                "06": "<li>Toggle the automatic scrolling of the page (on\/off)<\/li><br \/><img alt=\"The webReader pop-up player.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker will process the following categories of Personal data:<br \/> <br \/> 1) The ReadSpeaker webReader services process the text content on the customer's website (web page content) on the pages where the service is implemented. Since the service processes the information on the customer's website, which the customer has authored and published, it should not contain any sensitive personal data.<br \/> <br \/> 2) As a part of the service, there are personal data (customer information) stored in a Back-end database. The data stored is the name of the customer (legal entity), contact person(s) and contact details (email addresses(es)).<br \/> <br \/> 3) Depending on the customer's implementation of the service, the end-user's IP number, UserAgent string, and URL where the service has been activated may be recorded in the service application server\/web server log file."
+            },
+            "title": "Privacy Information"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Features for Selected Text<\/h2>",
+                "01": "<p>When you select text on a page, a pop-up menu will appear with the features Listen, Dictionary, and Translate. If you don't see an option, it is not available on this site.<br \/><img alt=\"The webReader pop-up menu for selected text.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Read Selected Text<\/h3>",
+                "03": "<p>To listen to any part of a text, select the text and click the Listen button from the pop-up menu.<\/p>",
+                "04": "<h3>Dictionary<\/h3>",
+                "05": "<p>To look up a word in the dictionary, select the word and click the Dictionary option from the pop-up menu. A pop-up window will open, showing the dictionary entry for the selected word. If multiple words are selected, the dictionary entry for the first word is shown.<\/p>",
+                "06": "<h3>Translate<\/h3>",
+                "07": "<p>To translate any part of a text, select the text and click the Translate option from the pop-up menu. A language picker will appear, where you can select the target language. The translation will be shown in a pop-up window.<\/p>",
+                "08": "<p class=\"disclaimer\">Please note: the features mentioned below are available only if you are able to select text on the page. This might not be possible if you are using only keyboard controls.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:settings] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>Click to personalize webReader according to your preferences. A pop-up window will open where you can adjust certain settings that determine how webReader works. Read about each setting below. Your personalized settings are saved between sessions.<\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Highlighting<\/h2>",
+                "03": "<h3>Text Highlighting On\/Off<\/h3>",
+                "04": "<p>Choose to have the text highlighted while it is read aloud (On) or not (Off).<\/p>",
+                "05": "<h3>What to Highlight<\/h3>",
+                "06": "<p>Choose what you would like webReader to highlight:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Word and sentence<\/li>",
+                "09": "<li>Sentence only<\/li>",
+                "10": "<li>Word only<\/li>",
+                "11": "<li>No highlighting<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Word Color<\/h3>",
+                "14": "<p>Choose the color for highlighting words as they are read or choose to underline instead.<\/p>",
+                "15": "<h3>Sentence Color<\/h3>",
+                "16": "<p>Choose the color for highlighting sentences as they are read or choose to underline instead.<\/p>",
+                "17": "<h3>Text Color<\/h3>",
+                "18": "<p>Choose the color for the highlighted text.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Other Settings<\/h2>",
+                "20": "<h3>Automatic Scrolling<\/h3>",
+                "21": "<p>Toggle automatic scrolling (on\/off). When activated, the page will automatically scroll down to follow the highlighted text. This setting can also be toggled from the pop-up player which will show when the player is active.<\/p>",
+                "22": "<h3>Pop-up Menu for Selected Text<\/h3>",
+                "23": "<p>Choose whether a pop-up menu will appear when you select text (on\/off).<\/p>",
+                "24": "<h3>Settings for Pop-up Menu<\/h3>",
+                "25": "<p>Choose ‘Close automatically’ and choose after how many seconds, if you want the pop-up menu to close automatically after a while.<\/p>",
+                "26": "<p>Choose ‘Do not close’ if you want the pop-up menu to remain visible.<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Change Shortcuts for Keyboard Accessibility<\/h2>",
+                "28": "<p>You can change the shortcuts or key combinations for different actions. To change a shortcut for a specific action, click on the button showing the current shortcut and then define the new key combination by holding the keys down at the same time on your keyboard. The button will now show the new shortcut.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Restore Default Settings<\/h2>",
+                "30": "<p>Use the tick boxes to indicate which webReader settings you want to restore to their default values. Tick \"All\", or tick one or more other boxes:<\/p>",
+                "31": "<ul>",
+                "32": "<li>Settings for Text Mode and pop-up windows<\/li>",
+                "33": "<li>Highlighting Settings<\/li>",
+                "34": "<li>Settings for Automatic Scrolling and Pop-up Menu for Selected Text<\/li>",
+                "35": "<li>Shortcuts<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Settings"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:textmode] (works only after the menu has been opened once)<\/p>",
+                "01": "<p>Click \"Text Mode\" to open a pop-up window with the current page in a text oriented version. You can choose how the text will be displayed (see above under ‘webReader Pop-up Windows’). Images are also shown if they have a text associated with them.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Text Mode"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Keyboard access: [shortcut:readingvoice] (requires menu to be open, in order to choose a reading language)<\/p>",
+                "01": "<p>Choose the voice webReader should use to read the text. There can be voices in different languages and\/or different voices for a language. Simply select the voice you wish to use from the drop-down. Note that this tool will only be enabled when there is more than one available reading voice.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Reading Voice"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

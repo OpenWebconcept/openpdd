@@ -10,11 +10,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <?php if (get_current_blog_id() === env('GGD_SITE_ID', 5)): ?>
-        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/readspeaker-13499.min.js" integrity="sha384-hyFM1G9kz06nbBCtnZ6MBojLDgrIpWANO0Q8Q56z3syj1EfXjrUAEK6ARydUTvjM" crossorigin="anonymous"></script>
-    <?php else: ?>
-        <script src="<?php echo get_template_directory_uri(); ?>/assets/js/vendor/readspeaker-8150.min.js" integrity="sha384-jV7hQOGBU6ktP6KEJPhPX9Zvb0JscjmVMc2NeHON/uhxiEynNP4+F+227mhrnhtg" crossorigin="anonymous"></script>
-    <?php endif; ?>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/brands.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/solid.min.css" rel="stylesheet">

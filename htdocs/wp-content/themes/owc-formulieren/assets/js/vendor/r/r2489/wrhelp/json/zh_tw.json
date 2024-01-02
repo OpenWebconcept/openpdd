@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:clicklisten] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>點擊“點擊並收聽”以打開或關閉此功能。切換開關上的綠色勾號表示它已打開。當您點擊段落中的任意位置時，webReader 將開始朗讀該段落。這使您可以收聽要朗讀的段落，而無需先選擇它後，再點擊“收聽”按鈕。在移動設備上，該功能在您點選段落時起作用（“點擊並收聽”）。 <\/p>",
+                "02": "<p>對於鍵盤輔助功能：當該工具被激活時，您可以使用右\/左箭頭鍵來聚焦下\/上一節或一節中的下\/上一段。向下箭頭鍵將焦點放在一個部分中的一個段落上。向上箭頭鍵使焦點回到更大的部分。 L 鍵將開始朗讀聚焦之段落\/部分。<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i>點擊並語音瀏覽"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">將焦點設在拖曳控制器上：[shortcut:detachfocus]<\/p>",
+                "01": "<p>當您向下捲動頁面時，語音瀏覽按鈕、播放器和 menu 將浮動到其他位置，以便保持可見。浮動的語音瀏覽按鈕或播放器將顯示拖曳控制器。<br\/><img alt=\"帶拖曳控制器的語音瀏覽按鈕影像\" src=\"[[IMG_URL]]\/detached-button.png\"\/><\/p>",
+                "02": "<p>您可以使用拖曳控制器將語音瀏覽按鈕、播放器和 menu 拖曳到相對於頁面所示內容中最方便的位置。當您向上回捲時，它們將移回預設位置。它們將始終浮動到您上次將其拖曳到的位置。<\/p>",
+                "03": "<p>（請注意，如果一個頁面上存在多個播放器，則播放器僅會在其正處於播放模式時浮動展示）<\/p>"
+            },
+            "title": "懸浮的語音瀏覽按鈕、播放器和 Menu"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2> webReader 彈出窗口<\/h2>",
+                "01": "<p>有時 webReader 會打開一個彈出窗口。使用文本模式、字典、翻譯和設置功能時會發生這種情況。彈出窗口有一個播放按鈕 [button:player-play]，因此您可以收聽窗口中的文本。您可以選擇文本的外觀以使您更容易閱讀。 <\/p>",
+                "02": "<p>您可以：<\/p>",
+                "03": "<ul>",
+                "04": "<li>播放 [button:player-play]、暫停 [button:player-pause] 或停止 [button:player-stop] 音頻<\/li>",
+                "05": "<li>使文字變大 [button:font-plus] 或變小 [button:font-minus] <\/li>",
+                "06": "<li>調節音量 [button:player-volume] <\/li>",
+                "07": "<li>調整朗讀速度 [button:player-speed] <\/li>",
+                "08": "<li>使用設置按鈕 [button:dialog-textsettings] 調整文本的大小、字體和顏色以及行距<\/li>",
+                "09": "<li>拖動頂部的灰色條來移動窗口<\/li>",
+                "10": "<li>拖動右下角放大或縮小窗口<\/li>",
+                "11": "<li>最大化窗口大小 [button:dialog-maximise] 讓閱讀更輕鬆、不受干擾<\/li>",
+                "12": "<li>使用底部的關閉按鈕或右上角的按鈕關閉窗口 [button:player-close] <\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>本說明工具中所述的任何圖像均指 ReadSpeaker webReader 標準面板，可能與使用自訂面板的 webReader 工具不符。<\/p>"
+            },
+            "title": "免責聲明"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:download] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>按一下該按鈕可下載網頁內容或圈選文字的音檔文件，檔案格式為 mp3。<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> 下載 mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:enlarge] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>點擊“放大文本”以打開或關閉此功能。切換開關上的綠色勾號表示它已打開。然後，webReader 將在頁面底部顯示正在朗讀的句子，字體更大，同時單詞突出顯示。您可以播放、暫停或停止朗讀，並使文本變大或變小。 <\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> 放大文字工具"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>打開或關閉formReader模塊。 formReader 讓您可以大聲朗讀在線表單，包括您輸入的文本或您選擇的選項。<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Form Reading"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:help] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>說明頁面為您詳細介紹 ReadSpeaker webReader 中的不同工具。如需瞭解關於 ReadSpeaker 的更多資訊，請瀏覽 <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link to www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> 說明"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>ReadSpeaker webReader 可以大聲朗讀網站上的文字內容。藉助文字朗讀功能，您可以更好地理解資訊，並可隨時隨地收聽。這樣可以使獲取內容更方便，並使網站瀏覽體驗更愉快。作為使用者，您不必下載任何軟體。<\/p>"
+            },
+            "title": "使用 ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>您可以使用鍵盤組合（鍵盤快捷鍵）來激活大多數功能。每個功能都有自己的快捷方式。您也可以在設置彈出窗口中更改這些快捷方式。 <\/p>",
+                "01": "<p>使用現在設置的快捷方式，可以激活webReader，即可以在語音瀏覽按鈕上設置焦點，使用快捷方式[shortcut:playerfocus]。 [shortcut:play] 將焦點放在播放器上並開始朗讀。 <\/p>",
+                "02": "<p>一些重要的快捷鍵是： <\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>將焦點設在語音瀏覽按鈕上：[shortcut:playerfocus]<\/li>",
+                "06": "<li>將焦點設在播放器上並開始朗讀：[shortcut:play]<\/li>",
+                "07": "<li>將焦點放在暫停按鈕上並暫停或繼續朗讀：[shortcut:pause] <\/li>",
+                "08": "<li>將焦點放在停止按鈕上：[shortcut:stop]<\/li>",
+                "09": "<li>開啟\/關閉 menu：[shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>在播放器和Menu內部，即當用戶將焦點放在播放器上時，可以使用 tab\/shift+tab 進行導航，並且可以使用 enter 或 space 鍵來激活某個按鈕或選項。 <\/p>",
+                "13": "<p>各個功能的快捷方式會在下面的相應部分中提及。對於從Menu上訪問的功能，只有在頁面上打開了Menu時，它們才會起作用。 <\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> 鍵盤導覽"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>收聽內容<\/h2>",
+                "01": "<p>只需點擊語音瀏覽按鈕即可朗讀網頁： <br \/> <img alt=\"The webReader Listen button.\" src=\"[[IMG_URL]]\/listen-button.png\" \/> <\/p>",
+                "02": "<p>出現一個音頻播放器（見下圖），且 webReader 開始大聲朗讀網頁。 <br \/> <img alt=\"The webReader player.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/> <\/p>",
+                "03": "<p>在播放器中，您可以： <\/p>",
+                "04": "<ul>",
+                "05": "<li>暫停 [button:player-pause] 和繼續 [button:player-play] 朗讀<\/li>",
+                "06": "<li>停止朗 [button:player-stop] <\/li>",
+                "07": "<li>使用停止按鈕後，重新從頭開始朗讀 [button:player-restart] <\/li>",
+                "08": "<li>使用跳過按鈕後退 [button:player-skipbackward] 或快進 [button:player-skipforward] 音頻<\/li>",
+                "09": "<li>調節音量 [button:player-volume] <\/li>",
+                "10": "<li>調整朗讀速度 [button:player-speed] <\/li>",
+                "11": "<li>關閉播放器 [button:player-close] <\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>使用Menu中的功能<\/h2>",
+                "02": "<p>點擊語音瀏覽按鈕左側的Menu按鈕 [button:player-menu] 打開Menu。Menu（見下圖）有許多有用的功能。下面將在單獨的部分中解釋每個功能。 <br \/> <img alt=\"The webReader menu.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/> <\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:pagemask] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>單擊“頁面屏蔽”可以看到帶有焦點欄的頁面。頁面的其餘部分變暗。焦點欄跟隨滑鼠光標或觸摸設備上的手指，以便更輕鬆地專注於較小的文本部分。按 esc 鍵或點擊焦點欄右邊緣的十字以關閉頁面屏蔽。點擊 + 或 - 可使焦點區域變大或變小。 <\/p>",
+                "02": "<p>要在顯示頁面遮罩時進入（或結束）鍵盤導覽模式，請按空格鍵。當鍵盤導覽模式處於活動狀態時，焦點區域正上方將顯示小鍵盤圖標。此時，箭頭鍵可用於移動焦點區域（或使用 Shift + 箭頭鍵進行更快的移動）。加號和減號鍵將變更焦點區域的大小。<\/p>",
+                "03": "<p class=\"disclaimer\">請注意：Page Mask 是一種純圖形工具，可以幫助某些用戶集中注意力，但可能對視力不佳的人沒有幫助。<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> 頁面遮罩工具"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>弹出式播放器<\/h2>",
+                "01": "<p class=\"accesskey\">快捷鍵：[shortcut:controlpanel]<\/p>",
+                "02": "<p>朗讀文本時，您會在屏幕右下方看到一個彈出式播放器，您可以： <\/p>",
+                "03": "<ul>",
+                "04": "<li>暂停 [button:player-pause] 和繼續 [button:player-play] 朗读<\/li>",
+                "05": "<li>使用跳過按鈕後退 [button:player-skipbackward] 或快進 [button:player-skipforward] 音頻<\/li>",
+                "06": "<li>切換頁面的自動滾動（開\/關） <\/li> <br \/> <img alt=\"The webReader pop-up player.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker 將處理以下類別的個人資料：<br \/> <br \/> 1) ReadSpeaker webReader 在實施了服務的客戶網站頁面上處理其中的文字內容（網頁內容）。由於服務處理的是客戶已創作和發佈的客戶網站資訊，因此這些資訊中不應包含任何敏感的個人資料。<br \/> <br \/> 2) 作為服務的一部分，後端資料庫中儲存了個人資料（客戶資訊）。儲存的資訊包括客戶（法律實體）名稱、聯絡人和聯絡方式（電子郵件地址）。<br \/> <br \/> 3) 根據客戶對此服務的使用，服務應用程式伺服器\/網頁伺服器記錄檔中會記錄最終使用者的 IP 位址、UserAgent 字串以及啟動服務的網址。"
+            },
+            "title": "個人隱私資訊"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>用於選定文字的功能<\/h2>",
+                "01": "<p>當您在頁面上選擇文本時，會出現一個彈出Menu，其中包含“語音瀏覽”、“字典”和“翻譯”功能。如果您沒有看到某個選項，則該選項在此站點上不可用。 <br \/> <img alt=\"The webReader pop-up menu for selected text.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/> <\/p>",
+                "02": "<h3>朗讀選定文字<\/h3>",
+                "03": "<p>要收聽任意節選文字，請圈選文字並在快顯功能表中按一下語音瀏覽按鈕。<\/p>",
+                "04": "<h3>字典<\/h3>",
+                "05": "<p>要在字典中查找單詞，請選擇該單詞並點擊彈出Menu中的字典選項。將打開一個彈出窗口，顯示所選單詞的字典條目。如果選擇了多個單詞，則顯示第一個單詞的字典條目。 <\/p>",
+                "06": "<h3>翻譯<\/h3>",
+                "07": "<p>要翻譯文本的任何部分，請選擇文本並從彈出Menu中點擊翻譯選項。將出現一個語言選擇器，您可以在其中選擇目標語言。翻譯將顯示在彈出窗口中。 <\/p>",
+                "08": "<p class=\"disclaimer\">請注意：以下提到的功能只有在你能夠選擇頁面上的文本時才可用。 如果你僅使用鍵盤控制，這可能是辦不到的。<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:settings] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>點擊以根據您的喜好個性化 webReader。系統將打開一個彈出窗口，您可以在其中調整確定 webReader 工作方式的某些設置。閱讀下面的每個設置。您的個性化設置將保存於各會話之間。 <\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> 醒目提示<\/h2>",
+                "03": "<h3>文字醒目提示開\/關<\/h3>",
+                "04": "<p>選擇在朗讀（開）或不朗讀（關）時突出顯示文本。 <\/p>",
+                "05": "<h3>想突出顯示什麼?<\/h3>",
+                "06": "<p>選擇您希望 webReader 突出顯示的內容： <\/p>",
+                "07": "<ul>",
+                "08": "<li>字詞和句子<\/li>",
+                "09": "<li>僅句子<\/li>",
+                "10": "<li>僅字詞<\/li>",
+                "11": "<li>無醒目提示<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>字詞顏色<\/h3>",
+                "14": "<p>選擇在朗讀時突出顯示單詞的顏色或選擇下劃線。 <\/p>",
+                "15": "<h3>句子顏色<\/h3>",
+                "16": "<p>選擇在朗讀句子時突出顯示句子的顏色或選擇下劃線。 <\/p>",
+                "17": "<h3>文字顏色<\/h3>",
+                "18": "<p>選擇醒目提示的文字本身的顏色。<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> 其他設置<\/h2>",
+                "20": "<h3>自動捲動<\/h3>",
+                "21": "<p>切換自動滾動（開\/關）。激活後，頁面將自動向下滾動以跟隨突出顯示的文本。此設置也可以從彈出播放器中切換，該播放器將在播放器處於活動狀態時顯示。 <\/p>",
+                "22": "<h3>文字選擇快顯功能表<\/h3>",
+                "23": "<p>選擇在您選擇文本時是否顯示彈出式Menu（開\/關）。 <\/p>",
+                "24": "<h3>彈出式Menu的設置<\/h3>",
+                "25": "<p>如果您希望彈出式Menu在一段時間後自動關閉，請選擇“自動關閉”並選擇多少秒後自動關閉。 <\/p>",
+                "26": "<p>如果您希望彈出式Menu保持可見，請選擇“不關閉”。 <\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> 更改鍵盤輔助功能的快捷鍵<\/h2>",
+                "28": "<p>您可以更改不同操作的快捷鍵或組合鍵。要更改特定操作的快捷方式，請點擊顯示當前快捷方式的按鈕，然後通過同時按住鍵盤上的鍵來定義新的組合鍵。該按鈕現在將顯示新的快捷方式。 <\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> 還原預設設定<\/h2>",
+                "30": "<p>使用複選框來指示您希望將哪些 webReader 設置恢復為其默認值。勾選“全部”，或勾選一個或多個其他框： <\/p>",
+                "31": "<ul>",
+                "32": "<li>文本模式和彈出窗口的設置<\/li>",
+                "33": "<li>醒目提示設定<\/li>",
+                "34": "<li>選定文本的自動滾動和彈出Menu設置<\/li>",
+                "35": "<li>快捷鍵<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> 設定"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷鍵：[shortcut:textmode] （僅在打開 menu 後才有效）<\/p>",
+                "01": "<p>點擊“文本模式”以打開一個彈出窗口，其中當前頁面為面向文本的版本。您可以選擇文本的顯示方式（參見上文“webReader 彈出窗口”下的內容）。如果圖像具有與之關聯的文本，也會顯示圖像。 <\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> 文字模式工具"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">快捷键：[shortcut:readingvoice]（需要開啟 menu，才能選擇語音瀏覽語言）<\/p>",
+                "01": "<p>選擇 webReader 用於閱讀文本的語音。可以有不同語言的聲音和\/或一種語言的不同聲音。只需從下拉列表中選擇您想要使用的聲音。請注意，只有當有多個可用朗讀語音時，才會啟用此工具。 <\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"> <\/i>朗讀語音"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

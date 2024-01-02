@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:clicklisten] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>Clique em \"Clicar e ouvir\" para ativar ou desativar esta função. Uma marca verde no botão indica que está ativada. O webReader começa então a ler um parágrafo quando clicar em qualquer parte do parágrafo. Isto permite que ouça o parágrafo que pretende ler sem ter de selecioná-lo primeiro e depois clicar no botão Ouvir. Em dispositivos móveis, esta função funciona quando toca no parágrafo (\"Tocar e ouvir\").<\/p>",
+                "02": "<p>Para acessibilidade do teclado: quando a função está ativada, pode usar as teclas de seta para a direita\/esquerda para focar a seção seguinte\/anterior ou o parágrafo seguinte\/anterior dentro de uma seção. A tecla de seta para baixo coloca o foco num parágrafo dentro de uma seção. A tecla de seta para cima devolve o foco para uma seção maior. A tecla L começa a reproduzir o parágrafo\/seção em foco.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i>Clicar e ouvir"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Ponha em evidência a aba de arrasto: [shortcut:detachfocus]<\/p>",
+                "01": "<p>Ao deslocar a página para baixo, o botão Ouvir, o player e o menu deslocam-se para uma posição diferente, de modo a permanecerem visíveis. O botão Ouvir ou player flutuantes irão mostrar uma alça de deslocamento.<br \/><img alt=\"O botão Ouvir do webReader com a alça de deslocamento.\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>Pode usar a aba de arrasto para deslocar o botão Ouvir, o player e o menu para onde for mais conveniente relativamente ao conteúdo mostrado na página. Ao rolar a página para cima, eles voltam à posição original. Deslocam-se sempre para a última posição onde os deixou.<\/p>",
+                "03": "<p>(Nota: se houver vários players numa página, só irá deslocar-se o player que estiver em modo de leitura)<\/p>"
+            },
+            "title": "Botão Ouvir, player e menu flutuantes"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>Janelas de pop-up do webReader<\/h2>",
+                "01": "<p>Por vezes o webReader abre uma janela de pop-up, o que acontece para as funções Modo de texto, Dicionário, Traduzir e Configurações. As janelas de pop-up têm um botão de reprodução [button:player-play] para ouvir o conteúdo mostrado na janela. Pode escolher o aspeto do texto para facilitar a leitura enquanto acompanha o áudio.<\/p>",
+                "02": "<p>É possível:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Reproduzir [button:player-play], colocar em pausa [button:player-pause], ou parar [button:player-stop] o áudio<\/li>",
+                "05": "<li>Aumentar [button:dialog-maximise] ou diminuir [button:dialog-minimise]o texto<\/li>",
+                "06": "<li>Ajustar o volume [button:player-volume]<\/li>",
+                "07": "<li>Ajustar a velocidade de leitura [button:player-speed]<\/li>",
+                "08": "<li>Utilizar o botão Configurações [button:dialog-textsettings] para ajustar o tamanho, tipo de letra e cores do texto, bem como o espaçamento entre linhas<\/li>",
+                "09": "<li>Mover a janela arrastando-a pela barra cinzenta na parte superior<\/li>",
+                "10": "<li>Aumentar ou diminuir a janela arrastando o canto inferior direito<\/li>",
+                "11": "<li>Maximizar o tamanho da janela [button:dialog-maximise] para uma leitura mais fácil e sem distrações<\/li>",
+                "12": "<li>Fechar a janela com o botão Fechar na parte inferior ou com o botão no canto superior direito [button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>As funções de visualização descritas nesta ferramenta de ajuda referem-se à implementação standard do ReadSpeaker webReader e podem não se aplicar se o webReader tiver sido personalizado para um modo de visualização alternativo.<\/p>"
+            },
+            "title": "Termo de Responsabilidade"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:download] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>Clique para baixar um arquivo mp3 com uma versão em áudio da página da web ou texto selecionado.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Descarregar mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:enlarge] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>Clique em \"Aumentar o texto\" para ativar ou desativar esta função. Uma marca verde no botão indica que está ativada. O webReader mostra então a frase que está a ser lida na parte inferior da página, com um tamanho do tipo de letra maior e com destaque de palavras em simultâneo. Pode reproduzir, colocar em pausa ou parar a leitura, bem como aumentar ou reduzir o tamanho do texto.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Função Ampliar Texto"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Ativar ou desativar o módulo formReader. Quando ativado, irá ouvir a leitura de formulários online, incluindo o texto inserido ou a opção que escolher.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Leitura de formulários"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:help] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>A página de ajuda fornece mais informações sobre as diferentes funções do ReadSpeaker webReader. Para saber mais sobre o ReadSpeaker, visite <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link para www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Ajuda"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>O ReadSpeaker webReader faz a leitura em voz alta dos conteúdos de texto de um site. Ao ouvir o texto enquanto lê, poderá entender melhor o texto. Pode ouvir em qualquer lugar, em qualquer dispositivo online e a qualquer momento. Isto torna o site mais acessível e mais agradável de visitar. Como usuário, não precisa de descarregar nada.<\/p>"
+            },
+            "title": "Usar o ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>O utilizador pode usar combinações de teclado (atalhos de teclado) para ativar a maioria das funções. Cada função tem o seu próprio atalho. O utilizador pode alterar estes atalhos na janela de pop-up de Configurações.<\/p>",
+                "01": "<p>Com os atalhos atualmente definidos, o webReader pode ser ativado, isto é, o foco pode ser colocado no botão Ouvir, com o atalho [shortcut:playerfocus]. [shortcut:play] irá focar no player e também iniciar a leitura.<\/p>",
+                "02": "<p>Seguem-se alguns atalhos importantes:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Pôr em evidência o botão Ouvir: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Pôr em evidência o player e dar início à leitura: [shortcut:play]<\/li>",
+                "07": "<li>Colocar o foco no botão de pausa e colocar em pausa ou retomar a leitura: [shortcut:pause]<\/li>",
+                "08": "<li>Pôr em evidência o botão Parar: [shortcut:stop]<\/li>",
+                "09": "<li>Abrir\/fechar menu: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>No player e no menu, isto é, quando o usuário focou no player, pode-se utilizar tabulação\/shift+tabulação para navegar e a tecla enter ou espaço para ativar um determinado botão ou opção.<\/p>",
+                "13": "<p>Os atalhos para as funções individuais são mencionados nas respetivas seções abaixo. Para as funções que são acessíveis através do menu, os atalhos apenas irão funcionar se o menu estiver aberto na página.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Navegação por teclado"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Ouvir o Conteúdo<\/h2>",
+                "01": "<p>Para ouvir o conteúdo de uma página web, basta clicar no botão Ouvir:<br \/><img alt=\"O botão Ouvir do webReader.\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>Surge um player de áudio (ver imagem em baixo) e o webReader começa a ler o texto da página web em voz alta.<br \/><img alt=\"O player do webReader.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>No player, pode: <\/p>",
+                "04": "<ul>",
+                "05": "<li>Colocar em pausa [button:player-pause] e retomar [button:player-play] a leitura<\/li>",
+                "06": "<li>Parar a leitura [button:player-stop]<\/li>",
+                "07": "<li>Recomeçar a leitura a partir do início [button:player-restart] após utilizar o botão de parar<\/li>",
+                "08": "<li>Usar os botões \"skip\" para retroceder [button:player-skipbackward] ou avançar [button:player-skipforward] no áudio<\/li>",
+                "09": "<li>Ajustar o volume [button:player-volume]<\/li>",
+                "10": "<li>Ajustar a velocidade de leitura [button:player-speed]<\/li>",
+                "11": "<li>Fechar o player [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Utilizar as funções do menu<\/h2>",
+                "02": "<p>Clique no botão Menu [button:player-menu] à esquerda do botão Ouvir para abrir o menu. O menu (ver imagem abaixo) possui muitas funções úteis. Cada função é explicada abaixo numa seção em separado.<br \/><img alt=\"O menu webReader.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:pagemask] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>Clique em \"Máscara de página\" para ver a página com uma barra de foco. O resto da página é escurecida. A barra de foco segue o cursor do mouse, ou o dedo em dispositivos táteis, para que seja mais fácil focar-se em partes de texto menores de cada vez. Para desativar a máscara de página, prima a tecla escape ou clique na cruz na margem direita da barra de foco para desativar a máscara de página. Clique em + ou - para aumentar ou diminuir a área de foco.<\/p>",
+                "02": "<p>Para entrar (ou sair) do modo de navegação pelo teclado quando a máscara de página estiver ativa, pressione a tecla de espaço. Quando a máscara de página estiver a ser exibida, pressione a tecla de espaço para entrar (ou sair) do modo de navegação por teclado. Surgirá um pequeno ícone logo por cima da área em foco a indicar o modo. Quando ativo, as setas direcionais podem ser usadas para mover a área em foco (ou Shift + seta para um movimento mais rápido). As teclas Mais (+) e Menos (-) alterarão o tamanho da área em foco.<\/p>",
+                "03": "<p class=\"disclaimer\">Nota: A máscara de página é uma ferramenta puramente gráfica que pode ajudar a focar a atenção de alguns usuários, mas pode não ser útil para pessoas com baixa visão.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Função Máscara de Página"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Pop-up do player<\/h2>",
+                "01": "<p class=\"accesskey\">Acesso via teclado: [shortcut:controlpanel]<\/p>",
+                "02": "<p>Durante a reprodução do áudio, irá ver um pop-up do player na parte inferior direita da tela onde poderá:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Colocar em pausa [button:player-pause] e retomar [button:player-play] a leitura<\/li>",
+                "05": "<li>Usar os botões \"skip\" para retroceder [button:player-skipbackward] ou avançar [button:player-skipforward] no áudio<\/li>",
+                "06": "<li>Ativar ou desativar o scroll automático da página (ativado\/desativado)<\/li><br \/><img alt=\"O pop-up do player do webReader.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "O ReadSpeaker irá processar as seguintes categorias de Dados Pessoais: <br \/> <br \/> 1) O serviço ReadSpeaker webReader processa conteúdos de texto no site do cliente (conteúdos da página web) nas páginas em que o serviço está implementado. Tendo em conta que o serviço processa informação contida no site do cliente, e que o cliente autorizou e publicou, essa informação não deverá conter dados pessoais confidenciais. <br \/> <br \/> 2) O serviço implica a existência de dados pessoais (informações do cliente) armazenados numa base de dados Back-end. Os dados armazenados são: nome do cliente (entidade legal), pessoa(s) de contacto e detalhes de contacto (endereço(s) de email). <br \/> <br \/> 3) Dependendo da implementação do serviço por parte do cliente, o número IP dos usuários finais, a string UserAgent e o URL onde os serviços foram ativados poderão ser guardados no servidor da aplicação \/ log file do servidor web."
+            },
+            "title": "Informação de Privacidade"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Funções para Texto Selecionado<\/h2>",
+                "01": "<p>Quando seleciona um texto numa página, surge um menu de pop-up com as funções Ouvir, Dicionário e Traduzir. Se não vir uma das opções, esta não está disponível para esse site.<br \/><img alt=\"O menu de pop-up do webReader para o texto selecionado.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Ler Texto Selecionado<\/h3>",
+                "03": "<p>Para ouvir qualquer parte de um texto, selecione o texto e clique no botão Ouvir no menu pop-up.<\/p>",
+                "04": "<h3>Dicionário<\/h3>",
+                "05": "<p>Para pesquisar uma palavra no dicionário, selecione a palavra e clique na opção Dicionário no menu de pop-up. Uma janela de pop-up abre, mostrando a entrada de dicionário para a palavra selecionada. Se forem selecionadas várias palavras, será mostrada a entrada de dicionário da primeira palavra.<\/p>",
+                "06": "<h3>Traduzir<\/h3>",
+                "07": "<p>Para traduzir qualquer parte de um texto, selecione o texto e clique na opção Traduzir no menu de pop-up. Surge um seletor de idioma, onde poderá escolher o idioma desejado. A tradução será mostrada numa janela de pop-up.<\/p>",
+                "08": "<p class=\"disclaimer\">Nota: as funções mencionadas abaixo apenas estão disponíveis se for possível selecionar o texto na página. Isso pode não ser possível se estiver a usar apenas os controles do teclado.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:settings] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>Clique para personalizar o webReader de acordo com as suas preferências. Uma janela de pop-up abre, onde poderá ajustar algumas configurações que determinam o modo de funcionamento do webReader. Saiba mais sobre cada configuração abaixo. As suas configurações personalizadas são guardadas entre sessões.<\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Destaque de texto<\/h2>",
+                "03": "<h3>Ativar\/Desativar o Destaque de Texto<\/h3>",
+                "04": "<p>Escolha entre ter o texto destacado enquanto está a ser lido em voz alta (Ativado) ou não (Desativado).<\/p>",
+                "05": "<h3>O que destacar<\/h3>",
+                "06": "<p>Escolha o que pretende que o webReader destaque:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Palavra e Frase<\/li>",
+                "09": "<li>Apenas a Frase<\/li>",
+                "10": "<li>Apenas a Palavra<\/li>",
+                "11": "<li>Sem Destaque<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Cor da Palavra<\/h3>",
+                "14": "<p>Escolha a cor utilizada para destacar as palavras à medida que forem lidas ou opte alternativamente por sublinhar.<\/p>",
+                "15": "<h3>Cor da Frase<\/h3>",
+                "16": "<p>Escolha a cor utilizada para destacar as frases à medida que forem lidas ou opte alternativamente por sublinhar.<\/p>",
+                "17": "<h3>Cor do texto<\/h3>",
+                "18": "<p>Escolha a cor para o destaque do texto.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Outras configurações<\/h2>",
+                "20": "<h3>Scroll Automático<\/h3>",
+                "21": "<p>Ative e desative o scroll automático (ativado\/desativado). Quando ativado, a página desloca-se automaticamente para baixo para seguir o texto em destaque. Esta configuração também pode ser ativada e desativada no pop-up do player que irá aparecer quando o player está ativo.<\/p>",
+                "22": "<h3>Menu Pop-up de Seleção de Texto<\/h3>",
+                "23": "<p>Escolha se um menu de pop-up aparece quando seleciona texto (ativado\/desativado).<\/p>",
+                "24": "<h3>Configurações para o menu de pop-up<\/h3>",
+                "25": "<p>Selecione \"Fechar automaticamente\" e escolha após quantos segundos o menu de pop-up deverá fechar automaticamente.<\/p>",
+                "26": "<p>Selecione \"Não fechar\" se quiser que o menu de pop-up permaneça visível.<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Alterar os atalhos de acessibilidade do teclado<\/h2>",
+                "28": "<p>É possível alterar os atalhos ou as combinações de teclas para diferentes ações. Para alterar um atalho para uma ação específica, clique no botão que mostra o atalho atual e, em seguida, defina a nova combinação de teclas premindo as teclas ao mesmo tempo no seu teclado. O botão irá agora mostrar o novo atalho.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Repor Configurações por Defeito<\/h2>",
+                "30": "<p>Utilize as caixas de verificação para indicar quais as configurações do webReader que pretende repor para os valores predefinidos. Assinale \"Todos\" ou assinale uma ou mais caixas:<\/p>",
+                "31": "<ul>",
+                "32": "<li>Configurações para o modo de texto e janelas de pop-up<\/li>",
+                "33": "<li>Configurações do destaque<\/li>",
+                "34": "<li>Configurações para o scroll automático e para o menu de pop-up do texto selecionado<\/li>",
+                "35": "<li>Atalhos<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Configurações"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Tecla de acesso: [shortcut:textmode] (funciona apenas depois do menu ter sido aberto uma vez)<\/p>",
+                "01": "<p>Clique em \"Modo de texto\" para abrir uma janela de pop-up com a página atual numa versão direcionada para texto. Pode escolher como será apresentado o texto (ver acima em \"Janelas de pop-up do webReader\"). Também são apresentadas imagens se tiverem texto associado às mesmas.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Função Modo de Texto"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Acesso via teclado: [shortcut:readingvoice] (requer menu aberto, para escolher um idioma de leitura)<\/p>",
+                "01": "<p>Escolha a voz que o webReader deve utilizar para ler o texto. Pode haver vozes em idiomas diferentes e\/ou vozes diferentes para um idioma. Basta selecionar o idioma que pretende utilizar no menu suspenso. Note que só poderá utilizar esta ferramenta quando existir mais de uma voz de leitura disponível.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Voz de leitura"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

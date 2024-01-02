@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:clicklisten] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Noklikšķiniet uz “Noklikšķināt un klausīties”, lai ieslēgtu vai izslēgtu šo funkciju. Zaļš ķeksītis uz pārslēdzēja norāda, ka tas ir ieslēgts. WebReader sāks lasīt rindkopu, kad noklikšķināsit jebkurā rindkopas vietā. Tas ļauj klausīties rindkopu, kuru vēlaties lasīt, vispirms to neatlasot un pēc tam noklikšķinot uz pogas Klausīties. Mobilajās ierīcēs šī funkcija darbojas, kad pieskaraties rindkopai (Pieskarieties un klausieties).<\/p>",
+                "02": "<p>Tastatūras pieejamībai: kad funkcija ir aktivizēta, varat izmantot taustiņus \"bultiņa pa labi\/bultiņa pa kreisi\", lai fokusētos uz iepriekšējo\/nākamo sadaļu vai iepriekšējo\/nākamo rindkopu sadaļā. Taustiņš \"bultiņa uz leju\" fokusē uz mazāku sadaļu. Taustiņš \"bultiņa uz augšu\" pārvieto fokusu atpakaļ uz lielāku sadaļu. Taustiņš \"L\" sāks atskaņot fokusēto rindkopu\/sadaļu.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i>Noklikšķināt un klausīties"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Koncentrēties uz pārvietošanas opciju: [shortcut:detachfocus]<\/p>",
+                "01": "<p>Ritinot lapu uz leju, klausīšanās poga, atskaņotājs un izvēlne tiks pārvietoti uz citu pozīciju, lai paliktu redzami. Pozīciju mainošā klausīšanās poga vai atskaņotājs parādīs pārvietošanas opciju. <br \/><img alt=\"The webReader Listen button with drag handle.\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>Jūs varat izmantot pārvietošanas opciju, lai pārvietotu pogu Klausīties, atskaņotāju un izvēlni tur, kur tas Jums šķiet visērtāk attiecībā pret lapas saturu. Tie pārvietosies atpakaļ uz noklusējuma pazīciju, kad ritināsiet atpakaļ uz augšu. Tie vienmēr pārvietosies uz pozīciju, kādu izvēlējāties pēdējo reizi.<\/p>",
+                "03": "<p>(Ņemiet vērā, ja ir vairāki lietotāji vienā lapā, atskaņotājs mainīs pozīciju tikai tad, ja tas ir atskaņošanas režīmā)<\/p>"
+            },
+            "title": "Pozīciju mainoša klausīšanās poga, atskaņotājs un izvēlne"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>webReader uznirstošie logi<\/h2>",
+                "01": "<p>Dažreiz WebReader atver uznirstošo logu. Tas notiek funkcijām Teksta režīms, Vārdnīca, Tulkotājs un Iestatījumi. Uznirstošajos logos ir atskaņošanas poga [button:player-play], lai jūs varētu klausīties logā redzamo tekstu. Varat izvēlēties, kā tekstam vajadzētu izskatīties, lai atvieglotu lasīšanu.<\/p>",
+                "02": "<p>Jūs varat:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Atskaņojiet [button:player-stop], pauzējiet [button:player-pause] vai apturiet [button:player-stop] audio<\/li>",
+                "05": "<li>Padariet tekstu lielāku [button:font-plus] vai mazāku [button:font-minus]<\/li>",
+                "06": "<li>Skaļuma regulēšana [poga: atskaņotāja skaļums]<\/li>",
+                "07": "<li>Lasīšanas ātruma regulēšana [poga: atskaņotāja ātrums]<\/li>",
+                "08": "<li>Izmantojiet pogu Iestatījumi [button:dialog-textsettings], lai pielāgotu teksta lielumu, fontu un krāsas, kā arī atstarpes starp rindām.<\/li>",
+                "09": "<li>Pārvietojiet logu, velkot to aiz pelēkās joslas augšpusē<\/li>",
+                "10": "<li>Palieliniet vai samaziniet logu, velkot apakšējo labo stūri<\/li>",
+                "11": "<li>Maksimizējiet loga izmēru [button:dialog-maximise], vieglākai un netraucētai lasīšanai<\/li>",
+                "12": "<li>Aizveriet logu ar pogu Aizvērt apakšā vai pogu augšējā labajā stūrī [button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Visi vizuāļi, kas aprakstīti šajā palīdzības sadaļā, attiecas uz standarta ReadSpeaker webReader ieviešanu un var nebūt piemērojami, ja webReader rīks tiek aprīkots ar pielāgotu izkārtojumu.<\/p>"
+            },
+            "title": "Atruna"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:download] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Noklikšķiniet, lai lejupielādētu mp3 failu ar mājas lapas izvēlētā teksta audio versiju vai izvēlēto tekstu.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Lejupielādēt mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:enlarge] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Noklikšķiniet uz \"Palielināt tekstu\", lai aktivizētu vai deaktivizētu šo funkciju. Zaļš ķeksītis uz pārslēdzēja norāda, ka tā ir aktivizēta. WebReader pēc tam parādīs lasāmo teikumu lapas apakšā ar lielāku fonta izmēru un vienlaicīgu vārdu izcelšanu. . Jūs varat atskaņot, iepauzēt vai apturēt audio un palielināt vai samazināt teksta izmēru.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Teksta palielināšanas rīks"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Ieslēgt vai izslēgt formReader moduli. Kad tas ir ieslēgts, tiešsaistē ierakstu lauki tiks lasīti skaļi, tajā skaitā teksts, ko ievadāt vai opcijas, ko izvēlaties.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Veidlapas lasīšana"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:help] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Palīdzība Jums sniedz vairāk informācijas par dažādiem rīkiem iekš ReadSpeaker webReader. Lai uzzinātu vairāk par ReadSpeaker, lūdzu, apmeklējiet <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link to www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Palīdzība"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>ReadSpeaker webReader ļauj mājas lapas tekstam kļūt saklausāmam, to nolasot priekšā. webReader sniedz iespēju labāk uztvert un saprast informāciju. Varat klausīties jebkurā vietā, jebkurā tiešsaistes ierīcē un jebkurā laikā. Tas saturu padara krietni pieejamāku, savukārt mājaslapu - draudzīgāku dažādām cilvēku grupām. Jums kā lietotājam nav nepieciešamība neko lejupielādēt.<\/p>"
+            },
+            "title": "ReadSpeaker webReader lietošana"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Lietotājs var izmantot tastatūras kombinācijas (īsinājumtaustiņus), lai aktivizētu lielāko daļu funkciju. Katrai funkcijai ir savs īsceļš. Lietotājs var mainīt šos īsceļus uznirstošajā logā Iestatījumi.<\/p>",
+                "01": "<p>Izmantojot tagad iestatītās saīsnes, var aktivizēt webReader, t.i., fokusu var iestatīt uz pogas Klausīties, izmantojot īsceļu [shortcut:playerfocus]. [shortcut:play] iestatīs fokusu uz atskaņotāju un arī sāks lasīt.<\/p>",
+                "02": "<p>Daži svarīgi īsinājumtaustiņi ir:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Koncentrēties uz uz pogu klausīties: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Koncentrēties uz atskaņotāju un sākt lasīt: [shortcut:play]<\/li>",
+                "07": "<li>Koncentrējieties uz pauzes pogu un pauzējiet vai atsāciet lasīšanu: [shortcut:pause]<\/li>",
+                "08": "<li>Koncentrēties uz uz pogu stop: [shortcut:stop]<\/li>",
+                "09": "<li>Atvērt\/aizvērt izvēlni: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>Atskaņotāja un izvēlnes iekšpusē, t.i., kad lietotājs ir iestatījis fokusu uz atskaņotāju, var izmantot tab\/shift+tab, lai pārvietotos, un ievadīšanas vai atstarpes taustiņu, lai aktivizētu noteiktu pogu vai opciju.<\/p>",
+                "13": "<p>Atsevišķu funkciju īsceļi ir minēti zemāk attiecīgajās sadaļās. Funkcijām, kurām var piekļūt no izvēlnes, tās darbosies tikai tad, ja lapā ir atvērta izvēlne.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Tastatūras navigācija"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Klausīties saturu<\/h2>",
+                "01": "<p> Vienkārši noklikšķiniet uz pogas \"Klausīties\", lai klausītos tīmekļa lapas saturu: <br \/><img alt=\"The webReader Listen button.\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>Parādās audio atskaņotājs (skatiet attēlu zemāk), un WebReader sāk lasīt tīmekļa lapu.<br \/><img alt=\"The webReader player.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>Atskaņotājā Jūs varat: <\/p>",
+                "04": "<ul>",
+                "05": "<li>Pauzējiet [button:player-pause] un turpiniet [button:player-play] lasīšanu<\/li>",
+                "06": "<li>Apturēt lasīšanu [button:player-stop]<\/li>",
+                "07": "<li>Pēc apturēšanas pogas izmantošanas atsāciet lasīšanu no sākuma [button:player-restart]<\/li>",
+                "08": "<li>TIzmantojiet izlaišanas (skip) pogas, lai audio attītu atpakaļ [button:player-skipbackward] vai uz priekšu [button:player-skipforward]<\/li>",
+                "09": "<li>Pielāgot skaļumu [button:player-volume]<\/li>",
+                "10": "<li>Pielāgot lasīšanas ātrumu [button:player-speed]<\/li>",
+                "11": "<li>Aizvērt atskaņotāju [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Izmantojot citas funkcijas, kas pieejamas izvēlnē<\/h2>",
+                "02": "<p>Noklikšķiniet uz izvēlnes pogas [button:player-menu], kas atrodas pa kreisi no pogas Klausīties, lai atvērtu izvēlni. Izvēlnē (skatiet attēlu zemāk) ir daudz noderīgu funkciju. Katra funkcija ir izskaidrota tālāk atsevišķā sadaļā.<br \/><img alt=\"The webReader menu.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:pagemask] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Noklikšķiniet uz “Lapas maska”, lai skatītu lapu ar fokusa joslu. Pārējā lapas daļa ir aptumšota. Fokusa josla seko peles kursoram vai skārienierīču pirkstam, lai vienlaikus būtu vieglāk fokusēties uz mazākām teksta daļām. Nospiediet escape taustiņu vai noklikšķiniet uz krustiņa fokusa joslas labajā malā, lai izslēgtu lapas masku. Noklikšķiniet uz + vai -, lai palielinātu vai samazinātu fokusa apgabalu.<\/p>",
+                "02": "<p>Lai ieietu vai izietu no tastatūras navigācijas režīma, kad lapas maska tiek atspoguļota, nospiediet atstarpes taustiņu. Neliela tastatūras ikona tiks parādīta tieši virs fokusa laukuma, kad tastatūras režīms ir aktivizēts. Kad tas ir aktivizēts, var tikt izmantotas bultiņas, lai pārvietotu fokusa laukumu (vai SHIFT taustiņš + bultiņas ātrākai kustībai). Pluss un mīnuss taustiņi mainīs fokusa laukuma izmēru.<\/p>",
+                "03": "<p class=\"disclaimer\">Lūdzu, ņemiet vērā: Lapas maska ir grafisks rīks, kas dažiem lietotājiem var palīdzēt koncentrēties, bet var nebūt noderīgs vājredzīgiem cilvēkiem.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Lapas maskas rīks"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Uznirstošā loga atskaņotājs<\/h2>",
+                "01": "<p class=\"accesskey\">Piekļuve tastatūrai: [shortcut:controlpanel]<\/p>",
+                "02": "<p> Audio atskaņošanas laikā ekrāna apakšējā labajā stūrī būs redzams uznirstošais vadības panelis, kurā varat: <\/p>",
+                "03": "<ul>",
+                "04": "<li>Pauzējiet [button:player-pause] un turpiniet [button:player-play] lasīšanu<\/li>",
+                "05": "<li>Izmantojiet izlaišanas pogas, lai audio attītu atpakaļ [button:player-skipbackward] vai uz priekšu [button:player-skipforward]<\/li>",
+                "06": "<li>Pārslēgt automātisko lapas ritināšanu (ieslēgt\/izslēgt)<\/li><br \/><img alt=\"The webReader pop-up player.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker apstrādās sekojošas privātās informācijas kategorijas:<br \/> <br \/> 1) ReadSpeaker webReader servisi apstrādā tekstu saskaņā ar klienta mājas lapas (mājas lapas saturs) sadaļām, kur rīks ir ieviests. Tā kā servisi apstrādā informāciju klienta mājas lapā, ko klients ir akceptējis, tad tam nevajadzētu saturēt nekādu sensitīvu privāto informāciju.<br \/> <br \/> 2) Daļa no informācijas ir personiski dati (klienta informācija), kas tiek uzglabāta back-end datubāzē. Dati, kas tiek uzglabāti, ir klienta vārds (juridiskā informācija), kontaktpersonas un kontaktinformācija (e-pasta adreses).<br \/> <br \/> 3) Atkarībā no klienta ieviesuma attiecībā uz servisu, gala lietotāju numurs un URL, kur servisss ir aktivizēts, var tikt ierakstīti servisa aplikācijas serverī."
+            },
+            "title": "Privātuma informācija"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation, dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "tulkojums, vārdnīca"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Izvēlētā teksta iespējas<\/h2>",
+                "01": "<p> Atlasot tekstu lapā, tiks parādīta uznirstošā izvēlne ar funkcijām Klausīties, Vārdnīca un Tulkot. Ja opciju neredzat, tā šajā vietnē nav pieejama. <br \/><img alt=\"The webReader pop-up menu for selected text.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Lasīt izvēlēto tekstu<\/h3>",
+                "03": "<p>Lai klausītos teksta jebkuru daļu, izvēlieties tekstu un tad spiediet klausīties pogu uznirstošajā logā.<\/p>",
+                "04": "<h3>Vārdnīca<\/h3>",
+                "05": "<p>Lai meklētu vārdu vārdnīcā, izvēlieties vārdu un noklikšķiniet opciju \"Vārdnīca\" uznirstošajā logā. Dialoglodziņš atvērsies, parādot vārdnīcas ierakstu izvēlētajam vārdam. Ja ir izvēlēti vairāki vārdi, tiek parādīts pirmā vārda ieraksts vārdnīcā.<\/p>",
+                "06": "<h3>Tulkojums<\/h3>",
+                "07": "<p>Lai tulkotu teksta jebkuru daļu, izvēlieties tekstu un tad spiediet pogu \"Tulkot\" uznirstošajā logā. Parādīsies valodas izvēles rīks, kur Jūs varat izvēlēties vēlamo valodu. Tulkojums tiks parādīts uznirstošajā logā.<\/p>",
+                "08": "<p class=\"disclaimer\">Lūdzu, ņemiet vērā: tālāk minētās funkcijas ir pieejamas tikai tad, ja varat atlasīt tekstu lapā. Tas var nebūt iespējams, ja izmantojat tikai tastatūras vadīklas.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:settings] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Noklikšķiniet, lai personalizētu tīmekļa lasītāju atbilstoši savām vēlmēm. Tiks atvērts uznirstošais logs, kurā varat pielāgot noteiktus iestatījumus, kas nosaka, kā darbojas WebReader. Par katru iestatījumu lasiet tālāk. Jūsu personalizētie iestatījumi tiek saglabāti starp sesijām.<\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Izcelšana<\/h2>",
+                "03": "<h3>Teksta izcelšana ieslēgta\/izslēgta<\/h3>",
+                "04": "<p>Izvēlieties, vai teksts tiek izcelts, kamēr tas tiek lasīts skaļi (Ieslēgts) vai ne (Izslēgts).<\/p>",
+                "05": "<h3>Ko izcelt<\/h3>",
+                "06": "<p>Izvēlieties, ko Jūs vēlaties, lai webReader izceļ:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Vārds un teikums<\/li>",
+                "09": "<li>Tikai teikums<\/li>",
+                "10": "<li>Tikai vārds<\/li>",
+                "11": "<li>Bez izcelšanas<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Vārda krāsa<\/h3>",
+                "14": "<p>Izvēlieties krāsu, kas tiks izmantota izceļot vārdus, kad tie tiek nolasīti, vai arī tā vietā izvēlieties pasvītrošanu.<\/p>",
+                "15": "<h3>Teikuma krāsa<\/h3>",
+                "16": "<p>Izvēlieties krāsu, kas tiks izmantota izceļot teikumus, kad tie tiek nolasīti, vai arī tā vietā izvēlieties pasvītrošanu.<\/p>",
+                "17": "<h3>Teksta krāsa<\/h3>",
+                "18": "<p>Izvēlieties izceltā teksta krāsu.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Citi iestatījumi<\/h2>",
+                "20": "<h3>Automātiskā ritināšana<\/h3>",
+                "21": "<p>Pārslēgt automātisko ritināšanu (ieslēgts\/izslēgts). Kad tā ir aktivizēta, lapa automātiski ritināsies uz leju, lai sekotu izceltajam tekstam. Šo iestatījumu ir iespējams pārslēgt arī no uznirstošā kontroles paneļa loga, kas parādīsies, ja automātiskā ritināšana ir izslēgta.<\/p>",
+                "22": "<h3>Izvēlētā teksta uznirstošā loga izvēlne<\/h3>",
+                "23": "<p>Ieslēdziet vai izslēdziet izvēlētā teksta uznirstošā loga izvēlni, kas parādās, ja tiek izvēlēts teksts.<\/p>",
+                "24": "<h3>Uznirstošās izvēlnes iestatījumi<\/h3>",
+                "25": "<p>Ja vēlaties, lai uznirstošā izvēlne tiktu automātiski aizvērta, izvēlieties “Aizvērt automātiski” un iestatiet sekunžu skaitu, cik ilgu laiku jābūt redzamai uznirstošajai izvēlnei.<\/p>",
+                "26": "<p>Ja vēlaties, lai uznirstošā izvēlne attiecīgi atlasītajam tekstam paliktu redzama, izvēlieties opciju \"neaizvērt\".<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Mainiet tastatūras pieejamības saīsnes<\/h2>",
+                "28": "<p>Varat mainīt īsinājumtaustiņus vai taustiņu kombinācijas dažādām darbībām. Lai mainītu īsinājumtaustiņu konkrētai darbībai, noklikšķiniet uz pogas, kas parāda pašreizējo īsceļu, un pēc tam definējiet jauno taustiņu kombināciju, vienlaikus turot nospiestus tastatūras taustiņus. Tagad poga parādīs jauno saīsni.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Atjaunot noklusējuma iestatījumus<\/h2>",
+                "30": "<p>Izmantojiet izvēles rūtiņas, lai norādītu, kuriem WebReader iestatījumiem vēlaties atjaunot noklusējuma vērtības. Atzīmējiet \"Visi\" vai atzīmējiet vienu vai vairākas citas izvēles rūtiņas:<\/p>",
+                "31": "<ul>",
+                "32": "<li>Teksta režīma un uznirstošo logu iestatījumi<\/li>",
+                "33": "<li>Izcelšanas iestatījumi<\/li>",
+                "34": "<li>Automātiskās ritināšanas iestatījumi un atlasītā teksta uznirstošā izvēlne<\/li>",
+                "35": "<li>Īsceļi<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Iestatījumi"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:textmode] (darbojas tikai pēc izvēlnes atvēršanas)<\/p>",
+                "01": "<p>Noklikšķiniet uz “Teksta režīms”, lai atvērtu uznirstošo logu ar pašreizējo lapu teksta orientētā versijā. Varat izvēlēties, kā teksts tiks parādīts (skatiet iepriekš sadaļā “WebReader uznirstošie logi”). Attēli tiek rādīti arī tad, ja ar tiem ir saistīts teksts.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Teksta režīma rīks"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Piekļuve no tastatūras: [shortcut:readingvoice] (lai izvēlētos lasīšanas valodu, izvēlnei ir jābūt atvērtai)<\/p>",
+                "01": "<p>Izvēlieties valodu, kas webReader jāizmanto teksta lasīšanai. Var būt balsis dažādās valodās un\/vai dažādas valodas balsis. Vienkārši nolaižamajā izvēlnē atlasiet balsi, kuru vēlaties izmantot. Ņemiet vērā, ka šis rīks tiks iespējots tikai tad, ja būs pieejama vairāk nekā viena lasīšanas balss.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Lasīšanas valoda"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

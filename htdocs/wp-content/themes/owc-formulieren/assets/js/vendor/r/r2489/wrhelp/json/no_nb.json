@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Tastaturtilgang: [shortcut:clicklisten] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>Klikk på Klikk og lytt for å slå denne funksjonen på eller av. Et grønt merke på vippebryteren angir at den er på. webReader begynner å lese et avsnitt når du klikker hvor som helst i det avsnittet. Dette gjør det mulig å lytte til et avsnitt du vil lese, uten å måtte velge det først og deretter klikke på Lytt-knappen. Denne funksjonen fungerer på bærbare enheter ved å trykke i avsnittet (Trykk og lytt).<\/p>",
+                "02": "<p>Tilgjengelighet fra tastaturet: Når funksjonen er aktivert, kan du bruke Pil høyre\/venstre for å sette fokus på det neste\/forrige området, eller det neste\/forrige avsnittet, innenfor et gitt område. Pil ned setter fokus på et avsnitt innenfor et gitt område. Pil opp setter fokuset tilbake til et større område. L-tasten starter lesing av det fokuserte avsnittet eller området.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i>Klikk og lytt"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Sett fokus på drahåndtak: [shortcut:detachfocus]<\/p>",
+                "01": "<p>Når du ruller ned på siden, flyter Lytt-knappen, spilleren og menyen til et annet sted for å holde seg synlig i visningen. Den flytende Lytt-knappen eller spilleren viser et drahåndtak.<br \/><img alt=\"Lytt-knappen med drahåndtak i webReader.\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>Du kan bruke drahåndtaket til å dra Lytt-knappen, spilleren og menyen dit det er mest praktisk i forhold til innholdet som vises på siden. De går tilbake til standardposisjonen når du blar opp igjen. De flyter alltid dit du sist plasserte dem.<\/p>",
+                "03": "<p>(Hvis det er flere spillere på en side, vil en spiller bare flyte hvis den er i spillemodus)<\/p>"
+            },
+            "title": "Flytende Lytt-knapp, spiller og meny"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>webReader-hurtigvinduer<\/h2>",
+                "01": "<p>Noen ganger åpner webReader et hurtigvindu. Dette skjer for funksjonene Tekstmodus, Ordliste, Oversett, og Innstillinger. Hurtigvinduer har en avspillingsknapp [button:player-play] som du kan bruke til å lytte til teksten i vinduet. Du kan velge hvordan teksten skal se ut for å gjøre lesingen enklere for deg.<\/p>",
+                "02": "<p>Du kan:<\/p>",
+                "03": "<ul>",
+                "04": "<li>spille av lyden [button:player-play], sette lyden på pause [button:player-pause] eller stoppe lyden [button:player-stop]<\/li>",
+                "05": "<li>gjøre teksten større [button:dialog-maximise] eller mindre [button:dialog-minimise]<\/li>",
+                "06": "<li>justere volumet [button:player-volume]<\/li>",
+                "07": "<li>justere lesehastigheten [button:player-speed]<\/li>",
+                "08": "<li>bruke knappen Innstillinger [button:dialog-textsettings] til å justere størrelsen, skriften og fargene i teksten samt linjeavstanden<\/li>",
+                "09": "<li>flytte vinduet ved å dra det etter den grå linjen øverst<\/li>",
+                "10": "<li>gjøre vinduet større eller mindre ved å dra det nederste høyre hjørne<\/li>",
+                "11": "<li>maksimere vindusstørrelsen [button:dialog-maximise] for enklere og uforstyrret lesing<\/li>",
+                "12": "<li>lukke vinduet med Lukk-knappen nederst eller knappen øverst til høyre [button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Eventuelle visuelle funksjoner beskrevet i denne hjelpen, viser til ReadSpeakers standard skallimplementering av webReader og gjelder nødvendigvis ikke hvis webReader-verktøyet har fått et tilpasset skall.<\/p>"
+            },
+            "title": "Ansvarsfraskrivelse"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\"> Tastaturtilgang: [shortcut:download] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>klikke for å laste ned en mp3-fil med en lydversjon av nettsiden eller valgt tekst<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Last ned mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Tastaturtilgang: [shortcut:enlarge] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>Klikk på Forstørr tekst for å slå denne funksjonen av og på. Et grønt merke på vipebryteren angir at den er på. webReader viser setningen som leses, nederst på siden med en større skriftstørrelse og samtidig tekstutheving. Du kan spille av lesingen, sette lesingen på pause eller stoppe lesingen. Du kan også øke eller redusere størrelsen på teksten.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Forstørr tekst"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Slå formReader-modulen på eller av. Når den er på, leses elektroniske skjemaer høyt, inkludert teksten du skriver inn eller alternativet du velger.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Skjemalesing"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\"> Tastaturtilgang: [shortcut:help] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>Hjelpesiden gir deg mer informasjon om de forskjellige verktøyene i ReadSpeaker webReader. Du finner mer informasjon om ReadSpeaker på <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link to www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Hjelp"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>ReadSpeaker webReader leser høyt tekstinnholdet på et nettsted. Ved å la teksten bli lest høyt kan du bedre forstå informasjon og lytte til den hvor som helst og når som helst på en nettbasert enhet. Dette gjør innholdet mer tilgjengelig og nettstedet hyggeligere å besøke. Som bruker trenger du ikke å laste ned noe.<\/p>"
+            },
+            "title": "Bruke ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Brukeren kan bruke hurtigtaster (tastekombinasjoner) til å aktivere de fleste funksjonene. Hver funksjon har en egen hurtigtast. Brukeren kan endre disse hurtigtastene i hurtigmenyen for Innstillinger.<\/p>",
+                "01": "<p>webReader kan aktiveres med hurtigtastene slik de er angitt nå. Dvs. fokus kan angis på Lytt-knappen med hurtigtasten [shortcut:playerfocus]. [shortcut:play] angir fokus på spilleren og starter lesingen.<\/p>",
+                "02": "<p>Noen viktige hurtigtaster:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Sett fokus på Lytt-knappen: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Sett fokus på spilleren, og start lesningen: [shortcut:play]<\/li>",
+                "07": "<li>Sett fokus på pauseknappen, og sett lesingen på pause eller gjenoppta lesingen: [shortcut:pause]<\/li>",
+                "08": "<li>Sett fokus på Stopp-knappen: [shortcut:stop]<\/li>",
+                "09": "<li>Åpne\/lukk menyen: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>I spilleren og menyen, dvs. når brukeren har satt fokus på spilleren, kan Tab eller Skift+Tab brukes til å navigere, og Enter- eller mellomromstasten kan brukes til å aktivere en bestemt knapp eller et alternativ.<\/p>",
+                "13": "<p>Hurtigtastene for de forskjellige funksjonene står nevnt i de aktuelle områdene nedenfor. Når det gjelder funksjoner som aktiveres via menyen, fungerer bare hurtigtastene hvis menyen er åpnet på siden.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Tastaturnavigasjon"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Lytte til innholdet<\/h2>",
+                "01": "<p>Klikk på Lytt-knappen for å lytte til innholdet på en nettside:<br \/><img alt=\"Lytt-knappen i webReader.\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>En lydspiller vises (se bildet nedenfor), og webReader begynner å lese høyt teksten på nettsiden.<br \/><img alt=\"webReader-spilleren.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>I spilleren kan du: <\/p>",
+                "04": "<ul>",
+                "05": "<li>sette lesingen på pause [button:player-pause] og fortsette [button:player-play] lesingen<\/li>",
+                "06": "<li>stoppe lesingen [button:player-stop]<\/li>",
+                "07": "<li>starte lesingen på nytt fra begynnelsen [button:player-restart] etter bruk av stoppknappen<\/li>",
+                "08": "<li>bruke hopp over-knappene til å spole lyden tilbake [button:player-skipbackward] eller fremover [button:player-skipforward]<\/li>",
+                "09": "<li>justere volumet [button:player-volume]<\/li>",
+                "10": "<li>justere lesehastigheten [button:player-speed]<\/li>",
+                "11": "<li>lukke spilleren [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Bruke funksjonene i menyen<\/h2>",
+                "02": "<p>Klikk på menyknappen [button:player-menu] til venstre for Lytt-knappen for å åpne menyen. Menyen (se bildet nedenfor) har mange nyttige funksjoner. Hver funksjon er forklart nedenfor i en egen del.<br \/><img alt=\"webReader-menyen.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\"> Tastaturtilgang: [shortcut:pagemask] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>Klikk på Sidemaske for å se siden med et fokusfelt. Resten av teksten er nedtonet. Fokusfeltet følger musepekeren, eller fingeren på berøringsenheter, slik at det blir enklere å fokusere på mindre tekstdeler om gangen. Du slår av sidemasken ved å trykke på Esc-tasten eller klikke på krysset på fokusfeltets høyre kant. Klikk på + eller - for å gjøre fokusfeltet større eller mindre.<\/p>",
+                "02": "<p>Trykk på mellomromstasten for å aktivere (eller deaktivere) tastaturnavigasjonsmodus når sidemasken vises. Det vil vises et lite ikon like over fokusområdet for å angi modusen. Når piltastene er aktive, kan de brukes til å flytte fokusområdet (eller skifttast + piltast for raskere bevegelse). Pluss- og minustastene vil endre størrelsen på fokusområdet.<\/p>",
+                "03": "<p class=\"disclaimer\">Merk: Sidemaske er et rent grafisk verktøy som kan hjelpe noen brukere med å fokusere, men som kanskje ikke er nyttig for personer med nedsatt syn.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Sidemaske"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Hurtigmenyspiller<\/h2>",
+                "01": "<p class=\"accesskey\">Tastaturtilgang: [shortcut:controlpanel]<\/p>",
+                "02": "<p>Når teksten leses høyt, ser du en hurtigmenyspiller nede i høyre hjørne av skjermen der du kan<\/p>",
+                "03": "<ul>",
+                "04": "<li>sette lesingen på pause [button:player-pause] og fortsette [button:player-play] lesingen<\/li>",
+                "05": "<li>bruke hopp over-knappene til å spole lyden tilbake [button:player-skipbackward] eller fremover [button:player-skipforward]<\/li>",
+                "06": "<li>veksle automatisk rulling av siden (på\/av)<\/li><br \/><img alt=\"webReader-hurtigspilleren.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker vil behandle følgende kategorier av personopplysninger:<br \/> <br \/> 1) Markeringstjenestene til ReadSpeaker webReader behandler tekstinnholdet på kundens webside (websideinnhold) på sidene der tjenesten er implementert. Fordi tjenesten behandler informasjonen på kundens webside, som kunden har forfattet og publisert, bør den ikke inneholde sensitive personopplysninger.<br \/> <br \/> 2) Som en del av tjenesten, lagres det personopplysninger (kundeinformasjon) i en backend-database. Opplysningene som lagres, er navnet til kunden (juridisk enhet), kontaktperson(er) og kontaktdetaljer (e-postadresse(r)).<br \/> <br \/> 3) Avhengig av kundens implementering av tjenesten kan, sluttbrukerens IP-nummer, UserAgent-streng, og URL der tjenestene er blitt aktivert, bli registrert i tjenesteprogrammets server-\/webserverloggfil."
+            },
+            "title": "Informasjon om personvern"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Funksjoner for merket tekst<\/h2>",
+                "01": "<p>Når du merker tekst på en side, utløses én eller flere av følgende funksjoner: Lytt, Ordliste og Oversett. Hvis du ikke ser et alternativ, er det ikke tilgjengelig på dette nettstedet.<br \/><img alt=\"Hurtigmenyen i webReader for merket tekst.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Lese merket tekst<\/h3>",
+                "03": "<p>Hvis du vil lytte til en tekst, merker du teksten og klikker på lytteknappen i popup-menyen.<\/p>",
+                "04": "<h3>Ordbok<\/h3>",
+                "05": "<p>Hvis du vil slå opp et ord i ordlisten, merker du ordet og klikker på alternativet Ordliste i hurtigmenyen. Du får da opp et vindu som viser oppføringen av det merkede ordet i ordlisten. Hvis du merker flere ord, vises kun oppføringen for det første ordet.<\/p>",
+                "06": "<h3>Oversettelse<\/h3>",
+                "07": "<p>Hvis du vil oversette en del av en tekst, merker du teksten og klikker på alternativet Oversett i hurtigmenyen. Du får da opp en språkvelger der du kan velge målspråket. Oversettelsen vises i et hurtigvindu.<\/p>",
+                "08": "<p class=\"disclaimer\">Merk: funksjonene nevnt nedenfor er kun tilgjengelige hvis du kan velge tekst på siden. Dette er kanskje ikke mulig hvis du bare bruker tastaturkontroller.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Tastaturtilgang: [shortcut:settings] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>Klikk for å tilpasse webReader etter dine preferanser. Et hurtigvindu åpnes der du kan justere bestemte innstillinger som bestemmer hvordan webReader fungerer. Les om hver innstilling nedenfor. Dine tilpassede innstillinger lagres mellom økter.<\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Utheving<\/h2>",
+                "03": "<h3>Tekstutheving av\/på<\/h3>",
+                "04": "<p>Velg å utheve teksten når den leses høyt (på) eller ikke (av).<\/p>",
+                "05": "<h3>Valg av utheving<\/h3>",
+                "06": "<p>Velg hva webReader skal utheve:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Ord og setning<\/li>",
+                "09": "<li>Kun setning<\/li>",
+                "10": "<li>Kun ord<\/li>",
+                "11": "<li>Ingen utheving<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Ordfarge<\/h3>",
+                "14": "<p>Velg fargen som skal brukes for å utheve ord etter hvert som de leses, eller velg å bruke understreking i stedet.<\/p>",
+                "15": "<h3>Setningsfarge<\/h3>",
+                "16": "<p>Velg fargen som skal brukes for å utheve setninger etter hvert som de leses, eller velg å bruke understreking i stedet.<\/p>",
+                "17": "<h3>Skriftfarge<\/h3>",
+                "18": "<p>Velg fargen for den markerte teksten.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Andre innstillinger<\/h2>",
+                "20": "<h3>Automatisk rulling<\/h3>",
+                "21": "<p>Veksle automatisk rulling (på\/av). Når dette er aktivert, ruller siden ned automatisk for å følge den uthevede teksten. Denne innstillingen kan også veksles via hurtigmenyspilleren, som vil vises når spilleren er aktiv.<\/p>",
+                "22": "<h3>Popup-meny for merking av tekst<\/h3>",
+                "23": "<p>Velg om en hurtigmeny skal vises når du merker tekst (på\/av).<\/p>",
+                "24": "<h3>Innstillinger for hurtigmeny<\/h3>",
+                "25": "<p>Hvis du vil at hurtigmenyen skal lukkes automatisk etter en stund, velger du Lukk automatisk og angir hvor mange sekunder hurtigmenyen skal vises.<\/p>",
+                "26": "<p>Hvis du foretrekker at hurtigmenyen skal forbli synlig, velger du Ikke lukk.<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Endre hurtigtaster for tastaturtilgjengelighet<\/h2>",
+                "28": "<p>Du kan endre hurtigtastene eller tastekombinasjonene for forskjellige handlinger. Hvis du vil endre en hurtigtast for en spesifikk handling, klikker du på knappen som viser den gjeldende hurtigtasten. Deretter definerer du den nye tastekombinasjonen ved å holde tastene nede samtidig på tastaturet. Knappen viser nå den nye hurtigtasten.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Gjenopprette standardinnstillinger<\/h2>",
+                "30": "<p>Bruk avmerkingsboksene til å angi hvilke webReader-innstillinger du vi gjenopprette til standardverdiene. Du kan merke av for Alle eller merke av en eller flere bokser:<\/p>",
+                "31": "<ul>",
+                "32": "<li>Innstillinger for tekstmodus og hurtigvinduer<\/li>",
+                "33": "<li>Valg av utheving<\/li>",
+                "34": "<li>Innstillinger for automatisk rulling og hurtigmeny for merket tekst<\/li>",
+                "35": "<li>Hurtigtaster<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Innstillinger"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\"> Tastaturtilgang: [shortcut:textmode] (virker bare etter at menyen har blitt åpnet en gang)<\/p>",
+                "01": "<p>Klikk på Tekstmodus for å åpne et hurtigvindu med den aktuelle siden i en tekstorientert versjon. Du kan velge hvordan teksten skal vises (se ovenfor under webReader-hurtigvinduer). Bilder vises også hvis de har tilhørende tekst.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Tekstmodus"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Tastaturtilgang: [shortcut:readingvoice] (krever at menyen er åpen slik at du kan velge lesespråk)<\/p>",
+                "01": "<p>Velg stemmen som webReader skal lese teksten med. Det kan finnes stemmer på flere språk og\/eller forskjellige stemmer for et språk. Bare velg stemmen du ønsker å bruke, fra rullegardinlisten. Merk at dette verktøyet bare vil bli aktivert når det er mer enn én tilgjengelig lesestemme.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Lesestemme"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:clicklisten] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Wybierz opcję „Kliknij i Słuchaj”, aby włączyć lub wyłączyć tę funkcję. Zielony znacznik wyboru przy przełączniku informuje, że funkcja jest włączona. W takiej sytuacji narzędzie webReader zacznie odczytywać akapit po kliknięciu dowolnego miejsca akapitu. Pozwala to posłuchać akapitu, z którym chcesz się zapoznać, bez konieczności jego wcześniejszego zaznaczenia i kliknięcia opcji Posłuchaj. Na urządzeniach mobilnych ta funkcja działa po naciśnięciu akapitu („Naciśnij i Słuchaj”).<\/p>",
+                "02": "<p>Ułatwienia dostępu z poziomu klawiatury: gdy ta funkcja jest aktywna, możesz używać przycisków strzałek w prawo\/lewo, aby skoncentrować narzędzie na następnej\/poprzedniej sekcji lub następnym\/poprzednim akapicie w danej sekcji. Przycisk strzałki w dół powoduje koncentrację na akapicie w sekcji. Przycisk strzałki w dół przywraca koncentrację na większej sekcji. Przycisk L rozpoczyna odtwarzanie wybranego akapitu lub sekcji.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i>Kliknij i posłuchaj"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Fokus na uchwyt przeciągnia: [shortcut:detachfocus]<\/p>",
+                "01": "<p>Gdy przewijasz stronę w dół, przycisk Posłuchaj, odtwarzacz i menu będą zmieniać położenie, aby były nadal widoczne. Przestawny przycisk Posłuchaj i odtwarzacz są wyposażone w uchwyt przeciągania.<br \/><img alt=\"Przycisk Posłuchaj narzędzia webReader z uchwytem przeciągania.\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>Za pomocą uchwytu możesz przeciągnąć przycisk Posłuchaj, odtwarzacz i menu tam, gdzie jest to dla Ciebie najwygodniejsze. Przyciski powrócą do pozycji domyślnej po przewinięciu strony do góry. Przyciski będą zawsze przesuwać w kierunku pozycji do której zostały ostatnio przeciągnięte.<\/p>",
+                "03": "<p>(Uwaga: Jeśli na stronie jest kilka odtwarzaczy, tylko aktywny odtwarzacz będzie zmieniać pozycję) <\/p>"
+            },
+            "title": "przycisk przestawny Posłuchaj, odtwarzacz i menu"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>Okienka podręczne narzędzia webReader<\/h2>",
+                "01": "<p>Czasami narzędzie webReader otwiera okienko podręczne. Dzieje się tak w przypadku funkcji Tryb tekstowy, Słownik, Tłumaczenie i Ustawienia. W okienkach podręcznych znajduje się przycisk Odtwórz [button:player-play], aby umożliwić słuchanie tekstu w okienku. Możesz wybrać, jak ma być wyświetlany tekst, aby ułatwić odczytywanie tekstu podczas odtwarzania.<\/p>",
+                "02": "<p>Możesz:<\/p>",
+                "03": "<ul>",
+                "04": "<li>odtwarzać [button:player-play], przerwać [button:player-pause] lub wyłączyć [button:player-stop] odtwarzanie dźwięku<\/li>",
+                "05": "<li>Powiększ [button:dialog-maximise] lub pomniejsz tekst [button:dialog-minimise]<\/li>",
+                "06": "<li>Ustaw głośność [button:player-volume]<\/li>",
+                "07": "<li>Ustaw prędkość czytania [button:player-speed]<\/li>",
+                "08": "<li>Użyj przycisku Ustawienia[button:dialog-textsettings], aby zmienić wielkość, czcionkę i kolory tekstu oraz zmienić interlinię<\/li>",
+                "09": "<li>Przenieś okno, przeciągając je szarym paskiem w części górnej<\/li>",
+                "10": "<li>Powiększ lub pomniejsz okno, przeciągając jego prawy dolny róg<\/li>",
+                "11": "<li>Maksymalnie powiększ okno [button:dialog-maximise] w celu łatwiejszego odczytywania bez rozpraszania się<\/li>",
+                "12": "<li>Zamknij okno przyciskiem Zamknij na dole lub przyciskiem w prawym górnym rogu[button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Wszelkie wizualizacje opisane w tym narzędziu pomocy odnoszą się do standardowej implementacji skórki narzędzia webReader i mogą nie mieć zastosowania, jeśli narzędzie webReader zostało wyposażone w niestandardową skórkę.<\/p>"
+            },
+            "title": "Zastrzeżenie"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:download] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Kliknij, aby pobrać plik mp3 z wersją audio strony lub wybranego tekstu.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Ściągnij mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:enlarge] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Kliknij opcję „Powiększ tekst”, aby włączyć lub wyłączyć tę funkcję. Zielony znacznik wyboru przy przełączniku informuje, że funkcja jest włączona. Narzędzie webReader będzie wówczas wyświetlać odczytywane zdanie na dole strony dużą czcionką i z jednoczesnym podświetleniem słów. Możesz odtwarzać, zatrzymywać lub wyłączać odczytywanie oraz powiększać lub zmniejszać tekst.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Narzędzie Powiększ tekst"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Włącza lub wyłącza moduł formReader. Kiedy włączony, treści formularzy online, wpisany tekst i wybrane opcje będą czytane.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Czytanie formularzy"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:help] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Strona pomocy zawiera więcej informacji na temat różnych funkcji dostępnych w narzędziu  ReadSpeaker webReader. Aby dowiedzieć się więcej na temat ReadSpeaker, odwiedź stronę internetową <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link do www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Pomoc"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Narzędzie ReadSpeaker webReader odczytuje treści na stronie internetowej. Słuchanie tekstu pozwala lepiej go zrozumieć. Możesz korzystać z narzędzia w dowolnym miejscu na każdym urządzeniu z dostępem do Internetu, bez względu na porę. Zwiększa to przystępność stron internetowych i sprawia, że ich odwiedzanie jest przyjemniejsze. Jako użytkownik, nie musisz niczego pobierać.<\/p>"
+            },
+            "title": "Jak używać narzędzia ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Użytkownik może korzystać z kombinacji klawiszy (skróty klawiaturowe) do aktywacji większości funkcji. Każda funkcja ma własny skrót. Skróty można zmienić w okienku podręcznym Ustawienia.<\/p>",
+                "01": "<p>Przy obecnie ustawionych skrótach narzędzie webReader można aktywować (tzn. skoncentrować widok na przycisku Posłuchaj) skrótem [shortcut:playerfocus]. [shortcut:play], co skoncentruje widok na odtwarzaczu i rozpocznie odczytywanie.<\/p>",
+                "02": "<p>Niektóre ważne skróty:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Fokus na przycisku Posłuchaj: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Fokus na odtwarzaczu i rozpoczęcie odczytu: [shortcut:play]<\/li>",
+                "07": "<li>Fokus na przycisku zatrzymania i zatrzymaj lub wznów odczytywanie: [shortcut:pause]<\/li>",
+                "08": "<li>Fokus na przycisku Stop: [shortcut:stop]<\/li>",
+                "09": "<li>Otwórz\/zamknij menu: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>W odtwarzaczu i jego menu (tzn. gdy użytkownik skoncentruje widok na odtwarzaczu) można używać kombinacji klawiszy Tab\/Shift+Tab do nawigacji oraz klawiszy Enter lub spacji do aktywowania wybranych przycisków lub opcji.<\/p>",
+                "13": "<p>O skrótach dla poszczególnych funkcji wspomniano w odpowiednich sekcjach poniżej. Funkcje dostępne z menu będą działać tylko wtedy, gdy otwarto menu na stronie.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Nawigacja za pomocą klawiatury"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Posłuchaj treści<\/h2>",
+                "01": "<p>Aby posłuchać zawartości strony internetowej, wystarczy kliknąć przycisk Posłuchaj:<br \/><img alt=\"przycisk Posłuchaj w narzędziu webReader.\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>Wyświetli się odtwarzacz audio (patrz obraz poniżej) i narzędzie webReader zacznie odczytywać tekst na stronie.<br \/><img alt=\"Odtwarzacz webReader.\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>W odtwarzaczu możesz: <\/p>",
+                "04": "<ul>",
+                "05": "<li>Spauzuj [button:player-pause] i kontynuuj [button:player-play] odczytywanie<\/li>",
+                "06": "<li>Zatrzymaj odczytywanie [button:player-stop]<\/li>",
+                "07": "<li>Ponownie rozpocznij odczytywanie od początku [button:player-restart] po użyciu przycisku Stop<\/li>",
+                "08": "<li>Używaj przycisków pomijania w celu przewijania do tyłu [button:player-skipbackward] lub do przodu [button:player-skipforward] podczas odczytywania<\/li>",
+                "09": "<li>Ustaw głośność [button:player-volume]<\/li>",
+                "10": "<li>Ustaw prędkość czytania [button:player-speed]<\/li>",
+                "11": "<li>Zamknij odtwarzacz [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Używanie funkcji w menu<\/h2>",
+                "02": "<p>Kliknij przycisk menu [button:player-menu] po lewej stronie przycisku Posłuchaj, aby otworzyć menu. W menu (patrz obraz poniżej) można znaleźć wiele przydatnych funkcji. Każdą funkcję objaśniono poniżej w osobnej sekcji.<br \/><img alt=\"Menu narzędzia webReader.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:pagemask] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Kliknij opcję „Maska strony”, aby zobaczyć stronę z paskiem poprawiającym koncentrację. Pozostała część strony jest przygaszona. Pasek poprawiający koncentrację podąża za kursorem myszy (lub palcem w przypadku urządzeń z ekranem dotykowym), co ułatwia skupienie się na mniejszych częściach tekstu. Naciśnij przycisk Escape lub kliknij krzyżyk w prawym rogu paska poprawiającego koncentrację, aby wyłączyć maskę strony. Kliknij przyciski + lub -, aby powiększyć lub pomniejszyć obszar skupienia.<\/p>",
+                "02": "<p>Aby wejść lub wyjść z trybu nawigacji za pomocą klawiatury gdy maska strony jest aktywna, wciśnij Spację. Mała ikona klawiatury będzie wyświetlana tuż nad podświetlonym polem, gdy tryb nawigacji za pomocą klawiatury jest aktywny. Gdy aktywny, klawisze strzałek mogą być używane do przesuwania podświetlonego pola (lub klawisze Shift + strzałki aby poruszać się szybciej). Klawisze Plus i Minus zmieniają wielkość podświetlonego obszaru.<\/p>",
+                "03": "<p class=\"disclaimer\">Uwaga: Maska strony to czysto graficzne narzędzie, które może pomóc niektórym użytkownikom w skupieniu się, ale może nie być przydatne dla osób słabowidzących.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Maska strony"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Odtwarzacz podręczny<\/h2>",
+                "01": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:controlpanel]<\/p>",
+                "02": "<p>Podczas odczytywania tekstu w prawym dolnym rogu ekranu będzie widoczny odtwarzacz podręczny. Zawiera on:<\/p>",
+                "03": "<ul>",
+                "04": "<li>Przerwij [button:player-pause] i kontynuuj [button:player-play] odczytywanie<\/li>",
+                "05": "<li>Używaj przycisków pomijania w celu przewijania do tyłu [button:player-skipbackward] lub do przodu [button:player-skipforward] podczas odczytywania<\/li>",
+                "06": "<li>Przełącz automatyczne przewijanie strony (wł.\/wył.) <\/li><br \/><img alt=\"Odtwarzacz podręczny webReader.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker będzie przetwarzać następujące kategorie danych osobowych:<br \/> <br \/> 1) Usługi narzędzia ReadSpeaker webReader przetwarzają zawartość tekstową znajdującą się na witrynach Klienta, na których usługa została wdrożona. Ponieważ usługa przetwarza informacje znajdujące się na stronie internetowej Klienta, zatwierdzone i opublikowane przez Klienta, nie powinny one zawierać wrażliwych danych osobowych. <br \/> <br \/> 2) W ramach usługi, część danych osobowych (informacje dot. Klienta) jest przechowywana w wewnętrznej bazie danych. Przechowywane dane obejmują nazwę Klienta (osoba prawna), informacje o osobie lub osobach do kontaktu oraz dane kontaktowe (adres(-y) e-mail).<br \/> <br \/> 3) W zależności od poziomu wdrożenia usługi przez Klienta, w pliku dziennika serwera aplikacji usługi \/ serwera internetowego mogą być rejestrowane: numer IP użytkownika końcowego, ciąg User-Agent, a także adres URL, pod którym usługi zostały aktywowane."
+            },
+            "title": "Informacje dotyczące prywatności"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Funkcje dla zaznaczonego tekstu<\/h2>",
+                "01": "<p>Po zaznaczeniu tekstu na stronie wyświetli się menu podręczne z funkcjami Posłuchaj, Słownik i Tłumaczenie. Jeśli nie widzisz danej opcji, oznacza to, że jest niedostępna na tej stronie.<br \/><img alt=\"Menu podręczne narzędzia webReader dla wybranego tekstu.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Czytanie wybranego tekstu<\/h3>",
+                "03": "<p>Aby posłuchać dowolnej części tekstu, zaznacz tekst, a następnie kliknij przycisk Posłuchaj w menu podręcznym.<\/p>",
+                "04": "<h3>Słownik<\/h3>",
+                "05": "<p>Aby wyszukać słowo w słowniku, zaznacz słowo i kliknij opcję Słownik w menu podręcznym. Wyświetli się okienko podręczne z wpisem dla wybranego słowa w słowniku. W razie zaznaczenia kilku słów wyświetli się wpis dla pierwszego słowa.<\/p>",
+                "06": "<h3>Tłumaczenie<\/h3>",
+                "07": "<p>Aby przetłumaczyć dowolną część tekstu, zaznacz tekst i kliknij przycisk Tłumaczenie w menu podręcznym. Pojawi się okno wyboru języka, w którym możesz wybrać język docelowy. Tłumaczenie zostanie wyświetlone w nowym okienku podręcznym.<\/p>",
+                "08": "<p class=\"disclaimer\">Uwaga: wymienione poniżej funkcje są dostępne tylko wtedy, gdy możesz zaznaczyć tekst na stronie. Może to nie być możliwe, jeśli używasz do obsługi urządzenia tylko klawiatury.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:settings] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Kliknij, aby dopasować narzędzie webReader do swoich preferencji. Wyświetli się okienko podręczne, gdzie możesz zmienić ustawienia wpływające na działanie narzędzia webReader. O każdym z ustawień można przeczytać niżej. Spersonalizowane ustawienia są zapisywane pomiędzy sesjami.<\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Podświetlenie<\/h2>",
+                "03": "<h3>Włącz\/wyłącz podświetlenie tekstu<\/h3>",
+                "04": "<p>Wybierz, aby tekst był podświetlany w czasie odczytywania (Wł.) lub nie był podświetlany w czasie odczytywania (Wył.).<\/p>",
+                "05": "<h3>Co podświetlać?<\/h3>",
+                "06": "<p>Wybierz, co narzędzie webReader ma podświetlać:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Wyraz i zdanie<\/li>",
+                "09": "<li>Tylko zdanie<\/li>",
+                "10": "<li>Tylko wyraz<\/li>",
+                "11": "<li>Brak podświetlenia<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Kolor wyrazu<\/h3>",
+                "14": "<p>Wybierz kolor podświetlenia odczytywanych słów lub wybierz podkreślenie.<\/p>",
+                "15": "<h3>Kolor zdania<\/h3>",
+                "16": "<p>Wybierz kolor podświetlenia odczytywanych zdań lub wybierz podkreślenie.<\/p>",
+                "17": "<h3>Kolor tekstu<\/h3>",
+                "18": "<p>Wybierz kolor podświetlanego tekstu.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Inne ustawienia<\/h2>",
+                "20": "<h3>Automatyczne przewijanie<\/h3>",
+                "21": "<p>Przełączaj automatyczne przewijanie (wł.\/wył.). Po włączeniu strona będzie automatycznie przewijana w dół, aby podążać za podświetlonym tekstem. To ustawienie można również przełączyć z odtwarzacza podręcznego. Będzie ono wyświetlać się, gdy odtwarzacz jest aktywny.<\/p>",
+                "22": "<h3>Menu podręczne wyboru tekstu<\/h3>",
+                "23": "<p>Włącz\/wyłącz wyświetlanie się menu podręcznego po zaznaczeniu tekstu (wł.\/wył.).<\/p>",
+                "24": "<h3>Ustawienia menu podręcznego<\/h3>",
+                "25": "<p>Jeśli chcesz, aby po chwili menu podręczne zamykało się automatycznie, wybierz opcję Zamknij automatycznie i określ odstęp liczony w sekundach.<\/p>",
+                "26": "<p>Jeśli wolisz, aby menu podręczne pozostało widoczne, wybierz opcję „Nie zamykaj”.<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Zmień skróty ułatwiające dostęp z poziomu klawiatury<\/h2>",
+                "28": "<p>Możesz zmienić skróty lub kombinacje klawiszy dla różnych czynności. Aby zmienić skrót dla określonej czynności, kliknij przycisk przedstawiający aktualny skrót, a następnie określ nową kombinację klawiszy, przytrzymując w tym samym czasie odpowiednie klawisze na klawiaturze. Od teraz przycisk będzie pokazywał nowy skrót.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Przywróć ustawienia domyślne<\/h2>",
+                "30": "<p>Użyj pól do zaznaczenia, aby wskazać, które ustawienia narzędzia webReader chcesz przywrócić do wartości domyślnych. Zaznacz opcję „Wszystkie” lub zaznacz co najmniej jedno pole:<\/p>",
+                "31": "<ul>",
+                "32": "<li>Ustawienia trybu tekstowego i okienek podręcznych<\/li>",
+                "33": "<li>Ustawienia wyróżnienia<\/li>",
+                "34": "<li>Ustawienia automatycznego przewijania i menu podręcznego dla zaznaczonego tekstu<\/li>",
+                "35": "<li>Skróty<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Ustawienia"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:textmode] (działa tylko po jednokrotnym otwarciu menu)<\/p>",
+                "01": "<p>Kliknij przycisk „Tryb tekstowy”, aby otworzyć okienko podręczne z aktualną stroną w wersji tekstowej. Możesz wybrać, jak ma być wyświetlany tekst (patrz wyżej w sekcji „Okienka podręczne narzędzia webReader”). Wyświetlają się również obrazy, jeśli mają powiązany tekst.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Tryb tekstowy"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Skrót klawiszowy: [shortcut:readingvoice] (aby wybrać język odczytu, menu musi być otwarte)<\/p>",
+                "01": "<p>Wybierz głos, jakiego narzędzie webReader powinno używać do odczytywania tekstu. Mogą to być głosy w różnych językach lub różne głosy dla danego języka. Wystarczy zaznaczyć głos, którego chcesz używać, z menu podręcznego. Pamiętaj, że ta funkcja będzie dostępna tylko wtedy, gdy dostępny jest więcej niż jeden głos czytania.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Głos czytania"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}

@@ -1,0 +1,278 @@
+{
+    "content": {
+        "clicklisten": {
+            "meta": {
+                "enabled_tool": "clicklisten"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:clicklisten] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Klik på ’klik og aflyt’ for at slå denne funktion til eller fra. Der viser sig et grønt kryds på markøren, når den er slået til. webReader begynder at læse et afsnit højt, når du klikker et tilfældigt sted i afsnittet. Det giver dig mulighed for at lytte til det afsnit, du vil høre, uden at du først skal markere det og så klikke på Aflyt-knappen. På mobile enheder virker funktionen, når du trykker på afsnittet (‘Tryk og Aflyt’).<\/p>",
+                "02": "<p>For tilgængelighed via tastaturet: Når værktøjet er aktiveret, kan du bruge højre\/venstre-piletasterne til at fokusere på næste\/forrige afsnit eller næste\/forrige afsnit i et område. Med piletasten nedad sætter du fokus på et afsnit i et område. Piletasten opad bringer fokus tilbage til et større område. Med tasten L starter afspilningen af det fokuserede afsnit\/område.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-click-listen\"><\/i> Klik og aflyt"
+        },
+        "detachment": {
+            "meta": {
+                "enabled_tool": "detachment"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Sæt fokus på håndtaget: [shortcut:detachfocus]<\/p>",
+                "01": "<p>Når du bladrer ned på en side, følger ’Aflyt’-knappen, afspilleren og menuen med ned, så den altid er synlig. Den flydende ’Aflyt’-knap eller afspiller viser et skydehåndtag.<br \/><img alt=\"webReaders Aflyt-knap med skydehåndtag\" src=\"[[IMG_URL]]\/detached-button.png\" \/><\/p>",
+                "02": "<p>Du kan bruge skydehåndtaget til at trække ’Aflyt’-knappen, afspilleren og menuen derhen på siden, hvor det passer dig bedst i forhold til det viste indhold. De rykker tilbage til standardpositionen, når du bladrer op igen. De vil altid følge med til den position, hvor du sidst trak dem hen.<\/p>",
+                "03": "<p>(Bemærk, at hvis der er mange afspillere på en side, så vil en afspiller kun følge med, hvis den er i afspilningsmodus)<\/p>"
+            },
+            "title": "Flydende Aflyt-knap, afspiller og menu"
+        },
+        "dialogs": {
+            "text": {
+                "00": "<h2>webReader pop-up vinduer<\/h2>",
+                "01": "<p>Nogle gange åbner webReader et pop-up-vindue. Det sker i funktionerne Tekstvisning, Ordbog, Oversættelse og Indstillinger. Pop-up-vinduer har en afspillerfunktion, [button:player-play] så du kan lytte til teksten i vinduet. Du kan vælge, hvordan teksten skal se ud, så det bliver lettest muligt for dig at læse med.<\/p>",
+                "02": "<p>Du kan:<\/p>",
+                "03": "<ul>",
+                "04": "<li>afspille lyd [button:player-play], sætte den på pause [button:player-pause]eller stoppe [button:player-stop] den<\/li>",
+                "05": "<li>gøre teksten større [button:font-plus] eller mindre [button:font-minus]<\/li>",
+                "06": "<li>justere lydstyrken [button:player-volume]<\/li>",
+                "07": "<li>justere læsehastigheden [button:player-speed]<\/li>",
+                "08": "<li>vælge knappen Indstillinger [button:dialog-textsettings] for at tilpasse størrelse, font og farver på teksten og linjeskiftene<\/li>",
+                "09": "<li>flytte vinduet ved at trække i det via den grå bjælke i toppen<\/li>",
+                "10": "<li>gøre vinduet større eller mindre ved at trække i det nederste højre hjørne<\/li>",
+                "11": "<li>gøre vinduet større [button:dialog-maximise] for lettere og uhindret læsning<\/li>",
+                "12": "<li>lukke vinduet med Luk-knappen i bunden eller knappen øverst til højre [button:player-close]<\/li>",
+                "13": "<\/ul>"
+            }
+        },
+        "disclaimer": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Læs mere om ReadSpeaker heraAlle billeder, der er beskrevet i dette hjælpeværktøj, henviser til ReadSpeakers standardudseende på webReader og kan godt afvige, hvis webReader-værktøjet er blevet tilpasset.<\/p>"
+            },
+            "title": "Disclaimer"
+        },
+        "download": {
+            "meta": {
+                "enabled_tool": "download,download_player"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:download] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Klik på denne for at downloade en mp3-fil med en lydudgave af hjemmesiden eller den markerede tekst.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-download\"><\/i> Download mp3"
+        },
+        "enlarge": {
+            "meta": {
+                "enabled_tool": "enlarge"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:enlarge] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Klik på ‘Forstør tekst’ for at slå denne funktion til eller fra. Der viser sig et grønt kryds på markøren, når den er slået til. Så viser web Reader den sætning, der bliver læst op, i bunden af siden med en større skrift og samtidig bliver ordene highlightet. Du kan afspille læsningen, sætte den på pause eller stoppe den helt og gøre teksten større eller mindre.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-enlarged-text\"><\/i> Forstør tekst"
+        },
+        "formreader": {
+            "meta": {
+                "enabled_tool": "formreader"
+            },
+            "text": {
+                "00": "<p>Slå formReader-modulet til og fra. Når det er slået til, bliver online-formularer læst højt og inkluderer den tekst, du skriver, eller den mulighed, du vælger.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-formreader\"><\/i> Læsning af formularer"
+        },
+        "help": {
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:help] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Siden Hjælp indeholder mere information om de forskellige værktøjer i ReadSpeaker webReader. Læs mere om ReadSpeaker her <a href=\"https:\/\/www.readspeaker.com\" alt=\"Link til www.readspeaker.com\">www.readspeaker.com<\/a><\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-help\"><\/i> Hjælp"
+        },
+        "intro": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>ReadSpeaker webReader læser teksten på en hjemmeside højt. Når teksten bliver læst op, kan du bedre forstå teksten. Du kan lytte til den hvor som helst, på en hvilken som helst enhed og når som helst. Det gør hjemmesiden mere tilgængelig og rarere at besøge. Som bruger skal du ikke downloade noget.<\/p>"
+            },
+            "title": "Sådan bruger du ReadSpeaker webReader"
+        },
+        "keyboardnavigation": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "<p>Du kan bruge tastekombinationer (tastaturgenveje) til at aktivere de fleste funktioner. Hver funktion har sin egen genvej. Du kan ændre disse genveje under pop-up-vinduet Indstillinger <\/p>",
+                "01": "<p>Med de genveje, der er sat op nu, kan du aktivere webReader, fx kan du fokusere på Aflyt-knappen med genvejen  [shortcut:playerfocus]. [shortcut:play] fokuserer på afspilleren og starter også oplæsningen.<\/p>",
+                "02": "<p>Her er nogle af de vigtige genveje:<\/p>",
+                "03": "<p>",
+                "04": "<ul class=\"accesskey\">",
+                "05": "<li>Sæt fokus på ’Aflyt’-knappen: [shortcut:playerfocus]<\/li>",
+                "06": "<li>Sæt fokus på afspilleren og begynd oplæsningen: [shortcut:play]<\/li>",
+                "07": "<li>Fokusere på pause-knappen og sætte læsningen på pause eller genoptage den: [shortcut:pause]<\/li>",
+                "08": "<li>Sæt fokus på ’Stop’-knappen: [shortcut:stop]<\/li>",
+                "09": "<li>Åbn\/luk menuen: [shortcut:menu]<\/li>",
+                "10": "<\/ul>",
+                "11": "<\/p>",
+                "12": "<p>Når brugeren fx fokuserer på afspilleren i afspilleren og menuen, kan han bruge tab\/shift+tab til at navigere med og enter- og mellemrumstasten til at aktivere en bestemt knap eller option.<\/p>",
+                "13": "<p>De genveje, der findes til de enkelte funktioner, er nævnt i de respektive afsnit nedenfor. De funktioner, der er adgang til via menuen, vil kun være tilgængelige, hvis menuen er åben på siden.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-keyboard\"><\/i> Tastaturnavigation"
+        },
+        "listentocontent": {
+            "text": {
+                "00": "<h2>Lyt til indholdet<\/h2>",
+                "01": "<p>Du skal blot klikke på Aflyt-knappen for at lytte til en side:<br \/><img alt=\"Aflyt-knappen på webReader\" src=\"[[IMG_URL]]\/listen-button.png\" \/><\/p>",
+                "02": "<p>Der kommer en lydafspiller frem (se billedet nedenfor) og så begynder webReader at læse teksten på siden højt.<br \/><img alt=\"webReader-afspilleren\" src=\"[[IMG_URL]]\/player-expanded.png\" \/><\/p>",
+                "03": "<p>I afspilleren kan du: <\/p>",
+                "04": "<ul>",
+                "05": "<li>sætte oplæsningen på pause [button:player-pause] og fortsætte [button:player-play] oplæsningen<\/li>",
+                "06": "<li>stoppe oplæsningen [button:player-stop]<\/li>",
+                "07": "<li>Start forfra med læsningen, [button:player-restart] når du har aktiveret 'stop'-knappen<\/li>",
+                "08": "<li>bruge spoleknapperne for at spole tilbage [button:player-skipbackward] eller frem [button:player-skipforward] the audio<\/li>",
+                "09": "<li>justere lydstyrken [button:player-volume]<\/li>",
+                "10": "<li>justere læsehastigheden [button:player-speed]<\/li>",
+                "11": "<li>lukke afspilleren [button:player-close]<\/li>",
+                "12": "<\/ul>"
+            }
+        },
+        "otherfeatures": {
+            "text": {
+                "01": "<h2>Brug af funktionerne i menuen<\/h2>",
+                "02": "<p>Klik på menu-knappen [button:player-menu] til venstre for Aflyt-knappen for at åbne menuen. Den (se nedenstående billede) har mange nyttige funktioner. Alle funktioner er forklaret nedenfor i et separat afsnit.<br \/><img alt=\"webReader menuen.\" src=\"[[IMG_URL]]\/menu-expanded.png\" \/><\/p>"
+            }
+        },
+        "pagemask": {
+            "meta": {
+                "enabled_tool": "pagemask"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:pagemask] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Klik på ‘Sidemaske’ for at se siden med en fokusbjælke. Resten af siden er nedtonet. Fokusbjælken følger musemarkøren eller fingeren på touch-enheder, for at gøre det lettere at fokusere på mindre bidder af en tekst på en gang. Klik på Escape-knappen eller klik på krydset i højre hjørne af fokusbjælken for at slå sidemasken fra. Klik på + eller - for at gøre fokusområdet større eller mindre.<\/p>",
+                "02": "<p>For at komme ind i (eller gå ud af) tastaturnavigationen, når sidemasken vises, skal du trykke på mellemrumstasten. Der er et lille tastaturikon over fokusområdet, når tastaturnavigationen er aktiv. Når den er aktiv, kan man bruge piletasterne til at flytte fokusområdet (eller SHIFT-tasten + piletaster for at bevæge sig hurtigere). Plus- og minustasterne ændrer størrelsen på fokusområdet.<\/p>",
+                "03": "<p class=\"disclaimer\">Bemærk: Page Mask er et rent grafisk værktøj, der kan hjælpe nogle brugere med at fokusere, men som måske ikke er nyttigt for personer med nedsat syn.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-pagemask\"><\/i> Sidemaske"
+        },
+        "popupcontrol": {
+            "text": {
+                "00": "<h2>Pop-up-afspiller<\/h2>",
+                "01": "<p class=\"accesskey\">Genvejstast: [shortcut:controlpanel]<\/p>",
+                "02": "<p>Når teksten bliver læst højt, ser du en pop-up-afspiller nederst til højre på skærmen, hvor du kan:<\/p>",
+                "03": "<ul>",
+                "04": "<li>sætte læsningen på pause [button:player-pause] eller fortsætte [button:player-play] den<\/li>",
+                "05": "<li>bruge spoleknapperne for at spole tilbage [button:player-skipbackward] eller frem [button:player-skipforward] the audio<\/li>",
+                "06": "<p>Slå automatisk bladring til eller fra (til\/fra)<\/li><br \/><img alt=\"webReader pop-up-afspiller.\" src=\"[[IMG_URL]]\/popup-control.png\" \/>",
+                "07": "<\/ul>"
+            }
+        },
+        "privacyinfo": {
+            "meta": {
+                "display": "1"
+            },
+            "text": {
+                "00": "ReadSpeaker behandler følgende former for personlige data:<br \/> <br \/> 1) ReadSpeakers webReader-tjeneste behandler tekstindholdet på kundens hjemmeside (websideindhold) på de sider, hvor tjenesten er implementeret. Da servicen behandler oplysningerne på kundens hjemmeside, som kunden har skrevet og offentliggjort, bør den ikke kunne indeholde personfølsomme oplysninger. <br \/> <br \/> 2) Som en del af tjenesten er de personlige data (kundeoplysninger) gemt i en back-end database. Det drejer sig om kundens navn (juridisk enhed), kontaktperson (er) og kontaktoplysninger (e-mail-adresse(r)).<br \/> <br \/> 3) Afhængig af kundens opsætning af tjenesten kan slutbrugerens IP-nummer, UserAgent string og URL, hvor tjenesterne er blevet aktiveret, være registreret i logfilen på serviceapplikationsserveren\/webserveren."
+            },
+            "title": "Personfølsomme oplysninger"
+        },
+        "selectedtext": {
+            "meta": {
+                "key00": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key01": {
+                    "enabled_tool": "translation,dictionary"
+                },
+                "key04": {
+                    "enabled_tool": "dictionary"
+                },
+                "key05": {
+                    "enabled_tool": "dictionary"
+                },
+                "key06": {
+                    "enabled_tool": "translation"
+                },
+                "key07": {
+                    "enabled_tool": "translation"
+                }
+            },
+            "text": {
+                "00": "<h2>Funktioner med Markeret tekst<\/h2>",
+                "01": "<p>Når du markerer tekst på en side, kommer der en pop-up-menu frem med funktionerne Aflyt, Ordbog og Oversættelse. Hvis du ikke ser en option, så er den ikke tilgængelig på denne side.<br \/><img alt=\"webReader pop-up- menu for markeret tekst.\" src=\"[[IMG_URL]]\/popup-menu.png\" \/><\/p>",
+                "02": "<h3>Læs den markerede tekst<\/h3>",
+                "03": "<p>For at lytte til noget tekst, skal du markere teksten og klikke på ’Aflyt’-knappen i pop-up-menuen.<\/p>",
+                "04": "<h3>Ordbog<\/h3>",
+                "05": "<p>For at slå et ord op i ordbogen, skal du markere ordet og klippe på ’Ordbog’-knappen i pop-up-menuen. Der åbner et pop-up-vindue, som viser ordbogens indhold for det markerede ord. Hvis du vælger flere ord, vælger ordbogen det første ord.<\/p>",
+                "06": "<h3>Oversættelse<\/h3>",
+                "07": "<p>For at oversætte noget tekst, skal du markere teksten og klikke på ’Oversættelse’-knappen i pop-up-menuen. Der dukker en sprogvælger op, hvor du kan vælge det sprog, du vil oversætte til. Oversættelsen bliver vist i et pop-up-vindue.<\/p>",
+                "08": "<p class=\"disclaimer\">Bemærk venligst: De nedenfor nævnte funktioner er kun tilgængelige, hvis du kan vælge tekst på siden. Dette er muligvis ikke muligt, hvis du kun bruger tastaturkontrol.<\/p>"
+            }
+        },
+        "settings": {
+            "meta": {
+                "display_selector": ".rsbtn_tools .rsbtn_tool_settings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:settings] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Klik for at tilpasse webReader til dine præferencer. Der åbner et pop-up-vindue, hvor du kan sætte bestemte indstillinger for, hvordan webReader arbejder. Læs om de forskellige indstillinger nedenfor. Dine personlige indstillinger bliver gemt mellem sessionerne.<\/p>",
+                "02": "<h2><i class=\"rsicn rsicn-highlighting\"><\/i> Highlighting<\/h2>",
+                "03": "<h3>Highlighting af tekst til\/fra<\/h3>",
+                "04": "<p>Vælg om teksten skal highlightes (Til) eller ej (Fra), når den bliver læst højt.<\/p>",
+                "05": "<h3> Hvad skal highlightes<\/h3>",
+                "06": "<p>Vælg, hvad webReader skal highlighte:<\/p>",
+                "07": "<ul>",
+                "08": "<li>Ord og sætning<\/li>",
+                "09": "<li>Kun sætning<\/li>",
+                "10": "<li>Kun ord<\/li>",
+                "11": "<li>Ingen highlighting<\/li>",
+                "12": "<\/ul>",
+                "13": "<h3>Ordfarve<\/h3>",
+                "14": "<p>Vælg den farve, du vil bruge til at highlighte ord, når de læses op eller vælg at understrege dem i stedet for.<\/p>",
+                "15": "<h3>Sætningsfarve<\/h3>",
+                "16": "<p>Vælg den farve, du vil bruge til at highlighte sætninger, når de læses op eller vælg at understrege dem i stedet for for.<\/p>",
+                "17": "<h3>Tekstfarve<\/h3>",
+                "18": "<p>Vælg farve til den highlightede tekst.<\/p>",
+                "19": "<h2><i class=\"rsicn rsicn-controls\"><\/i> Andre indstillinger<\/h2>",
+                "20": "<h3>Automatisk bladring<\/h3>",
+                "21": "<p>Slå automatisk bladring til eller fra (til\/fra). Når den er slået til, vil siden automatisk følge den highlightede tekst. Denne indstilling kan også slås til eller fra via pop-up-afspilleren, som viser sig, når afspilleren er aktiv.<\/p>",
+                "22": "<h3>Pop-up-menu Markeret tekst<\/h3>",
+                "23": "<p>Vælg om pop-up-menuen skal vise sig, når du markerer en tekst (til\/fra).<\/p>",
+                "24": "<h3>Indstillinger for pop-up-menu<\/h3>",
+                "25": "<p>Vælg ‘Luk automatisk’ og vælg derefter antal sekunder, hvis du vil have at pop-up-menuen skal lukke automatisk efter et stykke tid.<\/p>",
+                "26": "<p>Vælg ‘Luk ikke’, hvis du vil have, at pop-up-menuen forbliver synlig.<\/p>",
+                "27": "<h2><i class=\"rsicn rsicn-keyboard\"><\/i> Ændre genvejene for adgang via tastaturet<\/h2>",
+                "28": "<p>Du kan ændre genvejene eller tastekombinationerne for forskellige handlinger. Hvis du vil ændre en genvej for en specifik handling, skal du klikke på den nuværende genvejsknap, og derefter definerer du den nye tastekombination ved at trykke på tasterne samtidig på tastaturet. Nu viser knappen den nye genvej.<\/p>",
+                "29": "<h2><i class=\"rsicn rsicn-restore\"><\/i> Tilbage til standardindstillinger<\/h2>",
+                "30": "<p>Brug afkrydsningsfelterne til at vælge, hvilke indstillinger i webReader du vil sætte tilbage til deres standardindstillinger. Klik på \"Alle\" eller vælg et eller flere felter:<\/p>",
+                "31": "<ul>",
+                "32": "<li>Indstillinger for Tekst Mode og pop-up-vinduer<\/li>",
+                "33": "<li>Highlighter indstillinger<\/li>",
+                "34": "<li>Indstillinger for automatisk bladring og pop-up-menu for markeret tekst<\/li>",
+                "35": "<li>Genveje<\/li>",
+                "36": "<\/ul>"
+            },
+            "title": "<i class=\"rsicn rsicn-settings\"><\/i> Indstillinger"
+        },
+        "textmode": {
+            "meta": {
+                "enabled_tool": "textmode"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:textmode] (fungerer først, når menuen er blevet åbnet én gang)<\/p>",
+                "01": "<p>Klik på ‘Tekst Mode’ for at åbne et pop-up-vindue med den aktuelle side i en tekstversion. Du kan vælge, hvordan teksten skal vises (se ovenfor under 'webReader pop-up-vinduer'). Billeder bliver også vist, hvis de har en tilknyttet tekst.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-textmode\"><\/i> Tekstvisning"
+        },
+        "voicesettings": {
+            "meta": {
+                "enabled_tool": "voicesettings"
+            },
+            "text": {
+                "00": "<p class=\"accesskey\">Genvejstast: [shortcut:readingvoice] (menuen skal være åben for at kunne vælge et oplæsningssprog)<\/p>",
+                "01": "<p>Vælg den stemme, som webReader skal bruge for at læse teksten. Der kan være stemmer på forskellige sprog og\/eller forskellige stemmer inden for et sprog. Du skal blot vælge den stemme, som du ønsker at bruge fra drop-down-menuen. Bemærk, at dette værktøj kun virker, når der er mere end en tilgængelig stemme.<\/p>"
+            },
+            "title": "<i class=\"rsicn rsicn-voice\"><\/i> Oplæsningsstemme"
+        }
+    },
+    "meta": {
+        "sections": "intro,listentocontent,dialogs,selectedtext,otherfeatures,popupcontrol,detachment,keyboardnavigation,settings,voicesettings,clicklisten,enlarge,formreader,textmode,pagemask,download,help,disclaimer,privacyinfo"
+    }
+}
