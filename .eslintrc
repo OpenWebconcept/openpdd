@@ -24,6 +24,8 @@
 		"CLI": "readonly",
 		"FWP": true,
 		"jQuery": "readonly",
+		"ReadSpeaker": true,
+		"rspkr": true,
 		"wp": "readonly"
 	},
 	"rules": {

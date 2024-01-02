@@ -17,7 +17,6 @@ htdocs/wp-content/object-cache.php
 htdocs/wp-content/plugins
 htdocs/wp-content/themes/**/assets/dist/
 htdocs/wp-content/themes/**/vendor/
-!htdocs/wp-content/themes/**/assets/js/vendor/
 !htdocs/wp-content/themes/**/assets/scss/vendor/
 htdocs/wp-content/uploads
 htdocs/wp/*
