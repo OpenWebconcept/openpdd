@@ -2,7 +2,6 @@
  * External dependencies
  */
 const path = require( 'path' );
-const { CleanWebpackPlugin } = require( 'clean-webpack-plugin' );
 const defaultConfig = require( '@wordpress/scripts/config/webpack.config' );
 const CopyPlugin = require( 'copy-webpack-plugin' );
 
@@ -21,7 +20,7 @@ module.exports = ( { theme } ) => {
 			frontend: [
 				path.resolve(
 					process.cwd(),
-					getPathToTheme( 'owc-formulieren' ),
+					getPathToTheme( theme ),
 					'assets/js/frontend',
 					'app.js'
 				),
