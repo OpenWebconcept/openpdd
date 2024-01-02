@@ -1,0 +1,14 @@
+{
+	"name": "theme/tile",
+	"category": "layout",
+	"attributes": {
+		"icon": {
+			"type": "string",
+			"default": "fal fa-envelope"
+		},
+		"altText": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

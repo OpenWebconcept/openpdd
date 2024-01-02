@@ -11,7 +11,7 @@
 	},
 	"[javascript]": {
 		"editor.codeActionsOnSave": {
-			"source.fixAll.prettier": true
+			"source.fixAll.prettier": "explicit"
 		},
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnPaste": false
@@ -129,5 +129,11 @@
 	"php-cs-fixer.onsave": true,
 	"prettier.configPath": ".prettierrc.js",
 	"scss.validate": false,
-	"stylelint.validate": ["css", "scss"]
+	"stylelint.validate": [ "css", "scss" ],
+	"[css][scss]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.prettier": "explicit",
+			"source.fixAll.stylelint": "explicit"
+		}
+	}
 }
