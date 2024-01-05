@@ -12,6 +12,7 @@ deploy.php
 htdocs/wp-content/db.php
 htdocs/wp-content/debug.log
 htdocs/wp-content/languages
+htdocs/wp-content/mu-plugins/owc-shared-aura-session-instance.php
 htdocs/wp-content/mu-plugins/wp-migrate-db-pro-compatibility.php
 htdocs/wp-content/mu-plugins/owc-shared-aura-session-instance.php
 htdocs/wp-content/object-cache.php
