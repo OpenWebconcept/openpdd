@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcbe3b08a2d3d21a6d28d89cae7fe544",
+    "content-hash": "f7e2e865ad895df5f325a68a18209f47",
     "packages": [
         {
             "name": "aura/session",
@@ -2373,16 +2373,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "dev-feat/use-shared-aura-session",
+            "version": "v1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "838b0d067654a4d5f2299972851f4b9195acb23f"
+                "reference": "fd95ab4890bcaa2a60e74e745a48467568422121"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/838b0d067654a4d5f2299972851f4b9195acb23f",
-                "reference": "838b0d067654a4d5f2299972851f4b9195acb23f",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/fd95ab4890bcaa2a60e74e745a48467568422121",
+                "reference": "fd95ab4890bcaa2a60e74e745a48467568422121",
                 "shasum": ""
             },
             "require": {
@@ -2436,10 +2436,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/feat/use-shared-aura-session",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.3",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2024-01-08T14:25:43+00:00"
+            "time": "2024-01-08T15:44:36+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -2638,16 +2638,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "dev-feat/use-shared-aura-session",
+            "version": "v1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "7a1e1cee3e1e14f357cc119ffc6946753010f9b8"
+                "reference": "5535210dbcb0ef47b022023c249dab5b22889b08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/7a1e1cee3e1e14f357cc119ffc6946753010f9b8",
-                "reference": "7a1e1cee3e1e14f357cc119ffc6946753010f9b8",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/5535210dbcb0ef47b022023c249dab5b22889b08",
+                "reference": "5535210dbcb0ef47b022023c249dab5b22889b08",
                 "shasum": ""
             },
             "require": {
@@ -2703,23 +2703,23 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/feat/use-shared-aura-session",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.4",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2024-01-08T14:27:25+00:00"
+            "time": "2024-01-08T15:42:39+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "dev-feat/use-shared-aura-session",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "8e7fbf39817c1f40b791fdf18b07a77d2b83bd4f"
+                "reference": "25ad2ae96321fdbc6fabb21792468373a6e80a3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/8e7fbf39817c1f40b791fdf18b07a77d2b83bd4f",
-                "reference": "8e7fbf39817c1f40b791fdf18b07a77d2b83bd4f",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/25ad2ae96321fdbc6fabb21792468373a6e80a3c",
+                "reference": "25ad2ae96321fdbc6fabb21792468373a6e80a3c",
                 "shasum": ""
             },
             "require": {
@@ -2774,10 +2774,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/feat/use-shared-aura-session",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.1.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2024-01-08T15:12:38+00:00"
+            "time": "2024-01-09T07:47:19+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
@@ -2909,7 +2909,7 @@
         },
         {
             "name": "plugin/owc-shared-aura-session-instance",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-owc-shared-aura-session-instance.git",
@@ -2924,30 +2924,29 @@
             "require": {
                 "composer/installers": "^1.0 | ^2.0"
             },
-            "default-branch": true,
             "type": "wordpress-muplugin",
             "license": [
                 "GPL-2.0+"
             ],
             "description": "WordPress must-use plugin for doing stuff",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/tree/main",
+                "source": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/tree/v1.0.0",
                 "issues": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/issues"
             },
             "time": "2024-01-05T15:03:23+00:00"
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "dev-feat/dynamic-prefill-block",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "85bb4ddd206a6963f052505fa28292d30d31dcb7"
+                "reference": "1883bec4bd495dbcf14fc91a7737a5b7f10ed4c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/85bb4ddd206a6963f052505fa28292d30d31dcb7",
-                "reference": "85bb4ddd206a6963f052505fa28292d30d31dcb7",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/1883bec4bd495dbcf14fc91a7737a5b7f10ed4c8",
+                "reference": "1883bec4bd495dbcf14fc91a7737a5b7f10ed4c8",
                 "shasum": ""
             },
             "require": {
@@ -2993,10 +2992,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/dynamic-prefill-block",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.2.0",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-12-14T15:11:08+00:00"
+            "time": "2024-01-09T09:24:49+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -5537,6 +5536,9 @@
             },
             "require": {
                 "php": "~7.0"
+            },
+            "replace": {
+                "deployer/recipes": "self.version"
             },
             "require-dev": {
                 "deployer/deployer": "^6.3"
@@ -8760,12 +8762,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
-        "plugin/gravityforms-amp-booking": 20,
-        "plugin/owc-gravityforms-digid": 20,
-        "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
-        "plugin/owc-shared-aura-session-instance": 20,
-        "plugin/prefill-gravity-forms": 20,
         "plugin/signicat-openid": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
@@ -8777,5 +8774,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.0.0"
 }
