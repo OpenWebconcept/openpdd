@@ -2369,16 +2369,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.4",
+            "version": "v1.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "5535210dbcb0ef47b022023c249dab5b22889b08"
+                "reference": "f8b6a204af2e330525e85cc6a2ec3cc84244b865"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/5535210dbcb0ef47b022023c249dab5b22889b08",
-                "reference": "5535210dbcb0ef47b022023c249dab5b22889b08",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/f8b6a204af2e330525e85cc6a2ec3cc84244b865",
+                "reference": "f8b6a204af2e330525e85cc6a2ec3cc84244b865",
                 "shasum": ""
             },
             "require": {
@@ -2434,10 +2434,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.4",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.4.1",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2024-01-08T15:42:39+00:00"
+            "time": "2024-01-15T07:30:43+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
@@ -2730,16 +2730,16 @@
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "v1.1",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3"
+                "reference": "1883bec4bd495dbcf14fc91a7737a5b7f10ed4c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
-                "reference": "d5970f52bf94304e4319541f5f7d2ba6cedb8cf3",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/1883bec4bd495dbcf14fc91a7737a5b7f10ed4c8",
+                "reference": "1883bec4bd495dbcf14fc91a7737a5b7f10ed4c8",
                 "shasum": ""
             },
             "require": {
@@ -2785,10 +2785,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.1",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.2.0",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2023-11-03T12:51:38+00:00"
+            "time": "2024-01-09T09:24:49+00:00"
         },
         {
             "name": "plugin/real-time-validation-for-gravity-forms",
@@ -4634,11 +4634,11 @@
         },
         {
             "name": "ypackagist/gp-limit-submissions",
-            "version": "1.1.12",
+            "version": "1.1.13",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.12",
-                "shasum": "9652366ecf51239c157d92c82d62c616cd40ab9e"
+                "url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.13",
+                "shasum": "c2a14881ad5321e72b734fcd7e3e9a083ae5e8b7"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4672,11 +4672,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.8.0",
+            "version": "2.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.0",
-                "shasum": "622e988632a5a9373c135efbddd2b3ea814bd14c"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.1",
+                "shasum": "5044a3a59dfa122923c8e4152ee69424ef9b0097"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4748,11 +4748,11 @@
         },
         {
             "name": "ypackagist/gravityperks",
-            "version": "2.3.4",
+            "version": "2.3.6",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityperks/2.3.4",
-                "shasum": "8b84763c581dd562f33544b3e103c0ec77aa069f"
+                "url": "https://packagist.yard.nl/satispress/gravityperks/2.3.6",
+                "shasum": "598cbb6aec5ac8ff76f9b1b59601bcfb8bb304b3"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
