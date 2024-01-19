@@ -441,7 +441,12 @@ add_action('wp', function () {
                     $url = $source['link_naar_bron'];
                     $origin = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
 
-                    if ($origin === $url || backslashit($origin) === $url || is_user_logged_in()) {
+                    if (
+                        $origin === $url ||
+                        backslashit($origin) === $url ||
+                        explode('#', $origin) || // anything that comes after the current url such as params and slashes i.e. #gf_<id>
+                        is_user_logged_in()
+                    ) {
                         $redirect = false;
 
                         break;
