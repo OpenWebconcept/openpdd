@@ -444,7 +444,7 @@ add_action('wp', function () {
                     if (
                         $origin === $url ||
                         backslashit($origin) === $url ||
-                        explode('#', $origin) || // anything that comes after the current url such as params and slashes i.e. #gf_<id>
+                        explode('#', $origin) === $url || // anything that comes after the current url such as params and slashes i.e. #gf_<id>
                         is_user_logged_in()
                     ) {
                         $redirect = false;
