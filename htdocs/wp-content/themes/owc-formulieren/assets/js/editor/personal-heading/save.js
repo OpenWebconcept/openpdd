@@ -7,13 +7,13 @@ const Save = ( { attributes } ) => {
 		<div className="openpdd-personal-heading">
 			<div className="openpdd-personal-heading__content">
 				<h1 className="openpdd-personal-heading__header">
-					<span className="dynamic openpdd-personal-heading__morning">
+					<span className="is-hidden openpdd-personal-heading__morning">
 						{__( 'Goedemorgen', 'owc-formulieren' )}
 					</span>
-					<span className="dynamic openpdd-personal-heading__afternoon">
+					<span className="is-hidden openpdd-personal-heading__afternoon">
 						{__( 'Goedemiddag', 'owc-formulieren' )}
 					</span>
-					<span className="dynamic openpdd-personal-heading__evening">
+					<span className="is-hidden openpdd-personal-heading__evening">
 						{__( 'Goedenavond', 'owc-formulieren' )}
 					</span>
 					<span>

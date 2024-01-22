@@ -1,8 +1,3 @@
-$breakpoint-sm: 576px;
-$breakpoint-md: 820px;
-$breakpoint-lg: 992px;
-$breakpoint-xl: 1200px;
-
 .openpdd-personal-heading {
 	--gradient-color: rgba(218, 189, 160, 1);
 	display: grid;
@@ -14,6 +9,33 @@ $breakpoint-xl: 1200px;
 	gap: 1.5rem;
 	grid-template-columns: 1fr 22rem;
 
+	// When it's a block in the CMS.
+	.wp-admin & {
+		padding-inline-start: 2rem;
+		padding-block-end: 2rem;
+
+		.rich-text {
+			border: 1px solid #8c8f94;
+			padding: .5rem;
+		}
+
+		.openpdd-personal-heading__header {
+			opacity: .35;
+		}
+
+		.openpdd-personal-heading__image {
+			&-wrapper {
+				background: #ccc;
+			}
+
+			&-admin-text {
+				display: flex;
+				gap: 1rem;
+				align-items: center;
+			}
+		}
+	}
+
 	&.afternoon {
 		--gradient-color: rgba(186, 202, 219, 1);
 	}
@@ -22,7 +44,7 @@ $breakpoint-xl: 1200px;
 		--gradient-color: rgba(235, 165, 57, 1);
 	}
 
-	@media (max-width: $breakpoint-lg) {
+	@include media-breakpoint-down(lg) {
 		background-image: linear-gradient(
 				210deg,
 				var(--gradient-color) 0%,
@@ -31,7 +53,7 @@ $breakpoint-xl: 1200px;
 		grid-template-columns: 1fr;
 	}
 
-	.dynamic {
+	.is-hidden {
 		display: none;
 	}
 
@@ -52,7 +74,7 @@ $breakpoint-xl: 1200px;
 			margin: 0;
 		}
 
-		@media (max-width: $breakpoint-lg) {
+		@include media-breakpoint-down(lg) {
 			order: 1;
 			padding-block-start: 0;
 		}
@@ -63,7 +85,7 @@ $breakpoint-xl: 1200px;
 		mask-repeat: no-repeat;
 		mask-size: cover;
 
-		@media (max-width: $breakpoint-lg) {
+		@include media-breakpoint-down(lg) {
 			mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='182' viewBox='0 0 360 182' fill='none'%3E%3Cpath d='M0 0H360V182L33.7982 130.804C14.3394 127.75 0 110.985 0 91.2881V0Z' fill='black'/%3E%3C/svg%3E");
 		}
 	}
@@ -81,7 +103,7 @@ $breakpoint-xl: 1200px;
 
 	> .openpdd-personal-heading:first-child {
 		@include media-breakpoint-up(md) {
-			margin-top: calc(
+			margin-block-start: calc(
 				var(--openpdd-mijn-zaken-container-spacing) * -1
 			);
 		}
