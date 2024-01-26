@@ -53,10 +53,6 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:yardinternet/real-time-validation-for-gravity-forms.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@github.com:yardinternet/config-expander.git"
 		},
 		{
@@ -117,7 +113,6 @@
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
 		"plugin/owc-shared-aura-session-instance": "^1.0",
 		"plugin/prefill-gravity-forms": "^1.1",
-		"plugin/real-time-validation-for-gravity-forms": "^1.7",
 		"privacybydesign/irma-wp": "@dev",
 		"rspeekenbrink/monolog-microsoft-teams": "^1.0",
 		"vlucas/phpdotenv": "^5.0",
