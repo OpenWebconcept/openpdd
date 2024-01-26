@@ -76,11 +76,11 @@ async function fetchSingleOpenPubItem( id ) {
 	const pageTitle = document.querySelector( 'h1.page-title' );
 	const pageContent = pageTitle.parentElement.nextElementSibling;
 
-	if ( pageTitle ) {
+	if ( pageTitle && pageTitle.innerHTML ) {
 		pageTitle.innerHTML = '';
 	}
 
-	if ( pageContent ) {
+	if ( pageContent && pageContent.innerHTML ) {
 		pageContent.innerHTML = '';
 	}
 
@@ -94,11 +94,11 @@ async function fetchSingleOpenPubItem( id ) {
 		const responseData = await response.json();
 
 		if ( responseData ) {
-			if ( pageTitle ) {
+			if ( pageTitle && pageTitle.innerHTML ) {
 				pageTitle.innerHTML = responseData.title;
 			}
 
-			if ( pageContent ) {
+			if ( pageContent && pageContent.innerHTML ) {
 				pageContent.innerHTML = responseData.content;
 			}
 		} else {

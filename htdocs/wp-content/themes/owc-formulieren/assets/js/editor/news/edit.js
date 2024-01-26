@@ -2,8 +2,16 @@
  * WordPress dependencies
  */
 import { __ } from '@wordpress/i18n';
-import { useBlockProps, RichText } from '@wordpress/block-editor';
-import { __experimentalDivider as Divider, __experimentalNumberControl as NumberControl } from '@wordpress/components';
+import {
+	useBlockProps,
+	InspectorControls,
+} from '@wordpress/block-editor';
+import {
+	TextControl,
+	Panel,
+	PanelBody,
+	Placeholder,
+} from '@wordpress/components';
 
 const Edit = ( props ) => {
 	const { attributes, setAttributes } = props;
@@ -56,65 +64,37 @@ const Edit = ( props ) => {
 
 	return (
 		<div {...blockProps}>
-			<h1>
-				{__( 'Persoonlijk nieuws', 'owc-formulieren' )}
-			</h1>
+			<InspectorControls>
+				<Panel>
+					<PanelBody
+						title={__( 'Persoonlijk nieuws', 'owc-formulieren' )}
+						initialOpen={true}>
+						<TextControl
+							label={__( 'API Url', 'owc-formulieren' )}
+							value={apiUrl}
+							onChange={onApiUrlChange}
+							type="text"
+						/>
+						<TextControl
+							label={__( 'URL van de detailpagina', 'owc-formulieren' )}
+							value={detailPageUrl}
+							onChange={onDetailPageUrl}
+							type="text"
+							help={__( 'Dit is de pagina waar rekening gehouden wordt met de parameters', 'owc-formulieren' )}
+						/>
+						<TextControl
+							label={__( 'Maximaal aantal berichten', 'owc-formulieren' )}
+							value={amountOfPosts}
+							onChange={onAmountOfPostsChange}
+							type="number"
+						/>
+					</PanelBody>
+				</Panel>
+			</InspectorControls>
 
-			<Divider />
-
-			<label>
-				<strong>
-					{__( 'API Url', 'owc-formulieren' )}
-				</strong>
-			</label>
-			<RichText
-				value={apiUrl}
-				onChange={onApiUrlChange}
-				placeholder={__( 'API Url', 'owc-formulieren' )}
-				style={{
-					backgroundColor: '#fff',
-					padding: '.5rem',
-					border: '1px solid rgba(0, 0, 0, 0.1)',
-				}}
-			/>
-
-			<Divider />
-
-			<label>
-				<strong>
-					{__( 'URL van de detailpagina', 'owc-formulieren' )}
-				</strong>
-			</label>
-			<RichText
-				value={detailPageUrl}
-				onChange={onDetailPageUrl}
-				placeholder={__( 'Detailpagina Url', 'owc-formulieren' )}
-				style={{
-					backgroundColor: '#fff',
-					padding: '.5rem',
-					border: '1px solid rgba(0, 0, 0, 0.1)',
-				}}
-			/>
-			<small
-				style={{
-					fontSize: '.75rem',
-					lineHeight: '1'
-				}}>
-				{__( 'Dit is de pagina waar rekening gehouden wordt met de parameters', 'owc-formulieren' )}
-			</small>
-
-			<Divider />
-
-			<label>
-				<strong>
-					{__( 'Maximaal aantal berichten', 'owc-formulieren' )}
-				</strong>
-			</label>
-			<NumberControl
-				isShiftStepEnabled={true}
-				onChange={onAmountOfPostsChange}
-				shiftStep={1}
-				value={amountOfPosts}
+			<Placeholder
+				label={__( 'Persoonlijk nieuws', 'owc-formulieren' )}
+				instructions={__( 'Het persoonlijke nieuws wordt getoond aan de voorkant.', 'owc-formulieren' )}
 			/>
 		</div>
 	);
