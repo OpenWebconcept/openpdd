@@ -6,6 +6,15 @@
  */
 
 /**
+ * WordPress dependencies
+ */
+import { __ } from '@wordpress/i18n';
+import { BlockControls } from '@wordpress/block-editor';
+import { ToolbarButton } from '@wordpress/components';
+import { createHigherOrderComponent } from '@wordpress/compose';
+import { addFilter } from '@wordpress/hooks';
+
+/**
  * The components to target.
  *
  * @type {string[]}
@@ -13,26 +22,27 @@
 const componentsToTarget = ['core/paragraph'];
 
 /**
- * Adds an extra attribute to the block settings so we can save the value.
+ * Adds an extra attribute to the block settings, so we can save the value.
  *
  * @param settings The block settings.
  * @param name Name of the block.
  */
 function addExtraClassAttribute( settings, name ) {
-	if ( typeof settings.attributes !== 'undefined' ) {
-		if ( componentsToTarget.includes( name ) ) {
-			settings.attributes = Object.assign( settings.attributes, {
-				arrowsInLinks: {
-					type: 'boolean',
-				},
-			} );
-		}
+	if ( typeof settings.attributes === 'undefined' || !componentsToTarget.includes( name ) ) {
+		return settings;
 	}
+
+	settings.attributes = Object.assign( settings.attributes, {
+		arrowsInLinks: {
+			type: 'boolean',
+		},
+	} );
+
 	return settings;
 }
 
 // Hook into the block and add the extra attribute.
-wp.hooks.addFilter(
+addFilter(
 	'blocks.registerBlockType',
 	'openpdd/add-extra-class-attribute',
 	addExtraClassAttribute,
@@ -43,11 +53,8 @@ wp.hooks.addFilter(
  *
  * @param BlockEdit The block edit component.
  */
-const addExtraClassComponent = wp.compose.createHigherOrderComponent( ( BlockEdit ) => {
+const addExtraClassComponent = createHigherOrderComponent( ( BlockEdit ) => {
 	return ( props ) => {
-		const { Fragment } = wp.element;
-		const { ToolbarButton } = wp.components;
-		const { BlockControls } = wp.blockEditor;
 		const { attributes, setAttributes } = props;
 
 		if ( !componentsToTarget.includes( props.name ) ) {
@@ -55,48 +62,55 @@ const addExtraClassComponent = wp.compose.createHigherOrderComponent( ( BlockEdi
 		}
 
 		return (
-			<Fragment>
+			<>
 				<BlockControls>
 					<ToolbarButton
 						icon={'arrow-right-alt'}
 						isActive={attributes.arrowsInLinks}
-						label={wp.i18n.__( 'Voeg pijltjes toe aan alle links in dit component', 'owc-formulieren' )}
+						label={__( 'Voeg pijltjes toe aan alle links in dit component', 'owc-formulieren' )}
 						onClick={() => setAttributes( { arrowsInLinks: !attributes.arrowsInLinks } )}
 					/>
 				</BlockControls>
 
 				<BlockEdit {...props} />
-			</Fragment>
+			</>
 		);
 	};
 }, 'addExtraClassComponent' );
 
 // Hook into the block edit component and add the extra button in the toolbar.
-wp.hooks.addFilter(
+addFilter(
 	'editor.BlockEdit',
 	'openpdd/add-extra-class-component',
 	addExtraClassComponent,
 );
 
 /**
- * Applies the extra class to the component based on whether or not the user has selected it.
+ * Applies the extra class to the component based on whether the user has selected it.
  *
  * @param extraProps Extra properties for the block.
  * @param blockType Type of block
  * @param attributes Saved attributes from the block.
  */
 function applyExtraClass( extraProps, blockType, attributes ) {
+	if ( !componentsToTarget.includes( blockType.name ) ) {
+		return extraProps;
+	}
+
 	const { arrowsInLinks } = attributes;
+	const { className } = extraProps;
 
 	if ( typeof arrowsInLinks !== 'undefined' && arrowsInLinks ) {
-		extraProps.className += ' openpdd-arrowed-links';
+		return Object.assign( extraProps, {
+			className: className + ' openpdd-arrowed-links',
+		} );
 	}
 
 	return extraProps;
 }
 
 // Hook into the save content and apply the extra class if the user has selected it.
-wp.hooks.addFilter(
+addFilter(
 	'blocks.getSaveContent.extraProps',
 	'openpdd/apply-extra-class',
 	applyExtraClass,
