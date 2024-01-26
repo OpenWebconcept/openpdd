@@ -1,0 +1,15 @@
+{
+	"name": "theme/news",
+	"category": "layout",
+	"attributes": {
+		"apiUrl": {
+			"type": "string"
+		},
+		"detailPageUrl": {
+			"type": "string"
+		},
+		"amountOfPosts": {
+			"type": "number"
+		}
+	}
+}
