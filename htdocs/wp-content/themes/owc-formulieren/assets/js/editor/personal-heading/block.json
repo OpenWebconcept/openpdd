@@ -1,0 +1,29 @@
+{
+	"name": "theme/personal-heading",
+	"category": "layout",
+	"attributes": {
+		"bgImageMorningId": {
+			"type": "number"
+		},
+		"bgImageMorningUrl": {
+			"type": "string"
+		},
+		"bgImageAfternoonId": {
+			"type": "number"
+		},
+		"bgImageAfternoonUrl": {
+			"type": "string"
+		},
+		"bgImageEveningId": {
+			"type": "number"
+		},
+		"bgImageEveningUrl": {
+			"type": "string"
+		},
+		"textContent": {
+			"type": "string",
+			"selector": "p"
+		}
+	}
+}
+
