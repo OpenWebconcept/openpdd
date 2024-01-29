@@ -62,7 +62,7 @@ const Edit = ( props ) => {
 								)}
 								{!!imageId && imageUrl && <img
 									src={imageUrl}
-									alt={__( 'Foto ochtend', 'owc-formulieren' )} />}
+									alt={`Foto ${timeOfDay}`} />}
 							</Button>
 						)}
 					/>
