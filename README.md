@@ -15,7 +15,7 @@ WordPress project for the [Portaal Digitale Diensten](https://openwebconcept.nl/
 3. Run `npm install` to install dependencies
 4. Run `npm start` to compile assets
 
-A FontAwesome Pro token is required to install dependencies. If you don't have one, remove the `@fortawesome/fontawesome-pro` dependency from `package.json` and then run `npm install` again.
+[You need to configure a FontAwesome Pro token](https://fontawesome.com/v6/docs/web/setup/packages#set-up-npm-token-for-all-projects), to make all fonts work as intended. However, using the intended fonts is optional and you don't need a paid license. After you have configured a token, run `npm install` again.
 
 ## ⚙️ Theme structure
 
