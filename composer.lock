@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7820811308547b0e3c50248f6606f19",
+    "content-hash": "4b5c7043cbe62e68794018cb98b5c223",
     "packages": [
         {
             "name": "aura/session",
@@ -2844,16 +2844,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-            "version": "v1.1.4",
+            "version": "dev-sc29104/send-mail-when-creating-zaak-fails",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-                "reference": "a24fb10a924743f33ed0e4a1c179a1bf162f971b"
+                "reference": "d6bd96cb5740835e9d0f85e46d5e1c5aa7be1c5a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/a24fb10a924743f33ed0e4a1c179a1bf162f971b",
-                "reference": "a24fb10a924743f33ed0e4a1c179a1bf162f971b",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/d6bd96cb5740835e9d0f85e46d5e1c5aa7be1c5a",
+                "reference": "d6bd96cb5740835e9d0f85e46d5e1c5aa7be1c5a",
                 "shasum": ""
             },
             "require": {
@@ -2901,10 +2901,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.1.4",
+                "source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/sc29104/send-mail-when-creating-zaak-fails",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
             },
-            "time": "2023-10-11T08:17:08+00:00"
+            "time": "2024-02-02T12:26:42+00:00"
         },
         {
             "name": "plugin/owc-shared-aura-session-instance",
@@ -4951,11 +4951,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.8.2",
+            "version": "2.8.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.2",
-                "shasum": "d6466383a967cde6982451f35e0bb8880835c704"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.3",
+                "shasum": "11c8428885c0208120f0c679e93da966acb2e5c2"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5651,16 +5651,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.48.0",
+            "version": "v3.49.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "a92472c6fb66349de25211f31c77eceae3df024e"
+                "reference": "8742f7aa6f72a399688b65e4f58992c2d4681fc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a92472c6fb66349de25211f31c77eceae3df024e",
-                "reference": "a92472c6fb66349de25211f31c77eceae3df024e",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/8742f7aa6f72a399688b65e4f58992c2d4681fc2",
+                "reference": "8742f7aa6f72a399688b65e4f58992c2d4681fc2",
                 "shasum": ""
             },
             "require": {
@@ -5730,7 +5730,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.48.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.49.0"
             },
             "funding": [
                 {
@@ -5738,7 +5738,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-19T21:44:39+00:00"
+            "time": "2024-02-02T00:41:40+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8760,6 +8760,7 @@
     "stability-flags": {
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/owc-gravityforms-zaaksysteem-enable-u": 20,
         "plugin/signicat-openid": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
