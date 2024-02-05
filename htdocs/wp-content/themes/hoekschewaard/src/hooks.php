@@ -416,8 +416,6 @@ add_filter('gform_enable_legacy_markup', '__return_true');
 /**
  * Optionally only allow pages to be accessed from specific source URLs else redirect them to a specific URL with instructions.
  * Logged in users are excluded so that they may access the pages.
- * TODO: possibly change the field names to a more generic notation
- * TODO: possible down side is page refreshes
  */
 add_action('wp', function () {
     if (! class_exists('ACF')) {
