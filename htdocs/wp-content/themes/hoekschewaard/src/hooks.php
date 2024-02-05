@@ -411,5 +411,51 @@ function theme_script_loader_tag($tag, $handle)
 }
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
-
 add_filter('gform_enable_legacy_markup', '__return_true');
+
+/**
+ * Optionally only allow pages to be accessed from specific source URLs else redirect them to a specific URL with instructions.
+ * Logged in users are excluded so that they may access the pages.
+ */
+add_action('wp', function () {
+    if (! class_exists('ACF')) {
+        return;
+    }
+
+    $group_slug = 'group_65a0dbe14fae0';
+    $field_group = acf_get_field_group($group_slug);
+
+    if ($field_group && is_singular('page')) {
+        $setting_active = get_field('ik_wil_deze_pagina_afschermen') ?? [];
+
+        if (in_array('Ja', $setting_active)) {
+            $sources = get_field('bronnen');
+            $redirect_destination_set = get_field('toegang_geweigerd_pagina');
+
+            if ($sources && $redirect_destination_set) {
+                $redirect = true; // Assume redirection is needed by default.
+
+                foreach ($sources as $source) {
+                    $url = $source['link_naar_bron'];
+                    $origin = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
+
+                    if (
+                        $origin === $url ||
+                        backslashit($origin) === $url ||
+                        explode('#', $origin) === $url || // anything that comes after the current url such as params and slashes i.e. #gf_<id>
+                        is_user_logged_in()
+                    ) {
+                        $redirect = false;
+
+                        break;
+                    }
+                }
+
+                if ($redirect) {
+                    wp_redirect($redirect_destination_set);
+                    exit;
+                }
+            }
+        }
+    }
+});
