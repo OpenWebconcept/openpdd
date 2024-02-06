@@ -1,0 +1,12 @@
+// Class added by custom code in this project for paragraphs.
+p.openpdd-arrowed-links {
+	a {
+		text-decoration: none;
+
+		&::before {
+			@include has-arrow;
+			// Get the styling consistent to the arrowed lists added by WordPress, where the arrow is added to the li.
+			border-bottom: 3px solid white;
+		}
+	}
+}

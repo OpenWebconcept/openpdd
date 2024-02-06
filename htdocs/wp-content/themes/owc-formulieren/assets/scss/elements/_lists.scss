@@ -5,10 +5,15 @@ ol {
 
 		li {
 			&::before {
-				margin-right: 0.5rem;
-				content: '→';
-				transform: scale( 1.1 );
+				@include has-arrow;
+				color: var(--primary);
+			}
+
+			a {
+				text-decoration: none;
 			}
 		}
 	}
 }
+
+

@@ -196,3 +196,9 @@
 		) !important;
 	}
 }
+
+@mixin has-arrow() {
+	content: "→";
+	scale: 1.1;
+	margin-inline-end: 0.5rem;
+}
