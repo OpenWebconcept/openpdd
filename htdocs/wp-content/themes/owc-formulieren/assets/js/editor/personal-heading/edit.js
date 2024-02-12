@@ -6,16 +6,12 @@ import {
 	MediaUploadCheck,
 	RichText,
 	InspectorControls,
+	InnerBlocks,
 } from '@wordpress/block-editor';
 
-import {
-	CardDivider,
-	Button,
-	Panel,
-	PanelBody,
-} from '@wordpress/components';
+import { CardDivider, Button, Panel, PanelBody } from '@wordpress/components';
 
-const ALLOWED_MEDIA_TYPES = ['image'];
+const ALLOWED_MEDIA_TYPES = [ 'image' ];
 
 const Edit = ( props ) => {
 	const blockProps = useBlockProps( {
@@ -33,8 +29,14 @@ const Edit = ( props ) => {
 		bgImageEveningUrl,
 	} = attributes;
 
-	const fallbackInstructions =
-		<p>{__( 'U heeft geen rechten om foto\'s aan te passen. Neem contact op met de beheerder.', 'owc-formulieren' )}</p>;
+	const fallbackInstructions = (
+		<p>
+			{ __(
+				"U heeft geen rechten om foto's aan te passen. Neem contact op met de beheerder.",
+				'owc-formulieren'
+			) }
+		</p>
+	);
 
 	const onContentChange = ( content ) => {
 		setAttributes( {
@@ -42,60 +44,69 @@ const Edit = ( props ) => {
 		} );
 	};
 
-	const ImageUpload = ( { timeOfDay, imageId, imageUrl, onUpdate, onRemove } ) => {
+	const ImageUpload = ( {
+		timeOfDay,
+		imageId,
+		imageUrl,
+		onUpdate,
+		onRemove,
+	} ) => {
 		return (
-			<PanelBody
-				title={`${timeOfDay} foto`}
-				initialOpen={true}>
-				<MediaUploadCheck fallback={fallbackInstructions}>
+			<PanelBody title={ `${ timeOfDay } foto` } initialOpen={ true }>
+				<MediaUploadCheck fallback={ fallbackInstructions }>
 					<MediaUpload
-						title={`Foto ${timeOfDay}`}
-						onSelect={onUpdate}
-						allowedTypes={ALLOWED_MEDIA_TYPES}
-						value={imageId}
-						render={( { open } ) => (
+						title={ `Foto ${ timeOfDay }` }
+						onSelect={ onUpdate }
+						allowedTypes={ ALLOWED_MEDIA_TYPES }
+						value={ imageId }
+						render={ ( { open } ) => (
 							<Button
-								className={!imageId ? 'editor-post-featured-image__toggle' : 'editor-post-featured-image__preview'}
-								onClick={open}>
-								{!imageId && (
-									`Selecteer een ${timeOfDay} foto`
-								)}
-								{!!imageId && imageUrl && <img
-									src={imageUrl}
-									alt={`Foto ${timeOfDay}`} />}
+								className={
+									! imageId
+										? 'editor-post-featured-image__toggle'
+										: 'editor-post-featured-image__preview'
+								}
+								onClick={ open }
+							>
+								{ ! imageId &&
+									`Selecteer een ${ timeOfDay } foto` }
+								{ !! imageId && imageUrl && (
+									<img
+										src={ imageUrl }
+										alt={ `Foto ${ timeOfDay }` }
+									/>
+								) }
 							</Button>
-						)}
+						) }
 					/>
 				</MediaUploadCheck>
 				<CardDivider />
-				{!!imageId && imageUrl &&
-				 <MediaUploadCheck>
-					 <MediaUpload
-						 title={`${timeOfDay} foto`}
-						 onSelect={onUpdate}
-						 allowedTypes={ALLOWED_MEDIA_TYPES}
-						 value={imageId}
-						 render={( { open } ) => (
-							 <Button
-								 onClick={open}
-								 isDefault>
-								 {__( 'Vervang de foto', 'owc-formulieren' )}
-							 </Button>
-						 )}
-					 />
-				 </MediaUploadCheck>
-				}
+				{ !! imageId && imageUrl && (
+					<MediaUploadCheck>
+						<MediaUpload
+							title={ `${ timeOfDay } foto` }
+							onSelect={ onUpdate }
+							allowedTypes={ ALLOWED_MEDIA_TYPES }
+							value={ imageId }
+							render={ ( { open } ) => (
+								<Button onClick={ open } isDefault>
+									{ __(
+										'Vervang de foto',
+										'owc-formulieren'
+									) }
+								</Button>
+							) }
+						/>
+					</MediaUploadCheck>
+				) }
 				<CardDivider />
-				{!!imageId &&
-				 <MediaUploadCheck>
-					 <Button
-						 onClick={onRemove}
-						 isLink
-						 isDestructive>
-						 {__( 'Verwijder foto', 'owc-formulieren' )}
-					 </Button>
-				 </MediaUploadCheck>
-				}
+				{ !! imageId && (
+					<MediaUploadCheck>
+						<Button onClick={ onRemove } isLink isDestructive>
+							{ __( 'Verwijder foto', 'owc-formulieren' ) }
+						</Button>
+					</MediaUploadCheck>
+				) }
 			</PanelBody>
 		);
 	};
@@ -104,55 +115,67 @@ const Edit = ( props ) => {
 		const imageUrl = image.sizes.large.url || image.url;
 
 		setAttributes( {
-			[`bgImage${timeOfDay}Id`]: image.id,
-			[`bgImage${timeOfDay}Url`]: imageUrl,
+			[ `bgImage${ timeOfDay }Id` ]: image.id,
+			[ `bgImage${ timeOfDay }Url` ]: imageUrl,
 		} );
 	};
 
 	const onRemoveImage = ( timeOfDay ) => {
 		setAttributes( {
-			[`bgImage${timeOfDay}Id`]: undefined,
-			[`bgImage${timeOfDay}Url`]: undefined,
+			[ `bgImage${ timeOfDay }Id` ]: undefined,
+			[ `bgImage${ timeOfDay }Url` ]: undefined,
 		} );
 	};
 
 	return (
-		<div {...blockProps}>
+		<div { ...blockProps }>
 			<InspectorControls>
-				<Panel header={__( 'Persoonlijke heading', 'owc-formulieren' )}>
+				<Panel
+					header={ __( 'Persoonlijke heading', 'owc-formulieren' ) }
+				>
 					<ImageUpload
 						timeOfDay="Ochtend"
-						imageId={bgImageMorningId}
-						imageUrl={bgImageMorningUrl}
-						onUpdate={( image ) => onUpdateImage( 'Morning', image )}
-						onRemove={() => onRemoveImage( 'Morning' )}
+						imageId={ bgImageMorningId }
+						imageUrl={ bgImageMorningUrl }
+						onUpdate={ ( image ) =>
+							onUpdateImage( 'Morning', image )
+						}
+						onRemove={ () => onRemoveImage( 'Morning' ) }
 					/>
 					<ImageUpload
 						timeOfDay="Middag"
-						imageId={bgImageAfternoonId}
-						imageUrl={bgImageAfternoonUrl}
-						onUpdate={( image ) => onUpdateImage( 'Afternoon', image )}
-						onRemove={() => onRemoveImage( 'Afternoon' )}
+						imageId={ bgImageAfternoonId }
+						imageUrl={ bgImageAfternoonUrl }
+						onUpdate={ ( image ) =>
+							onUpdateImage( 'Afternoon', image )
+						}
+						onRemove={ () => onRemoveImage( 'Afternoon' ) }
 					/>
 					<ImageUpload
 						timeOfDay="Avond"
-						imageId={bgImageEveningId}
-						imageUrl={bgImageEveningUrl}
-						onUpdate={( image ) => onUpdateImage( 'Evening', image )}
-						onRemove={() => onRemoveImage( 'Evening' )}
+						imageId={ bgImageEveningId }
+						imageUrl={ bgImageEveningUrl }
+						onUpdate={ ( image ) =>
+							onUpdateImage( 'Evening', image )
+						}
+						onRemove={ () => onRemoveImage( 'Evening' ) }
 					/>
 				</Panel>
 			</InspectorControls>
 
 			<div className="openpdd-personal-heading__content">
 				<h1 className="openpdd-personal-heading__header">
-					{__( 'Goedemorgen NAAM', 'owc-formulieren' )}
+					{ __( 'Goedemorgen', 'owc-formulieren' ) }
+					<InnerBlocks />
 				</h1>
 
 				<RichText
-					value={textContent}
-					onChange={onContentChange}
-					placeholder={__( 'Tekst in header...', 'owc-formulieren' )}
+					value={ textContent }
+					onChange={ onContentChange }
+					placeholder={ __(
+						'Tekst in header...',
+						'owc-formulieren'
+					) }
 				/>
 			</div>
 
