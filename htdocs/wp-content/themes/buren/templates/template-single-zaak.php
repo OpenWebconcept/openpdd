@@ -50,6 +50,39 @@ get_template_part('mijn-zaken/header');
 					<?php endif; ?>
 				</table>
 			</div>
+
+			<?php if ($zaak->informationObjects() && $zaak->informationObjects()->count() > 0): ?>
+				<ul class="zaak-documents">
+					<?php foreach ($zaak->informationObjects() as $document) : ?>
+						<?php if ($document->informatieobject->isCaseConfidential() && ! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
+							<li class="zaak-documents-item">
+								<svg class="zaak-documents-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24">
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-7-7Z"/>
+									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 2v7h7"/>
+								</svg>
+
+								<a class="zaak-documents-item-link" href="<?= $document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')); ?>">
+									<span>
+										<?= $document->informatieobject->fileName(); ?>
+										<?php if ($document->informatieobject->formattedMetaData()): ?>
+											<div class="zaak-documents-item-download-size">(<?= $document->informatieobject->formattedMetaData(); ?>)</div>
+										<?php endif ?>
+									</span>
+									<div class="zaak-documents-item-download-button">
+										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" width="20" height="20">
+											<path fill="currentColor" fill-rule="evenodd" d="M2.5013 11.6665a.8333.8333 0 0 1 .8333.8333v3.3334a.8333.8333 0 0 0 .8334.8333h11.6666a.8334.8334 0 0 0 .8334-.8333v-3.3334a.8333.8333 0 0 1 1.6666 0v3.3334a2.5 2.5 0 0 1-2.5 2.5H4.168a2.4998 2.4998 0 0 1-2.5-2.5v-3.3334c0-.4602.373-.8333.8333-.8333Z" clip-rule="evenodd"/>
+											<path fill="currentColor" fill-rule="evenodd" d="M5.244 7.744a.8333.8333 0 0 1 1.1786 0L10 11.3216l3.5774-3.5774a.8333.8333 0 0 1 1.1785 0 .8332.8332 0 0 1 0 1.1785l-4.1666 4.1667a.8335.8335 0 0 1-1.1786 0L5.2441 8.9226a.8333.8333 0 0 1 0-1.1785Z" clip-rule="evenodd"/>
+											<path fill="currentColor" fill-rule="evenodd" d="M10.0013 1.6665a.8333.8333 0 0 1 .8333.8333v10a.8333.8333 0 1 1-1.6666 0v-10c0-.4602.373-.8333.8333-.8333Z" clip-rule="evenodd"/>
+										</svg>
+										Download
+									</div>
+								</a>
+							</li>
+						<?php endif ?>
+					<?php endforeach; ?>
+				</ul>
+			<?php endif ?>
+
 			<div class="zaak-process">
 				<h2>Status</h2>
 				<?php if (empty($zaak->steps()) || $zaak->hasNoStatus()) : ?>
@@ -97,10 +130,34 @@ get_template_part('mijn-zaken/header');
 				</ol>
 			</div>
 
+			<div class="zaak-process">
+				<h2>Originele aanvraag</h2>
+				<table class="zaak-details-table">
+					<?php if ($zaak->registerDate()) : ?>
+					<tr>
+						<th>Datum aanvraag</th>
+						<td><?php echo $zaak->registerDate(); ?></td>
+					</tr>
+					<?php endif ?>
+					<?php if ($zaak->zaaktype->omschrijvingGeneriek) : ?>
+					<tr>
+						<th>Zaaktype</th>
+						<td><?php echo $zaak->zaaktype->omschrijvingGeneriek; ?></td>
+					</tr>
+					<?php endif ?>
+					<?php if ($zaak->description()) : ?>
+					<tr>
+						<th>Aanvraag</th>
+						<td><?php echo $zaak->description(); ?></td>
+					</tr>
+					<?php endif ?>
+				</table>
+			</div>
+
 			<?php if ($zaak->informationObjects() && $zaak->informationObjects()->count() > 0): ?>
 				<ul class="zaak-documents">
 					<?php foreach ($zaak->informationObjects() as $document) : ?>
-						<?php if (! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
+						<?php if ($document->informatieobject->isConfidential() && ! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
 							<li class="zaak-documents-item">
 								<svg class="zaak-documents-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24">
 									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-7-7Z"/>
