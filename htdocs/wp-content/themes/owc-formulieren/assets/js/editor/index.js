@@ -1,3 +1,3 @@
 import './tile';
 import './block-styles';
-import './personal-heading'
+import './personal-heading';
