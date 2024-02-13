@@ -21,6 +21,12 @@ get_template_part('mijn-zaken/header');
 			<div class="zaak-details">
 				<h2>Details</h2>
 				<table class="zaak-details-table">
+					<?php if (! empty($zaak->identification())) : ?>
+						<tr>
+							<th>Identificatie</th>
+							<td><?php echo $zaak->identification(); ?></td>
+						</tr>
+					<?php endif; ?>
 					<?php if (! empty($zaak->registerDate('j F Y'))) : ?>
 						<tr>
 							<th>Registratiedatum</th>
@@ -145,10 +151,10 @@ get_template_part('mijn-zaken/header');
 						<td><?php echo $zaak->zaaktype->omschrijvingGeneriek; ?></td>
 					</tr>
 					<?php endif ?>
-					<?php if ($zaak->description()) : ?>
+					<?php if ($zaak->clarification()) : ?>
 					<tr>
 						<th>Aanvraag</th>
-						<td><?php echo $zaak->description(); ?></td>
+						<td><?php echo $zaak->clarification(); ?></td>
 					</tr>
 					<?php endif ?>
 				</table>
