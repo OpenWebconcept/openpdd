@@ -1,0 +1,20 @@
+$block: 'owc-gf-eidas-toolbar';
+
+.#{$block} {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: $spacer 0;
+
+	&-logout {
+		@include button-variant-outline( theme-color( 'primary' ) );
+		display: inline-block;
+		padding: 0.4rem 1rem !important;
+		border-radius: $btn-border-radius;
+		margin: 1rem 0;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
