@@ -433,7 +433,6 @@ add_action('wp', function () {
             $redirect_destination_set = get_field('toegang_geweigerd_pagina');
 
             // Assume redirection is needed by default
-            var_dump(! empty($sources));
             if (! empty($sources)) {
                 $redirect = true;
             } else {
