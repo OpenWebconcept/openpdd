@@ -432,24 +432,24 @@ add_action('wp', function () {
             $sources = get_field('bronnen');
             $redirect_destination_set = get_field('toegang_geweigerd_pagina');
 
-            if ($sources && $redirect_destination_set) {
-                // Assume redirection is needed by default
+            // Assume redirection is needed by default
+            var_dump(! empty($sources));
+            if (! empty($sources)) {
                 $redirect = true;
+            } else {
+                $redirect = false;
+            }
 
+            if ($sources && $redirect_destination_set) {
                 // Get the path from the cookie
                 $origin = $_COOKIE['pddAccessPath'] ?? '';
                 $decodedOrigin = urldecode($origin);
 
                 // Iterate through sources and check if redirection is needed
                 foreach ($sources as $source) {
-                    $url = $source['link_naar_bron'];
-
-                    // Get the path from the URL
-                    $parsedUrl = parse_url($url);
-                    $parsedPath = $parsedUrl['path'] ?? '';
 
                     // Check if the path matches the cookie or the user is logged in
-                    if ($decodedOrigin === $parsedPath || backslashit($decodedOrigin) === $parsedPath || is_user_logged_in()) {
+                    if ($decodedOrigin === $source || backslashit($decodedOrigin) === $source || is_user_logged_in()) {
                         $redirect = false;
 
                         break;
