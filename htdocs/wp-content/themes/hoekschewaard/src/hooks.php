@@ -449,7 +449,7 @@ add_action('wp', function () {
                     $parsedPath = $parsedUrl['path'] ?? '';
 
                     // Check if the path matches the cookie or the user is logged in
-                    if ($decodedOrigin === $parsedPath || backslashit($decodedOrigin) === $parsedPath || explode('#', $decodedOrigin)[0] === $parsedPath || is_user_logged_in()) {
+                    if ($decodedOrigin === $parsedPath || backslashit($decodedOrigin) === $parsedPath || is_user_logged_in()) {
                         $redirect = false;
 
                         break;
