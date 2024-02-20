@@ -433,18 +433,23 @@ add_action('wp', function () {
             $redirect_destination_set = get_field('toegang_geweigerd_pagina');
 
             if ($sources && $redirect_destination_set) {
-                $redirect = true; // Assume redirection is needed by default.
+                // Assume redirection is needed by default
+                $redirect = true;
 
+                // Get the path from the cookie
+                $origin = $_COOKIE['pddAccessPath'] ?? '';
+                $decodedOrigin = urldecode($origin);
+
+                // Iterate through sources and check if redirection is needed
                 foreach ($sources as $source) {
                     $url = $source['link_naar_bron'];
-                    $origin = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '';
 
-                    if (
-                        $origin === $url ||
-                        backslashit($origin) === $url ||
-                        explode('#', $origin) === $url || // anything that comes after the current url such as params and slashes i.e. #gf_<id>
-                        is_user_logged_in()
-                    ) {
+                    // Get the path from the URL
+                    $parsedUrl = parse_url($url);
+                    $parsedPath = $parsedUrl['path'] ?? '';
+
+                    // Check if the path matches the cookie or the user is logged in
+                    if ($decodedOrigin === $parsedPath || backslashit($decodedOrigin) === $parsedPath || explode('#', $decodedOrigin)[0] === $parsedPath || is_user_logged_in()) {
                         $redirect = false;
 
                         break;
