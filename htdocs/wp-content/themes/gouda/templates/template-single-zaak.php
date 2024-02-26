@@ -41,10 +41,10 @@ get_template_part('mijn-zaken/header');
 						</tr>
 					<?php endif; ?>
 
-					<?php if (! empty($zaak->identificatie)) : ?>
+					<?php if (! empty($zaak->identification())) : ?>
 						<tr>
 							<th>Zaaknummer</th>
-							<td><?php echo $zaak->identificatie; ?></td>
+							<td><?php echo $zaak->identification(); ?></td>
 						</tr>
 					<?php endif; ?>
 
@@ -52,6 +52,27 @@ get_template_part('mijn-zaken/header');
 						<tr>
 							<th>Status</th>
 							<td><?php echo $zaak->statusExplanation(); ?></td>
+						</tr>
+					<?php endif; ?>
+
+					<?php if (! empty($zaak->endDatePlanned())) : ?>
+						<tr>
+							<th>Einddatum gepland</th>
+							<td><?php echo $zaak->endDatePlanned(); ?></td>
+						</tr>
+					<?php endif; ?>
+
+					<?php if (! empty($zaak->endDate())) : ?>
+						<tr>
+							<th>Einddatum</th>
+							<td><?php echo $zaak->endDate(); ?></td>
+						</tr>
+					<?php endif; ?>
+
+					<?php if (! empty($zaak->resultExplanation())) : ?>
+						<tr>
+							<th>Zaak resultaat</th>
+							<td><?php echo $zaak->resultExplanation(); ?></td>
 						</tr>
 					<?php endif; ?>
 				</table>
@@ -136,6 +157,31 @@ get_template_part('mijn-zaken/header');
 				</ol>
 			</div>
 
+			<div class="zaak-details">
+				<table class="zaak-details-table">
+				<?php if (! empty($zaak->endDatePlanned())) : ?>
+						<tr>
+							<th>Einddatum gepland</th>
+							<td><?php echo $zaak->endDatePlanned(); ?></td>
+						</tr>
+					<?php endif; ?>
+
+					<?php if (! empty($zaak->endDate())) : ?>
+						<tr>
+							<th>Einddatum</th>
+							<td><?php echo $zaak->endDate(); ?></td>
+						</tr>
+					<?php endif; ?>
+
+					<?php if (! empty($zaak->resultExplanation())) : ?>
+						<tr>
+							<th>Zaak resultaat</th>
+							<td><?php echo $zaak->resultExplanation(); ?></td>
+						</tr>
+					<?php endif; ?>
+				</table>
+			</div>
+
 			<div class="zaak-process">
 				<h2>Originele aanvraag</h2>
 				<table class="zaak-details-table">
@@ -145,10 +191,10 @@ get_template_part('mijn-zaken/header');
 						<td><?php echo $zaak->registerDate(); ?></td>
 					</tr>
 					<?php endif ?>
-					<?php if ($zaak->zaaktype->omschrijvingGeneriek) : ?>
+					<?php if ($zaak->zaaktypeDescription()) : ?>
 					<tr>
 						<th>Zaaktype</th>
-						<td><?php echo $zaak->zaaktype->omschrijvingGeneriek; ?></td>
+						<td><?php echo $zaak->zaaktypeDescription(); ?></td>
 					</tr>
 					<?php endif ?>
 					<?php if ($zaak->clarification()) : ?>
@@ -163,7 +209,7 @@ get_template_part('mijn-zaken/header');
 			<?php if ($zaak->informationObjects() && $zaak->informationObjects()->count() > 0): ?>
 				<ul class="zaak-documents">
 					<?php foreach ($zaak->informationObjects() as $document) : ?>
-						<?php if (! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
+						<?php if ($document->informatieobject->isConfidential() && ! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
 							<li class="zaak-documents-item">
 								<svg class="zaak-documents-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24">
 									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-7-7Z"/>
