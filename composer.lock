@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c6c98b217260626773bd1dec14bba24",
+    "content-hash": "80733e227face3e72e5c807ea9c5768f",
     "packages": [
         {
             "name": "aura/session",
@@ -2843,16 +2843,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "dev-master",
+            "version": "dev-feat/generate-pdf-of-created-zaak-and-connect",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "c17b0dba6e2fdc3601ef0979851adfcacb4d11d1"
+                "reference": "b64ecc82e7bc4743e0143d29d3c8bee3c49c20f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/c17b0dba6e2fdc3601ef0979851adfcacb4d11d1",
-                "reference": "c17b0dba6e2fdc3601ef0979851adfcacb4d11d1",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/b64ecc82e7bc4743e0143d29d3c8bee3c49c20f4",
+                "reference": "b64ecc82e7bc4743e0143d29d3c8bee3c49c20f4",
                 "shasum": ""
             },
             "require": {
@@ -2868,7 +2868,6 @@
                 "phpunit/phpunit": "^9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2900,10 +2899,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/master",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/generate-pdf-of-created-zaak-and-connect",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2023-12-14T09:55:55+00:00"
+            "time": "2024-02-20T06:32:17+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
