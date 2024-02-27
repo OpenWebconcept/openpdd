@@ -400,57 +400,6 @@ add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
 add_filter('gform_enable_legacy_markup', '__return_true');
 
-/**
- * Optionally only allow pages to be accessed from specific source URLs else redirect them to a specific URL with instructions.
- * Logged in users are excluded so that they may access the pages.
- */
-add_action('wp', function () {
-    if (! class_exists('ACF')) {
-        return;
-    }
-
-    $group_slug = 'group_65a0dbe14fae0';
-    $field_group = acf_get_field_group($group_slug);
-
-    if ($field_group && is_singular('page')) {
-        $setting_active = get_field('ik_wil_deze_pagina_afschermen') ?? [];
-
-        if (in_array('Ja', $setting_active)) {
-            $sources = get_field('bronnen');
-            $redirect_destination_set = get_field('toegang_geweigerd_pagina');
-
-            // Assume redirection is needed by default
-            if (! empty($sources)) {
-                $redirect = true;
-            } else {
-                $redirect = false;
-            }
-
-            if ($sources && $redirect_destination_set) {
-                // Get the path from the cookie
-                $origin = $_COOKIE['pddAccessPath'] ?? '';
-                $decodedOrigin = urldecode($origin);
-
-                // Iterate through sources and check if redirection is needed
-                foreach ($sources as $source) {
-
-                    // Check if the path matches the cookie or the user is logged in
-                    if ($decodedOrigin === $source || backslashit($decodedOrigin) === $source || is_user_logged_in()) {
-                        $redirect = false;
-
-                        break;
-                    }
-                }
-
-                if ($redirect) {
-                    wp_redirect($redirect_destination_set);
-                    exit;
-                }
-            }
-        }
-    }
-});
-
 add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($templates) {
     $templates[] = 'template-mijn-zaken';
     $templates[] = 'template-mijn-zaken-main';
