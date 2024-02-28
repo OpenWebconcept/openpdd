@@ -23,6 +23,15 @@ class Assets
         wp_enqueue_script('theme');
 
         wp_enqueue_style('theme', $assetDetails['baseUrl'] . 'frontend.css', [], $assetDetails['scriptAsset']['version']);
+
+        $sitesWithRS = [
+            env('GGD_SITE_ID', 5) => '13499',
+            env('HW_SITE_ID', 4) => '8150',
+        ];
+
+        wp_localize_script('theme', 'theme', [
+            'rsID' => $sitesWithRS[get_current_blog_id()] ?? '0',
+        ]);
     }
 
     /**

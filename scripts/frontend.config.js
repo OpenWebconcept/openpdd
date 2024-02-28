@@ -20,7 +20,7 @@ module.exports = ( { theme } ) => {
 			frontend: [
 				path.resolve(
 					process.cwd(),
-					getPathToTheme( theme ),
+					getPathToTheme( 'owc-formulieren' ),
 					'assets/js/frontend',
 					'app.js'
 				),
