@@ -2467,16 +2467,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "v1.4.3",
+			"version": "v1.4.4",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-				"reference": "a53642478fd9f67f8245eec83a422dd6c6fa3a4d"
+				"reference": "e144f357a4cb900abd7354c3fcb281148692b932"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/a53642478fd9f67f8245eec83a422dd6c6fa3a4d",
-				"reference": "a53642478fd9f67f8245eec83a422dd6c6fa3a4d",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/e144f357a4cb900abd7354c3fcb281148692b932",
+				"reference": "e144f357a4cb900abd7354c3fcb281148692b932",
 				"shasum": ""
 			},
 			"require": {
@@ -2526,10 +2526,10 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.4.3",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.4.4",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2024-02-22T09:26:56+00:00"
+			"time": "2024-02-28T10:28:37+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
@@ -2603,12 +2603,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
-				"reference": "d9e2660398481401607254d578dde735256721ab"
+				"reference": "79d75dd9ef7aaaaffa7bc7913ba403ffdee5b0b6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/d9e2660398481401607254d578dde735256721ab",
-				"reference": "d9e2660398481401607254d578dde735256721ab",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/79d75dd9ef7aaaaffa7bc7913ba403ffdee5b0b6",
+				"reference": "79d75dd9ef7aaaaffa7bc7913ba403ffdee5b0b6",
 				"shasum": ""
 			},
 			"require": {
@@ -2662,7 +2662,7 @@
 				"source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/master",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
 			},
-			"time": "2024-02-19T18:49:39+00:00"
+			"time": "2024-02-28T13:17:09+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -2787,12 +2787,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "b24edc55af95b4bceabac20e5d0b980372e4c671"
+				"reference": "fd967e351256a26dfb11021b30b285981185fc23"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/b24edc55af95b4bceabac20e5d0b980372e4c671",
-				"reference": "b24edc55af95b4bceabac20e5d0b980372e4c671",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/fd967e351256a26dfb11021b30b285981185fc23",
+				"reference": "fd967e351256a26dfb11021b30b285981185fc23",
 				"shasum": ""
 			},
 			"require": {
@@ -2839,7 +2839,7 @@
 				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/sc29104/send-mail-when-creating-zaak-fails",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2024-02-27T13:41:13+00:00"
+			"time": "2024-02-27T14:29:28+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
@@ -8215,5 +8215,5 @@
 	"platform-overrides": {
 		"php": "7.4"
 	},
-	"plugin-api-version": "2.3.0"
+	"plugin-api-version": "2.6.0"
 }
