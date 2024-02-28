@@ -1,6 +1,10 @@
-export default ( id ) => {
+export default () => {
 	const events = () => {
-		injectWRScript( id );
+		if ( ! window.theme || window.theme.rsID === '0' ) {
+			return;
+		}
+
+		injectWRScript( window.theme.rsID );
 	};
 
 	function injectWRScript( cid ) {
@@ -11,9 +15,11 @@ export default ( id ) => {
 
 		// Adds the menu to the button, if the user has not yet interacted with webReader.
 		setTimeout( () => {
-			ReadSpeaker.q( function () {
-				rspkr.tools.toggler.add();
-			} );
+			if ( typeof ReadSpeaker !== 'undefined' ) {
+				ReadSpeaker.q( function () {
+					rspkr.tools.toggler.add();
+				} );
+			}
 		}, 100 );
 	}
 
