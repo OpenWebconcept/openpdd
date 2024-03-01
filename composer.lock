@@ -2783,7 +2783,7 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "dev-sc29104/send-mail-when-creating-zaak-fails",
+			"version": "v1.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
@@ -2836,7 +2836,7 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/sc29104/send-mail-when-creating-zaak-fails",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v1.2",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
 			"time": "2024-02-27T14:29:28+00:00"
@@ -5360,16 +5360,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.50.0",
+			"version": "v3.51.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "dbea11dcb6d9a1f6c8d51c0e580ab4a8876f524c"
+				"reference": "127fa74f010da99053e3f5b62672615b72dd6efd"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/dbea11dcb6d9a1f6c8d51c0e580ab4a8876f524c",
-				"reference": "dbea11dcb6d9a1f6c8d51c0e580ab4a8876f524c",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/127fa74f010da99053e3f5b62672615b72dd6efd",
+				"reference": "127fa74f010da99053e3f5b62672615b72dd6efd",
 				"shasum": ""
 			},
 			"require": {
@@ -5436,7 +5436,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.50.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.51.0"
 			},
 			"funding": [
 				{
@@ -5444,7 +5444,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2024-02-23T23:17:45+00:00"
+			"time": "2024-02-28T19:50:06+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
