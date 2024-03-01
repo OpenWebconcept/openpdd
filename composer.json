@@ -114,7 +114,7 @@
 		"plugin/owc-gravityforms-eherkenning": "^1.1",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/generate-pdf-of-created-zaak-and-connect",
-		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.1.0",
+		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.2",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/prefill-gravity-forms": "^1.2.0",
 		"plugin/signicat-openid": "dev-main",
