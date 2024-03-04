@@ -54,27 +54,6 @@ get_template_part('mijn-zaken/header');
 							<td><?php echo $zaak->statusExplanation(); ?></td>
 						</tr>
 					<?php endif; ?>
-
-					<?php if (! empty($zaak->endDatePlanned())) : ?>
-						<tr>
-							<th>Einddatum gepland</th>
-							<td><?php echo $zaak->endDatePlanned(); ?></td>
-						</tr>
-					<?php endif; ?>
-
-					<?php if (! empty($zaak->endDate())) : ?>
-						<tr>
-							<th>Einddatum</th>
-							<td><?php echo $zaak->endDate(); ?></td>
-						</tr>
-					<?php endif; ?>
-
-					<?php if (! empty($zaak->resultExplanation())) : ?>
-						<tr>
-							<th>Zaak resultaat</th>
-							<td><?php echo $zaak->resultExplanation(); ?></td>
-						</tr>
-					<?php endif; ?>
 				</table>
 			</div>
 
@@ -159,7 +138,7 @@ get_template_part('mijn-zaken/header');
 
 			<div class="zaak-details">
 				<table class="zaak-details-table">
-				<?php if (! empty($zaak->endDatePlanned())) : ?>
+				<?php if (! empty($zaak->endDatePlanned()) && empty($zaak->endDate())) : ?>
 						<tr>
 							<th>Einddatum gepland</th>
 							<td><?php echo $zaak->endDatePlanned(); ?></td>
@@ -173,7 +152,7 @@ get_template_part('mijn-zaken/header');
 						</tr>
 					<?php endif; ?>
 
-					<?php if (! empty($zaak->resultExplanation())) : ?>
+					<?php if (! empty($zaak->resultExplanation()) && ! empty($zaak->endDate())) : ?>
 						<tr>
 							<th>Zaak resultaat</th>
 							<td><?php echo $zaak->resultExplanation(); ?></td>
