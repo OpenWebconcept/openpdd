@@ -2503,16 +2503,16 @@
         },
         {
             "name": "plugin/owc-datab",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-owc-datab.git",
-                "reference": "bce9892ef5fedee05ef6233ffe0164498a3063d0"
+                "reference": "47b928e360df76752fac419dfe25f5942e14cb41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/bce9892ef5fedee05ef6233ffe0164498a3063d0",
-                "reference": "bce9892ef5fedee05ef6233ffe0164498a3063d0",
+                "url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/47b928e360df76752fac419dfe25f5942e14cb41",
+                "reference": "47b928e360df76752fac419dfe25f5942e14cb41",
                 "shasum": ""
             },
             "require": {
@@ -2559,10 +2559,10 @@
             ],
             "description": "Retrieve personal documents via DataB for logged in users by DigiD",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.0.1",
+                "source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.0.2",
                 "issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
             },
-            "time": "2023-11-27T15:37:23+00:00"
+            "time": "2024-03-05T13:54:06+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-bag-address",
@@ -2785,12 +2785,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
-                "reference": "6fead94f0c939ee779ec4b08484146696081c163"
+                "reference": "80259ea777db82e880113ce893e38b44cfbf458e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/6fead94f0c939ee779ec4b08484146696081c163",
-                "reference": "6fead94f0c939ee779ec4b08484146696081c163",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/80259ea777db82e880113ce893e38b44cfbf458e",
+                "reference": "80259ea777db82e880113ce893e38b44cfbf458e",
                 "shasum": ""
             },
             "require": {
@@ -2849,7 +2849,7 @@
                 "source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/master",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
             },
-            "time": "2024-03-05T13:01:41+00:00"
+            "time": "2024-03-05T13:44:04+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
@@ -2919,12 +2919,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "757285707bd3cc314faea49c6a8bd34ce2d84149"
+                "reference": "164445b1698f2d6bb4186dc7f0b028620fac29ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/757285707bd3cc314faea49c6a8bd34ce2d84149",
-                "reference": "757285707bd3cc314faea49c6a8bd34ce2d84149",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/164445b1698f2d6bb4186dc7f0b028620fac29ff",
+                "reference": "164445b1698f2d6bb4186dc7f0b028620fac29ff",
                 "shasum": ""
             },
             "require": {
@@ -2974,7 +2974,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/generate-pdf-of-created-zaak-and-connect",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2024-03-04T09:14:24+00:00"
+            "time": "2024-03-05T14:12:41+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -8866,5 +8866,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
