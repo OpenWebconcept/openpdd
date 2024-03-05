@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d58e88596c4e19c9abc7c780b31d9e7",
+    "content-hash": "456de373f18e6a193908abf166db1e1d",
     "packages": [
         {
             "name": "aura/session",
@@ -2710,16 +2710,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "25ad2ae96321fdbc6fabb21792468373a6e80a3c"
+                "reference": "42b8c311c1ff73292fd36728972e162d06616b24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/25ad2ae96321fdbc6fabb21792468373a6e80a3c",
-                "reference": "25ad2ae96321fdbc6fabb21792468373a6e80a3c",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/42b8c311c1ff73292fd36728972e162d06616b24",
+                "reference": "42b8c311c1ff73292fd36728972e162d06616b24",
                 "shasum": ""
             },
             "require": {
@@ -2739,6 +2739,7 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2774,10 +2775,10 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.1.2",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/master",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2024-01-09T07:47:19+00:00"
+            "time": "2024-03-05T15:04:13+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eidas",
@@ -8853,6 +8854,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
+        "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-eidas": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
         "plugin/signicat-openid": 20,
@@ -8866,5 +8868,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
