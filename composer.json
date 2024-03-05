@@ -115,7 +115,7 @@
 		"plugin/owc-datab": "^1.0.2",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "^1.4",
-		"plugin/owc-gravityforms-eherkenning": "^1.1",
+		"plugin/owc-gravityforms-eherkenning": "dev-master",
 		"plugin/owc-gravityforms-eidas": "dev-master",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/generate-pdf-of-created-zaak-and-connect",
