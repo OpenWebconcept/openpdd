@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "456de373f18e6a193908abf166db1e1d",
+    "content-hash": "1c48926195d4c7e84b312f014e87145e",
     "packages": [
         {
             "name": "aura/session",
@@ -2638,16 +2638,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.4.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "e144f357a4cb900abd7354c3fcb281148692b932"
+                "reference": "45ccc6361b666c1d8c5a0749ee8da2569c8b0e4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/e144f357a4cb900abd7354c3fcb281148692b932",
-                "reference": "e144f357a4cb900abd7354c3fcb281148692b932",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/45ccc6361b666c1d8c5a0749ee8da2569c8b0e4f",
+                "reference": "45ccc6361b666c1d8c5a0749ee8da2569c8b0e4f",
                 "shasum": ""
             },
             "require": {
@@ -2666,6 +2666,7 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.7.0"
             },
+            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2703,10 +2704,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.4.4",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/master",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2024-02-28T10:28:37+00:00"
+            "time": "2024-03-06T08:59:35+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
@@ -4826,15 +4827,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "8.24.0",
+            "version": "8.25.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/8.24.0"
+                "reference": "tags/8.25.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.24.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.25.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4952,11 +4953,11 @@
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
-            "version": "6.2.6.1",
+            "version": "6.2.7",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.6.1",
-                "shasum": "453382d5adf058858458ad3c92f34ff17b26e864"
+                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.7",
+                "shasum": "07a7175b3a1c2a8abc4cc8cc9423d058dd60e673"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -6032,16 +6033,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.0.1",
+            "version": "v5.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69"
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2218c2252c874a4624ab2f613d86ac32d227bc69",
-                "reference": "2218c2252c874a4624ab2f613d86ac32d227bc69",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/139676794dc1e9231bf7bcd123cfc0c99182cb13",
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13",
                 "shasum": ""
             },
             "require": {
@@ -6084,9 +6085,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.1"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.2"
             },
-            "time": "2024-02-21T19:24:10+00:00"
+            "time": "2024-03-05T20:51:40+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -8854,6 +8855,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
+        "plugin/owc-gravityforms-digid": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-eidas": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
