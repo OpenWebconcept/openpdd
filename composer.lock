@@ -2921,12 +2921,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "164445b1698f2d6bb4186dc7f0b028620fac29ff"
+                "reference": "828ef310fb3f233c77af0fde2de2f381499515a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/164445b1698f2d6bb4186dc7f0b028620fac29ff",
-                "reference": "164445b1698f2d6bb4186dc7f0b028620fac29ff",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/828ef310fb3f233c77af0fde2de2f381499515a8",
+                "reference": "828ef310fb3f233c77af0fde2de2f381499515a8",
                 "shasum": ""
             },
             "require": {
@@ -2976,7 +2976,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/generate-pdf-of-created-zaak-and-connect",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2024-03-05T14:12:41+00:00"
+            "time": "2024-03-07T09:42:38+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -8870,5 +8870,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
