@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c48926195d4c7e84b312f014e87145e",
+    "content-hash": "f758191c21f524586e8d4f31a01caae0",
     "packages": [
         {
             "name": "aura/session",
@@ -3072,16 +3072,16 @@
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "v1.2.1",
+            "version": "dev-feat/eidas",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "0437d1c23c76135d6380a87455420f9dedec78fd"
+                "reference": "9f2d183947eec9f0d046e5d738ee8f65f95d20d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/0437d1c23c76135d6380a87455420f9dedec78fd",
-                "reference": "0437d1c23c76135d6380a87455420f9dedec78fd",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/9f2d183947eec9f0d046e5d738ee8f65f95d20d4",
+                "reference": "9f2d183947eec9f0d046e5d738ee8f65f95d20d4",
                 "shasum": ""
             },
             "require": {
@@ -3127,10 +3127,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.2.1",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/eidas",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2024-02-14T14:31:46+00:00"
+            "time": "2024-03-08T12:48:55+00:00"
         },
         {
             "name": "plugin/signicat-openid",
@@ -5048,11 +5048,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.8.4",
+            "version": "2.8.5",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.4",
-                "shasum": "95ab781a8f36499208f95f40ac893929fe38f0de"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.5",
+                "shasum": "37ad960659c5b5872f6f204c3b6124c68620547c"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5277,16 +5277,16 @@
         },
         {
             "name": "composer/pcre",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
+                "reference": "4775f35b2d70865807c89d32c8e7385b86eb0ace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
-                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/4775f35b2d70865807c89d32c8e7385b86eb0ace",
+                "reference": "4775f35b2d70865807c89d32c8e7385b86eb0ace",
                 "shasum": ""
             },
             "require": {
@@ -5328,7 +5328,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.1"
+                "source": "https://github.com/composer/pcre/tree/3.1.2"
             },
             "funding": [
                 {
@@ -5344,7 +5344,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-11T07:11:09+00:00"
+            "time": "2024-03-07T15:38:35+00:00"
         },
         {
             "name": "composer/semver",
@@ -8859,6 +8859,7 @@
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-eidas": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
+        "plugin/prefill-gravity-forms": 20,
         "plugin/signicat-openid": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
@@ -8870,5 +8871,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }

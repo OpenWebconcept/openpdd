@@ -121,7 +121,7 @@
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/generate-pdf-of-created-zaak-and-connect",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.2",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/prefill-gravity-forms": "^1.2.0",
+		"plugin/prefill-gravity-forms": "dev-feat/eidas",
 		"plugin/signicat-openid": "dev-main",
 		"privacybydesign/irma-wp": "@dev",
 		"rspeekenbrink/monolog-microsoft-teams": "^1.0",
