@@ -2787,12 +2787,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
-                "reference": "93a06a51b2b58f2fa5e56f4fe303d05d4a8d15fc"
+                "reference": "7845fc781d712426eaa1f53e1467d1dab00e74c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/93a06a51b2b58f2fa5e56f4fe303d05d4a8d15fc",
-                "reference": "93a06a51b2b58f2fa5e56f4fe303d05d4a8d15fc",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/7845fc781d712426eaa1f53e1467d1dab00e74c3",
+                "reference": "7845fc781d712426eaa1f53e1467d1dab00e74c3",
                 "shasum": ""
             },
             "require": {
@@ -2851,7 +2851,7 @@
                 "source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/master",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
             },
-            "time": "2024-03-08T16:39:57+00:00"
+            "time": "2024-03-08T17:38:22+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
