@@ -2377,12 +2377,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "63d301ece7b65d575148d521ccc7e8489e7e1ee6"
+                "reference": "6305ee1c039fed43e82c9e169fe38704464bd780"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/63d301ece7b65d575148d521ccc7e8489e7e1ee6",
-                "reference": "63d301ece7b65d575148d521ccc7e8489e7e1ee6",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/6305ee1c039fed43e82c9e169fe38704464bd780",
+                "reference": "6305ee1c039fed43e82c9e169fe38704464bd780",
                 "shasum": ""
             },
             "require": {
@@ -2439,7 +2439,7 @@
                 "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/feat/amp-blokje-balie",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2024-03-11T15:20:23+00:00"
+            "time": "2024-03-11T15:35:58+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
