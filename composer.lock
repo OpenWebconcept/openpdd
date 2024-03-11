@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f758191c21f524586e8d4f31a01caae0",
+    "content-hash": "78583a8661a5f59c801133658447e730",
     "packages": [
         {
             "name": "aura/session",
@@ -2373,16 +2373,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "v1.3.2",
+            "version": "dev-feat/amp-blokje-balie",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "c91d17687ee0c1862c50e98937c0e4a068a13382"
+                "reference": "a6a9d871e95db6bd39990263eb52b0936003c50c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/c91d17687ee0c1862c50e98937c0e4a068a13382",
-                "reference": "c91d17687ee0c1862c50e98937c0e4a068a13382",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/a6a9d871e95db6bd39990263eb52b0936003c50c",
+                "reference": "a6a9d871e95db6bd39990263eb52b0936003c50c",
                 "shasum": ""
             },
             "require": {
@@ -2436,10 +2436,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.3.2",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/feat/amp-blokje-balie",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2024-02-09T12:58:02+00:00"
+            "time": "2024-01-27T10:47:44+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -8855,6 +8855,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
+        "plugin/gravityforms-amp-booking": 20,
         "plugin/owc-gravityforms-digid": 20,
         "plugin/owc-gravityforms-eherkenning": 20,
         "plugin/owc-gravityforms-eidas": 20,
