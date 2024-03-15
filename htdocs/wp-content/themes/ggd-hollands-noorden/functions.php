@@ -3,6 +3,7 @@
 declare(strict_types=1);
 defined('ABSPATH') || exit;
 
+
 // PSR autoloader
 spl_autoload_register(function ($className) {
     $baseDir = __DIR__ . '/src/';
@@ -18,11 +19,11 @@ spl_autoload_register(function ($className) {
 $includes = [
     'src/Role.php',
     'src/hooks.php',
-    'src/setup.php'
+    'src/setup.php',
 ];
 
 foreach ($includes as $file) {
-    if (!$filepath = locate_template($file)) {
+    if (! $filepath = locate_template($file)) {
         trigger_error(sprintf(__('Error locating %s for inclusion', 'ggd'), $file), E_USER_ERROR);
     }
 
