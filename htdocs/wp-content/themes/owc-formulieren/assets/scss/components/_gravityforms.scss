@@ -296,6 +296,89 @@
 	}
 }
 
+.gfield--type-fileupload {
+	input[type='file']::file-selector-button {
+		@include button;
+		@include button-color( gray( 'concrete' ) );
+		margin-right: 1rem;
+	}
+
+	.gform_fileupload_rules {
+		display: block;
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.gform_drop_area {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		padding: 1rem;
+		border: 1px dashed $input-border-color;
+		border-radius: $input-border-radius;
+		background-color: $input-bg;
+		gap: 0.5rem 1rem;
+
+		.gform_drop_instructions {
+			color: gray( 'boulder' );
+		}
+
+		.gform_button_select_files {
+			@include button;
+			@include button-color( gray( 'concrete' ) );
+		}
+	}
+
+	.gform-ul-reset {
+		.gfield_description {
+			width: 100%;
+			padding-left: 0;
+		}
+	}
+
+	.ginput_preview_list {
+		min-width: 50%;
+		order: 10;
+
+		.ginput_preview {
+			position: relative;
+			display: flex;
+			align-items: baseline;
+			margin-top: 1rem;
+			gap: 0.5rem;
+
+			&::before {
+				@include fontawesome( '\f1f8' );
+				position: absolute;
+				top: 50%;
+				left: 0;
+				pointer-events: none;
+				transform: translateY( -50% );
+			}
+
+			&:not( :has( .gform_delete ) ) {
+				padding-left: 1.75rem;
+			}
+
+			.gform_delete {
+				$size: 20px;
+				width: $size;
+				height: $size;
+				align-self: center;
+				opacity: 0;
+			}
+
+			.gfield_fileupload_filesize,
+			.gfield_fileupload_progress {
+				color: gray( 'boulder' );
+				font-size: $font-size-base * 0.9;
+				line-height: 1;
+			}
+		}
+	}
+}
+
 .ginput_container_bag_address {
 	display: flex;
 	flex-wrap: wrap;
