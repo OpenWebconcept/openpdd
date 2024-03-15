@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0efba7c16cc829381408ad018ad62e95",
+    "content-hash": "8b18270364aa1c80d6902e5c8c8feab7",
     "packages": [
         {
             "name": "aura/session",
@@ -2120,16 +2120,16 @@
         },
         {
             "name": "plugin/gravityforms-amp-booking",
-            "version": "dev-feat/amp-blokje-balie",
+            "version": "v1.3.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-                "reference": "6305ee1c039fed43e82c9e169fe38704464bd780"
+                "reference": "c91d17687ee0c1862c50e98937c0e4a068a13382"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/6305ee1c039fed43e82c9e169fe38704464bd780",
-                "reference": "6305ee1c039fed43e82c9e169fe38704464bd780",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/c91d17687ee0c1862c50e98937c0e4a068a13382",
+                "reference": "c91d17687ee0c1862c50e98937c0e4a068a13382",
                 "shasum": ""
             },
             "require": {
@@ -2183,10 +2183,10 @@
             ],
             "description": "GravityForms AMP Booking",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/feat/amp-blokje-balie",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.3.2",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
             },
-            "time": "2024-03-11T15:35:58+00:00"
+            "time": "2024-02-09T12:58:02+00:00"
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
@@ -2385,7 +2385,7 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "dev-master",
+            "version": "v1.5.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
@@ -2413,7 +2413,6 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.7.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2458,7 +2457,7 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "dev-master",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
@@ -2487,7 +2486,6 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -2530,7 +2528,7 @@
         },
         {
             "name": "plugin/owc-gravityforms-eidas",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
@@ -2559,7 +2557,6 @@
                 "phpunit/phpunit": "~9.0",
                 "szepeviktor/phpstan-wordpress": "^0.6.0"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "autoload": {
                 "psr-4": {
@@ -8496,10 +8493,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "plugin/formio-wordpress": 20,
-        "plugin/gravityforms-amp-booking": 20,
-        "plugin/owc-gravityforms-digid": 20,
-        "plugin/owc-gravityforms-eherkenning": 20,
-        "plugin/owc-gravityforms-eidas": 20,
         "plugin/owc-gravityforms-zaaksysteem": 20,
         "privacybydesign/irma-wp": 20,
         "deployer/recipes": 20
@@ -8511,5 +8504,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
