@@ -4,8 +4,8 @@
 	},
 	"[css]": {
 		"editor.codeActionsOnSave": {
-			"source.fixAll.prettier": true,
-			"source.fixAll.stylelint": true
+			"source.fixAll.prettier": "explicit",
+			"source.fixAll.stylelint": "explicit"
 		},
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
@@ -24,8 +24,8 @@
 	},
 	"[scss]": {
 		"editor.codeActionsOnSave": {
-			"source.fixAll.prettier": true,
-			"source.fixAll.stylelint": true
+			"source.fixAll.prettier": "explicit",
+			"source.fixAll.stylelint": "explicit"
 		},
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},

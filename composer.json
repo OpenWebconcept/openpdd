@@ -85,10 +85,6 @@
 		},
 		{
 			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-signicat-openid.git"
-		},
-		{
-			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
 		},
 		{
@@ -119,12 +115,12 @@
 		"plugin/owc-gravityforms-eidas": "dev-master",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/generate-pdf-of-created-zaak-and-connect",
-		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^1.2",
+		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.0",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/prefill-gravity-forms": "dev-feat/eidas",
-		"plugin/signicat-openid": "dev-main",
+		"plugin/prefill-gravity-forms": "^1.2.0",
 		"privacybydesign/irma-wp": "@dev",
-		"rspeekenbrink/monolog-microsoft-teams": "^1.0",
+		"cmdisp/monolog-microsoft-teams": "1.3.0",
+		"monolog/monolog": "^2.0",
 		"vlucas/phpdotenv": "^5.0",
 		"wpackagist-plugin/2fas-light": "^3.0",
 		"wpackagist-plugin/coming-soon": "^6.0",
