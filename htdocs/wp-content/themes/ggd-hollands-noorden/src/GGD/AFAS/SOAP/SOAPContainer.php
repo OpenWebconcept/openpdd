@@ -35,8 +35,9 @@ class SOAPContainer
                     'trace' => true,
                     'exception' => 1,
                     'Content-Type' => 'text/xml',
-                    'use' => SOAP_LITERAL
+                    'use' => SOAP_LITERAL,
                 ]);
+
                 return new SOAPGetRequest($soapClient);
             },
             'SOAPPostRequest' => function () {
@@ -44,21 +45,24 @@ class SOAPContainer
                     'trace' => true,
                     'exception' => 1,
                     'Content-Type' => 'text/xml',
-                    'use' => SOAP_LITERAL
+                    'use' => SOAP_LITERAL,
                 ]);
+
                 return new SOAPPostRequest($soapClient);
             },
             'TokenAFAS' => $_ENV['AFAS_TOKEN_SOAP'],
             'teams' => function () {
-                if (true === $_ENV['GGD_TEAMS_WEBHOOK_DISABLE_LOGGING']) {
-                    return (new \Monolog\Logger('microsoft-teams-logger'))->pushHandler(new \Monolog\Handler\NullHandler());
+                $logger = new \Monolog\Logger('microsoft-teams-logger');
+
+                if (true === env('GGD_TEAMS_WEBHOOK_DISABLE_LOGGING', false)) {
+                    return $logger->pushHandler(new \Monolog\Handler\NullHandler());
                 }
-                return (new \Monolog\Logger('microsoft-teams-logger'))->pushHandler(new \Rspeekenbrink\MonologMicrosoftTeams\MicrosoftTeamsHandler(
+
+                return $logger->pushHandler(new \CMDISP\MonologMicrosoftTeams\TeamsLogHandler(
                     $_ENV['GGD_TEAMS_WEBHOOK'],
-                    'GGD Hollands Noorden',
                     \Monolog\Logger::INFO
                 ));
-            }
+            },
         ]);
         $this->container = $builder->build();
     }
