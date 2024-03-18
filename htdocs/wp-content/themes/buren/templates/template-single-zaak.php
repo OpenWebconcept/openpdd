@@ -16,20 +16,14 @@ get_template_part('mijn-zaken/header');
 			<?php if ($zaak) : ?>
 			<div class="zaak-header">
 				<img src="<?php echo get_template_directory_uri() . "/assets/img/zaak-header.jpg"; ?>" alt="" class="zaak-header-image" />
-				<h1 class="zaak-header-title">Zaak: <?php echo $zaak->title(); ?></h1>
+				<h1 class="zaak-header-title"><?php echo $zaak->title(); ?></h1>
 			</div>
 			<div class="zaak-details">
 				<h2>Details</h2>
 				<table class="zaak-details-table">
-					<?php if (! empty($zaak->identification())) : ?>
-						<tr>
-							<th>Identificatie</th>
-							<td><?php echo $zaak->identification(); ?></td>
-						</tr>
-					<?php endif; ?>
 					<?php if (! empty($zaak->registerDate('j F Y'))) : ?>
 						<tr>
-							<th>Registratiedatum</th>
+							<th>Datum aanvraag</th>
 							<td><?php echo $zaak->registerDate('j F Y'); ?></td>
 						</tr>
 					<?php endif; ?>
@@ -41,17 +35,24 @@ get_template_part('mijn-zaken/header');
 						</tr>
 					<?php endif; ?>
 
+					<?php if (! empty($zaak->endDatePlanned()) && empty($zaak->endDate())) : ?>
+						<tr>
+							<th>Einddatum gepland</th>
+							<td><?php echo $zaak->endDatePlanned(); ?></td>
+						</tr>
+					<?php endif; ?>
+
+					<?php if (! empty($zaak->endDate())) : ?>
+						<tr>
+							<th>Einddatum</th>
+							<td><?php echo $zaak->endDate(); ?></td>
+						</tr>
+					<?php endif; ?>
+
 					<?php if (! empty($zaak->identification())) : ?>
 						<tr>
 							<th>Zaaknummer</th>
 							<td><?php echo $zaak->identification(); ?></td>
-						</tr>
-					<?php endif; ?>
-
-					<?php if (! empty($zaak->statusExplanation())) : ?>
-						<tr>
-							<th>Status</th>
-							<td><?php echo $zaak->statusExplanation(); ?></td>
 						</tr>
 					<?php endif; ?>
 				</table>
@@ -115,7 +116,7 @@ get_template_part('mijn-zaken/header');
 								</span>
 								<span class="zaak-process-steps__step-heading-label">
 									<?php echo $step->statusExplanation() ?>
-									<?php if ($statusUpdate) : ?>
+									<?php if (! empty($statusUpdate)) : ?>
 										<small>(<?= $statusUpdate->datumStatusGezet->format('d-m-Y'); ?>)</small>
 									<?php endif; ?>
 								</span>
@@ -138,20 +139,6 @@ get_template_part('mijn-zaken/header');
 
 			<div class="zaak-details">
 				<table class="zaak-details-table">
-				<?php if (! empty($zaak->endDatePlanned()) && empty($zaak->endDate())) : ?>
-						<tr>
-							<th>Einddatum gepland</th>
-							<td><?php echo $zaak->endDatePlanned(); ?></td>
-						</tr>
-					<?php endif; ?>
-
-					<?php if (! empty($zaak->endDate())) : ?>
-						<tr>
-							<th>Einddatum</th>
-							<td><?php echo $zaak->endDate(); ?></td>
-						</tr>
-					<?php endif; ?>
-
 					<?php if (! empty($zaak->resultExplanation()) && ! empty($zaak->endDate())) : ?>
 						<tr>
 							<th>Zaak resultaat</th>
