@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b1c86252b4d2c3ddbcde6ac297f84edb",
+    "content-hash": "911744a06363f232975725070f49d35b",
     "packages": [
         {
             "name": "aura/session",
@@ -2457,16 +2457,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "3e93982c544d50bb59dbccb1941ad2f65a010498"
+                "reference": "841340e1badf9d708a62441d72a8c98dfc5e8953"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/3e93982c544d50bb59dbccb1941ad2f65a010498",
-                "reference": "3e93982c544d50bb59dbccb1941ad2f65a010498",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/841340e1badf9d708a62441d72a8c98dfc5e8953",
+                "reference": "841340e1badf9d708a62441d72a8c98dfc5e8953",
                 "shasum": ""
             },
             "require": {
@@ -2521,23 +2521,23 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.2.0",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.2.1",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2024-03-15T08:21:47+00:00"
+            "time": "2024-03-19T14:43:53+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eidas",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
-                "reference": "e7cc9478d15e4a889daeb41e1aba7e9687b74b40"
+                "reference": "5c66e4b1a601282ce0d8ad4584c0eb536f256e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/e7cc9478d15e4a889daeb41e1aba7e9687b74b40",
-                "reference": "e7cc9478d15e4a889daeb41e1aba7e9687b74b40",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/5c66e4b1a601282ce0d8ad4584c0eb536f256e7b",
+                "reference": "5c66e4b1a601282ce0d8ad4584c0eb536f256e7b",
                 "shasum": ""
             },
             "require": {
@@ -2592,10 +2592,10 @@
             "description": "Add a eIDAS login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.0.0",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.0.1",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
             },
-            "time": "2024-03-15T08:30:31+00:00"
+            "time": "2024-03-19T15:11:45+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
@@ -2665,12 +2665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "1e6f2f986eb418ddc16cd84678d84baa99f0e301"
+                "reference": "88a498ddbfa67aea2bb54a5858c89f77ff2c6e8f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/1e6f2f986eb418ddc16cd84678d84baa99f0e301",
-                "reference": "1e6f2f986eb418ddc16cd84678d84baa99f0e301",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/88a498ddbfa67aea2bb54a5858c89f77ff2c6e8f",
+                "reference": "88a498ddbfa67aea2bb54a5858c89f77ff2c6e8f",
                 "shasum": ""
             },
             "require": {
@@ -2721,7 +2721,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/generate-pdf-of-created-zaak-and-connect",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2024-03-18T12:56:40+00:00"
+            "time": "2024-03-18T15:14:36+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4537,6 +4537,24 @@
             "homepage": "https://wordpress.org/plugins/pronamic-ideal/"
         },
         {
+            "name": "wpackagist-plugin/stream",
+            "version": "4.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stream/",
+                "reference": "tags/4.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stream.4.0.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stream/"
+        },
+        {
             "name": "wpackagist-plugin/user-switching",
             "version": "1.7.3",
             "source": {
@@ -4916,16 +4934,16 @@
         },
         {
             "name": "composer/pcre",
-            "version": "3.1.2",
+            "version": "3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "4775f35b2d70865807c89d32c8e7385b86eb0ace"
+                "reference": "5b16e25a5355f1f3afdfc2f954a0a80aec4826a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/4775f35b2d70865807c89d32c8e7385b86eb0ace",
-                "reference": "4775f35b2d70865807c89d32c8e7385b86eb0ace",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/5b16e25a5355f1f3afdfc2f954a0a80aec4826a8",
+                "reference": "5b16e25a5355f1f3afdfc2f954a0a80aec4826a8",
                 "shasum": ""
             },
             "require": {
@@ -4967,7 +4985,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.2"
+                "source": "https://github.com/composer/pcre/tree/3.1.3"
             },
             "funding": [
                 {
@@ -4983,7 +5001,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-07T15:38:35+00:00"
+            "time": "2024-03-19T10:26:25+00:00"
         },
         {
             "name": "composer/semver",
@@ -5387,16 +5405,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.51.0",
+            "version": "v3.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "127fa74f010da99053e3f5b62672615b72dd6efd"
+                "reference": "a3564bd66f4bce9bc871ef18b690e2dc67a7f969"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/127fa74f010da99053e3f5b62672615b72dd6efd",
-                "reference": "127fa74f010da99053e3f5b62672615b72dd6efd",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a3564bd66f4bce9bc871ef18b690e2dc67a7f969",
+                "reference": "a3564bd66f4bce9bc871ef18b690e2dc67a7f969",
                 "shasum": ""
             },
             "require": {
@@ -5467,7 +5485,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.51.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.52.0"
             },
             "funding": [
                 {
@@ -5475,7 +5493,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-28T19:50:06+00:00"
+            "time": "2024-03-18T18:40:11+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8504,5 +8522,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
