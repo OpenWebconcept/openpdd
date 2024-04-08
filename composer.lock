@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "911744a06363f232975725070f49d35b",
+    "content-hash": "a85dd19d12876f8db9342709c6d3d5bd",
     "packages": [
         {
             "name": "aura/session",
@@ -2665,12 +2665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "88a498ddbfa67aea2bb54a5858c89f77ff2c6e8f"
+                "reference": "fd72562378a63d1e1e146b1ef49d2a2e8d377d31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/88a498ddbfa67aea2bb54a5858c89f77ff2c6e8f",
-                "reference": "88a498ddbfa67aea2bb54a5858c89f77ff2c6e8f",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/fd72562378a63d1e1e146b1ef49d2a2e8d377d31",
+                "reference": "fd72562378a63d1e1e146b1ef49d2a2e8d377d31",
                 "shasum": ""
             },
             "require": {
@@ -2721,7 +2721,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/generate-pdf-of-created-zaak-and-connect",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2024-03-18T15:14:36+00:00"
+            "time": "2024-03-25T16:34:19+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3377,16 +3377,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.4.36",
+            "version": "v5.4.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "cc1fb237cd0e6da33005062b13b8485deb6e4440"
+                "reference": "0ba1fa459d284a9398c71afa1cb5d13de025de17"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/cc1fb237cd0e6da33005062b13b8485deb6e4440",
-                "reference": "cc1fb237cd0e6da33005062b13b8485deb6e4440",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/0ba1fa459d284a9398c71afa1cb5d13de025de17",
+                "reference": "0ba1fa459d284a9398c71afa1cb5d13de025de17",
                 "shasum": ""
             },
             "require": {
@@ -3446,7 +3446,7 @@
             "description": "Allows you to standardize and centralize the way objects are constructed in your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.36"
+                "source": "https://github.com/symfony/dependency-injection/tree/v5.4.38"
             },
             "funding": [
                 {
@@ -3462,20 +3462,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-22T18:43:31+00:00"
+            "time": "2024-03-18T16:56:51+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66"
+                "reference": "80d075412b557d41002320b96a096ca65aa2c98d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
-                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/80d075412b557d41002320b96a096ca65aa2c98d",
+                "reference": "80d075412b557d41002320b96a096ca65aa2c98d",
                 "shasum": ""
             },
             "require": {
@@ -3513,7 +3513,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.2"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.3"
             },
             "funding": [
                 {
@@ -3529,20 +3529,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2023-01-24T14:02:46+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.35",
+            "version": "v5.4.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "f2ab692a22aef1cd54beb893aa0068bdfb093928"
+                "reference": "d8c13d35f68c69e15595fe37fa2c225d11c10f7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f2ab692a22aef1cd54beb893aa0068bdfb093928",
-                "reference": "f2ab692a22aef1cd54beb893aa0068bdfb093928",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/d8c13d35f68c69e15595fe37fa2c225d11c10f7e",
+                "reference": "d8c13d35f68c69e15595fe37fa2c225d11c10f7e",
                 "shasum": ""
             },
             "require": {
@@ -3589,7 +3589,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.35"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.38"
             },
             "funding": [
                 {
@@ -3605,7 +3605,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T13:51:25+00:00"
+            "time": "2024-03-19T10:19:25+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3924,16 +3924,16 @@
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c"
+                "reference": "a2329596ddc8fd568900e3fc76cba42489ecc7f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
-                "reference": "4b426aac47d6427cc1a1d0f7e2ac724627f5966c",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/a2329596ddc8fd568900e3fc76cba42489ecc7f3",
+                "reference": "a2329596ddc8fd568900e3fc76cba42489ecc7f3",
                 "shasum": ""
             },
             "require": {
@@ -3987,7 +3987,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v2.5.2"
+                "source": "https://github.com/symfony/service-contracts/tree/v2.5.3"
             },
             "funding": [
                 {
@@ -4003,7 +4003,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-30T19:17:29+00:00"
+            "time": "2023-04-21T15:04:16+00:00"
         },
         {
             "name": "symfony/translation",
@@ -4104,16 +4104,16 @@
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe"
+                "reference": "b0073a77ac0b7ea55131020e87b1e3af540f4664"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
-                "reference": "136b19dd05cdf0709db6537d058bcab6dd6e2dbe",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/b0073a77ac0b7ea55131020e87b1e3af540f4664",
+                "reference": "b0073a77ac0b7ea55131020e87b1e3af540f4664",
                 "shasum": ""
             },
             "require": {
@@ -4162,7 +4162,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.2"
+                "source": "https://github.com/symfony/translation-contracts/tree/v2.5.3"
             },
             "funding": [
                 {
@@ -4178,7 +4178,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-27T16:58:25+00:00"
+            "time": "2024-01-23T13:51:25+00:00"
         },
         {
             "name": "twig/twig",
@@ -4484,15 +4484,15 @@
         },
         {
             "name": "wpackagist-plugin/gravity-forms-pdf-extended",
-            "version": "6.9.0",
+            "version": "6.10.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-                "reference": "tags/6.9.0"
+                "reference": "tags/6.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.10.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4520,15 +4520,15 @@
         },
         {
             "name": "wpackagist-plugin/pronamic-ideal",
-            "version": "9.7.1",
+            "version": "9.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-                "reference": "tags/9.7.1"
+                "reference": "tags/9.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.7.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4610,11 +4610,11 @@
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
-            "version": "6.2.7",
+            "version": "6.2.8",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.7",
-                "shasum": "07a7175b3a1c2a8abc4cc8cc9423d058dd60e673"
+                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.8",
+                "shasum": "063ce8f1ee687f4dcc7714385bd01a75863d6a1d"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4667,11 +4667,11 @@
         },
         {
             "name": "ypackagist/gp-limit-submissions",
-            "version": "1.1.13",
+            "version": "1.1.14",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.13",
-                "shasum": "c2a14881ad5321e72b734fcd7e3e9a083ae5e8b7"
+                "url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.14",
+                "shasum": "529f229a1c5228f094fd2c22f0e534d5835ca767"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4683,6 +4683,25 @@
             },
             "description": "Limit the number of entries that can be submitted by almost anything (e.g. user, role, IP, field value).",
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-submissions/"
+        },
+        {
+            "name": "ypackagist/gp-preview-submission",
+            "version": "1.3.15",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gp-preview-submission/1.3.15",
+                "shasum": "f1d90f356fddf418b5a918a83299d5fb5ade33ab"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "http://gravitywiz.com"
+            },
+            "description": "Add a simple submission preview to allow users to confirm their submission is correct before submitting the form.",
+            "homepage": "https://gravitywiz.com/documentation/gravity-forms-preview-submission/"
         },
         {
             "name": "ypackagist/gravity-forms-power-automate",
@@ -4705,11 +4724,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.8.5",
+            "version": "2.8.7",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.5",
-                "shasum": "37ad960659c5b5872f6f204c3b6124c68620547c"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.8.7",
+                "shasum": "d4230fd3df3b3f709091026702be7dc82ccd657a"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5086,16 +5105,16 @@
         },
         {
             "name": "composer/xdebug-handler",
-            "version": "3.0.3",
+            "version": "3.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c"
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/ced299686f41dce890debac69273b47ffe98a40c",
-                "reference": "ced299686f41dce890debac69273b47ffe98a40c",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
+                "reference": "4f988f8fdf580d53bdb2d1278fe93d1ed5462255",
                 "shasum": ""
             },
             "require": {
@@ -5106,7 +5125,7 @@
             "require-dev": {
                 "phpstan/phpstan": "^1.0",
                 "phpstan/phpstan-strict-rules": "^1.1",
-                "symfony/phpunit-bridge": "^6.0"
+                "phpunit/phpunit": "^8.5 || ^9.6 || ^10.5"
             },
             "type": "library",
             "autoload": {
@@ -5130,9 +5149,9 @@
                 "performance"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/xdebug-handler/issues",
-                "source": "https://github.com/composer/xdebug-handler/tree/3.0.3"
+                "source": "https://github.com/composer/xdebug-handler/tree/3.0.4"
             },
             "funding": [
                 {
@@ -5148,7 +5167,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-02-25T21:32:43+00:00"
+            "time": "2024-03-26T18:29:49+00:00"
         },
         {
             "name": "deployer/deployer",
@@ -5405,16 +5424,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.52.0",
+            "version": "v3.52.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "a3564bd66f4bce9bc871ef18b690e2dc67a7f969"
+                "reference": "6e77207f0d851862ceeb6da63e6e22c01b1587bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a3564bd66f4bce9bc871ef18b690e2dc67a7f969",
-                "reference": "a3564bd66f4bce9bc871ef18b690e2dc67a7f969",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/6e77207f0d851862ceeb6da63e6e22c01b1587bc",
+                "reference": "6e77207f0d851862ceeb6da63e6e22c01b1587bc",
                 "shasum": ""
             },
             "require": {
@@ -5485,7 +5504,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.52.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.52.1"
             },
             "funding": [
                 {
@@ -5493,7 +5512,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-18T18:40:11+00:00"
+            "time": "2024-03-19T21:02:43+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -5548,16 +5567,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.9",
+            "version": "1.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "0cc058854b3195ba21dc6b1f7b1f60f4ef3a9c06"
+                "reference": "81a161d0b135df89951abd52296adf97deb0723d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/0cc058854b3195ba21dc6b1f7b1f60f4ef3a9c06",
-                "reference": "0cc058854b3195ba21dc6b1f7b1f60f4ef3a9c06",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/81a161d0b135df89951abd52296adf97deb0723d",
+                "reference": "81a161d0b135df89951abd52296adf97deb0723d",
                 "shasum": ""
             },
             "require": {
@@ -5569,8 +5588,8 @@
                 "phpunit/phpunit": "<8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5 || ^9.6.10",
-                "symplify/easy-coding-standard": "^12.0.8"
+                "phpunit/phpunit": "^8.5 || ^9.6.17",
+                "symplify/easy-coding-standard": "^12.1.14"
             },
             "type": "library",
             "autoload": {
@@ -5627,7 +5646,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2023-12-10T02:24:34+00:00"
+            "time": "2024-03-21T18:34:15+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -6185,16 +6204,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.17",
+            "version": "9.6.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "1a156980d78a6666721b7e8e8502fe210b587fcd"
+                "reference": "a1a54a473501ef4cdeaae4e06891674114d79db8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/1a156980d78a6666721b7e8e8502fe210b587fcd",
-                "reference": "1a156980d78a6666721b7e8e8502fe210b587fcd",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a1a54a473501ef4cdeaae4e06891674114d79db8",
+                "reference": "a1a54a473501ef4cdeaae4e06891674114d79db8",
                 "shasum": ""
             },
             "require": {
@@ -6268,7 +6287,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.17"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.19"
             },
             "funding": [
                 {
@@ -6284,7 +6303,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-23T13:14:51+00:00"
+            "time": "2024-04-05T04:35:58+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -7538,16 +7557,16 @@
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "f98b54df6ad059855739db6fcbc2d36995283fe1"
+                "reference": "540f4c73e87fd0c71ca44a6aa305d024ac68cb73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/f98b54df6ad059855739db6fcbc2d36995283fe1",
-                "reference": "f98b54df6ad059855739db6fcbc2d36995283fe1",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/540f4c73e87fd0c71ca44a6aa305d024ac68cb73",
+                "reference": "540f4c73e87fd0c71ca44a6aa305d024ac68cb73",
                 "shasum": ""
             },
             "require": {
@@ -7597,7 +7616,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v2.5.2"
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v2.5.3"
             },
             "funding": [
                 {
@@ -7613,20 +7632,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:53:40+00:00"
+            "time": "2024-01-23T13:51:25+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.4.35",
+            "version": "v5.4.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "5a553607d4ffbfa9c0ab62facadea296c9db7086"
+                "reference": "899330a01056077271e2f614c7b28b0379a671eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/5a553607d4ffbfa9c0ab62facadea296c9db7086",
-                "reference": "5a553607d4ffbfa9c0ab62facadea296c9db7086",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/899330a01056077271e2f614c7b28b0379a671eb",
+                "reference": "899330a01056077271e2f614c7b28b0379a671eb",
                 "shasum": ""
             },
             "require": {
@@ -7661,7 +7680,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.4.35"
+                "source": "https://github.com/symfony/filesystem/tree/v5.4.38"
             },
             "funding": [
                 {
@@ -7677,7 +7696,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T13:51:25+00:00"
+            "time": "2024-03-21T08:05:07+00:00"
         },
         {
             "name": "symfony/finder",
@@ -8258,16 +8277,16 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.4.36",
+            "version": "v5.4.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "2e9c2b11267119d9c90d6b3fdce5e4e9f15e2e90"
+                "reference": "ae1d949ccc57d3f6662e4256b47ac9fbfa9651ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2e9c2b11267119d9c90d6b3fdce5e4e9f15e2e90",
-                "reference": "2e9c2b11267119d9c90d6b3fdce5e4e9f15e2e90",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ae1d949ccc57d3f6662e4256b47ac9fbfa9651ae",
+                "reference": "ae1d949ccc57d3f6662e4256b47ac9fbfa9651ae",
                 "shasum": ""
             },
             "require": {
@@ -8327,7 +8346,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v5.4.36"
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.38"
             },
             "funding": [
                 {
@@ -8343,7 +8362,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-15T11:19:14+00:00"
+            "time": "2024-03-19T10:19:25+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -8522,5 +8541,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

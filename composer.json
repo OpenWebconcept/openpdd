@@ -137,6 +137,7 @@
 		"ypackagist/gp-advanced-select": "^1.0.1",
 		"ypackagist/gp-limit-dates": "^1.1.25",
 		"ypackagist/gp-limit-submissions": "^1.1.12",
+		"ypackagist/gp-preview-submission": "1.3.15",
 		"ypackagist/gravity-forms-power-automate": "^1.5.1",
 		"ypackagist/gravityforms": "^2.8",
 		"ypackagist/gravityformssurvey": "^3.8",
