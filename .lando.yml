@@ -45,6 +45,10 @@ services:
         overrides:
             volumes:
                 - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
+            environment:
+              # For PHPStorm, which supports automatic configuration switching
+              # for multiple remote servers.
+              PHP_IDE_CONFIG: "serverName=appserver"
         config:
             php: storage/provision/php/php.ini
             xdebug: 'develop,debug'
