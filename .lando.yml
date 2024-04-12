@@ -39,7 +39,7 @@ services:
         type: php:7.4
         build:
             - composer install
-        xdebug: false
+        xdebug: true
         webroot: htdocs
         composer_version: 2
         overrides:
@@ -47,6 +47,7 @@ services:
                 - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
         config:
             php: storage/provision/php/php.ini
+            xdebug: 'develop,debug'
     node:
         type: node
         globals:
