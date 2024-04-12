@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a85dd19d12876f8db9342709c6d3d5bd",
+    "content-hash": "0cc9855d6b02f2381f56252dfa34046b",
     "packages": [
         {
             "name": "aura/session",
@@ -4628,6 +4628,25 @@
             "homepage": "https://www.advancedcustomfields.com"
         },
         {
+            "name": "ypackagist/gf-entries-in-excel",
+            "version": "2.2.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.2.0",
+                "shasum": "0f7cccf97bed45030e8764c6c4f70469fe98eef8"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "GravityKit",
+                "homepage": "https://www.gravitykit.com/extensions/gravityexport/"
+            },
+            "description": "Export all Gravity Forms entries to Excel (.xlsx) or CSV via a secret shareable URL.",
+            "homepage": "https://gfexcel.com"
+        },
+        {
             "name": "ypackagist/gp-advanced-select",
             "version": "1.0.1",
             "dist": {
@@ -8541,5 +8560,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
