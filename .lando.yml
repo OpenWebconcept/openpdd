@@ -25,6 +25,9 @@ services:
     pma:
         type: phpmyadmin
         ssl: true
+        scanner:
+          timeout: 1000
+          retry: 5
         hosts:
             - database
     mailhog:
