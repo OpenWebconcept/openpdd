@@ -153,11 +153,6 @@ add_action('init', function () {
 add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
 add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
 
-/**
- * Remove Gravity Forms styling
- */
-add_filter('pre_option_rg_gforms_disable_css', '__return_true');
-add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
 
 /**
  * GravityPerks Limit Choices
@@ -398,7 +393,6 @@ function theme_script_loader_tag($tag, $handle)
 
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
-add_filter('gform_enable_legacy_markup', '__return_true');
 
 add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($templates) {
     $templates[] = 'template-mijn-zaken';
@@ -406,3 +400,45 @@ add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($temp
 
     return $templates;
 });
+
+
+
+/**
+ * Disable Gravity Forms CSS when using a legacy form
+ */
+add_action('wp', function () {
+    global $post;
+
+    if (function_exists('has_blocks') && has_blocks($post->post_content)) {
+        $blocks = parse_blocks($post->post_content);
+
+        foreach ($blocks as $block) {
+            if ('gravityforms/form' === $block['blockName']) {
+                $formID = isset($block['attrs']['formId']) ? intval($block['attrs']['formId']) : 0;
+
+                if ($formID) {
+                    $form = GFAPI::get_form($formID);
+
+                    // Weird
+                    if(null === $form['markupVersion']) {
+                        var_dump('Filter aan, CSS uit!');
+                        add_filter('pre_option_rg_gforms_disable_css', '__return_true');
+                    }
+
+                    if(1 === $form['markupVersion']) {
+                        // Aan!
+                        var_dump('Filter aan, CSS uit!');
+                        add_filter('pre_option_rg_gforms_disable_css', '__return_true');
+                    }
+
+                    if(2 === $form['markupVersion']) {
+                        // Uit!
+                        var_dump('Filter uit, CSS aan!');
+                        add_filter('pre_option_rg_gforms_disable_css', '__return_false');
+                    }
+                }
+            }
+        }
+    }
+});
+add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
