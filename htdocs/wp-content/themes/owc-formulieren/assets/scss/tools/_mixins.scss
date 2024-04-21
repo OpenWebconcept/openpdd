@@ -78,7 +78,7 @@
 /**
 * Used for custom checkbox and radiobutton
 */
-@mixin custom-input-icon( $unchecked, $checked ) {
+@mixin custom-input-icon( $unchecked, $checked, $top: 2px, $left: 4px ) {
 	position: relative;
 	appearance: none;
 	border: 0;
@@ -94,8 +94,8 @@
 	&::before {
 		@include fontawesome( $unchecked );
 		position: absolute;
-		top: 2px;
-		left: 4px;
+		top: $top;
+		left: $left;
 		color: $g-color;
 		font-weight: $font-weight-light;
 	}
