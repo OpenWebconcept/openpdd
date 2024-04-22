@@ -1273,20 +1273,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "6.3.3",
+            "version": "6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "d9f983bc71c320cf9d1312e6dde6b56d90a99eea"
+                "reference": "34a56d985bd6ddf46a3e94d35ff4d5c84ecfacc0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d9f983bc71c320cf9d1312e6dde6b56d90a99eea",
-                "reference": "d9f983bc71c320cf9d1312e6dde6b56d90a99eea",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/34a56d985bd6ddf46a3e94d35ff4d5c84ecfacc0",
+                "reference": "34a56d985bd6ddf46a3e94d35ff4d5c84ecfacc0",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "6.3.3",
+                "johnpbloch/wordpress-core": "6.3.4",
                 "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
                 "php": ">=7.0.0"
             },
@@ -1315,20 +1315,20 @@
                 "issues": "https://core.trac.wordpress.org/",
                 "source": "https://core.trac.wordpress.org/browser"
             },
-            "time": "2024-01-30T21:02:33+00:00"
+            "time": "2024-04-09T21:31:12+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "6.3.3",
+            "version": "6.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "ad836b8d9571a97fd0770262af7517bea0ff07ec"
+                "reference": "608acc4adb2a722ac60cff4790930ac5fd199200"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/ad836b8d9571a97fd0770262af7517bea0ff07ec",
-                "reference": "ad836b8d9571a97fd0770262af7517bea0ff07ec",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/608acc4adb2a722ac60cff4790930ac5fd199200",
+                "reference": "608acc4adb2a722ac60cff4790930ac5fd199200",
                 "shasum": ""
             },
             "require": {
@@ -1336,7 +1336,7 @@
                 "php": ">=7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.3.3"
+                "wordpress/core-implementation": "6.3.4"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1363,7 +1363,7 @@
                 "source": "https://core.trac.wordpress.org/browser",
                 "wiki": "https://codex.wordpress.org/"
             },
-            "time": "2024-01-30T21:02:29+00:00"
+            "time": "2024-04-09T21:31:07+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1421,10 +1421,10 @@
         },
         {
             "name": "koodimonni-language/core-nl_nl",
-            "version": "6.3.3",
+            "version": "6.3.4",
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/translation/core/6.3.3/nl_NL.zip"
+                "url": "https://downloads.wordpress.org/translation/core/6.3.4/nl_NL.zip"
             },
             "require": {
                 "koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -1548,16 +1548,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.9.2",
+            "version": "2.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "437cb3628f4cf6042cc10ae97fc2b8472e48ca1f"
+                "reference": "a30bfe2e142720dfa990d0a7e573997f5d884215"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/437cb3628f4cf6042cc10ae97fc2b8472e48ca1f",
-                "reference": "437cb3628f4cf6042cc10ae97fc2b8472e48ca1f",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a30bfe2e142720dfa990d0a7e573997f5d884215",
+                "reference": "a30bfe2e142720dfa990d0a7e573997f5d884215",
                 "shasum": ""
             },
             "require": {
@@ -1578,8 +1578,8 @@
                 "mongodb/mongodb": "^1.8",
                 "php-amqplib/php-amqplib": "~2.4 || ^3",
                 "phpspec/prophecy": "^1.15",
-                "phpstan/phpstan": "^0.12.91",
-                "phpunit/phpunit": "^8.5.14",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^8.5.38 || ^9.6.19",
                 "predis/predis": "^1.1 || ^2.0",
                 "rollbar/rollbar": "^1.3 || ^2 || ^3",
                 "ruflin/elastica": "^7",
@@ -1634,7 +1634,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.9.2"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.3"
             },
             "funding": [
                 {
@@ -1646,7 +1646,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-27T15:25:26+00:00"
+            "time": "2024-04-12T20:52:51+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -2665,12 +2665,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "fd72562378a63d1e1e146b1ef49d2a2e8d377d31"
+                "reference": "734aa85c3b6b17e7dbaa7e01126cf694525b1261"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/fd72562378a63d1e1e146b1ef49d2a2e8d377d31",
-                "reference": "fd72562378a63d1e1e146b1ef49d2a2e8d377d31",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/734aa85c3b6b17e7dbaa7e01126cf694525b1261",
+                "reference": "734aa85c3b6b17e7dbaa7e01126cf694525b1261",
                 "shasum": ""
             },
             "require": {
@@ -2721,7 +2721,7 @@
                 "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/generate-pdf-of-created-zaak-and-connect",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2024-03-25T16:34:19+00:00"
+            "time": "2024-04-22T14:01:27+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4182,30 +4182,37 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.8.0",
+            "version": "v3.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "9d15f0ac07f44dc4217883ec6ae02fd555c6f71d"
+                "reference": "a842d75fed59cdbcbd3a3ad7fb9eb768fc350d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/9d15f0ac07f44dc4217883ec6ae02fd555c6f71d",
-                "reference": "9d15f0ac07f44dc4217883ec6ae02fd555c6f71d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a842d75fed59cdbcbd3a3ad7fb9eb768fc350d58",
+                "reference": "a842d75fed59cdbcbd3a3ad7fb9eb768fc350d58",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
+                "symfony/deprecation-contracts": "^2.5|^3",
                 "symfony/polyfill-ctype": "^1.8",
                 "symfony/polyfill-mbstring": "^1.3",
                 "symfony/polyfill-php80": "^1.22"
             },
             "require-dev": {
                 "psr/container": "^1.0|^2.0",
-                "symfony/phpunit-bridge": "^5.4.9|^6.3|^7.0"
+                "symfony/phpunit-bridge": "^5.4.9|^6.4|^7.0"
             },
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/Resources/core.php",
+                    "src/Resources/debug.php",
+                    "src/Resources/escaper.php",
+                    "src/Resources/string_loader.php"
+                ],
                 "psr-4": {
                     "Twig\\": "src/"
                 }
@@ -4238,7 +4245,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.8.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.9.3"
             },
             "funding": [
                 {
@@ -4250,7 +4257,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-21T18:54:41+00:00"
+            "time": "2024-04-18T11:59:33+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -4430,15 +4437,15 @@
         },
         {
             "name": "wpackagist-plugin/coming-soon",
-            "version": "6.15.23",
+            "version": "6.17.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/coming-soon/",
-                "reference": "tags/6.15.23"
+                "reference": "tags/6.17.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.15.23.zip"
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.6.17.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4466,15 +4473,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "8.25.0",
+            "version": "8.26.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/8.25.0"
+                "reference": "tags/8.26.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.25.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.8.26.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4610,11 +4617,11 @@
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
-            "version": "6.2.8",
+            "version": "6.2.9",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.8",
-                "shasum": "063ce8f1ee687f4dcc7714385bd01a75863d6a1d"
+                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.2.9",
+                "shasum": "d6f49b6ca756748e74e4a3b1247bf51ca4c20a5c"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5443,16 +5450,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.52.1",
+            "version": "v3.54.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "6e77207f0d851862ceeb6da63e6e22c01b1587bc"
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/6e77207f0d851862ceeb6da63e6e22c01b1587bc",
-                "reference": "6e77207f0d851862ceeb6da63e6e22c01b1587bc",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2aecbc8640d7906c38777b3dcab6f4ca79004d08",
+                "reference": "2aecbc8640d7906c38777b3dcab6f4ca79004d08",
                 "shasum": ""
             },
             "require": {
@@ -5476,6 +5483,7 @@
             },
             "require-dev": {
                 "facile-it/paraunit": "^1.3 || ^2.0",
+                "infection/infection": "^0.27.11",
                 "justinrainbow/json-schema": "^5.2",
                 "keradus/cli-executor": "^2.1",
                 "mikey179/vfsstream": "^1.6.11",
@@ -5523,7 +5531,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.52.1"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.54.0"
             },
             "funding": [
                 {
@@ -5531,7 +5539,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-19T21:02:43+00:00"
+            "time": "2024-04-17T08:12:13+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8510,15 +8518,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.15.0",
+            "version": "3.16.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.15.0"
+                "reference": "tags/3.16.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.15.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.16.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8560,5 +8568,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
