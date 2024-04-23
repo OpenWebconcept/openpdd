@@ -99,12 +99,6 @@ add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
 add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
 
 /**
- * Remove Gravity Forms styling
- */
-add_filter('pre_option_rg_gforms_disable_css', '__return_true');
-add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
-
-/**
  * Change the custom logo URL
  */
 add_filter('get_custom_logo', function () {
@@ -313,8 +307,6 @@ function theme_script_loader_tag($tag, $handle)
 
 add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
-add_filter('gform_enable_legacy_markup', '__return_true');
-
 add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($templates) {
     $templates[] = 'template-single-zaak';
     $templates[] = 'template-mijn-zaken';
@@ -322,3 +314,54 @@ add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($temp
 
     return $templates;
 });
+
+/**
+ * Disable Gravity Forms CSS when using a legacy form.
+ *
+ * First, we used to always force legacy markup & disable the CSS for all forms. However, the client wanted
+ * to choose whether to use the new Gravity Forms 2.5 functionality (which needs standard CSS) through the
+ * "Legacy markup" toggle.
+ */
+add_action('pre_get_posts', function () {
+    global $post;
+
+    if (function_exists('has_blocks') && $post instanceof WP_Post && has_blocks($post->post_content)) {
+        $blocks = parse_blocks($post->post_content);
+
+        foreach ($blocks as $block) {
+            if ('gravityforms/form' === $block['blockName']) {
+                $formID = isset($block['attrs']['formId']) ? intval($block['attrs']['formId']) : 0;
+
+                if ($formID && class_exists('GFAPI')) {
+                    $form = GFAPI::get_form($formID);
+
+                    // No database value means legacy markup enabled, disable CSS.
+                    if(null === $form['markupVersion']) {
+                        add_filter('pre_option_rg_gforms_disable_css', '__return_true');
+                    }
+
+                    // Legacy markup enabled, disable CSS.
+                    if(1 === $form['markupVersion']) {
+                        add_filter('pre_option_rg_gforms_disable_css', '__return_true');
+                    }
+
+                    // New markup enabled, enable CSS.
+                    if(2 === $form['markupVersion']) {
+                        add_filter('pre_option_rg_gforms_disable_css', '__return_false');
+                    }
+                }
+            }
+        }
+    }
+});
+add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
+/**
+ * New markup enabled? Then force gravity-theme
+ */
+add_filter('gform_form_theme_slug', function ($slug, $form) {
+    if(2 === $form['markupVersion']) {
+        return 'gravity-theme';
+    } else {
+        return $slug;
+    }
+}, 10, 2);
