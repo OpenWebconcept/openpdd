@@ -1,10 +1,10 @@
 /**
- * Gravity Forms styles are split into three parts:
+ * Gravity Forms legacy styles
  *
- * 1. Legacy markup (gform_legacy_markup_wrapper)
- * 2. New theme (gravity-theme)
- * 3. Custom fields (such as ginput_container_bag_address)
- */
+ * These styles will be loaded if the theme forces legacy markup through a hook,
+ * or when the "Legacy markup" setting is enabled in the Gravity Forms settings.
+ *
+ * ========================================================================= */
 .gform_legacy_markup_wrapper.gform_wrapper {
 	table {
 		@extend .table;
@@ -566,6 +566,7 @@
 		justify-content: flex-end;
 		padding: ( $spacer * 1.5 ) 0;
 		border-top: 1px solid gray( '300' );
+		gap: 1rem;
 		text-align: right;
 
 		input[type='submit'],
@@ -573,7 +574,6 @@
 			padding: $btn-padding-y $btn-padding-x;
 			border: none !important;
 			border-radius: $btn-border-radius;
-			margin-left: 1rem;
 
 			&.gform_button,
 			&.gform_next_button {
@@ -582,7 +582,6 @@
 					theme-color( 'primary' )
 				);
 				order: 2;
-				margin-top: $spacer;
 			}
 
 			&.gform_previous_button {
@@ -591,8 +590,6 @@
 					darken( gray( 'concrete' ), 20% )
 				);
 				order: 1;
-				margin-top: $spacer;
-				margin-right: $spacer;
 				color: $black !important;
 			}
 		}
@@ -673,8 +670,8 @@
 		input[type='button'] {
 			@include button;
 			@include button-variant(
-				theme-color( 'secondary' ),
-				theme-color( 'secondary' )
+				theme-color( 'primary' ),
+				theme-color( 'primary' )
 			);
 		}
 	}
@@ -684,75 +681,3 @@
 		color: color-yiq( theme-color( 'primary' ) ) !important;
 	}
 }
-
-// Custom fields. Have to be styled for both legacy and new markup.
-.ginput_container_bag_address {
-	display: flex;
-	flex-wrap: wrap;
-
-	span {
-		width: 100%;
-	}
-
-	// Zip
-	span:nth-child( 1 ) {
-		flex-basis: 100%;
-
-		@include media-breakpoint-up( sm ) {
-			flex-basis: 50%;
-		}
-	}
-
-	// Number & addition
-	span:nth-child( 2 ),
-	span:nth-child( 3 ) {
-		overflow: hidden;
-		flex-basis: 50%;
-
-		@include media-breakpoint-up( sm ) {
-			flex-basis: 25%;
-			padding-left: $spacer * 0.8;
-		}
-	}
-
-	// Addition only
-	span:nth-child( 3 ) {
-		padding-left: $spacer;
-	}
-
-	// Search button wrapper
-	span:nth-child( 4 ) {
-		position: relative;
-		flex-basis: 100%;
-		margin: $spacer 0;
-
-		&::before {
-			@include fontawesome( '\f002' );
-			position: absolute;
-			z-index: 1;
-			top: 12px;
-			left: 20px;
-			color: $white;
-			font-weight: $font-weight-bold;
-			pointer-events: none;
-			transition: 0.15s ease all;
-		}
-	}
-
-	.bag-search-button {
-		@include button;
-		@include button-color( theme-color( 'primary' ) );
-		position: relative;
-		padding-left: $spacer * 3;
-	}
-
-	.result {
-		height: auto !important;
-		margin-bottom: $spacer * 1.5;
-		color: $danger;
-		font-size: $spacer;
-	}
-}
-
-// Beren op de weg:
-// Alle custom velden, zoals DigiD, BAG adress, moeten twee keer gestyled worden. Een keer voor de legacy markup en een keer voor de nieuwe markup.

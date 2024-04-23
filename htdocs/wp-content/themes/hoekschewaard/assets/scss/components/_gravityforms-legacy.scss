@@ -1,0 +1,26 @@
+/**
+ * Gravity Forms legacy styles
+ *
+ * These styles will be loaded if the theme forces legacy markup through a hook,
+ * or when the "Legacy markup" setting is enabled in the Gravity Forms settings.
+ *
+ * ========================================================================= */
+.gform_legacy_markup_wrapper.gform_wrapper {
+	.gform_footer,
+	.gform_page_footer {
+		.gform_save_link {
+			@include button;
+			@include button-variant-outline( theme-color( 'primary' ) );
+			display: inline-block;
+			padding: 0.4rem 1rem !important;
+			border-color: theme-color( 'primary' ) !important;
+			line-height: $line-height-base;
+			text-decoration: none;
+
+			@include hover-focus-active {
+				color: $white !important;
+				text-decoration: none;
+			}
+		}
+	}
+}

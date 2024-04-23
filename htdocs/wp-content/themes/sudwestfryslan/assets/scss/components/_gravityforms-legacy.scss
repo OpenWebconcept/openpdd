@@ -1,0 +1,43 @@
+/**
+ * Gravity Forms legacy styles
+ *
+ * These styles will be loaded if the theme forces legacy markup through a hook,
+ * or when the "Legacy markup" setting is enabled in the Gravity Forms settings.
+ *
+ * ========================================================================= */
+.gform_legacy_markup_wrapper.gform_wrapper {
+	.gfield_label {
+		font-size: 1.1rem;
+	}
+
+	.bag-search-button {
+		@extend .btn-tertiary;
+		position: relative;
+		padding-left: $spacer * 3;
+	}
+
+	.btn.gf_irma_qr {
+		@extend .btn-tertiary;
+	}
+
+	.gform_footer,
+	.gform_page_footer {
+		input[type='submit'],
+		input[type='button'] {
+			&.gform_previous_button {
+				@extend .btn-gray;
+			}
+		}
+
+		.gform_save_link {
+			@include button;
+			@include gray-button-variant( gray( 'concrete' ) );
+			border: 2px solid $white;
+			border-bottom-color: darken( gray( 'concrete' ), 15% );
+
+			&:hover {
+				box-shadow: none;
+			}
+		}
+	}
+}
