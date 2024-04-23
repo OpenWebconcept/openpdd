@@ -400,10 +400,13 @@ add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($temp
     return $templates;
 });
 
-add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
+
 /**
- * Disable Gravity Forms CSS when using a legacy form. Added so that the client can choose
- * whether to use new Gravity Form 2.5 functionality and markup through the "Legacy markup" toggle.
+ * Disable Gravity Forms CSS when using a legacy form.
+ *
+ * First, we used to always force legacy markup & disable the CSS for all forms. However, the client wanted
+ * to choose whether to use the new Gravity Forms 2.5 functionality (which needs standard CSS) through the
+ * "Legacy markup" toggle.
  */
 add_action('pre_get_posts', function () {
     global $post;
@@ -437,7 +440,7 @@ add_action('pre_get_posts', function () {
         }
     }
 });
-
+add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
 /**
  * New markup enabled? Then force gravity-theme
  */
