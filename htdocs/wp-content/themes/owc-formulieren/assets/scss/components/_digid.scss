@@ -1,8 +1,12 @@
 $block: 'digid';
 
 .#{$block}-btn {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
 	border-radius: 14px;
 	border-bottom: 0 !important;
+	gap: 1.5rem;
 	text-decoration: none;
 
 	@include hover-focus-active {
@@ -19,10 +23,6 @@ $block: 'digid';
 
 	&__text {
 		color: $body-color;
-
-		@include media-breakpoint-up( xl ) {
-			padding-left: $spacer !important;
-		}
 	}
 
 	&__title {

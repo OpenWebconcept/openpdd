@@ -1,0 +1,57 @@
+/**
+ * Gravity Forms legacy styles
+ *
+ * These styles will be loaded if the theme forces legacy markup through a hook,
+ * or when the "Legacy markup" setting is enabled in the Gravity Forms settings.
+ *
+ * ========================================================================= */
+.gform_legacy_markup_wrapper.gform_wrapper {
+	.ginput_container {
+		input[type='text'],
+		input[type='email'],
+		input[type='tel'],
+		input[type='url'],
+		input[type='number'],
+		select,
+		textarea {
+			border: 0;
+			border-bottom: 2px solid gray( 'graphic' );
+			box-shadow: $box-shadow-sm;
+		}
+	}
+
+	.gfield_description {
+		order: 2;
+	}
+
+	.ginput_complex label,
+	.ginput_container_singleproduct .gform-field-label {
+		font-size: $small-font-size;
+	}
+
+	.ginput_container_radio,
+	.ginput_container_checkbox,
+	.ginput_container_consent {
+		label {
+			padding-left: 1.9rem;
+		}
+	}
+
+	.gform_footer,
+	.gform_page_footer {
+		input[type='submit'],
+		input[type='button'] {
+			@include button;
+			padding-right: $btn-padding-x;
+
+			&.gform_button,
+			&.gform_next_button {
+				@include button-color( $red );
+			}
+
+			&.gform_previous_button {
+				@include button-color( $gray );
+			}
+		}
+	}
+}

@@ -1,0 +1,74 @@
+/**
+ * Gravity Forms custom field styles
+ *
+ * Styling for both legacy and new markup.
+ *
+ * ========================================================================= */
+.ginput_container_bag_address {
+	$gap: 0.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem;
+
+	@include media-breakpoint-up( sm ) {
+		gap: 0.5rem;
+	}
+
+	span {
+		width: 100%;
+	}
+
+	// Zip
+	span:nth-child( 1 ) {
+		flex-basis: 100%;
+
+		@include media-breakpoint-up( sm ) {
+			flex-basis: calc( 50% - #{$gap} );
+		}
+	}
+
+	// Number & addition
+	span:nth-child( 2 ),
+	span:nth-child( 3 ) {
+		overflow: hidden;
+		flex-basis: calc( 50% - #{$gap} );
+
+		@include media-breakpoint-up( sm ) {
+			flex-basis: calc( 25% - #{$gap} );
+		}
+	}
+
+	// Search button wrapper
+	span:nth-child( 4 ) {
+		position: relative;
+		flex-basis: 100%;
+
+		&::before {
+			@include fontawesome( '\f002' );
+			position: absolute;
+			z-index: 1;
+			top: 50%;
+			left: 20px;
+			color: $white;
+			font-weight: $font-weight-bold;
+			pointer-events: none;
+			transform: translateY( -50% );
+			transition: 0.15s ease all;
+		}
+	}
+
+	.bag-search-button {
+		@include button;
+		@include button-color( theme-color( 'primary' ) );
+		position: relative;
+		padding-left: $spacer * 3;
+	}
+
+	.result {
+		width: 100%;
+		height: auto !important;
+		margin-bottom: $spacer * 1.5;
+		color: $danger;
+		font-size: $font-size-base;
+	}
+}

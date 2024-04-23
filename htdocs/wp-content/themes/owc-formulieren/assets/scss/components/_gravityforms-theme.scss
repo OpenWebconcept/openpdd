@@ -1,0 +1,151 @@
+/**
+ * Gravity Forms new markup theme styles
+ *
+ * These styles will be loaded when the "Legacy markup" setting is
+ * disabled in the Gravity Forms settings.
+ *
+ * ========================================================================= */
+.gform_wrapper.gravity-theme {
+	.ginput_container {
+		input[type='text'],
+		input[type='email'],
+		input[type='tel'],
+		input[type='url'],
+		input[type='number'],
+		select,
+		textarea {
+			@extend .form-control;
+			width: 100%;
+			height: auto;
+		}
+
+		input[type='file']::file-selector-button {
+			@include button;
+			@include button-variant(
+				gray( 'concrete' ),
+				darken( gray( 'concrete' ), 20% )
+			);
+			padding: $btn-padding-y $btn-padding-x;
+			margin-right: 1rem;
+		}
+
+		&_radio,
+		&_checkbox,
+		&_consent {
+			padding-left: 2rem;
+
+			input[type='checkbox'] {
+				@include custom-input-icon( '\f0c8', '\f14a', 2px, -24px );
+			}
+
+			input[type='radio'] {
+				@include custom-input-icon( '\f111', '\f192', 2px, -24px );
+			}
+		}
+	}
+
+	.ginput_container_date,
+	.gfield_time_hour,
+	.gfield_time_minute {
+		input[type='number'] {
+			padding-right: 0.5rem;
+			padding-left: 0.5rem;
+		}
+	}
+
+	.gform_validation_errors {
+		padding: 1.5rem;
+		border-radius: $input-border-radius;
+		box-shadow: none;
+
+		> h2 {
+			font-size: $font-size-base;
+			font-weight: $font-weight-bold;
+			line-height: $headings-line-height;
+		}
+
+		> ol {
+			margin-bottom: 0;
+
+			li {
+				margin: 0;
+			}
+
+			a {
+				font-size: $font-size-base;
+			}
+		}
+	}
+
+	.validation_message {
+		border-radius: $input-border-radius;
+	}
+
+	.gform_required_legend {
+		margin-bottom: 0.5rem;
+		color: gray( 'boulder' );
+		font-size: $small-font-size;
+	}
+
+	.gform-field-label--type-sub,
+	.ginput_counter {
+		color: gray( 'boulder' );
+	}
+
+	.gfield_checkbox label.gform-field-label,
+	.gfield_radio label.gform-field-label,
+	.gfield_label.gform-field-label {
+		font-size: $font-size-base;
+	}
+
+	.gform_fileupload_rules {
+		margin-top: 0;
+		color: gray( 'boulder' );
+		font-size: $small-font-size;
+	}
+
+	.gform_button_select_files {
+		@include button;
+		@include button-variant(
+			gray( 'concrete' ),
+			darken( gray( 'concrete' ), 20% )
+		);
+	}
+
+	.gform_footer,
+	.gform_page_footer {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: flex-end;
+
+		input[type='submit'],
+		input[type='button'] {
+			@include button;
+			@include button-variant(
+				theme-color( 'primary' ),
+				theme-color( 'primary' )
+			);
+
+			&.gform_previous_button {
+				@include button-variant(
+					gray( 'concrete' ),
+					darken( gray( 'concrete' ), 20% )
+				);
+			}
+		}
+
+		.gform_save_link {
+			@include button;
+			@include button-variant(
+				gray( 'concrete' ),
+				darken( gray( 'concrete' ), 20% )
+			);
+		}
+	}
+
+	.gf_progressbar_percentage {
+		background-color: theme-color( 'primary' ) !important;
+		color: color-yiq( theme-color( 'primary' ) ) !important;
+	}
+}
