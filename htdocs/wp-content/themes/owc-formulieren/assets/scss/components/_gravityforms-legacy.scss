@@ -486,6 +486,8 @@
 			display: block;
 			width: 100%;
 			padding-left: 0;
+			color: gray( 'boulder' );
+			font-size: $small-font-size;
 		}
 
 		.gform_drop_area {
@@ -577,15 +579,12 @@
 
 			&.gform_button,
 			&.gform_next_button {
-				@include button-variant(
-					theme-color( 'primary' ),
-					theme-color( 'primary' )
-				);
+				@include button-color( theme-color( 'primary' ) );
 				order: 2;
 			}
 
 			&.gform_previous_button {
-				@include button-variant(
+				@include button-color(
 					gray( 'concrete' ),
 					darken( gray( 'concrete' ), 20% )
 				);
@@ -610,74 +609,5 @@
 		position: absolute !important;
 		left: -9000px;
 		display: none !important;
-	}
-}
-
-// New Theme
-.gform_wrapper.gravity-theme {
-	.ginput_container {
-		input[type='text'],
-		input[type='email'],
-		input[type='tel'],
-		input[type='url'],
-		input[type='number'],
-		select,
-		textarea {
-			@extend .form-control;
-			width: 100%;
-			height: auto;
-		}
-
-		&_radio,
-		&_checkbox,
-		&_consent {
-			padding-left: 2rem;
-
-			input[type='checkbox'] {
-				@include custom-input-icon( '\f0c8', '\f14a', -14px, -24px );
-			}
-
-			input[type='radio'] {
-				@include custom-input-icon( '\f111', '\f192', -14px, -24px );
-			}
-		}
-	}
-
-	.gform-field-label--type-sub,
-	.ginput_counter,
-	.gform_required_legend {
-		color: gray( 'boulder' );
-	}
-
-	.gform_required_legend {
-		margin-bottom: 0.5rem;
-		font-size: $small-font-size;
-	}
-
-	.gform_validation_errors {
-		padding-left: 3rem;
-		border-radius: $input-border-radius;
-		box-shadow: none;
-	}
-
-	.validation_message {
-		border-radius: $input-border-radius;
-	}
-
-	.gform_footer,
-	.gform_page_footer {
-		input[type='submit'],
-		input[type='button'] {
-			@include button;
-			@include button-variant(
-				theme-color( 'primary' ),
-				theme-color( 'primary' )
-			);
-		}
-	}
-
-	.gf_progressbar_percentage {
-		background-color: theme-color( 'primary' ) !important;
-		color: color-yiq( theme-color( 'primary' ) ) !important;
 	}
 }
