@@ -445,9 +445,5 @@ add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
  * New markup enabled? Then force gravity-theme
  */
 add_filter('gform_form_theme_slug', function ($slug, $form) {
-    if(2 === $form['markupVersion']) {
-        return 'gravity-theme';
-    } else {
-        return $slug;
-    }
+    return (2 === $form['markupVersion']) ? 'gravity-theme' : $slug;
 }, 10, 2);
