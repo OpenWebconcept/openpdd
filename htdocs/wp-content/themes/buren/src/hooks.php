@@ -336,12 +336,9 @@ add_action('pre_get_posts', function () {
                     $form = GFAPI::get_form($formID);
 
                     // No database value or 1 means legacy markup enabled, disable CSS.
-                    if(null === $form['markupVersion'] || 1 === $form['markupVersion']) {
+                    if(! isset($form['markupVersion']) || 1 === $form['markupVersion']) {
                         add_filter('pre_option_rg_gforms_disable_css', '__return_true');
-                    }
-
-                    // New markup enabled, enable CSS.
-                    if(2 === $form['markupVersion']) {
+                    } elseif(2 === $form['markupVersion']) {
                         add_filter('pre_option_rg_gforms_disable_css', '__return_false');
                     }
                 }
