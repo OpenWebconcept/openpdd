@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cc9855d6b02f2381f56252dfa34046b",
+    "content-hash": "38d71a4a4c80d660e8f333c08c6b0916",
     "packages": [
         {
             "name": "aura/session",
@@ -4418,24 +4418,6 @@
             "time": "2022-01-24T18:55:24+00:00"
         },
         {
-            "name": "wpackagist-plugin/2fas-light",
-            "version": "3.3.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/2fas-light/",
-                "reference": "tags/3.3.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/2fas-light.3.3.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/2fas-light/"
-        },
-        {
             "name": "wpackagist-plugin/coming-soon",
             "version": "6.17.4",
             "source": {
@@ -8568,5 +8550,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
