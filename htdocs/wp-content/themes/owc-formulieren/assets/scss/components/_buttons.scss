@@ -10,17 +10,11 @@
 }
 
 .btn-primary {
-	@include button-variant(
-		theme-color( 'primary' ),
-		theme-color( 'primary' )
-	);
+	@include button-color( theme-color( 'primary' ) );
 }
 
 .btn-secondary {
-	@include button-variant(
-		theme-color( 'secondary' ),
-		theme-color( 'secondary' )
-	);
+	@include button-color( theme-color( 'secondary' ) );
 }
 
 .btn-primary-outline {
