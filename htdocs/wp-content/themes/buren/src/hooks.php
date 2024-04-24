@@ -335,13 +335,8 @@ add_action('pre_get_posts', function () {
                 if ($formID && class_exists('GFAPI')) {
                     $form = GFAPI::get_form($formID);
 
-                    // No database value means legacy markup enabled, disable CSS.
-                    if(null === $form['markupVersion']) {
-                        add_filter('pre_option_rg_gforms_disable_css', '__return_true');
-                    }
-
-                    // Legacy markup enabled, disable CSS.
-                    if(1 === $form['markupVersion']) {
+                    // No database value or 1 means legacy markup enabled, disable CSS.
+                    if(null === $form['markupVersion'] || 1 === $form['markupVersion']) {
                         add_filter('pre_option_rg_gforms_disable_css', '__return_true');
                     }
 
@@ -359,5 +354,5 @@ add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
  * New markup enabled? Then force gravity-theme
  */
 add_filter('gform_form_theme_slug', function ($slug, $form) {
-    return (2 === $form['markupVersion']) ? 'gravity-theme' : $slug;
+    return (2 === ($form['markupVersion'] ?? 0)) ? 'gravity-theme' : $slug;
 }, 10, 2);
