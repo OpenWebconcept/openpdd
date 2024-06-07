@@ -126,6 +126,15 @@
 				margin-bottom: $spacer * 0.5;
 			}
 		}
+
+		&.gfield_validation_message {
+			padding: $spacer * 0.5 $spacer !important;
+			border: 1px solid $danger;
+			border-radius: $input-border-radius;
+			margin-top: $spacer;
+			background-color: rgba( $danger, 0.05 );
+			color: $danger;
+		}
 	}
 
 	.gfield_required {

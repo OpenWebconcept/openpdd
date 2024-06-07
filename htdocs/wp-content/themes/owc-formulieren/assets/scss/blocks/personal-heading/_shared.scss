@@ -1,26 +1,26 @@
 .openpdd-personal-heading {
-	--gradient-color: rgba(218, 189, 160, 1);
+	--gradient-color: rgba( 218, 189, 160, 1 );
 	display: grid;
 	background-image: linear-gradient(
-			195deg,
-			var(--gradient-color) 0%,
-			rgba(255, 255, 255, 0) 55%
+		195deg,
+		var( --gradient-color ) 0%,
+		rgba( 255, 255, 255, 0 ) 55%
 	);
 	gap: 1.5rem;
 	grid-template-columns: 1fr 22rem;
 
 	// When it's a block in the CMS.
 	.wp-admin & {
-		padding-inline-start: 2rem;
 		padding-block-end: 2rem;
+		padding-inline-start: 2rem;
 
 		.rich-text {
+			padding: 0.5rem;
 			border: 1px solid #8c8f94;
-			padding: .5rem;
 		}
 
 		.openpdd-personal-heading__header {
-			opacity: .35;
+			opacity: 0.35;
 		}
 
 		.openpdd-personal-heading__image {
@@ -30,25 +30,25 @@
 
 			&-admin-text {
 				display: flex;
-				gap: 1rem;
 				align-items: center;
+				gap: 1rem;
 			}
 		}
 	}
 
 	&.afternoon {
-		--gradient-color: rgba(186, 202, 219, 1);
+		--gradient-color: rgba( 186, 202, 219, 1 );
 	}
 
 	&.evening {
-		--gradient-color: rgba(235, 165, 57, 1);
+		--gradient-color: rgba( 235, 165, 57, 1 );
 	}
 
-	@include media-breakpoint-down(lg) {
+	@include media-breakpoint-down( lg ) {
 		background-image: linear-gradient(
-				210deg,
-				var(--gradient-color) 0%,
-				rgba(255, 255, 255, 0) 80%
+			210deg,
+			var( --gradient-color ) 0%,
+			rgba( 255, 255, 255, 0 ) 80%
 		);
 		grid-template-columns: 1fr;
 	}
@@ -60,7 +60,7 @@
 	&__header {
 		display: flex;
 		flex-wrap: wrap;
-		gap: .5rem;
+		gap: 0.5rem;
 	}
 
 	&__content {
@@ -74,27 +74,27 @@
 			margin: 0;
 		}
 
-		@include media-breakpoint-down(lg) {
+		@include media-breakpoint-down( lg ) {
 			order: 1;
 			padding-block-start: 0;
 		}
 	}
 
 	&__image-wrapper {
-		mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='361' height='181' viewBox='0 0 361 181' fill='none'%3E%3Cpath fill='black' d='M0 0H361V181L64.1612 128.671C49.5995 126.104 37.6417 115.713 33.0676 101.652L0 0Z'/%3E%3C/svg%3E");
+		mask-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='361' height='181' viewBox='0 0 361 181' fill='none'%3E%3Cpath fill='black' d='M0 0H361V181L64.1612 128.671C49.5995 126.104 37.6417 115.713 33.0676 101.652L0 0Z'/%3E%3C/svg%3E" );
 		mask-repeat: no-repeat;
 		mask-size: cover;
 
-		@include media-breakpoint-down(lg) {
-			mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='182' viewBox='0 0 360 182' fill='none'%3E%3Cpath d='M0 0H360V182L33.7982 130.804C14.3394 127.75 0 110.985 0 91.2881V0Z' fill='black'/%3E%3C/svg%3E");
+		@include media-breakpoint-down( lg ) {
+			mask-image: url( "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='360' height='182' viewBox='0 0 360 182' fill='none'%3E%3Cpath d='M0 0H360V182L33.7982 130.804C14.3394 127.75 0 110.985 0 91.2881V0Z' fill='black'/%3E%3C/svg%3E" );
 		}
 	}
 
 	&__image {
+		display: none;
 		block-size: 100%;
 		inline-size: 100%;
 		object-fit: cover;
-		display: none;
 	}
 }
 
@@ -102,9 +102,9 @@
 	grid-area: content;
 
 	> .openpdd-personal-heading:first-child {
-		@include media-breakpoint-up(md) {
+		@include media-breakpoint-up( md ) {
 			margin-block-start: calc(
-				var(--openpdd-mijn-zaken-container-spacing) * -1
+				var( --openpdd-mijn-zaken-container-spacing ) * -1
 			);
 		}
 	}
