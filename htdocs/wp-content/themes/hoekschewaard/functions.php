@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 defined('ABSPATH') || exit;
 
 // Bootstrap application
@@ -6,11 +8,10 @@ $includes = [
     'src/Role.php',
     'src/hooks.php',
     'src/setup.php',
-    'src/gf-forms-extend.php',
 ];
 
 foreach ($includes as $file) {
-    if (!$filepath = locate_template($file)) {
+    if (! $filepath = locate_template($file)) {
         trigger_error(sprintf(__('Error locating %s for inclusion', 'openpdd-hoeksche-waard'), $file), E_USER_ERROR);
     }
 
@@ -26,15 +27,15 @@ add_filter('the_content', function ($content) {
     if (strpos($content, '[gravityforms') === false) {
         return $content;
     }
-    
+
     $userAgent = $_SERVER['HTTP_USER_AGENT'];
     $browsers = [
         '/chrome/i' => 'Chrome',
-        '/edge/i' => 'Edge'
+        '/edge/i' => 'Edge',
     ];
-        
+
     foreach ($browsers as $regex => $value) {
-        if (!preg_match($regex, $userAgent)) {
+        if (! preg_match($regex, $userAgent)) {
             continue;
         }
 
