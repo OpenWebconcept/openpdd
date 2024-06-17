@@ -128,7 +128,7 @@
 		"wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
 		"wpackagist-plugin/gravity-forms-pdf-extended": "^6.7",
 		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
-		"wpackagist-plugin/pronamic-ideal": "^9.4",
+		"wpackagist-plugin/pronamic-ideal": "9.5.*",
 		"wpackagist-plugin/stream": "4.0.0",
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8.1",
