@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a4a0482e342d13ca220664c25b30647",
+    "content-hash": "ba23db4b21c2e69f51f17fd8e5803c74",
     "packages": [
         {
             "name": "aura/session",
@@ -4509,15 +4509,15 @@
         },
         {
             "name": "wpackagist-plugin/pronamic-ideal",
-            "version": "9.10.0",
+            "version": "9.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-                "reference": "tags/9.10.0"
+                "reference": "tags/9.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.5.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
