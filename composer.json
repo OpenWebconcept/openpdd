@@ -103,9 +103,14 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:/yardinternet/plugin-owc-signicat-openid.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-klantinteractie.git"
 		}
 	],
 	"require": {
+		"acato/klantinteractie": "dev-main",
 		"bepsvpt/secure-headers": "^7.0",
 		"cmdisp/monolog-microsoft-teams": "1.3.0",
 		"composer/installers": "^1.0",
