@@ -1,0 +1,8 @@
+$block: 'owc-signicat-openid';
+
+.#{$block} {
+	&__button {
+		@include button;
+		@include button-color( theme-color( 'primary' ) );
+	}
+}
