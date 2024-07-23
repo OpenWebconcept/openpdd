@@ -110,7 +110,7 @@
 		"plugin/config-expander": "^2.0",
 		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravityforms-amp-booking": "^1.4",
-		"plugin/gravityforms-csp-fixer": "^0.0.2",
+		"plugin/gravityforms-csp-fixer": "^0.0.3",
 		"plugin/owc-datab": "^1.0.2",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "^1.5.0",
