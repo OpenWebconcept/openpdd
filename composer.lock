@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ba23db4b21c2e69f51f17fd8e5803c74",
+    "content-hash": "036a37c7ed376cbaa99a4f0a1d0b3697",
     "packages": [
         {
             "name": "aura/session",
@@ -2190,16 +2190,16 @@
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
-            "version": "v0.0.2",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
-                "reference": "1bb015c060f5e6323c95f653eee045c2eb38df3e"
+                "reference": "96514afc9cdaf4167a6efdf75506e6e7018b22b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/1bb015c060f5e6323c95f653eee045c2eb38df3e",
-                "reference": "1bb015c060f5e6323c95f653eee045c2eb38df3e",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/96514afc9cdaf4167a6efdf75506e6e7018b22b4",
+                "reference": "96514afc9cdaf4167a6efdf75506e6e7018b22b4",
                 "shasum": ""
             },
             "require": {
@@ -2243,10 +2243,10 @@
             ],
             "description": "Fixes GravityForms plugin so it is CSP compliant.",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.2",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.3",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
             },
-            "time": "2023-08-30T10:58:26+00:00"
+            "time": "2024-07-23T12:25:37+00:00"
         },
         {
             "name": "plugin/owc-datab",
@@ -9265,5 +9265,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
