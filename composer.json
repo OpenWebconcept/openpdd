@@ -103,6 +103,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:OpenWebconcept/plugin-klantinteractie.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git"
 		}
 	],
 	"require": {
@@ -125,8 +129,9 @@
 		"plugin/owc-gravityforms-digid": "^1.5.0",
 		"plugin/owc-gravityforms-eherkenning": "^1.2.0",
 		"plugin/owc-gravityforms-eidas": "^1.0.0",
+		"plugin/owc-gravityforms-jcc-appointments": "dev-main",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
-		"plugin/owc-gravityforms-zaaksysteem": "^2.0.0",
+		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/add-procura-as-supplier",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.1",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "dev-feat/poc",
