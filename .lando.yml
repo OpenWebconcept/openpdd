@@ -11,8 +11,8 @@ config:
 proxy:
     appserver_nginx:
         - openpdd.lndo.site
-        - buren.openpdd.lndo.site
-        - gemeentehw.openpdd.lndo.site
+        - formulieren.buren.lndo.site
+        - formulieren.gemeentehw.lndo.site
         - ggdhollandsnoorden.openpdd.lndo.site
         - hollandskroon.openpdd.lndo.site
         - sudwestfryslan.openpdd.lndo.site
