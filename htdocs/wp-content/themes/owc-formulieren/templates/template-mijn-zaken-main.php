@@ -2,7 +2,7 @@
 /**
  * Template name: Mijn Zaken + Main
  */
-get_template_part('mijn-zaken/header');
+get_template_part('templates/mijn-zaken/header');
 
 ?>
     <main class="page-main page-main--mijn-zaken-main container" id="readspeaker">
@@ -12,4 +12,4 @@ get_template_part('mijn-zaken/header');
     </main>
 <?php
 
-get_template_part('mijn-zaken/footer');
+get_template_part('templates/mijn-zaken/footer');
