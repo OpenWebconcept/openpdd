@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dde71ae072011e5b14beb9d3bc3dfbc6",
+    "content-hash": "f0d0e2e340025ce853950621dcd277ab",
     "packages": [
         {
             "name": "aura/session",
@@ -565,58 +565,6 @@
                 "source": "https://github.com/firebase/php-jwt/tree/v6.10.0"
             },
             "time": "2023-12-01T16:26:39+00:00"
-        },
-        {
-            "name": "gogentooss/samlbase",
-            "version": "1.6.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GoGentoOSS/SAMLBase.git",
-                "reference": "e21c6e7f835de54b1ed58815f38811db83bd84ed"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/GoGentoOSS/SAMLBase/zipball/e21c6e7f835de54b1ed58815f38811db83bd84ed",
-                "reference": "e21c6e7f835de54b1ed58815f38811db83bd84ed",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^7.5",
-                "robrichards/xmlseclibs": "~3.1.0",
-                "symfony/dependency-injection": "^5.4",
-                "twig/twig": "^3.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "GoGentoOSS\\SAMLBase": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Ron van der Molen",
-                    "email": "info@gogento.com",
-                    "homepage": "https://gogento.com",
-                    "role": "CEO"
-                }
-            ],
-            "description": "Library for SAML2 Service Providers in PHP",
-            "homepage": "https://github.com/GoGentoOSS/SAMLBase",
-            "keywords": [
-                "SAML2",
-                "SAMLBase",
-                "SSO",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/GoGentoOSS/SAMLBase/issues",
-                "source": "https://github.com/GoGentoOSS/SAMLBase/tree/1.6.3"
-            },
-            "time": "2023-04-18T06:58:50+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -2192,16 +2140,16 @@
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
-            "version": "v0.0.3",
+            "version": "v0.0.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
-                "reference": "96514afc9cdaf4167a6efdf75506e6e7018b22b4"
+                "reference": "f071b18756b2febbd7effcf01f5df965e8a183f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/96514afc9cdaf4167a6efdf75506e6e7018b22b4",
-                "reference": "96514afc9cdaf4167a6efdf75506e6e7018b22b4",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/f071b18756b2febbd7effcf01f5df965e8a183f6",
+                "reference": "f071b18756b2febbd7effcf01f5df965e8a183f6",
                 "shasum": ""
             },
             "require": {
@@ -2245,10 +2193,10 @@
             ],
             "description": "Fixes GravityForms plugin so it is CSP compliant.",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.3",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.4",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
             },
-            "time": "2024-07-23T12:25:37+00:00"
+            "time": "2024-08-15T06:21:06+00:00"
         },
         {
             "name": "plugin/owc-datab",
@@ -2387,26 +2335,26 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.5.1",
+            "version": "v1.5.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-                "reference": "c9df4ff119e7e238d867f571037a3bb0c7e681ae"
+                "reference": "ac94cdb3472482aea235e04d5038bef0a7713ba4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/c9df4ff119e7e238d867f571037a3bb0c7e681ae",
-                "reference": "c9df4ff119e7e238d867f571037a3bb0c7e681ae",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/ac94cdb3472482aea235e04d5038bef0a7713ba4",
+                "reference": "ac94cdb3472482aea235e04d5038bef0a7713ba4",
                 "shasum": ""
             },
             "require": {
                 "aura/session": "^2.1",
                 "cmdisp/monolog-microsoft-teams": "1.3.0",
-                "gogentooss/samlbase": "~1.5",
                 "php": ">=7.2",
                 "php-di/php-di": "^6.0",
                 "symfony/http-foundation": "~5.3",
-                "vlucas/phpdotenv": "^5.0"
+                "vlucas/phpdotenv": "^5.0",
+                "yard/samlbase": "^1.6"
             },
             "require-dev": {
                 "10up/wp_mock": "0.5.0",
@@ -2452,34 +2400,34 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.5.1",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.5.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2024-04-22T14:03:51+00:00"
+            "time": "2024-08-14T14:39:52+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
-            "version": "v1.2.1",
+            "version": "v1.2.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-                "reference": "841340e1badf9d708a62441d72a8c98dfc5e8953"
+                "reference": "912e1ae25545c97fbe62e3b4d3913acf7f73c648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/841340e1badf9d708a62441d72a8c98dfc5e8953",
-                "reference": "841340e1badf9d708a62441d72a8c98dfc5e8953",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/912e1ae25545c97fbe62e3b4d3913acf7f73c648",
+                "reference": "912e1ae25545c97fbe62e3b4d3913acf7f73c648",
                 "shasum": ""
             },
             "require": {
                 "aura/session": "^2.1",
                 "cmdisp/monolog-microsoft-teams": "1.3.0",
-                "gogentooss/samlbase": "~1.5",
                 "guzzlehttp/guzzle": "^7.8",
                 "php": ">=7.2",
                 "php-di/php-di": "^6.0",
                 "symfony/http-foundation": "~5.0",
-                "vlucas/phpdotenv": "^5.0"
+                "vlucas/phpdotenv": "^5.0",
+                "yard/samlbase": "^1.6"
             },
             "require-dev": {
                 "10up/wp_mock": "0.5.0",
@@ -2523,34 +2471,34 @@
             "description": "Add a eHerkenning login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.2.1",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.2.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
             },
-            "time": "2024-03-19T14:43:53+00:00"
+            "time": "2024-08-14T14:40:28+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eidas",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
-                "reference": "5c66e4b1a601282ce0d8ad4584c0eb536f256e7b"
+                "reference": "bb9b9bd3012716cc6c7e4704a009e6ed22b99e67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/5c66e4b1a601282ce0d8ad4584c0eb536f256e7b",
-                "reference": "5c66e4b1a601282ce0d8ad4584c0eb536f256e7b",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/bb9b9bd3012716cc6c7e4704a009e6ed22b99e67",
+                "reference": "bb9b9bd3012716cc6c7e4704a009e6ed22b99e67",
                 "shasum": ""
             },
             "require": {
                 "aura/session": "^2.1",
                 "cmdisp/monolog-microsoft-teams": "1.3.0",
-                "gogentooss/samlbase": "~1.5",
                 "guzzlehttp/guzzle": "^7.8",
                 "php": ">=7.2",
                 "php-di/php-di": "^6.0",
                 "symfony/http-foundation": "~5.0",
-                "vlucas/phpdotenv": "^5.0"
+                "vlucas/phpdotenv": "^5.0",
+                "yard/samlbase": "^1.6"
             },
             "require-dev": {
                 "10up/wp_mock": "0.5.0",
@@ -2594,10 +2542,10 @@
             "description": "Add a eIDAS login field to GravityForms",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.0.1",
+                "source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.0.2",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
             },
-            "time": "2024-03-19T15:11:45+00:00"
+            "time": "2024-08-14T14:40:56+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
@@ -4599,6 +4547,58 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-seopress/"
+        },
+        {
+            "name": "yard/samlbase",
+            "version": "1.6.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:yardinternet/samlbase.git",
+                "reference": "673d90bd1e7cc411d16f1e85a62a8068892fac5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yardinternet/samlbase/zipball/673d90bd1e7cc411d16f1e85a62a8068892fac5b",
+                "reference": "673d90bd1e7cc411d16f1e85a62a8068892fac5b",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.5",
+                "robrichards/xmlseclibs": "~3.1.0",
+                "symfony/dependency-injection": "^5.4",
+                "twig/twig": "^3.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "GoGentoOSS\\SAMLBase": "src/"
+                }
+            },
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Ron van der Molen",
+                    "email": "info@gogento.com",
+                    "homepage": "https://gogento.com",
+                    "role": "CEO"
+                }
+            ],
+            "description": "Library for SAML2 Service Providers in PHP",
+            "homepage": "https://github.com/GoGentoOSS/SAMLBase",
+            "keywords": [
+                "PHP",
+                "SAML2",
+                "SAMLBase",
+                "SSO",
+                "saml2"
+            ],
+            "support": {
+                "source": "https://github.com/yardinternet/samlbase/tree/v1.6.3",
+                "issues": "https://github.com/yardinternet/samlbase/issues"
+            },
+            "time": "2024-08-14T14:31:20+00:00"
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
