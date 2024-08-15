@@ -5,7 +5,6 @@ defined('ABSPATH') || exit;
 
 // Bootstrap application
 $includes = [
-    'src/Role.php',
     'src/hooks.php',
     'src/setup.php',
 ];

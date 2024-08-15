@@ -17,7 +17,6 @@ spl_autoload_register(function ($className) {
 
 // Bootstrap application
 $includes = [
-    'src/Role.php',
     'src/hooks.php',
     'src/setup.php',
 ];
