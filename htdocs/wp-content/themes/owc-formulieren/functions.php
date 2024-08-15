@@ -57,3 +57,6 @@ foreach ($types as $type) {
         );
     });
 }
+
+add_action('wp_default_scripts', [App\Assets\Assets::class, 'replaceDefaultScripts']);
+add_filter('wp_script_attributes', [App\Assets\Assets::class, 'addScriptAttributes']);
