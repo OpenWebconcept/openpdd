@@ -126,22 +126,6 @@ add_filter('lv_default_error_messages', function ($default_messages) {
 });
 
 /**
- * Overrides the number of days until incomplete submissions are purged.
- */
-add_filter('gform_incomplete_submissions_expiration_days', function ($expiration_days) {
-    $expiration_days = 7;
-
-    return $expiration_days;
-});
-
-/**
- * Uploads are not protected by default. Let's protect them.
- */
-add_filter('gform_require_login_pre_download', function () {
-    return true;
-}, 10, 0);
-
-/**
  * Add superuser role
  */
 add_action('after_switch_theme', function () {

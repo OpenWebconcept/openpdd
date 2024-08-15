@@ -85,15 +85,6 @@ add_filter('pre_option_rg_gforms_disable_css', '__return_true');
 add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
 
 /**
- * Overrides the number of days until incomplete submissions are purged.
- */
-add_filter('gform_incomplete_submissions_expiration_days', function ($expiration_days) {
-    $expiration_days = 7;
-
-    return $expiration_days;
-});
-
-/**
  * Add superuser role
  */
 add_action('after_switch_theme', function () {
