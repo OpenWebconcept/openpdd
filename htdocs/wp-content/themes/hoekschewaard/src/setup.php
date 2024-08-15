@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 /**
  * Setup theme
@@ -74,30 +76,6 @@ add_action('after_setup_theme', function () {
         ]);
     }
 });
-
-add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
-
-/**
- * Enable REST API
- */
-add_filter('yard/config-expander/config/admin', function ($defaults) {
-    $defaults['DISABLE_REST_API'] = false;
-    return $defaults;
-});
-
-add_filter('owc/config-expander/rest-api/whitelist', function ($endpoints_whitelist) {
-    $endpoints_whitelist['/irma/v1/gf/handle'] = [
-        'endpoint_stub' => '/irma/v1/gf/handle',
-        'methods'       => ['POST']
-    ];
-    $endpoints_whitelist['/irma/v1/gf/session'] = [
-        'endpoint_stub' => '/irma/v1/gf/session',
-        'methods'       => ['GET']
-    ];
-
-    return $endpoints_whitelist;
-}, 10, 1);
-
 
 add_filter('owc_gravityforms_digid_field_display_title', function () {
     return "Klik hier om in te loggen";
