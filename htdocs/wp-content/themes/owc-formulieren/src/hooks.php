@@ -134,9 +134,6 @@ add_action('after_switch_theme', function () {
     }
 });
 
-add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
-add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
-
 /**
  * A11y: add aria-label to custom logo
  */

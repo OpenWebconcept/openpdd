@@ -130,9 +130,6 @@ add_action('init', function () {
     ]);
 });
 
-add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
-add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
-
 /**
  * Remove Gravity Forms styling
  */
