@@ -134,59 +134,8 @@ add_action('after_switch_theme', function () {
     }
 });
 
-add_action('wp_enqueue_scripts', function () {
-    wp_deregister_script('jquery');
-    wp_deregister_script('jquery-migrate');
-
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
-    wp_enqueue_script('jquery');
-    wp_script_add_data('jquery', ['integrity', 'crossorigin'], ['sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=', 'anonymous']);
-});
-
 add_action('wp_enqueue_scripts', 'App\Assets\Assets::enqueueScripts');
 add_action('enqueue_block_editor_assets', 'App\Assets\Assets::enqueueBlockEditorScripts');
-
-/**
- * The following code is used to update certain libraries to their latest version.
- */
-add_action('wp_enqueue_scripts', function () {
-    // jQuery core.
-    wp_deregister_script('jquery');
-    wp_deregister_script('jquery-migrate');
-
-    wp_register_script('jquery', 'https://code.jquery.com/jquery-3.7.1.min.js', [], '3.7.1', false); // jQuery v3
-    wp_enqueue_script('jquery');
-
-    // jQuery UI Core.
-    wp_deregister_script('jquery-ui-core');
-    wp_enqueue_script('jquery-ui-core', 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js', ['jquery'], '1.13.2', 1);
-    wp_enqueue_script('jquery-ui-core');
-});
-
-/**
- * Add integrity and crossorigin attributes to CDN scripts.
- */
-function theme_script_loader_tag($tag, $handle)
-{
-    $scripts_to_load = [
-        [
-            ('name')      => 'jquery',
-            ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
-        ],
-        [
-            ('name')      => 'jquery-ui-core',
-            ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
-        ],
-    ];
-
-    $key = array_search($handle, array_column($scripts_to_load, 'name'));
-    if (false !== $key) {
-        $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
-    }
-
-    return $tag;
-}
-add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
 /**
  * A11y: add aria-label to custom logo

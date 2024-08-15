@@ -6,6 +6,18 @@ namespace App\Assets;
 
 class Assets
 {
+    private static array $defaultScripts = [
+        'jquery-ui-core' => [
+            'url' => 'https://code.jquery.com/ui/1.14.0/jquery-ui.min.js',
+            'integrity' => 'sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=',
+            'deps' => ['jquery'],
+        ],
+        'jquery-migrate' => [
+            'url' => 'https://code.jquery.com/jquery-migrate-3.5.2.min.js',
+            'integrity' => 'sha256-ocUeptHNod0gW2X1Z+ol3ONVAGWzIJXUmIs+4nUeDLI=',
+        ],
+    ];
+
     /**
      * Enqueues scripts and styles for the frontend.
      */
@@ -72,5 +84,57 @@ class Assets
             'scriptAssetPath' => $scriptAssetPath,
             'scriptAsset' => $scriptAsset,
         ];
+    }
+
+    /**
+     * Replace defaultscripts with latest version
+     */
+    public static function replaceDefaultScripts(\WP_Scripts $scripts)
+    {
+        if (is_admin()) {
+            return;
+        }
+
+        foreach (self::$defaultScripts as $handle => $props) {
+            $props = wp_parse_args(
+                $props,
+                [
+                    'url' => null,
+                    'integrity' => null,
+                    'deps' => [],
+                    'ver' => null,
+                ]
+            );
+
+            $scripts->remove($handle);
+            $scripts->add($handle, $props['url'], $props['deps'], $props['vers'], true);
+            $scripts->enqueue($handle); //TODO?
+        }
+    }
+
+    /**
+     * Add script attributes for external scripts
+     * - integrity
+     * - crossorigin
+     */
+    public static function addScriptAttributes(array $attributes): array
+    {
+        if (is_admin()) {
+            return $attributes;
+        }
+
+        foreach (self::$defaultScripts as $handle => $props) {
+            if ($props['url'] !== $attributes['src']) {
+                continue;
+            }
+            if (! empty($props['integrity'])) {
+                $attributes['integrity'] = $props['integrity'];
+                $attributes['crossorigin'] = 'anonymous';
+            }
+
+            break;
+        }
+
+        return $attributes;
     }
 }

@@ -305,12 +305,6 @@ add_action('after_switch_theme', function () {
     }
 });
 
-add_action('wp_default_scripts', function ($scripts) {
-    if (! is_admin() && ! empty($scripts->registered['jquery'])) {
-        $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, ['jquery-migrate']);
-    }
-});
-
 if (class_exists(\GF_Fields::class)) {
     \GF_Fields::register(new HW\Gravityforms\Fields\HWCodesValidation());
 }
@@ -326,53 +320,6 @@ add_filter('gform_field_groups_form_editor', function ($field_groups) {
 
     return $field_groups;
 });
-
-/**
- * The following code is used to update certain libraries to their latest version.
- */
-add_action('wp_enqueue_scripts', function () {
-    // jQuery core.
-    wp_deregister_script('jquery-migrate');
-
-    $wpScripts = wp_scripts();
-
-    if (isset($wpScripts->registered['jquery'])) {
-        $wpScripts->registered['jquery']->src = 'https://code.jquery.com/jquery-3.7.1.min.js';
-    }
-
-    if (isset($wpScripts->registered['jquery-ui-core'])) {
-        $wpScripts->registered['jquery-ui-core']->src = 'https://code.jquery.com/ui/1.13.2/jquery-ui.min.js';
-    }
-});
-
-/**
- * Add integrity and crossorigin attributes to CDN scripts.
- */
-function theme_script_loader_tag($tag, $handle)
-{
-    if (! is_admin()) {
-        $scripts_to_load = [
-            [
-                ('name')      => 'jquery',
-                ('integrity') => 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs',
-            ],
-            [
-                ('name')      => 'jquery-ui-core',
-                ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
-            ],
-        ];
-
-        $key = array_search($handle, array_column($scripts_to_load, 'name'));
-
-        if (false !== $key) {
-            $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
-        }
-    }
-
-    return $tag;
-}
-
-add_filter('script_loader_tag', 'theme_script_loader_tag', 10, 2);
 
 add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($templates) {
     $templates[] = 'template-mijn-zaken';
