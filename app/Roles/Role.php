@@ -1,8 +1,12 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
+
+namespace App\Roles;
 
 class Role
 {
-    public $role;
+    public string $role;
 
     public function __construct(string $role)
     {
@@ -15,10 +19,8 @@ class Role
     }
 
     /**
-     * Get key & value pairs
-     * Used when adding a role
-     *
-     * @return array
+     * Get key & value pairs.
+     * Used when adding a role.
      */
     public function getGravityFormsCapsKeyValue(): array
     {
@@ -36,10 +38,8 @@ class Role
     }
 
     /**
-     * Get only the keys
-     * Used when updating a role
-     *
-     * @return array
+     * Get only the keys.
+     * Used when updating a role.
      */
     public function getGravityFormsCaps(): array
     {

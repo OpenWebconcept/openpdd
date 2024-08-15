@@ -61,7 +61,7 @@ add_filter('gform_require_login_pre_download', function () {
  * Add superuser role
  */
 add_action('after_switch_theme', function () {
-    $role = new Role('superuser');
+    $role = new App\Roles\Role('superuser');
 
     if (null === $role->getRole()) {
         $caps = [
@@ -136,7 +136,7 @@ add_action('after_switch_theme', function () {
  * Add caps to editor role
  */
 add_action('after_switch_theme', function () {
-    $role = new Role('editor');
+    $role = new App\Roles\Role('editor');
 
     if (null === $role->getRole()) {
         return null;

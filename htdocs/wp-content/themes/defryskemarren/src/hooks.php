@@ -14,7 +14,7 @@ add_action('init', function () {
         return;
     }
 
-    if (!function_exists('csp_nonce')) {
+    if (! function_exists('csp_nonce')) {
         return;
     }
 
@@ -36,7 +36,7 @@ add_action('send_headers', function () {
     if (is_admin()) {
         return;
     }
-    
+
     \Bepsvpt\SecureHeaders\SecureHeaders::fromFile(APP_ROOT . '/config/secure-headers.php')->send();
 });
 function is_rest()
@@ -59,6 +59,7 @@ function is_rest()
     $rest_url = wp_parse_url(trailingslashit(rest_url()));
     $current_url = wp_parse_url(add_query_arg([]));
     $current_url_path = $current_url['path'] ?? '';
+
     return (strpos($current_url_path, $rest_url['path'], 0) === 0);
 }
 
@@ -110,6 +111,7 @@ add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
  */
 add_filter('gform_incomplete_submissions_expiration_days', function ($expiration_days) {
     $expiration_days = 7;
+
     return $expiration_days;
 });
 
@@ -117,7 +119,7 @@ add_filter('gform_incomplete_submissions_expiration_days', function ($expiration
  * Add superuser role
  */
 add_action('after_switch_theme', function () {
-    $role = new Role('superuser');
+    $role = new App\Roles\Role('superuser');
 
     if (null === $role->getRole()) {
         $caps = [
@@ -192,7 +194,7 @@ add_action('after_switch_theme', function () {
  * Add caps to editor role
  */
 add_action('after_switch_theme', function () {
-    $role = new Role('editor');
+    $role = new App\Roles\Role('editor');
 
     if (null === $role->getRole()) {
         return null;
@@ -203,14 +205,14 @@ add_action('after_switch_theme', function () {
     $caps = array_merge($caps, $role->getGravityFormsCaps());
 
     foreach ($caps as $cap) {
-        if (!$role->getRole()->has_cap($cap)) {
+        if (! $role->getRole()->has_cap($cap)) {
             $role->addCap($cap);
         }
     }
 });
 
 add_action('wp_default_scripts', function ($scripts) {
-    if (!is_admin() && !empty($scripts->registered['jquery'])) {
+    if (! is_admin() && ! empty($scripts->registered['jquery'])) {
         $scripts->registered['jquery']->deps = array_diff($scripts->registered['jquery']->deps, ['jquery-migrate']);
     }
 });
@@ -238,7 +240,7 @@ add_action('wp_enqueue_scripts', function () {
  */
 function theme_script_loader_tag($tag, $handle)
 {
-    if (!is_admin()) {
+    if (! is_admin()) {
         $scripts_to_load = [
             [
                 ('name')      => 'jquery',
@@ -247,11 +249,11 @@ function theme_script_loader_tag($tag, $handle)
             [
                 ('name')      => 'jquery-ui-core',
                 ('integrity') => 'sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL',
-            ]
+            ],
         ];
-    
+
         $key = array_search($handle, array_column($scripts_to_load, 'name'));
-        
+
         if (false !== $key) {
             $tag = str_replace('></script>', ' integrity=\'' . $scripts_to_load[$key]['integrity'] . '\' crossorigin=\'anonymous\'></script>', $tag);
         }
