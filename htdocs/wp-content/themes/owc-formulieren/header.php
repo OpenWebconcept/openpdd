@@ -25,12 +25,12 @@
         <div class="nav">
             <div class="navbar navbar-expand shadow w-100" role="navigation">
                 <div class="container">
-                    <?php get_template_part('partials/site-branding'); ?>
-                    <?php get_template_part('partials/navigation'); ?>
+                    <?php get_template_part('templates/partials/site-branding'); ?>
+                    <?php get_template_part('templates/partials/navigation'); ?>
                 </div>
             </div>
         </div>
         <?php if (get_current_blog_id() === env('HW_SITE_ID', 4)) : ?>
-            <?php get_template_part('partials/a11y-toolbar'); ?>
+            <?php get_template_part('templates/partials/a11y-toolbar'); ?>
         <?php endif; ?>
         <div class="page-content">

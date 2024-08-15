@@ -25,7 +25,7 @@
             <div class="navbar navbar-expand shadow w-100" role="navigation">
                 <div class="container">
                     <?php get_template_part('templates/partials/site-branding');?>
-                    <?php get_template_part('partials/navigation');?>
+                    <?php get_template_part('templates/partials/navigation');?>
                 </div>
             </div>
         </div>
