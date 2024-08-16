@@ -64,21 +64,6 @@ function is_rest()
     return (strpos($current_url_path, $rest_url['path'], 0) === 0);
 }
 
-/**
- * This function will connect wp_mail to your authenticated
- * SMTP server. This improves reliability of wp_mail, and
- * avoids many potential problems.
- *
- * Values are constants set in wp-config.php
- */
-add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer) {
-    if (in_array(env('APP_ENV'), ['production'])) {
-        $phpmailer->isSMTP();
-        $phpmailer->Host = 'form01.yard.nl';
-        $phpmailer->Port = 25;
-    }
-});
-
 add_action('init', function () {
     $labels = [
         'name'              => _x('Owner', 'taxonomy general name', 'openpdd-hoeksche-waard'),
