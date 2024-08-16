@@ -43,38 +43,6 @@ add_action('after_setup_theme', function () {
         'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-buren'),
         'footer-bottom'      => __('Footer bottom', 'openpdd-buren'),
     ]);
-
-    $sidebars = [
-        [
-            'name'        => __('Footer column 1', 'openpdd-buren'),
-            'id'          => 'footer-1',
-            'description' => '',
-            'class'       => '',
-        ],
-        [
-            'name'        => __('Footer column 2', 'openpdd-buren'),
-            'id'          => 'footer-2',
-            'description' => '',
-            'class'       => '',
-        ],
-        [
-            'name'        => __('Footer column 3', 'openpdd-buren'),
-            'id'          => 'footer-3',
-            'description' => '',
-            'class'       => '',
-        ],
-    ];
-
-    foreach ($sidebars as $sidebar) {
-        register_sidebar([
-            'name'          => $sidebar['name'],
-            'id'            => $sidebar['id'],
-            'description'   => $sidebar['description'],
-            'class'         => $sidebar['class'],
-            'before_widget' => '<div class="widget %2$s">',
-            'after_widget'  => '</div>',
-        ]);
-    }
 });
 
 add_filter('owc_gravityforms_digid_field_display_title', function () {

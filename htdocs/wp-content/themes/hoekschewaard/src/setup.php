@@ -43,38 +43,6 @@ add_action('after_setup_theme', function () {
         'primary-mijn-zaken' => __('Mijn Zaken menu', 'openpdd-hoeksche-waard'),
         'footer-bottom'      => __('Footer bottom', 'openpdd-hoeksche-waard'),
     ]);
-
-    $sidebars = [
-        [
-            'name'        => __('Footer column 1', 'openpdd-hoeksche-waard'),
-            'id'          => 'footer-1',
-            'description' => '',
-            'class'       => '',
-        ],
-        [
-            'name'        => __('Footer column 2', 'openpdd-hoeksche-waard'),
-            'id'          => 'footer-2',
-            'description' => '',
-            'class'       => '',
-        ],
-        [
-            'name'        => __('Footer column 3', 'openpdd-hoeksche-waard'),
-            'id'          => 'footer-3',
-            'description' => '',
-            'class'       => '',
-        ],
-    ];
-
-    foreach ($sidebars as $sidebar) {
-        register_sidebar([
-            'name'          => $sidebar['name'],
-            'id'            => $sidebar['id'],
-            'description'   => $sidebar['description'],
-            'class'         => $sidebar['class'],
-            'before_widget' => '<div id="%1$s" class="widget %2$s">',
-            'after_widget'  => '</div>',
-        ]);
-    }
 });
 
 add_filter('owc_gravityforms_digid_field_display_title', function () {
