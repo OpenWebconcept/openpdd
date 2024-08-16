@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0d0e2e340025ce853950621dcd277ab",
+    "content-hash": "a6134b72ed83788c7314f01adf9902ca",
     "packages": [
         {
             "name": "aura/session",
@@ -1955,16 +1955,16 @@
         },
         {
             "name": "plugin/config-expander",
-            "version": "v2.0.27",
+            "version": "v2.0.28",
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/config-expander.git",
-                "reference": "25056818909ccd60a838ed507fda002ed6a50494"
+                "reference": "b2ac9867c0095956aebe849059e058ad36f0f8af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/config-expander/zipball/25056818909ccd60a838ed507fda002ed6a50494",
-                "reference": "25056818909ccd60a838ed507fda002ed6a50494",
+                "url": "https://api.github.com/repos/yardinternet/config-expander/zipball/b2ac9867c0095956aebe849059e058ad36f0f8af",
+                "reference": "b2ac9867c0095956aebe849059e058ad36f0f8af",
                 "shasum": ""
             },
             "require": {
@@ -2040,10 +2040,10 @@
             "description": "Config Expander for WordPress",
             "homepage": "https://www.yard.nl",
             "support": {
-                "source": "https://github.com/yardinternet/config-expander/tree/v2.0.27",
+                "source": "https://github.com/yardinternet/config-expander/tree/v2.0.28",
                 "issues": "https://github.com/yardinternet/config-expander/issues"
             },
-            "time": "2024-07-17T13:17:54+00:00"
+            "time": "2024-08-16T04:43:24+00:00"
         },
         {
             "name": "plugin/formio-wordpress",
@@ -4532,15 +4532,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-seopress",
-            "version": "7.9.2",
+            "version": "8.0.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-seopress/",
-                "reference": "tags/7.9.2"
+                "reference": "tags/8.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-seopress.7.9.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-seopress.8.0.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -4792,11 +4792,11 @@
         },
         {
             "name": "ypackagist/gravityformszapier",
-            "version": "4.2.1",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityformszapier/4.2.1",
-                "shasum": "a32a048f7a00ce9c2e533979d9418d84d965d0ad"
+                "url": "https://packagist.yard.nl/satispress/gravityformszapier/4.3.0",
+                "shasum": "b16fc6fad28297b7cc05c9dcbf222357165e995f"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
