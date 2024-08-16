@@ -166,3 +166,22 @@ function is_rest()
 
     return (strpos($current_url_path, $rest_url['path'], 0) === 0);
 }
+
+add_action('after_setup_theme', function () {
+    $sidebar_config = get_theme_file_path('config/sidebars.php');
+
+    if (file_exists($sidebar_config)) {
+        $sidebars = require_once $sidebar_config;
+    }
+
+    foreach ($sidebars as $sidebar) {
+        register_sidebar([
+            'name'          => $sidebar['name'],
+            'id'            => $sidebar['id'],
+            'description'   => $sidebar['description'],
+            'class'         => $sidebar['class'],
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+        ]);
+    }
+});
