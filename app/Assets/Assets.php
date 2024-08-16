@@ -107,8 +107,8 @@ class Assets
             );
 
             $scripts->remove($handle);
-            $scripts->add($handle, $props['url'], $props['deps'], $props['vers'], true);
-            $scripts->enqueue($handle); //TODO?
+            $scripts->add($handle, $props['url'], $props['deps'], $props['ver'], true);
+            $scripts->enqueue($handle);
         }
     }
 
