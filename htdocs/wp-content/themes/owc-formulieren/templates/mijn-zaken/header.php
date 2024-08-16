@@ -20,7 +20,7 @@ do_action('get_header'); ?>>
     <div class="nav">
         <div class="shadow navbar navbar-expand w-100" role="navigation">
             <div class="container">
-                <?php get_template_part('templates/artials/site-branding'); ?>
+                <?php get_template_part('templates/partials/site-branding'); ?>
                 <?php get_template_part('templates/mijn-zaken/header/navigation'); ?>
                 <?php get_template_part('templates/mijn-zaken/header/dropdown-button'); ?>
             </div>
