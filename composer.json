@@ -136,7 +136,7 @@
 		"wpackagist-plugin/stream": "^4.0.0",
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8.1",
-		"wpackagist-plugin/wp-seopress": "^7.9",
+		"wpackagist-plugin/wp-seopress": "^8.0",
 		"ypackagist/advanced-custom-fields-pro": "*",
 		"ypackagist/gf-entries-in-excel": "^2.2",
 		"ypackagist/gp-advanced-select": "^1.0.1",
