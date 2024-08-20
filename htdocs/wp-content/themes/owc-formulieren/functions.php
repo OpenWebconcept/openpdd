@@ -186,6 +186,17 @@ add_action('after_setup_theme', function () {
     }
 });
 
+add_action('after_setup_theme', function () {
+
+    $menuConfig = get_theme_file_path('config/menus.php');
+
+    if (! file_exists($menuConfig)) {
+        return;
+    }
+    $menus = require_once $menuConfig;
+
+    register_nav_menus($menus);
+});
 
 add_action('after_setup_theme', function () {
     // Add default posts and comments RSS feed links to head.
