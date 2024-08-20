@@ -14,10 +14,4 @@ add_action('after_setup_theme', function () {
      * to change 'yard-startertheme' to the name of your theme in all the template files
      */
     load_theme_textdomain('yard-startertheme', get_template_directory() . '/languages');
-
-    // This theme uses wp_nav_menu() in one location.
-    register_nav_menus([
-        'primary' => __('Primary Menu', 'yard-startertheme'),
-        'primary-mijn-zaken' => __('Mijn Zaken menu', 'yard-startertheme'),
-    ]);
 });
