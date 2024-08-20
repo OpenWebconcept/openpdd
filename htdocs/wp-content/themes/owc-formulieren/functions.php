@@ -19,6 +19,8 @@ foreach ($includes as $file) {
 unset($file, $filepath);
 
 
+(new App\GravityForms\GravityForms())->register();
+
 $types = [
     'index',
     '404',
@@ -63,9 +65,6 @@ add_filter('wp_script_attributes', [App\Assets\Assets::class, 'addScriptAttribut
 add_action('wp_enqueue_scripts', [App\Assets\Assets::class, 'enqueueScripts']);
 add_action('enqueue_block_editor_assets', [App\Assets\Assets::class, 'enqueueBlockEditorScripts']);
 
-// Gravity Forms hooks
-add_filter('gform_incomplete_submissions_expiration_days', fn () => 7);
-add_filter('gform_require_login_pre_download', '__return_true');
 
 // Config expander hooks
 add_filter('yard/config-expander/config/admin', function ($defaults) {
