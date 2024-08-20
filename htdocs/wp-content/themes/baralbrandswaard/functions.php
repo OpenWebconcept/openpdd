@@ -17,7 +17,6 @@ spl_autoload_register(function ($className) {
 // Bootstrap application
 $includes = [
     'src/hooks.php',
-    'src/setup.php',
 ];
 
 foreach ($includes as $file) {

@@ -6,7 +6,6 @@ defined('ABSPATH') || exit;
 // Bootstrap application
 $includes = [
     'src/hooks.php',
-    'src/setup.php',
     'src/gf-forms-extend.php',
 ];
 
