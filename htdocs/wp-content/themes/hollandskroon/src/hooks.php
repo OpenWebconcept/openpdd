@@ -55,12 +55,6 @@ add_action('init', function () {
 });
 
 /**
- * Remove Gravity Forms styling
- */
-add_filter('pre_option_rg_gforms_disable_css', '__return_true');
-add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
-
-/**
  * GravityPerks Limit Choices
  */
 add_filter('gplc_remove_choices', '__return_false');
