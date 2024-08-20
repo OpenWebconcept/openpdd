@@ -168,11 +168,13 @@ function is_rest()
 }
 
 add_action('after_setup_theme', function () {
-    $sidebar_config = get_theme_file_path('config/sidebars.php');
+    $sidebarConfig = get_theme_file_path('config/sidebars.php');
 
-    if (file_exists($sidebar_config)) {
-        $sidebars = require_once $sidebar_config;
+    if (! file_exists($sidebarConfig)) {
+        return;
     }
+
+    $sidebars = require_once $sidebarConfig;
 
     foreach ($sidebars as $sidebar) {
         register_sidebar([
