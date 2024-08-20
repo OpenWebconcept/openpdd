@@ -4,7 +4,7 @@ namespace HW\Gravityforms\Fields;
 
 use GFFormsModel;
 
-if (!class_exists('GFForms')) {
+if (! class_exists('GFForms')) {
     die();
 }
 
@@ -21,7 +21,7 @@ class HWCodesValidation extends \GF_Field
         add_action('gform_editor_js_set_default_values', function () { ?>
             case "hw-codes-validation":
             if (!field.label)
-            field.label = <?php echo json_encode(esc_html__('Code validation field', 'openpdd-hoeksche-waard')); ?>;
+            field.label = <?php echo json_encode(esc_html__('Code validation field', 'hoekschewaard')); ?>;
             break;
 <?php
         });
@@ -35,17 +35,17 @@ class HWCodesValidation extends \GF_Field
      */
     public function get_description($description, $css_class): string
     {
-        $is_form_editor  = $this->is_form_editor();
+        $is_form_editor = $this->is_form_editor();
         $is_entry_detail = $this->is_entry_detail();
-        $is_admin        = $is_form_editor || $is_entry_detail;
-        $id              = "gfield_description_{$this->formId}_{$this->id}";
+        $is_admin = $is_form_editor || $is_entry_detail;
+        $id = "gfield_description_{$this->formId}_{$this->id}";
 
         $description = '';
         if ($this->is_form_editor()) {
             $description = strip_tags($description);
         }
 
-        return $is_admin || !empty($description) ? "<div class='$css_class' id='$id'>" . $description . '</div>' : '';
+        return $is_admin || ! empty($description) ? "<div class='$css_class' id='$id'>" . $description . '</div>' : '';
     }
 
     /**
@@ -58,30 +58,30 @@ class HWCodesValidation extends \GF_Field
     public function get_field_input($form, $value = '', $entry = null): string
     {
         $is_entry_detail = $this->is_entry_detail();
-        $is_form_editor  = $this->is_form_editor();
+        $is_form_editor = $this->is_form_editor();
 
-        $form_id  = absint($form['id']);
-        $id       = intval($this->id);
+        $form_id = absint($form['id']);
+        $id = intval($this->id);
         $field_id = $is_entry_detail || $is_form_editor || 0 == $form_id ? "input_$id" : 'input_' . $form_id . "_$id";
-        $form_id  = ($is_entry_detail || $is_form_editor) && empty($form_id) ? rgget('id') : $form_id;
+        $form_id = ($is_entry_detail || $is_form_editor) && empty($form_id) ? rgget('id') : $form_id;
 
-        $disabled_text       = $is_form_editor ? "disabled='disabled'" : '';
-        $class_suffix        = $is_entry_detail ? '_admin' : '';
+        $disabled_text = $is_form_editor ? "disabled='disabled'" : '';
+        $class_suffix = $is_entry_detail ? '_admin' : '';
 
-        $required_attribute  = 'aria-required="true"';
-        $invalid_attribute     = $this->failed_validation ? 'aria-invalid="true"' : 'aria-invalid="false"';
-        $aria_describedby      = $this->get_aria_describedby();
+        $required_attribute = 'aria-required="true"';
+        $invalid_attribute = $this->failed_validation ? 'aria-invalid="true"' : 'aria-invalid="false"';
+        $aria_describedby = $this->get_aria_describedby();
 
         $validationCode = '';
 
         if (is_array($value)) {
-            $validationCode  = esc_attr(rgget($this->id, $value));
+            $validationCode = esc_attr(rgget($this->id, $value));
         }
 
-        $validationCodeValue  = GFFormsModel::get_input($this, $this->id);
+        $validationCodeValue = GFFormsModel::get_input($this, $this->id);
 
         $single_placeholder_attribute = $this->get_field_placeholder_attribute();
-        $validationCode_placeholder_attribute   = $this->get_input_placeholder_attribute($validationCodeValue);
+        $validationCode_placeholder_attribute = $this->get_input_placeholder_attribute($validationCodeValue);
         $class = '';
 
         if ($is_form_editor) {
@@ -92,10 +92,11 @@ class HWCodesValidation extends \GF_Field
                         <div class='gf_clear gf_clear_complex'></div>
                     </div>";
         } else {
-            if (!$is_entry_detail) {
+            if (! $is_entry_detail) {
                 $first_tabindex = $this->get_tabindex();
                 $validationCode = is_array($value) ? rgar($value, 0) : $value;
                 $validationCode = esc_attr($validationCode);
+
                 return "<div class='ginput_complex ginput_container ginput_container_code_validation' id='{$field_id}_container'>
                             <span id='{$field_id}_container' class='ginput_left{$class_suffix}'>
                                 <input name='input_{$id}' type='text' id='{$field_id}' value='{$validationCode}' {$first_tabindex} {$disabled_text} {$single_placeholder_attribute} {$validationCode_placeholder_attribute} {$required_attribute} {$invalid_attribute}/>
@@ -104,8 +105,8 @@ class HWCodesValidation extends \GF_Field
                         </div>";
             } else {
                 $tabindex = $this->get_tabindex();
-                $value    = esc_attr($value);
-                $class    = esc_attr($class);
+                $value = esc_attr($value);
+                $class = esc_attr($class);
 
                 return "<div class='ginput_complex ginput_container ginput_container_code_validation'>
                             <input name='input_{$id}' id='{$field_id}' type='text' value='$value' class='{$class}' {$tabindex} {$disabled_text} {$single_placeholder_attribute} {$required_attribute} {$invalid_attribute} {$aria_describedby}/>
@@ -141,7 +142,7 @@ class HWCodesValidation extends \GF_Field
     {
         return [
             'group' => 'hw_fields',
-            'text'  => $this->get_form_editor_field_title()
+            'text'  => $this->get_form_editor_field_title(),
         ];
     }
 
@@ -158,7 +159,7 @@ class HWCodesValidation extends \GF_Field
      */
     public function get_form_editor_field_title(): string
     {
-        return esc_attr__('Code validation', 'openpdd-hoeksche-waard');
+        return esc_attr__('Code validation', 'hoekschewaard');
     }
 
     /**
@@ -174,13 +175,13 @@ class HWCodesValidation extends \GF_Field
     {
         $validationCode = rgpost('input_' . $this->id);
         if (empty($validationCode)) {
-            $this->failed_validation  = true;
-            $this->validation_message = empty($this->errorMessage) ? esc_html__('This field is required', 'openpdd-hoeksche-waard') : $this->errorMessage;
+            $this->failed_validation = true;
+            $this->validation_message = empty($this->errorMessage) ? esc_html__('This field is required', 'hoekschewaard') : $this->errorMessage;
         } else {
             $validationCodes = array_map('trim', explode(PHP_EOL, $this->description));
-            if (!in_array($validationCode, $validationCodes)) {
-                $this->failed_validation  = true;
-                $this->validation_message = empty($this->errorMessage) ? esc_html__('The code is not valid', 'openpdd-hoeksche-waard') : $this->errorMessage;
+            if (! in_array($validationCode, $validationCodes)) {
+                $this->failed_validation = true;
+                $this->validation_message = empty($this->errorMessage) ? esc_html__('The code is not valid', 'hoekschewaard') : $this->errorMessage;
             }
         }
     }
