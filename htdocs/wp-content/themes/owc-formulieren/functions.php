@@ -6,7 +6,6 @@ defined('ABSPATH') || exit;
 // Bootstrap application
 $includes = [
     'src/hooks.php',
-    'src/setup.php',
 ];
 
 foreach ($includes as $file) {
@@ -229,4 +228,14 @@ add_action('after_setup_theme', function () {
         'header-text' => ['site-title', 'site-description'],
     ]);
 
+});
+
+/**
+ * Setup theme
+ */
+add_action('after_setup_theme', function () {
+    load_theme_textdomain(get_template(), get_template_directory() . '/languages');
+    if (is_child_theme()) {
+        load_textdomain(get_stylesheet(), get_stylesheet_directory() . '/languages');
+    }
 });

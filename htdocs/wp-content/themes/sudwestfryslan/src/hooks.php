@@ -126,3 +126,7 @@ add_action('after_switch_theme', function () {
         }
     }
 });
+
+add_filter('owc_gravityforms_digid_field_display_title', function () {
+    return "Klik hier om in te loggen";
+});
