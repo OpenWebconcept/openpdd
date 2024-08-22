@@ -204,7 +204,8 @@
 		"psr-4": {
 			"App\\": "app/",
 			"HK\\": "htdocs/wp-content/themes/hollandskroon/src",
-			"HW\\": "htdocs/wp-content/themes/hoekschewaard/src"
+			"HW\\": "htdocs/wp-content/themes/hoekschewaard/src",
+			"GGD\\": "htdocs/wp-content/themes/ggd-hollands-noorden/src/GGD"
 		},
 		"files": []
 	},

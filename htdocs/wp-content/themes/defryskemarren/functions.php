@@ -3,16 +3,6 @@
 declare(strict_types=1);
 defined('ABSPATH') || exit;
 
-// PSR autoloader
-spl_autoload_register(function ($className) {
-    $baseDir = __DIR__ . '/src/';
-    $namespace = str_replace("\\", "/", __NAMESPACE__);
-    $className = str_replace("\\", "/", $className);
-    $class = $baseDir . (empty($namespace) ? "" : $namespace . "/") . $className . '.php';
-    if (file_exists($class)) {
-        require_once $class;
-    }
-});
 
 // Bootstrap application
 $includes = [
