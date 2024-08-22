@@ -239,3 +239,46 @@ add_action('after_setup_theme', function () {
         load_textdomain(get_stylesheet(), get_stylesheet_directory() . '/languages');
     }
 });
+
+/**
+ * Add superuser role
+ */
+add_action('after_switch_theme', function () {
+    $role = new App\Roles\Role('superuser');
+
+    if (null === $role->getRole()) {
+        $superUserConfig = get_theme_file_path('config/caps/superuser.php');
+
+        if (! file_exists($superUserConfig)) {
+            return;
+        }
+        $caps = require_once $superUserConfig;
+        $role->addRole('Super-user', $caps);
+    }
+});
+
+/**
+ * Add caps to existing roles
+ */
+add_action('after_switch_theme', function () {
+    $roles = ['editor', 'superuser'];
+    $gravityFormsConfig = get_theme_file_path('config/caps/gravityforms.php');
+
+    if (! file_exists($gravityFormsConfig)) {
+        return;
+    }
+    $caps = require_once $gravityFormsConfig;
+
+    foreach ($roles as $role) {
+        $role = new App\Roles\Role($role);
+        if (null === $role->getRole()) {
+            continue;
+        }
+
+        foreach (array_keys($caps) as $cap) {
+            if (! $role->getRole()->has_cap($cap)) {
+                $role->addCap($cap);
+            }
+        }
+    }
+}, 11);
