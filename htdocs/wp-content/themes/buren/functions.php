@@ -16,6 +16,3 @@ foreach ($includes as $file) {
     require_once $filepath;
 }
 unset($file, $filepath);
-
-// Add editor styles
-add_theme_support('editor-styles');
