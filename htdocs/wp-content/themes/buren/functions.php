@@ -1,18 +1,17 @@
 <?php
 
 declare(strict_types=1);
+
 defined('ABSPATH') || exit;
 
-// Bootstrap application
-$includes = [
-    'src/hooks.php',
-];
+add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($templates) {
+    $templates[] = 'template-single-zaak';
+    $templates[] = 'template-mijn-zaken';
+    $templates[] = 'template-mijn-zaken-main';
 
-foreach ($includes as $file) {
-    if (! $filepath = locate_template($file)) {
-        trigger_error(sprintf(__('Error locating %s for inclusion'), $file), E_USER_ERROR);
-    }
+    return $templates;
+});
 
-    require_once $filepath;
-}
-unset($file, $filepath);
+add_filter('owc_gravityforms_digid_field_display_title', function () {
+    return "Klik hier om in te loggen";
+});
