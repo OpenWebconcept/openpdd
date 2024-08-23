@@ -117,7 +117,7 @@
 		"plugin/gravityforms-csp-fixer": "0.0.4",
 		"plugin/owc-datab": "^1.0.2",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
-		"plugin/owc-gravityforms-digid": "1.5.2",
+		"plugin/owc-gravityforms-digid": "1.5.3",
 		"plugin/owc-gravityforms-eherkenning": "1.2.2",
 		"plugin/owc-gravityforms-eidas": "1.0.2",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
