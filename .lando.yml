@@ -11,11 +11,19 @@ config:
 proxy:
     appserver_nginx:
         - openpdd.lndo.site
+        - openpdd.lndo.site/gemeente-nijmegen
         - formulieren.buren.lndo.site
         - formulieren.gemeentehw.lndo.site
-        - ggdhollandsnoorden.openpdd.lndo.site
-        - hollandskroon.openpdd.lndo.site
-        - sudwestfryslan.openpdd.lndo.site
+        - formulieren.ggdhollandsnoorden.lndo.site
+        - mijn.sudwestfryslan.lndo.site
+        - mijn.hollandskroon.lndo.site
+        - mijn.barendrecht.lndo.site
+        - mijn.ridderkerk.lndo.site
+        - mijn.albrandswaard.lndo.site
+        - mijn.bar-organisatie.lndo.site
+        - mijnportaal.gouda.lndo.site
+        - mijn.defryskemarren.lndo.site
+
     mailhog:
         - mail.openpdd.lndo.site
     pma:
