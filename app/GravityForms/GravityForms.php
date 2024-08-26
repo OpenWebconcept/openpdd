@@ -8,7 +8,7 @@ class GravityForms
     private const NEW_MARKUP_VERSION = 2;
     private const INCOMPLETE_SUBMISSIONS_EXPIRATION_DAYS = 7;
 
-    public function register()
+    public function register(): void
     {
         add_action('pre_get_posts', [$this, 'handleLegacyForms']);
         add_filter('gform_form_theme_slug', [$this, 'setFormThemeSlug'], 10, 2);
@@ -24,7 +24,7 @@ class GravityForms
      * to choose whether to use the new Gravity Forms 2.5 functionality (which needs standard CSS) through the
      * "Legacy markup" toggle.
      */
-    public function handleLegacyForms()
+    public function handleLegacyForms(): void
     {
         global $post;
 

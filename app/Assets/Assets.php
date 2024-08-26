@@ -21,7 +21,7 @@ class Assets
     /**
      * Enqueues scripts and styles for the frontend.
      */
-    public static function enqueueScripts()
+    public static function enqueueScripts(): void
     {
         $assetDetails = self::getAssetDetails('frontend.asset.php');
 
@@ -49,7 +49,7 @@ class Assets
     /**
      * Enqueues scripts for the block editor.
      */
-    public static function enqueueBlockEditorScripts()
+    public static function enqueueBlockEditorScripts(): void
     {
         $assetDetails = self::getAssetDetails('editor.asset.php');
 
@@ -89,7 +89,7 @@ class Assets
     /**
      * Replace defaultscripts with latest version
      */
-    public static function replaceDefaultScripts(\WP_Scripts $scripts)
+    public static function replaceDefaultScripts(\WP_Scripts $scripts): void
     {
         if (is_admin()) {
             return;

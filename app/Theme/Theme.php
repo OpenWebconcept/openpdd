@@ -34,7 +34,7 @@ class Theme
         'year',
     ];
 
-    public function register()
+    public function register(): void
     {
         add_action('after_setup_theme', [$this, 'registerSidebars']);
         add_action('after_setup_theme', [$this, 'registerNavMenus']);
@@ -58,7 +58,7 @@ class Theme
         );
     }
 
-    public function registerSidebars()
+    public function registerSidebars(): void
     {
         $sidebars = $this->getConfig('sidebars', []);
         foreach ($sidebars as $sidebar) {
@@ -73,13 +73,13 @@ class Theme
         }
     }
 
-    public function registerNavMenus()
+    public function registerNavMenus(): void
     {
         $menus = $this->getConfig('menus', []);
         register_nav_menus($menus);
     }
 
-    public function loadTextDomains()
+    public function loadTextDomains(): void
     {
         load_theme_textdomain(get_template(), get_template_directory() . '/languages');
         if (is_child_theme()) {
@@ -87,7 +87,7 @@ class Theme
         }
     }
 
-    public function addThemeSupport()
+    public function addThemeSupport(): void
     {
         // Add default posts and comments RSS feed links to head.
         add_theme_support('automatic-feed-links');
@@ -119,7 +119,7 @@ class Theme
         ]);
     }
 
-    public function addSuperuserRole()
+    public function addSuperuserRole(): void
     {
         $role = new Role('superuser');
 
@@ -131,7 +131,7 @@ class Theme
         $role->addRole('Super-user', $caps);
     }
 
-    public function addGravityFormsCaps()
+    public function addGravityFormsCaps(): void
     {
         $$caps = $this->getConfig('caps/gravityforms', []);
         foreach ($roles as $role) {

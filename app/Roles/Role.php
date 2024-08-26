@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Roles;
 
+use WP_Role;
+
 class Role
 {
     public string $role;
@@ -13,7 +15,7 @@ class Role
         $this->role = $role;
     }
 
-    public function getRole(): ?object
+    public function getRole(): ?WP_Role
     {
         return get_role($this->role);
     }
