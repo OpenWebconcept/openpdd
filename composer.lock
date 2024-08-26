@@ -4,8 +4,49 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
+<<<<<<< HEAD
 	"content-hash": "5cca2f563231b0bb1e83de497656160c",
+=======
+	"content-hash": "e2b766d505c8a0d7dc4471fd5b945dc7",
+>>>>>>> 55ae8b1 ((chore): install jcc-appointments & acato klant interactie plugin + update deps)
 	"packages": [
+		{
+			"name": "acato/klantinteractie",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-klantinteractie.git",
+				"reference": "9d29b4056b04b593b708c6d9168255ca8cb976a6"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-klantinteractie/zipball/9d29b4056b04b593b708c6d9168255ca8cb976a6",
+				"reference": "9d29b4056b04b593b708c6d9168255ca8cb976a6",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "~1.0",
+				"firebase/php-jwt": "^6.1"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"authors": [
+				{
+					"name": "Richard Korthuis",
+					"email": "richardkorthuis@acato.nl",
+					"homepage": "https://acato.nl",
+					"role": "Backend WordPress Developer"
+				}
+			],
+			"support": {
+				"source": "https://github.com/OpenWebconcept/plugin-klantinteractie/tree/main",
+				"issues": "https://github.com/OpenWebconcept/plugin-klantinteractie/issues"
+			},
+			"time": "2024-06-24T11:18:38+00:00"
+		},
 		{
 			"name": "aura/session",
 			"version": "2.1.0",
@@ -3307,6 +3348,66 @@
 			"time": "2024-08-14T14:40:56+00:00"
 		},
 		{
+			"name": "plugin/owc-gravityforms-jcc-appointments",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
+				"reference": "39a4f00d12f88a47802e54058d838a158f0fda60"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/39a4f00d12f88a47802e54058d838a158f0fda60",
+				"reference": "39a4f00d12f88a47802e54058d838a158f0fda60",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.4|^8.0"
+			},
+			"require-dev": {
+				"10up/wp_mock": "^0.5.0",
+				"friendsofphp/php-cs-fixer": "^3.0",
+				"phpunit/phpunit": "^9.0",
+				"symfony/var-dumper": "^5.1"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"autoload": {
+				"psr-4": {
+					"OWC\\Appointments\\": "./src/Appointments"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"OWC\\Appointments\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"phpunit": [
+					"./vendor/bin/phpunit"
+				],
+				"test": [
+					"phpunit --testdox --colors=always --bootstrap='./tests/bootstrap.php' tests "
+				],
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				]
+			},
+			"authors": [
+				{
+					"name": "Yard | Digital Agency",
+					"email": "info@yard.nl",
+					"homepage": "https://www.yard.nl"
+				}
+			],
+			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
+			"support": {
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/main",
+				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
+			},
+			"time": "2024-08-29T12:53:50+00:00"
+		},
+		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
 			"version": "v1.0.5",
 			"source": {
@@ -3370,16 +3471,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.1.0",
+			"version": "dev-feat/add-procura-as-supplier",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "cf2d2eead2582f67012a85f308a402f6afd20b8c"
+				"reference": "c5b3e2c6c68e666c0718b1ae57f9542b3e52d6df"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/cf2d2eead2582f67012a85f308a402f6afd20b8c",
-				"reference": "cf2d2eead2582f67012a85f308a402f6afd20b8c",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/c5b3e2c6c68e666c0718b1ae57f9542b3e52d6df",
+				"reference": "c5b3e2c6c68e666c0718b1ae57f9542b3e52d6df",
 				"shasum": ""
 			},
 			"require": {
@@ -3427,10 +3528,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.1.0",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/add-procura-as-supplier",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-09-12T12:45:17+00:00"
+			"time": "2024-08-09T05:56:23+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3592,16 +3693,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.4.1",
+			"version": "dev-feat/age-check-gf-field",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "484e767042aad8933230234ae4e16e3b9f5791a6"
+				"reference": "2a18c7fe5fcf1462c462d7267516a795c7b40314"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/484e767042aad8933230234ae4e16e3b9f5791a6",
-				"reference": "484e767042aad8933230234ae4e16e3b9f5791a6",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2a18c7fe5fcf1462c462d7267516a795c7b40314",
+				"reference": "2a18c7fe5fcf1462c462d7267516a795c7b40314",
 				"shasum": ""
 			},
 			"require": {
@@ -3647,10 +3748,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.4.1",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/age-check-gf-field",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-09-17T11:35:21+00:00"
+			"time": "2024-08-29T12:46:45+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -10959,8 +11060,12 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"acato/klantinteractie": 20,
 		"plugin/formio-wordpress": 20,
+		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
+		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"deployer/recipes": 20
 	},
