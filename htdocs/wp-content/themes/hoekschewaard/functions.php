@@ -118,5 +118,5 @@ add_filter('owc_gravityforms_zaaksysteem_templates_to_validate', function ($temp
 });
 
 add_filter('owc_gravityforms_digid_field_display_title', function () {
-    return "Klik hier om in te loggen";
+    return 'Klik hier om in te loggen';
 });
