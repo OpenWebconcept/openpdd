@@ -2,10 +2,10 @@
 
 namespace App\GravityForms;
 
+use GFCommon;
+
 class GravityForms
 {
-    private const LEGACY_MARKUP_VERSION = 1;
-    private const NEW_MARKUP_VERSION = 2;
     private const INCOMPLETE_SUBMISSIONS_EXPIRATION_DAYS = 7;
 
     public function register(): void
@@ -32,7 +32,7 @@ class GravityForms
             ! function_exists('has_blocks')
             || ! is_a($post, \WP_Post::class)
             || ! has_blocks($post->post_content)
-            || ! class_exists('GFAPI')
+            || ! class_exists('GFCommon')
         ) {
             return;
         }
@@ -48,12 +48,10 @@ class GravityForms
             if (! $formID) {
                 continue;
             }
-            $form = \GFAPI::get_form($formID);
 
-            // No database value or 1 means legacy markup enabled, disable CSS.
-            if(! isset($form['markupVersion']) || self::LEGACY_MARKUP_VERSION === $form['markupVersion']) {
+            if(GFCommon::is_legacy_markup_enabled($formID)) {
                 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
-            } elseif(self::NEW_MARKUP_VERSION === $form['markupVersion']) {
+            } else {
                 add_filter('pre_option_rg_gforms_disable_css', '__return_false');
             }
         }
@@ -61,6 +59,6 @@ class GravityForms
 
     public function setFormThemeSlug(string $slug, array $form): string
     {
-        return (self::NEW_MARKUP_VERSION === ($form['markupVersion'] ?? 0)) ? 'gravity-theme' : $slug;
+        return GFCommon::is_legacy_markup_enabled($form['id']) ? $slug : 'gravity-theme';
     }
 }
