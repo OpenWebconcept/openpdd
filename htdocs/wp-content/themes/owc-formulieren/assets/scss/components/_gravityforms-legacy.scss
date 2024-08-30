@@ -408,9 +408,14 @@
 	}
 
 	.gsection {
+		flex-direction: column;
 		justify-content: flex-start;
-		border-bottom: 1px solid gray( '300' );
-		margin-bottom: $spacer 0;
+		margin-bottom: $spacer * 2;
+
+		.gsection_title {
+			padding-bottom: $spacer * 0.5;
+			border-bottom: 1px solid gray( '300' );
+		}
 
 		ul {
 			margin-bottom: $spacer;
