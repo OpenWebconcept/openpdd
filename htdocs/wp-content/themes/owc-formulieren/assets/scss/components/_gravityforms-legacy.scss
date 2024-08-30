@@ -134,6 +134,10 @@
 			margin-top: $spacer;
 			background-color: rgba( $danger, 0.05 );
 			color: $danger;
+
+			&:empty {
+				display: none;
+			}
 		}
 	}
 
