@@ -2715,12 +2715,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7"
+				"reference": "e725e68adec211c98770028b783191358faa4135"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
-				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/e725e68adec211c98770028b783191358faa4135",
+				"reference": "e725e68adec211c98770028b783191358faa4135",
 				"shasum": ""
 			},
 			"require": {
@@ -2771,7 +2771,7 @@
 				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/feat/check-status",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2024-08-23T11:58:29+00:00"
+			"time": "2024-09-02T06:55:35+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
