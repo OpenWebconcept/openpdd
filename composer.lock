@@ -2956,16 +2956,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "v1.5.3",
+			"version": "dev-master",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-				"reference": "64913686917b2be49f43a4dc9ac470d91a471429"
+				"reference": "7dfa77a6e5c2f0b4b6ac4382b42c54bcf4b0d8a0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/64913686917b2be49f43a4dc9ac470d91a471429",
-				"reference": "64913686917b2be49f43a4dc9ac470d91a471429",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/7dfa77a6e5c2f0b4b6ac4382b42c54bcf4b0d8a0",
+				"reference": "7dfa77a6e5c2f0b4b6ac4382b42c54bcf4b0d8a0",
 				"shasum": ""
 			},
 			"require": {
@@ -2984,6 +2984,7 @@
 				"phpunit/phpunit": "~9.0",
 				"szepeviktor/phpstan-wordpress": "^0.7.0"
 			},
+			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -3015,10 +3016,10 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.5.3",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/master",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2024-08-23T08:44:19+00:00"
+			"time": "2024-09-03T14:56:55+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
@@ -3158,12 +3159,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "194d25b100937546261c9d747bf62cea32193a22"
+				"reference": "8892c5358515a2e28b8b1edc33419ba6d66bce53"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/194d25b100937546261c9d747bf62cea32193a22",
-				"reference": "194d25b100937546261c9d747bf62cea32193a22",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/8892c5358515a2e28b8b1edc33419ba6d66bce53",
+				"reference": "8892c5358515a2e28b8b1edc33419ba6d66bce53",
 				"shasum": ""
 			},
 			"require": {
@@ -3206,7 +3207,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/main",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2024-08-30T14:33:00+00:00"
+			"time": "2024-09-03T15:21:11+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -3428,7 +3429,6 @@
 				"type": "zip",
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/c42fca785010ef8ae945aec497aba1ddcb376cbe",
 				"reference": "c42fca785010ef8ae945aec497aba1ddcb376cbe",
-				"shasum": ""
 			},
 			"require": {
 				"cmdisp/monolog-microsoft-teams": "1.3.0",
@@ -3475,7 +3475,15 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
+<<<<<<< HEAD
 			"time": "2024-10-09T14:35:29+00:00"
+=======
+<<<<<<< HEAD
+			"time": "2024-09-04T09:16:58+00:00"
+=======
+			"time": "2024-09-03T13:42:55+00:00"
+>>>>>>> fa81beb ((chore): update deps)
+>>>>>>> 988e32f ((chore): update deps)
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -3483,12 +3491,21 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
+<<<<<<< HEAD
 				"reference": "6a05014925e16aa98c0ca7273e76796f0a0ab766"
 			},
 			"dist": {
 				"type": "zip",
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/6a05014925e16aa98c0ca7273e76796f0a0ab766",
 				"reference": "6a05014925e16aa98c0ca7273e76796f0a0ab766",
+=======
+				"reference": "29b8b3b4ef07f74a6b8a52efff26f8491bf4e849"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/29b8b3b4ef07f74a6b8a52efff26f8491bf4e849",
+				"reference": "29b8b3b4ef07f74a6b8a52efff26f8491bf4e849",
+>>>>>>> 988e32f ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -3534,7 +3551,11 @@
 				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.3",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
+<<<<<<< HEAD
 			"time": "2024-10-23T12:51:24+00:00"
+=======
+			"time": "2024-08-30T17:12:28+00:00"
+>>>>>>> 988e32f ((chore): update deps)
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -10317,6 +10338,7 @@
 		"acato/klantinteractie": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/gravityforms-amp-booking": 20,
+		"plugin/owc-gravityforms-digid": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
