@@ -1,0 +1,96 @@
+@import './colors';
+
+/*--------------------------------------------------------------
+  Fonts
+--------------------------------------------------------------*/
+$font-size-base: 1rem;
+$font-family-sans-serif:
+	-apple-system,
+	BlinkMacSystemFont,
+	'Segoe UI',
+	Source Sans Pro,
+	'Helvetica Neue',
+	Arial,
+	sans-serif,
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol';
+$font-family-base: 'Roboto', $font-family-sans-serif;
+$font-weight-base: 300;
+$line-height-base: 1.75;
+$enable-responsive-font-sizes: true;
+
+$small-font-size: $font-size-base * 0.9;
+$xs-small-font-size: $small-font-size * 0.9;
+
+$lead-font-weight: 400;
+$lead-font-size: $font-size-base * 1.1;
+
+/*--------------------------------------------------------------
+  Colors
+--------------------------------------------------------------*/
+$body-bg: #f2f7fa;
+$body-color: #000;
+$danger: #e00614;
+$succes: #0d8228;
+$text-muted: #687078;
+$link-color: #2c2276;
+
+/*--------------------------------------------------------------
+  Paragraph
+--------------------------------------------------------------*/
+$paragraph-margin-bottom: 1.5rem;
+
+/*--------------------------------------------------------------
+  Headings
+--------------------------------------------------------------*/
+$h1-font-size: $font-size-base * 2.3 !default;
+$h2-font-size: $font-size-base * 1.65 !default;
+$h3-font-size: $font-size-base * 1.3 !default;
+$h4-font-size: $font-size-base * 1.2 !default;
+$h5-font-size: $font-size-base * 1.1 !default;
+$h6-font-size: $font-size-base !default;
+
+$headings-color: #2c2276;
+$headings-font-family: $font-family-base;
+$headings-margin-bottom: 0.6rem;
+$headings-font-weight: 700;
+
+/*--------------------------------------------------------------
+  Border radius
+--------------------------------------------------------------*/
+$border-radius: 5px;
+
+/*--------------------------------------------------------------
+  Buttons
+--------------------------------------------------------------*/
+$btn-padding-y: 1em;
+$btn-padding-x: 1em;
+$btn-font-size: 0.9rem;
+$btn-font-weight: 500;
+$btn-border-width: 0;
+$btn-border-radius: $border-radius;
+$btn-font-family: 'Roboto Slab', $font-family-sans-serif;
+$btn-line-height: 1.5;
+$btn-box-shadow: none;
+
+/*--------------------------------------------------------------
+  Components
+--------------------------------------------------------------*/
+$box-shadow: rgb( 100 100 111 / 8% ) 0px 5px 12px 0px;
+
+/*--------------------------------------------------------------
+  Forms
+--------------------------------------------------------------*/
+$input-padding-y: 0.5rem;
+$input-padding-x: 0.8rem;
+$input-border-radius: 0;
+$input-border-width: 0;
+$input-focus-box-shadow: none;
+$input-bg: $body-bg;
+
+/*--------------------------------------------------------------
+  Transition
+--------------------------------------------------------------*/
+$transition-timing: cubic-bezier( 0.22, 1, 0.36, 1 ); // EaseOutQuint
+$transition-base: all 0.5s $transition-timing; // EaseOutQuint
