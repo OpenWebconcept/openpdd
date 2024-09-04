@@ -6,6 +6,7 @@
 * Standard button
 */
 @mixin button {
+	display: inline-block;
 	padding: $btn-padding-y $btn-padding-x;
 	border-width: $btn-border-width;
 	border-style: $btn-border-style;
