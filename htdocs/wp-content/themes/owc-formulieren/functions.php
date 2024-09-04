@@ -113,3 +113,22 @@ function is_rest()
 
     return (strpos($current_url_path, $rest_url['path'], 0) === 0);
 }
+
+
+function load_home_config($config_file) {
+    $file_path = get_stylesheet_directory() . '/config/' . $config_file;
+
+    if (file_exists($file_path)) {
+        return include $file_path;
+    }
+
+	// Default config
+    return [
+        'digid_is_active' => true,
+        'digid_provider' => 'owc-signicat-openid',
+        'eherkenning_is_active' => true,
+        'eherkenning_provider' => 'owc-signicat-openid',
+        'eidas_is_active' => true,
+        'eidas_provider' => 'owc-signicat-openid',
+    ];
+}
