@@ -3642,6 +3642,7 @@
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91"
 			},
 			"dist": {
@@ -3656,6 +3657,14 @@
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/9bc3f76a8c0aa778412939c99a768c77e20b0fdb",
 				"reference": "9bc3f76a8c0aa778412939c99a768c77e20b0fdb",
 >>>>>>> fa81beb ((chore): update deps)
+=======
+				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a4dd811609780398a2a57c7e0b7d4877b1197e91",
+				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91",
+>>>>>>> 1a135ff ((chore): update plugin/owc-signicat-openid dev-feat/poc)
 				"shasum": ""
 			},
 			"require": {
@@ -3708,10 +3717,14 @@
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"time": "2024-09-04T09:16:58+00:00"
 =======
 			"time": "2024-09-03T13:42:55+00:00"
 >>>>>>> fa81beb ((chore): update deps)
+=======
+			"time": "2024-09-04T09:16:58+00:00"
+>>>>>>> 1a135ff ((chore): update plugin/owc-signicat-openid dev-feat/poc)
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
