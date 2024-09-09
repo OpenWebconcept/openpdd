@@ -4,7 +4,27 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
+<<<<<<< HEAD
 	"content-hash": "6f9f187377b00be905709e619c3e716c",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	"content-hash": "5cca2f563231b0bb1e83de497656160c",
+=======
+	"content-hash": "e2b766d505c8a0d7dc4471fd5b945dc7",
+>>>>>>> 55ae8b1 ((chore): install jcc-appointments & acato klant interactie plugin + update deps)
+=======
+	"content-hash": "a80c38918b04e7aa5629c201a5b385df",
+>>>>>>> cc0942f ((chore): update deps)
+=======
+	"content-hash": "c8b0c4fbb9fc02e4056ce9579d839fea",
+>>>>>>> fa81beb ((chore): update deps)
+=======
+	"content-hash": "153f8df26cc8986c40bcd7da8847deec",
+>>>>>>> 79d2aba ((chore) update csp fixer plugin)
+>>>>>>> 17f5007 ((chore) update csp fixer plugin)
 	"packages": [
 		{
 			"name": "acato/klantinteractie",
@@ -2775,16 +2795,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.0.4",
+			"version": "v0.0.5",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "f071b18756b2febbd7effcf01f5df965e8a183f6"
+				"reference": "5a9c8c4f85511df8ebf4ed4005b67fe575f99495"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/f071b18756b2febbd7effcf01f5df965e8a183f6",
-				"reference": "f071b18756b2febbd7effcf01f5df965e8a183f6",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/5a9c8c4f85511df8ebf4ed4005b67fe575f99495",
+				"reference": "5a9c8c4f85511df8ebf4ed4005b67fe575f99495",
 				"shasum": ""
 			},
 			"require": {
@@ -2824,10 +2844,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.4",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.5",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2024-08-15T06:21:06+00:00"
+			"time": "2024-09-05T13:32:32+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
