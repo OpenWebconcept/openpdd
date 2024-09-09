@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"content-hash": "5cca2f563231b0bb1e83de497656160c",
 =======
 	"content-hash": "e2b766d505c8a0d7dc4471fd5b945dc7",
@@ -21,6 +22,9 @@
 =======
 	"content-hash": "153f8df26cc8986c40bcd7da8847deec",
 >>>>>>> 79d2aba ((chore) update csp fixer plugin)
+=======
+	"content-hash": "9d6e350e5a9a7545f87ed04028869720",
+>>>>>>> cc2ba92 ((chore): update deps)
 	"packages": [
 		{
 			"name": "acato/klantinteractie",
@@ -2886,12 +2890,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "e725e68adec211c98770028b783191358faa4135"
+				"reference": "1dbf970267a3bc0a09eecbcdb233618477923c20"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/e725e68adec211c98770028b783191358faa4135",
-				"reference": "e725e68adec211c98770028b783191358faa4135",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/1dbf970267a3bc0a09eecbcdb233618477923c20",
+				"reference": "1dbf970267a3bc0a09eecbcdb233618477923c20",
 				"shasum": ""
 			},
 			"require": {
@@ -2945,10 +2949,10 @@
 			],
 			"description": "GravityForms AMP Booking",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/feat/check-status",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.0",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2024-09-02T06:55:35+00:00"
+			"time": "2024-09-11T08:56:16+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
@@ -3366,12 +3370,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "8892c5358515a2e28b8b1edc33419ba6d66bce53"
+				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/8892c5358515a2e28b8b1edc33419ba6d66bce53",
-				"reference": "8892c5358515a2e28b8b1edc33419ba6d66bce53",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
+				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
 				"shasum": ""
 			},
 			"require": {
@@ -3418,7 +3422,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/main",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2024-09-03T15:21:11+00:00"
+			"time": "2024-09-09T15:09:42+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -3484,16 +3488,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "dev-feat/add-procura-as-supplier",
+			"version": "v2.1.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "8a59885af9f6e6d2b222af706867eae93f82d742"
+				"reference": "cf2d2eead2582f67012a85f308a402f6afd20b8c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/8a59885af9f6e6d2b222af706867eae93f82d742",
-				"reference": "8a59885af9f6e6d2b222af706867eae93f82d742",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/cf2d2eead2582f67012a85f308a402f6afd20b8c",
+				"reference": "cf2d2eead2582f67012a85f308a402f6afd20b8c",
 				"shasum": ""
 			},
 			"require": {
@@ -3541,10 +3545,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/add-procura-as-supplier",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.1.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-09-03T14:40:51+00:00"
+			"time": "2024-09-12T12:45:17+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3736,12 +3740,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "29b8b3b4ef07f74a6b8a52efff26f8491bf4e849"
+				"reference": "06acbb6a4d69f6a4b0796119196a14ddb3696b39"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/29b8b3b4ef07f74a6b8a52efff26f8491bf4e849",
-				"reference": "29b8b3b4ef07f74a6b8a52efff26f8491bf4e849",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/06acbb6a4d69f6a4b0796119196a14ddb3696b39",
+				"reference": "06acbb6a4d69f6a4b0796119196a14ddb3696b39",
 				"shasum": ""
 			},
 			"require": {
@@ -3790,7 +3794,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/age-check-gf-field",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-08-30T17:12:28+00:00"
+			"time": "2024-09-12T12:55:15+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -11101,10 +11105,8 @@
 	"stability-flags": {
 		"acato/klantinteractie": 20,
 		"plugin/formio-wordpress": 20,
-		"plugin/gravityforms-amp-booking": 20,
 		"plugin/owc-gravityforms-digid": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,

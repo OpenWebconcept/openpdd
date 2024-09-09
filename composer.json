@@ -135,7 +135,7 @@
 		"php-di/php-di": "^6.0",
 		"plugin/config-expander": "^2.0",
 		"plugin/formio-wordpress": "dev-main",
-		"plugin/gravityforms-amp-booking": "^1.4",
+		"plugin/gravityforms-amp-booking": "^1.4.0",
 		"plugin/gravityforms-csp-fixer": "^0.0.5",
 		"plugin/owc-datab": "^1.0.3",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
