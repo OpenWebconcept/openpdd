@@ -249,7 +249,7 @@
 
 			// Custom checkbox
 			input[type='checkbox'] {
-				@include custom-input-icon( '\f0c8', '\f14a', -4px, 7px );
+				@include custom-input-icon( '\f0c8', '\f14a', 0px, 7px );
 
 				&:focus {
 					& + label {
@@ -314,7 +314,7 @@
 		}
 
 		table tbody table tr {
-			background-color: $pagination-bg;
+			background-color: gray( 'ghost' );
 
 			td {
 				font-weight: bold;
