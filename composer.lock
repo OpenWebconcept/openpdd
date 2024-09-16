@@ -3296,16 +3296,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.2",
+			"version": "v2.3.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "757aabce8930d4be66c96ef71c8bb060a712bcc2"
+				"reference": "62b44a79fdc4c466a80c5cb85616f887099abdc3"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/757aabce8930d4be66c96ef71c8bb060a712bcc2",
-				"reference": "757aabce8930d4be66c96ef71c8bb060a712bcc2",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/62b44a79fdc4c466a80c5cb85616f887099abdc3",
+				"reference": "62b44a79fdc4c466a80c5cb85616f887099abdc3",
 				"shasum": ""
 			},
 			"require": {
@@ -3354,10 +3354,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.2",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.3.1",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2024-08-01T08:28:30+00:00"
+			"time": "2024-09-17T09:39:57+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
