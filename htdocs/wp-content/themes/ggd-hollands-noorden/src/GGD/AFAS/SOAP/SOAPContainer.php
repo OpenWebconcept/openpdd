@@ -59,7 +59,7 @@ class SOAPContainer
                 }
 
                 return $logger->pushHandler(new \CMDISP\MonologMicrosoftTeams\TeamsLogHandler(
-                    $_ENV['GGD_TEAMS_WEBHOOK'],
+                    $_ENV['GGD_TEAMS_WEBHOOK'] ?? '',
                     \Monolog\Logger::INFO
                 ));
             },
