@@ -8,6 +8,10 @@ WordPress project for the [Portaal Digitale Diensten](https://openwebconcept.nl/
 2. Create and configure an `.env` file based on `.env.example`
 3. Run `composer install` to install PHP dependencies
 
+## ⚙️ Deployment
+
+This project does not include a deployment mechanism (`deploy.php`). There is a [separate private repository](https://github.com/yardinternet/openpdd-deployer) for this purpose.
+
 ## 🎨 Theme development
 
 1. Run `nvm use` to automatically use the correct Node version
