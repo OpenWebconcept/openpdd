@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "2f44c1f837301b971bf09662e0c57fab",
+	"content-hash": "452f8bf6149d472d28cde946a2eae800",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2691,16 +2691,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-amp-booking",
-			"version": "v1.5.1",
+			"version": "v1.5.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "9122b00eae560aa5672ff1bf80bcb2f3be92f5d8"
+				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/9122b00eae560aa5672ff1bf80bcb2f3be92f5d8",
-				"reference": "9122b00eae560aa5672ff1bf80bcb2f3be92f5d8",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
+				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
 				"shasum": ""
 			},
 			"require": {
@@ -2754,10 +2754,10 @@
 			],
 			"description": "GravityForms AMP Booking",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.1",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.2",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2024-09-16T10:54:14+00:00"
+			"time": "2024-09-20T10:59:22+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
@@ -3457,16 +3457,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.4.0",
+			"version": "v1.4.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "8149767f325d498b781b9572fd5b00d47d021855"
+				"reference": "484e767042aad8933230234ae4e16e3b9f5791a6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/8149767f325d498b781b9572fd5b00d47d021855",
-				"reference": "8149767f325d498b781b9572fd5b00d47d021855",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/484e767042aad8933230234ae4e16e3b9f5791a6",
+				"reference": "484e767042aad8933230234ae4e16e3b9f5791a6",
 				"shasum": ""
 			},
 			"require": {
@@ -3512,10 +3512,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.4.0",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.4.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-09-16T14:03:20+00:00"
+			"time": "2024-09-17T11:35:21+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6028,15 +6028,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/pronamic-ideal",
-			"version": "9.5.1",
+			"version": "9.6.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-				"reference": "tags/9.5.1"
+				"reference": "tags/9.6.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.5.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6675,24 +6675,24 @@
 		},
 		{
 			"name": "composer/semver",
-			"version": "3.4.2",
+			"version": "3.4.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/composer/semver.git",
-				"reference": "c51258e759afdb17f1fd1fe83bc12baaef6309d6"
+				"reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/composer/semver/zipball/c51258e759afdb17f1fd1fe83bc12baaef6309d6",
-				"reference": "c51258e759afdb17f1fd1fe83bc12baaef6309d6",
+				"url": "https://api.github.com/repos/composer/semver/zipball/4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
+				"reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
 				"shasum": ""
 			},
 			"require": {
 				"php": "^5.3.2 || ^7.0 || ^8.0"
 			},
 			"require-dev": {
-				"phpstan/phpstan": "^1.4",
-				"symfony/phpunit-bridge": "^4.2 || ^5"
+				"phpstan/phpstan": "^1.11",
+				"symfony/phpunit-bridge": "^3 || ^7"
 			},
 			"type": "library",
 			"extra": {
@@ -6736,7 +6736,7 @@
 			"support": {
 				"irc": "ircs://irc.libera.chat:6697/composer",
 				"issues": "https://github.com/composer/semver/issues",
-				"source": "https://github.com/composer/semver/tree/3.4.2"
+				"source": "https://github.com/composer/semver/tree/3.4.3"
 			},
 			"funding": [
 				{
@@ -6752,7 +6752,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-12T11:35:52+00:00"
+			"time": "2024-09-19T14:15:21+00:00"
 		},
 		{
 			"name": "composer/xdebug-handler",
@@ -7975,16 +7975,16 @@
 		},
 		{
 			"name": "phpunit/phpunit",
-			"version": "9.6.20",
+			"version": "9.6.21",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/phpunit.git",
-				"reference": "49d7820565836236411f5dc002d16dd689cde42f"
+				"reference": "de6abf3b6f8dd955fac3caad3af7a9504e8c2ffa"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/49d7820565836236411f5dc002d16dd689cde42f",
-				"reference": "49d7820565836236411f5dc002d16dd689cde42f",
+				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/de6abf3b6f8dd955fac3caad3af7a9504e8c2ffa",
+				"reference": "de6abf3b6f8dd955fac3caad3af7a9504e8c2ffa",
 				"shasum": ""
 			},
 			"require": {
@@ -7999,7 +7999,7 @@
 				"phar-io/manifest": "^2.0.4",
 				"phar-io/version": "^3.2.1",
 				"php": ">=7.3",
-				"phpunit/php-code-coverage": "^9.2.31",
+				"phpunit/php-code-coverage": "^9.2.32",
 				"phpunit/php-file-iterator": "^3.0.6",
 				"phpunit/php-invoker": "^3.1.1",
 				"phpunit/php-text-template": "^2.0.4",
@@ -8058,7 +8058,7 @@
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/phpunit/issues",
 				"security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.20"
+				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.21"
 			},
 			"funding": [
 				{
@@ -8074,7 +8074,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-10T11:45:39+00:00"
+			"time": "2024-09-19T10:50:18+00:00"
 		},
 		{
 			"name": "psr/event-dispatcher",
@@ -10712,7 +10712,7 @@
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
-		"php": "^7.4"
+		"php": "<8.0"
 	},
 	"platform-dev": [],
 	"platform-overrides": {
