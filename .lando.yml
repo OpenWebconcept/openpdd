@@ -62,7 +62,7 @@ services:
             php: storage/provision/php/php.ini
             xdebug: 'develop,debug'
     node:
-        type: node
+        type: node:18
         globals:
             webpack: 'latest'
             npm: 'latest'
