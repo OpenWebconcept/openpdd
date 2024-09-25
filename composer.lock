@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"content-hash": "5cca2f563231b0bb1e83de497656160c",
 =======
 	"content-hash": "e2b766d505c8a0d7dc4471fd5b945dc7",
@@ -31,7 +32,13 @@
 =======
 	"content-hash": "9d6e350e5a9a7545f87ed04028869720",
 >>>>>>> cc2ba92 ((chore): update deps)
+<<<<<<< HEAD
 >>>>>>> c0cd75e ((chore): update deps)
+=======
+=======
+	"content-hash": "7cce7f5ba673ab6d1c3ac248205319af",
+>>>>>>> 924f1ff ((chore): update deps)
+>>>>>>> cd3720e ((chore): update deps)
 	"packages": [
 		{
 			"name": "acato/klantinteractie",
@@ -2742,12 +2749,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "1dbf970267a3bc0a09eecbcdb233618477923c20"
+				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/1dbf970267a3bc0a09eecbcdb233618477923c20",
-				"reference": "1dbf970267a3bc0a09eecbcdb233618477923c20",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
+				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
 				"shasum": ""
 			},
 			"require": {
@@ -2795,10 +2802,10 @@
 			],
 			"description": "GravityForms AMP Booking",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.0",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.2",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2024-09-11T08:56:16+00:00"
+			"time": "2024-09-20T10:59:22+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
@@ -3571,6 +3578,7 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
+<<<<<<< HEAD
 			"version": "v1.6.3",
 			"source": {
 				"type": "git",
@@ -3599,6 +3607,18 @@
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/06acbb6a4d69f6a4b0796119196a14ddb3696b39",
 				"reference": "06acbb6a4d69f6a4b0796119196a14ddb3696b39",
 >>>>>>> c0cd75e ((chore): update deps)
+=======
+			"version": "dev-feat/add-we-are-franl-as-supplier",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
+				"reference": "e1ef869b59f86469d9f963849a980476c4464354"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/e1ef869b59f86469d9f963849a980476c4464354",
+				"reference": "e1ef869b59f86469d9f963849a980476c4464354",
+>>>>>>> cd3720e ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -3641,6 +3661,7 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
+<<<<<<< HEAD
 				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.3",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
@@ -3653,6 +3674,12 @@
 =======
 			"time": "2024-09-12T12:55:15+00:00"
 >>>>>>> c0cd75e ((chore): update deps)
+=======
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/add-we-are-franl-as-supplier",
+				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
+			},
+			"time": "2024-09-25T10:41:05+00:00"
+>>>>>>> cd3720e ((chore): update deps)
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -5950,6 +5977,7 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
+<<<<<<< HEAD
 			"version": "6.18.10",
 			"source": {
 				"type": "svn",
@@ -5959,6 +5987,17 @@
 			"dist": {
 				"type": "zip",
 				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.10.zip"
+=======
+			"version": "6.18.9",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/coming-soon/",
+				"reference": "tags/6.18.9"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.9.zip"
+>>>>>>> cd3720e ((chore): update deps)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10443,9 +10482,7 @@
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
-	"platform": {
-		"php": "<8.0"
-	},
+	"platform": [],
 	"platform-dev": [],
 	"platform-overrides": {
 		"php": "7.4"
