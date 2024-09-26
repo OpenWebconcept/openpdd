@@ -3,7 +3,8 @@
 declare(strict_types=1);
 
 return [
-    'primary' => __('Primary Menu', 'owc-formulieren'),
-    'primary-mijn-zaken' => __('Mijn Zaken menu', 'owc-formulieren'),
-    'footer-bottom'      => __('Footer bottom', 'owc-formulieren'),
+    'primary' => __('Navigatiemenu', 'owc-formulieren'),
+    'primary-mijn-zaken' => __('Mijn Zaken navigatiemenu', 'owc-formulieren'),
+    'mijn-zaken-sidebar' => __('Mijn Zaken sidebar', 'owc-formulieren'),
+    'footer-bottom' => __('Footer', 'owc-formulieren'),
 ];
