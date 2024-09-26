@@ -85,9 +85,5 @@ $box-shadow:
 --------------------------------------------------------------*/
 $input-padding-y: 0.5rem;
 $input-padding-x: 0.8rem;
-$input-border-radius: 0;
-$input-border-color: gray( 'graphic' );
-$input-focus-border-color: theme-color( 'secondary' );
-$input-focus-box-shadow: none;
-$input-border-width: 0;
-$input-bg: #fff;
+$input-border-radius: $border-radius-sm;
+$input-border-color: #949494;
