@@ -4,7 +4,7 @@
  */
 get_template_part('templates/mijn-zaken/header');
 
-$home_config = load_home_config('home.php');
+$home_config = load_config('home.php');
 
 ?>
     <main class="page-main page-main--mijn-zaken-main" id="readspeaker">
@@ -15,16 +15,16 @@ $home_config = load_home_config('home.php');
 
 			<div class="row">
 				<?php echo get_template_part('templates/mijn-zaken/home/login-digid', null, [
-					'digid_is_active' => $home_config['digid_is_active'],
-					'digid_provider' => $home_config['digid_provider'],
+				    'digid_is_active' => $home_config['digid_is_active'],
+				    'digid_provider' => $home_config['digid_provider'],
 				]); ?>
 				<?php echo get_template_part('templates/mijn-zaken/home/login-eherkenning', null, [
-	                'eherkenning_is_active' => $home_config['eherkenning_is_active'],
-					'eherkenning_provider' => $home_config['eherkenning_provider'],
+				    'eherkenning_is_active' => $home_config['eherkenning_is_active'],
+				    'eherkenning_provider' => $home_config['eherkenning_provider'],
 				]); ?>
 				<?php echo get_template_part('templates/mijn-zaken/home/login-eidas', null, [
-					'eidas_is_active' => $home_config['eidas_is_active'],
-					'eidas_provider' => $home_config['eidas_provider'],
+				    'eidas_is_active' => $home_config['eidas_is_active'],
+				    'eidas_provider' => $home_config['eidas_provider'],
 				]); ?>
 			</div>
 		</div>

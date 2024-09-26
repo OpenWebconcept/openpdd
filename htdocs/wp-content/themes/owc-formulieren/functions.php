@@ -24,11 +24,11 @@ add_filter('yard/config-expander/config/admin', function ($defaults) {
 add_filter('owc/config-expander/rest-api/whitelist', function ($endpoints_whitelist) {
     $endpoints_whitelist['/irma/v1/gf/handle'] = [
         'endpoint_stub' => '/irma/v1/gf/handle',
-        'methods'       => ['POST'],
+        'methods' => ['POST'],
     ];
     $endpoints_whitelist['/irma/v1/gf/session'] = [
         'endpoint_stub' => '/irma/v1/gf/session',
-        'methods'       => ['GET'],
+        'methods' => ['GET'],
     ];
 
     return $endpoints_whitelist;
@@ -115,20 +115,19 @@ function is_rest()
 }
 
 
-function load_home_config($config_file) {
+function load_config($config_file)
+{
     $file_path = get_stylesheet_directory() . '/config/' . $config_file;
 
     if (file_exists($file_path)) {
         return include $file_path;
     }
 
-	// Default config
-    return [
-        'digid_is_active' => true,
-        'digid_provider' => 'owc-signicat-openid',
-        'eherkenning_is_active' => true,
-        'eherkenning_provider' => 'owc-signicat-openid',
-        'eidas_is_active' => true,
-        'eidas_provider' => 'owc-signicat-openid',
-    ];
+    $file_path = get_template_directory() . '/config/' . $config_file;
+
+    if (file_exists($file_path)) {
+        return include $file_path;
+    }
+
+    return [];
 }
