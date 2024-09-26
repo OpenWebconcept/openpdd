@@ -5,6 +5,6 @@ return [
     'digid_provider' => 'owc-signicat-openid',
     'eherkenning_is_active' => true,
     'eherkenning_provider' => 'owc-signicat-openid',
-    'eidas_is_active' => true,
+    'eidas_is_active' => false,
     'eidas_provider' => 'owc-signicat-openid',
 ];
