@@ -1,0 +1,43 @@
+$block: 'sidebar';
+
+.#{$block} {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+
+	.menu-item {
+		a {
+			position: relative;
+			display: inline-block;
+			padding: 0.65rem 0 0.65rem 2.5rem;
+			color: $black;
+
+			&:hover,
+			&:focus {
+				color: theme-color( 'primary' );
+				text-decoration: underline;
+			}
+		}
+
+		i {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			font-size: 1.3rem;
+			transform: translateY( -50% );
+		}
+	}
+
+	.current-menu-item {
+		a {
+			color: theme-color( 'primary' );
+			font-weight: $font-weight-bold;
+		}
+
+		i {
+			font-weight: $font-weight-base;
+		}
+	}
+}

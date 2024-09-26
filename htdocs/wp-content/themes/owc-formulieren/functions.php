@@ -6,6 +6,7 @@ defined('ABSPATH') || exit;
 
 (new App\Theme\Theme())->register();
 (new App\GravityForms\GravityForms())->register();
+(new App\Sidebar\Sidebar())->register();
 
 // Script hooks
 add_action('wp_default_scripts', [App\Assets\Assets::class, 'replaceDefaultScripts']);

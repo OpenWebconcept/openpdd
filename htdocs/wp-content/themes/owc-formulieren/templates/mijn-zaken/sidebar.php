@@ -7,6 +7,15 @@
  * @author Paul van Impelen <paul@acato.nl>
  */
 ?>
+<?php if(has_nav_menu('mijn-zaken-sidebar')) : ?>
+	<?php
+     wp_nav_menu([
+         'theme_location' => 'mijn-zaken-sidebar',
+         'depth' => 3,
+         'menu_class' => 'sidebar',
+     ]);
+    ?>
+<?php else : ?>
 <nav class="denhaag-sidenav">
     <ul class="denhaag-sidenav__list">
         <li class="denhaag-sidenav__item">
@@ -87,3 +96,4 @@
         </li>
     </ul>
 </nav>
+<?php endif; ?>
