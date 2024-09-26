@@ -109,6 +109,14 @@
 			"url": "git@github.com:OpenWebconcept/idp-userdata.git"
 		}
 	],
+	"_comment": [
+		" Mind the following package constraints:                            ",
+		"                                                                    ",
+		" * pronamic-ideal version 9.6 implicitly requires PHP 8, so we must ",
+		"   enforce 9.5.*                                                    ",
+		"                                                                    " ,
+		" Constraints last verified: 09-2024                                 "
+	],
 	"require": {
 		"php": "<8.0",
 		"bepsvpt/secure-headers": "^7.0",
