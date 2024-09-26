@@ -614,6 +614,14 @@
 		}
 	}
 
+	// Signicat styles
+	.gfield--type-owc-signicat-openid-eherkenning,
+	.gfield--type-owc-signicat-openid-digid {
+		@include media-breakpoint-up( md ) {
+			margin-left: 50%;
+		}
+	}
+
 	// Honey pot
 	.gform_validation_container,
 	li.gform_validation_container,
