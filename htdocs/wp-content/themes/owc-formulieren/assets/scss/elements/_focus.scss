@@ -1,0 +1,25 @@
+/*
+ * Class added to the body when a user uses his tab key.
+ */
+.js-user-is-tabbing {
+	@include all-focusable-elements {
+		animation-duration: 0.1s !important;
+		animation-fill-mode: both;
+		animation-name: focus !important;
+		animation-timing-function: linear !important;
+		outline: revert; // Revert Bootstrap outline
+		outline-color: -webkit-focus-ring-color;
+		outline-style: auto;
+	}
+}
+
+@keyframes focus {
+	0% {
+		outline-offset: 1em;
+	}
+
+	100% {
+		z-index: 1;
+		outline-offset: 0.3em;
+	}
+}
