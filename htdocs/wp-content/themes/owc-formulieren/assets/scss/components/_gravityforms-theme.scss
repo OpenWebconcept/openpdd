@@ -6,6 +6,10 @@
  *
  * ========================================================================= */
 .gform_wrapper.gravity-theme {
+	.gform-body .gform_fields {
+		gap: 2rem;
+	}
+
 	.ginput_container {
 		input[type='text'],
 		input[type='email'],
