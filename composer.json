@@ -105,6 +105,14 @@
 			"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git"
 		}
 	],
+	"_comment": [
+		" Mind the following package constraints:                            ",
+		"                                                                    ",
+		" * pronamic-ideal version 9.6 implicitly requires PHP 8, so we must ",
+		"   enforce 9.5.*                                                    ",
+		"                                                                    " ,
+		" Constraints last verified: 09-2024                                 "
+	],
 	"require": {
 		"php": "<8.0",
 		"bepsvpt/secure-headers": "^7.0",
@@ -138,7 +146,7 @@
 		"wpackagist-plugin/google-analytics-for-wordpress": "^8.0",
 		"wpackagist-plugin/gravity-forms-pdf-extended": "^6.7",
 		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
-		"wpackagist-plugin/pronamic-ideal": "9.5 - 9.6",
+		"wpackagist-plugin/pronamic-ideal": "9.5.*",
 		"wpackagist-plugin/stream": "^4.0",
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8",
