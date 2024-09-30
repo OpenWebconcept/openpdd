@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "452f8bf6149d472d28cde946a2eae800",
+	"content-hash": "efba327031f63243ae2929edb53c3bc3",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -280,52 +280,6 @@
 			"time": "2023-12-11T17:09:12+00:00"
 		},
 		{
-			"name": "cedaro/wp-plugin",
-			"version": "v0.4.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/cedaro/wp-plugin.git",
-				"reference": "c53f7f5809e95f0a08db1d31aec7f069d53eabd5"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/cedaro/wp-plugin/zipball/c53f7f5809e95f0a08db1d31aec7f069d53eabd5",
-				"reference": "c53f7f5809e95f0a08db1d31aec7f069d53eabd5",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=5.4.0",
-				"psr/container": "^1.0"
-			},
-			"require-dev": {
-				"phpunit/phpunit": "*@stable"
-			},
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Cedaro\\WP\\Plugin\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Brady Vercher",
-					"email": "brady@blazersix.com",
-					"homepage": "https://www.cedaro.com/"
-				}
-			],
-			"description": "A base WordPress plugin library.",
-			"homepage": "https://github.com/cedaro/wp-plugin",
-			"support": {
-				"issues": "https://github.com/cedaro/wp-plugin/issues",
-				"source": "https://github.com/cedaro/wp-plugin"
-			},
-			"time": "2018-01-12T20:25:00+00:00"
-		},
-		{
 			"name": "cmdisp/monolog-microsoft-teams",
 			"version": "1.3.0",
 			"source": {
@@ -519,6 +473,129 @@
 			"time": "2021-09-13T08:19:44+00:00"
 		},
 		{
+			"name": "doctrine/annotations",
+			"version": "1.14.4",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/doctrine/annotations.git",
+				"reference": "253dca476f70808a5aeed3a47cc2cc88c5cab915"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/doctrine/annotations/zipball/253dca476f70808a5aeed3a47cc2cc88c5cab915",
+				"reference": "253dca476f70808a5aeed3a47cc2cc88c5cab915",
+				"shasum": ""
+			},
+			"require": {
+				"doctrine/lexer": "^1 || ^2",
+				"ext-tokenizer": "*",
+				"php": "^7.1 || ^8.0",
+				"psr/cache": "^1 || ^2 || ^3"
+			},
+			"require-dev": {
+				"doctrine/cache": "^1.11 || ^2.0",
+				"doctrine/coding-standard": "^9 || ^12",
+				"phpstan/phpstan": "~1.4.10 || ^1.10.28",
+				"phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+				"symfony/cache": "^4.4 || ^5.4 || ^6.4 || ^7",
+				"vimeo/psalm": "^4.30 || ^5.14"
+			},
+			"suggest": {
+				"php": "PHP 8.0 or higher comes with attributes, a native replacement for annotations"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Guilherme Blanco",
+					"email": "guilhermeblanco@gmail.com"
+				},
+				{
+					"name": "Roman Borschel",
+					"email": "roman@code-factory.org"
+				},
+				{
+					"name": "Benjamin Eberlei",
+					"email": "kontakt@beberlei.de"
+				},
+				{
+					"name": "Jonathan Wage",
+					"email": "jonwage@gmail.com"
+				},
+				{
+					"name": "Johannes Schmitt",
+					"email": "schmittjoh@gmail.com"
+				}
+			],
+			"description": "Docblock Annotations Parser",
+			"homepage": "https://www.doctrine-project.org/projects/annotations.html",
+			"keywords": [
+				"annotations",
+				"docblock",
+				"parser"
+			],
+			"support": {
+				"issues": "https://github.com/doctrine/annotations/issues",
+				"source": "https://github.com/doctrine/annotations/tree/1.14.4"
+			},
+			"time": "2024-09-05T10:15:52+00:00"
+		},
+		{
+			"name": "doctrine/deprecations",
+			"version": "1.1.3",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/doctrine/deprecations.git",
+				"reference": "dfbaa3c2d2e9a9df1118213f3b8b0c597bb99fab"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/doctrine/deprecations/zipball/dfbaa3c2d2e9a9df1118213f3b8b0c597bb99fab",
+				"reference": "dfbaa3c2d2e9a9df1118213f3b8b0c597bb99fab",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.1 || ^8.0"
+			},
+			"require-dev": {
+				"doctrine/coding-standard": "^9",
+				"phpstan/phpstan": "1.4.10 || 1.10.15",
+				"phpstan/phpstan-phpunit": "^1.0",
+				"phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+				"psalm/plugin-phpunit": "0.18.4",
+				"psr/log": "^1 || ^2 || ^3",
+				"vimeo/psalm": "4.30.0 || 5.12.0"
+			},
+			"suggest": {
+				"psr/log": "Allows logging deprecations via PSR-3 logger implementation"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Doctrine\\Deprecations\\": "lib/Doctrine/Deprecations"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"description": "A small layer on top of trigger_error(E_USER_DEPRECATED) or PSR-3 logging with options to disable all deprecations or selectively for packages.",
+			"homepage": "https://www.doctrine-project.org/",
+			"support": {
+				"issues": "https://github.com/doctrine/deprecations/issues",
+				"source": "https://github.com/doctrine/deprecations/tree/1.1.3"
+			},
+			"time": "2024-01-30T19:34:25+00:00"
+		},
+		{
 			"name": "doctrine/inflector",
 			"version": "2.0.10",
 			"source": {
@@ -608,6 +685,84 @@
 				}
 			],
 			"time": "2024-02-18T20:23:39+00:00"
+		},
+		{
+			"name": "doctrine/lexer",
+			"version": "2.1.1",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/doctrine/lexer.git",
+				"reference": "861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/doctrine/lexer/zipball/861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6",
+				"reference": "861c870e8b75f7c8f69c146c7f89cc1c0f1b49b6",
+				"shasum": ""
+			},
+			"require": {
+				"doctrine/deprecations": "^1.0",
+				"php": "^7.1 || ^8.0"
+			},
+			"require-dev": {
+				"doctrine/coding-standard": "^9 || ^12",
+				"phpstan/phpstan": "^1.3",
+				"phpunit/phpunit": "^7.5 || ^8.5 || ^9.6",
+				"psalm/plugin-phpunit": "^0.18.3",
+				"vimeo/psalm": "^4.11 || ^5.21"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Doctrine\\Common\\Lexer\\": "src"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Guilherme Blanco",
+					"email": "guilhermeblanco@gmail.com"
+				},
+				{
+					"name": "Roman Borschel",
+					"email": "roman@code-factory.org"
+				},
+				{
+					"name": "Johannes Schmitt",
+					"email": "schmittjoh@gmail.com"
+				}
+			],
+			"description": "PHP Doctrine Lexer parser library that can be used in Top-Down, Recursive Descent Parsers.",
+			"homepage": "https://www.doctrine-project.org/projects/lexer.html",
+			"keywords": [
+				"annotations",
+				"docblock",
+				"lexer",
+				"parser",
+				"php"
+			],
+			"support": {
+				"issues": "https://github.com/doctrine/lexer/issues",
+				"source": "https://github.com/doctrine/lexer/tree/2.1.1"
+			},
+			"funding": [
+				{
+					"url": "https://www.doctrine-project.org/sponsorship.html",
+					"type": "custom"
+				},
+				{
+					"url": "https://www.patreon.com/phpdoctrine",
+					"type": "patreon"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
+					"type": "tidelift"
+				}
+			],
+			"time": "2024-02-05T11:35:39+00:00"
 		},
 		{
 			"name": "facile-it/php-jose-verifier",
@@ -2195,6 +2350,42 @@
 			"time": "2020-12-23T18:09:07+00:00"
 		},
 		{
+			"name": "owc/idp-userdata",
+			"version": "v1.0.0",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:OpenWebconcept/idp-userdata.git",
+				"reference": "4b5f58f66a4031b932c9d10073b96b33d62c9492"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/idp-userdata/zipball/4b5f58f66a4031b932c9d10073b96b33d62c9492",
+				"reference": "4b5f58f66a4031b932c9d10073b96b33d62c9492",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.4"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"OWC\\IdpUserdata\\": "src/"
+				}
+			},
+			"authors": [
+				{
+					"name": "Yard | Digital Agency",
+					"email": "info@yard.nl"
+				}
+			],
+			"description": "Common interfaces for IDP userdata (DigiD, eHerkenning)",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/idp-userdata/tree/v1.0.0",
+				"issues": "https://github.com/OpenWebconcept/idp-userdata/issues"
+			},
+			"time": "2024-09-02T11:54:28+00:00"
+		},
+		{
 			"name": "php-di/invoker",
 			"version": "2.3.4",
 			"source": {
@@ -2520,59 +2711,6 @@
 				}
 			],
 			"time": "2024-07-20T21:41:07+00:00"
-		},
-		{
-			"name": "pimple/pimple",
-			"version": "v3.5.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/silexphp/Pimple.git",
-				"reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
-				"reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=7.2.5",
-				"psr/container": "^1.1 || ^2.0"
-			},
-			"require-dev": {
-				"symfony/phpunit-bridge": "^5.4@dev"
-			},
-			"type": "library",
-			"extra": {
-				"branch-alias": {
-					"dev-master": "3.4.x-dev"
-				}
-			},
-			"autoload": {
-				"psr-0": {
-					"Pimple": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Fabien Potencier",
-					"email": "fabien@symfony.com"
-				}
-			],
-			"description": "Pimple, a simple Dependency Injection Container",
-			"homepage": "https://pimple.symfony.com",
-			"keywords": [
-				"container",
-				"dependency injection"
-			],
-			"support": {
-				"source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
-			},
-			"time": "2021-10-28T11:13:42+00:00"
 		},
 		{
 			"name": "plugin/config-expander",
@@ -3389,28 +3527,29 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "dev-main",
+			"version": "dev-feat/poc",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "35988267559db2bf16364f3f9fea66ae26659949"
+				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/35988267559db2bf16364f3f9fea66ae26659949",
-				"reference": "35988267559db2bf16364f3f9fea66ae26659949",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a4dd811609780398a2a57c7e0b7d4877b1197e91",
+				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91",
 				"shasum": ""
 			},
 			"require": {
-				"cedaro/wp-plugin": "^0.4.0",
 				"cmdisp/monolog-microsoft-teams": "1.3.0",
+				"doctrine/annotations": "^1.13",
 				"facile-it/php-openid-client": "^0.3.4",
 				"guzzlehttp/guzzle": "^7.8",
-				"guzzlehttp/psr7": "^1.7",
+				"guzzlehttp/psr7": "^1.9.1 || ^2.5.1",
 				"http-interop/http-factory-guzzle": "^1.2",
 				"monolog/monolog": "^2.0",
 				"odan/session": "^5.1",
-				"pimple/pimple": "^3.4",
+				"owc/idp-userdata": "^1.0",
+				"php-di/php-di": "^6.4",
 				"psr/container": "^1.1",
 				"symfony/http-client": "^5.4",
 				"vlucas/phpdotenv": "^5.5"
@@ -3420,19 +3559,15 @@
 				"symfony/var-dumper": "^5.4",
 				"wp-coding-standards/wpcs": "^3.0"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
 					"OWCSignicatOpenID\\": "src/"
-				},
-				"files": [
-					"src/functions.php"
-				]
+				}
 			},
 			"scripts": {
 				"phpcs": [
-					"./vendor/bin/phpcs"
+					"phpcs"
 				],
 				"phpcbf": [
 					"phpcbf"
@@ -3450,10 +3585,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/main",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2023-12-12T09:31:28+00:00"
+			"time": "2024-09-04T09:16:58+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -3570,6 +3705,55 @@
 			"description": "Integration with IRMA for WordPress",
 			"homepage": "https://privacybydesign.foundation/",
 			"time": "2019-09-25T08:23:38+00:00"
+		},
+		{
+			"name": "psr/cache",
+			"version": "1.0.1",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/php-fig/cache.git",
+				"reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+				"reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=5.3.0"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "1.0.x-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"Psr\\Cache\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "PHP-FIG",
+					"homepage": "http://www.php-fig.org/"
+				}
+			],
+			"description": "Common interface for caching libraries",
+			"keywords": [
+				"cache",
+				"psr",
+				"psr-6"
+			],
+			"support": {
+				"source": "https://github.com/php-fig/cache/tree/master"
+			},
+			"time": "2016-08-06T20:24:11+00:00"
 		},
 		{
 			"name": "psr/clock",
@@ -8075,6 +8259,59 @@
 				}
 			],
 			"time": "2024-09-19T10:50:18+00:00"
+		},
+		{
+			"name": "pimple/pimple",
+			"version": "v3.5.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/silexphp/Pimple.git",
+				"reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+				"reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.2.5",
+				"psr/container": "^1.1 || ^2.0"
+			},
+			"require-dev": {
+				"symfony/phpunit-bridge": "^5.4@dev"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "3.4.x-dev"
+				}
+			},
+			"autoload": {
+				"psr-0": {
+					"Pimple": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Fabien Potencier",
+					"email": "fabien@symfony.com"
+				}
+			],
+			"description": "Pimple, a simple Dependency Injection Container",
+			"homepage": "https://pimple.symfony.com",
+			"keywords": [
+				"container",
+				"dependency injection"
+			],
+			"support": {
+				"source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
+			},
+			"time": "2021-10-28T11:13:42+00:00"
 		},
 		{
 			"name": "psr/event-dispatcher",

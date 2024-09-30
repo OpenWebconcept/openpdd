@@ -103,6 +103,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/idp-userdata.git"
 		}
 	],
 	"require": {
@@ -129,7 +133,7 @@
 		"plugin/owc-gravityforms-zaaksysteem": "^2.1.0",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.2",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/owc-signicat-openid": "dev-main",
+		"plugin/owc-signicat-openid": "dev-feat/poc",
 		"plugin/prefill-gravity-forms": "^1.4",
 		"privacybydesign/irma-wp": "@dev",
 		"vlucas/phpdotenv": "^5.0",
