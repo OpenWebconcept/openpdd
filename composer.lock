@@ -5,6 +5,7 @@
 		"This file is @generated automatically"
 	],
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"content-hash": "6f9f187377b00be905709e619c3e716c",
 =======
 <<<<<<< HEAD
@@ -39,6 +40,9 @@
 	"content-hash": "7cce7f5ba673ab6d1c3ac248205319af",
 >>>>>>> 924f1ff ((chore): update deps)
 >>>>>>> cd3720e ((chore): update deps)
+=======
+	"content-hash": "e3911f768beceb1e34451ff2741b7236",
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 	"packages": [
 		{
 			"name": "acato/klantinteractie",
@@ -46,12 +50,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-klantinteractie.git",
-				"reference": "9d29b4056b04b593b708c6d9168255ca8cb976a6"
+				"reference": "60c621c198ea85e349b523f80303a26df3757538"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-klantinteractie/zipball/9d29b4056b04b593b708c6d9168255ca8cb976a6",
-				"reference": "9d29b4056b04b593b708c6d9168255ca8cb976a6",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-klantinteractie/zipball/60c621c198ea85e349b523f80303a26df3757538",
+				"reference": "60c621c198ea85e349b523f80303a26df3757538",
 				"shasum": ""
 			},
 			"require": {
@@ -75,7 +79,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-klantinteractie/tree/main",
 				"issues": "https://github.com/OpenWebconcept/plugin-klantinteractie/issues"
 			},
-			"time": "2024-06-24T11:18:38+00:00"
+			"time": "2024-10-07T14:15:58+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -2990,16 +2994,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "dev-master",
+			"version": "v1.5.3",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-				"reference": "7dfa77a6e5c2f0b4b6ac4382b42c54bcf4b0d8a0"
+				"reference": "64913686917b2be49f43a4dc9ac470d91a471429"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/7dfa77a6e5c2f0b4b6ac4382b42c54bcf4b0d8a0",
-				"reference": "7dfa77a6e5c2f0b4b6ac4382b42c54bcf4b0d8a0",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/64913686917b2be49f43a4dc9ac470d91a471429",
+				"reference": "64913686917b2be49f43a4dc9ac470d91a471429",
 				"shasum": ""
 			},
 			"require": {
@@ -3018,7 +3022,6 @@
 				"phpunit/phpunit": "~9.0",
 				"szepeviktor/phpstan-wordpress": "^0.7.0"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -3050,10 +3053,10 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/master",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.5.3",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2024-09-03T14:56:55+00:00"
+			"time": "2024-08-23T08:44:19+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
@@ -3304,6 +3307,7 @@
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"version": "v2.2.0",
 			"source": {
 				"type": "git",
@@ -3316,16 +3320,24 @@
 				"reference": "4e78621bcd6b95ea6375f79727835066e3b525f2",
 =======
 			"version": "v2.1.0",
+=======
+			"version": "dev-feat/mijn-taken",
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "cf2d2eead2582f67012a85f308a402f6afd20b8c"
+				"reference": "e9260618d5e390fa12991a2c428010868775d215"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/cf2d2eead2582f67012a85f308a402f6afd20b8c",
 				"reference": "cf2d2eead2582f67012a85f308a402f6afd20b8c",
 >>>>>>> c0cd75e ((chore): update deps)
+=======
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/e9260618d5e390fa12991a2c428010868775d215",
+				"reference": "e9260618d5e390fa12991a2c428010868775d215",
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 				"shasum": ""
 			},
 			"require": {
@@ -3373,6 +3385,7 @@
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.2.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
@@ -3383,6 +3396,12 @@
 			},
 			"time": "2024-09-12T12:45:17+00:00"
 >>>>>>> c0cd75e ((chore): update deps)
+=======
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
+				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
+			},
+			"time": "2024-10-07T14:34:30+00:00"
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3478,6 +3497,7 @@
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"reference": "c42fca785010ef8ae945aec497aba1ddcb376cbe"
 			},
 			"dist": {
@@ -3488,27 +3508,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a4dd811609780398a2a57c7e0b7d4877b1197e91",
-				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91",
 =======
-				"reference": "9bc3f76a8c0aa778412939c99a768c77e20b0fdb"
+				"reference": "8958014a0280e50722b3c66c0dff071396ae719b"
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/9bc3f76a8c0aa778412939c99a768c77e20b0fdb",
-				"reference": "9bc3f76a8c0aa778412939c99a768c77e20b0fdb",
->>>>>>> fa81beb ((chore): update deps)
-=======
-				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a4dd811609780398a2a57c7e0b7d4877b1197e91",
-				"reference": "a4dd811609780398a2a57c7e0b7d4877b1197e91",
->>>>>>> 1a135ff ((chore): update plugin/owc-signicat-openid dev-feat/poc)
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8958014a0280e50722b3c66c0dff071396ae719b",
+				"reference": "8958014a0280e50722b3c66c0dff071396ae719b",
 				"shasum": ""
 >>>>>>> 1ac6cd5 ((chore): update plugin/owc-signicat-openid dev-feat/poc)
 			},
@@ -3557,6 +3564,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			"time": "2024-10-09T14:35:29+00:00"
@@ -3609,16 +3617,28 @@
 >>>>>>> c0cd75e ((chore): update deps)
 =======
 			"version": "dev-feat/add-we-are-franl-as-supplier",
+=======
+			"time": "2024-10-08T10:49:45+00:00"
+		},
+		{
+			"name": "plugin/prefill-gravity-forms",
+			"version": "v1.4.1",
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "e1ef869b59f86469d9f963849a980476c4464354"
+				"reference": "484e767042aad8933230234ae4e16e3b9f5791a6"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/e1ef869b59f86469d9f963849a980476c4464354",
 				"reference": "e1ef869b59f86469d9f963849a980476c4464354",
 >>>>>>> cd3720e ((chore): update deps)
+=======
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/484e767042aad8933230234ae4e16e3b9f5791a6",
+				"reference": "484e767042aad8933230234ae4e16e3b9f5791a6",
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 				"shasum": ""
 			},
 			"require": {
@@ -3662,6 +3682,7 @@
 			"description": "Prefill GravityForms Plugin",
 			"support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.3",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
@@ -3680,6 +3701,12 @@
 			},
 			"time": "2024-09-25T10:41:05+00:00"
 >>>>>>> cd3720e ((chore): update deps)
+=======
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.4.1",
+				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
+			},
+			"time": "2024-09-17T11:35:21+00:00"
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6231,11 +6258,19 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
+<<<<<<< HEAD
 			"version": "6.3.9",
 			"dist": {
 				"type": "zip",
 				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.9",
 				"shasum": "b22a4e2227b222b8c0be1f21de40be8ac5182f6f"
+=======
+			"version": "6.3.8",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.8",
+				"shasum": "387597a47992ab267e25fbf52e158b2dde4e35c7"
+>>>>>>> f5c370a ((chore): update deps + feature branch zaaksysteem (mijn-taken))
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10473,10 +10508,9 @@
 	"stability-flags": {
 		"acato/klantinteractie": 20,
 		"plugin/formio-wordpress": 20,
-		"plugin/owc-gravityforms-digid": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
-		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"deployer/recipes": 20
 	},
