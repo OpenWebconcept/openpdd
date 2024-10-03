@@ -144,7 +144,7 @@
 		"plugin/owc-gravityforms-eidas": "1.0.2",
 		"plugin/owc-gravityforms-jcc-appointments": "dev-main",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
-		"plugin/owc-gravityforms-zaaksysteem": "^2.1",
+		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/mijn-taken",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.2",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "dev-feat/poc",
