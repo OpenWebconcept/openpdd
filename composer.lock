@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "efba327031f63243ae2929edb53c3bc3",
+	"content-hash": "35f6b693b2aa355694af15ee533acedb",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -6212,15 +6212,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/pronamic-ideal",
-			"version": "9.6.4",
+			"version": "9.5.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/pronamic-ideal/",
-				"reference": "tags/9.6.4"
+				"reference": "tags/9.5.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.6.4.zip"
+				"url": "https://downloads.wordpress.org/plugin/pronamic-ideal.9.5.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10941,17 +10941,17 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-signicat-openid": 20,
-		"privacybydesign/irma-wp": 20,
-		"deployer/recipes": 20
+		"privacybydesign/irma-wp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
