@@ -145,6 +145,7 @@
 		"wpackagist-plugin/pronamic-ideal": "9.5.*",
 		"wpackagist-plugin/stream": "^4.0",
 		"wpackagist-plugin/user-switching": "^1.0",
+		"wpackagist-plugin/wordfence": "^7.11",
 		"wpackagist-plugin/wordpress-importer": "^0.8",
 		"wpackagist-plugin/wp-seopress": "^8.0",
 		"ypackagist/advanced-custom-fields-pro": "^6.3",

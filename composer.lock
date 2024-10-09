@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "35f6b693b2aa355694af15ee533acedb",
+	"content-hash": "5cca2f563231b0bb1e83de497656160c",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -6265,6 +6265,24 @@
 			"homepage": "https://wordpress.org/plugins/user-switching/"
 		},
 		{
+			"name": "wpackagist-plugin/wordfence",
+			"version": "7.11.7",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/wordfence/",
+				"reference": "tags/7.11.7"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/wordfence.7.11.7.zip"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"homepage": "https://wordpress.org/plugins/wordfence/"
+		},
+		{
 			"name": "wpackagist-plugin/wordpress-importer",
 			"version": "0.8.2",
 			"source": {
@@ -10941,17 +10959,17 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
-		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-signicat-openid": 20,
-		"privacybydesign/irma-wp": 20
+		"privacybydesign/irma-wp": 20,
+		"deployer/recipes": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": {},
+	"platform-dev": [],
 	"platform-overrides": {
 		"php": "7.4"
 	},
