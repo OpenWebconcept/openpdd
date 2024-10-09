@@ -103,10 +103,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/idp-userdata.git"
 		}
 	],
 	"require": {
@@ -124,17 +120,17 @@
 		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravityforms-amp-booking": "^1.4",
 		"plugin/gravityforms-csp-fixer": "^0.0.4",
-		"plugin/owc-datab": "^1.0.3",
+		"plugin/owc-datab": "dev-feat/idp-userdata",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
 		"plugin/owc-gravityforms-digid": "^1.5.3",
 		"plugin/owc-gravityforms-eherkenning": "^1.2.2",
 		"plugin/owc-gravityforms-eidas": "^1.0.2",
 		"plugin/owc-gravityforms-kvk-prefill": "^1.0",
-		"plugin/owc-gravityforms-zaaksysteem": "^2.1.0",
+		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/idp-userdata",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.2",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "dev-feat/poc",
-		"plugin/prefill-gravity-forms": "^1.4",
+		"plugin/prefill-gravity-forms": "dev-feat/idp-userdata",
 		"privacybydesign/irma-wp": "@dev",
 		"vlucas/phpdotenv": "^5.0",
 		"wpackagist-plugin/coming-soon": "^6.0",
