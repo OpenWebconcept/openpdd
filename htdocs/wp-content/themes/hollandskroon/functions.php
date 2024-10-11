@@ -34,52 +34,52 @@ add_filter('the_content', function ($content) {
 
 add_action('init', function () {
     $labels = [
-        'name'              => _x('Owner', 'taxonomy general name', 'hoekschewaard'),
-        'singular_name'     => _x('Owner', 'taxonomy singular name', 'hoekschewaard'),
-        'search_items'      => __('Search owners', 'hoekschewaard'),
-        'all_items'         => __('All owners', 'hoekschewaard'),
-        'parent_item'       => __('Parent owner', 'hoekschewaard'),
+        'name' => _x('Owner', 'taxonomy general name', 'hoekschewaard'),
+        'singular_name' => _x('Owner', 'taxonomy singular name', 'hoekschewaard'),
+        'search_items' => __('Search owners', 'hoekschewaard'),
+        'all_items' => __('All owners', 'hoekschewaard'),
+        'parent_item' => __('Parent owner', 'hoekschewaard'),
         'parent_item_colon' => __('Parent owner:', 'hoekschewaard'),
-        'edit_item'         => __('Edit owner', 'hoekschewaard'),
-        'update_item'       => __('Update owner', 'hoekschewaard'),
-        'add_new_item'      => __('Add new owner', 'hoekschewaard'),
-        'new_item_name'     => __('New owner name', 'hoekschewaard'),
-        'menu_name'         => __('Owner', 'hoekschewaard'),
+        'edit_item' => __('Edit owner', 'hoekschewaard'),
+        'update_item' => __('Update owner', 'hoekschewaard'),
+        'add_new_item' => __('Add new owner', 'hoekschewaard'),
+        'new_item_name' => __('New owner name', 'hoekschewaard'),
+        'menu_name' => __('Owner', 'hoekschewaard'),
     ];
 
     register_taxonomy('form-owner', 'page', [
-        'hierarchical'      => true,
-        'labels'            => $labels,
-        'show_ui'           => true,
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
         'show_admin_column' => true,
-        'query_var'         => false,
-        'show_in_rest'      => true,
+        'query_var' => false,
+        'show_in_rest' => true,
     ]);
     register_taxonomy_for_object_type('category', 'page');
 });
 
 add_action('init', function () {
     $labels = [
-        'name'              => _x('Link', 'taxonomy general name', 'hoekschewaard'),
-        'singular_name'     => _x('Link', 'taxonomy singular name', 'hoekschewaard'),
-        'search_items'      => __('Search Links', 'hoekschewaard'),
-        'all_items'         => __('All Links', 'hoekschewaard'),
-        'parent_item'       => __('Parent Link', 'hoekschewaard'),
+        'name' => _x('Link', 'taxonomy general name', 'hoekschewaard'),
+        'singular_name' => _x('Link', 'taxonomy singular name', 'hoekschewaard'),
+        'search_items' => __('Search Links', 'hoekschewaard'),
+        'all_items' => __('All Links', 'hoekschewaard'),
+        'parent_item' => __('Parent Link', 'hoekschewaard'),
         'parent_item_colon' => __('Parent Link:', 'hoekschewaard'),
-        'edit_item'         => __('Edit Link', 'hoekschewaard'),
-        'update_item'       => __('Update Link', 'hoekschewaard'),
-        'add_new_item'      => __('Add new Link', 'hoekschewaard'),
-        'new_item_name'     => __('New Link name', 'hoekschewaard'),
-        'menu_name'         => __('Link', 'hoekschewaard'),
+        'edit_item' => __('Edit Link', 'hoekschewaard'),
+        'update_item' => __('Update Link', 'hoekschewaard'),
+        'add_new_item' => __('Add new Link', 'hoekschewaard'),
+        'new_item_name' => __('New Link name', 'hoekschewaard'),
+        'menu_name' => __('Link', 'hoekschewaard'),
     ];
 
     register_taxonomy('form-links', 'page', [
-        'hierarchical'      => true,
-        'labels'            => $labels,
-        'show_ui'           => true,
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
         'show_admin_column' => true,
-        'query_var'         => false,
-        'show_in_rest'      => true,
+        'query_var' => false,
+        'show_in_rest' => true,
     ]);
 });
 
@@ -97,7 +97,7 @@ add_filter('gplc_pre_render_choice', function ($choice, $exceededLimit, $field, 
 }, 10, 5);
 
 
-add_filter('gform_enable_legacy_markup', '__return_true');
+add_filter('gform_enable_legacy_markup', '__return_false');
 
 /**
  * Purpose: Display decrypted BSN values exclusively on GF administration pages within the Hollands Kroon theme.
