@@ -2970,21 +2970,22 @@
 		},
 		{
 			"name": "plugin/owc-datab",
-			"version": "v1.0.3",
+			"version": "v1.0.4",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-datab.git",
-				"reference": "205acda7446adbf859d284b49712f066374709da"
+				"reference": "56ec98e6fb37fef016abdbad00b20e2a238a3542"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/205acda7446adbf859d284b49712f066374709da",
-				"reference": "205acda7446adbf859d284b49712f066374709da",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/56ec98e6fb37fef016abdbad00b20e2a238a3542",
+				"reference": "56ec98e6fb37fef016abdbad00b20e2a238a3542",
 				"shasum": ""
 			},
 			"require": {
 				"cmdisp/monolog-microsoft-teams": "^1.3",
 				"firebase/php-jwt": "^6.1",
+				"owc/idp-userdata": "^1.0",
 				"php": "^7.4|^8.0",
 				"php-di/php-di": "^6.0"
 			},
@@ -3026,10 +3027,10 @@
 			],
 			"description": "Retrieve personal documents via DataB for logged in users by DigiD",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.0.3",
+				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.0.4",
 				"issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
 			},
-			"time": "2024-07-16T12:12:37+00:00"
+			"time": "2024-10-16T09:29:28+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
@@ -3603,16 +3604,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.0",
+			"version": "v1.6.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "52c53d146c316f6f17963bb85fe2b0dffa748c3d"
+				"reference": "f5154b18cce16c9344eed8d91b33dfae314a51a1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/52c53d146c316f6f17963bb85fe2b0dffa748c3d",
-				"reference": "52c53d146c316f6f17963bb85fe2b0dffa748c3d",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f5154b18cce16c9344eed8d91b33dfae314a51a1",
+				"reference": "f5154b18cce16c9344eed8d91b33dfae314a51a1",
 				"shasum": ""
 			},
 			"require": {
@@ -3659,10 +3660,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.0",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-10-15T11:50:56+00:00"
+			"time": "2024-10-15T15:37:15+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6384,11 +6385,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.3.8",
+			"version": "6.3.9",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.8",
-				"shasum": "387597a47992ab267e25fbf52e158b2dde4e35c7"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.9",
+				"shasum": "b22a4e2227b222b8c0be1f21de40be8ac5182f6f"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
