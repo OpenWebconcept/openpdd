@@ -1302,16 +1302,16 @@
 		},
 		{
 			"name": "guzzlehttp/promises",
-			"version": "2.0.3",
+			"version": "2.0.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/promises.git",
-				"reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8"
+				"reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/promises/zipball/6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
-				"reference": "6ea8dd08867a2a42619d65c3deb2c0fcbf81c8f8",
+				"url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+				"reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
 				"shasum": ""
 			},
 			"require": {
@@ -1365,7 +1365,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/promises/issues",
-				"source": "https://github.com/guzzle/promises/tree/2.0.3"
+				"source": "https://github.com/guzzle/promises/tree/2.0.4"
 			},
 			"funding": [
 				{
@@ -1381,7 +1381,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-18T10:29:17+00:00"
+			"time": "2024-10-17T10:06:22+00:00"
 		},
 		{
 			"name": "guzzlehttp/psr7",
@@ -3604,16 +3604,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.1",
+			"version": "v1.6.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "f5154b18cce16c9344eed8d91b33dfae314a51a1"
+				"reference": "10d9036007c6ee01f00a068bd1dd8a60518c57a6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f5154b18cce16c9344eed8d91b33dfae314a51a1",
-				"reference": "f5154b18cce16c9344eed8d91b33dfae314a51a1",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/10d9036007c6ee01f00a068bd1dd8a60518c57a6",
+				"reference": "10d9036007c6ee01f00a068bd1dd8a60518c57a6",
 				"shasum": ""
 			},
 			"require": {
@@ -3660,10 +3660,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.1",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.2",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-10-15T15:37:15+00:00"
+			"time": "2024-10-23T11:35:37+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6189,15 +6189,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.0",
+			"version": "6.12.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.0"
+				"reference": "tags/6.12.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6297,15 +6297,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wordpress-importer",
-			"version": "0.8.2",
+			"version": "0.8.3",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-				"reference": "tags/0.8.2"
+				"reference": "tags/0.8.3"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.3.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10972,17 +10972,17 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
-		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-signicat-openid": 20,
-		"privacybydesign/irma-wp": 20
+		"privacybydesign/irma-wp": 20,
+		"deployer/recipes": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": {},
+	"platform-dev": [],
 	"platform-overrides": {
 		"php": "7.4"
 	},
