@@ -15,6 +15,7 @@ class GravityForms
         add_filter('gform_incomplete_submissions_expiration_days', fn () => self::INCOMPLETE_SUBMISSIONS_EXPIRATION_DAYS);
         add_filter('gform_require_login_pre_download', '__return_true');
         add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
+        add_filter('gform_field_validation', [$this, 'changeRequiredFieldMessage'], 10, 4);
     }
 
     /**
@@ -49,7 +50,7 @@ class GravityForms
                 continue;
             }
 
-            if(GFCommon::is_legacy_markup_enabled($formID)) {
+            if (GFCommon::is_legacy_markup_enabled($formID)) {
                 add_filter('pre_option_rg_gforms_disable_css', '__return_true');
             } else {
                 add_filter('pre_option_rg_gforms_disable_css', '__return_false');
@@ -60,5 +61,20 @@ class GravityForms
     public function setFormThemeSlug(string $slug, array $form): string
     {
         return GFCommon::is_legacy_markup_enabled($form['id']) ? $slug : 'gravity-theme';
+    }
+
+    /**
+     * A11y: change required field message
+     */
+    public function changeRequiredFieldMessage(array $result, $value, $form, $field): array
+    {
+        $label = isset($field['label']) && is_string($field['label']) ? $field['label'] : '';
+        $result['message'] = str_replace(
+            'Dit veld is vereist',
+            'Het verplichte veld "' . $label . '" is niet ingevuld',
+            $result['message']
+        );
+
+        return $result;
     }
 }
