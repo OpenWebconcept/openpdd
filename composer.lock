@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "5cca2f563231b0bb1e83de497656160c",
+	"content-hash": "8f3faf6aa338c98f3aae99b52d612360",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -3382,21 +3382,22 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.1.1",
+			"version": "v2.2.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "19d9439fac3960a054b2202fe034fbb4e08a4886"
+				"reference": "4e78621bcd6b95ea6375f79727835066e3b525f2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/19d9439fac3960a054b2202fe034fbb4e08a4886",
-				"reference": "19d9439fac3960a054b2202fe034fbb4e08a4886",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4e78621bcd6b95ea6375f79727835066e3b525f2",
+				"reference": "4e78621bcd6b95ea6375f79727835066e3b525f2",
 				"shasum": ""
 			},
 			"require": {
 				"firebase/php-jwt": "^6.1",
 				"monolog/monolog": "^2",
+				"owc/idp-userdata": "^1.0",
 				"php": "^7.4|^8.0",
 				"php-di/php-di": "^6.0"
 			},
@@ -3439,10 +3440,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.1.1",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.2.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-10-07T08:49:18+00:00"
+			"time": "2024-10-24T08:16:47+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3604,16 +3605,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.2",
+			"version": "v1.6.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "10d9036007c6ee01f00a068bd1dd8a60518c57a6"
+				"reference": "6a05014925e16aa98c0ca7273e76796f0a0ab766"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/10d9036007c6ee01f00a068bd1dd8a60518c57a6",
-				"reference": "10d9036007c6ee01f00a068bd1dd8a60518c57a6",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/6a05014925e16aa98c0ca7273e76796f0a0ab766",
+				"reference": "6a05014925e16aa98c0ca7273e76796f0a0ab766",
 				"shasum": ""
 			},
 			"require": {
@@ -3660,10 +3661,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.2",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.3",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-10-23T11:35:37+00:00"
+			"time": "2024-10-23T12:51:24+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6135,15 +6136,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.18.9",
+			"version": "6.18.10",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.18.9"
+				"reference": "tags/6.18.10"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.9.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.10.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
