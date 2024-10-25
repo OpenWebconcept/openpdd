@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "8f3faf6aa338c98f3aae99b52d612360",
+	"content-hash": "6f9f187377b00be905709e619c3e716c",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2970,16 +2970,16 @@
 		},
 		{
 			"name": "plugin/owc-datab",
-			"version": "v1.0.4",
+			"version": "v1.1.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-datab.git",
-				"reference": "56ec98e6fb37fef016abdbad00b20e2a238a3542"
+				"reference": "7b2ba5c4504b449bd43d0380e3c113cdcefb03b2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/56ec98e6fb37fef016abdbad00b20e2a238a3542",
-				"reference": "56ec98e6fb37fef016abdbad00b20e2a238a3542",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/7b2ba5c4504b449bd43d0380e3c113cdcefb03b2",
+				"reference": "7b2ba5c4504b449bd43d0380e3c113cdcefb03b2",
 				"shasum": ""
 			},
 			"require": {
@@ -3027,10 +3027,10 @@
 			],
 			"description": "Retrieve personal documents via DataB for logged in users by DigiD",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.0.4",
+				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.1.0",
 				"issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
 			},
-			"time": "2024-10-16T09:29:28+00:00"
+			"time": "2024-10-25T13:27:59+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
