@@ -8,13 +8,7 @@
  */
 ?>
 <?php if(has_nav_menu('mijn-zaken-sidebar')) : ?>
-	<?php
-     wp_nav_menu([
-         'theme_location' => 'mijn-zaken-sidebar',
-         'depth' => 3,
-         'menu_class' => 'sidebar',
-     ]);
-    ?>
+	<?php get_template_part('templates/mijn-zaken/sidebar/sidebar-menu'); ?>
 <?php else : ?>
 <nav class="denhaag-sidenav">
     <ul class="denhaag-sidenav__list">
