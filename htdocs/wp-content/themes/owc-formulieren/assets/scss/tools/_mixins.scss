@@ -13,7 +13,7 @@
 	border-color: currentColor;
 	border-radius: $btn-border-radius;
 	font-family: $btn-font-family;
-	font-size: $btn-font-size;
+	font-size: $small-font-size;
 	font-weight: $btn-font-weight;
 	line-height: $btn-line-height;
 	text-decoration: none;
@@ -21,6 +21,10 @@
 
 	@include hover-focus-active {
 		text-decoration: none;
+	}
+
+	@include media-breakpoint-up( sm ) {
+		font-size: $btn-font-size;
 	}
 }
 

@@ -15,7 +15,7 @@
 .page-main--mijn-zaken {
 	--openpdd-mijn-zaken-container-spacing: 3rem;
 	display: grid;
-	gap: var( --openpdd-mijn-zaken-gap, 1rem );
+	gap: var( --openpdd-mijn-zaken-gap, 0rem );
 	grid-template-areas: var(
 		--openpdd-mijn-zaken-template,
 		'aside' 'content'

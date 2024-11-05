@@ -1,0 +1,6 @@
+$block: 'wp-block-navigation';
+
+// Used on the Mijn Zaken page
+.#{$block}.is-style-tiles {
+	display: block !important;
+}

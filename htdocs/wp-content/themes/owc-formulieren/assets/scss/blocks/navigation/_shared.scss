@@ -1,0 +1,58 @@
+$block: 'wp-block-navigation';
+
+// Used on the Mijn Zaken page
+.#{$block}.is-style-tiles {
+	margin-bottom: 1.5rem;
+
+	@include media-breakpoint-up( md ) {
+		display: none;
+	}
+
+	.wp-block-navigation__container {
+		display: grid;
+		gap: 1rem;
+		grid-template-columns: repeat( 2, 1fr );
+	}
+
+	.wp-block-navigation-item {
+		height: 100%;
+	}
+
+	.wp-block-navigation-item__content {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0.75rem 0.15rem;
+		border: 1px solid var( --primary-200, $primary-200 );
+		border-radius: $border-radius;
+		gap: 0.5rem;
+		text-decoration: none;
+
+		&:hover {
+			background-color: var( --primary-100, $primary-100 );
+			text-decoration: none;
+		}
+
+		&:focus {
+			background-color: var( --primary-100, $primary-100 );
+
+			.wp-block-navigation-item__label {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.wp-block-navigation-item__icon {
+		color: $primary-200;
+		font-size: 1.3;
+		line-height: 1;
+	}
+
+	.wp-block-navigation-item__label {
+		line-height: $line-height-sm;
+		text-align: center;
+	}
+}
