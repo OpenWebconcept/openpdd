@@ -11,7 +11,15 @@ const listStyles = [
 	},
 ];
 
+const navigationMenuStyles = [
+	{
+		label: 'Tegels',
+		name: 'tiles',
+	},
+];
+
 domReady( () => {
 	// Register styles
 	registerBlockStyle( 'core/list', listStyles );
+	registerBlockStyle( 'core/navigation', navigationMenuStyles );
 } );

@@ -1,13 +1,24 @@
 .openpdd-personal-heading {
 	--gradient-color: rgba( 218, 189, 160, 1 );
 	display: grid;
+	margin-right: -1rem;
+	margin-left: -1rem;
 	background-image: linear-gradient(
 		195deg,
 		var( --gradient-color ) 0%,
 		rgba( 255, 255, 255, 0 ) 55%
 	);
-	gap: 1.5rem;
+	gap: 0;
 	grid-template-columns: 1fr 22rem;
+
+	@include media-breakpoint-up( md ) {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	@include media-breakpoint-up( lg ) {
+		gap: 1rem;
+	}
 
 	// When it's a block in the CMS.
 	.wp-admin & {
@@ -66,17 +77,19 @@
 	&__content {
 		display: flex;
 		flex-direction: column;
-		order: -1;
+		order: 1;
+		padding-right: 1rem;
+		padding-bottom: 1rem;
+		padding-left: 1rem;
 		gap: inherit;
-		padding-block-start: 4rem;
 
-		> * {
-			margin: 0;
+		@include media-breakpoint-up( md ) {
+			padding: 0;
 		}
 
-		@include media-breakpoint-down( lg ) {
-			order: 1;
-			padding-block-start: 0;
+		@include media-breakpoint-up( xl ) {
+			order: -1;
+			padding-top: 3rem;
 		}
 	}
 

@@ -13,6 +13,7 @@ $block: 'sidebar';
 			display: inline-block;
 			padding: 0.65rem 0 0.65rem 2.5rem;
 			color: $black;
+			line-height: $line-height-sm;
 
 			&:hover,
 			&:focus {
