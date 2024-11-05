@@ -5,10 +5,12 @@ declare(strict_types=1);
 if (method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN()) : ?>
     <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle white-space-nowrap" aria-expanded="false" aria-haspopup="true">
-            <?php echo do_blocks('<!-- wp:prefill-gravity-forms/personal-data-row {"selectedOption":{"value":"naam.voornaam","label":"Voornamen"}, "htmlElement":"span"} /-->') ?>
+			<?php if (is_active_sidebar('dropdown-header-menu-widget')) : ?>
+				<?php dynamic_sidebar('dropdown-header-menu-widget'); ?>
+			<?php endif; ?>
         </button>
         <div class="shadow dropdown-menu dropdown-menu-right" aria-hidden="true">
-            <div class="dropdown-item d-flex justify-content-between align-items-center font-weight-bold text-dark text-decoration-none mb-2" href="<?php echo home_url('/overzicht'); ?>">
+            <div class="mb-2 dropdown-item d-flex justify-content-between align-items-center font-weight-bold text-dark text-decoration-none" href="<?php echo home_url('/overzicht'); ?>">
                 <?php _e('Overzicht', 'owc-formulieren'); ?>
                 <button class="dropdown-button-close" aria-label="<?php _e('Sluiten', 'owc-formulieren'); ?>">
                     <svg width="16" height="12" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">

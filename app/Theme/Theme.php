@@ -61,14 +61,15 @@ class Theme
     public function registerSidebars(): void
     {
         $sidebars = $this->getConfig('sidebars', []);
+
         foreach ($sidebars as $sidebar) {
             register_sidebar([
-                'name'          => $sidebar['name'],
-                'id'            => $sidebar['id'],
-                'description'   => $sidebar['description'],
-                'class'         => $sidebar['class'],
-                'before_widget' => '<div id="%1$s" class="widget %2$s">',
-                'after_widget'  => '</div>',
+                'name' => $sidebar['name'],
+                'id' => $sidebar['id'],
+                'description' => $sidebar['description'],
+                'class' => $sidebar['class'],
+                'before_widget' => $sidebar['before_widget'] ?? '<div id="%1$s" class="widget %2$s">',
+                'after_widget' => $sidebar['after_widget'] ?? '</div>',
             ]);
         }
     }
@@ -111,10 +112,10 @@ class Theme
          * Add site logo since 4.5
          */
         add_theme_support('custom-logo', [
-            'height'      => 100,
-            'width'       => 300,
+            'height' => 100,
+            'width' => 300,
             'flex-height' => true,
-            'flex-width'  => true,
+            'flex-width' => true,
             'header-text' => ['site-title', 'site-description'],
         ]);
     }
