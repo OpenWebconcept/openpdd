@@ -109,3 +109,15 @@ add_filter('owc_gravityforms_digid_use_value_bsn_decrypted', '__return_true');
 add_filter('owc_gravityforms_digid_field_display_title', function () {
     return 'Klik hier om in te loggen';
 });
+
+/**
+ * Allow passing a custom component for the page title. Forms can use
+ * this to pass information to a confirmation form.
+ */
+add_filter( 'the_title', function ( $title ) {
+	if ( isset( $_GET['page_title'] ) && !empty( $_GET['page_title'] ) ) {
+
+		$title .= ' - ' . sanitize_text_field( $_GET['page_title'] );
+	}
+	return $title;
+}, 10, 1 );
