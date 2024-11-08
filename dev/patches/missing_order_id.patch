@@ -1,0 +1,14 @@
+diff --git a/packages/wp-pay-gateways/ogone/src/OrderStandard/Gateway.php b/packages/wp-pay-gateways/ogone/src/OrderStandard/Gateway.php
+--- a/packages/wp-pay-gateways/ogone/src/OrderStandard/Gateway.php 2024-11-08 15:34:10
++++ b/packages/wp-pay-gateways/ogone/src/OrderStandard/Gateway.php 2024-11-08 15:33:54
+@@ -333,6 +333,10 @@
+
+ 		// Get order status with direct query.
+ 		$order_id = $payment->format_string( $this->config->order_id );
++
++		if ( '' === $order_id ) {
++			$order_id = $payment->get_id();
++		}
+
+ 		try {
+ 			$status = $this->client->get_order_status( $order_id );
