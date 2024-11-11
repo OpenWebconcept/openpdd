@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "7c69e7d64dac316f5200d00b13142f28",
+	"content-hash": "2790a1e62f476652d0d6925e450135f2",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -3500,16 +3500,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.3.2",
+			"version": "v2.4.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "b8041cdb953265e5c9c3fcf66be518c79c3d5fc0"
+				"reference": "cc1f734315cdb633e154d9112d054a980a21e1d1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/b8041cdb953265e5c9c3fcf66be518c79c3d5fc0",
-				"reference": "b8041cdb953265e5c9c3fcf66be518c79c3d5fc0",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/cc1f734315cdb633e154d9112d054a980a21e1d1",
+				"reference": "cc1f734315cdb633e154d9112d054a980a21e1d1",
 				"shasum": ""
 			},
 			"require": {
@@ -3558,10 +3558,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.3.2",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.0",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2024-11-09T16:37:00+00:00"
+			"time": "2024-11-11T11:52:34+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
