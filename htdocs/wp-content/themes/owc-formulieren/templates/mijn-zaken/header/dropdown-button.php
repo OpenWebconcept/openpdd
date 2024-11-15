@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+$home_config = load_config('home.php');
+
 if (method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN()) : ?>
     <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle white-space-nowrap" aria-expanded="false" aria-haspopup="true">
@@ -24,7 +26,7 @@ if (method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC
                     <path d="M9 2C6.79086 2 5 3.79086 5 6C5 8.20914 6.79086 10 9 10C11.2091 10 13 8.20914 13 6C13 3.79086 11.2091 2 9 2ZM3 6C3 2.68629 5.68629 0 9 0C12.3137 0 15 2.68629 15 6C15 9.31371 12.3137 12 9 12C5.68629 12 3 9.31371 3 6ZM5 16C3.34315 16 2 17.3431 2 19C2 19.5523 1.55228 20 1 20C0.447715 20 0 19.5523 0 19C0 16.2386 2.23858 14 5 14H13C15.7614 14 18 16.2386 18 19C18 19.5523 17.5523 20 17 20C16.4477 20 16 19.5523 16 19C16 17.3431 14.6569 16 13 16H5Z" fill="currentColor" />
                 </svg>
             </a>
-            <a class="dropdown-item d-flex justify-content-between align-items-center" href="<?php echo home_url('digid/logout') ?>">
+            <a class="dropdown-item d-flex justify-content-between align-items-center" href="<?php echo 'owc-signicat-openid' === $home_config['digid_provider'] ? home_url('sso-logout?idp=digid') : home_url('digid/logout'); ?>">
                 <?php _e('Uitloggen', 'owc-formulieren'); ?>
                 <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-n1">
                     <path d="M5.36442e-07 2.5C5.96046e-07 1.39543 0.89543 0.5 2 0.5L11 0.5C12.1046 0.5 13 1.39543 13 2.5L13 4.5C13 5.05229 12.5523 5.5 12 5.5C11.4477 5.5 11 5.05228 11 4.5L11 2.5L2 2.5L2 14.5H11V12.5C11 11.9477 11.4477 11.5 12 11.5C12.5523 11.5 13 11.9477 13 12.5V14.5C13 15.6046 12.1046 16.5 11 16.5H2C0.895431 16.5 0 15.6046 0 14.5L5.36442e-07 2.5ZM15.2929 4.79289C15.6834 4.40237 16.3166 4.40237 16.7071 4.79289L19.7071 7.79289C20.0976 8.18342 20.0976 8.81658 19.7071 9.20711L16.7071 12.2071C16.3166 12.5976 15.6834 12.5976 15.2929 12.2071C14.9024 11.8166 14.9024 11.1834 15.2929 10.7929L16.5858 9.5H7C6.44772 9.5 6 9.05228 6 8.5C6 7.94772 6.44772 7.5 7 7.5L16.5858 7.5L15.2929 6.20711C14.9024 5.81658 14.9024 5.18342 15.2929 4.79289Z" fill="currentColor" />
