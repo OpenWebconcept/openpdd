@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "da5b8c60325bf59e6415f5f3eac9e541",
+	"content-hash": "7b812a99b9e8089735b218c6f1abf455",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -3433,16 +3433,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.3.0",
+			"version": "dev-feat/mijn-taken",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "613e05311cc00d5acbafea5e3762ff9ef967b4d2"
+				"reference": "aee982885e0e7c366ffff732bd03280b71cb1c78"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/613e05311cc00d5acbafea5e3762ff9ef967b4d2",
-				"reference": "613e05311cc00d5acbafea5e3762ff9ef967b4d2",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/aee982885e0e7c366ffff732bd03280b71cb1c78",
+				"reference": "aee982885e0e7c366ffff732bd03280b71cb1c78",
 				"shasum": ""
 			},
 			"require": {
@@ -3491,10 +3491,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.3.0",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-01-20T10:39:22+00:00"
+			"time": "2025-02-03T13:37:16+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -11023,6 +11023,7 @@
 	"stability-flags": {
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
+		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20
 	},
 	"prefer-stable": false,
