@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "613e4dd407c864853916411e971bacbd",
+	"content-hash": "77959588349a533545c57e7fc5cf21ba",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2089,16 +2089,16 @@
 		},
 		{
 			"name": "laravel/serializable-closure",
-			"version": "v1.3.5",
+			"version": "v1.3.6",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/laravel/serializable-closure.git",
-				"reference": "1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c"
+				"reference": "f865a58ea3a0107c336b7045104c75243fa59d96"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/laravel/serializable-closure/zipball/1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c",
-				"reference": "1dc4a3dbfa2b7628a3114e43e32120cce7cdda9c",
+				"url": "https://api.github.com/repos/laravel/serializable-closure/zipball/f865a58ea3a0107c336b7045104c75243fa59d96",
+				"reference": "f865a58ea3a0107c336b7045104c75243fa59d96",
 				"shasum": ""
 			},
 			"require": {
@@ -2146,7 +2146,7 @@
 				"issues": "https://github.com/laravel/serializable-closure/issues",
 				"source": "https://github.com/laravel/serializable-closure"
 			},
-			"time": "2024-09-23T13:33:08+00:00"
+			"time": "2024-11-11T17:06:04+00:00"
 		},
 		{
 			"name": "monolog/monolog",
@@ -3500,16 +3500,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.4.0",
+			"version": "v2.4.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "cc1f734315cdb633e154d9112d054a980a21e1d1"
+				"reference": "35c69617c0939e76846454019cdded5980a4c764"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/cc1f734315cdb633e154d9112d054a980a21e1d1",
-				"reference": "cc1f734315cdb633e154d9112d054a980a21e1d1",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/35c69617c0939e76846454019cdded5980a4c764",
+				"reference": "35c69617c0939e76846454019cdded5980a4c764",
 				"shasum": ""
 			},
 			"require": {
@@ -3558,10 +3558,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.0",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.1",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2024-11-11T11:52:34+00:00"
+			"time": "2024-11-15T10:57:46+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
@@ -4601,16 +4601,16 @@
 		},
 		{
 			"name": "symfony/http-client",
-			"version": "v5.4.46",
+			"version": "v5.4.47",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/http-client.git",
-				"reference": "ebcaeeafc48b69f497f82b9700ddf54bfe975f71"
+				"reference": "3b643b83f87e1765d2e9b1e946bb56ee0b4b7bde"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/http-client/zipball/ebcaeeafc48b69f497f82b9700ddf54bfe975f71",
-				"reference": "ebcaeeafc48b69f497f82b9700ddf54bfe975f71",
+				"url": "https://api.github.com/repos/symfony/http-client/zipball/3b643b83f87e1765d2e9b1e946bb56ee0b4b7bde",
+				"reference": "3b643b83f87e1765d2e9b1e946bb56ee0b4b7bde",
 				"shasum": ""
 			},
 			"require": {
@@ -4672,7 +4672,7 @@
 				"http"
 			],
 			"support": {
-				"source": "https://github.com/symfony/http-client/tree/v5.4.46"
+				"source": "https://github.com/symfony/http-client/tree/v5.4.47"
 			},
 			"funding": [
 				{
@@ -4688,7 +4688,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-10-25T11:45:42+00:00"
+			"time": "2024-11-13T12:18:12+00:00"
 		},
 		{
 			"name": "symfony/http-client-contracts",
@@ -6243,15 +6243,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.3",
+			"version": "6.12.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.3"
+				"reference": "tags/6.12.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.3.zip"
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6439,11 +6439,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.3.10",
+			"version": "6.3.11",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.10",
-				"shasum": "99430083b45054f9900d86ec10d7d49e663f5ddd"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.11",
+				"shasum": "06c5e868e70870730e76592710b7a5e3e0b9942b"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6458,11 +6458,11 @@
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.3.3",
+			"version": "2.3.4",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.3",
-				"shasum": "d679d416b69428ab75fbb4e240eca2ad2fa59a89"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.4",
+				"shasum": "b184380af62ffbfca721542824d5d795188225fe"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6865,16 +6865,16 @@
 		},
 		{
 			"name": "composer/pcre",
-			"version": "3.3.1",
+			"version": "3.3.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/composer/pcre.git",
-				"reference": "63aaeac21d7e775ff9bc9d45021e1745c97521c4"
+				"reference": "b2bed4734f0cc156ee1fe9c0da2550420d99a21e"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/composer/pcre/zipball/63aaeac21d7e775ff9bc9d45021e1745c97521c4",
-				"reference": "63aaeac21d7e775ff9bc9d45021e1745c97521c4",
+				"url": "https://api.github.com/repos/composer/pcre/zipball/b2bed4734f0cc156ee1fe9c0da2550420d99a21e",
+				"reference": "b2bed4734f0cc156ee1fe9c0da2550420d99a21e",
 				"shasum": ""
 			},
 			"require": {
@@ -6884,8 +6884,8 @@
 				"phpstan/phpstan": "<1.11.10"
 			},
 			"require-dev": {
-				"phpstan/phpstan": "^1.11.10",
-				"phpstan/phpstan-strict-rules": "^1.1",
+				"phpstan/phpstan": "^1.12 || ^2",
+				"phpstan/phpstan-strict-rules": "^1 || ^2",
 				"phpunit/phpunit": "^8 || ^9"
 			},
 			"type": "library",
@@ -6924,7 +6924,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/composer/pcre/issues",
-				"source": "https://github.com/composer/pcre/tree/3.3.1"
+				"source": "https://github.com/composer/pcre/tree/3.3.2"
 			},
 			"funding": [
 				{
@@ -6940,7 +6940,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-08-27T18:44:43+00:00"
+			"time": "2024-11-12T16:29:46+00:00"
 		},
 		{
 			"name": "composer/semver",
@@ -9943,16 +9943,16 @@
 		},
 		{
 			"name": "symfony/console",
-			"version": "v5.4.46",
+			"version": "v5.4.47",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/console.git",
-				"reference": "fb0d4760e7147d81ab4d9e2d57d56268261b4e4e"
+				"reference": "c4ba980ca61a9eb18ee6bcc73f28e475852bb1ed"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/console/zipball/fb0d4760e7147d81ab4d9e2d57d56268261b4e4e",
-				"reference": "fb0d4760e7147d81ab4d9e2d57d56268261b4e4e",
+				"url": "https://api.github.com/repos/symfony/console/zipball/c4ba980ca61a9eb18ee6bcc73f28e475852bb1ed",
+				"reference": "c4ba980ca61a9eb18ee6bcc73f28e475852bb1ed",
 				"shasum": ""
 			},
 			"require": {
@@ -10022,7 +10022,7 @@
 				"terminal"
 			],
 			"support": {
-				"source": "https://github.com/symfony/console/tree/v5.4.46"
+				"source": "https://github.com/symfony/console/tree/v5.4.47"
 			},
 			"funding": [
 				{
@@ -10038,7 +10038,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-05T14:17:06+00:00"
+			"time": "2024-11-06T11:30:55+00:00"
 		},
 		{
 			"name": "symfony/event-dispatcher",
@@ -10564,16 +10564,16 @@
 		},
 		{
 			"name": "symfony/process",
-			"version": "v5.4.46",
+			"version": "v5.4.47",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/process.git",
-				"reference": "01906871cb9b5e3cf872863b91aba4ec9767daf4"
+				"reference": "5d1662fb32ebc94f17ddb8d635454a776066733d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/process/zipball/01906871cb9b5e3cf872863b91aba4ec9767daf4",
-				"reference": "01906871cb9b5e3cf872863b91aba4ec9767daf4",
+				"url": "https://api.github.com/repos/symfony/process/zipball/5d1662fb32ebc94f17ddb8d635454a776066733d",
+				"reference": "5d1662fb32ebc94f17ddb8d635454a776066733d",
 				"shasum": ""
 			},
 			"require": {
@@ -10606,7 +10606,7 @@
 			"description": "Executes commands in sub-processes",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/process/tree/v5.4.46"
+				"source": "https://github.com/symfony/process/tree/v5.4.47"
 			},
 			"funding": [
 				{
@@ -10622,7 +10622,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-06T09:18:28+00:00"
+			"time": "2024-11-06T11:36:42+00:00"
 		},
 		{
 			"name": "symfony/stopwatch",
@@ -10688,16 +10688,16 @@
 		},
 		{
 			"name": "symfony/string",
-			"version": "v5.4.45",
+			"version": "v5.4.47",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/string.git",
-				"reference": "7f6807add88b1e2635f3c6de5e1ace631ed7cad2"
+				"reference": "136ca7d72f72b599f2631aca474a4f8e26719799"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/string/zipball/7f6807add88b1e2635f3c6de5e1ace631ed7cad2",
-				"reference": "7f6807add88b1e2635f3c6de5e1ace631ed7cad2",
+				"url": "https://api.github.com/repos/symfony/string/zipball/136ca7d72f72b599f2631aca474a4f8e26719799",
+				"reference": "136ca7d72f72b599f2631aca474a4f8e26719799",
 				"shasum": ""
 			},
 			"require": {
@@ -10754,7 +10754,7 @@
 				"utf8"
 			],
 			"support": {
-				"source": "https://github.com/symfony/string/tree/v5.4.45"
+				"source": "https://github.com/symfony/string/tree/v5.4.47"
 			},
 			"funding": [
 				{
@@ -10770,20 +10770,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-25T14:11:13+00:00"
+			"time": "2024-11-10T20:33:58+00:00"
 		},
 		{
 			"name": "symfony/var-dumper",
-			"version": "v5.4.46",
+			"version": "v5.4.47",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/var-dumper.git",
-				"reference": "f51f11e4fc5ca24fa0defcdf4df027078950b9e0"
+				"reference": "e13e8dfa8eaab2b0536ef365beddc2af723a9ac0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/var-dumper/zipball/f51f11e4fc5ca24fa0defcdf4df027078950b9e0",
-				"reference": "f51f11e4fc5ca24fa0defcdf4df027078950b9e0",
+				"url": "https://api.github.com/repos/symfony/var-dumper/zipball/e13e8dfa8eaab2b0536ef365beddc2af723a9ac0",
+				"reference": "e13e8dfa8eaab2b0536ef365beddc2af723a9ac0",
 				"shasum": ""
 			},
 			"require": {
@@ -10843,7 +10843,7 @@
 				"dump"
 			],
 			"support": {
-				"source": "https://github.com/symfony/var-dumper/tree/v5.4.46"
+				"source": "https://github.com/symfony/var-dumper/tree/v5.4.47"
 			},
 			"funding": [
 				{
@@ -10859,7 +10859,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-05T14:17:06+00:00"
+			"time": "2024-11-08T15:21:10+00:00"
 		},
 		{
 			"name": "symfony/yaml",
