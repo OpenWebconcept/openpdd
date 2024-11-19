@@ -111,7 +111,7 @@ add_filter('owc_gravityforms_digid_field_display_title', function () {
 });
 
 /**
- * Allow passing a custom component for the page title. Forms can use
+ * Allow passing a custom component for the form title. Forms can use
  * this to pass information to a confirmation form.
  */
 add_filter( 'the_title', function ( $title ) {
@@ -121,3 +121,14 @@ add_filter( 'the_title', function ( $title ) {
 	}
 	return $title;
 }, 10, 1 );
+
+/**
+ * Same as above, for the page title.
+ */
+add_filter( 'document_title_parts', function( $title ) {
+	if ( isset( $_GET['page_title'] ) && !empty( $_GET['page_title'] ) ) {
+
+		$title['title'] .= ' - ' . sanitize_text_field( $_GET['page_title'] );
+	}
+	return $title;
+});
