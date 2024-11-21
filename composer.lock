@@ -3720,6 +3720,62 @@
 			"time": "2024-12-24T14:32:38+00:00"
 		},
 		{
+			"name": "plugin/owc-gravityforms-jcc-appointments",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
+				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
+				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.4|^8.0"
+			},
+			"require-dev": {
+				"10up/wp_mock": "^0.5.0",
+				"friendsofphp/php-cs-fixer": "^3.0",
+				"phpunit/phpunit": "^9.0",
+				"symfony/var-dumper": "^5.1"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"autoload": {
+				"psr-4": {
+					"OWC\\Appointments\\": "./src/Appointments"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"OWC\\Appointments\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"phpunit": [ "./vendor/bin/phpunit" ],
+				"test": [
+					"phpunit --testdox --colors=always --bootstrap='./tests/bootstrap.php' tests "
+				],
+				"format": [ "vendor/bin/php-cs-fixer fix" ]
+			},
+			"authors": [
+				{
+					"name": "Yard | Digital Agency",
+					"email": "info@yard.nl",
+					"homepage": "https://www.yard.nl"
+				}
+			],
+			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
+			"support": {
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/main",
+				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
+			},
+			"time": "2024-09-09T15:09:42+00:00"
+		},
+		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
 			"version": "v2.0.0",
 			"source": {
@@ -11356,6 +11412,7 @@
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20,
+		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20
 	},
 	"prefer-stable": false,
