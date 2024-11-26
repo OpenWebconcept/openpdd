@@ -3597,12 +3597,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "8dfef4e2dcdbbe2f30516a3adb36d9b138152a44"
+				"reference": "61e620fa9c489556bf051b8978fe672ce5bfc5f8"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8dfef4e2dcdbbe2f30516a3adb36d9b138152a44",
-				"reference": "8dfef4e2dcdbbe2f30516a3adb36d9b138152a44",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/61e620fa9c489556bf051b8978fe672ce5bfc5f8",
+				"reference": "61e620fa9c489556bf051b8978fe672ce5bfc5f8",
 				"shasum": ""
 			},
 			"require": {
@@ -3654,7 +3654,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2024-11-22T12:11:38+00:00"
+			"time": "2024-11-26T07:58:07+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
