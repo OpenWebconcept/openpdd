@@ -144,7 +144,7 @@
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.1",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "dev-feat/poc",
-		"plugin/prefill-gravity-forms": "^1.6.7",
+		"plugin/prefill-gravity-forms": "^1.6",
 		"privacybydesign/irma-wp": "@dev",
 		"vlucas/phpdotenv": "^5.0",
 		"wpackagist-plugin/coming-soon": "^6.0",
