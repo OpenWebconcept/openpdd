@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "77959588349a533545c57e7fc5cf21ba",
+	"content-hash": "234aad5b6f9005e18a94251643d84d17",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -3597,12 +3597,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "61e620fa9c489556bf051b8978fe672ce5bfc5f8"
+				"reference": "4f956958e847e72f475f12b86e94091b944a0116"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/61e620fa9c489556bf051b8978fe672ce5bfc5f8",
-				"reference": "61e620fa9c489556bf051b8978fe672ce5bfc5f8",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/4f956958e847e72f475f12b86e94091b944a0116",
+				"reference": "4f956958e847e72f475f12b86e94091b944a0116",
 				"shasum": ""
 			},
 			"require": {
@@ -3654,7 +3654,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2024-11-26T07:58:07+00:00"
+			"time": "2024-11-27T12:27:43+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
