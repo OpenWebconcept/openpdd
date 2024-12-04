@@ -139,7 +139,7 @@
 		"plugin/gravityforms-csp-fixer": "^0.0.5",
 		"plugin/owc-datab": "^1.0.3",
 		"plugin/owc-gravityforms-bag-address": "1.1.*",
-		"plugin/owc-gravityforms-digid": "^1.5.3",
+		"plugin/owc-gravityforms-digid": "^1.6",
 		"plugin/owc-gravityforms-eherkenning": "1.2.2",
 		"plugin/owc-gravityforms-eidas": "1.0.2",
 		"plugin/owc-gravityforms-jcc-appointments": "dev-main",
