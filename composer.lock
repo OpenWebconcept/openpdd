@@ -4,8 +4,78 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "bb917e7dea0c4a3aa95773b2130206b0",
+	"content-hash": "a4036f0a1d807511c1e52674fdc73472",
 	"packages": [
+		{
+			"name": "acato/openkaarten-base",
+			"version": "0.1.1",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
+				"reference": "b1515268254001a72ce16fe4f2c128a6096d85b8"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/b1515268254001a72ce16fe4f2c128a6096d85b8",
+				"reference": "b1515268254001a72ce16fe4f2c128a6096d85b8",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "~1.0",
+				"richardkorthuis/geophp": "dev-development"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*",
+				"bjornjohansen/wp-pre-commit-hook": "*",
+				"phpcompatibility/phpcompatibility-wp": "*"
+			},
+			"type": "wordpress-plugin",
+			"authors": [
+				{
+					"name": "Eyal Beker",
+					"email": "eyal@acato.nl",
+					"homepage": "https://acato.nl",
+					"role": "Backend WordPress Developer"
+				}
+			],
+			"description": "Adds OpenKaarten to your WordPress website.",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.1.1",
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
+			},
+			"time": "2024-09-02T13:15:58+00:00"
+		},
+		{
+			"name": "acato/openkaarten-frontend-plugin",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+				"reference": "e086994bb9c2c44b0ba8dd80eda01ca0ecdd2402"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/e086994bb9c2c44b0ba8dd80eda01ca0ecdd2402",
+				"reference": "e086994bb9c2c44b0ba8dd80eda01ca0ecdd2402",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "~1.0"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*",
+				"bjornjohansen/wp-pre-commit-hook": "*",
+				"phpcompatibility/phpcompatibility-wp": "*"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/main",
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
+			},
+			"time": "2024-12-05T07:01:36+00:00"
+		},
 		{
 			"name": "aura/session",
 			"version": "2.1.0",
@@ -4397,6 +4467,122 @@
 			"time": "2019-03-08T08:55:37+00:00"
 		},
 		{
+			"name": "richardkorthuis/geophp",
+			"version": "dev-development",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/richardkorthuis/geoPHP.git",
+				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/richardkorthuis/geoPHP/zipball/1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
+				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.1|^8.0"
+			},
+			"require-dev": {
+				"php-coveralls/php-coveralls": "2.*",
+				"phpbench/phpbench": "^1.0",
+				"phpstan/phpstan": "^1.4.0",
+				"phpunit/phpunit": "^8.0|^9.0",
+				"squizlabs/php_codesniffer": "3.*"
+			},
+			"suggest": {
+				"ext-geos": "GEOS allows more advanced operations"
+			},
+			"default-branch": true,
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"geoPHP\\": "src/"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"geoPHP\\Tests\\": "tests/"
+				}
+			},
+			"scripts": {
+				"tests": [
+					"@performance",
+					"@bench",
+					"@unit",
+					"@test-input"
+				],
+				"analyze": [
+					"@cs-warning",
+					"@stan"
+				],
+				"all": [
+					"@analyze",
+					"echo \"Let's cool down a bit before testing benchmark ...\" && sleep 1",
+					"@tests"
+				],
+				"cs": [
+					"phpcs"
+				],
+				"cs-warning": [
+					"phpcs -w"
+				],
+				"cs-fix": [
+					"phpcbf"
+				],
+				"stan": [
+					"phpstan analyze --no-progress"
+				],
+				"unit": [
+					"@putenv XDEBUG_MODE=coverage",
+					"phpunit"
+				],
+				"test-input": [
+					"cd tests && php test.php && cd .."
+				],
+				"performance": [
+					"cd tests && php geometryPerformance.php && cd .."
+				],
+				"bench": [
+					"vendor/bin/phpbench run --report=aggregate --sleep 10000"
+				]
+			},
+			"license": [
+				"GPL-2.0-or-later",
+				"BSD-3-Clause"
+			],
+			"authors": [
+				{
+					"name": "Patrick Hayes",
+					"role": "Original creator"
+				},
+				{
+					"name": "Péter Báthory",
+					"role": "Developer"
+				}
+			],
+			"description": "Open-source native PHP library for doing geometry operations. Can read and write a wide variety of formats: (E)WKT, (E)WKB, TWKB, GeoJSON, KML, GPX, GeoRSS. Works with all Simple-Feature geometries (Point, LineString, Polygon...) and can be used to get centroids, bounding-boxes, area, etc.",
+			"homepage": "https://github.com/funiq/geoPHP",
+			"keywords": [
+				"converter",
+				"geojson",
+				"geometry",
+				"geophp",
+				"gis",
+				"gpx",
+				"kml",
+				"linestring",
+				"polygon",
+				"twkb",
+				"wkb",
+				"wkt"
+			],
+			"support": {
+				"source": "https://github.com/richardkorthuis/geoPHP/tree/development"
+			},
+			"time": "2024-05-16T13:16:09+00:00"
+		},
+		{
 			"name": "robrichards/xmlseclibs",
 			"version": "3.1.3",
 			"source": {
@@ -6515,6 +6701,25 @@
 			},
 			"description": "Customize WordPress with powerful, professional and intuitive fields.",
 			"homepage": "https://www.advancedcustomfields.com"
+		},
+		{
+			"name": "ypackagist/cmb2",
+			"version": "2.11.0",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
+				"shasum": "bc823b306f246df9b9dbeb010ebfbec0de3dd21c"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"authors": {
+				"name": "CMB2 team",
+				"homepage": "https://cmb2.io"
+			},
+			"description": "CMB2 will create metaboxes and forms with custom fields that will blow your mind.",
+			"homepage": "https://github.com/CMB2/CMB2"
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
@@ -11086,12 +11291,14 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
-		"privacybydesign/irma-wp": 20
+		"privacybydesign/irma-wp": 20,
+		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
