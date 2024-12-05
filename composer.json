@@ -112,6 +112,18 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-base.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:richardkorthuis/geoPHP.git"
 		}
 	],
 	"_comment": [
@@ -124,6 +136,8 @@
 	],
 	"require": {
 		"php": "<8.0",
+		"acato/openkaarten-base": "^0.1.1",
+		"acato/openkaarten-frontend-plugin": "dev-main",
 		"bepsvpt/secure-headers": "^7.0",
 		"cmdisp/monolog-microsoft-teams": "^1.3",
 		"composer/installers": "^1.0",
@@ -151,6 +165,7 @@
 		"plugin/owc-signicat-openid": "dev-feat/poc",
 		"plugin/prefill-gravity-forms": "^1.6",
 		"privacybydesign/irma-wp": "@dev",
+		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",
 		"wpackagist-plugin/coming-soon": "^6.0",
 		"wpackagist-plugin/duplicate-post": "^4.0",
@@ -164,6 +179,7 @@
 		"wpackagist-plugin/wordpress-importer": "^0.8",
 		"wpackagist-plugin/wp-seopress": "^8.0",
 		"ypackagist/advanced-custom-fields-pro": "^6.3",
+		"ypackagist/cmb2": "^2.11",
 		"ypackagist/gf-entries-in-excel": "^2.2",
 		"ypackagist/gp-advanced-select": "^1.0.1",
 		"ypackagist/gp-limit-dates": "^1.1.25",
