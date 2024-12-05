@@ -3727,12 +3727,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "4f956958e847e72f475f12b86e94091b944a0116"
+				"reference": "0d3875221d299f9c0cd1b4a2a16d8b3d7ba32aeb"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/4f956958e847e72f475f12b86e94091b944a0116",
-				"reference": "4f956958e847e72f475f12b86e94091b944a0116",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/0d3875221d299f9c0cd1b4a2a16d8b3d7ba32aeb",
+				"reference": "0d3875221d299f9c0cd1b4a2a16d8b3d7ba32aeb",
 				"shasum": ""
 			},
 			"require": {
@@ -3784,7 +3784,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2024-11-27T12:27:43+00:00"
+			"time": "2024-12-05T11:44:29+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -6561,15 +6561,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/user-switching",
-			"version": "1.9.0",
+			"version": "1.9.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/user-switching/",
-				"reference": "tags/1.9.0"
+				"reference": "tags/1.9.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/user-switching.1.9.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/user-switching.1.9.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
