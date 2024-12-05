@@ -4730,12 +4730,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/richardkorthuis/geoPHP.git",
-				"reference": "eeb62860346aa76e00a0c6f8520ea6c44c7c2363"
+				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/richardkorthuis/geoPHP/zipball/eeb62860346aa76e00a0c6f8520ea6c44c7c2363",
-				"reference": "eeb62860346aa76e00a0c6f8520ea6c44c7c2363",
+				"url": "https://api.github.com/repos/richardkorthuis/geoPHP/zipball/1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
+				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
 				"shasum": ""
 			},
 			"require": {
@@ -7120,6 +7120,25 @@
 		{
 			"name": "ypackagist/cmb2",
 			"version": "2.11.0",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
+				"shasum": "bc823b306f246df9b9dbeb010ebfbec0de3dd21c"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"authors": {
+				"name": "CMB2 team",
+				"homepage": "https://cmb2.io"
+			},
+			"description": "CMB2 will create metaboxes and forms with custom fields that will blow your mind.",
+			"homepage": "https://github.com/CMB2/CMB2"
+		},
+		{
+			"name": "ypackagist/gf-entries-in-excel",
+			"version": "2.3.9",
 			"dist": {
 				"type": "zip",
 				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
@@ -11413,7 +11432,9 @@
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"plugin/owc-gravityforms-zaaksysteem": 20
+		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"privacybydesign/irma-wp": 20,
+		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,

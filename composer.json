@@ -156,6 +156,18 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-base.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:richardkorthuis/geoPHP.git"
 		}
 	],
 	"_comment": [
