@@ -60,7 +60,7 @@ class GravityForms
 
     public function setFormThemeSlug(string $slug, array $form): string
     {
-        return GFCommon::is_legacy_markup_enabled($form['id']) ? $slug : 'gravity-theme';
+        return isset($form['id']) && GFCommon::is_legacy_markup_enabled($form['id']) ? $slug : 'gravity-theme';
     }
 
     /**
