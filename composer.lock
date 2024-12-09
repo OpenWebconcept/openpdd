@@ -11423,6 +11423,7 @@
 	"minimum-stability": "stable",
 	"stability-flags": {
 		"acato-plugins/cmb2-flexible-content": 20,
+		"acato/openkaarten-base": 20,
 		"acato/openkaarten-base-functions": 20,
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
