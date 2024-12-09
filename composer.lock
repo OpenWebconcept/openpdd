@@ -4,25 +4,70 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "1bb6b2d27551ea87e2b1fed11df084ca",
+	"content-hash": "4fa307d1f47273b8eaacd41ac4d8d29b",
 	"packages": [
 		{
-			"name": "acato/openkaarten-base",
-			"version": "0.1.1",
+			"name": "acato-plugins/cmb2-flexible-content",
+			"version": "dev-master",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
-				"reference": "b1515268254001a72ce16fe4f2c128a6096d85b8"
+				"url": "https://github.com/acato-plugins/cmb2-flexible-content.git",
+				"reference": "aa1ea795665cd3521570a4698032898561afa799"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/b1515268254001a72ce16fe4f2c128a6096d85b8",
-				"reference": "b1515268254001a72ce16fe4f2c128a6096d85b8",
+				"url": "https://api.github.com/repos/acato-plugins/cmb2-flexible-content/zipball/aa1ea795665cd3521570a4698032898561afa799",
+				"reference": "aa1ea795665cd3521570a4698032898561afa799",
 				"shasum": ""
 			},
 			"require": {
+				"php": ">=5.3.0"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0"
+			],
+			"authors": [
+				{
+					"name": "Reaktiv Studios",
+					"email": "info@reaktivstudios.com",
+					"homepage": "https://github.com/reaktivstudios"
+				},
+				{
+					"name": "Richard Korthuis",
+					"email": "richardkorthuis@acato.nl",
+					"homepage": "https://acato.nl"
+				}
+			],
+			"description": "A flexible content field for CMB2.",
+			"homepage": "https://github.com/acato-plugins/cmb2-flexible-content",
+			"support": {
+				"issues": "https://github.com/acato-plugins/cmb2-flexible-content",
+				"source": "https://github.com/acato-plugins/cmb2-flexible-content/tree/master"
+			},
+			"time": "2024-10-10T13:28:46+00:00"
+		},
+		{
+			"name": "acato/openkaarten-base",
+			"version": "0.1.4",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
+				"reference": "4b4582cdafa41f7050ebba6e167b32201e3d5ac2"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/4b4582cdafa41f7050ebba6e167b32201e3d5ac2",
+				"reference": "4b4582cdafa41f7050ebba6e167b32201e3d5ac2",
+				"shasum": ""
+			},
+			"require": {
+				"acato-plugins/cmb2-flexible-content": "dev-master",
+				"acato/openkaarten-base-functions": "dev-master",
 				"composer/installers": "~1.0",
-				"richardkorthuis/geophp": "dev-development"
+				"richardkorthuis/geophp": "dev-development",
+				"wpackagist-plugin/cmb2": "*"
 			},
 			"require-dev": {
 				"acato/wp-pre-commit-hook": "*",
@@ -40,10 +85,55 @@
 			],
 			"description": "Adds OpenKaarten to your WordPress website.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.1.1",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.1.4",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
 			},
-			"time": "2024-09-02T13:15:58+00:00"
+			"time": "2025-02-17T13:15:36+00:00"
+		},
+		{
+			"name": "acato/openkaarten-base-functions",
+			"version": "dev-master",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
+				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/ba41e30cbc6beccc6e501f1824664cc6bc44c824",
+				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "~1.0"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*",
+				"phpcompatibility/phpcompatibility-wp": "*"
+			},
+			"default-branch": true,
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Openkaarten_Base_Functions\\": "src/"
+				}
+			},
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Eyal Beker",
+					"email": "eyal@acato.nl"
+				}
+			],
+			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
+			"homepage": "https://www.acato.nl",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.0",
+				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
+			},
+			"time": "2024-12-05T11:21:46+00:00"
 		},
 		{
 			"name": "acato/openkaarten-frontend-plugin",
@@ -6033,6 +6123,24 @@
 			"time": "2021-01-21T19:18:03+00:00"
 		},
 		{
+			"name": "wpackagist-plugin/cmb2",
+			"version": "2.11.0",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/cmb2/",
+				"reference": "trunk"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/cmb2.zip?timestamp=1712086610"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"homepage": "https://wordpress.org/plugins/cmb2/"
+		},
+		{
 			"name": "wpackagist-plugin/coming-soon",
 			"version": "6.18.14",
 			"source": {
@@ -10532,6 +10640,8 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"acato-plugins/cmb2-flexible-content": 20,
+		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
