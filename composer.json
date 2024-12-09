@@ -123,6 +123,14 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/package-owc-openkaarten-functions.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:acato-plugins/cmb2-flexible-content.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:richardkorthuis/geoPHP.git"
 		}
 	],
