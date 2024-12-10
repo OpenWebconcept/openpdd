@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "4fa307d1f47273b8eaacd41ac4d8d29b",
+	"content-hash": "879a60302272b583f242109a63e16391",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3384,16 +3384,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
-			"version": "v1.1.4",
+			"version": "dev-feat/company-data-gutenberg-blocks",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "4a2d097a626cc3c82e0bbdafeec2e3658a4d0bdc"
+				"reference": "4ca65331485ca246c3c73565dd2e813f0a3ffb70"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/4a2d097a626cc3c82e0bbdafeec2e3658a4d0bdc",
-				"reference": "4a2d097a626cc3c82e0bbdafeec2e3658a4d0bdc",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/4ca65331485ca246c3c73565dd2e813f0a3ffb70",
+				"reference": "4ca65331485ca246c3c73565dd2e813f0a3ffb70",
 				"shasum": ""
 			},
 			"require": {
@@ -3437,10 +3437,10 @@
 			],
 			"description": "Yard | KVK Prefill GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.1.4",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/feat/company-data-gutenberg-blocks",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2025-02-26T16:10:44+00:00"
+			"time": "2025-02-26T16:40:13+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -10646,6 +10646,7 @@
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
