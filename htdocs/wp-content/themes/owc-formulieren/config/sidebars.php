@@ -22,8 +22,16 @@ return [
         'class' => '',
     ],
     [
-        'name' => __('Dropdown header menu', 'owc-formulieren'),
-        'id' => 'dropdown-header-menu-widget',
+        'name' => __('Dropdown header menu (DigiD)', 'owc-formulieren'),
+        'id' => 'dropdown-header-menu-widget-digid',
+        'description' => '',
+        'class' => '',
+        'before_widget' => false,
+        'after_widget' => false,
+    ],
+    [
+        'name' => __('Dropdown header menu (KVK)', 'owc-formulieren'),
+        'id' => 'dropdown-header-menu-widget-eherkenning',
         'description' => '',
         'class' => '',
         'before_widget' => false,
