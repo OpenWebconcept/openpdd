@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "4fa307d1f47273b8eaacd41ac4d8d29b",
+	"content-hash": "879a60302272b583f242109a63e16391",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -25,9 +25,7 @@
 			},
 			"default-branch": true,
 			"type": "wordpress-plugin",
-			"license": [
-				"GPL-2.0"
-			],
+			"license": [ "GPL-2.0" ],
 			"authors": [
 				{
 					"name": "Reaktiv Studios",
@@ -118,9 +116,7 @@
 					"Openkaarten_Base_Functions\\": "src/"
 				}
 			},
-			"license": [
-				"MIT"
-			],
+			"license": [ "MIT" ],
 			"authors": [
 				{
 					"name": "Eyal Beker",
@@ -11484,6 +11480,7 @@
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
