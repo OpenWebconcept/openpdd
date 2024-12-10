@@ -4,11 +4,16 @@ declare(strict_types=1);
 
 $home_config = load_config('home.php');
 
-if (method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN()) : ?>
+$brpClause = method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN();
+$kvkClause = method_exists('OWC\PrefillGravityFormsKVK\Traits\Helpers', 'currentUserHasKVK') && OWC\PrefillGravityFormsKVK\Traits\Helpers::currentUserHasKVK();
+
+if ($brpClause || $kvkClause) : ?>
     <div class="dropdown">
         <button class="btn btn-primary dropdown-toggle white-space-nowrap" aria-expanded="false" aria-haspopup="true">
-			<?php if (is_active_sidebar('dropdown-header-menu-widget')) : ?>
-				<?php dynamic_sidebar('dropdown-header-menu-widget'); ?>
+			<?php if (is_active_sidebar('dropdown-header-menu-widget-digid') && $brpClause) : ?>
+				<?php dynamic_sidebar('dropdown-header-menu-widget-digid'); ?>
+			<?php elseif (is_active_sidebar('dropdown-header-menu-widget-eherkenning') && $kvkClause) : ?>
+				<?php dynamic_sidebar('dropdown-header-menu-widget-eherkenning'); ?>
 			<?php endif; ?>
         </button>
         <div class="shadow dropdown-menu dropdown-menu-right" aria-hidden="true">
