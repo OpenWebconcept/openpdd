@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "71f6058c47dc4025f0522ef740e196ef",
+	"content-hash": "80d9fc4ccbc9884b66efab341b0e0016",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3589,16 +3589,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
-			"version": "v1.1.1",
+			"version": "dev-feat/company-data-gutenberg-blocks",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "16700761109b520ae409f02e162315e07909bfe2"
+				"reference": "bb464677321332a602a661731e4b22df1b2c2e5d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/16700761109b520ae409f02e162315e07909bfe2",
-				"reference": "16700761109b520ae409f02e162315e07909bfe2",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/bb464677321332a602a661731e4b22df1b2c2e5d",
+				"reference": "bb464677321332a602a661731e4b22df1b2c2e5d",
 				"shasum": ""
 			},
 			"require": {
@@ -3646,10 +3646,10 @@
 			],
 			"description": "Yard | KVK Prefill GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.1.1",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/feat/company-data-gutenberg-blocks",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2024-11-12T13:01:59+00:00"
+			"time": "2024-12-10T16:11:55+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -3815,12 +3815,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "12d78bf2a0fe30717b7a01f8b7f93e1bf494f6a3"
+				"reference": "651dc5da98b06bd3674625a586429184ee62ce8c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/12d78bf2a0fe30717b7a01f8b7f93e1bf494f6a3",
-				"reference": "12d78bf2a0fe30717b7a01f8b7f93e1bf494f6a3",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/651dc5da98b06bd3674625a586429184ee62ce8c",
+				"reference": "651dc5da98b06bd3674625a586429184ee62ce8c",
 				"shasum": ""
 			},
 			"require": {
@@ -3872,7 +3872,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2024-12-09T14:35:23+00:00"
+			"time": "2024-12-10T12:43:23+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -5283,8 +5283,8 @@
 			"type": "library",
 			"extra": {
 				"thanks": {
-					"name": "symfony/polyfill",
-					"url": "https://github.com/symfony/polyfill"
+					"url": "https://github.com/symfony/polyfill",
+					"name": "symfony/polyfill"
 				}
 			},
 			"autoload": {
@@ -11403,6 +11403,7 @@
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
 		"privacybydesign/irma-wp": 20,
