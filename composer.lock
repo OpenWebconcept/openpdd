@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "4fa307d1f47273b8eaacd41ac4d8d29b",
+	"content-hash": "879a60302272b583f242109a63e16391",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -25,9 +25,7 @@
 			},
 			"default-branch": true,
 			"type": "wordpress-plugin",
-			"license": [
-				"GPL-2.0"
-			],
+			"license": [ "GPL-2.0" ],
 			"authors": [
 				{
 					"name": "Reaktiv Studios",
@@ -118,9 +116,7 @@
 					"Openkaarten_Base_Functions\\": "src/"
 				}
 			},
-			"license": [
-				"MIT"
-			],
+			"license": [ "MIT" ],
 			"authors": [
 				{
 					"name": "Eyal Beker",
@@ -3361,15 +3357,11 @@
 				}
 			},
 			"scripts": {
-				"phpunit": [
-					"./vendor/bin/phpunit"
-				],
+				"phpunit": [ "./vendor/bin/phpunit" ],
 				"test": [
 					"phpunit --testdox --colors=always --bootstrap='./tests/bootstrap.php' tests "
 				],
-				"format": [
-					"vendor/bin/php-cs-fixer fix"
-				]
+				"format": [ "vendor/bin/php-cs-fixer fix" ]
 			},
 			"authors": [
 				{
@@ -4317,40 +4309,19 @@
 				}
 			},
 			"scripts": {
-				"tests": [
-					"@performance",
-					"@bench",
-					"@unit",
-					"@test-input"
-				],
-				"analyze": [
-					"@cs-warning",
-					"@stan"
-				],
+				"tests": [ "@performance", "@bench", "@unit", "@test-input" ],
+				"analyze": [ "@cs-warning", "@stan" ],
 				"all": [
 					"@analyze",
 					"echo \"Let's cool down a bit before testing benchmark ...\" && sleep 1",
 					"@tests"
 				],
-				"cs": [
-					"phpcs"
-				],
-				"cs-warning": [
-					"phpcs -w"
-				],
-				"cs-fix": [
-					"phpcbf"
-				],
-				"stan": [
-					"phpstan analyze --no-progress"
-				],
-				"unit": [
-					"@putenv XDEBUG_MODE=coverage",
-					"phpunit"
-				],
-				"test-input": [
-					"cd tests && php test.php && cd .."
-				],
+				"cs": [ "phpcs" ],
+				"cs-warning": [ "phpcs -w" ],
+				"cs-fix": [ "phpcbf" ],
+				"stan": [ "phpstan analyze --no-progress" ],
+				"unit": [ "@putenv XDEBUG_MODE=coverage", "phpunit" ],
+				"test-input": [ "cd tests && php test.php && cd .." ],
 				"performance": [
 					"cd tests && php geometryPerformance.php && cd .."
 				],
@@ -4358,10 +4329,7 @@
 					"vendor/bin/phpbench run --report=aggregate --sleep 10000"
 				]
 			},
-			"license": [
-				"GPL-2.0-or-later",
-				"BSD-3-Clause"
-			],
+			"license": [ "GPL-2.0-or-later", "BSD-3-Clause" ],
 			"authors": [
 				{
 					"name": "Patrick Hayes",
@@ -10678,6 +10646,7 @@
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
