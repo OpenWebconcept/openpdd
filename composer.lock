@@ -3657,12 +3657,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "27d666a05b44b1e0972150cc9b95a3a15bd72fb4"
+				"reference": "8c3dcc14012acde58ee86ae7969385d1daa69e09"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/27d666a05b44b1e0972150cc9b95a3a15bd72fb4",
-				"reference": "27d666a05b44b1e0972150cc9b95a3a15bd72fb4",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/8c3dcc14012acde58ee86ae7969385d1daa69e09",
+				"reference": "8c3dcc14012acde58ee86ae7969385d1daa69e09",
 				"shasum": ""
 			},
 			"require": {
@@ -3714,7 +3714,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-12-09T15:34:41+00:00"
+			"time": "2024-12-11T16:19:54+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -6721,15 +6721,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.3.1",
+			"version": "8.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.3.1"
+				"reference": "tags/8.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.3.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7124,16 +7124,16 @@
 		},
 		{
 			"name": "antecedent/patchwork",
-			"version": "2.2.0",
+			"version": "2.2.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/antecedent/patchwork.git",
-				"reference": "b07d4fb37c3c723c8755122160c089e077d5de65"
+				"reference": "1bf183a3e1bd094f231a2128b9ecc5363c269245"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/antecedent/patchwork/zipball/b07d4fb37c3c723c8755122160c089e077d5de65",
-				"reference": "b07d4fb37c3c723c8755122160c089e077d5de65",
+				"url": "https://api.github.com/repos/antecedent/patchwork/zipball/1bf183a3e1bd094f231a2128b9ecc5363c269245",
+				"reference": "1bf183a3e1bd094f231a2128b9ecc5363c269245",
 				"shasum": ""
 			},
 			"require": {
@@ -7166,9 +7166,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/antecedent/patchwork/issues",
-				"source": "https://github.com/antecedent/patchwork/tree/2.2.0"
+				"source": "https://github.com/antecedent/patchwork/tree/2.2.1"
 			},
-			"time": "2024-09-27T16:59:55+00:00"
+			"time": "2024-12-11T10:19:54+00:00"
 		},
 		{
 			"name": "clue/ndjson-react",
