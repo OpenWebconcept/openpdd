@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "879a60302272b583f242109a63e16391",
+	"content-hash": "010995a9e79d5ad567cb102b0fd519c9",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3324,16 +3324,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-jcc-appointments",
-			"version": "dev-main",
+			"version": "dev-feat/configurable-activity-numbers",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750"
+				"reference": "9731a6e798d9c6ff1dd19c66a54910c2ec41bda9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
-				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/9731a6e798d9c6ff1dd19c66a54910c2ec41bda9",
+				"reference": "9731a6e798d9c6ff1dd19c66a54910c2ec41bda9",
 				"shasum": ""
 			},
 			"require": {
@@ -3345,7 +3345,6 @@
 				"phpunit/phpunit": "^9.0",
 				"symfony/var-dumper": "^5.1"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -3377,10 +3376,10 @@
 			],
 			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/main",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2024-09-09T15:09:42+00:00"
+			"time": "2025-02-27T16:10:55+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
