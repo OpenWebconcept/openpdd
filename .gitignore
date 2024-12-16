@@ -21,6 +21,7 @@ htdocs/wp-content/themes/**/assets/dist/
 htdocs/wp-content/themes/**/vendor/
 !htdocs/wp-content/themes/**/assets/scss/vendor/
 htdocs/wp-content/uploads
+htdocs/wp-content/wflogs
 htdocs/wp/*
 node_modules
 storage/certificates
