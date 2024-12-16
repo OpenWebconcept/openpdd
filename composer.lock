@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "80d9fc4ccbc9884b66efab341b0e0016",
+	"content-hash": "828d198ce96b8ad51fc50d4d8c4926b1",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3529,16 +3529,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-jcc-appointments",
-			"version": "dev-main",
+			"version": "dev-feat/configurable-activity-numbers",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750"
+				"reference": "204a65409790616f9859107191eddd9b40e5b02c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
-				"reference": "cea3c6e3b7fe38281ba95b7fa6f2ab768b5c0750",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/204a65409790616f9859107191eddd9b40e5b02c",
+				"reference": "204a65409790616f9859107191eddd9b40e5b02c",
 				"shasum": ""
 			},
 			"require": {
@@ -3550,7 +3550,6 @@
 				"phpunit/phpunit": "^9.0",
 				"symfony/var-dumper": "^5.1"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"autoload": {
 				"psr-4": {
@@ -3582,10 +3581,10 @@
 			],
 			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/main",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2024-09-09T15:09:42+00:00"
+			"time": "2024-12-16T16:29:24+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -3657,12 +3656,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "6afa67ae06ee79b1c69ef5669a54ad57d70796fc"
+				"reference": "e6ee95dc8d7b10517030413fa840509408e7013f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/6afa67ae06ee79b1c69ef5669a54ad57d70796fc",
-				"reference": "6afa67ae06ee79b1c69ef5669a54ad57d70796fc",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/e6ee95dc8d7b10517030413fa840509408e7013f",
+				"reference": "e6ee95dc8d7b10517030413fa840509408e7013f",
 				"shasum": ""
 			},
 			"require": {
@@ -3714,7 +3713,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-12-16T08:56:56+00:00"
+			"time": "2024-12-16T09:13:53+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
