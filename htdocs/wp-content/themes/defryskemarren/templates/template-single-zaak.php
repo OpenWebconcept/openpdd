@@ -47,7 +47,7 @@ get_template_part('templates/mijn-zaken/header');
 							<th>Einddatum</th>
 							<td><?php echo $zaak->endDate(); ?></td>
 						</tr>
-					<?php endif; ?>]
+					<?php endif; ?>
 
 					<?php if (! empty($zaak->statusExplanation())) : ?>
 						<tr>
