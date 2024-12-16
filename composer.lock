@@ -3046,16 +3046,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-amp-booking",
-			"version": "v1.5.2",
+			"version": "v1.5.4",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git",
-				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7"
+				"reference": "92b4113daf5235f2735c3c8503285887e42f6e9b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
-				"reference": "15a3dcaa17abbad301ed8ddde85c0a1dd51ea7a7",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/92b4113daf5235f2735c3c8503285887e42f6e9b",
+				"reference": "92b4113daf5235f2735c3c8503285887e42f6e9b",
 				"shasum": ""
 			},
 			"require": {
@@ -3109,10 +3109,10 @@
 			],
 			"description": "GravityForms AMP Booking",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.2",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.4",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
 			},
-			"time": "2024-09-20T10:59:22+00:00"
+			"time": "2024-12-13T11:50:10+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
@@ -3593,12 +3593,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "bb464677321332a602a661731e4b22df1b2c2e5d"
+				"reference": "350a03b412347a91dcc68a6e31f8c5c5395ec7d4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/bb464677321332a602a661731e4b22df1b2c2e5d",
-				"reference": "bb464677321332a602a661731e4b22df1b2c2e5d",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/350a03b412347a91dcc68a6e31f8c5c5395ec7d4",
+				"reference": "350a03b412347a91dcc68a6e31f8c5c5395ec7d4",
 				"shasum": ""
 			},
 			"require": {
@@ -3649,7 +3649,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/feat/company-data-gutenberg-blocks",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2024-12-10T16:11:55+00:00"
+			"time": "2024-12-13T06:58:51+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -3657,12 +3657,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "8c3dcc14012acde58ee86ae7969385d1daa69e09"
+				"reference": "6afa67ae06ee79b1c69ef5669a54ad57d70796fc"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/8c3dcc14012acde58ee86ae7969385d1daa69e09",
-				"reference": "8c3dcc14012acde58ee86ae7969385d1daa69e09",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/6afa67ae06ee79b1c69ef5669a54ad57d70796fc",
+				"reference": "6afa67ae06ee79b1c69ef5669a54ad57d70796fc",
 				"shasum": ""
 			},
 			"require": {
@@ -3714,7 +3714,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-12-11T16:19:54+00:00"
+			"time": "2024-12-16T08:56:56+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3876,16 +3876,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.7",
+			"version": "v1.6.8",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "69c91e8d8399896a065a751518b1d40545b1aff2"
+				"reference": "d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/69c91e8d8399896a065a751518b1d40545b1aff2",
-				"reference": "69c91e8d8399896a065a751518b1d40545b1aff2",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c",
+				"reference": "d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c",
 				"shasum": ""
 			},
 			"require": {
@@ -3932,10 +3932,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.7",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.8",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-11-12T12:58:54+00:00"
+			"time": "2024-12-16T06:56:29+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -5026,16 +5026,16 @@
 		},
 		{
 			"name": "symfony/http-client-contracts",
-			"version": "v2.5.4",
+			"version": "v2.5.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/http-client-contracts.git",
-				"reference": "fbfd73095ae958935396cf2243c47b01c677750c"
+				"reference": "48ef1d0a082885877b664332b9427662065a360c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/fbfd73095ae958935396cf2243c47b01c677750c",
-				"reference": "fbfd73095ae958935396cf2243c47b01c677750c",
+				"url": "https://api.github.com/repos/symfony/http-client-contracts/zipball/48ef1d0a082885877b664332b9427662065a360c",
+				"reference": "48ef1d0a082885877b664332b9427662065a360c",
 				"shasum": ""
 			},
 			"require": {
@@ -5084,7 +5084,7 @@
 				"standards"
 			],
 			"support": {
-				"source": "https://github.com/symfony/http-client-contracts/tree/v2.5.4"
+				"source": "https://github.com/symfony/http-client-contracts/tree/v2.5.5"
 			},
 			"funding": [
 				{
@@ -5100,7 +5100,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-25T09:13:00+00:00"
+			"time": "2024-11-28T08:37:04+00:00"
 		},
 		{
 			"name": "symfony/http-foundation",
@@ -6943,11 +6943,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.0.4",
+			"version": "2.9.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.0.4",
-				"shasum": "c27879d928169e35b5aa60068a55aa0666f2dfe8"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.1",
+				"shasum": "ea23a2bb3caeca5c0a640c2bc7b9eb6f570c51d4"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7019,11 +7019,11 @@
 		},
 		{
 			"name": "ypackagist/gravityperks",
-			"version": "2.3.12",
+			"version": "2.3.14",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityperks/2.3.12",
-				"shasum": "7b72b23491e84e07e71f0cc4c9beb94202af9a35"
+				"url": "https://packagist.yard.nl/satispress/gravityperks/2.3.14",
+				"shasum": "ef67527297af52d1431fcaf506637860d2442a8b"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
