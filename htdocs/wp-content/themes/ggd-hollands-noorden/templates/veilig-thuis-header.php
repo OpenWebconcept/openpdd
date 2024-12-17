@@ -19,6 +19,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
     <a class="btn btn-primary btn-focus | sr-only sr-only-focusable" href="#main">Spring naar content</a>
     <div id="page">
         <div class="nav">
