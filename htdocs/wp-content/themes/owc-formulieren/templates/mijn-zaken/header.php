@@ -16,6 +16,7 @@ do_action('get_header'); ?>>
 </head>
 
 <body <?php body_class(); ?>>
+    <?php wp_body_open(); ?>
     <a class="btn btn-primary btn-focus | sr-only sr-only-focusable" href="#main">Spring naar content</a>
     <div class="nav">
         <div class="shadow navbar navbar-expand w-100" role="navigation">
