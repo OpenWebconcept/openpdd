@@ -4,6 +4,13 @@ declare(strict_types=1);
 
 defined('ABSPATH') || exit;
 
+try {
+	(new HK\Providers\CommandServiceProvider())->boot();
+} catch (Exception $e) {
+	// Log error.
+	error_log('Error booting CommandServiceProvider: ' . $e->getMessage());
+}
+
 /**
  * If the browser of the visitor is not Chrome or Edge.
  * Display message,
