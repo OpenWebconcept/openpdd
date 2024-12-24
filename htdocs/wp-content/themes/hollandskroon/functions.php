@@ -34,17 +34,17 @@ add_filter('the_content', function ($content) {
 
 add_action('init', function () {
     $labels = [
-        'name' => _x('Owner', 'taxonomy general name', 'hoekschewaard'),
-        'singular_name' => _x('Owner', 'taxonomy singular name', 'hoekschewaard'),
-        'search_items' => __('Search owners', 'hoekschewaard'),
-        'all_items' => __('All owners', 'hoekschewaard'),
-        'parent_item' => __('Parent owner', 'hoekschewaard'),
-        'parent_item_colon' => __('Parent owner:', 'hoekschewaard'),
-        'edit_item' => __('Edit owner', 'hoekschewaard'),
-        'update_item' => __('Update owner', 'hoekschewaard'),
-        'add_new_item' => __('Add new owner', 'hoekschewaard'),
-        'new_item_name' => __('New owner name', 'hoekschewaard'),
-        'menu_name' => __('Owner', 'hoekschewaard'),
+        'name' => _x('Owner', 'taxonomy general name', 'hollandskroon'),
+        'singular_name' => _x('Owner', 'taxonomy singular name', 'hollandskroon'),
+        'search_items' => __('Search owners', 'hollandskroon'),
+        'all_items' => __('All owners', 'hollandskroon'),
+        'parent_item' => __('Parent owner', 'hollandskroon'),
+        'parent_item_colon' => __('Parent owner:', 'hollandskroon'),
+        'edit_item' => __('Edit owner', 'hollandskroon'),
+        'update_item' => __('Update owner', 'hollandskroon'),
+        'add_new_item' => __('Add new owner', 'hollandskroon'),
+        'new_item_name' => __('New owner name', 'hollandskroon'),
+        'menu_name' => __('Owner', 'hollandskroon'),
     ];
 
     register_taxonomy('form-owner', 'page', [
@@ -60,17 +60,17 @@ add_action('init', function () {
 
 add_action('init', function () {
     $labels = [
-        'name' => _x('Link', 'taxonomy general name', 'hoekschewaard'),
-        'singular_name' => _x('Link', 'taxonomy singular name', 'hoekschewaard'),
-        'search_items' => __('Search Links', 'hoekschewaard'),
-        'all_items' => __('All Links', 'hoekschewaard'),
-        'parent_item' => __('Parent Link', 'hoekschewaard'),
-        'parent_item_colon' => __('Parent Link:', 'hoekschewaard'),
-        'edit_item' => __('Edit Link', 'hoekschewaard'),
-        'update_item' => __('Update Link', 'hoekschewaard'),
-        'add_new_item' => __('Add new Link', 'hoekschewaard'),
-        'new_item_name' => __('New Link name', 'hoekschewaard'),
-        'menu_name' => __('Link', 'hoekschewaard'),
+        'name' => _x('Link', 'taxonomy general name', 'hollandskroon'),
+        'singular_name' => _x('Link', 'taxonomy singular name', 'hollandskroon'),
+        'search_items' => __('Search Links', 'hollandskroon'),
+        'all_items' => __('All Links', 'hollandskroon'),
+        'parent_item' => __('Parent Link', 'hollandskroon'),
+        'parent_item_colon' => __('Parent Link:', 'hollandskroon'),
+        'edit_item' => __('Edit Link', 'hhollandskroon'),
+        'update_item' => __('Update Link', 'hollandskroon'),
+        'add_new_item' => __('Add new Link', 'hollandskroon'),
+        'new_item_name' => __('New Link name', 'hollandskroon'),
+        'menu_name' => __('Link', 'hollandskroon'),
     ];
 
     register_taxonomy('form-links', 'page', [
