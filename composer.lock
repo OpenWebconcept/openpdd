@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "234aad5b6f9005e18a94251643d84d17",
+	"content-hash": "72bbac5ab5aa152dcf0a5bc820ec3ce8",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2956,16 +2956,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.0.4",
+			"version": "v0.0.8",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "f071b18756b2febbd7effcf01f5df965e8a183f6"
+				"reference": "517d1b88beee23b1a1985c108df199599ecd1059"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/f071b18756b2febbd7effcf01f5df965e8a183f6",
-				"reference": "f071b18756b2febbd7effcf01f5df965e8a183f6",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/517d1b88beee23b1a1985c108df199599ecd1059",
+				"reference": "517d1b88beee23b1a1985c108df199599ecd1059",
 				"shasum": ""
 			},
 			"require": {
@@ -3009,10 +3009,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.4",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.8",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2024-08-15T06:21:06+00:00"
+			"time": "2024-12-24T11:16:00+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
@@ -11024,17 +11024,17 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-signicat-openid": 20,
-		"privacybydesign/irma-wp": 20,
-		"deployer/recipes": 20
+		"privacybydesign/irma-wp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
