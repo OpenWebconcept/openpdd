@@ -2292,10 +2292,6 @@
 			],
 			"type": "library",
 			"extra": {
-				"branch-alias": {
-					"dev-master": "3.x-dev",
-					"dev-2.x": "2.x-dev"
-				},
 				"laravel": {
 					"providers": [
 						"Carbon\\Laravel\\ServiceProvider"
@@ -2305,6 +2301,10 @@
 					"includes": [
 						"extension.neon"
 					]
+				},
+				"branch-alias": {
+					"dev-2.x": "2.x-dev",
+					"dev-master": "3.x-dev"
 				}
 			},
 			"autoload": {
@@ -3152,16 +3152,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "v1.6.0",
+			"version": "v1.6.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
-				"reference": "c03c24e0ceba9d5b3f04e0a3e859d0f230383d02"
+				"reference": "fb3651300c96ee324d362441f1600b54ffbd9618"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/c03c24e0ceba9d5b3f04e0a3e859d0f230383d02",
-				"reference": "c03c24e0ceba9d5b3f04e0a3e859d0f230383d02",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/fb3651300c96ee324d362441f1600b54ffbd9618",
+				"reference": "fb3651300c96ee324d362441f1600b54ffbd9618",
 				"shasum": ""
 			},
 			"require": {
@@ -3218,23 +3218,23 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.6.0",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.6.1",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2024-11-06T10:09:45+00:00"
+			"time": "2024-12-24T14:25:08+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
-			"version": "v1.3.0",
+			"version": "v1.3.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git",
-				"reference": "01ff035c70696e00c3ef8e1fe28b3bf89a85ecf1"
+				"reference": "0234d34fe3d6670a2e61c6b769d440db2dea86e9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/01ff035c70696e00c3ef8e1fe28b3bf89a85ecf1",
-				"reference": "01ff035c70696e00c3ef8e1fe28b3bf89a85ecf1",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/0234d34fe3d6670a2e61c6b769d440db2dea86e9",
+				"reference": "0234d34fe3d6670a2e61c6b769d440db2dea86e9",
 				"shasum": ""
 			},
 			"require": {
@@ -3290,23 +3290,23 @@
 			"description": "Add a eHerkenning login field to GravityForms",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.3.0",
+				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.3.1",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
 			},
-			"time": "2024-11-06T12:59:55+00:00"
+			"time": "2024-12-24T14:27:21+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eidas",
-			"version": "v1.1.1",
+			"version": "v1.1.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-eidas.git",
-				"reference": "c3f4132145b7ffd17bfdff0a10d3e08485a23a15"
+				"reference": "445ddfd8994407cfdc1b486eff52d6ffeb2dcb79"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/c3f4132145b7ffd17bfdff0a10d3e08485a23a15",
-				"reference": "c3f4132145b7ffd17bfdff0a10d3e08485a23a15",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/445ddfd8994407cfdc1b486eff52d6ffeb2dcb79",
+				"reference": "445ddfd8994407cfdc1b486eff52d6ffeb2dcb79",
 				"shasum": ""
 			},
 			"require": {
@@ -3362,10 +3362,10 @@
 			"description": "Add a eIDAS login field to GravityForms",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.1.1",
+				"source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.1.2",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
 			},
-			"time": "2024-11-22T13:23:53+00:00"
+			"time": "2024-12-24T14:32:38+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -3656,16 +3656,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.7",
+			"version": "v1.6.8",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "69c91e8d8399896a065a751518b1d40545b1aff2"
+				"reference": "d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/69c91e8d8399896a065a751518b1d40545b1aff2",
-				"reference": "69c91e8d8399896a065a751518b1d40545b1aff2",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c",
+				"reference": "d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c",
 				"shasum": ""
 			},
 			"require": {
@@ -3712,10 +3712,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.7",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.8",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-11-12T12:58:54+00:00"
+			"time": "2024-12-16T06:56:29+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6367,15 +6367,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.4",
+			"version": "8.4.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.4"
+				"reference": "trunk"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.4.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.zip?timestamp=1734685533"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6456,11 +6456,11 @@
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.3.5",
+			"version": "2.3.6",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.5",
-				"shasum": "5ea607b270ffe269225ee1f73a2f8c15a00ff002"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.6",
+				"shasum": "fb2e7920f22bdb14763283604668469cf0c55e4e"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6888,13 +6888,13 @@
 			},
 			"type": "library",
 			"extra": {
-				"branch-alias": {
-					"dev-main": "3.x-dev"
-				},
 				"phpstan": {
 					"includes": [
 						"extension.neon"
 					]
+				},
+				"branch-alias": {
+					"dev-main": "3.x-dev"
 				}
 			},
 			"autoload": {
@@ -11024,17 +11024,17 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-signicat-openid": 20,
-		"privacybydesign/irma-wp": 20,
-		"deployer/recipes": 20
+		"privacybydesign/irma-wp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
