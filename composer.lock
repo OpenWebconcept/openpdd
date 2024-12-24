@@ -6246,15 +6246,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.4",
+			"version": "6.12.5.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.4"
+				"reference": "tags/6.12.5.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.4.zip"
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.5.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6390,15 +6390,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.7.0.2",
+			"version": "8.8.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.7.0.2"
+				"reference": "tags/8.8.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -11053,16 +11053,16 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
-		"privacybydesign/irma-wp": 20,
-		"deployer/recipes": 20
+		"privacybydesign/irma-wp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
