@@ -1,7 +1,7 @@
 <?php
 $digid_is_active = $args['digid_is_active'] ?? false;
 $digid_provider = $args['digid_provider'] ?? 'owc-signicat-openid';
-$digid_request_account_url = env('APP_ENV', 'production') === 'production' ? 'https://www.digid.nl/aanvragen-en-activeren/digid-aanvragen/' : 'https://preprod1.digid.nl/aanvragen/';
+$digid_request_account_url = env('APP_ENV', 'production') === 'production' ? 'https://www.digid.nl/' : 'https://preprod1.digid.nl/';
 ?>
 
 <?php if ($digid_is_active): ?>
