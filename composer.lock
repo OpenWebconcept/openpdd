@@ -4,8 +4,168 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "72bbac5ab5aa152dcf0a5bc820ec3ce8",
+	"content-hash": "125c1931333d604cc8d6a4ebed6d985e",
 	"packages": [
+		{
+			"name": "acato-plugins/cmb2-flexible-content",
+			"version": "dev-master",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/acato-plugins/cmb2-flexible-content.git",
+				"reference": "aa1ea795665cd3521570a4698032898561afa799"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/acato-plugins/cmb2-flexible-content/zipball/aa1ea795665cd3521570a4698032898561afa799",
+				"reference": "aa1ea795665cd3521570a4698032898561afa799",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=5.3.0"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0"
+			],
+			"authors": [
+				{
+					"name": "Reaktiv Studios",
+					"email": "info@reaktivstudios.com",
+					"homepage": "https://github.com/reaktivstudios"
+				},
+				{
+					"name": "Richard Korthuis",
+					"email": "richardkorthuis@acato.nl",
+					"homepage": "https://acato.nl"
+				}
+			],
+			"description": "A flexible content field for CMB2.",
+			"homepage": "https://github.com/acato-plugins/cmb2-flexible-content",
+			"support": {
+				"issues": "https://github.com/acato-plugins/cmb2-flexible-content",
+				"source": "https://github.com/acato-plugins/cmb2-flexible-content/tree/master"
+			},
+			"time": "2024-10-10T13:28:46+00:00"
+		},
+		{
+			"name": "acato/openkaarten-base",
+			"version": "0.1.2",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
+				"reference": "76ef3bad8a0948e5501ea878b50b61b89341f0ed"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/76ef3bad8a0948e5501ea878b50b61b89341f0ed",
+				"reference": "76ef3bad8a0948e5501ea878b50b61b89341f0ed",
+				"shasum": ""
+			},
+			"require": {
+				"acato-plugins/cmb2-flexible-content": "dev-master",
+				"acato/openkaarten-base-functions": "dev-master",
+				"composer/installers": "~1.0",
+				"richardkorthuis/geophp": "dev-development",
+				"wpackagist-plugin/cmb2": "*"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*",
+				"bjornjohansen/wp-pre-commit-hook": "*",
+				"phpcompatibility/phpcompatibility-wp": "*"
+			},
+			"type": "wordpress-plugin",
+			"authors": [
+				{
+					"name": "Eyal Beker",
+					"email": "eyal@acato.nl",
+					"homepage": "https://acato.nl",
+					"role": "Backend WordPress Developer"
+				}
+			],
+			"description": "Adds OpenKaarten to your WordPress website.",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.1.2",
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
+			},
+			"time": "2024-12-05T14:58:56+00:00"
+		},
+		{
+			"name": "acato/openkaarten-base-functions",
+			"version": "dev-master",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
+				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/ba41e30cbc6beccc6e501f1824664cc6bc44c824",
+				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "~1.0"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*",
+				"phpcompatibility/phpcompatibility-wp": "*"
+			},
+			"default-branch": true,
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Openkaarten_Base_Functions\\": "src/"
+				}
+			},
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Eyal Beker",
+					"email": "eyal@acato.nl"
+				}
+			],
+			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
+			"homepage": "https://www.acato.nl",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.0",
+				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
+			},
+			"time": "2024-12-05T11:21:46+00:00"
+		},
+		{
+			"name": "acato/openkaarten-frontend-plugin",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+				"reference": "e4834fe839ab8f16001bf8ed4259692da878224c"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/e4834fe839ab8f16001bf8ed4259692da878224c",
+				"reference": "e4834fe839ab8f16001bf8ed4259692da878224c",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "~1.0"
+			},
+			"require-dev": {
+				"acato/wp-pre-commit-hook": "*",
+				"bjornjohansen/wp-pre-commit-hook": "*",
+				"phpcompatibility/phpcompatibility-wp": "*"
+			},
+			"default-branch": true,
+			"type": "wordpress-plugin",
+			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
+			"support": {
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.1.1",
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
+			},
+			"time": "2024-12-05T15:05:56+00:00"
+		},
 		{
 			"name": "aura/session",
 			"version": "2.1.0",
@@ -2253,12 +2413,12 @@
 			"version": "2.72.6",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/briannesbitt/Carbon.git",
+				"url": "https://github.com/CarbonPHP/carbon.git",
 				"reference": "1e9d50601e7035a4c61441a208cb5bed73e108c5"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1e9d50601e7035a4c61441a208cb5bed73e108c5",
+				"url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/1e9d50601e7035a4c61441a208cb5bed73e108c5",
 				"reference": "1e9d50601e7035a4c61441a208cb5bed73e108c5",
 				"shasum": ""
 			},
@@ -2771,16 +2931,16 @@
 		},
 		{
 			"name": "plugin/config-expander",
-			"version": "v2.0.29",
+			"version": "v2.0.30",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/config-expander.git",
-				"reference": "c80c2eddedeeee4937fab22a66ec1ea3e3f013d1"
+				"reference": "59fce60bc0af832d9759612125afc8da14a302df"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/config-expander/zipball/c80c2eddedeeee4937fab22a66ec1ea3e3f013d1",
-				"reference": "c80c2eddedeeee4937fab22a66ec1ea3e3f013d1",
+				"url": "https://api.github.com/repos/yardinternet/config-expander/zipball/59fce60bc0af832d9759612125afc8da14a302df",
+				"reference": "59fce60bc0af832d9759612125afc8da14a302df",
 				"shasum": ""
 			},
 			"require": {
@@ -2856,10 +3016,10 @@
 			"description": "Config Expander for WordPress",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/config-expander/tree/v2.0.29",
+				"source": "https://github.com/yardinternet/config-expander/tree/v2.0.30",
 				"issues": "https://github.com/yardinternet/config-expander/issues"
 			},
-			"time": "2024-09-06T12:23:30+00:00"
+			"time": "2025-01-07T10:43:17+00:00"
 		},
 		{
 			"name": "plugin/formio-wordpress",
@@ -3368,17 +3528,76 @@
 			"time": "2024-12-24T14:32:38+00:00"
 		},
 		{
-			"name": "plugin/owc-gravityforms-kvk-prefill",
-			"version": "v1.1.2",
+			"name": "plugin/owc-gravityforms-jcc-appointments",
+			"version": "dev-feat/configurable-activity-numbers",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "2eaacc94cd1a3421d1c78c20377919f9b6f6ed24"
+				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
+				"reference": "204a65409790616f9859107191eddd9b40e5b02c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/2eaacc94cd1a3421d1c78c20377919f9b6f6ed24",
-				"reference": "2eaacc94cd1a3421d1c78c20377919f9b6f6ed24",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/204a65409790616f9859107191eddd9b40e5b02c",
+				"reference": "204a65409790616f9859107191eddd9b40e5b02c",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.4|^8.0"
+			},
+			"require-dev": {
+				"10up/wp_mock": "^0.5.0",
+				"friendsofphp/php-cs-fixer": "^3.0",
+				"phpunit/phpunit": "^9.0",
+				"symfony/var-dumper": "^5.1"
+			},
+			"type": "wordpress-plugin",
+			"autoload": {
+				"psr-4": {
+					"OWC\\Appointments\\": "./src/Appointments"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"OWC\\Appointments\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"phpunit": [
+					"./vendor/bin/phpunit"
+				],
+				"test": [
+					"phpunit --testdox --colors=always --bootstrap='./tests/bootstrap.php' tests "
+				],
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				]
+			},
+			"authors": [
+				{
+					"name": "Yard | Digital Agency",
+					"email": "info@yard.nl",
+					"homepage": "https://www.yard.nl"
+				}
+			],
+			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
+			"support": {
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
+				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
+			},
+			"time": "2024-12-16T16:29:24+00:00"
+		},
+		{
+			"name": "plugin/owc-gravityforms-kvk-prefill",
+			"version": "dev-feat/company-data-gutenberg-blocks",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
+				"reference": "350a03b412347a91dcc68a6e31f8c5c5395ec7d4"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/350a03b412347a91dcc68a6e31f8c5c5395ec7d4",
+				"reference": "350a03b412347a91dcc68a6e31f8c5c5395ec7d4",
 				"shasum": ""
 			},
 			"require": {
@@ -3426,23 +3645,23 @@
 			],
 			"description": "Yard | KVK Prefill GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.1.2",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/feat/company-data-gutenberg-blocks",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2024-12-10T13:00:15+00:00"
+			"time": "2024-12-13T06:58:51+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.2.2",
+			"version": "dev-feat/mijn-taken",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "4b6f185e895a29c8f6e353dcc78489eea028e70d"
+				"reference": "e6ee95dc8d7b10517030413fa840509408e7013f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4b6f185e895a29c8f6e353dcc78489eea028e70d",
-				"reference": "4b6f185e895a29c8f6e353dcc78489eea028e70d",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/e6ee95dc8d7b10517030413fa840509408e7013f",
+				"reference": "e6ee95dc8d7b10517030413fa840509408e7013f",
 				"shasum": ""
 			},
 			"require": {
@@ -3491,10 +3710,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.2.2",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2024-11-12T12:56:32+00:00"
+			"time": "2024-12-16T09:13:53+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4333,6 +4552,122 @@
 				"source": "https://github.com/ralouphie/getallheaders/tree/develop"
 			},
 			"time": "2019-03-08T08:55:37+00:00"
+		},
+		{
+			"name": "richardkorthuis/geophp",
+			"version": "dev-development",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/richardkorthuis/geoPHP.git",
+				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/richardkorthuis/geoPHP/zipball/1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
+				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.1|^8.0"
+			},
+			"require-dev": {
+				"php-coveralls/php-coveralls": "2.*",
+				"phpbench/phpbench": "^1.0",
+				"phpstan/phpstan": "^1.4.0",
+				"phpunit/phpunit": "^8.0|^9.0",
+				"squizlabs/php_codesniffer": "3.*"
+			},
+			"suggest": {
+				"ext-geos": "GEOS allows more advanced operations"
+			},
+			"default-branch": true,
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"geoPHP\\": "src/"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"geoPHP\\Tests\\": "tests/"
+				}
+			},
+			"scripts": {
+				"tests": [
+					"@performance",
+					"@bench",
+					"@unit",
+					"@test-input"
+				],
+				"analyze": [
+					"@cs-warning",
+					"@stan"
+				],
+				"all": [
+					"@analyze",
+					"echo \"Let's cool down a bit before testing benchmark ...\" && sleep 1",
+					"@tests"
+				],
+				"cs": [
+					"phpcs"
+				],
+				"cs-warning": [
+					"phpcs -w"
+				],
+				"cs-fix": [
+					"phpcbf"
+				],
+				"stan": [
+					"phpstan analyze --no-progress"
+				],
+				"unit": [
+					"@putenv XDEBUG_MODE=coverage",
+					"phpunit"
+				],
+				"test-input": [
+					"cd tests && php test.php && cd .."
+				],
+				"performance": [
+					"cd tests && php geometryPerformance.php && cd .."
+				],
+				"bench": [
+					"vendor/bin/phpbench run --report=aggregate --sleep 10000"
+				]
+			},
+			"license": [
+				"GPL-2.0-or-later",
+				"BSD-3-Clause"
+			],
+			"authors": [
+				{
+					"name": "Patrick Hayes",
+					"role": "Original creator"
+				},
+				{
+					"name": "Péter Báthory",
+					"role": "Developer"
+				}
+			],
+			"description": "Open-source native PHP library for doing geometry operations. Can read and write a wide variety of formats: (E)WKT, (E)WKB, TWKB, GeoJSON, KML, GPX, GeoRSS. Works with all Simple-Feature geometries (Point, LineString, Polygon...) and can be used to get centroids, bounding-boxes, area, etc.",
+			"homepage": "https://github.com/funiq/geoPHP",
+			"keywords": [
+				"converter",
+				"geojson",
+				"geometry",
+				"geophp",
+				"gis",
+				"gpx",
+				"kml",
+				"linestring",
+				"polygon",
+				"twkb",
+				"wkb",
+				"wkt"
+			],
+			"support": {
+				"source": "https://github.com/richardkorthuis/geoPHP/tree/development"
+			},
+			"time": "2024-05-16T13:16:09+00:00"
 		},
 		{
 			"name": "robrichards/xmlseclibs",
@@ -6186,16 +6521,34 @@
 			"time": "2021-01-21T19:18:03+00:00"
 		},
 		{
-			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.18.12",
+			"name": "wpackagist-plugin/cmb2",
+			"version": "2.11.0",
 			"source": {
 				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.18.12"
+				"url": "https://plugins.svn.wordpress.org/cmb2/",
+				"reference": "trunk"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.12.zip"
+				"url": "https://downloads.wordpress.org/plugin/cmb2.zip?timestamp=1712086610"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"homepage": "https://wordpress.org/plugins/cmb2/"
+		},
+		{
+			"name": "wpackagist-plugin/coming-soon",
+			"version": "6.18.14",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/coming-soon/",
+				"reference": "tags/6.18.14"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.14.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6453,6 +6806,25 @@
 			},
 			"description": "Customize WordPress with powerful, professional and intuitive fields.",
 			"homepage": "https://www.advancedcustomfields.com"
+		},
+		{
+			"name": "ypackagist/cmb2",
+			"version": "2.11.0",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
+				"shasum": "bc823b306f246df9b9dbeb010ebfbec0de3dd21c"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"authors": {
+				"name": "CMB2 team",
+				"homepage": "https://cmb2.io"
+			},
+			"description": "CMB2 will create metaboxes and forms with custom fields that will blow your mind.",
+			"homepage": "https://github.com/CMB2/CMB2"
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
@@ -7450,16 +7822,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.66.0",
+			"version": "v3.67.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "5f5f2a142ff36b93c41885bca29cc5f861c013e6"
+				"reference": "0ad34c75d1172f7d30320460e803887981830cbf"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/5f5f2a142ff36b93c41885bca29cc5f861c013e6",
-				"reference": "5f5f2a142ff36b93c41885bca29cc5f861c013e6",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/0ad34c75d1172f7d30320460e803887981830cbf",
+				"reference": "0ad34c75d1172f7d30320460e803887981830cbf",
 				"shasum": ""
 			},
 			"require": {
@@ -7476,17 +7848,17 @@
 				"react/promise": "^2.0 || ^3.0",
 				"react/socket": "^1.0",
 				"react/stream": "^1.0",
-				"sebastian/diff": "^4.0 || ^5.0 || ^6.0",
-				"symfony/console": "^5.4 || ^6.0 || ^7.0",
-				"symfony/event-dispatcher": "^5.4 || ^6.0 || ^7.0",
-				"symfony/filesystem": "^5.4 || ^6.0 || ^7.0",
-				"symfony/finder": "^5.4 || ^6.0 || ^7.0",
-				"symfony/options-resolver": "^5.4 || ^6.0 || ^7.0",
-				"symfony/polyfill-mbstring": "^1.28",
-				"symfony/polyfill-php80": "^1.28",
-				"symfony/polyfill-php81": "^1.28",
-				"symfony/process": "^5.4 || ^6.0 || ^7.0 <7.2",
-				"symfony/stopwatch": "^5.4 || ^6.0 || ^7.0"
+				"sebastian/diff": "^4.0 || ^5.1 || ^6.0",
+				"symfony/console": "^5.4 || ^6.4 || ^7.0",
+				"symfony/event-dispatcher": "^5.4 || ^6.4 || ^7.0",
+				"symfony/filesystem": "^5.4 || ^6.4 || ^7.0",
+				"symfony/finder": "^5.4 || ^6.4 || ^7.0",
+				"symfony/options-resolver": "^5.4 || ^6.4 || ^7.0",
+				"symfony/polyfill-mbstring": "^1.31",
+				"symfony/polyfill-php80": "^1.31",
+				"symfony/polyfill-php81": "^1.31",
+				"symfony/process": "^5.4 || ^6.4 || ^7.2",
+				"symfony/stopwatch": "^5.4 || ^6.4 || ^7.0"
 			},
 			"require-dev": {
 				"facile-it/paraunit": "^1.3.1 || ^2.4",
@@ -7498,9 +7870,9 @@
 				"php-cs-fixer/accessible-object": "^1.1",
 				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.5",
 				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.5",
-				"phpunit/phpunit": "^9.6.21 || ^10.5.38 || ^11.4.3",
-				"symfony/var-dumper": "^5.4.47 || ^6.4.15 || ^7.1.8",
-				"symfony/yaml": "^5.4.45 || ^6.4.13 || ^7.1.6"
+				"phpunit/phpunit": "^9.6.22 || ^10.5.40 || ^11.5.2",
+				"symfony/var-dumper": "^5.4.48 || ^6.4.15 || ^7.2.0",
+				"symfony/yaml": "^5.4.45 || ^6.4.13 || ^7.2.0"
 			},
 			"suggest": {
 				"ext-dom": "For handling output formats in XML",
@@ -7541,7 +7913,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.66.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.67.0"
 			},
 			"funding": [
 				{
@@ -7549,7 +7921,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2024-12-29T13:46:23+00:00"
+			"time": "2025-01-08T10:17:40+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -11020,17 +11392,24 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
+		"acato-plugins/cmb2-flexible-content": 20,
+		"acato/openkaarten-base-functions": 20,
+		"acato/openkaarten-frontend-plugin": 20,
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
+		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/owc-gravityforms-kvk-prefill": 20,
+		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
 		"privacybydesign/irma-wp": 20,
-		"deployer/recipes": 20
+		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
