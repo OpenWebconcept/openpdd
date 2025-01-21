@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 $home_config = load_config('home.php');
 
-$brpClause = method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN();
-$kvkClause = method_exists('OWC\PrefillGravityFormsKVK\Traits\Helpers', 'currentUserHasKVK') && OWC\PrefillGravityFormsKVK\Traits\Helpers::currentUserHasKVK();
+$brpClause = method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && is_plugin_active('prefill-gravity-forms/prefill-gravity-forms.php') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN();
+$kvkClause = method_exists('OWC\PrefillGravityFormsKVK\Traits\Helpers', 'currentUserHasKVK') && is_plugin_active('owc-gravityforms-kvk-prefill/owc-gravityforms-kvk-prefill.php') && OWC\PrefillGravityFormsKVK\Traits\Helpers::currentUserHasKVK();
 
 if ($brpClause || $kvkClause) : ?>
     <div class="dropdown">
