@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "125c1931333d604cc8d6a4ebed6d985e",
+	"content-hash": "ba4717a8e69e417472cbdebf11ad3f49",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -141,12 +141,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "e4834fe839ab8f16001bf8ed4259692da878224c"
+				"reference": "6a6a8d473cc04e5670f95a0873b06ed9842aad75"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/e4834fe839ab8f16001bf8ed4259692da878224c",
-				"reference": "e4834fe839ab8f16001bf8ed4259692da878224c",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/6a6a8d473cc04e5670f95a0873b06ed9842aad75",
+				"reference": "6a6a8d473cc04e5670f95a0873b06ed9842aad75",
 				"shasum": ""
 			},
 			"require": {
@@ -161,10 +161,10 @@
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.1.1",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2024-12-05T15:05:56+00:00"
+			"time": "2025-02-03T08:32:17+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -3176,16 +3176,16 @@
 		},
 		{
 			"name": "plugin/owc-datab",
-			"version": "v1.1.2",
+			"version": "v1.2.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-datab.git",
-				"reference": "25534a7492a44ed62317759ea31abbe0a7cd2420"
+				"reference": "c584b799294c4810ecae585c62963e3fe662cd59"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/25534a7492a44ed62317759ea31abbe0a7cd2420",
-				"reference": "25534a7492a44ed62317759ea31abbe0a7cd2420",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/c584b799294c4810ecae585c62963e3fe662cd59",
+				"reference": "c584b799294c4810ecae585c62963e3fe662cd59",
 				"shasum": ""
 			},
 			"require": {
@@ -3233,10 +3233,10 @@
 			],
 			"description": "Retrieve personal documents via DataB for logged in users by DigiD",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.1.2",
+				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.2.1",
 				"issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
 			},
-			"time": "2024-12-06T12:12:08+00:00"
+			"time": "2025-02-10T11:13:56+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
@@ -3533,12 +3533,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "204a65409790616f9859107191eddd9b40e5b02c"
+				"reference": "03df46f2d4fa0294dc097a839a5d8040ebfcc72b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/204a65409790616f9859107191eddd9b40e5b02c",
-				"reference": "204a65409790616f9859107191eddd9b40e5b02c",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/03df46f2d4fa0294dc097a839a5d8040ebfcc72b",
+				"reference": "03df46f2d4fa0294dc097a839a5d8040ebfcc72b",
 				"shasum": ""
 			},
 			"require": {
@@ -3584,7 +3584,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2024-12-16T16:29:24+00:00"
+			"time": "2025-02-10T10:14:49+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -3592,12 +3592,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "350a03b412347a91dcc68a6e31f8c5c5395ec7d4"
+				"reference": "12f982f3c7416980b43cccb5981175ecf7b985b1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/350a03b412347a91dcc68a6e31f8c5c5395ec7d4",
-				"reference": "350a03b412347a91dcc68a6e31f8c5c5395ec7d4",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/12f982f3c7416980b43cccb5981175ecf7b985b1",
+				"reference": "12f982f3c7416980b43cccb5981175ecf7b985b1",
 				"shasum": ""
 			},
 			"require": {
@@ -3648,7 +3648,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/feat/company-data-gutenberg-blocks",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2024-12-13T06:58:51+00:00"
+			"time": "2025-02-11T12:17:18+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -3656,12 +3656,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "58e1b40d3326e070d9599064869378c594cd4a6b"
+				"reference": "aee982885e0e7c366ffff732bd03280b71cb1c78"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/58e1b40d3326e070d9599064869378c594cd4a6b",
-				"reference": "58e1b40d3326e070d9599064869378c594cd4a6b",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/aee982885e0e7c366ffff732bd03280b71cb1c78",
+				"reference": "aee982885e0e7c366ffff732bd03280b71cb1c78",
 				"shasum": ""
 			},
 			"require": {
@@ -3713,7 +3713,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-01-20T10:40:37+00:00"
+			"time": "2025-02-03T13:37:16+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3810,16 +3810,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "dev-feat/poc",
+			"version": "v1.0.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "651dc5da98b06bd3674625a586429184ee62ce8c"
+				"reference": "d5f429c91d7a81e06a06589085953f48e7d71910"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/651dc5da98b06bd3674625a586429184ee62ce8c",
-				"reference": "651dc5da98b06bd3674625a586429184ee62ce8c",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/d5f429c91d7a81e06a06589085953f48e7d71910",
+				"reference": "d5f429c91d7a81e06a06589085953f48e7d71910",
 				"shasum": ""
 			},
 			"require": {
@@ -3868,23 +3868,23 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/poc",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.0.0",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2024-12-10T12:43:23+00:00"
+			"time": "2025-01-29T13:53:35+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.8",
+			"version": "v1.6.11",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c"
+				"reference": "cf70ab294b2572609d3893a2a400047a26021c5a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c",
-				"reference": "d153fa62eb67a655c2d67795a9bcc7cb8c2d6b5c",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/cf70ab294b2572609d3893a2a400047a26021c5a",
+				"reference": "cf70ab294b2572609d3893a2a400047a26021c5a",
 				"shasum": ""
 			},
 			"require": {
@@ -3931,10 +3931,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.8",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.11",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2024-12-16T06:56:29+00:00"
+			"time": "2025-02-11T12:15:03+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6648,15 +6648,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/stream",
-			"version": "4.0.2",
+			"version": "4.1.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/stream/",
-				"reference": "tags/4.0.2"
+				"reference": "tags/4.1.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/stream.4.0.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/stream.4.1.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6720,15 +6720,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.4.1",
+			"version": "8.5.1.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "trunk"
+				"reference": "tags/8.5.1.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.zip?timestamp=1734685533"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.5.1.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6790,11 +6790,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.3.11",
+			"version": "6.3.12",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.11",
-				"shasum": "06c5e868e70870730e76592710b7a5e3e0b9942b"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.12",
+				"shasum": "859f8d2b131ab52be2ee87ce80d603ca5b0ee460"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6828,11 +6828,11 @@
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.3.7",
+			"version": "2.3.8",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.7",
-				"shasum": "5cc17dbeb35e70a48bac860b06f04d6ef2132dfa"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.8",
+				"shasum": "f552d9388acda760927c9ed0e5bee8f9ee4eb38c"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7822,16 +7822,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.68.1",
+			"version": "v3.68.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "b9db2b2ea3cdba7201067acee46f984ef2397cff"
+				"reference": "7bedb718b633355272428c60736dc97fb96daf27"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/b9db2b2ea3cdba7201067acee46f984ef2397cff",
-				"reference": "b9db2b2ea3cdba7201067acee46f984ef2397cff",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7bedb718b633355272428c60736dc97fb96daf27",
+				"reference": "7bedb718b633355272428c60736dc97fb96daf27",
 				"shasum": ""
 			},
 			"require": {
@@ -7913,7 +7913,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.68.1"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.68.5"
 			},
 			"funding": [
 				{
@@ -7921,7 +7921,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-01-17T09:20:36+00:00"
+			"time": "2025-01-30T17:00:50+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -11354,15 +11354,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/query-monitor",
-			"version": "3.17.0",
+			"version": "3.17.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/query-monitor/",
-				"reference": "tags/3.17.0"
+				"reference": "tags/3.17.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.17.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.17.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -11400,7 +11400,6 @@
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
-		"plugin/owc-signicat-openid": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
 	},
