@@ -42,9 +42,16 @@
 		margin-bottom: $spacer * 2;
 
 		@include media-breakpoint-up( md ) {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: flex-end;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			row-gap: 0.5rem;
+		}
+
+		.gfield_description,
+		.ginput_container {
+			@include media-breakpoint-up( md ) {
+				grid-column-start: 2;
+			}
 		}
 
 		&_visibility_ {
@@ -113,8 +120,7 @@
 		font-size: $spacer;
 
 		@include media-breakpoint-up( md ) {
-			width: 51%;
-			padding-left: $spacer * 0.7;
+			padding: 0;
 		}
 
 		ul {
@@ -419,6 +425,10 @@
 		.gsection_title {
 			padding-bottom: $spacer * 0.5;
 			border-bottom: 1px solid gray( '300' );
+
+			@include media-breakpoint-up( md ) {
+				grid-column: span 2;
+			}
 		}
 
 		ul {
