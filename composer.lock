@@ -3016,16 +3016,16 @@
 		},
 		{
 			"name": "plugin/owc-datab",
-			"version": "v1.2.0",
+			"version": "v1.2.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-datab.git",
-				"reference": "656dd88645193328dfaac1f916af70bab72a3dcb"
+				"reference": "c584b799294c4810ecae585c62963e3fe662cd59"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/656dd88645193328dfaac1f916af70bab72a3dcb",
-				"reference": "656dd88645193328dfaac1f916af70bab72a3dcb",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/c584b799294c4810ecae585c62963e3fe662cd59",
+				"reference": "c584b799294c4810ecae585c62963e3fe662cd59",
 				"shasum": ""
 			},
 			"require": {
@@ -3073,10 +3073,10 @@
 			],
 			"description": "Retrieve personal documents via DataB for logged in users by DigiD",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.2.0",
+				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.2.1",
 				"issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
 			},
-			"time": "2025-02-03T15:38:45+00:00"
+			"time": "2025-02-10T11:13:56+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
@@ -10982,15 +10982,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/query-monitor",
-			"version": "3.17.1",
+			"version": "3.17.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/query-monitor/",
-				"reference": "tags/3.17.1"
+				"reference": "tags/3.17.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.17.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.17.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
