@@ -143,7 +143,7 @@
 		" Constraints last verified: 09-2024                                 "
 	],
 	"require": {
-		"php": "<8.0",
+		"php": "7.4.*",
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
 		"acato/openkaarten-base": "^0.1.2",
 		"acato/openkaarten-base-functions": "dev-master@dev",
