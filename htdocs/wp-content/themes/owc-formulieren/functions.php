@@ -58,6 +58,10 @@ add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer
  * Add CSP to admin-ajax and initialize nonces for resources.
  */
 add_action('init', function () {
+    if ( defined( 'WP_CLI' ) && WP_CLI ) {
+        return;
+    }
+
     if (strpos(sanitize_text_field($_SERVER['REQUEST_URI']), '/wp-admin/admin-ajax.php') !== false) {
         header("Content-Security-Policy: default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; frame-ancestors 'self';");
     }
