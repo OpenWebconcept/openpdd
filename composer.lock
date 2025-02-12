@@ -2250,16 +2250,16 @@
 		},
 		{
 			"name": "nesbot/carbon",
-			"version": "2.72.6",
+			"version": "2.73.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/CarbonPHP/carbon.git",
-				"reference": "1e9d50601e7035a4c61441a208cb5bed73e108c5"
+				"reference": "9228ce90e1035ff2f0db84b40ec2e023ed802075"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/1e9d50601e7035a4c61441a208cb5bed73e108c5",
-				"reference": "1e9d50601e7035a4c61441a208cb5bed73e108c5",
+				"url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/9228ce90e1035ff2f0db84b40ec2e023ed802075",
+				"reference": "9228ce90e1035ff2f0db84b40ec2e023ed802075",
 				"shasum": ""
 			},
 			"require": {
@@ -2353,7 +2353,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-12-27T09:28:11+00:00"
+			"time": "2025-01-08T20:10:23+00:00"
 		},
 		{
 			"name": "odan/session",
@@ -3656,16 +3656,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.6.10",
+			"version": "v1.6.11",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "7d6c7e9a61d67e1b11787ffab8312d434f781127"
+				"reference": "cf70ab294b2572609d3893a2a400047a26021c5a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/7d6c7e9a61d67e1b11787ffab8312d434f781127",
-				"reference": "7d6c7e9a61d67e1b11787ffab8312d434f781127",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/cf70ab294b2572609d3893a2a400047a26021c5a",
+				"reference": "cf70ab294b2572609d3893a2a400047a26021c5a",
 				"shasum": ""
 			},
 			"require": {
@@ -3712,10 +3712,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.10",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.6.11",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-01-23T11:25:07+00:00"
+			"time": "2025-02-11T12:15:03+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
