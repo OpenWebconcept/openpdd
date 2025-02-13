@@ -95,6 +95,26 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:yardinternet/xml-scraper.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/elasticsearch-schema.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/geocode-pdok.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/logger.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-official-publications.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-owc-shared-aura-session-instance.git"
 		},
 		{
@@ -174,6 +194,7 @@
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.0.*",
 		"plugin/prefill-gravity-forms": "^1.7",
+		"plugin/yard-official-publications": "dev-init@dev",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",
@@ -188,6 +209,10 @@
 		"wpackagist-plugin/wordfence": "^7.11",
 		"wpackagist-plugin/wordpress-importer": "^0.8",
 		"wpackagist-plugin/wp-seopress": "^8.0",
+		"yard/elasticsearch-schema": "dev-init@dev",
+		"yard/geocode-pdok": "dev-init@dev",
+		"yard/logger": "dev-init@dev",
+		"yard/xml-scraper": "dev-init@dev",
 		"ypackagist/advanced-custom-fields-pro": "^6.3",
 		"ypackagist/cmb2": "^2.11",
 		"ypackagist/gf-entries-in-excel": "^2.2",
