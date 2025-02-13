@@ -78,6 +78,16 @@ add_action('init', function () {
     $nonceScript = csp_nonce('script');
     $nonceStyle = csp_nonce('style');
 
+    // Inject nonce into WebPack to make its style loader work.
+    // See https://webpack.js.org/loaders/style-loader/
+    add_action( 'wp_head', function () use ($nonceScript, $nonceStyle) {
+        ?>
+        <script>
+            window.__webpack_nonce__ = '<?php echo $nonceStyle; ?>';
+        </script>
+        <?php
+    }, 10);
+
     ob_end_clean();
     ob_start();
     add_action('shutdown', function () use ($nonceScript, $nonceStyle) {
