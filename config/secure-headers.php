@@ -384,7 +384,8 @@ return [
             'report-sample' => true,
             'allow'         => [
                 '*.readspeaker.com',
-                'secure.gravatar.com'
+                'secure.gravatar.com',
+                '*.tile.osm.org',
             ],
             'schemes'       => [
                 'data:',
