@@ -124,3 +124,10 @@ add_filter('owc_gravityforms_digid_field_display_title', function () {
 // Increase default timeout for HTTP requests from default 5 to 30 seconds
 // Notably the OpenKaarten plugins may need more time to load data layers.
 add_filter( 'http_request_timeout', function () {return 30;} );
+
+add_action(
+	'rest_api_init',
+	function () {
+		\HW\DataLayers\HomeAddress::registerRestRoute();
+	}
+);
