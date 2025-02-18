@@ -141,12 +141,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "f5b9d61d0bf245a5c20d5b877d193bf7f4475599"
+				"reference": "ca3a9ccd760d6c5aeb090c23dcde49fb6620b075"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/f5b9d61d0bf245a5c20d5b877d193bf7f4475599",
-				"reference": "f5b9d61d0bf245a5c20d5b877d193bf7f4475599",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/ca3a9ccd760d6c5aeb090c23dcde49fb6620b075",
+				"reference": "ca3a9ccd760d6c5aeb090c23dcde49fb6620b075",
 				"shasum": ""
 			},
 			"require": {
@@ -163,7 +163,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/fix-single-feature-layers",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2025-02-17T13:29:11+00:00"
+			"time": "2025-02-18T08:32:09+00:00"
 		},
 		{
 			"name": "aura/session",
