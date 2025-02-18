@@ -328,6 +328,7 @@ return [
             'self' => true,
             'allow' => [
                 '*.readspeaker.com',
+                'nominatim.openstreetmap.org',
             ],
         ],
 
