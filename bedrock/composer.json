@@ -25,29 +25,33 @@
   },
   "repositories": [
     {
-			"type": "composer",
-			"url": "https://packagist.yard.nl/satispress"
-		},
+      "type": "composer",
+      "url": "https://packagist.yard.nl/satispress"
+    },
     {
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/owc-gravityforms-digid.git"
-		},
+      "type": "vcs",
+      "url": "git@github.com:yardinternet/owc-gravityforms-digid.git"
+    },
     {
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git"
-		},
+      "type": "vcs",
+      "url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git"
+    },
     {
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
-		},
+      "type": "vcs",
+      "url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
+    },
     {
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
-		},
+      "type": "vcs",
+      "url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
+    },
     {
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-owc-openpdd-sanitizer.git"
-		},
+      "type": "vcs",
+      "url": "git@github.com:OpenWebconcept/plugin-owc-openpdd-sanitizer.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:OpenWebconcept/idp-userdata"
+    },
     {
       "type": "composer",
       "url": "https://wpackagist.org",
@@ -55,17 +59,16 @@
     }
   ],
   "require": {
-    "php": ">=8.0",
+    "php": ">=8.1",
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.5",
     "oscarotero/env": "^2.1",
-    "plugin/owc-gravityforms-digid": "dev-master",
     "plugin/owc-gravityforms-zaaksysteem": "dev-master",
     "plugin/owc-openpdd-sanitizer": "^0.0.1",
     "plugin/prefill-gravity-forms": "dev-main",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "6.3.2",
+    "roots/wordpress": "6.7.*",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-theme/twentytwentythree": "^1.0",
@@ -95,8 +98,8 @@
   },
   "scripts": {
     "post-root-package-install": [
-			"php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-		],
+      "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ],
     "test": [
       "phpcs"
     ]
