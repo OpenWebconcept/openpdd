@@ -19,7 +19,7 @@ See this projects wiki: [Required plugins](https://github.com/OpenWebconcept/ope
 
 ### Optional plugins
 
-There are a bunch of optional plugins which you can find at the [Open Webconcept](https://github.com/OpenWebconcept) organization or you can preview an existing installation at this: [master](https://github.com/OpenWebconcept/openpdd/blob/master/) branch.
+There are a bunch of optional plugins which you can find at the [Open Webconcept](https://github.com/OpenWebconcept) organization, or you can preview an existing installation at this: [master](https://github.com/OpenWebconcept/openpdd/blob/master/) branch.
 
 ## 🚘 Test drive
 
@@ -30,7 +30,7 @@ We have included a Dockerfile which you can use to quickly test drive the OpenPD
 - Docker
 - PHP and Composer, alternatively you can run composer inside Docker with `docker compose run composer <command>`
 
-Please note that packages prefixed with `ypackagist` are paid and you should provide your own source for them.
+Please note that packages prefixed with `ypackagist` are paid, and you should provide your own source for them.
 
 ```sh
 # 1. install composer dependencies
