@@ -1,0 +1,19 @@
+.gform_wrapper {
+	.gfield {
+		.ginput_container_textarea {
+			textarea {
+				&.textarea.small {
+					height: 96px;
+				}
+
+				&.textarea.medium {
+					height: 192px;
+				}
+
+				&.textarea.large {
+					height: 288px;
+				}
+			}
+		}
+	}
+}
