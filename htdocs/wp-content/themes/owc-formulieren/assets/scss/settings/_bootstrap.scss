@@ -16,6 +16,7 @@ $font-family-base: 'Ubuntu', $font-family-sans-serif !default;
 $line-height-base: 1.7 !default;
 $enable-responsive-font-sizes: true !default;
 $small-font-size: $font-size-base * 0.9 !default;
+$xs-small-font-size: $small-font-size * 0.9 !default;
 
 /*--------------------------------------------------------------
   Spacing
