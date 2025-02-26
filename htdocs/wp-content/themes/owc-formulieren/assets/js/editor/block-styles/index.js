@@ -13,8 +13,12 @@ const listStyles = [
 
 const navigationMenuStyles = [
 	{
-		label: 'Tegels',
+		label: 'Tegels / Kaart',
 		name: 'tiles',
+	},
+	{
+		label: 'App',
+		name: 'app',
 	},
 ];
 

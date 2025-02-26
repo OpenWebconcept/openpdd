@@ -1,10 +1,11 @@
 $block: 'wp-block-navigation';
+$block-breakpoint: md;
 
-// Used on the Mijn Zaken page
+// Used on the Mijn Zaken page. Two styles to choose from.
 .#{$block}.is-style-tiles {
 	margin-bottom: 1.5rem;
 
-	@include media-breakpoint-up( md ) {
+	@include media-breakpoint-up( $block-breakpoint ) {
 		display: none;
 	}
 
@@ -53,6 +54,67 @@ $block: 'wp-block-navigation';
 
 	.wp-block-navigation-item__label {
 		line-height: $line-height-sm;
+		text-align: center;
+	}
+}
+
+// Used on the Mijn Zaken page
+.#{$block}.is-style-app {
+	margin-bottom: 1.5rem;
+
+	@include media-breakpoint-up( $block-breakpoint ) {
+		display: none;
+	}
+
+	.wp-block-navigation__container {
+		display: grid;
+		column-gap: 0.5rem;
+		grid-template-columns: repeat( 3, 1fr );
+		row-gap: 1rem;
+	}
+
+	.wp-block-navigation-item {
+		height: 100%;
+	}
+
+	.wp-block-navigation-item__content {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		flex-direction: column;
+		align-items: center;
+		gap: 0.5rem;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:focus {
+			.wp-block-navigation-item__label {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.wp-block-navigation-item__icon {
+		$size: 40px;
+		display: flex;
+		width: $size;
+		height: $size;
+		align-items: center;
+		justify-content: center;
+		border-radius: $border-radius;
+		background-color: var( --primary-100, $primary-100 );
+		color: $primary-200;
+		font-size: 1.3rem;
+		line-height: 1;
+	}
+
+	.wp-block-navigation-item__label {
+		font-size: 14px;
+		hyphens: auto;
+		line-height: 1.4;
 		text-align: center;
 	}
 }
