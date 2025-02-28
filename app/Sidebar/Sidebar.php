@@ -19,8 +19,14 @@ class Sidebar
         if ('core/navigation-link' !== $block['blockName']) {
             return $blockContent;
         }
+        $location = 'mijn-zaken-sidebar';
+        $locations = get_nav_menu_locations();
 
-        $menu = wp_get_nav_menu_object('mijn-zaken-sidebar');
+        if (! isset($locations[$location])) {
+            return $blockContent;
+        }
+
+        $menu = wp_get_nav_menu_object($locations[$location]);
 
         if (! $menu) {
             return $blockContent;
