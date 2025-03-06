@@ -11427,6 +11427,7 @@
 		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
+		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
@@ -11440,7 +11441,7 @@
 	"platform": {
 		"php": "7.4.*"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
