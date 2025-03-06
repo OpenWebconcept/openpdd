@@ -3115,16 +3115,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.0.8",
+			"version": "v0.0.9",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "517d1b88beee23b1a1985c108df199599ecd1059"
+				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/517d1b88beee23b1a1985c108df199599ecd1059",
-				"reference": "517d1b88beee23b1a1985c108df199599ecd1059",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/74e4edc27c331613ae246e5a3b042491c4ad1e68",
+				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68",
 				"shasum": ""
 			},
 			"require": {
@@ -3168,10 +3168,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.8",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.9",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2024-12-24T11:16:00+00:00"
+			"time": "2025-03-06T12:26:52+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
@@ -11395,20 +11395,20 @@
 		"acato-plugins/cmb2-flexible-content": 20,
 		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
-		"richardkorthuis/geophp": 20,
-		"deployer/recipes": 20
+		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "7.4.*"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
