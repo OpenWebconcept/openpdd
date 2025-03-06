@@ -3725,12 +3725,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "9731a6e798d9c6ff1dd19c66a54910c2ec41bda9"
+				"reference": "fc557a3de251ce2ebd5c28110b36b578249f9b2a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/9731a6e798d9c6ff1dd19c66a54910c2ec41bda9",
-				"reference": "9731a6e798d9c6ff1dd19c66a54910c2ec41bda9",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/fc557a3de251ce2ebd5c28110b36b578249f9b2a",
+				"reference": "fc557a3de251ce2ebd5c28110b36b578249f9b2a",
 				"shasum": ""
 			},
 			"require": {
@@ -3772,7 +3772,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-02-27T16:10:55+00:00"
+			"time": "2025-03-04T08:09:24+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -11424,25 +11424,23 @@
 		"acato-plugins/cmb2-flexible-content": 20,
 		"acato/openkaarten-base": 20,
 		"acato/openkaarten-base-functions": 20,
+		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
-		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-kvk-prefill": 20,
-		"plugin/owc-gravityforms-zaaksysteem": 20,
-		"privacybydesign/irma-wp": 20,
-		"richardkorthuis/geophp": 20
+		"plugin/owc-gravityforms-zaaksysteem": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
-		"php": "<8.0"
+		"php": "7.4.*"
 	},
-	"platform-dev": {},
+	"platform-dev": [],
 	"platform-overrides": {
 		"php": "7.4"
 	},
