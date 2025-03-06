@@ -10609,20 +10609,20 @@
 		"acato-plugins/cmb2-flexible-content": 20,
 		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
+		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
-		"richardkorthuis/geophp": 20,
-		"deployer/recipes": 20
+		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "7.4.*"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
