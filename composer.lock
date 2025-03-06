@@ -11472,11 +11472,15 @@
 		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
 		"elasticsearch/elasticsearch": 20,
 =======
 >>>>>>> 0050c60 ((chore): Update composer dependencies)
+=======
+		"deployer/recipes": 20,
+>>>>>>> e1e19a6 ((chore): update deps)
 		"plugin/formio-wordpress": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
@@ -11485,15 +11489,14 @@
 		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
-		"richardkorthuis/geophp": 20,
-		"deployer/recipes": 20
+		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "7.4.*"
 	},
-	"platform-dev": [],
+	"platform-dev": {},
 	"platform-overrides": {
 		"php": "7.4"
 	},
