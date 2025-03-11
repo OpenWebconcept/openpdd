@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "da5b8c60325bf59e6415f5f3eac9e541",
+	"content-hash": "615261ddecf8cffab6a374f770edb20a",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2959,7 +2959,7 @@
 			"version": "v0.0.9",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git",
+				"url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
 				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68"
 			},
 			"dist": {
@@ -3155,7 +3155,7 @@
 			"version": "v1.7.0",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:yardinternet/owc-gravityforms-digid.git",
+				"url": "https://github.com/yardinternet/owc-gravityforms-digid.git",
 				"reference": "2aa0852202e7e802c036ece87eea551da4de25d1"
 			},
 			"dist": {
@@ -3433,16 +3433,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.3.0",
+			"version": "v2.3.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "613e05311cc00d5acbafea5e3762ff9ef967b4d2"
+				"reference": "37513414f3ace04d1f47a1a1e2078509d5ef478f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/613e05311cc00d5acbafea5e3762ff9ef967b4d2",
-				"reference": "613e05311cc00d5acbafea5e3762ff9ef967b4d2",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/37513414f3ace04d1f47a1a1e2078509d5ef478f",
+				"reference": "37513414f3ace04d1f47a1a1e2078509d5ef478f",
 				"shasum": ""
 			},
 			"require": {
@@ -3491,10 +3491,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.3.0",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.3.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-01-20T10:39:22+00:00"
+			"time": "2025-03-11T10:16:08+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3566,7 +3566,7 @@
 			"version": "v1.0.0",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-owc-shared-aura-session-instance.git",
+				"url": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance.git",
 				"reference": "3d626629dd32a6e41da1356ec64ae842be908178"
 			},
 			"dist": {
@@ -6367,15 +6367,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.6",
+			"version": "8.6.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.6"
+				"reference": "tags/8.6.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.6.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.6.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6388,7 +6388,7 @@
 			"version": "v1.7.0",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:yardinternet/samlbase.git",
+				"url": "https://github.com/yardinternet/samlbase.git",
 				"reference": "f7a2c629bf23e83838cadf666bf3b7fdd06df0cd"
 			},
 			"dist": {
@@ -6571,11 +6571,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.3",
+			"version": "2.9.4",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.3",
-				"shasum": "5060668cade6b9fcf756f3617d1e0138abdd3c41"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.4",
+				"shasum": "7abe85ffa7a5a06bb279e984b18b433e8000b100"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7451,16 +7451,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.70.0",
+			"version": "v3.71.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "2ecd5aae0edc937f0d5aa4a22d1d705c6b2e084e"
+				"reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2ecd5aae0edc937f0d5aa4a22d1d705c6b2e084e",
-				"reference": "2ecd5aae0edc937f0d5aa4a22d1d705c6b2e084e",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3825ffdc69501e1c9230291b79f036a0c0d8749d",
+				"reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d",
 				"shasum": ""
 			},
 			"require": {
@@ -7542,7 +7542,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.70.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.71.0"
 			},
 			"funding": [
 				{
@@ -7550,7 +7550,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-02-22T23:30:51+00:00"
+			"time": "2025-03-07T23:06:56+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
