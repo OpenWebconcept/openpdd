@@ -1,0 +1,49 @@
+name: openpdd-new
+recipe: wordpress
+config:
+  webroot: bedrock/web
+  database: mariadb
+
+services:
+  appserver:
+    type: php:8.3
+    build_as_root:
+      - apt-get update -y && apt-get install -y git
+    overrides:
+      environment:
+        - WORDPRESS_DB_HOST=database
+        - WORDPRESS_DB_NAME=wordpress
+        - WORDPRESS_DB_USER=wordpress
+        - WORDPRESS_DB_PASSWORD=wordpress
+        - WORDPRESS_TABLE_PREFIX=wp_
+        - WP_ENV=development
+        - WP_HOME=https://openpdd-new.lndo.site
+        - WP_SITEURL=https://openpdd-new.lndo.site/wp
+    run:
+      - composer install --working-dir=./bedrock
+
+  database:
+    type: mariadb:10.5
+    portforward: true
+
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
+
+  mailhog:
+    type: mailhog
+
+tooling:
+  wp:
+    service: appserver
+    description: "Run wp-cli commands"
+  composer:
+    service: appserver
+    description: "Run composer commands"
+  phpmyadmin:
+    service: pma
+    description: "Access phpMyAdmin"
+  mailhog:
+    service: mailhog
+    description: "Access MailHog"

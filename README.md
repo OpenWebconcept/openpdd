@@ -23,21 +23,20 @@ There are a bunch of optional plugins which you can find at the [Open Webconcept
 
 ## 🚘 Test drive
 
-We have included a Dockerfile which you can use to quickly test drive the OpenPDD.
+If you have Lando installed you can take this project for a test drive:
 
-**Requirements:**
-
-- Docker
-- PHP and Composer, alternatively you can run composer inside Docker with `docker compose run composer <command>`
-
-Please note that packages prefixed with `ypackagist` are paid, and you should provide your own source for them.
+### 1. Install the dependencies
 
 ```sh
-# 1. install composer dependencies
 sh ./scripts/setup.sh
-
-# 2. import test database
-sh ./scripts/import.sh
-
-# 3. you can now access the installation at https://localhost:8082 and the admin at https://localhost:8082/wp/wp-admin
 ```
+
+### 2. Run the project
+
+```sh
+lando start && lando wp plugin activate --all --path=bedrock/web/wp
+```
+
+##
+
+Please note that packages prefixed with `ypackagist` are paid, and you should provide your own source for them.
