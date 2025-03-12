@@ -35,9 +35,9 @@ sh scripts/setup.sh
 
 ```sh
 lando start
-
-# The wp-admin can be accessed at https://openpdd-new.lndo.site/wp/wp-admin
 ```
+
+The wp-admin can be accessed at https://openpdd-new.lndo.site/wp/wp-admin
 
 ##
 
