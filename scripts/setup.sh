@@ -47,8 +47,11 @@ composer config repositories.wp-packagist composer https://wpackagist.org
 # Require the plugins
 composer require plugin/owc-gravityforms-zaaksysteem plugin/owc-openpdd-sanitizer plugin/prefill-gravity-forms ypackagist/gravityforms wpackagist-plugin/cmb2
 
+# Create theme (e.g. for Acorn support and pretty error reporting)
+cd web/app/themes && composer create-project roots/sage owc dev-main --ignore-platform-reqs
+
 # Navigate back to the project root
-cd ..
+cd ../../../../
 
 echo "Bedrock and plugins have been installed successfully."
 
@@ -60,3 +63,8 @@ lando wp core install --url="https://openpdd-new.lndo.site" --title="OpenPDD" --
 
 # Activate all plugins
 lando wp plugin activate --all --path=bedrock/web/wp
+
+# Activate the theme
+lando wp theme activate owc --path=bedrock/web/wp
+
+echo "Environment has been configured."
