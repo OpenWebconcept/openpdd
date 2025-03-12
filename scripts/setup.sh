@@ -48,7 +48,7 @@ composer config repositories.wp-packagist composer https://wpackagist.org
 composer require plugin/owc-gravityforms-zaaksysteem plugin/owc-openpdd-sanitizer plugin/prefill-gravity-forms ypackagist/gravityforms wpackagist-plugin/cmb2
 
 # Create theme (e.g. for Acorn support and pretty error reporting)
-cd web/app/themes && composer create-project roots/sage owc dev-main --ignore-platform-reqs
+cd web/app/themes && composer create-project roots/sage owc dev-main --ignore-platform-reqs && npm i && npm run build
 
 # Navigate back to the project root
 cd ../../../../
