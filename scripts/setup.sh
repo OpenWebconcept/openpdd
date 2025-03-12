@@ -5,7 +5,7 @@ set -e # exit if something goes wrong
 BEDROCK_DIR="bedrock"
 
 # Define the environment variables
-DB_NAME="openpdd"
+DB_NAME="wordpress"
 DB_USER="wordpress"
 DB_PASSWORD="wordpress"
 DB_HOST="database"
@@ -51,3 +51,12 @@ composer require plugin/owc-gravityforms-zaaksysteem plugin/owc-openpdd-sanitize
 cd ..
 
 echo "Bedrock and plugins have been installed successfully."
+
+# Start Lando
+lando start
+
+# Install WordPress via wp-cli
+lando wp core install --url="https://openpdd-new.lndo.site" --title="OpenPDD" --admin_user="admin" --admin_password="password" --admin_email="admin@example.com" --path=bedrock/web/wp
+
+# Activate all plugins
+lando wp plugin activate --all --path=bedrock/web/wp

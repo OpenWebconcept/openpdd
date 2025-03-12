@@ -25,16 +25,18 @@ There are a bunch of optional plugins which you can find at the [Open Webconcept
 
 If you have Lando installed you can take this project for a test drive:
 
-### 1. Install the dependencies
+### 1. Setup and run the environment
 
 ```sh
-sh ./scripts/setup.sh
+sh scripts/setup.sh
 ```
 
-### 2. Run the project
+### 2. On subsequent runs you'll only need to start Lando
 
 ```sh
-lando start && lando wp plugin activate --all --path=bedrock/web/wp
+lando start
+
+# The wp-admin can be accessed at https://openpdd-new.lndo.site/wp/wp-admin
 ```
 
 ##
