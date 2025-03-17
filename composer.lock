@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "eafc4273fbe247ed36bd7bafbe7d516c",
+	"content-hash": "b6bd34a2c4ad2f50ba2daa1129c6aa38",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -132,6 +132,7 @@
 			"time": "2024-12-05T11:21:46+00:00"
 		},
 		{
+<<<<<<< HEAD
 			"name": "acato/openkaarten-base-functions",
 			"version": "dev-master",
 			"source": {
@@ -186,6 +187,19 @@
 				"type": "zip",
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/f8f62159f96fc6d6936ed3298215088340d2a31a",
 				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a",
+=======
+			"name": "acato/openkaarten-frontend-plugin",
+			"version": "dev-main",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+				"reference": "aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
+				"reference": "aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
+>>>>>>> e4c3d7e ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -196,13 +210,21 @@
 				"bjornjohansen/wp-pre-commit-hook": "*",
 				"phpcompatibility/phpcompatibility-wp": "*"
 			},
+			"default-branch": true,
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
+<<<<<<< HEAD
 				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
 			"time": "2025-07-11T13:58:50+00:00"
+=======
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/main",
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
+			},
+			"time": "2025-03-13T11:08:30+00:00"
+>>>>>>> e4c3d7e ((chore): update deps)
 		},
 		{
 			"name": "aura/session",
@@ -3768,12 +3790,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "fc557a3de251ce2ebd5c28110b36b578249f9b2a"
+				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/fc557a3de251ce2ebd5c28110b36b578249f9b2a",
-				"reference": "fc557a3de251ce2ebd5c28110b36b578249f9b2a",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
+				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
 				"shasum": ""
 			},
 			"require": {
@@ -3815,7 +3837,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-03-04T08:09:24+00:00"
+			"time": "2025-03-17T13:10:01+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",

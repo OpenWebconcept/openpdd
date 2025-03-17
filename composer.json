@@ -176,6 +176,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:richardkorthuis/geoPHP.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git"
 		}
 	],
 	"_comment": [
