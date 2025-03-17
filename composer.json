@@ -132,6 +132,10 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:richardkorthuis/geoPHP.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git"
 		}
 	],
 	"_comment": [
@@ -147,7 +151,7 @@
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
 		"acato/openkaarten-base": "^0.1.2",
 		"acato/openkaarten-base-functions": "dev-master@dev",
-		"acato/openkaarten-frontend-plugin": "dev-set-nonce@dev",
+		"acato/openkaarten-frontend-plugin": "dev-main@dev",
 		"bepsvpt/secure-headers": "^7.0",
 		"cmdisp/monolog-microsoft-teams": "^1.3",
 		"composer/installers": "^1.0",
