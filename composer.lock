@@ -141,8 +141,8 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/87e7a5701a8499d5cf58b1a2215f808be63c7b89",
-				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
+				"reference": "aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
 				"shasum": ""
 			},
 			"require": {
@@ -153,13 +153,14 @@
 				"bjornjohansen/wp-pre-commit-hook": "*",
 				"phpcompatibility/phpcompatibility-wp": "*"
 			},
+			"default-branch": true,
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
 				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2025-07-15T12:49:26+00:00"
+			"time": "2025-07-11T13:58:50+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -3725,12 +3726,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "fc557a3de251ce2ebd5c28110b36b578249f9b2a"
+				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/fc557a3de251ce2ebd5c28110b36b578249f9b2a",
-				"reference": "fc557a3de251ce2ebd5c28110b36b578249f9b2a",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
+				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
 				"shasum": ""
 			},
 			"require": {
@@ -3772,7 +3773,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-03-04T08:09:24+00:00"
+			"time": "2025-03-17T13:10:01+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
