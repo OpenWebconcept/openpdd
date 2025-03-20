@@ -4,6 +4,14 @@ namespace App\Sidebar;
 
 class Sidebar
 {
+    const ICON_TYPE_MUNICIPALITY = 'municipality';
+    const ICON_TYPE_FONTAWESOME = 'fontawesome';
+
+    const ACF_FIELD_FONTAWESOME_ICON = 'menu_item_icon';
+    const ACF_FIELD_MUNICIPALITY_ICON = 'menu_item_muncipality_icon';
+
+    const ICON_NONE = 'none';
+
     public function register(): void
     {
         add_action('acf/include_fields', [$this, 'addAcfFields']);
@@ -76,14 +84,14 @@ class Sidebar
 
     private function getMenuItemIcon($item): ?array
     {
-        $fieldIcon = get_field('menu_item_icon', $item);
+        $fieldIcon = get_field(self::ACF_FIELD_FONTAWESOME_ICON, $item);
         if (! empty($fieldIcon)) {
-            return ['type' => 'fontawesome', 'icon' => esc_attr($fieldIcon)];
+            return ['type' => self::ICON_TYPE_FONTAWESOME, 'icon' => esc_attr($fieldIcon)];
         }
 
-        $municipalityIcon = get_field('menu_item_muncipality_icon', $item);
-        if (! empty($municipalityIcon) && 'none' !== $municipalityIcon) {
-            return ['type' => 'municipality', 'icon' => esc_attr($municipalityIcon)];
+        $municipalityIcon = get_field(self::ACF_FIELD_MUNICIPALITY_ICON, $item);
+        if (! empty($municipalityIcon) && self::ICON_NONE !== $municipalityIcon) {
+            return ['type' => self::ICON_TYPE_MUNICIPALITY, 'icon' => esc_attr($municipalityIcon)];
         }
 
         return null;
@@ -96,9 +104,9 @@ class Sidebar
         }
 
         switch ($iconData['type']) {
-            case 'fontawesome':
-                return sprintf('<i class="fa-fw fa-regular fa-%s"></i> ', $iconData['icon']);
-            case 'municipality':
+            case self::ICON_TYPE_FONTAWESOME:
+                return sprintf('<i class="wp-block-navigation-item__icon | fa-fw fa-regular fa-%s"></i> ', $iconData['icon']);
+            case self::ICON_TYPE_MUNICIPALITY:
                 return $this->getMunicipalityIconHtml($iconData['icon']);
             default:
                 return '';
@@ -128,7 +136,7 @@ class Sidebar
                 [
                     'key' => 'field_66f549282efec',
                     'label' => 'Font Awesome icoon',
-                    'name' => 'menu_item_icon',
+                    'name' => self::ACF_FIELD_FONTAWESOME_ICON,
                     'aria-label' => '',
                     'type' => 'text',
                     'instructions' => 'Bijv. "arrow-left". Laat leeg om een gemeente icoon te gebruiken.',
@@ -149,7 +157,7 @@ class Sidebar
                 [
                     'key' => 'field_67dbede85dc28',
                     'label' => 'Gemeente icoon',
-                    'name' => 'menu_item_muncipality_icon',
+                    'name' => self::ACF_FIELD_MUNICIPALITY_ICON,
                     'aria-label' => '',
                     'type' => 'select',
                     'instructions' => 'Bekijk de iconen op <a href="https://www.gemeenteniconen.nl/iconen" target="_blank">https://www.gemeenteniconen.nl/iconen</a>',
@@ -194,7 +202,7 @@ class Sidebar
 
     public function getMunicipalityIcons(): array
     {
-        $default = ['none' => 'Geen icoon geselecteerd'];
+        $default = [self::ICON_NONE => 'Geen icoon geselecteerd'];
         $directory = get_template_directory() . '/assets/img/municipality-icons/*.svg';
         $iconPaths = glob($directory);
 
