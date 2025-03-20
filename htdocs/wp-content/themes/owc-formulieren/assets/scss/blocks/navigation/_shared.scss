@@ -1,5 +1,9 @@
 $block: 'wp-block-navigation';
 $block-breakpoint: md;
+$app-icon-size: 40px;
+$app-icon-border-radius: $border-radius;
+$app-icon-bg-color: var( --primary-100, $primary-100 );
+$app-icon-color: $primary-200;
 
 // Used on the Mijn Zaken page. Two styles to choose from.
 .#{$block}.is-style-tiles {
@@ -52,6 +56,15 @@ $block-breakpoint: md;
 		line-height: 1;
 	}
 
+	.yard-municipality-icon {
+		svg {
+			$size: 24px;
+			width: $size;
+			height: $size;
+			fill: $primary-200;
+		}
+	}
+
 	.wp-block-navigation-item__label {
 		line-height: $line-height-sm;
 		text-align: center;
@@ -98,17 +111,34 @@ $block-breakpoint: md;
 	}
 
 	.wp-block-navigation-item__icon {
-		$size: 40px;
 		display: flex;
-		width: $size;
-		height: $size;
+		width: $app-icon-size;
+		height: $app-icon-size;
 		align-items: center;
 		justify-content: center;
-		border-radius: $border-radius;
-		background-color: var( --primary-100, $primary-100 );
-		color: $primary-200;
+		border-radius: $app-icon-border-radius;
+		background-color: $app-icon-bg-color;
+		color: $app-icon-color;
 		font-size: 1.3rem;
 		line-height: 1;
+	}
+
+	.yard-municipality-icon {
+		display: flex;
+		width: $app-icon-size;
+		height: $app-icon-size;
+		align-items: center;
+		justify-content: center;
+		border-radius: $app-icon-border-radius;
+		background-color: $app-icon-bg-color;
+		color: $app-icon-color;
+
+		svg {
+			$size: 24px;
+			width: $size;
+			height: $size;
+			fill: $app-icon-color;
+		}
 	}
 
 	.wp-block-navigation-item__label {
