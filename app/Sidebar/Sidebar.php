@@ -19,69 +19,13 @@ class Sidebar
         if ('core/navigation-link' !== $block['blockName']) {
             return $blockContent;
         }
-        $location = 'mijn-zaken-sidebar';
-        $locations = get_nav_menu_locations();
 
-        if (! isset($locations[$location])) {
-            return $blockContent;
-        }
+        $icons = $this->getMenuIcons('mijn-zaken-sidebar');
 
-        $menu = wp_get_nav_menu_object($locations[$location]);
-
-        if (! $menu) {
-            return $blockContent;
-        }
-
-        $menuItems = wp_get_nav_menu_items($menu->term_id);
-
-        if (! $menuItems) {
-            return $blockContent;
-        }
-
-        // Map menu items to URLs with their associated icon details.
-        // If "menu_item_icon" has a value, use that.
-        // If empty, check "menu_item_muncipality_icon". If it's not "none",
-        // then mark it as a municipality icon.
-        $icons = [];
-        foreach ($menuItems as $item) {
-            $fieldIcon = get_field('menu_item_icon', $item);
-            if (! empty($fieldIcon)) {
-                $icons[$item->url] = [
-                    'type' => 'fontawesome',
-                    'icon' => esc_attr($fieldIcon),
-                ];
-            } else {
-                $municipalityIcon = get_field('menu_item_muncipality_icon', $item);
-                if (! empty($municipalityIcon) && 'none' !== $municipalityIcon) {
-                    $icons[$item->url] = [
-                        'type' => 'municipality',
-                        'icon' => esc_attr($municipalityIcon),
-                    ];
-                }
-            }
-        }
-
-        // Check if the block URL matches a menu item URL and add the icon if it exists.
         $blockUrl = $block['attrs']['url'] ?? '';
+
         if (isset($icons[$blockUrl])) {
-            $iconData = $icons[$blockUrl];
-            if ('fontawesome' === $iconData['type']) {
-                $iconHtml = sprintf(
-                    '<i class="wp-block-navigation-item__icon | fa-fw fa-regular fa-%s"></i> ',
-                    $iconData['icon']
-                );
-            } elseif ('municipality' === $iconData['type']) {
-                // Construct the path to the municipality icon SVG file.
-                $svgPath = get_template_directory() . '/assets/img/municipality-icons/' . $iconData['icon'] . '.svg';
-                if (file_exists($svgPath)) {
-                    $iconHtml = file_get_contents($svgPath) . ' ';
-                } else {
-                    // Fallback in case file doesn't exist.
-                    $iconHtml = '';
-                }
-            } else {
-                $iconHtml = '';
-            }
+            $iconHtml = $this->generateIconHtml($icons[$blockUrl]);
 
             $blockContent = preg_replace(
                 '/(<span class="wp-block-navigation-item__label")/',
@@ -93,18 +37,124 @@ class Sidebar
         return $blockContent;
     }
 
+    private function getMenuIcons(string $location): array
+    {
+        $locations = get_nav_menu_locations();
+        if (! isset($locations[$location])) {
+            return [];
+        }
+
+        $menu = wp_get_nav_menu_object($locations[$location]);
+        if (! $menu) {
+            return [];
+        }
+
+        $menuItems = wp_get_nav_menu_items($menu->term_id);
+        if (! $menuItems) {
+            return [];
+        }
+
+        $icons = [];
+        foreach ($menuItems as $item) {
+            $icons[$item->url] = $this->getMenuItemIcon($item);
+        }
+
+        return array_filter($icons);
+    }
+
+    private function getMenuItemIcon($item): ?array
+    {
+        $fieldIcon = get_field('menu_item_icon', $item);
+
+        if (! empty($fieldIcon)) {
+            return ['type' => 'fontawesome', 'icon' => esc_attr($fieldIcon)];
+        }
+
+        $municipalityIcon = get_field('menu_item_muncipality_icon', $item);
+
+        if (! empty($municipalityIcon) && 'none' !== $municipalityIcon) {
+            return ['type' => 'municipality', 'icon' => esc_attr($municipalityIcon)];
+        }
+
+        return null;
+    }
+
+    private function generateIconHtml(array $iconData): string
+    {
+        if ('fontawesome' === $iconData['type']) {
+            return sprintf(
+                '<i class="wp-block-navigation-item__icon | fa-fw fa-regular fa-%s"></i> ',
+                $iconData['icon']
+            );
+        }
+
+        if ('municipality' === $iconData['type']) {
+            return $this->getMunicipalityIconHtml($iconData['icon']);
+        }
+
+        return '';
+    }
+
+    private function getMunicipalityIconHtml(string $iconName): string
+    {
+        $svgPath = get_template_directory() . '/assets/img/municipality-icons/' . $iconName . '.svg';
+
+        if (file_exists($svgPath)) {
+            $svgContent = file_get_contents($svgPath);
+
+            return false !== $svgContent
+                ? '<div class="wp-block-navigation-item__municipality-icon">' . $svgContent . '</div> '
+                : '';
+        }
+
+        return '';
+    }
+
+    /**
+     * Adds icons to menu items based on ACF field values.
+     */
     public function addIconsToMenuItems(array $items): array
     {
         foreach ($items as $item) {
-            $iconName = get_post_meta($item->ID, 'menu_item_icon', true);
-
-            if (! empty($iconName) && is_string($iconName)) {
-                $iconHTML = '<i class="fa-fw fa-regular fa-' . esc_attr($iconName) . '"></i>';
+            $iconHTML = $this->getMenuItemIconHtml($item);
+            if (! empty($iconHTML)) {
                 $item->title = $iconHTML . ' ' . $item->title;
             }
         }
 
         return $items;
+    }
+
+    private function getMenuItemIconHtml($item): string
+    {
+        $iconName = get_post_meta($item->ID, 'menu_item_icon', true);
+        if (! empty($iconName) && is_string($iconName)) {
+            return '<i class="fa-fw fa-regular fa-' . esc_attr($iconName) . '"></i>';
+        }
+
+        return $this->getMunicipalityIconHtml2($item);
+    }
+
+    private function getMunicipalityIconHtml2($item): string
+    {
+        $municipalityIcon = get_post_meta($item->ID, 'menu_item_muncipality_icon', true);
+        if (! empty($municipalityIcon) && 'none' !== $municipalityIcon) {
+            return $this->getMunicipalityIconSvg($municipalityIcon);
+        }
+
+        return '';
+    }
+
+    private function getMunicipalityIconSvg(string $iconName): string
+    {
+        $svgPath = get_template_directory() . '/assets/img/municipality-icons/' . $iconName . '.svg';
+        if (file_exists($svgPath)) {
+            $svgContent = file_get_contents($svgPath);
+
+            return false !== $svgContent ? '<div class="nav-municipality-icon">' . $svgContent . '</div>' : '';
+        }
+
+        return '';
     }
 
     public function addAcfFields(): void
