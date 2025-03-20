@@ -19,6 +19,10 @@ $block: 'sidebar';
 			&:focus {
 				color: theme-color( 'primary' );
 				text-decoration: underline;
+
+				svg {
+					fill: theme-color( 'primary' );
+				}
 			}
 		}
 
@@ -28,6 +32,20 @@ $block: 'sidebar';
 			left: 0;
 			font-size: 1.3rem;
 			transform: translateY( -50% );
+		}
+
+		.yard-municipality-icon {
+			position: absolute;
+			top: calc( 50% - 2px );
+			left: 0;
+			transform: translateY( -50% );
+
+			svg {
+				$size: 28px;
+				width: $size;
+				height: $size;
+				fill: $body-color;
+			}
 		}
 	}
 
@@ -39,6 +57,10 @@ $block: 'sidebar';
 
 		i {
 			font-weight: $font-weight-base;
+		}
+
+		.yard-municipality-icon svg {
+			fill: theme-color( 'primary' );
 		}
 	}
 }
