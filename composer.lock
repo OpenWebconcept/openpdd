@@ -1222,16 +1222,16 @@
 		},
 		{
 			"name": "guzzlehttp/guzzle",
-			"version": "7.9.2",
+			"version": "7.9.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/guzzle.git",
-				"reference": "d281ed313b989f213357e3be1a179f02196ac99b"
+				"reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/guzzle/zipball/d281ed313b989f213357e3be1a179f02196ac99b",
-				"reference": "d281ed313b989f213357e3be1a179f02196ac99b",
+				"url": "https://api.github.com/repos/guzzle/guzzle/zipball/7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
+				"reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
 				"shasum": ""
 			},
 			"require": {
@@ -1328,7 +1328,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/guzzle/issues",
-				"source": "https://github.com/guzzle/guzzle/tree/7.9.2"
+				"source": "https://github.com/guzzle/guzzle/tree/7.9.3"
 			},
 			"funding": [
 				{
@@ -1344,20 +1344,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-24T11:22:20+00:00"
+			"time": "2025-03-27T13:37:11+00:00"
 		},
 		{
 			"name": "guzzlehttp/promises",
-			"version": "2.0.4",
+			"version": "2.2.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/promises.git",
-				"reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455"
+				"reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
-				"reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
+				"url": "https://api.github.com/repos/guzzle/promises/zipball/7c69f28996b0a6920945dd20b3857e499d9ca96c",
+				"reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c",
 				"shasum": ""
 			},
 			"require": {
@@ -1411,7 +1411,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/promises/issues",
-				"source": "https://github.com/guzzle/promises/tree/2.0.4"
+				"source": "https://github.com/guzzle/promises/tree/2.2.0"
 			},
 			"funding": [
 				{
@@ -1427,20 +1427,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-10-17T10:06:22+00:00"
+			"time": "2025-03-27T13:27:01+00:00"
 		},
 		{
 			"name": "guzzlehttp/psr7",
-			"version": "2.7.0",
+			"version": "2.7.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/psr7.git",
-				"reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201"
+				"reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/psr7/zipball/a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
-				"reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
+				"url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
+				"reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
 				"shasum": ""
 			},
 			"require": {
@@ -1527,7 +1527,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/psr7/issues",
-				"source": "https://github.com/guzzle/psr7/tree/2.7.0"
+				"source": "https://github.com/guzzle/psr7/tree/2.7.1"
 			},
 			"funding": [
 				{
@@ -1543,7 +1543,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-18T11:15:46+00:00"
+			"time": "2025-03-27T12:30:47+00:00"
 		},
 		{
 			"name": "http-interop/http-factory-guzzle",
@@ -3657,16 +3657,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.1",
+			"version": "v1.7.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "3bfebc597828c6701ff83ea87ada137d97794435"
+				"reference": "8dd2f55676459cfac6bf5dedf1282f0079522513"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/3bfebc597828c6701ff83ea87ada137d97794435",
-				"reference": "3bfebc597828c6701ff83ea87ada137d97794435",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/8dd2f55676459cfac6bf5dedf1282f0079522513",
+				"reference": "8dd2f55676459cfac6bf5dedf1282f0079522513",
 				"shasum": ""
 			},
 			"require": {
@@ -3713,10 +3713,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.1",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.3",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-02-28T10:26:55+00:00"
+			"time": "2025-03-28T09:02:29+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6188,15 +6188,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.18.14",
+			"version": "6.18.15",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.18.14"
+				"reference": "tags/6.18.15"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.14.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.15.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6350,15 +6350,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wordpress-importer",
-			"version": "0.8.3",
+			"version": "0.8.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wordpress-importer/",
-				"reference": "tags/0.8.3"
+				"reference": "tags/0.8.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.3.zip"
+				"url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6572,11 +6572,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.4",
+			"version": "2.9.5.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.4",
-				"shasum": "7abe85ffa7a5a06bb279e984b18b433e8000b100"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.5.1",
+				"shasum": "21b814674eeef208865a817f3dcbf410cca589d8"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7452,16 +7452,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.71.0",
+			"version": "v3.74.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d"
+				"reference": "6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/3825ffdc69501e1c9230291b79f036a0c0d8749d",
-				"reference": "3825ffdc69501e1c9230291b79f036a0c0d8749d",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d",
+				"reference": "6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d",
 				"shasum": ""
 			},
 			"require": {
@@ -7469,6 +7469,7 @@
 				"composer/semver": "^3.4",
 				"composer/xdebug-handler": "^3.0.3",
 				"ext-filter": "*",
+				"ext-hash": "*",
 				"ext-json": "*",
 				"ext-tokenizer": "*",
 				"fidry/cpu-core-counter": "^1.2",
@@ -7491,18 +7492,18 @@
 				"symfony/stopwatch": "^5.4 || ^6.4 || ^7.0"
 			},
 			"require-dev": {
-				"facile-it/paraunit": "^1.3.1 || ^2.5",
-				"infection/infection": "^0.29.10",
-				"justinrainbow/json-schema": "^5.3 || ^6.0",
+				"facile-it/paraunit": "^1.3.1 || ^2.6",
+				"infection/infection": "^0.29.14",
+				"justinrainbow/json-schema": "^5.3 || ^6.2",
 				"keradus/cli-executor": "^2.1",
 				"mikey179/vfsstream": "^1.6.12",
 				"php-coveralls/php-coveralls": "^2.7",
 				"php-cs-fixer/accessible-object": "^1.1",
 				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
 				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
-				"phpunit/phpunit": "^9.6.22 || ^10.5.45 || ^11.5.7",
-				"symfony/var-dumper": "^5.4.48 || ^6.4.18 || ^7.2.0",
-				"symfony/yaml": "^5.4.45 || ^6.4.18 || ^7.2.0"
+				"phpunit/phpunit": "^9.6.22 || ^10.5.45 || ^11.5.12",
+				"symfony/var-dumper": "^5.4.48 || ^6.4.18 || ^7.2.3",
+				"symfony/yaml": "^5.4.45 || ^6.4.18 || ^7.2.3"
 			},
 			"suggest": {
 				"ext-dom": "For handling output formats in XML",
@@ -7543,7 +7544,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.71.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.74.0"
 			},
 			"funding": [
 				{
@@ -7551,7 +7552,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-03-07T23:06:56+00:00"
+			"time": "2025-03-27T22:31:30+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
