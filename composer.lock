@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "b6bd34a2c4ad2f50ba2daa1129c6aa38",
+	"content-hash": "6ef49f073bb81a05061b81f0dbc7eccd",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3327,12 +3327,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d"
+				"reference": "a0d86d6cf28c5a3e93acbfa4b033306ece448072"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
-				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/a0d86d6cf28c5a3e93acbfa4b033306ece448072",
+				"reference": "a0d86d6cf28c5a3e93acbfa4b033306ece448072",
 				"shasum": ""
 			},
 			"require": {
@@ -3374,7 +3374,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-03-17T13:10:01+00:00"
+			"time": "2025-04-01T15:02:28+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -3442,12 +3442,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "aee982885e0e7c366ffff732bd03280b71cb1c78"
+				"reference": "ebceaa29d008d99327560eb0e8758a96541fdfa5"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/aee982885e0e7c366ffff732bd03280b71cb1c78",
-				"reference": "aee982885e0e7c366ffff732bd03280b71cb1c78",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/ebceaa29d008d99327560eb0e8758a96541fdfa5",
+				"reference": "ebceaa29d008d99327560eb0e8758a96541fdfa5",
 				"shasum": ""
 			},
 			"require": {
@@ -3497,7 +3497,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-02-03T13:37:16+00:00"
+			"time": "2025-04-15T14:58:53+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -6293,34 +6293,16 @@
 			"homepage": "https://wordpress.org/plugins/wordpress-importer/"
 		},
 		{
-			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.3.1",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.3.1"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
-		},
-		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.7.0.2",
+			"version": "8.7.0.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.7.0.2"
+				"reference": "tags/8.7.0.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10645,7 +10627,6 @@
 		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
