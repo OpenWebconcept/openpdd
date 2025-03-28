@@ -100,6 +100,10 @@ get_template_part('templates/mijn-zaken/header');
 							<?php
                             if (! empty($zaak->statusHistory())) {
                                 $statusUpdate = $zaak->statusHistory()->filter(function ($status) use ($step) {
+                                    if (! isset($status->statustype->url) || ! isset($step->url)) {
+                                        return false;
+                                    }
+
                                     return $status->statustype->url === $step->url;
                                 })->first();
                             }
