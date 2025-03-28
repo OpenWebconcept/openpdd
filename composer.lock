@@ -3726,12 +3726,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d"
+				"reference": "a0d86d6cf28c5a3e93acbfa4b033306ece448072"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
-				"reference": "1b3effbbd4d3b8989b8d5bc87499b31614464f3d",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/a0d86d6cf28c5a3e93acbfa4b033306ece448072",
+				"reference": "a0d86d6cf28c5a3e93acbfa4b033306ece448072",
 				"shasum": ""
 			},
 			"require": {
@@ -3773,7 +3773,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-03-17T13:10:01+00:00"
+			"time": "2025-04-01T15:02:28+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
