@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "615261ddecf8cffab6a374f770edb20a",
+	"content-hash": "70e9e590da3264def49d680ddc73efdb",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -598,26 +598,29 @@
 		},
 		{
 			"name": "doctrine/deprecations",
-			"version": "1.1.4",
+			"version": "1.1.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/doctrine/deprecations.git",
-				"reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9"
+				"reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/doctrine/deprecations/zipball/31610dbb31faa98e6b5447b62340826f54fbc4e9",
-				"reference": "31610dbb31faa98e6b5447b62340826f54fbc4e9",
+				"url": "https://api.github.com/repos/doctrine/deprecations/zipball/459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
+				"reference": "459c2f5dd3d6a4633d3b5f46ee2b1c40f57d3f38",
 				"shasum": ""
 			},
 			"require": {
 				"php": "^7.1 || ^8.0"
 			},
+			"conflict": {
+				"phpunit/phpunit": "<=7.5 || >=13"
+			},
 			"require-dev": {
-				"doctrine/coding-standard": "^9 || ^12",
-				"phpstan/phpstan": "1.4.10 || 2.0.3",
+				"doctrine/coding-standard": "^9 || ^12 || ^13",
+				"phpstan/phpstan": "1.4.10 || 2.1.11",
 				"phpstan/phpstan-phpunit": "^1.0 || ^2",
-				"phpunit/phpunit": "^7.5 || ^8.5 || ^9.5",
+				"phpunit/phpunit": "^7.5 || ^8.5 || ^9.6 || ^10.5 || ^11.5 || ^12",
 				"psr/log": "^1 || ^2 || ^3"
 			},
 			"suggest": {
@@ -637,9 +640,9 @@
 			"homepage": "https://www.doctrine-project.org/",
 			"support": {
 				"issues": "https://github.com/doctrine/deprecations/issues",
-				"source": "https://github.com/doctrine/deprecations/tree/1.1.4"
+				"source": "https://github.com/doctrine/deprecations/tree/1.1.5"
 			},
-			"time": "2024-12-07T21:18:45+00:00"
+			"time": "2025-04-07T20:06:18+00:00"
 		},
 		{
 			"name": "doctrine/inflector",
@@ -3369,16 +3372,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
-			"version": "v1.1.4",
+			"version": "v2.0.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "4a2d097a626cc3c82e0bbdafeec2e3658a4d0bdc"
+				"reference": "b22eb6e1e9026243875caaf81534b4f9a6ea3f9a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/4a2d097a626cc3c82e0bbdafeec2e3658a4d0bdc",
-				"reference": "4a2d097a626cc3c82e0bbdafeec2e3658a4d0bdc",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/b22eb6e1e9026243875caaf81534b4f9a6ea3f9a",
+				"reference": "b22eb6e1e9026243875caaf81534b4f9a6ea3f9a",
 				"shasum": ""
 			},
 			"require": {
@@ -3426,10 +3429,10 @@
 			],
 			"description": "Yard | KVK Prefill GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v1.1.4",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v2.0.0",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2025-02-26T16:10:44+00:00"
+			"time": "2025-04-08T16:14:03+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -7452,16 +7455,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.74.0",
+			"version": "v3.75.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d"
+				"reference": "399a128ff2fdaf4281e4e79b755693286cdf325c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d",
-				"reference": "6b7cb12a6cf592fd9a2b46a2d5d4c3b44003973d",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/399a128ff2fdaf4281e4e79b755693286cdf325c",
+				"reference": "399a128ff2fdaf4281e4e79b755693286cdf325c",
 				"shasum": ""
 			},
 			"require": {
@@ -7544,7 +7547,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.74.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.75.0"
 			},
 			"funding": [
 				{
@@ -7552,7 +7555,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-03-27T22:31:30+00:00"
+			"time": "2025-03-31T18:40:42+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
