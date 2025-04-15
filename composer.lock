@@ -3436,16 +3436,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.3.1",
+			"version": "v2.3.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "37513414f3ace04d1f47a1a1e2078509d5ef478f"
+				"reference": "5fec91e3ba7a88e3a8aa9b238fc4033c2327878f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/37513414f3ace04d1f47a1a1e2078509d5ef478f",
-				"reference": "37513414f3ace04d1f47a1a1e2078509d5ef478f",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/5fec91e3ba7a88e3a8aa9b238fc4033c2327878f",
+				"reference": "5fec91e3ba7a88e3a8aa9b238fc4033c2327878f",
 				"shasum": ""
 			},
 			"require": {
@@ -3494,23 +3494,23 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.3.1",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.3.2",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-03-11T10:16:08+00:00"
+			"time": "2025-04-15T14:30:58+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.4.2",
+			"version": "v2.4.3",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "1e45b512014d197e43a3d103e25db65be854a0f0"
+				"reference": "47aad5a70af9e9b7b95b38f179cbd508f66fb544"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/1e45b512014d197e43a3d103e25db65be854a0f0",
-				"reference": "1e45b512014d197e43a3d103e25db65be854a0f0",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/47aad5a70af9e9b7b95b38f179cbd508f66fb544",
+				"reference": "47aad5a70af9e9b7b95b38f179cbd508f66fb544",
 				"shasum": ""
 			},
 			"require": {
@@ -3560,10 +3560,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.2",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.3",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2025-03-21T13:49:30+00:00"
+			"time": "2025-04-15T14:23:19+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
@@ -6371,15 +6371,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.6.1",
+			"version": "8.7.0.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.6.1"
+				"reference": "tags/8.7.0.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.6.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6442,11 +6442,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.3.12",
+			"version": "6.4.0.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.3.12",
-				"shasum": "859f8d2b131ab52be2ee87ce80d603ca5b0ee460"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.0.1",
+				"shasum": "26a793c98d37a129aeffe159ca3efc37dade02fe"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6575,11 +6575,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.5.1",
+			"version": "2.9.6.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.5.1",
-				"shasum": "21b814674eeef208865a817f3dcbf410cca589d8"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.6.1",
+				"shasum": "3f815878f5a0b40ec7e9e429e848dbf9c8cd818a"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
