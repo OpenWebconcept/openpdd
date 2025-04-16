@@ -158,6 +158,7 @@
 		"wpackagist-plugin/wordfence": "^7.11",
 		"wpackagist-plugin/wordpress-importer": "^0.8",
 		"wpackagist-plugin/wp-seopress": "^8.0",
+		"wpackagist-plugin/wp-sentry-integration": "^8.3",
 		"ypackagist/advanced-custom-fields-pro": "^6.3",
 		"ypackagist/gf-entries-in-excel": "^2.2",
 		"ypackagist/gp-advanced-select": "^1.0.1",

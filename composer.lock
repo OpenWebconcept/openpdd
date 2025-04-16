@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "70e9e590da3264def49d680ddc73efdb",
+	"content-hash": "54b2673fe81b9bf7b07957f97b6c8971",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -6370,16 +6370,34 @@
 			"homepage": "https://wordpress.org/plugins/wordpress-importer/"
 		},
 		{
-			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.7.0.1",
+			"name": "wpackagist-plugin/wp-sentry-integration",
+			"version": "8.3.1",
 			"source": {
 				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.7.0.1"
+				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
+				"reference": "tags/8.3.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
+		},
+		{
+			"name": "wpackagist-plugin/wp-seopress",
+			"version": "8.7.0.2",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
+				"reference": "tags/8.7.0.2"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"

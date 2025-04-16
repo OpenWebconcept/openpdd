@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 /**
  * Autoload dependencies with Composer
@@ -49,7 +51,8 @@ define('PATH_CURRENT_SITE', '/');
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 
-define('TWOFAS_LIGHT_CHECK_CONFLICTED_PLUGINS', false);
+# Sentry
+define('WP_SENTRY_PHP_DSN', env('WP_SENTRY_PHP_DSN'));
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -74,7 +77,7 @@ define('WP_CONTENT_DIR', dirname(__FILE__) . '/wp-content');
  * If call is made via cli, ignore global $_SERVER variables
  */
 if ('cli' !== php_sapi_name()) {
-    if ((!empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS']) || 443 == $_SERVER['SERVER_PORT']) {
+    if ((! empty($_SERVER['HTTPS']) && 'off' !== $_SERVER['HTTPS']) || 443 == $_SERVER['SERVER_PORT']) {
         define('WP_CONTENT_URL', 'https://' . $_SERVER['HTTP_HOST'] . '/wp-content');
     } else {
         define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-content');
@@ -84,7 +87,7 @@ if ('cli' !== php_sapi_name()) {
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
-if (!defined('ABSPATH')) {
+if (! defined('ABSPATH')) {
     define('ABSPATH', dirname(__FILE__) . '/wp/');
 }
 require_once ABSPATH . 'wp-settings.php';
