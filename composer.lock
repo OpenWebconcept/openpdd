@@ -4100,68 +4100,6 @@
 				}
 			],
 			"description": "Prefill GravityForms Plugin",
-			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.8",
-				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
-			},
-			"time": "2025-07-29T08:58:23+00:00"
-		},
-		{
-			"name": "plugin/yard-official-publications",
-			"version": "dev-elastic-bug-workaround",
-			"source": {
-				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "eee3e9164548e194f0530a08b75fbc0779656074"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/eee3e9164548e194f0530a08b75fbc0779656074",
-				"reference": "eee3e9164548e194f0530a08b75fbc0779656074",
-				"shasum": ""
-			},
-			"require": {
-				"elastic/transport": "dev-handle-package-not-found@dev",
-				"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
-				"jmikola/geojson": "^1.2",
-				"php": "7.4.* || 8.1.* || 8.2.*",
-				"yard/elasticsearch-schema": "^1.0",
-				"yard/geocode-pdok": "^1.0",
-				"yard/logger": "^1.0",
-				"yard/xml-scraper": "^1.0"
-			},
-			"require-dev": {
-				"friendsofphp/php-cs-fixer": "^3.0",
-				"pestphp/pest": "^1.0",
-				"yard/php-cs-fixer-rules": "^1.0"
-			},
-			"type": "wordpress-plugin",
-			"autoload": {
-				"psr-4": {
-					"Yard\\OfficialPublications\\": "./src"
-				}
-			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\OfficialPublications\\Tests\\": "./tests"
-				}
-			},
-			"scripts": {
-				"post-install-cmd": [ "composer dump-autoload" ],
-				"post-update-cmd": [ "composer dump-autoload" ],
-				"format": [ " ./vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-				"test:coverage": [
-					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
-				]
-			},
-			"description": "This plugin stores official governmental publications in ElasticSearch",
-			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
-				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
-			},
-			"time": "2025-07-15T08:55:56+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -11434,8 +11372,15 @@
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+<<<<<<< HEAD
 		"plugin/owc-gravityforms-kvk-prefill": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20
+=======
+		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/prefill-gravity-forms": 20,
+		"privacybydesign/irma-wp": 20,
+		"richardkorthuis/geophp": 20
+>>>>>>> 58e4665 ((feat): prefill plugin with mapping options from theme dir)
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,

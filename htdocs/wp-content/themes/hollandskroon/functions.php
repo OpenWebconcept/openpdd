@@ -121,21 +121,30 @@ add_filter('owc_gravityforms_digid_field_display_title', function () {
  * Allow passing a custom component for the form title. Forms can use
  * this to pass information to a confirmation form.
  */
-add_filter( 'the_title', function ( $title ) {
-	if ( isset( $_GET['page_title'] ) && !empty( $_GET['page_title'] ) ) {
+add_filter('the_title', function ($title) {
+    if (isset($_GET['page_title']) && ! empty($_GET['page_title'])) {
 
-		$title .= ' - ' . sanitize_text_field( $_GET['page_title'] );
-	}
-	return $title;
-}, 10, 1 );
+        $title .= ' - ' . sanitize_text_field($_GET['page_title']);
+    }
+
+    return $title;
+}, 10, 1);
 
 /**
  * Same as above, for the page title.
  */
-add_filter( 'document_title_parts', function( $title ) {
-	if ( isset( $_GET['page_title'] ) && !empty( $_GET['page_title'] ) ) {
+add_filter('document_title_parts', function ($title) {
+    if (isset($_GET['page_title']) && ! empty($_GET['page_title'])) {
 
-		$title['title'] .= ' - ' . sanitize_text_field( $_GET['page_title'] );
-	}
-	return $title;
+        $title['title'] .= ' - ' . sanitize_text_field($_GET['page_title']);
+    }
+
+    return $title;
 });
+
+/**
+ * Set the theme directory where the mapping option files are situated, for the OWC Prefill plugin.
+ */
+add_filter('owc_prefill_gravity_forms_theme_dir_mapping_options', function ($value) {
+    return __DIR__ . '/templates/owc-prefill/';
+}, 10, 1);
