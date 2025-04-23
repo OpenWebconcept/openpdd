@@ -177,7 +177,7 @@
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.1",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.0.*",
-		"plugin/prefill-gravity-forms": "^1.6",
+		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",

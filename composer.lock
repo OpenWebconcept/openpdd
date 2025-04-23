@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "6ef49f073bb81a05061b81f0dbc7eccd",
+	"content-hash": "6adbd3d9568785f0d04515a1910a3ddc",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3442,12 +3442,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "ebceaa29d008d99327560eb0e8758a96541fdfa5"
+				"reference": "fbf5856b17043daf66d575213adb9fc0372bf4cd"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/ebceaa29d008d99327560eb0e8758a96541fdfa5",
-				"reference": "ebceaa29d008d99327560eb0e8758a96541fdfa5",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/fbf5856b17043daf66d575213adb9fc0372bf4cd",
+				"reference": "fbf5856b17043daf66d575213adb9fc0372bf4cd",
 				"shasum": ""
 			},
 			"require": {
@@ -3497,7 +3497,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-04-15T14:58:53+00:00"
+			"time": "2025-04-23T09:38:51+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -3650,16 +3650,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.4",
+			"version": "dev-feat/pink-v2-implementation",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "90627983d5e2715305dd4a7664eb6110dc1b2acd"
+				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/90627983d5e2715305dd4a7664eb6110dc1b2acd",
-				"reference": "90627983d5e2715305dd4a7664eb6110dc1b2acd",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
+				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 				"shasum": ""
 			},
 			"require": {
@@ -3702,10 +3702,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.4",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-05-07T12:10:51+00:00"
+			"time": "2025-04-18T06:02:44+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6294,15 +6294,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.7.0.1",
+			"version": "8.7.0.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.7.0.1"
+				"reference": "tags/8.7.0.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10628,6 +10628,7 @@
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
 	},
