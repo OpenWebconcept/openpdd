@@ -167,6 +167,22 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-official-publications.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/elasticsearch-schema.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/geocode-pdok.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/xml-scraper.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:OpenWebconcept/package-owc-openkaarten-functions.git"
 		},
 		{
@@ -222,8 +238,8 @@
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/mijn-taken",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/owc-signicat-openid": "1.1.*",
-		"plugin/prefill-gravity-forms": "^1.7",
+		"plugin/owc-signicat-openid": "dev-feat/selectable-idp-scope",
+		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",
