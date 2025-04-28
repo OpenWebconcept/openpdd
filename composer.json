@@ -123,6 +123,22 @@
 		},
 		{
 			"type": "vcs",
+			"url": "git@github.com:yardinternet/plugin-official-publications.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/elasticsearch-schema.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/geocode-pdok.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:yardinternet/xml-scraper.git"
+		},
+		{
+			"type": "vcs",
 			"url": "git@github.com:OpenWebconcept/package-owc-openkaarten-functions.git"
 		},
 		{
@@ -178,6 +194,7 @@
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.0.*",
 		"plugin/prefill-gravity-forms": "^1.6",
+		"plugin/yard-official-publications": "^1.0",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",
