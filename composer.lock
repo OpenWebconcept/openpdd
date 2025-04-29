@@ -3905,12 +3905,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "fbf5856b17043daf66d575213adb9fc0372bf4cd"
+				"reference": "43b212dd1408b50a0f57c7696dd15a077ed99d78"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/fbf5856b17043daf66d575213adb9fc0372bf4cd",
-				"reference": "fbf5856b17043daf66d575213adb9fc0372bf4cd",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/43b212dd1408b50a0f57c7696dd15a077ed99d78",
+				"reference": "43b212dd1408b50a0f57c7696dd15a077ed99d78",
 				"shasum": ""
 			},
 			"require": {
@@ -3960,7 +3960,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-04-23T09:38:51+00:00"
+			"time": "2025-04-29T09:34:36+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4129,13 +4129,18 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79"
+				"reference": "f363b8fcaeae18b1af95c884679773107de799fe"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 >>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
+=======
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f363b8fcaeae18b1af95c884679773107de799fe",
+				"reference": "f363b8fcaeae18b1af95c884679773107de799fe",
+>>>>>>> 5d9f412 ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -4244,8 +4249,12 @@
 				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
+<<<<<<< HEAD
 			"time": "2025-04-18T06:02:44+00:00"
 >>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
+=======
+			"time": "2025-05-07T12:11:43+00:00"
+>>>>>>> 5d9f412 ((chore): update deps)
 		},
 		{
 			"name": "privacybydesign/irma-wp",
