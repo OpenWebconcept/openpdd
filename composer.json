@@ -193,7 +193,7 @@
 	"require": {
 		"php": "7.4.*",
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
-		"acato/openkaarten-base": "^0.1.2",
+		"acato/openkaarten-base": "dev-staging@dev",
 		"acato/openkaarten-base-functions": "dev-master@dev",
 		"acato/openkaarten-frontend-plugin": "dev-main",
 		"bepsvpt/secure-headers": "^7.0",
