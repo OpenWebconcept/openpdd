@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "7a885ad21a2c18dce96efb1033c77a3f",
+	"content-hash": "62b97b1a2b11844c7162464d9a6d945d",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -2959,16 +2959,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.0.9",
+			"version": "v0.0.10",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68"
+				"reference": "5ed30b174e55ec27e01923daa0ab47731fe1fc6d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/74e4edc27c331613ae246e5a3b042491c4ad1e68",
-				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/5ed30b174e55ec27e01923daa0ab47731fe1fc6d",
+				"reference": "5ed30b174e55ec27e01923daa0ab47731fe1fc6d",
 				"shasum": ""
 			},
 			"require": {
@@ -3012,10 +3012,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.9",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.10",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2025-03-06T12:26:52+00:00"
+			"time": "2025-05-20T10:57:33+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
@@ -11053,16 +11053,16 @@
 	"aliases": [],
 	"minimum-stability": "stable",
 	"stability-flags": {
-		"deployer/recipes": 20,
 		"plugin/formio-wordpress": 20,
-		"privacybydesign/irma-wp": 20
+		"privacybydesign/irma-wp": 20,
+		"deployer/recipes": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
 		"php": "<8.0"
 	},
-	"platform-dev": {},
+	"platform-dev": [],
 	"platform-overrides": {
 		"php": "7.4"
 	},
