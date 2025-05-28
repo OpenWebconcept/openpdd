@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "62b97b1a2b11844c7162464d9a6d945d",
+	"content-hash": "249e42c0d4e899c1a1ba877d633b184f",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -6189,6 +6189,24 @@
 			],
 			"abandoned": "web-token/jwt-library",
 			"time": "2021-01-21T19:18:03+00:00"
+		},
+		{
+			"name": "wpackagist-plugin/block-visibility",
+			"version": "3.7.1",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/block-visibility/",
+				"reference": "tags/3.7.1"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/block-visibility.3.7.1.zip"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"homepage": "https://wordpress.org/plugins/block-visibility/"
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
