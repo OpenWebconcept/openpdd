@@ -3118,16 +3118,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.0.9",
+			"version": "v0.0.10",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68"
+				"reference": "5ed30b174e55ec27e01923daa0ab47731fe1fc6d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/74e4edc27c331613ae246e5a3b042491c4ad1e68",
-				"reference": "74e4edc27c331613ae246e5a3b042491c4ad1e68",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/5ed30b174e55ec27e01923daa0ab47731fe1fc6d",
+				"reference": "5ed30b174e55ec27e01923daa0ab47731fe1fc6d",
 				"shasum": ""
 			},
 			"require": {
@@ -3171,10 +3171,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.9",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.10",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2025-03-06T12:26:52+00:00"
+			"time": "2025-05-20T10:57:33+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
@@ -3719,16 +3719,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.4.4",
+			"version": "v2.4.5",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "5bc0f378846f3988d2d52cca9154462ce894cbea"
+				"reference": "98e821bdbe5b50b527e85cab9e28b896213a429f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/5bc0f378846f3988d2d52cca9154462ce894cbea",
-				"reference": "5bc0f378846f3988d2d52cca9154462ce894cbea",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/98e821bdbe5b50b527e85cab9e28b896213a429f",
+				"reference": "98e821bdbe5b50b527e85cab9e28b896213a429f",
 				"shasum": ""
 			},
 			"require": {
@@ -3778,10 +3778,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.4",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.5",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2025-05-09T08:52:04+00:00"
+			"time": "2025-05-15T09:04:06+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
@@ -3817,12 +3817,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530"
+				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/78b13fa38947fa4e49dc2da38282bceabe87b530",
-				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/3c65bd868eb5c10f4d8e8721a687e418cde0633d",
+				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d",
 				"shasum": ""
 			},
 			"require": {
@@ -3874,7 +3874,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-05-13T14:47:24+00:00"
+			"time": "2025-05-28T11:52:57+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -6598,15 +6598,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.4",
+			"version": "6.12.5.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.4"
+				"reference": "tags/6.12.5.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.4.zip"
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.5.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6724,15 +6724,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.3.1",
+			"version": "8.4.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.3.1"
+				"reference": "tags/8.4.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.4.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6742,15 +6742,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.7.0.2",
+			"version": "8.8.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.7.0.2"
+				"reference": "tags/8.8.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
