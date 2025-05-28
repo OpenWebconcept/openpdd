@@ -38,13 +38,15 @@
 	@import 'vendor/bootstrap';
 
 	/*--------------------------------------------------------------
-      Blocks
+      Components
   --------------------------------------------------------------*/
 	@import 'components/buttons';
+	@import 'components/reusable-patterns';
 
 	/*--------------------------------------------------------------
       Blocks
   --------------------------------------------------------------*/
+	@import 'blocks/group/shared';
 	@import 'blocks/tile/shared';
 
 	// Shame, todo move
