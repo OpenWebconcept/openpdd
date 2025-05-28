@@ -141,23 +141,7 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-<<<<<<< HEAD
 				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89"
-=======
-				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/f8f62159f96fc6d6936ed3298215088340d2a31a",
-				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a",
-=======
-			"name": "acato/openkaarten-frontend-plugin",
-			"version": "dev-develop",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "bb895e1eefc15d16afe549e305bb642127fc7091"
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
 			},
 			"dist": {
 				"type": "zip",
@@ -4268,12 +4252,21 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530"
+				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/78b13fa38947fa4e49dc2da38282bceabe87b530",
 				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530",
+<<<<<<< HEAD
+=======
+>>>>>>> faa341d ((chore): update deps + Acato plugins)
+=======
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/3c65bd868eb5c10f4d8e8721a687e418cde0633d",
+				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d",
+>>>>>>> bfdea29 ((chore): update deps)
+>>>>>>> 62d4820 ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -4337,9 +4330,16 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
+<<<<<<< HEAD
 			"time": "2025-05-13T14:47:24+00:00"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
+<<<<<<< HEAD
 >>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
+=======
+=======
+			"time": "2025-05-28T11:52:57+00:00"
+>>>>>>> bfdea29 ((chore): update deps)
+>>>>>>> 62d4820 ((chore): update deps)
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -7213,6 +7213,27 @@
 			"homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
 		},
 		{
+<<<<<<< HEAD
+=======
+			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
+			"version": "6.12.5.1",
+			"source": {
+				"type": "svn",
+				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
+				"reference": "tags/6.12.5.1"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.5.1.zip"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"homepage": "https://wordpress.org/plugins/gravity-forms-pdf-extended/"
+		},
+		{
+>>>>>>> bfdea29 ((chore): update deps)
 			"name": "wpackagist-plugin/onelogin-saml-sso",
 			"version": "3.4.0",
 			"source": {
@@ -7338,16 +7359,20 @@
 				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
 =======
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.3.1",
+			"version": "8.4.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.3.1"
+				"reference": "tags/8.4.0"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
+=======
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.4.0.zip"
+>>>>>>> bfdea29 ((chore): update deps)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7373,21 +7398,28 @@
 =======
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.7.0.2",
+			"version": "8.8.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.7.0.2"
+				"reference": "tags/8.8.1"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
 >>>>>>> 9c41a2e ((chore): update deps)
 =======
 				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
 >>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
+<<<<<<< HEAD
 >>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
+=======
+=======
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
+>>>>>>> bfdea29 ((chore): update deps)
+>>>>>>> 62d4820 ((chore): update deps)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
