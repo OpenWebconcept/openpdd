@@ -4,7 +4,11 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
+<<<<<<< HEAD
 	"content-hash": "7cc28e4b2d0ce936375494f1e78efc73",
+=======
+	"content-hash": "ca452b2a1ae4319b3f738c74f90f568b",
+>>>>>>> ba51863 ((chore): update composer dependencies)
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -1003,6 +1007,7 @@
 			"time": "2024-02-05T11:35:39+00:00"
 		},
 		{
+<<<<<<< HEAD
 			"name": "elastic/transport",
 			"version": "dev-handle-package-not-found",
 			"source": {
@@ -1085,11 +1090,31 @@
 				"php": "^7.4 || ^8.0",
 				"psr/http-client": "^1.0",
 				"psr/http-message": "^1.1 || ^2.0",
+=======
+			"name": "elasticsearch/elasticsearch",
+			"version": "v7.17.2",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/elastic/elasticsearch-php.git",
+				"reference": "2d302233f2bb0926812d82823bb820d405e130fc"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/2d302233f2bb0926812d82823bb820d405e130fc",
+				"reference": "2d302233f2bb0926812d82823bb820d405e130fc",
+				"shasum": ""
+			},
+			"require": {
+				"ext-json": ">=1.3.7",
+				"ezimuel/ringphp": "^1.1.2",
+				"php": "^7.3 || ^8.0",
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 				"psr/log": "^1|^2|^3"
 			},
 			"require-dev": {
 				"ext-yaml": "*",
 				"ext-zip": "*",
+<<<<<<< HEAD
 				"mockery/mockery": "^1.5",
 				"nyholm/psr7": "^1.5",
 				"php-http/message-factory": "^1.0",
@@ -1131,6 +1156,161 @@
 				"source": "https://github.com/dtakken/elasticsearch-php/tree/handle-package-not-found"
 			},
 			"time": "2025-07-11T12:27:16+00:00"
+=======
+				"mockery/mockery": "^1.2",
+				"phpstan/phpstan": "^1.10",
+				"phpunit/phpunit": "^9.3",
+				"squizlabs/php_codesniffer": "^3.4",
+				"symfony/finder": "~4.0"
+			},
+			"suggest": {
+				"ext-curl": "*",
+				"monolog/monolog": "Allows for client-level logging and tracing"
+			},
+			"type": "library",
+			"autoload": {
+				"files": [
+					"src/autoload.php"
+				],
+				"psr-4": {
+					"Elasticsearch\\": "src/Elasticsearch/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"Apache-2.0",
+				"LGPL-2.1-only"
+			],
+			"authors": [
+				{
+					"name": "Zachary Tong"
+				},
+				{
+					"name": "Enrico Zimuel"
+				}
+			],
+			"description": "PHP Client for Elasticsearch",
+			"keywords": [
+				"client",
+				"elasticsearch",
+				"search"
+			],
+			"support": {
+				"issues": "https://github.com/elastic/elasticsearch-php/issues",
+				"source": "https://github.com/elastic/elasticsearch-php/tree/v7.17.2"
+			},
+			"time": "2023-04-21T15:31:12+00:00"
+		},
+		{
+			"name": "ezimuel/guzzlestreams",
+			"version": "3.1.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/ezimuel/guzzlestreams.git",
+				"reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/b4b5a025dfee70d6cd34c780e07330eb93d5b997",
+				"reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=5.4.0"
+			},
+			"require-dev": {
+				"phpunit/phpunit": "~9.0"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "3.0-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"GuzzleHttp\\Stream\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Michael Dowling",
+					"email": "mtdowling@gmail.com",
+					"homepage": "https://github.com/mtdowling"
+				}
+			],
+			"description": "Fork of guzzle/streams (abandoned) to be used with elasticsearch-php",
+			"homepage": "http://guzzlephp.org/",
+			"keywords": [
+				"Guzzle",
+				"stream"
+			],
+			"support": {
+				"source": "https://github.com/ezimuel/guzzlestreams/tree/3.1.0"
+			},
+			"time": "2022-10-24T12:58:50+00:00"
+		},
+		{
+			"name": "ezimuel/ringphp",
+			"version": "1.3.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/ezimuel/ringphp.git",
+				"reference": "5e4ee1dfc7a323b87873b83f17c69c76ba047793"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/ezimuel/ringphp/zipball/5e4ee1dfc7a323b87873b83f17c69c76ba047793",
+				"reference": "5e4ee1dfc7a323b87873b83f17c69c76ba047793",
+				"shasum": ""
+			},
+			"require": {
+				"ezimuel/guzzlestreams": "^3.0.1",
+				"php": ">=5.4.0",
+				"react/promise": "^2.0 || ^3.0"
+			},
+			"replace": {
+				"guzzlehttp/ringphp": "self.version"
+			},
+			"require-dev": {
+				"ext-curl": "*",
+				"phpunit/phpunit": "~9.0"
+			},
+			"suggest": {
+				"ext-curl": "Guzzle will use specific adapters if cURL is present"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "1.1-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"GuzzleHttp\\Ring\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Michael Dowling",
+					"email": "mtdowling@gmail.com",
+					"homepage": "https://github.com/mtdowling"
+				}
+			],
+			"description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
+			"support": {
+				"source": "https://github.com/ezimuel/ringphp/tree/1.3.0"
+			},
+			"time": "2025-02-24T10:29:27+00:00"
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 		},
 		{
 			"name": "facile-it/php-jose-verifier",
@@ -2195,6 +2375,68 @@
 		{
 			"name": "jmikola/geojson",
 			"version": "1.2.0",
+<<<<<<< HEAD
+=======
+			"source": {
+				"type": "git",
+				"url": "https://github.com/jmikola/geojson.git",
+				"reference": "e28f3855bb61a91aab32b74c176d76dd0b5658d7"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/jmikola/geojson/zipball/e28f3855bb61a91aab32b74c176d76dd0b5658d7",
+				"reference": "e28f3855bb61a91aab32b74c176d76dd0b5658d7",
+				"shasum": ""
+			},
+			"require": {
+				"ext-json": "*",
+				"php": "^7.4 || ^8.0",
+				"symfony/polyfill-php80": "^1.25"
+			},
+			"require-dev": {
+				"phpunit/phpunit": "^9.5",
+				"scrutinizer/ocular": "^1.8.1",
+				"slevomat/coding-standard": "^8.0",
+				"squizlabs/php_codesniffer": "^3.6"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "1.1-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"GeoJson\\": "src"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Jeremy Mikola",
+					"email": "jmikola@gmail.com"
+				}
+			],
+			"description": "GeoJSON implementation for PHP",
+			"homepage": "https://github.com/jmikola/geojson",
+			"keywords": [
+				"geo",
+				"geojson",
+				"geospatial"
+			],
+			"support": {
+				"issues": "https://github.com/jmikola/geojson/issues",
+				"source": "https://github.com/jmikola/geojson/tree/1.2.0"
+			},
+			"time": "2023-12-04T17:19:43+00:00"
+		},
+		{
+			"name": "johnpbloch/wordpress",
+			"version": "6.6.2",
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"source": {
 				"type": "git",
 				"url": "https://github.com/jmikola/geojson.git",
@@ -4087,12 +4329,21 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
+<<<<<<< HEAD
 				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d"
 			},
 			"dist": {
 				"type": "zip",
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/00ac31e167f44c08d52ba2bd32fee41bda57834d",
 				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d",
+=======
+				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
+				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
+>>>>>>> ba51863 ((chore): update composer dependencies)
 				"shasum": ""
 			},
 			"require": {
@@ -4144,7 +4395,11 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.5.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
+<<<<<<< HEAD
 			"time": "2025-07-28T11:34:34+00:00"
+=======
+			"time": "2025-06-17T07:58:57+00:00"
+>>>>>>> ba51863 ((chore): update composer dependencies)
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4252,10 +4507,11 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d"
+				"reference": "09a0c95a06d04cf4407b59ef69c95b999c07aeb6"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/78b13fa38947fa4e49dc2da38282bceabe87b530",
 				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530",
@@ -4266,7 +4522,14 @@
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/3c65bd868eb5c10f4d8e8721a687e418cde0633d",
 				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d",
 >>>>>>> bfdea29 ((chore): update deps)
+<<<<<<< HEAD
 >>>>>>> 62d4820 ((chore): update deps)
+=======
+=======
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
+				"reference": "09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
+>>>>>>> ba51863 ((chore): update composer dependencies)
 				"shasum": ""
 			},
 			"require": {
@@ -4331,6 +4594,7 @@
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"time": "2025-05-13T14:47:24+00:00"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
 <<<<<<< HEAD
@@ -4339,7 +4603,13 @@
 =======
 			"time": "2025-05-28T11:52:57+00:00"
 >>>>>>> bfdea29 ((chore): update deps)
+<<<<<<< HEAD
 >>>>>>> 62d4820 ((chore): update deps)
+=======
+=======
+			"time": "2025-06-03T11:19:36+00:00"
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
+>>>>>>> ba51863 ((chore): update composer dependencies)
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -4357,17 +4627,31 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "f363b8fcaeae18b1af95c884679773107de799fe"
+				"reference": "140ecab542fccba9127ab0937ef4215c316084e2"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> ba51863 ((chore): update composer dependencies)
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f363b8fcaeae18b1af95c884679773107de799fe",
 				"reference": "f363b8fcaeae18b1af95c884679773107de799fe",
+<<<<<<< HEAD
+=======
+>>>>>>> 5d9f412 ((chore): update deps)
+=======
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/140ecab542fccba9127ab0937ef4215c316084e2",
+				"reference": "140ecab542fccba9127ab0937ef4215c316084e2",
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
+>>>>>>> ba51863 ((chore): update composer dependencies)
 				"shasum": ""
 			},
 			"require": {
+				"cmdisp/monolog-microsoft-teams": "^1.3|^2.0",
 				"owc/idp-userdata": "^1.0",
 				"php": ">=7.0",
 				"php-di/php-di": "^6.0"
@@ -4465,12 +4749,114 @@
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"time": "2025-04-18T06:02:44+00:00"
 >>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
 =======
 			"time": "2025-05-07T12:11:43+00:00"
 >>>>>>> 5d9f412 ((chore): update deps)
+<<<<<<< HEAD
 >>>>>>> 9f535cb ((chore): update deps)
+=======
+=======
+			"time": "2025-06-03T12:08:18+00:00"
+		},
+		{
+			"name": "plugin/yard-official-publications",
+			"version": "v1.0.0",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-official-publications.git",
+				"reference": "33f324b2e6676b54bdf93112626a5383b2e6cc2b"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/33f324b2e6676b54bdf93112626a5383b2e6cc2b",
+				"reference": "33f324b2e6676b54bdf93112626a5383b2e6cc2b",
+				"shasum": ""
+			},
+			"require": {
+				"elasticsearch/elasticsearch": "^7.0",
+				"jmikola/geojson": "^1.2",
+				"php": "7.4.* || 8.1.* || 8.2.*",
+				"yard/elasticsearch-schema": "^1.0",
+				"yard/geocode-pdok": "^1.0",
+				"yard/logger": "^1.0",
+				"yard/xml-scraper": "^1.0"
+			},
+			"require-dev": {
+				"brianhenryie/strauss": "^0.21.1",
+				"friendsofphp/php-cs-fixer": "^3.0",
+				"pestphp/pest": "^1.0",
+				"yard/php-cs-fixer-rules": "^1.0"
+			},
+			"type": "wordpress-plugin",
+			"extra": {
+				"strauss": {
+					"target_directory": "vendor-prefixed",
+					"namespace_prefix": "YOP\\Vendor_Prefixed\\",
+					"classmap_prefix": "YOP_Vendor_Prefixed_",
+					"constant_prefix": "YOP_VENDOR_",
+					"packages": [],
+					"update_call_sites": true,
+					"override_autoload": [],
+					"exclude_from_copy": {
+						"packages": [],
+						"namespaces": [],
+						"file_patterns": []
+					},
+					"exclude_from_prefix": {
+						"packages": [],
+						"namespaces": [],
+						"file_patterns": []
+					},
+					"namespace_replacement_patterns": [],
+					"delete_vendor_packages": false,
+					"delete_vendor_files": false,
+					"delete_vendor_directories": true
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"Yard\\OfficialPublications\\": "./src"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"Yard\\OfficialPublications\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"post-install-cmd": [
+					"@strauss",
+					"composer dump-autoload"
+				],
+				"post-update-cmd": [
+					"@strauss",
+					"composer dump-autoload"
+				],
+				"strauss": [
+					"vendor/bin/strauss"
+				],
+				"format": [
+					" ./vendor/bin/php-cs-fixer fix"
+				],
+				"test": [
+					"vendor/bin/pest"
+				],
+				"test:coverage": [
+					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
+				]
+			},
+			"description": "This plugin stores official governmental publications in ElasticSearch",
+			"homepage": "https://www.yard.nl",
+			"support": {
+				"source": "https://github.com/yardinternet/plugin-official-publications/tree/v1.0.0",
+				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
+			},
+			"time": "2025-04-10T14:50:31+00:00"
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
+>>>>>>> ba51863 ((chore): update composer dependencies)
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -5088,6 +5474,79 @@
 				"source": "https://github.com/ralouphie/getallheaders/tree/develop"
 			},
 			"time": "2019-03-08T08:55:37+00:00"
+		},
+		{
+			"name": "react/promise",
+			"version": "v3.2.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/reactphp/promise.git",
+				"reference": "8a164643313c71354582dc850b42b33fa12a4b63"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/reactphp/promise/zipball/8a164643313c71354582dc850b42b33fa12a4b63",
+				"reference": "8a164643313c71354582dc850b42b33fa12a4b63",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.1.0"
+			},
+			"require-dev": {
+				"phpstan/phpstan": "1.10.39 || 1.4.10",
+				"phpunit/phpunit": "^9.6 || ^7.5"
+			},
+			"type": "library",
+			"autoload": {
+				"files": [
+					"src/functions_include.php"
+				],
+				"psr-4": {
+					"React\\Promise\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Jan Sorgalla",
+					"email": "jsorgalla@gmail.com",
+					"homepage": "https://sorgalla.com/"
+				},
+				{
+					"name": "Christian Lück",
+					"email": "christian@clue.engineering",
+					"homepage": "https://clue.engineering/"
+				},
+				{
+					"name": "Cees-Jan Kiewiet",
+					"email": "reactphp@ceesjankiewiet.nl",
+					"homepage": "https://wyrihaximus.net/"
+				},
+				{
+					"name": "Chris Boden",
+					"email": "cboden@gmail.com",
+					"homepage": "https://cboden.dev/"
+				}
+			],
+			"description": "A lightweight implementation of CommonJS Promises/A for PHP",
+			"keywords": [
+				"promise",
+				"promises"
+			],
+			"support": {
+				"issues": "https://github.com/reactphp/promise/issues",
+				"source": "https://github.com/reactphp/promise/tree/v3.2.0"
+			},
+			"funding": [
+				{
+					"url": "https://opencollective.com/reactphp",
+					"type": "open_collective"
+				}
+			],
+			"time": "2024-05-24T10:39:05+00:00"
 		},
 		{
 			"name": "richardkorthuis/geophp",
@@ -7462,17 +7921,40 @@
 				}
 			},
 			"scripts": {
+<<<<<<< HEAD
 				"all": [ "@test", "@analyse", "@format" ],
 				"analyse": [
 					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
 				],
 				"format": [ "vendor/bin/php-cs-fixer fix" ],
 				"test": [ "vendor/bin/pest" ],
+=======
+				"all": [
+					"@test",
+					"@analyse",
+					"@format"
+				],
+				"analyse": [
+					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
+				],
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				],
+				"test": [
+					"vendor/bin/pest"
+				],
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 				"test:coverage": [
 					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
 				]
 			},
+<<<<<<< HEAD
 			"license": [ "MIT" ],
+=======
+			"license": [
+				"MIT"
+			],
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"description": "Mapping and document template for building ElasticSearch indexes",
 			"support": {
 				"source": "https://github.com/yardinternet/elasticsearch-schema/tree/v1.0.0",
@@ -7517,17 +7999,40 @@
 				}
 			},
 			"scripts": {
+<<<<<<< HEAD
 				"all": [ "@test", "@analyse", "@format" ],
 				"analyse": [
 					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
 				],
 				"format": [ "vendor/bin/php-cs-fixer fix" ],
 				"test": [ "vendor/bin/pest" ],
+=======
+				"all": [
+					"@test",
+					"@analyse",
+					"@format"
+				],
+				"analyse": [
+					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
+				],
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				],
+				"test": [
+					"vendor/bin/pest"
+				],
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 				"test:coverage": [
 					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
 				]
 			},
+<<<<<<< HEAD
 			"license": [ "MIT" ],
+=======
+			"license": [
+				"MIT"
+			],
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"description": "Library for geocoding address data using the PDOK location service",
 			"support": {
 				"source": "https://github.com/yardinternet/geocode-pdok/tree/v1.0.0",
@@ -7566,7 +8071,13 @@
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
+<<<<<<< HEAD
 			"license": [ "MIT" ],
+=======
+			"license": [
+				"MIT"
+			],
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"description": "Basic replaceable PSR-3 logger",
 			"support": {
 				"issues": "https://github.com/yardinternet/logger/issues",
@@ -7629,6 +8140,9 @@
 		},
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"name": "yard/xml-scraper",
 			"version": "v1.0.0",
 			"source": {
@@ -7636,6 +8150,7 @@
 				"url": "git@github.com:yardinternet/xml-scraper.git",
 				"reference": "3215bb76fadad7621f4416f3090f369566a49083"
 			},
+<<<<<<< HEAD
 			"dist": {
 				"type": "zip",
 				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
@@ -7704,7 +8219,78 @@
 				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.1",
 				"shasum": "a9080125ee03b12e383ffb8aa8963255f0211f7f"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
+<<<<<<< HEAD
 >>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
+=======
+=======
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
+				"reference": "3215bb76fadad7621f4416f3090f369566a49083",
+				"shasum": ""
+			},
+			"require": {
+				"ext-dom": "*",
+				"guzzlehttp/guzzle": "^6.0 || ^7.0",
+				"php": ">=7.4"
+			},
+			"require-dev": {
+				"colinodell/psr-testlogger": "^1.0",
+				"friendsofphp/php-cs-fixer": "^3.0",
+				"pestphp/pest": "^1.0",
+				"phpstan/phpstan": "^2.0",
+				"yard/php-cs-fixer-rules": "^1.0"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Yard\\XmlScraper\\": "./src/XmlScraper"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"Yard\\XmlScraper\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"all": [
+					"@test",
+					"@analyse",
+					"@format"
+				],
+				"analyse": [
+					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
+				],
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				],
+				"test": [
+					"vendor/bin/pest"
+				],
+				"test:coverage": [
+					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
+				]
+			},
+			"license": [
+				"MIT"
+			],
+			"description": "Yard XML Scraper",
+			"homepage": "https://www.yard.nl",
+			"support": {
+				"source": "https://github.com/yardinternet/xml-scraper/tree/v1.0.0",
+				"issues": "https://github.com/yardinternet/xml-scraper/issues"
+			},
+			"time": "2025-04-09T10:24:07+00:00"
+		},
+		{
+			"name": "ypackagist/advanced-custom-fields-pro",
+			"version": "6.4.2",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
+				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
+>>>>>>> ba51863 ((chore): update composer dependencies)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7902,13 +8488,21 @@
 				"shasum": "ff227c113f76ca9796028bb556c87a6609f3c3a3"
 =======
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.8",
+			"version": "2.9.9",
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.8",
 				"shasum": "a04d49c0309f13fd5593c357a4c40130a1d63841"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
+<<<<<<< HEAD
 >>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
+=======
+=======
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.9",
+				"shasum": "38c1cdab039841068e66087fce70e3ea88b761ca"
+>>>>>>> 55b37b5 ((chore): update composer dependencies)
+>>>>>>> ba51863 ((chore): update composer dependencies)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -10103,79 +10697,6 @@
 				}
 			],
 			"time": "2023-11-13T13:48:05+00:00"
-		},
-		{
-			"name": "react/promise",
-			"version": "v3.2.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/reactphp/promise.git",
-				"reference": "8a164643313c71354582dc850b42b33fa12a4b63"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/reactphp/promise/zipball/8a164643313c71354582dc850b42b33fa12a4b63",
-				"reference": "8a164643313c71354582dc850b42b33fa12a4b63",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=7.1.0"
-			},
-			"require-dev": {
-				"phpstan/phpstan": "1.10.39 || 1.4.10",
-				"phpunit/phpunit": "^9.6 || ^7.5"
-			},
-			"type": "library",
-			"autoload": {
-				"files": [
-					"src/functions_include.php"
-				],
-				"psr-4": {
-					"React\\Promise\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Jan Sorgalla",
-					"email": "jsorgalla@gmail.com",
-					"homepage": "https://sorgalla.com/"
-				},
-				{
-					"name": "Christian Lück",
-					"email": "christian@clue.engineering",
-					"homepage": "https://clue.engineering/"
-				},
-				{
-					"name": "Cees-Jan Kiewiet",
-					"email": "reactphp@ceesjankiewiet.nl",
-					"homepage": "https://wyrihaximus.net/"
-				},
-				{
-					"name": "Chris Boden",
-					"email": "cboden@gmail.com",
-					"homepage": "https://cboden.dev/"
-				}
-			],
-			"description": "A lightweight implementation of CommonJS Promises/A for PHP",
-			"keywords": [
-				"promise",
-				"promises"
-			],
-			"support": {
-				"issues": "https://github.com/reactphp/promise/issues",
-				"source": "https://github.com/reactphp/promise/tree/v3.2.0"
-			},
-			"funding": [
-				{
-					"url": "https://opencollective.com/reactphp",
-					"type": "open_collective"
-				}
-			],
-			"time": "2024-05-24T10:39:05+00:00"
 		},
 		{
 			"name": "react/socket",
