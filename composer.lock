@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "249e42c0d4e899c1a1ba877d633b184f",
+	"content-hash": "d798c6845e202b2af403f9f628f01674",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -3660,16 +3660,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.4",
+			"version": "v1.7.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "90627983d5e2715305dd4a7664eb6110dc1b2acd"
+				"reference": "47fe20afd73b7694f18375da201aa99175ff6963"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/90627983d5e2715305dd4a7664eb6110dc1b2acd",
-				"reference": "90627983d5e2715305dd4a7664eb6110dc1b2acd",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/47fe20afd73b7694f18375da201aa99175ff6963",
+				"reference": "47fe20afd73b7694f18375da201aa99175ff6963",
 				"shasum": ""
 			},
 			"require": {
@@ -3716,10 +3716,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.4",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.5",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-05-07T12:10:51+00:00"
+			"time": "2025-06-03T12:07:03+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6390,15 +6390,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.3.1",
+			"version": "8.4.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.3.1"
+				"reference": "tags/8.4.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.4.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -6612,11 +6612,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.8",
+			"version": "2.9.9",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.8",
-				"shasum": "a04d49c0309f13fd5593c357a4c40130a1d63841"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.9",
+				"shasum": "38c1cdab039841068e66087fce70e3ea88b761ca"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7790,16 +7790,16 @@
 		},
 		{
 			"name": "nikic/php-parser",
-			"version": "v5.4.0",
+			"version": "v5.5.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/nikic/PHP-Parser.git",
-				"reference": "447a020a1f875a434d62f2a401f53b82a396e494"
+				"reference": "ae59794362fe85e051a58ad36b289443f57be7a9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/447a020a1f875a434d62f2a401f53b82a396e494",
-				"reference": "447a020a1f875a434d62f2a401f53b82a396e494",
+				"url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ae59794362fe85e051a58ad36b289443f57be7a9",
+				"reference": "ae59794362fe85e051a58ad36b289443f57be7a9",
 				"shasum": ""
 			},
 			"require": {
@@ -7842,9 +7842,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/nikic/PHP-Parser/issues",
-				"source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
+				"source": "https://github.com/nikic/PHP-Parser/tree/v5.5.0"
 			},
-			"time": "2024-12-30T11:07:19+00:00"
+			"time": "2025-05-31T08:24:38+00:00"
 		},
 		{
 			"name": "phar-io/manifest",
