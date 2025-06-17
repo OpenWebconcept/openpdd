@@ -17,6 +17,7 @@
 		"format:scss": "wp-scripts format \"./htdocs/wp-content/themes/**/assets/scss/**/*.scss\"",
 		"lint:js": "wp-scripts lint-js \"./htdocs/wp-content/themes/**/assets/js/**/*.js\"",
 		"lint:scss": "stylelint './htdocs/wp-content/themes/**/assets/scss/**/*.scss' --fix",
+		"build:tokens": "style-dictionary build --config ./style-dictionary.config.js",
 		"packages-update": "wp-scripts packages-update"
 	},
 	"author": "Yard | Digital Agency",
