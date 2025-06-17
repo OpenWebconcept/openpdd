@@ -5,7 +5,7 @@ get_header();
 <main class="page-main">
     <div class="page-container | container bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
         <?php while (have_posts()) : the_post(); ?>
-        <header class="page-header | d-flex flex-column pb-3">
+        <header class="page-header | d-flex flex-column pb-3 bg-red-500">
             <h1 class="page-title | mb-3">
                 <?php echo get_the_title() ?>
             </h1>

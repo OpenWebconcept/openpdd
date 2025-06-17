@@ -27,8 +27,8 @@ module.exports = ( { theme } ) => {
 				path.resolve(
 					process.cwd(),
 					getPathToTheme( theme ),
-					'assets/scss',
-					'style.scss'
+					'assets/css',
+					'style.css'
 				),
 			],
 		},
