@@ -18,6 +18,7 @@ class GravityForms
         add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
         add_filter('gform_field_validation', [$this, 'changeRequiredFieldMessage'], 10, 4);
         add_filter('gform_field_validation', [$this, 'validateFieldIBAN'], 10, 4);
+        define('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', env('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', ''));
     }
 
     /**
