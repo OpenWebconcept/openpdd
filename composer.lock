@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "ca452b2a1ae4319b3f738c74f90f568b",
+	"content-hash": "fff42cd088679e3d36877ea747c872d9",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -141,12 +141,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "bb895e1eefc15d16afe549e305bb642127fc7091"
+				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/bb895e1eefc15d16afe549e305bb642127fc7091",
-				"reference": "bb895e1eefc15d16afe549e305bb642127fc7091",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/7f2ca7693119ca632372394571f2dea24c2cfa58",
+				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58",
 				"shasum": ""
 			},
 			"require": {
@@ -163,7 +163,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2025-05-12T13:30:57+00:00"
+			"time": "2025-06-20T12:55:02+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -3894,12 +3894,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210"
+				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
-				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
+				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
 				"shasum": ""
 			},
 			"require": {
@@ -3951,7 +3951,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-06-17T07:58:57+00:00"
+			"time": "2025-06-20T10:49:15+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4118,12 +4118,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "140ecab542fccba9127ab0937ef4215c316084e2"
+				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/140ecab542fccba9127ab0937ef4215c316084e2",
-				"reference": "140ecab542fccba9127ab0937ef4215c316084e2",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
+				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
 				"shasum": ""
 			},
 			"require": {
@@ -4174,7 +4174,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-06-03T12:08:18+00:00"
+			"time": "2025-06-19T14:44:08+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
@@ -7003,15 +7003,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.5.1",
+			"version": "6.12.6.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.5.1"
+				"reference": "tags/6.12.6.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.5.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.6.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7129,15 +7129,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.4.0",
+			"version": "8.5.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.4.0"
+				"reference": "tags/8.5.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.4.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7147,15 +7147,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.8.1",
+			"version": "8.9.0.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.8.1"
+				"reference": "tags/8.9.0.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.9.0.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7549,11 +7549,11 @@
 		},
 		{
 			"name": "ypackagist/gp-limit-submissions",
-			"version": "1.1.19",
+			"version": "1.1.23",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.19",
-				"shasum": "079616dfeb3fbccb0c803561f8fa4e8db58975a5"
+				"url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.23",
+				"shasum": "97314278b247d6c92d8189d0d202cc6244a39680"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7568,11 +7568,11 @@
 		},
 		{
 			"name": "ypackagist/gp-preview-submission",
-			"version": "1.3.19",
+			"version": "1.3.24",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-preview-submission/1.3.19",
-				"shasum": "cbb212492dcfdfee8543f51d827a53eee19ac128"
+				"url": "https://packagist.yard.nl/satispress/gp-preview-submission/1.3.24",
+				"shasum": "bdd08b97edb7a4fcf751dfd34a877448d6e17f95"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7606,11 +7606,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.9",
+			"version": "2.9.10",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.9",
-				"shasum": "38c1cdab039841068e66087fce70e3ea88b761ca"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.10",
+				"shasum": "7d2c4b4a43ac4aceac74ce20f9acf1da87e36d29"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7622,6 +7622,25 @@
 			},
 			"description": "Easily create web forms and manage form entries within the WordPress admin.",
 			"homepage": "https://gravityforms.com"
+		},
+		{
+			"name": "ypackagist/gravityforms-encryption",
+			"version": "1.6.0",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/gravityforms-encryption/1.6.0",
+				"shasum": "6524f626a5315b0a0460ec2dc4a23d23526fbffd"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"authors": {
+				"name": "CrossPeak Software",
+				"homepage": "https://www.crosspeaksoftware.com/"
+			},
+			"description": "Adds an option to the Gravity Forms text fields to allow the values to be encrypted in the database.",
+			"homepage": "https://www.crosspeaksoftware.com/downloads/gravity-forms-encryption/"
 		},
 		{
 			"name": "ypackagist/gravityformssurvey",
