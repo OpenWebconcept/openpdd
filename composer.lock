@@ -5,10 +5,14 @@
 		"This file is @generated automatically"
 	],
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"content-hash": "7cc28e4b2d0ce936375494f1e78efc73",
 =======
 	"content-hash": "ca452b2a1ae4319b3f738c74f90f568b",
 >>>>>>> ba51863 ((chore): update composer dependencies)
+=======
+	"content-hash": "fff42cd088679e3d36877ea747c872d9",
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -145,10 +149,27 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+<<<<<<< HEAD
 				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89"
+=======
+				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a"
 			},
 			"dist": {
 				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/f8f62159f96fc6d6936ed3298215088340d2a31a",
+				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a",
+=======
+			"name": "acato/openkaarten-frontend-plugin",
+			"version": "dev-develop",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58"
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
+			},
+			"dist": {
+				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
 				"reference": "aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
@@ -159,7 +180,14 @@
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/bb895e1eefc15d16afe549e305bb642127fc7091",
 				"reference": "bb895e1eefc15d16afe549e305bb642127fc7091",
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
+<<<<<<< HEAD
 >>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
+=======
+=======
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/7f2ca7693119ca632372394571f2dea24c2cfa58",
+				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58",
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -195,9 +223,16 @@
 				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
+<<<<<<< HEAD
 			"time": "2025-05-12T13:30:57+00:00"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
+<<<<<<< HEAD
 >>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
+=======
+=======
+			"time": "2025-06-20T12:55:02+00:00"
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 		},
 		{
 			"name": "aura/session",
@@ -4330,6 +4365,7 @@
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d"
 			},
 			"dist": {
@@ -4344,6 +4380,14 @@
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
 				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
 >>>>>>> ba51863 ((chore): update composer dependencies)
+=======
+				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
+				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -4396,10 +4440,14 @@
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"time": "2025-07-28T11:34:34+00:00"
 =======
 			"time": "2025-06-17T07:58:57+00:00"
 >>>>>>> ba51863 ((chore): update composer dependencies)
+=======
+			"time": "2025-06-20T10:49:15+00:00"
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4627,7 +4675,7 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "140ecab542fccba9127ab0937ef4215c316084e2"
+				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe"
 			},
 			"dist": {
 				"type": "zip",
@@ -4635,7 +4683,10 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ba51863 ((chore): update composer dependencies)
+=======
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f363b8fcaeae18b1af95c884679773107de799fe",
@@ -4647,7 +4698,14 @@
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/140ecab542fccba9127ab0937ef4215c316084e2",
 				"reference": "140ecab542fccba9127ab0937ef4215c316084e2",
 >>>>>>> 55b37b5 ((chore): update composer dependencies)
+<<<<<<< HEAD
 >>>>>>> ba51863 ((chore): update composer dependencies)
+=======
+=======
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
+				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -4750,6 +4808,7 @@
 			},
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"time": "2025-04-18T06:02:44+00:00"
 >>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
 =======
@@ -4760,6 +4819,9 @@
 =======
 =======
 			"time": "2025-06-03T12:08:18+00:00"
+=======
+			"time": "2025-06-19T14:44:08+00:00"
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
 		},
 		{
 			"name": "plugin/yard-official-publications",
@@ -7675,15 +7737,15 @@
 <<<<<<< HEAD
 =======
 			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.5.1",
+			"version": "6.12.6.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.5.1"
+				"reference": "tags/6.12.6.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.5.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.6.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7818,20 +7880,24 @@
 				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
 =======
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.4.0",
+			"version": "8.5.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.4.0"
+				"reference": "tags/8.5.0"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
 =======
 				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.4.0.zip"
 >>>>>>> bfdea29 ((chore): update deps)
+=======
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7857,14 +7923,15 @@
 =======
 >>>>>>> faa341d ((chore): update deps + Acato plugins)
 			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.8.1",
+			"version": "8.9.0.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.8.1"
+				"reference": "tags/8.9.0.2"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
@@ -7878,7 +7945,13 @@
 =======
 				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
 >>>>>>> bfdea29 ((chore): update deps)
+<<<<<<< HEAD
 >>>>>>> 62d4820 ((chore): update deps)
+=======
+=======
+				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.9.0.2.zip"
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8488,9 +8561,10 @@
 				"shasum": "ff227c113f76ca9796028bb556c87a6609f3c3a3"
 =======
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.9",
+			"version": "2.9.10",
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.8",
 				"shasum": "a04d49c0309f13fd5593c357a4c40130a1d63841"
@@ -8502,7 +8576,14 @@
 				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.9",
 				"shasum": "38c1cdab039841068e66087fce70e3ea88b761ca"
 >>>>>>> 55b37b5 ((chore): update composer dependencies)
+<<<<<<< HEAD
 >>>>>>> ba51863 ((chore): update composer dependencies)
+=======
+=======
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.10",
+				"shasum": "7d2c4b4a43ac4aceac74ce20f9acf1da87e36d29"
+>>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+>>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
