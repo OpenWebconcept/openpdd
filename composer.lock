@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "d798c6845e202b2af403f9f628f01674",
+	"content-hash": "6f6fa3919d2f8fec4d23f55f3dfb64e7",
 	"packages": [
 		{
 			"name": "aura/session",
@@ -6628,6 +6628,25 @@
 			},
 			"description": "Easily create web forms and manage form entries within the WordPress admin.",
 			"homepage": "https://gravityforms.com"
+		},
+		{
+			"name": "ypackagist/gravityforms-encryption",
+			"version": "1.6.0",
+			"dist": {
+				"type": "zip",
+				"url": "https://packagist.yard.nl/satispress/gravityforms-encryption/1.6.0",
+				"shasum": "6524f626a5315b0a0460ec2dc4a23d23526fbffd"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"authors": {
+				"name": "CrossPeak Software",
+				"homepage": "https://www.crosspeaksoftware.com/"
+			},
+			"description": "Adds an option to the Gravity Forms text fields to allow the values to be encrypted in the database.",
+			"homepage": "https://www.crosspeaksoftware.com/downloads/gravity-forms-encryption/"
 		},
 		{
 			"name": "ypackagist/gravityformssurvey",
