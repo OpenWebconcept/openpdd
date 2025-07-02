@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "fff42cd088679e3d36877ea747c872d9",
+	"content-hash": "9f4e47bc8eb66e99d26a3eca5534646f",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4536,6 +4536,7 @@
 		{
 			"name": "plugin/owc-signicat-openid",
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"version": "v1.1.1",
 			"source": {
 				"type": "git",
@@ -4548,13 +4549,17 @@
 				"reference": "9a2cf1d2727607e3cb003e2c92514be128e272a3",
 =======
 			"version": "dev-feat/selectable-idp-scope",
+=======
+			"version": "v1.0.1",
+>>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "09a0c95a06d04cf4407b59ef69c95b999c07aeb6"
+				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/78b13fa38947fa4e49dc2da38282bceabe87b530",
@@ -4568,6 +4573,10 @@
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
 				"reference": "09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
 >>>>>>> 55b37b5 ((chore): update composer dependencies)
+=======
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
+				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
+>>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -4617,6 +4626,7 @@
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.1",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
@@ -4635,6 +4645,12 @@
 =======
 			"time": "2025-06-03T11:19:36+00:00"
 >>>>>>> 55b37b5 ((chore): update composer dependencies)
+=======
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.0.1",
+				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
+			},
+			"time": "2025-07-01T06:55:14+00:00"
+>>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -12960,7 +12976,6 @@
 		"richardkorthuis/geophp": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
-		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
