@@ -192,7 +192,7 @@
 		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/mijn-taken",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.1",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/owc-signicat-openid": "1.0.1",
+		"plugin/owc-signicat-openid": "dev-fix/broken-upload-fields",
 		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
 		"plugin/yard-official-publications": "^1.0",
 		"privacybydesign/irma-wp": "@dev",

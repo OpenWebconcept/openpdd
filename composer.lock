@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "9f4e47bc8eb66e99d26a3eca5534646f",
+	"content-hash": "4209db56cc29dd3360dbf6711e10a2c2",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4049,16 +4049,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "v1.0.1",
+			"version": "dev-fix/broken-upload-fields",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f"
+				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/029878fe615c1347da6ab2296c5a1f9c67c418d5",
+				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5",
 				"shasum": ""
 			},
 			"require": {
@@ -4107,10 +4107,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.0.1",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/fix/broken-upload-fields",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-01T06:55:14+00:00"
+			"time": "2025-07-08T06:43:56+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -6949,15 +6949,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.18.16",
+			"version": "6.18.17",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.18.16"
+				"reference": "tags/6.18.17"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.16.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.17.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7511,11 +7511,11 @@
 		},
 		{
 			"name": "ypackagist/gp-advanced-select",
-			"version": "1.0.1",
+			"version": "1.1.15",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-advanced-select/1.0.1",
-				"shasum": "e8d09f8569b9c397f5a7fbef4b8d63899a3b0df6"
+				"url": "https://packagist.yard.nl/satispress/gp-advanced-select/1.1.15",
+				"shasum": "40b308cc161dc9d4d033540e36664eb441652a14"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7530,11 +7530,11 @@
 		},
 		{
 			"name": "ypackagist/gp-limit-dates",
-			"version": "1.1.25",
+			"version": "1.1.31",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-limit-dates/1.1.25",
-				"shasum": "d933bedc3f78038d58aa8ab8df3d2bb975f5a872"
+				"url": "https://packagist.yard.nl/satispress/gp-limit-dates/1.1.31",
+				"shasum": "d33f1ac6d4a03e4fcc6e45768f0666519612d993"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7606,11 +7606,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.10",
+			"version": "2.9.11",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.10",
-				"shasum": "7d2c4b4a43ac4aceac74ce20f9acf1da87e36d29"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.11",
+				"shasum": "77e514c8e3d0120e68478f6540f9d6e1e13c41f4"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7682,11 +7682,11 @@
 		},
 		{
 			"name": "ypackagist/gravityformszapier",
-			"version": "4.3.0",
+			"version": "4.4.0",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityformszapier/4.3.0",
-				"shasum": "b16fc6fad28297b7cc05c9dcbf222357165e995f"
+				"url": "https://packagist.yard.nl/satispress/gravityformszapier/4.4.0",
+				"shasum": "cb6c819ba16b1fd8b7341306e2d55aa0183d472f"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7701,11 +7701,11 @@
 		},
 		{
 			"name": "ypackagist/gravityperks",
-			"version": "2.3.14",
+			"version": "2.3.17",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityperks/2.3.14",
-				"shasum": "ef67527297af52d1431fcaf506637860d2442a8b"
+				"url": "https://packagist.yard.nl/satispress/gravityperks/2.3.17",
+				"shasum": "426ba5b0e1e447d663fb594a6b42be7ef5976e09"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7715,16 +7715,16 @@
 				"name": "Gravity Wiz",
 				"homepage": "https://gravitywiz.com/"
 			},
-			"description": "Effortlessly install and manage small functionality enhancements (aka \"perks\") for Gravity Forms.",
+			"description": "Effortlessly enhance Gravity Forms with powerful add-ons (“perks”) for smarter, more flexible forms—all backed by legendary support.",
 			"homepage": "https://gravitywiz.com/"
 		},
 		{
 			"name": "ypackagist/gwlimitchoices",
-			"version": "1.7.14",
+			"version": "1.7.16",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gwlimitchoices/1.7.14",
-				"shasum": "89d8878341611c550499133429c24f8a2761e0c4"
+				"url": "https://packagist.yard.nl/satispress/gwlimitchoices/1.7.16",
+				"shasum": "ab37dcea767b1376028dcfb307a20165f3d5b3bf"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8505,58 +8505,59 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.75.0",
+			"version": "v3.82.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "399a128ff2fdaf4281e4e79b755693286cdf325c"
+				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/399a128ff2fdaf4281e4e79b755693286cdf325c",
-				"reference": "399a128ff2fdaf4281e4e79b755693286cdf325c",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/db2a44dc899d40f20609f0ea53e952c64c028968",
+				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968",
 				"shasum": ""
 			},
 			"require": {
 				"clue/ndjson-react": "^1.0",
 				"composer/semver": "^3.4",
-				"composer/xdebug-handler": "^3.0.3",
+				"composer/xdebug-handler": "^3.0.5",
 				"ext-filter": "*",
 				"ext-hash": "*",
 				"ext-json": "*",
 				"ext-tokenizer": "*",
 				"fidry/cpu-core-counter": "^1.2",
 				"php": "^7.4 || ^8.0",
-				"react/child-process": "^0.6.5",
+				"react/child-process": "^0.6.6",
 				"react/event-loop": "^1.0",
-				"react/promise": "^2.0 || ^3.0",
+				"react/promise": "^2.11 || ^3.0",
 				"react/socket": "^1.0",
 				"react/stream": "^1.0",
-				"sebastian/diff": "^4.0 || ^5.1 || ^6.0 || ^7.0",
-				"symfony/console": "^5.4 || ^6.4 || ^7.0",
-				"symfony/event-dispatcher": "^5.4 || ^6.4 || ^7.0",
-				"symfony/filesystem": "^5.4 || ^6.4 || ^7.0",
-				"symfony/finder": "^5.4 || ^6.4 || ^7.0",
-				"symfony/options-resolver": "^5.4 || ^6.4 || ^7.0",
-				"symfony/polyfill-mbstring": "^1.31",
-				"symfony/polyfill-php80": "^1.31",
-				"symfony/polyfill-php81": "^1.31",
-				"symfony/process": "^5.4 || ^6.4 || ^7.2",
-				"symfony/stopwatch": "^5.4 || ^6.4 || ^7.0"
+				"sebastian/diff": "^4.0.6 || ^5.1.1 || ^6.0.2 || ^7.0",
+				"symfony/console": "^5.4.45 || ^6.4.13 || ^7.0",
+				"symfony/event-dispatcher": "^5.4.45 || ^6.4.13 || ^7.0",
+				"symfony/filesystem": "^5.4.45 || ^6.4.13 || ^7.0",
+				"symfony/finder": "^5.4.45 || ^6.4.17 || ^7.0",
+				"symfony/options-resolver": "^5.4.45 || ^6.4.16 || ^7.0",
+				"symfony/polyfill-mbstring": "^1.32",
+				"symfony/polyfill-php80": "^1.32",
+				"symfony/polyfill-php81": "^1.32",
+				"symfony/process": "^5.4.47 || ^6.4.20 || ^7.2",
+				"symfony/stopwatch": "^5.4.45 || ^6.4.19 || ^7.0"
 			},
 			"require-dev": {
 				"facile-it/paraunit": "^1.3.1 || ^2.6",
 				"infection/infection": "^0.29.14",
-				"justinrainbow/json-schema": "^5.3 || ^6.2",
-				"keradus/cli-executor": "^2.1",
+				"justinrainbow/json-schema": "^5.3 || ^6.4",
+				"keradus/cli-executor": "^2.2",
 				"mikey179/vfsstream": "^1.6.12",
-				"php-coveralls/php-coveralls": "^2.7",
+				"php-coveralls/php-coveralls": "^2.8",
 				"php-cs-fixer/accessible-object": "^1.1",
 				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
 				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
-				"phpunit/phpunit": "^9.6.22 || ^10.5.45 || ^11.5.12",
-				"symfony/var-dumper": "^5.4.48 || ^6.4.18 || ^7.2.3",
-				"symfony/yaml": "^5.4.45 || ^6.4.18 || ^7.2.3"
+				"phpunit/phpunit": "^9.6.23 || ^10.5.47 || ^11.5.25",
+				"symfony/polyfill-php84": "^1.32",
+				"symfony/var-dumper": "^5.4.48 || ^6.4.23 || ^7.3.1",
+				"symfony/yaml": "^5.4.45 || ^6.4.23 || ^7.3.1"
 			},
 			"suggest": {
 				"ext-dom": "For handling output formats in XML",
@@ -8597,7 +8598,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.75.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.82.0"
 			},
 			"funding": [
 				{
@@ -8605,7 +8606,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-03-31T18:40:42+00:00"
+			"time": "2025-07-07T22:38:13+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -8743,16 +8744,16 @@
 		},
 		{
 			"name": "myclabs/deep-copy",
-			"version": "1.13.1",
+			"version": "1.13.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/myclabs/DeepCopy.git",
-				"reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c"
+				"reference": "faed855a7b5f4d4637717c2b3863e277116beb36"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/1720ddd719e16cf0db4eb1c6eca108031636d46c",
-				"reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c",
+				"url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/faed855a7b5f4d4637717c2b3863e277116beb36",
+				"reference": "faed855a7b5f4d4637717c2b3863e277116beb36",
 				"shasum": ""
 			},
 			"require": {
@@ -8791,7 +8792,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/myclabs/DeepCopy/issues",
-				"source": "https://github.com/myclabs/DeepCopy/tree/1.13.1"
+				"source": "https://github.com/myclabs/DeepCopy/tree/1.13.3"
 			},
 			"funding": [
 				{
@@ -8799,7 +8800,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-04-29T12:36:36+00:00"
+			"time": "2025-07-05T12:25:42+00:00"
 		},
 		{
 			"name": "nikic/php-parser",
@@ -12019,6 +12020,7 @@
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
