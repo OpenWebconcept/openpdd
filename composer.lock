@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"content-hash": "7cc28e4b2d0ce936375494f1e78efc73",
 =======
 	"content-hash": "ca452b2a1ae4319b3f738c74f90f568b",
@@ -17,6 +18,9 @@
 =======
 	"content-hash": "9f4e47bc8eb66e99d26a3eca5534646f",
 >>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
+=======
+	"content-hash": "4209db56cc29dd3360dbf6711e10a2c2",
+>>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4555,6 +4559,7 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"version": "v1.1.1",
 			"source": {
 				"type": "git",
@@ -4570,13 +4575,17 @@
 =======
 			"version": "v1.0.1",
 >>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
+=======
+			"version": "dev-fix/broken-upload-fields",
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f"
+				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4603,7 +4612,14 @@
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
 				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
 >>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
+<<<<<<< HEAD
 >>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
+=======
+=======
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/029878fe615c1347da6ab2296c5a1f9c67c418d5",
+				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5",
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
+>>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -4654,6 +4670,7 @@
 			"support": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.2",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
@@ -4661,6 +4678,8 @@
 =======
 =======
 >>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
+=======
+>>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
 <<<<<<< HEAD
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.1",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
@@ -4695,7 +4714,16 @@
 			},
 			"time": "2025-07-01T06:55:14+00:00"
 >>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
+<<<<<<< HEAD
 >>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
+=======
+=======
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/fix/broken-upload-fields",
+				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
+			},
+			"time": "2025-07-08T06:43:56+00:00"
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
+>>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -8599,9 +8627,10 @@
 				"shasum": "ff227c113f76ca9796028bb556c87a6609f3c3a3"
 =======
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.10",
+			"version": "2.9.11",
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.8",
@@ -8621,7 +8650,14 @@
 				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.10",
 				"shasum": "7d2c4b4a43ac4aceac74ce20f9acf1da87e36d29"
 >>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+<<<<<<< HEAD
 >>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
+=======
+=======
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.11",
+				"shasum": "77e514c8e3d0120e68478f6540f9d6e1e13c41f4"
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
+>>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -9516,6 +9552,7 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
+<<<<<<< HEAD
 			"version": "v3.84.0",
 			"source": {
 				"type": "git",
@@ -9526,6 +9563,18 @@
 				"type": "zip",
 				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/38dad0767bf2a9b516b976852200ae722fe984ca",
 				"reference": "38dad0767bf2a9b516b976852200ae722fe984ca",
+=======
+			"version": "v3.82.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
+				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/db2a44dc899d40f20609f0ea53e952c64c028968",
+				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968",
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -9609,7 +9658,11 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
+<<<<<<< HEAD
 				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.84.0"
+=======
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.82.0"
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 			},
 			"funding": [
 				{
@@ -9617,7 +9670,11 @@
 					"type": "github"
 				}
 			],
+<<<<<<< HEAD
 			"time": "2025-07-15T18:21:57+00:00"
+=======
+			"time": "2025-07-07T22:38:13+00:00"
+>>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -13051,6 +13108,7 @@
 		"plugin/owc-gravityforms-zaaksysteem": 20
 =======
 		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
