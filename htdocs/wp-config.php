@@ -54,6 +54,9 @@ define('BLOG_ID_CURRENT_SITE', 1);
 # Sentry
 define('WP_SENTRY_PHP_DSN', env('WP_SENTRY_PHP_DSN'));
 
+# Gravity Forms
+define('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', env('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', ''));
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 

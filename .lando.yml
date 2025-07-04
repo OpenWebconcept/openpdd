@@ -24,6 +24,7 @@ proxy:
         - mijn.bar-organisatie.lndo.site
         - mijnportaal.gouda.lndo.site
         - mijn.defryskemarren.lndo.site
+        - mijn.gorinchem.lndo.site
     mailhog:
         - mail.openpdd.lndo.site
     pma:
@@ -34,8 +35,8 @@ services:
         type: phpmyadmin
         ssl: true
         scanner:
-          timeout: 1000
-          retry: 5
+            timeout: 1000
+            retry: 5
         hosts:
             - database
     mailhog:
@@ -54,9 +55,9 @@ services:
             volumes:
                 - ~/.lando/composer/auth.json:/var/www/.composer/auth.json
             environment:
-              # For PHPStorm, which supports automatic configuration switching
-              # for multiple remote servers.
-              PHP_IDE_CONFIG: "serverName=appserver"
+                # For PHPStorm, which supports automatic configuration switching
+                # for multiple remote servers.
+                PHP_IDE_CONFIG: 'serverName=appserver'
         config:
             php: storage/provision/php/php.ini
             xdebug: 'develop,debug'
