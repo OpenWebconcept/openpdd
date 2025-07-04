@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "9f4e47bc8eb66e99d26a3eca5534646f",
+	"content-hash": "22717daee26522a831bf80a159d78022",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4049,16 +4049,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "v1.0.1",
+			"version": "dev-fix/file-upload-overwritten",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f"
+				"reference": "5ede145f4ac5a98ef45895a6b7e69475fad5b51f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/5ede145f4ac5a98ef45895a6b7e69475fad5b51f",
+				"reference": "5ede145f4ac5a98ef45895a6b7e69475fad5b51f",
 				"shasum": ""
 			},
 			"require": {
@@ -4107,10 +4107,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.0.1",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/fix/file-upload-overwritten",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-01T06:55:14+00:00"
+			"time": "2025-07-04T11:17:23+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -12019,6 +12019,7 @@
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
