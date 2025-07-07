@@ -183,7 +183,7 @@
 		"plugin/owc-gravityforms-zaaksysteem": "^2.3.3",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.1",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/owc-signicat-openid": "1.0.*",
+		"plugin/owc-signicat-openid": "1.1.*",
 		"plugin/prefill-gravity-forms": "^1.7",
 		"plugin/yard-official-publications": "^2.0",
 		"privacybydesign/irma-wp": "@dev",
