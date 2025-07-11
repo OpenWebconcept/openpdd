@@ -152,6 +152,14 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:dtakken/elasticsearch-php.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:dtakken/elastic-transport-php.git"
 		}
 	],
 	"_comment": [
@@ -172,6 +180,8 @@
 		"cmdisp/monolog-microsoft-teams": "^1.3",
 		"composer/installers": "^1.0",
 		"cweagans/composer-patches": "^1.7",
+		"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
+		"elastic/transport": "dev-handle-package-not-found@dev",
 		"illuminate/support": "^8.83",
 		"johnpbloch/wordpress": "6.6.*",
 		"johnpbloch/wordpress-core": "6.6.*",
@@ -194,7 +204,7 @@
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "dev-feat/selectable-idp-scope",
 		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
-		"plugin/yard-official-publications": "^2.0",
+		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",
