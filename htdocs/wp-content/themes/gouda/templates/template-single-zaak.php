@@ -8,7 +8,7 @@ $zaak = get_query_var('zaak');
 get_template_part('templates/mijn-zaken/header');
 
 ?>
-    <main class="page-main page-main--mijn-zaken container" id="readspeaker">
+    <main class="container page-main page-main--mijn-zaken" id="readspeaker">
         <aside class="page-main__aside">
             <?php get_template_part('templates/mijn-zaken/sidebar'); ?>
         </aside>
@@ -61,7 +61,7 @@ get_template_part('templates/mijn-zaken/header');
 			<?php if ($zaak->informationObjects() && $zaak->informationObjects()->count() > 0): ?>
 				<ul class="zaak-documents">
 					<?php foreach ($zaak->informationObjects() as $document) : ?>
-						<?php if ($document->informatieobject->isCaseConfidential() && ! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
+						<?php if ($document->informatieobject->displayAllowedByConfidentialityDesignation() && ! empty($document->informatieobject->downloadUrl($zaak->getValue('identificatie', '')))) : ?>
 							<li class="zaak-documents-item">
 								<svg class="zaak-documents-item-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="24" height="24">
 									<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-7-7Z"/>
