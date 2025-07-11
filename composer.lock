@@ -4293,16 +4293,16 @@
 		},
 		{
 			"name": "plugin/yard-official-publications",
-			"version": "v2.0.0",
+			"version": "v2.0.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "a577dc040a9e89ae9361a161114544a7b6d1634c"
+				"reference": "55460923b58aeec78109e3770b11dd3dc1b87851"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/a577dc040a9e89ae9361a161114544a7b6d1634c",
-				"reference": "a577dc040a9e89ae9361a161114544a7b6d1634c",
+				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/55460923b58aeec78109e3770b11dd3dc1b87851",
+				"reference": "55460923b58aeec78109e3770b11dd3dc1b87851",
 				"shasum": ""
 			},
 			"require": {
@@ -4315,37 +4315,11 @@
 				"yard/xml-scraper": "^1.0"
 			},
 			"require-dev": {
-				"brianhenryie/strauss": "^0.21.1",
 				"friendsofphp/php-cs-fixer": "^3.0",
 				"pestphp/pest": "^1.0",
 				"yard/php-cs-fixer-rules": "^1.0"
 			},
 			"type": "wordpress-plugin",
-			"extra": {
-				"strauss": {
-					"target_directory": "vendor-prefixed",
-					"namespace_prefix": "YOP\\Vendor_Prefixed\\",
-					"classmap_prefix": "YOP_Vendor_Prefixed_",
-					"constant_prefix": "YOP_VENDOR_",
-					"packages": [],
-					"update_call_sites": true,
-					"override_autoload": [],
-					"exclude_from_copy": {
-						"packages": [],
-						"namespaces": [],
-						"file_patterns": []
-					},
-					"exclude_from_prefix": {
-						"packages": [],
-						"namespaces": [],
-						"file_patterns": []
-					},
-					"namespace_replacement_patterns": [],
-					"delete_vendor_packages": false,
-					"delete_vendor_files": false,
-					"delete_vendor_directories": true
-				}
-			},
 			"autoload": {
 				"psr-4": {
 					"Yard\\OfficialPublications\\": "./src"
@@ -4358,15 +4332,10 @@
 			},
 			"scripts": {
 				"post-install-cmd": [
-					"@strauss",
 					"composer dump-autoload"
 				],
 				"post-update-cmd": [
-					"@strauss",
 					"composer dump-autoload"
-				],
-				"strauss": [
-					"vendor/bin/strauss"
 				],
 				"format": [
 					" ./vendor/bin/php-cs-fixer fix"
@@ -4381,10 +4350,10 @@
 			"description": "This plugin stores official governmental publications in ElasticSearch",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/v2.0.0",
+				"source": "https://github.com/yardinternet/plugin-official-publications/tree/v2.0.1",
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
-			"time": "2025-07-07T13:58:13+00:00"
+			"time": "2025-07-11T09:48:34+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
