@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "fae1716673afaea742150724922da803",
+	"content-hash": "281c3458b19f23829d6737509e692bed",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -974,16 +974,16 @@
 		},
 		{
 			"name": "elastic/transport",
-			"version": "v8.11.0",
+			"version": "dev-handle-package-not-found",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/elastic/elastic-transport-php.git",
-				"reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4"
+				"url": "https://github.com/dtakken/elastic-transport-php.git",
+				"reference": "69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/elastic/elastic-transport-php/zipball/1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
-				"reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
+				"url": "https://api.github.com/repos/dtakken/elastic-transport-php/zipball/69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63",
+				"reference": "69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63",
 				"shasum": ""
 			},
 			"require": {
@@ -1011,41 +1011,52 @@
 					"Elastic\\Transport\\": "src/"
 				}
 			},
-			"notification-url": "https://packagist.org/downloads/",
+			"autoload-dev": {
+				"psr-4": {
+					"Elastic\\Transport\\Test\\": "tests/"
+				}
+			},
+			"scripts": {
+				"test": [
+					"vendor/bin/phpunit --testdox"
+				],
+				"phpstan": [
+					"vendor/bin/phpstan analyse"
+				]
+			},
 			"license": [
 				"MIT"
 			],
 			"description": "HTTP transport PHP library for Elastic products",
 			"keywords": [
+				"PSR-18",
+				"PSR-7",
 				"PSR_17",
 				"elastic",
 				"http",
-				"psr-18",
-				"psr-7",
 				"transport"
 			],
 			"support": {
-				"issues": "https://github.com/elastic/elastic-transport-php/issues",
-				"source": "https://github.com/elastic/elastic-transport-php/tree/v8.11.0"
+				"source": "https://github.com/dtakken/elastic-transport-php/tree/handle-package-not-found"
 			},
-			"time": "2025-04-02T08:20:33+00:00"
+			"time": "2025-07-10T10:33:17+00:00"
 		},
 		{
 			"name": "elasticsearch/elasticsearch",
-			"version": "v8.18.0",
+			"version": "dev-handle-package-not-found",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/elastic/elasticsearch-php.git",
-				"reference": "df8ee73046c688ee9ce2d69cb5c54a03ca38cc5c"
+				"url": "https://github.com/dtakken/elasticsearch-php.git",
+				"reference": "b84ed64f3551fffea0e0765295dae46c779e0505"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/df8ee73046c688ee9ce2d69cb5c54a03ca38cc5c",
-				"reference": "df8ee73046c688ee9ce2d69cb5c54a03ca38cc5c",
+				"url": "https://api.github.com/repos/dtakken/elasticsearch-php/zipball/b84ed64f3551fffea0e0765295dae46c779e0505",
+				"reference": "b84ed64f3551fffea0e0765295dae46c779e0505",
 				"shasum": ""
 			},
 			"require": {
-				"elastic/transport": "^8.10",
+				"elastic/transport": "dev-handle-package-not-found@dev",
 				"guzzlehttp/guzzle": "^7.0",
 				"php": "^7.4 || ^8.0",
 				"psr/http-client": "^1.0",
@@ -1057,8 +1068,9 @@
 				"ext-zip": "*",
 				"mockery/mockery": "^1.5",
 				"nyholm/psr7": "^1.5",
+				"php-http/message-factory": "^1.0",
 				"php-http/mock-client": "^1.5",
-				"phpstan/phpstan": "^2.1",
+				"phpstan/phpstan": "^1.4",
 				"phpunit/phpunit": "^9.5",
 				"psr/http-factory": "^1.0",
 				"symfony/finder": "~4.0",
@@ -1070,7 +1082,26 @@
 					"Elastic\\Elasticsearch\\": "src/"
 				}
 			},
-			"notification-url": "https://packagist.org/downloads/",
+			"autoload-dev": {
+				"psr-4": {
+					"Elastic\\Elasticsearch\\Tests\\": "tests/",
+					"Elastic\\Elasticsearch\\Util\\": "util/"
+				}
+			},
+			"scripts": {
+				"test": [
+					"vendor/bin/phpunit --testdox"
+				],
+				"integration-test": [
+					"vendor/bin/phpunit --testdox -c phpunit-integration-tests.xml"
+				],
+				"cloud-test": [
+					"vendor/bin/phpunit --testdox -c phpunit-integration-cloud-tests.xml"
+				],
+				"phpstan": [
+					"phpstan analyse src --level 2 --no-progress --memory-limit 256M"
+				]
+			},
 			"license": [
 				"MIT"
 			],
@@ -1082,10 +1113,9 @@
 				"search"
 			],
 			"support": {
-				"issues": "https://github.com/elastic/elasticsearch-php/issues",
-				"source": "https://github.com/elastic/elasticsearch-php/tree/v8.18.0"
+				"source": "https://github.com/dtakken/elasticsearch-php/tree/handle-package-not-found"
 			},
-			"time": "2025-05-02T10:38:56+00:00"
+			"time": "2025-07-11T12:27:16+00:00"
 		},
 		{
 			"name": "facile-it/php-jose-verifier",
@@ -4224,16 +4254,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "dev-fix/broken-upload-fields",
+			"version": "dev-feat/selectable-idp-scope",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5"
+				"reference": "c709dc5f996473fc85cb8a67343325595bfbaa7f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/029878fe615c1347da6ab2296c5a1f9c67c418d5",
-				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/c709dc5f996473fc85cb8a67343325595bfbaa7f",
+				"reference": "c709dc5f996473fc85cb8a67343325595bfbaa7f",
 				"shasum": ""
 			},
 			"require": {
@@ -4282,10 +4312,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/fix/broken-upload-fields",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-08T06:43:56+00:00"
+			"time": "2025-07-08T05:03:39+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -4353,20 +4383,21 @@
 		},
 		{
 			"name": "plugin/yard-official-publications",
-			"version": "v2.0.4",
+			"version": "dev-elastic-bug-workaround",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "42e8aeb38ce1e04684ba3dd5aee29cb6379c88fa"
+				"reference": "20d568c8616968ba9dbf61ecf665f992d6fb40c5"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/42e8aeb38ce1e04684ba3dd5aee29cb6379c88fa",
-				"reference": "42e8aeb38ce1e04684ba3dd5aee29cb6379c88fa",
+				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/20d568c8616968ba9dbf61ecf665f992d6fb40c5",
+				"reference": "20d568c8616968ba9dbf61ecf665f992d6fb40c5",
 				"shasum": ""
 			},
 			"require": {
-				"elasticsearch/elasticsearch": "^8.0",
+				"elastic/transport": "dev-handle-package-not-found@dev",
+				"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
 				"jmikola/geojson": "^1.2",
 				"php": "7.4.* || 8.1.* || 8.2.*",
 				"yard/elasticsearch-schema": "^1.0",
@@ -4410,10 +4441,10 @@
 			"description": "This plugin stores official governmental publications in ElasticSearch",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/v2.0.4",
+				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
-			"time": "2025-07-11T11:21:03+00:00"
+			"time": "2025-07-11T14:25:46+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -7639,11 +7670,11 @@
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.3.9",
+			"version": "2.4.0",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.3.9",
-				"shasum": "ecf4f2ab10cbf0b60fdc7d713377694eab98536e"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.0",
+				"shasum": "6338c4795cea10855cdd0292c4e24569b6e590d1"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8652,16 +8683,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.82.0",
+			"version": "v3.82.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968"
+				"reference": "684ed3ab41008a2a4848de8bde17eb168c596247"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/db2a44dc899d40f20609f0ea53e952c64c028968",
-				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/684ed3ab41008a2a4848de8bde17eb168c596247",
+				"reference": "684ed3ab41008a2a4848de8bde17eb168c596247",
 				"shasum": ""
 			},
 			"require": {
@@ -8745,7 +8776,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.82.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.82.2"
 			},
 			"funding": [
 				{
@@ -8753,7 +8784,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-07-07T22:38:13+00:00"
+			"time": "2025-07-08T21:13:15+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -12237,11 +12268,14 @@
 		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
+		"elastic/transport": 20,
+		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
+		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
 	},
