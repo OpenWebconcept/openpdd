@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "e078f06aa71118422a01f08d740c9437",
+	"content-hash": "bc5adacf18cc0ba932516ed494ba16af",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -974,16 +974,16 @@
 		},
 		{
 			"name": "elastic/transport",
-			"version": "v8.11.0",
+			"version": "dev-handle-package-not-found",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/elastic/elastic-transport-php.git",
-				"reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4"
+				"url": "https://github.com/dtakken/elastic-transport-php.git",
+				"reference": "69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/elastic/elastic-transport-php/zipball/1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
-				"reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
+				"url": "https://api.github.com/repos/dtakken/elastic-transport-php/zipball/69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63",
+				"reference": "69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63",
 				"shasum": ""
 			},
 			"require": {
@@ -1011,41 +1011,52 @@
 					"Elastic\\Transport\\": "src/"
 				}
 			},
-			"notification-url": "https://packagist.org/downloads/",
+			"autoload-dev": {
+				"psr-4": {
+					"Elastic\\Transport\\Test\\": "tests/"
+				}
+			},
+			"scripts": {
+				"test": [
+					"vendor/bin/phpunit --testdox"
+				],
+				"phpstan": [
+					"vendor/bin/phpstan analyse"
+				]
+			},
 			"license": [
 				"MIT"
 			],
 			"description": "HTTP transport PHP library for Elastic products",
 			"keywords": [
+				"PSR-18",
+				"PSR-7",
 				"PSR_17",
 				"elastic",
 				"http",
-				"psr-18",
-				"psr-7",
 				"transport"
 			],
 			"support": {
-				"issues": "https://github.com/elastic/elastic-transport-php/issues",
-				"source": "https://github.com/elastic/elastic-transport-php/tree/v8.11.0"
+				"source": "https://github.com/dtakken/elastic-transport-php/tree/handle-package-not-found"
 			},
-			"time": "2025-04-02T08:20:33+00:00"
+			"time": "2025-07-10T10:33:17+00:00"
 		},
 		{
 			"name": "elasticsearch/elasticsearch",
-			"version": "v8.18.0",
+			"version": "dev-handle-package-not-found",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/elastic/elasticsearch-php.git",
-				"reference": "df8ee73046c688ee9ce2d69cb5c54a03ca38cc5c"
+				"url": "https://github.com/dtakken/elasticsearch-php.git",
+				"reference": "b84ed64f3551fffea0e0765295dae46c779e0505"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/df8ee73046c688ee9ce2d69cb5c54a03ca38cc5c",
-				"reference": "df8ee73046c688ee9ce2d69cb5c54a03ca38cc5c",
+				"url": "https://api.github.com/repos/dtakken/elasticsearch-php/zipball/b84ed64f3551fffea0e0765295dae46c779e0505",
+				"reference": "b84ed64f3551fffea0e0765295dae46c779e0505",
 				"shasum": ""
 			},
 			"require": {
-				"elastic/transport": "^8.10",
+				"elastic/transport": "dev-handle-package-not-found@dev",
 				"guzzlehttp/guzzle": "^7.0",
 				"php": "^7.4 || ^8.0",
 				"psr/http-client": "^1.0",
@@ -1057,8 +1068,9 @@
 				"ext-zip": "*",
 				"mockery/mockery": "^1.5",
 				"nyholm/psr7": "^1.5",
+				"php-http/message-factory": "^1.0",
 				"php-http/mock-client": "^1.5",
-				"phpstan/phpstan": "^2.1",
+				"phpstan/phpstan": "^1.4",
 				"phpunit/phpunit": "^9.5",
 				"psr/http-factory": "^1.0",
 				"symfony/finder": "~4.0",
@@ -1070,7 +1082,26 @@
 					"Elastic\\Elasticsearch\\": "src/"
 				}
 			},
-			"notification-url": "https://packagist.org/downloads/",
+			"autoload-dev": {
+				"psr-4": {
+					"Elastic\\Elasticsearch\\Tests\\": "tests/",
+					"Elastic\\Elasticsearch\\Util\\": "util/"
+				}
+			},
+			"scripts": {
+				"test": [
+					"vendor/bin/phpunit --testdox"
+				],
+				"integration-test": [
+					"vendor/bin/phpunit --testdox -c phpunit-integration-tests.xml"
+				],
+				"cloud-test": [
+					"vendor/bin/phpunit --testdox -c phpunit-integration-cloud-tests.xml"
+				],
+				"phpstan": [
+					"phpstan analyse src --level 2 --no-progress --memory-limit 256M"
+				]
+			},
 			"license": [
 				"MIT"
 			],
@@ -1082,10 +1113,9 @@
 				"search"
 			],
 			"support": {
-				"issues": "https://github.com/elastic/elasticsearch-php/issues",
-				"source": "https://github.com/elastic/elasticsearch-php/tree/v8.18.0"
+				"source": "https://github.com/dtakken/elasticsearch-php/tree/handle-package-not-found"
 			},
-			"time": "2025-05-02T10:38:56+00:00"
+			"time": "2025-07-11T12:27:16+00:00"
 		},
 		{
 			"name": "facile-it/php-jose-verifier",
@@ -4293,20 +4323,21 @@
 		},
 		{
 			"name": "plugin/yard-official-publications",
-			"version": "v2.0.1",
+			"version": "dev-elastic-bug-workaround",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "55460923b58aeec78109e3770b11dd3dc1b87851"
+				"reference": "61cb4d9eb0b04c3f123dcab1add6f3a668b24752"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/55460923b58aeec78109e3770b11dd3dc1b87851",
-				"reference": "55460923b58aeec78109e3770b11dd3dc1b87851",
+				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/61cb4d9eb0b04c3f123dcab1add6f3a668b24752",
+				"reference": "61cb4d9eb0b04c3f123dcab1add6f3a668b24752",
 				"shasum": ""
 			},
 			"require": {
-				"elasticsearch/elasticsearch": "^8.0",
+				"elastic/transport": "dev-handle-package-not-found@dev",
+				"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
 				"jmikola/geojson": "^1.2",
 				"php": "7.4.* || 8.1.* || 8.2.*",
 				"yard/elasticsearch-schema": "^1.0",
@@ -4350,10 +4381,10 @@
 			"description": "This plugin stores official governmental publications in ElasticSearch",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/v2.0.1",
+				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
-			"time": "2025-07-11T09:48:34+00:00"
+			"time": "2025-07-14T11:31:11+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -12195,7 +12226,10 @@
 		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
+		"elastic/transport": 20,
+		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
+		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
 	},
