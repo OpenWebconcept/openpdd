@@ -6,7 +6,7 @@ config:
 
 services:
   appserver:
-    type: php:8.3
+    type: php:8.1
     build_as_root:
       - apt-get update -y && apt-get install -y git
     overrides:
