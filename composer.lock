@@ -4327,12 +4327,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "61cb4d9eb0b04c3f123dcab1add6f3a668b24752"
+				"reference": "eee3e9164548e194f0530a08b75fbc0779656074"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/61cb4d9eb0b04c3f123dcab1add6f3a668b24752",
-				"reference": "61cb4d9eb0b04c3f123dcab1add6f3a668b24752",
+				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/eee3e9164548e194f0530a08b75fbc0779656074",
+				"reference": "eee3e9164548e194f0530a08b75fbc0779656074",
 				"shasum": ""
 			},
 			"require": {
@@ -4384,7 +4384,7 @@
 				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
-			"time": "2025-07-14T11:31:11+00:00"
+			"time": "2025-07-15T08:55:56+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
