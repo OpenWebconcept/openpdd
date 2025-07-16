@@ -1,0 +1,30 @@
+/**
+ * Default fill: .yard-blocks-button
+ */
+.wp-block-button__link {
+	@include button;
+	@include button-color( $accessible-primary );
+
+	&.has-primary-background-color {
+		@include button-color( $accessible-primary );
+	}
+
+	&.has-secondary-background-color {
+		@include button-color( $accessible-secondary );
+	}
+}
+
+/**
+ * Project buttons
+ */
+.btn {
+	@include button;
+}
+
+.btn-primary {
+	@include button-color( $accessible-primary );
+}
+
+.btn-secondary {
+	@include button-color( $accessible-secondary );
+}

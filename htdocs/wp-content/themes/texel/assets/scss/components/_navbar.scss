@@ -1,0 +1,56 @@
+.navbar {
+	box-shadow:
+		0 2px 3px 0 rgba( 40, 44, 53, 0.08 ),
+		0 1px 1px 0 rgba( 40, 44, 53, 0.1 );
+
+	.navbar-menu-list > .menu-item {
+		position: relative;
+		display: flex;
+		height: $navbar-height-desktop;
+		align-items: center;
+		justify-content: center;
+
+		&::before {
+			position: absolute;
+			bottom: 18px;
+			left: 10%;
+			width: 80%;
+			height: 3px;
+			background-color: theme-color( 'primary' );
+			content: '';
+			transform: scaleX( 0 );
+			transition: all 0.4s cubic-bezier( 0.22, 1, 0.36, 1 ); // EaseOutQuint
+			visibility: hidden;
+		}
+
+		@include hover-focus-active() {
+			&::before {
+				transform: scaleX( 1 );
+				visibility: visible;
+			}
+		}
+
+		a {
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+			color: $black;
+			font-size: 18px;
+
+			@include hover-focus-active() {
+				text-decoration: none;
+			}
+		}
+	}
+
+	.sub-menu {
+		.menu-item a {
+			justify-content: flex-start;
+
+			@include hover-focus-active() {
+				color: theme-color( 'primary' );
+			}
+		}
+	}
+}

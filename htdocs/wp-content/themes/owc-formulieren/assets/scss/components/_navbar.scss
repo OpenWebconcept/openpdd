@@ -35,6 +35,26 @@
 		opacity: 1;
 		visibility: visible;
 	}
+
+	.menu-item-has-children {
+		&::after {
+			@include fontawesome( '\f078' );
+			border: 0;
+			margin-left: 0.5rem;
+			color: theme-color( 'primary' );
+			font-size: $xs-small-font-size;
+			font-weight: $font-weight-bold;
+			transform: translateY( 1px );
+			transition: transform 0.3s ease;
+			vertical-align: 0;
+		}
+
+		&:hover {
+			&::after {
+				transform: translateY( 4px );
+			}
+		}
+	}
 }
 
 .menu-item {

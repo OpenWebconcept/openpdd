@@ -1,0 +1,85 @@
+@import './colors';
+
+/*--------------------------------------------------------------
+  Fonts
+--------------------------------------------------------------*/
+$font-size-base: 1.0625rem;
+$font-family-sans-serif:
+	-apple-system,
+	BlinkMacSystemFont,
+	'Segoe UI',
+	Source Sans Pro,
+	'Helvetica Neue',
+	Arial,
+	sans-serif,
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol';
+$font-family-base: 'Trebuchet MS', $font-family-sans-serif;
+$font-weight-base: 400;
+$line-height-base: 1.7;
+$enable-responsive-font-sizes: true;
+
+$small-font-size: $font-size-base * 0.9;
+$xs-small-font-size: $small-font-size * 0.9;
+
+$lead-font-weight: 400;
+$lead-font-size: $font-size-base * 1.1;
+
+/*--------------------------------------------------------------
+  Colors
+--------------------------------------------------------------*/
+$body-bg: #f3f5f9;
+$body-color: #2b2b2b;
+$danger: #e0001e;
+$succes: #009a3e;
+$text-muted: #687078;
+$yiq-contrasted-threshold: 125;
+
+/*--------------------------------------------------------------
+  Paragraph
+--------------------------------------------------------------*/
+$paragraph-margin-bottom: 1.25rem;
+
+/*--------------------------------------------------------------
+  Headings
+--------------------------------------------------------------*/
+$h1-font-size: $font-size-base * 2.1 !default;
+$h2-font-size: $font-size-base * 1.5 !default;
+$h3-font-size: $font-size-base * 1.25 !default;
+$h4-font-size: $font-size-base * 1.15 !default;
+$h5-font-size: $font-size-base * 1 !default;
+$h6-font-size: $font-size-base !default;
+$headings-color: theme-color( 'primary' );
+$headings-font-family: $font-family-base;
+$headings-margin-bottom: 1rem;
+$headings-font-weight: 400;
+
+/*--------------------------------------------------------------
+  Border radius
+--------------------------------------------------------------*/
+$border-radius: 0;
+$border-radius-lg: 0;
+
+/*--------------------------------------------------------------
+  Buttons
+--------------------------------------------------------------*/
+$btn-padding-y: 0.5rem;
+$btn-padding-x: 1.6rem;
+$btn-border-width: 0;
+$btn-border-radius: 0;
+$btn-font-weight: 700;
+
+/*--------------------------------------------------------------
+  Components
+--------------------------------------------------------------*/
+$box-shadow:
+	0 2px 3px 0 rgba( 40, 44, 53, 0.08 ),
+	0 1px 1px 0 rgba( 40, 44, 53, 0.1 );
+
+/*--------------------------------------------------------------
+  Forms
+--------------------------------------------------------------*/
+$input-padding-y: 0.5rem;
+$input-padding-x: 0.7rem;
+$input-bg: #fff;
