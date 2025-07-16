@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "69106b5e1ebb3359252bc096f4023d6c",
+	"content-hash": "e06efa00ae8b2ed2d92dccf54a6f2b05",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
