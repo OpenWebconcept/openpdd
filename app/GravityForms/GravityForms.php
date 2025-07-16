@@ -18,7 +18,6 @@ class GravityForms
         add_filter('pre_option_rg_gforms_enable_html5', '__return_true');
         add_filter('gform_field_validation', [$this, 'changeRequiredFieldMessage'], 10, 4);
         add_filter('gform_field_validation', [$this, 'validateFieldIBAN'], 10, 4);
-        define('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', env('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', ''));
 
         // Remove the encryption filter for merge tags so the data can be used in emails.
         remove_filter('gform_merge_tag_filter', 'gf_encryption_gform_merge_tag_filter', 10, 4);
