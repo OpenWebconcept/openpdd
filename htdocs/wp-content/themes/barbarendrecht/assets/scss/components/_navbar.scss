@@ -1,5 +1,5 @@
 .navbar {
-	.menu-item {
+	.navbar-menu-list > .menu-item {
 		position: relative;
 		display: flex;
 		height: 100%;
@@ -28,12 +28,35 @@
 		}
 
 		a {
-			color: $black;
+			display: flex;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+			color: theme-color( 'primary' );
 			font-size: $font-size-base;
 
 			@include hover-focus-active() {
 				text-decoration: none;
 			}
+		}
+	}
+
+	.menu-item-has-children {
+		&::after {
+			color: theme-color( 'secondary' );
+		}
+	}
+
+	.sub-menu {
+		.menu-item a {
+			justify-content: flex-start;
+			border-bottom: 1px solid gray( 'concrete' );
+
+			@include hover-focus-active() {
+				background-color: theme-color( 'primary' );
+				color: $white;
+			}
+			transition: 0.1s ease all;
 		}
 	}
 }
