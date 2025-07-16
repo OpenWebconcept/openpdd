@@ -1,0 +1,17 @@
+.openpdd-personal-heading {
+	background-image: none !important;
+
+	&__image-wrapper {
+		overflow: hidden;
+		margin-bottom: 1rem;
+		mask-image: none !important;
+
+		@include media-breakpoint-up( sm ) {
+			border-radius: 0 0 0 30px;
+		}
+
+		@include media-breakpoint-up( xl ) {
+			margin-left: 1rem;
+		}
+	}
+}

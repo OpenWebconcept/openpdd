@@ -5,7 +5,10 @@
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-	background-color: var( --color-palette-white );
+	background-color: var(
+		--openpdd-mijn-zaken-background-color,
+		var( --color-palette-white )
+	);
 
 	.footer {
 		margin-top: auto;
