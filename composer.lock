@@ -4036,16 +4036,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.4.1",
+			"version": "v2.4.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "348f49780ae0c4cb7925a0695a51e7ab2d26e0b9"
+				"reference": "8ec79144f10393d955091b51e3844e1ebec5d33b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/348f49780ae0c4cb7925a0695a51e7ab2d26e0b9",
-				"reference": "348f49780ae0c4cb7925a0695a51e7ab2d26e0b9",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/8ec79144f10393d955091b51e3844e1ebec5d33b",
+				"reference": "8ec79144f10393d955091b51e3844e1ebec5d33b",
 				"shasum": ""
 			},
 			"require": {
@@ -4094,10 +4094,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.4.1",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.4.2",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-07-11T05:39:08+00:00"
+			"time": "2025-07-16T14:10:43+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
