@@ -14,6 +14,9 @@ class Sidebar
 
     public function register(): void
     {
+        if (! function_exists('get_field')) {
+            return;
+        }
         add_action('acf/include_fields', [$this, 'addAcfFields']);
         add_action('wp_nav_menu_objects', [$this, 'addIconsToMenuItems'], 10, 2);
         add_action('render_block_core/navigation-link', [$this, 'addIconsToBlockMenuItems'], 10, 2);
