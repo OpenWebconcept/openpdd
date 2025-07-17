@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "4209db56cc29dd3360dbf6711e10a2c2",
+	"content-hash": "66347d9f896180f3ecdd31c390e755d3",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -136,84 +136,17 @@
 			"time": "2024-12-05T11:21:46+00:00"
 		},
 		{
-<<<<<<< HEAD
-			"name": "acato/openkaarten-base-functions",
-			"version": "dev-master",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
-				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/ba41e30cbc6beccc6e501f1824664cc6bc44c824",
-				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824",
-				"shasum": ""
-			},
-			"require": {
-				"composer/installers": "~1.0"
-			},
-			"require-dev": {
-				"acato/wp-pre-commit-hook": "*",
-				"phpcompatibility/phpcompatibility-wp": "*"
-			},
-			"default-branch": true,
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Openkaarten_Base_Functions\\": "src/"
-				}
-			},
-			"license": [ "MIT" ],
-			"authors": [
-				{
-					"name": "Eyal Beker",
-					"email": "eyal@acato.nl"
-				}
-			],
-			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
-			"homepage": "https://www.acato.nl",
-			"support": {
-				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.0",
-				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
-			},
-			"time": "2024-12-05T11:21:46+00:00"
-		},
-		{
 			"name": "acato/openkaarten-frontend-plugin",
-			"version": "dev-develop",
+			"version": "dev-main",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a"
+				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/f8f62159f96fc6d6936ed3298215088340d2a31a",
-				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a",
-=======
-			"name": "acato/openkaarten-frontend-plugin",
-			"version": "dev-develop",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58"
-			},
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
-				"reference": "aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
->>>>>>> e4c3d7e ((chore): update deps)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/bb895e1eefc15d16afe549e305bb642127fc7091",
-				"reference": "bb895e1eefc15d16afe549e305bb642127fc7091",
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/7f2ca7693119ca632372394571f2dea24c2cfa58",
-				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58",
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/87e7a5701a8499d5cf58b1a2215f808be63c7b89",
+				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89",
 				"shasum": ""
 			},
 			"require": {
@@ -224,31 +157,14 @@
 				"bjornjohansen/wp-pre-commit-hook": "*",
 				"phpcompatibility/phpcompatibility-wp": "*"
 			},
+			"default-branch": true,
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2025-07-11T13:58:50+00:00"
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/main",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
-			"time": "2025-03-13T11:08:30+00:00"
->>>>>>> e4c3d7e ((chore): update deps)
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
-<<<<<<< HEAD
-			"time": "2025-05-12T13:30:57+00:00"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-			"time": "2025-06-20T12:55:02+00:00"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
+			"time": "2025-07-15T12:49:26+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -1058,7 +974,6 @@
 			"time": "2024-02-05T11:35:39+00:00"
 		},
 		{
-<<<<<<< HEAD
 			"name": "elastic/transport",
 			"version": "dev-handle-package-not-found",
 			"source": {
@@ -1103,10 +1018,16 @@
 				}
 			},
 			"scripts": {
-				"test": [ "vendor/bin/phpunit --testdox" ],
-				"phpstan": [ "vendor/bin/phpstan analyse" ]
+				"test": [
+					"vendor/bin/phpunit --testdox"
+				],
+				"phpstan": [
+					"vendor/bin/phpstan analyse"
+				]
 			},
-			"license": [ "MIT" ],
+			"license": [
+				"MIT"
+			],
 			"description": "HTTP transport PHP library for Elastic products",
 			"keywords": [
 				"PSR-18",
@@ -1141,31 +1062,11 @@
 				"php": "^7.4 || ^8.0",
 				"psr/http-client": "^1.0",
 				"psr/http-message": "^1.1 || ^2.0",
-=======
-			"name": "elasticsearch/elasticsearch",
-			"version": "v7.17.2",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/elastic/elasticsearch-php.git",
-				"reference": "2d302233f2bb0926812d82823bb820d405e130fc"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/2d302233f2bb0926812d82823bb820d405e130fc",
-				"reference": "2d302233f2bb0926812d82823bb820d405e130fc",
-				"shasum": ""
-			},
-			"require": {
-				"ext-json": ">=1.3.7",
-				"ezimuel/ringphp": "^1.1.2",
-				"php": "^7.3 || ^8.0",
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 				"psr/log": "^1|^2|^3"
 			},
 			"require-dev": {
 				"ext-yaml": "*",
 				"ext-zip": "*",
-<<<<<<< HEAD
 				"mockery/mockery": "^1.5",
 				"nyholm/psr7": "^1.5",
 				"php-http/message-factory": "^1.0",
@@ -1189,7 +1090,9 @@
 				}
 			},
 			"scripts": {
-				"test": [ "vendor/bin/phpunit --testdox" ],
+				"test": [
+					"vendor/bin/phpunit --testdox"
+				],
 				"integration-test": [
 					"vendor/bin/phpunit --testdox -c phpunit-integration-tests.xml"
 				],
@@ -1200,168 +1103,20 @@
 					"phpstan analyse src --level 2 --no-progress --memory-limit 256M"
 				]
 			},
-			"license": [ "MIT" ],
-			"description": "PHP Client for Elasticsearch",
-			"keywords": [ "client", "elastic", "elasticsearch", "search" ],
-			"support": {
-				"source": "https://github.com/dtakken/elasticsearch-php/tree/handle-package-not-found"
-			},
-			"time": "2025-07-11T12:27:16+00:00"
-=======
-				"mockery/mockery": "^1.2",
-				"phpstan/phpstan": "^1.10",
-				"phpunit/phpunit": "^9.3",
-				"squizlabs/php_codesniffer": "^3.4",
-				"symfony/finder": "~4.0"
-			},
-			"suggest": {
-				"ext-curl": "*",
-				"monolog/monolog": "Allows for client-level logging and tracing"
-			},
-			"type": "library",
-			"autoload": {
-				"files": [
-					"src/autoload.php"
-				],
-				"psr-4": {
-					"Elasticsearch\\": "src/Elasticsearch/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
 			"license": [
-				"Apache-2.0",
-				"LGPL-2.1-only"
-			],
-			"authors": [
-				{
-					"name": "Zachary Tong"
-				},
-				{
-					"name": "Enrico Zimuel"
-				}
+				"MIT"
 			],
 			"description": "PHP Client for Elasticsearch",
 			"keywords": [
 				"client",
+				"elastic",
 				"elasticsearch",
 				"search"
 			],
 			"support": {
-				"issues": "https://github.com/elastic/elasticsearch-php/issues",
-				"source": "https://github.com/elastic/elasticsearch-php/tree/v7.17.2"
+				"source": "https://github.com/dtakken/elasticsearch-php/tree/handle-package-not-found"
 			},
-			"time": "2023-04-21T15:31:12+00:00"
-		},
-		{
-			"name": "ezimuel/guzzlestreams",
-			"version": "3.1.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/ezimuel/guzzlestreams.git",
-				"reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/ezimuel/guzzlestreams/zipball/b4b5a025dfee70d6cd34c780e07330eb93d5b997",
-				"reference": "b4b5a025dfee70d6cd34c780e07330eb93d5b997",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=5.4.0"
-			},
-			"require-dev": {
-				"phpunit/phpunit": "~9.0"
-			},
-			"type": "library",
-			"extra": {
-				"branch-alias": {
-					"dev-master": "3.0-dev"
-				}
-			},
-			"autoload": {
-				"psr-4": {
-					"GuzzleHttp\\Stream\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Michael Dowling",
-					"email": "mtdowling@gmail.com",
-					"homepage": "https://github.com/mtdowling"
-				}
-			],
-			"description": "Fork of guzzle/streams (abandoned) to be used with elasticsearch-php",
-			"homepage": "http://guzzlephp.org/",
-			"keywords": [
-				"Guzzle",
-				"stream"
-			],
-			"support": {
-				"source": "https://github.com/ezimuel/guzzlestreams/tree/3.1.0"
-			},
-			"time": "2022-10-24T12:58:50+00:00"
-		},
-		{
-			"name": "ezimuel/ringphp",
-			"version": "1.3.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/ezimuel/ringphp.git",
-				"reference": "5e4ee1dfc7a323b87873b83f17c69c76ba047793"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/ezimuel/ringphp/zipball/5e4ee1dfc7a323b87873b83f17c69c76ba047793",
-				"reference": "5e4ee1dfc7a323b87873b83f17c69c76ba047793",
-				"shasum": ""
-			},
-			"require": {
-				"ezimuel/guzzlestreams": "^3.0.1",
-				"php": ">=5.4.0",
-				"react/promise": "^2.0 || ^3.0"
-			},
-			"replace": {
-				"guzzlehttp/ringphp": "self.version"
-			},
-			"require-dev": {
-				"ext-curl": "*",
-				"phpunit/phpunit": "~9.0"
-			},
-			"suggest": {
-				"ext-curl": "Guzzle will use specific adapters if cURL is present"
-			},
-			"type": "library",
-			"extra": {
-				"branch-alias": {
-					"dev-master": "1.1-dev"
-				}
-			},
-			"autoload": {
-				"psr-4": {
-					"GuzzleHttp\\Ring\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Michael Dowling",
-					"email": "mtdowling@gmail.com",
-					"homepage": "https://github.com/mtdowling"
-				}
-			],
-			"description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
-			"support": {
-				"source": "https://github.com/ezimuel/ringphp/tree/1.3.0"
-			},
-			"time": "2025-02-24T10:29:27+00:00"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
+			"time": "2025-07-11T12:27:16+00:00"
 		},
 		{
 			"name": "facile-it/php-jose-verifier",
@@ -2426,8 +2181,6 @@
 		{
 			"name": "jmikola/geojson",
 			"version": "1.2.0",
-<<<<<<< HEAD
-=======
 			"source": {
 				"type": "git",
 				"url": "https://github.com/jmikola/geojson.git",
@@ -2478,60 +2231,6 @@
 				"geojson",
 				"geospatial"
 			],
-			"support": {
-				"issues": "https://github.com/jmikola/geojson/issues",
-				"source": "https://github.com/jmikola/geojson/tree/1.2.0"
-			},
-			"time": "2023-12-04T17:19:43+00:00"
-		},
-		{
-			"name": "johnpbloch/wordpress",
-			"version": "6.6.2",
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-			"source": {
-				"type": "git",
-				"url": "https://github.com/jmikola/geojson.git",
-				"reference": "e28f3855bb61a91aab32b74c176d76dd0b5658d7"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/jmikola/geojson/zipball/e28f3855bb61a91aab32b74c176d76dd0b5658d7",
-				"reference": "e28f3855bb61a91aab32b74c176d76dd0b5658d7",
-				"shasum": ""
-			},
-			"require": {
-				"ext-json": "*",
-				"php": "^7.4 || ^8.0",
-				"symfony/polyfill-php80": "^1.25"
-			},
-			"require-dev": {
-				"phpunit/phpunit": "^9.5",
-				"scrutinizer/ocular": "^1.8.1",
-				"slevomat/coding-standard": "^8.0",
-				"squizlabs/php_codesniffer": "^3.6"
-			},
-			"type": "library",
-			"extra": {
-				"branch-alias": {
-					"dev-master": "1.1-dev"
-				}
-			},
-			"autoload": {
-				"psr-4": {
-					"GeoJson\\": "src"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [ "MIT" ],
-			"authors": [
-				{
-					"name": "Jeremy Mikola",
-					"email": "jmikola@gmail.com"
-				}
-			],
-			"description": "GeoJSON implementation for PHP",
-			"homepage": "https://github.com/jmikola/geojson",
-			"keywords": [ "geo", "geojson", "geospatial" ],
 			"support": {
 				"issues": "https://github.com/jmikola/geojson/issues",
 				"source": "https://github.com/jmikola/geojson/tree/1.2.0"
@@ -3106,13 +2805,17 @@
 				}
 			},
 			"autoload": {
-				"files": [ "Trace/functions.php" ],
+				"files": [
+					"Trace/functions.php"
+				],
 				"psr-4": {
 					"OpenTelemetry\\API\\": "."
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
-			"license": [ "Apache-2.0" ],
+			"license": [
+				"Apache-2.0"
+			],
 			"authors": [
 				{
 					"name": "opentelemetry-php contributors",
@@ -3167,13 +2870,17 @@
 				}
 			},
 			"autoload": {
-				"files": [ "fiber/initialize_fiber_handler.php" ],
+				"files": [
+					"fiber/initialize_fiber_handler.php"
+				],
 				"psr-4": {
 					"OpenTelemetry\\Context\\": "."
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
-			"license": [ "Apache-2.0" ],
+			"license": [
+				"Apache-2.0"
+			],
 			"authors": [
 				{
 					"name": "opentelemetry-php contributors",
@@ -3181,7 +2888,11 @@
 				}
 			],
 			"description": "Context implementation for OpenTelemetry PHP.",
-			"keywords": [ "Context", "opentelemetry", "otel" ],
+			"keywords": [
+				"Context",
+				"opentelemetry",
+				"otel"
+			],
 			"support": {
 				"chat": "https://app.slack.com/client/T08PSQ7BQ/C01NFPCV44V",
 				"docs": "https://opentelemetry.io/docs/php",
@@ -3509,7 +3220,9 @@
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
-			"license": [ "MIT" ],
+			"license": [
+				"MIT"
+			],
 			"authors": [
 				{
 					"name": "Eric GELOEN",
@@ -3523,7 +3236,10 @@
 			],
 			"description": "HTTPlug, the HTTP client abstraction for PHP",
 			"homepage": "http://httplug.io",
-			"keywords": [ "client", "http" ],
+			"keywords": [
+				"client",
+				"http"
+			],
 			"support": {
 				"issues": "https://github.com/php-http/httplug/issues",
 				"source": "https://github.com/php-http/httplug/tree/2.4.1"
@@ -3558,7 +3274,9 @@
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
-			"license": [ "MIT" ],
+			"license": [
+				"MIT"
+			],
 			"authors": [
 				{
 					"name": "Joel Wurtz",
@@ -3571,7 +3289,9 @@
 			],
 			"description": "Promise used for asynchronous HTTP requests",
 			"homepage": "http://httplug.io",
-			"keywords": [ "promise" ],
+			"keywords": [
+				"promise"
+			],
 			"support": {
 				"issues": "https://github.com/php-http/promise/issues",
 				"source": "https://github.com/php-http/promise/tree/1.3.1"
@@ -4257,12 +3977,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "a0d86d6cf28c5a3e93acbfa4b033306ece448072"
+				"reference": "1930a92f3bbc669986e85f084fdea374e0a35b07"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/a0d86d6cf28c5a3e93acbfa4b033306ece448072",
-				"reference": "a0d86d6cf28c5a3e93acbfa4b033306ece448072",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1930a92f3bbc669986e85f084fdea374e0a35b07",
+				"reference": "1930a92f3bbc669986e85f084fdea374e0a35b07",
 				"shasum": ""
 			},
 			"require": {
@@ -4308,7 +4028,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-04-01T15:02:28+00:00"
+			"time": "2025-07-14T09:25:52+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -4380,12 +4100,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20"
+				"reference": "dd53ebcd6dc69ddcd51751c9430b9965e8da5620"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
-				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/dd53ebcd6dc69ddcd51751c9430b9965e8da5620",
+				"reference": "dd53ebcd6dc69ddcd51751c9430b9965e8da5620",
 				"shasum": ""
 			},
 			"require": {
@@ -4437,7 +4157,7 @@
 				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/mijn-taken",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-06-20T10:49:15+00:00"
+			"time": "2025-07-17T06:29:46+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4535,57 +4255,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"version": "v1.1.1",
-			"source": {
-				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "9a2cf1d2727607e3cb003e2c92514be128e272a3"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/9a2cf1d2727607e3cb003e2c92514be128e272a3",
-				"reference": "9a2cf1d2727607e3cb003e2c92514be128e272a3",
-=======
 			"version": "dev-feat/selectable-idp-scope",
-=======
-			"version": "v1.0.1",
->>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
-=======
-			"version": "dev-fix/broken-upload-fields",
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5"
+				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3"
 			},
 			"dist": {
 				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/78b13fa38947fa4e49dc2da38282bceabe87b530",
-				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530",
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/3c65bd868eb5c10f4d8e8721a687e418cde0633d",
-				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d",
->>>>>>> bfdea29 ((chore): update deps)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
-				"reference": "09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
->>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/029878fe615c1347da6ab2296c5a1f9c67c418d5",
-				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5",
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a6188077a677186207ba1f751a5dc2e194b9e5c3",
+				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3",
 				"shasum": ""
 			},
 			"require": {
@@ -4634,54 +4313,13 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.1",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-08T08:44:44+00:00"
-=======
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"time": "2025-05-13T14:47:24+00:00"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-			"time": "2025-05-28T11:52:57+00:00"
->>>>>>> bfdea29 ((chore): update deps)
-=======
-			"time": "2025-06-03T11:19:36+00:00"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-=======
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.0.1",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-01T06:55:14+00:00"
->>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
-=======
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/fix/broken-upload-fields",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-08T06:43:56+00:00"
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
+			"time": "2025-07-17T07:06:04+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-<<<<<<< HEAD
-			"version": "v1.7.7",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "e0de8d5c616d1c41f7612d1c901e9045bbffd136"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/e0de8d5c616d1c41f7612d1c901e9045bbffd136",
-				"reference": "e0de8d5c616d1c41f7612d1c901e9045bbffd136",
-=======
 			"version": "dev-feat/pink-v2-implementation",
 			"source": {
 				"type": "git",
@@ -4690,24 +4328,8 @@
 			},
 			"dist": {
 				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
-				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
->>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f363b8fcaeae18b1af95c884679773107de799fe",
-				"reference": "f363b8fcaeae18b1af95c884679773107de799fe",
->>>>>>> 5d9f412 ((chore): update deps)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/140ecab542fccba9127ab0937ef4215c316084e2",
-				"reference": "140ecab542fccba9127ab0937ef4215c316084e2",
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-=======
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
 				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -4755,11 +4377,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-<<<<<<< HEAD
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.7",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-06-12T11:01:44+00:00"
+			"time": "2025-06-19T14:44:08+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
@@ -4802,115 +4423,11 @@
 				}
 			},
 			"scripts": {
-				"post-install-cmd": [ "composer dump-autoload" ],
-				"post-update-cmd": [ "composer dump-autoload" ],
-				"format": [ " ./vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-				"test:coverage": [
-					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
-				]
-			},
-			"description": "This plugin stores official governmental publications in ElasticSearch",
-			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
-				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
-			},
-			"time": "2025-07-15T08:55:56+00:00"
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
-				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
-			},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"time": "2025-04-18T06:02:44+00:00"
->>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
-=======
-			"time": "2025-05-07T12:11:43+00:00"
->>>>>>> 5d9f412 ((chore): update deps)
-=======
-			"time": "2025-06-03T12:08:18+00:00"
-=======
-			"time": "2025-06-19T14:44:08+00:00"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
-		},
-		{
-			"name": "plugin/yard-official-publications",
-			"version": "v1.0.0",
-			"source": {
-				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "33f324b2e6676b54bdf93112626a5383b2e6cc2b"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/33f324b2e6676b54bdf93112626a5383b2e6cc2b",
-				"reference": "33f324b2e6676b54bdf93112626a5383b2e6cc2b",
-				"shasum": ""
-			},
-			"require": {
-				"elasticsearch/elasticsearch": "^7.0",
-				"jmikola/geojson": "^1.2",
-				"php": "7.4.* || 8.1.* || 8.2.*",
-				"yard/elasticsearch-schema": "^1.0",
-				"yard/geocode-pdok": "^1.0",
-				"yard/logger": "^1.0",
-				"yard/xml-scraper": "^1.0"
-			},
-			"require-dev": {
-				"brianhenryie/strauss": "^0.21.1",
-				"friendsofphp/php-cs-fixer": "^3.0",
-				"pestphp/pest": "^1.0",
-				"yard/php-cs-fixer-rules": "^1.0"
-			},
-			"type": "wordpress-plugin",
-			"extra": {
-				"strauss": {
-					"target_directory": "vendor-prefixed",
-					"namespace_prefix": "YOP\\Vendor_Prefixed\\",
-					"classmap_prefix": "YOP_Vendor_Prefixed_",
-					"constant_prefix": "YOP_VENDOR_",
-					"packages": [],
-					"update_call_sites": true,
-					"override_autoload": [],
-					"exclude_from_copy": {
-						"packages": [],
-						"namespaces": [],
-						"file_patterns": []
-					},
-					"exclude_from_prefix": {
-						"packages": [],
-						"namespaces": [],
-						"file_patterns": []
-					},
-					"namespace_replacement_patterns": [],
-					"delete_vendor_packages": false,
-					"delete_vendor_files": false,
-					"delete_vendor_directories": true
-				}
-			},
-			"autoload": {
-				"psr-4": {
-					"Yard\\OfficialPublications\\": "./src"
-				}
-			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\OfficialPublications\\Tests\\": "./tests"
-				}
-			},
-			"scripts": {
 				"post-install-cmd": [
-					"@strauss",
 					"composer dump-autoload"
 				],
 				"post-update-cmd": [
-					"@strauss",
 					"composer dump-autoload"
-				],
-				"strauss": [
-					"vendor/bin/strauss"
 				],
 				"format": [
 					" ./vendor/bin/php-cs-fixer fix"
@@ -4925,11 +4442,10 @@
 			"description": "This plugin stores official governmental publications in ElasticSearch",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/v1.0.0",
+				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
-			"time": "2025-04-10T14:50:31+00:00"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
+			"time": "2025-07-15T08:55:56+00:00"
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -5549,90 +5065,17 @@
 			"time": "2019-03-08T08:55:37+00:00"
 		},
 		{
-			"name": "react/promise",
-			"version": "v3.2.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/reactphp/promise.git",
-				"reference": "8a164643313c71354582dc850b42b33fa12a4b63"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/reactphp/promise/zipball/8a164643313c71354582dc850b42b33fa12a4b63",
-				"reference": "8a164643313c71354582dc850b42b33fa12a4b63",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=7.1.0"
-			},
-			"require-dev": {
-				"phpstan/phpstan": "1.10.39 || 1.4.10",
-				"phpunit/phpunit": "^9.6 || ^7.5"
-			},
-			"type": "library",
-			"autoload": {
-				"files": [
-					"src/functions_include.php"
-				],
-				"psr-4": {
-					"React\\Promise\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Jan Sorgalla",
-					"email": "jsorgalla@gmail.com",
-					"homepage": "https://sorgalla.com/"
-				},
-				{
-					"name": "Christian Lück",
-					"email": "christian@clue.engineering",
-					"homepage": "https://clue.engineering/"
-				},
-				{
-					"name": "Cees-Jan Kiewiet",
-					"email": "reactphp@ceesjankiewiet.nl",
-					"homepage": "https://wyrihaximus.net/"
-				},
-				{
-					"name": "Chris Boden",
-					"email": "cboden@gmail.com",
-					"homepage": "https://cboden.dev/"
-				}
-			],
-			"description": "A lightweight implementation of CommonJS Promises/A for PHP",
-			"keywords": [
-				"promise",
-				"promises"
-			],
-			"support": {
-				"issues": "https://github.com/reactphp/promise/issues",
-				"source": "https://github.com/reactphp/promise/tree/v3.2.0"
-			},
-			"funding": [
-				{
-					"url": "https://opencollective.com/reactphp",
-					"type": "open_collective"
-				}
-			],
-			"time": "2024-05-24T10:39:05+00:00"
-		},
-		{
 			"name": "richardkorthuis/geophp",
 			"version": "dev-development",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/richardkorthuis/geoPHP.git",
-				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931"
+				"reference": "eeb62860346aa76e00a0c6f8520ea6c44c7c2363"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/richardkorthuis/geoPHP/zipball/1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
-				"reference": "1b3c91b3bbcc20ebd7401313e5d6825bc7c69931",
+				"url": "https://api.github.com/repos/richardkorthuis/geoPHP/zipball/eeb62860346aa76e00a0c6f8520ea6c44c7c2363",
+				"reference": "eeb62860346aa76e00a0c6f8520ea6c44c7c2363",
 				"shasum": ""
 			},
 			"require": {
@@ -6662,14 +6105,20 @@
 				}
 			},
 			"autoload": {
-				"files": [ "bootstrap.php" ],
+				"files": [
+					"bootstrap.php"
+				],
 				"psr-4": {
 					"Symfony\\Polyfill\\Php82\\": ""
 				},
-				"classmap": [ "Resources/stubs" ]
+				"classmap": [
+					"Resources/stubs"
+				]
 			},
 			"notification-url": "https://packagist.org/downloads/",
-			"license": [ "MIT" ],
+			"license": [
+				"MIT"
+			],
 			"authors": [
 				{
 					"name": "Nicolas Grekas",
@@ -6682,7 +6131,12 @@
 			],
 			"description": "Symfony polyfill backporting some PHP 8.2+ features to lower PHP versions",
 			"homepage": "https://symfony.com",
-			"keywords": [ "compatibility", "polyfill", "portable", "shim" ],
+			"keywords": [
+				"compatibility",
+				"polyfill",
+				"portable",
+				"shim"
+			],
 			"support": {
 				"source": "https://github.com/symfony/polyfill-php82/tree/v1.32.0"
 			},
@@ -7745,27 +7199,6 @@
 			"homepage": "https://wordpress.org/plugins/google-analytics-for-wordpress/"
 		},
 		{
-<<<<<<< HEAD
-=======
-			"name": "wpackagist-plugin/gravity-forms-pdf-extended",
-			"version": "6.12.6.1",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/gravity-forms-pdf-extended/",
-				"reference": "tags/6.12.6.1"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/gravity-forms-pdf-extended.6.12.6.1.zip"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"homepage": "https://wordpress.org/plugins/gravity-forms-pdf-extended/"
-		},
-		{
->>>>>>> bfdea29 ((chore): update deps)
 			"name": "wpackagist-plugin/onelogin-saml-sso",
 			"version": "3.4.0",
 			"source": {
@@ -7874,8 +7307,6 @@
 			"homepage": "https://wordpress.org/plugins/wordpress-importer/"
 		},
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"name": "wpackagist-plugin/wp-sentry-integration",
 			"version": "8.5.0",
 			"source": {
@@ -7886,26 +7317,6 @@
 			"dist": {
 				"type": "zip",
 				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
-=======
-			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.5.0",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.5.0"
-			},
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.3.1.zip"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.4.0.zip"
->>>>>>> bfdea29 ((chore): update deps)
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7914,7 +7325,6 @@
 			"homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
 		},
 		{
-<<<<<<< HEAD
 			"name": "wpackagist-plugin/wp-seopress",
 			"version": "8.9.0.2",
 			"source": {
@@ -7925,32 +7335,6 @@
 			"dist": {
 				"type": "zip",
 				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.9.0.2.zip"
-=======
-=======
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.9.0.2",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.9.0.2"
-			},
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
->>>>>>> 9c41a2e ((chore): update deps)
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
->>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
->>>>>>> bfdea29 ((chore): update deps)
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.9.0.2.zip"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7993,14 +7377,6 @@
 				}
 			},
 			"scripts": {
-<<<<<<< HEAD
-				"all": [ "@test", "@analyse", "@format" ],
-				"analyse": [
-					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
-				],
-				"format": [ "vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-=======
 				"all": [
 					"@test",
 					"@analyse",
@@ -8015,18 +7391,13 @@
 				"test": [
 					"vendor/bin/pest"
 				],
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 				"test:coverage": [
 					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
 				]
 			},
-<<<<<<< HEAD
-			"license": [ "MIT" ],
-=======
 			"license": [
 				"MIT"
 			],
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"description": "Mapping and document template for building ElasticSearch indexes",
 			"support": {
 				"source": "https://github.com/yardinternet/elasticsearch-schema/tree/v1.0.0",
@@ -8071,14 +7442,6 @@
 				}
 			},
 			"scripts": {
-<<<<<<< HEAD
-				"all": [ "@test", "@analyse", "@format" ],
-				"analyse": [
-					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
-				],
-				"format": [ "vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-=======
 				"all": [
 					"@test",
 					"@analyse",
@@ -8093,18 +7456,13 @@
 				"test": [
 					"vendor/bin/pest"
 				],
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 				"test:coverage": [
 					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
 				]
 			},
-<<<<<<< HEAD
-			"license": [ "MIT" ],
-=======
 			"license": [
 				"MIT"
 			],
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"description": "Library for geocoding address data using the PDOK location service",
 			"support": {
 				"source": "https://github.com/yardinternet/geocode-pdok/tree/v1.0.0",
@@ -8143,13 +7501,9 @@
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
-<<<<<<< HEAD
-			"license": [ "MIT" ],
-=======
 			"license": [
 				"MIT"
 			],
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"description": "Basic replaceable PSR-3 logger",
 			"support": {
 				"issues": "https://github.com/yardinternet/logger/issues",
@@ -8211,10 +7565,6 @@
 			"time": "2025-02-27T09:51:56+00:00"
 		},
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 			"name": "yard/xml-scraper",
 			"version": "v1.0.0",
 			"source": {
@@ -8222,72 +7572,6 @@
 				"url": "git@github.com:yardinternet/xml-scraper.git",
 				"reference": "3215bb76fadad7621f4416f3090f369566a49083"
 			},
-<<<<<<< HEAD
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
-				"reference": "3215bb76fadad7621f4416f3090f369566a49083",
-				"shasum": ""
-			},
-			"require": {
-				"ext-dom": "*",
-				"guzzlehttp/guzzle": "^6.0 || ^7.0",
-				"php": ">=7.4"
-			},
-			"require-dev": {
-				"colinodell/psr-testlogger": "^1.0",
-				"friendsofphp/php-cs-fixer": "^3.0",
-				"pestphp/pest": "^1.0",
-				"phpstan/phpstan": "^2.0",
-				"yard/php-cs-fixer-rules": "^1.0"
-			},
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Yard\\XmlScraper\\": "./src/XmlScraper"
-				}
-			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\XmlScraper\\Tests\\": "./tests"
-				}
-			},
-			"scripts": {
-				"all": [ "@test", "@analyse", "@format" ],
-				"analyse": [
-					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
-				],
-				"format": [ "vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-				"test:coverage": [
-					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
-				]
-			},
-			"license": [ "MIT" ],
-			"description": "Yard XML Scraper",
-			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/xml-scraper/tree/v1.0.0",
-				"issues": "https://github.com/yardinternet/xml-scraper/issues"
-			},
-			"time": "2025-04-09T10:24:07+00:00"
-		},
-		{
-			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.2",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
-				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
-=======
-			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.1",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.1",
-				"shasum": "a9080125ee03b12e383ffb8aa8963255f0211f7f"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
 			"dist": {
 				"type": "zip",
 				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
@@ -8354,7 +7638,6 @@
 				"type": "zip",
 				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
 				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8370,25 +7653,6 @@
 		{
 			"name": "ypackagist/cmb2",
 			"version": "2.11.0",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
-				"shasum": "bc823b306f246df9b9dbeb010ebfbec0de3dd21c"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "CMB2 team",
-				"homepage": "https://cmb2.io"
-			},
-			"description": "CMB2 will create metaboxes and forms with custom fields that will blow your mind.",
-			"homepage": "https://github.com/CMB2/CMB2"
-		},
-		{
-			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.3.9",
 			"dist": {
 				"type": "zip",
 				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
@@ -8520,7 +7784,6 @@
 			"homepage": "https://reenhanced.com/products/gravity-forms-power-automate"
 		},
 		{
-<<<<<<< HEAD
 			"name": "ypackagist/gravity-pdf",
 			"version": "6.12.6",
 			"dist": {
@@ -8546,29 +7809,6 @@
 				"type": "zip",
 				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.13",
 				"shasum": "ff227c113f76ca9796028bb556c87a6609f3c3a3"
-=======
-			"name": "ypackagist/gravityforms",
-			"version": "2.9.11",
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.8",
-				"shasum": "a04d49c0309f13fd5593c357a4c40130a1d63841"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.9",
-				"shasum": "38c1cdab039841068e66087fce70e3ea88b761ca"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.10",
-				"shasum": "7d2c4b4a43ac4aceac74ce20f9acf1da87e36d29"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.11",
-				"shasum": "77e514c8e3d0120e68478f6540f9d6e1e13c41f4"
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -9463,7 +8703,6 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-<<<<<<< HEAD
 			"version": "v3.84.0",
 			"source": {
 				"type": "git",
@@ -9474,18 +8713,6 @@
 				"type": "zip",
 				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/38dad0767bf2a9b516b976852200ae722fe984ca",
 				"reference": "38dad0767bf2a9b516b976852200ae722fe984ca",
-=======
-			"version": "v3.82.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/db2a44dc899d40f20609f0ea53e952c64c028968",
-				"reference": "db2a44dc899d40f20609f0ea53e952c64c028968",
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 				"shasum": ""
 			},
 			"require": {
@@ -9569,11 +8796,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-<<<<<<< HEAD
 				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.84.0"
-=======
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.82.0"
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 			},
 			"funding": [
 				{
@@ -9581,11 +8804,7 @@
 					"type": "github"
 				}
 			],
-<<<<<<< HEAD
 			"time": "2025-07-15T18:21:57+00:00"
-=======
-			"time": "2025-07-07T22:38:13+00:00"
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -10784,6 +10003,79 @@
 				}
 			],
 			"time": "2023-11-13T13:48:05+00:00"
+		},
+		{
+			"name": "react/promise",
+			"version": "v3.2.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/reactphp/promise.git",
+				"reference": "8a164643313c71354582dc850b42b33fa12a4b63"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/reactphp/promise/zipball/8a164643313c71354582dc850b42b33fa12a4b63",
+				"reference": "8a164643313c71354582dc850b42b33fa12a4b63",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.1.0"
+			},
+			"require-dev": {
+				"phpstan/phpstan": "1.10.39 || 1.4.10",
+				"phpunit/phpunit": "^9.6 || ^7.5"
+			},
+			"type": "library",
+			"autoload": {
+				"files": [
+					"src/functions_include.php"
+				],
+				"psr-4": {
+					"React\\Promise\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Jan Sorgalla",
+					"email": "jsorgalla@gmail.com",
+					"homepage": "https://sorgalla.com/"
+				},
+				{
+					"name": "Christian Lück",
+					"email": "christian@clue.engineering",
+					"homepage": "https://clue.engineering/"
+				},
+				{
+					"name": "Cees-Jan Kiewiet",
+					"email": "reactphp@ceesjankiewiet.nl",
+					"homepage": "https://wyrihaximus.net/"
+				},
+				{
+					"name": "Chris Boden",
+					"email": "cboden@gmail.com",
+					"homepage": "https://cboden.dev/"
+				}
+			],
+			"description": "A lightweight implementation of CommonJS Promises/A for PHP",
+			"keywords": [
+				"promise",
+				"promises"
+			],
+			"support": {
+				"issues": "https://github.com/reactphp/promise/issues",
+				"source": "https://github.com/reactphp/promise/tree/v3.2.0"
+			},
+			"funding": [
+				{
+					"url": "https://opencollective.com/reactphp",
+					"type": "open_collective"
+				}
+			],
+			"time": "2024-05-24T10:39:05+00:00"
 		},
 		{
 			"name": "react/socket",
@@ -12992,34 +12284,18 @@
 	"minimum-stability": "stable",
 	"stability-flags": {
 		"acato-plugins/cmb2-flexible-content": 20,
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"acato/openkaarten-base": 20,
-=======
->>>>>>> 67a849b ((fix): add OpenKaarten development packages as explicit dependencies)
-=======
-		"acato/openkaarten-base": 20,
->>>>>>> faa341d ((chore): update deps + Acato plugins)
 		"acato/openkaarten-base-functions": 20,
 		"acato/openkaarten-frontend-plugin": 20,
-<<<<<<< HEAD
-<<<<<<< HEAD
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
 		"elasticsearch/elasticsearch": 20,
-=======
->>>>>>> 0050c60 ((chore): Update composer dependencies)
-=======
-		"deployer/recipes": 20,
->>>>>>> e1e19a6 ((chore): update deps)
 		"plugin/formio-wordpress": 20,
-		"plugin/yard-official-publications": 20,
-		"privacybydesign/irma-wp": 20,
-		"richardkorthuis/geophp": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/owc-signicat-openid": 20,
 		"plugin/prefill-gravity-forms": 20,
+		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
 	},
