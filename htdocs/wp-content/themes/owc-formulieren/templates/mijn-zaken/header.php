@@ -7,7 +7,7 @@ do_action('get_header'); ?>>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <script src="https://cdn1.readspeaker.com/script/8150/webReader/webReader.js?pids=wr" integrity="sha384-rsCXWMf9uVXxs3+ey7sDOpe9+tvFYoXPEH+7YlfuoKRcncempgi4EWLYFdT/8cWD" crossorigin="anonymous"></script>
+    <script src="https://cdn1.readspeaker.com/script/8150/webReader/webReader.js?pids=wr" integrity="sha384-cNMxmSTjQPcJhhwDas45IOziCSo0swILDD3Oe980VxpnYcDWtGBU9eUf5wkVaLOI" crossorigin="anonymous"></script>
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/fontawesome.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/brands.min.css" rel="stylesheet">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/dist/fontawesome/css/solid.min.css" rel="stylesheet">

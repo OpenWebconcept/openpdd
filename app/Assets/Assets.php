@@ -8,13 +8,13 @@ class Assets
 {
     private static array $defaultScripts = [
         'jquery-ui-core' => [
-            'url' => 'https://code.jquery.com/ui/1.14.0/jquery-ui.min.js',
-            'integrity' => 'sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=',
+            'url' => 'https://code.jquery.com/ui/1.14.1/jquery-ui.min.js',
+            'integrity' => 'sha384-SStJQoPipVtHHnIgUfDI+jTAbSyU+HMbhwt2XRRNpLIRFg9VguopT6Y4+cdOlkqg',
             'deps' => ['jquery'],
         ],
         'jquery-migrate' => [
             'url' => 'https://code.jquery.com/jquery-migrate-3.5.2.min.js',
-            'integrity' => 'sha256-ocUeptHNod0gW2X1Z+ol3ONVAGWzIJXUmIs+4nUeDLI=',
+            'integrity' => 'sha384-q8xaSZ1piumPohq/TeRG7Teq801W0tUq/00Kt0PcnM9d4hb3w9+vMocDmnPq72ts',
         ],
     ];
 
