@@ -165,9 +165,9 @@
 	"require": {
 		"php": "<8.0",
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
-		"acato/openkaarten-base": "dev-staging@dev",
-		"acato/openkaarten-base-functions": "dev-master@dev",
-		"acato/openkaarten-frontend-plugin": "dev-develop@dev",
+		"acato/openkaarten-base": "^0.2",
+		"acato/openkaarten-base-functions": "dev-master",
+		"acato/openkaarten-frontend-plugin": "^0.2",
 		"bepsvpt/secure-headers": "^7.0",
 		"cmdisp/monolog-microsoft-teams": "^1.3",
 		"composer/installers": "^1.0",
