@@ -4195,16 +4195,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "v1.1.1",
+			"version": "v1.1.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "9a2cf1d2727607e3cb003e2c92514be128e272a3"
+				"reference": "dda5ee21680c06432116e51f54075c75f506ec31"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/9a2cf1d2727607e3cb003e2c92514be128e272a3",
-				"reference": "9a2cf1d2727607e3cb003e2c92514be128e272a3",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/dda5ee21680c06432116e51f54075c75f506ec31",
+				"reference": "dda5ee21680c06432116e51f54075c75f506ec31",
 				"shasum": ""
 			},
 			"require": {
@@ -4253,10 +4253,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.1",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.2",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-08T08:44:44+00:00"
+			"time": "2025-07-18T08:04:40+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
