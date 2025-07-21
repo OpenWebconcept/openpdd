@@ -56,6 +56,15 @@ add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer
 });
 
 /**
+ * Do not send email.
+ */
+add_filter('wp_mail', function ($args) {
+	error_log('Blocked email: ' . print_r($args, true));
+
+	return false;
+});
+
+/**
  * Add CSP to admin-ajax and initialize nonces for resources.
  */
 add_action('init', function () {
