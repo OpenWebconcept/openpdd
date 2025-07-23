@@ -648,13 +648,6 @@
 		}
 	}
 
-	// Age & Municipality Checker styles
-	.gfield--type-owc_pg_age_check, .gfield--type-owc_pg_municipality_check {
-		&.hidden_label {
-			display: none !important;
-		}
-	}
-
 	// Honey pot
 	.gform_validation_container,
 	li.gform_validation_container,
@@ -663,5 +656,17 @@
 		position: absolute !important;
 		left: -9000px;
 		display: none !important;
+	}
+}
+
+// Specific child theme styling
+.wp-child-theme-hoekschewaard {
+	.gform_legacy_markup_wrapper.gform_wrapper {
+		// Age & Municipality Checker styles
+		.gfield--type-owc_pg_age_check, .gfield--type-owc_pg_municipality_check {
+			&.hidden_label {
+				display: none !important;
+			}
+		}
 	}
 }
