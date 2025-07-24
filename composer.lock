@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 	"content-hash": "7cc28e4b2d0ce936375494f1e78efc73",
 =======
 	"content-hash": "ca452b2a1ae4319b3f738c74f90f568b",
@@ -25,6 +26,9 @@
 =======
 	"content-hash": "66347d9f896180f3ecdd31c390e755d3",
 >>>>>>> 228df06 ((chore): update deps)
+=======
+	"content-hash": "9f76b649a4902e421cca6d08939b6399",
+>>>>>>> 8281f3c ((chore): update deps)
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4420,10 +4424,11 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3"
+				"reference": "aecb3c6674305c2198e75b82c9f61ea7e13c2e95"
 			},
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4464,6 +4469,10 @@
 				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a6188077a677186207ba1f751a5dc2e194b9e5c3",
 				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3",
 >>>>>>> 228df06 ((chore): update deps)
+=======
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/aecb3c6674305c2198e75b82c9f61ea7e13c2e95",
+				"reference": "aecb3c6674305c2198e75b82c9f61ea7e13c2e95",
+>>>>>>> 8281f3c ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -4586,7 +4595,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-17T07:06:04+00:00"
+			"time": "2025-07-24T11:27:26+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -8159,9 +8168,10 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.2",
+			"version": "6.4.3",
 			"dist": {
 				"type": "zip",
+<<<<<<< HEAD
 				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
 				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
 <<<<<<< HEAD
@@ -8169,6 +8179,10 @@
 >>>>>>> ba51863 ((chore): update composer dependencies)
 =======
 >>>>>>> 228df06 ((chore): update deps)
+=======
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.3",
+				"shasum": "b366b82373b424c111f49e095c6150936ad63486"
+>>>>>>> 8281f3c ((chore): update deps)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
