@@ -43,14 +43,6 @@
 		}
 	}
 
-	.menu-item-has-children > a {
-		&::after {
-			@include fontawesome( '\f078' );
-			margin-left: 0.5rem;
-			font-size: 0.8rem;
-		}
-	}
-
 	.sub-menu {
 		min-width: 25rem;
 		border-bottom: 5px solid theme-color( 'primary' );
