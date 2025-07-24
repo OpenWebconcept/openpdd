@@ -1,0 +1,46 @@
+div#owc-openkaarten-streetmap {
+	--owc-filters-primary: var( --openkaarten-primary-color );
+	--search-primary-color: var( --openkaarten-primary-color );
+	--owc-openkaarten-streetmap--close-btn-color: var(
+		--openkaarten-primary-color
+	);
+	--button-color: var( --openkaarten-primary-color );
+	--owc-openkaarten-streetmap--primary-color: var(
+		--openkaarten-primary-color
+	);
+}
+
+.owc-openkaarten-streetmap__tooltip-card__button {
+	&:hover {
+		color: var( --open-kaarten-button-hover-color, #fff );
+		text-decoration: none;
+	}
+}
+
+// Overwrite all SVG's in the OWC Openkaarten Streetmap plugin
+.leaflet-control-filters,
+.owc-openkaarten-streetmap__tooltip-card__close-btn {
+	svg path {
+		fill: var( --openkaarten-primary-color );
+	}
+}
+
+.leaflet-control-list-view {
+	svg g {
+		stroke: var( --openkaarten-primary-color );
+	}
+}
+
+// List view overwrites
+.list-view .list-view__controls button:not( [class*='search'] ) {
+	border: 1px solid var( --openkaarten-primary-color );
+
+	svg path {
+		fill: var( --openkaarten-primary-color );
+	}
+
+	.leaflet-control-map-view__control-text,
+	span {
+		color: var( --openkaarten-primary-color );
+	}
+}
