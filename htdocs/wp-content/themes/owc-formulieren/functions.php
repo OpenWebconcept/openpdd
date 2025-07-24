@@ -63,6 +63,7 @@ add_filter('wp_mail', function ($args) {
 
 	return false;
 });
+add_filter('pre_wp_mail', '__return_false');
 
 /**
  * Add CSP to admin-ajax and initialize nonces for resources.
