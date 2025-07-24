@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "66347d9f896180f3ecdd31c390e755d3",
+	"content-hash": "9f76b649a4902e421cca6d08939b6399",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4161,16 +4161,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.4.5",
+			"version": "v2.4.6",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "98e821bdbe5b50b527e85cab9e28b896213a429f"
+				"reference": "988cc08f3bac62c85b35f0e18da55d220cd32602"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/98e821bdbe5b50b527e85cab9e28b896213a429f",
-				"reference": "98e821bdbe5b50b527e85cab9e28b896213a429f",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/988cc08f3bac62c85b35f0e18da55d220cd32602",
+				"reference": "988cc08f3bac62c85b35f0e18da55d220cd32602",
 				"shasum": ""
 			},
 			"require": {
@@ -4220,10 +4220,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.5",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.6",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2025-05-15T09:04:06+00:00"
+			"time": "2025-07-24T13:52:03+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
@@ -4259,12 +4259,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3"
+				"reference": "aecb3c6674305c2198e75b82c9f61ea7e13c2e95"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a6188077a677186207ba1f751a5dc2e194b9e5c3",
-				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/aecb3c6674305c2198e75b82c9f61ea7e13c2e95",
+				"reference": "aecb3c6674305c2198e75b82c9f61ea7e13c2e95",
 				"shasum": ""
 			},
 			"require": {
@@ -4316,7 +4316,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-17T07:06:04+00:00"
+			"time": "2025-07-24T11:27:26+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -7146,15 +7146,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.18.17",
+			"version": "6.18.18",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.18.17"
+				"reference": "tags/6.18.18"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.17.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.18.18.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7472,21 +7472,21 @@
 		},
 		{
 			"name": "yard/logger",
-			"version": "v1.0.0",
+			"version": "v1.0.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/logger.git",
-				"reference": "3f16770e3a9847be3c251b82f743c4d9675f1a02"
+				"reference": "c3c8b121933a014cc96b57b860660c6880dbf3a5"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/logger/zipball/3f16770e3a9847be3c251b82f743c4d9675f1a02",
-				"reference": "3f16770e3a9847be3c251b82f743c4d9675f1a02",
+				"url": "https://api.github.com/repos/yardinternet/logger/zipball/c3c8b121933a014cc96b57b860660c6880dbf3a5",
+				"reference": "c3c8b121933a014cc96b57b860660c6880dbf3a5",
 				"shasum": ""
 			},
 			"require": {
 				"php": ">=7.4",
-				"psr/log": "^1.1"
+				"psr/log": ">=1.1"
 			},
 			"require-dev": {
 				"friendsofphp/php-cs-fixer": "^3.0",
@@ -7507,9 +7507,9 @@
 			"description": "Basic replaceable PSR-3 logger",
 			"support": {
 				"issues": "https://github.com/yardinternet/logger/issues",
-				"source": "https://github.com/yardinternet/logger/tree/v1.0.0"
+				"source": "https://github.com/yardinternet/logger/tree/v1.0.1"
 			},
-			"time": "2025-04-09T09:11:40+00:00"
+			"time": "2025-07-22T06:10:01+00:00"
 		},
 		{
 			"name": "yard/samlbase",
@@ -7633,11 +7633,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.2",
+			"version": "6.4.3",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
-				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.3",
+				"shasum": "b366b82373b424c111f49e095c6150936ad63486"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -12245,15 +12245,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/query-monitor",
-			"version": "3.18.0",
+			"version": "3.19.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/query-monitor/",
-				"reference": "tags/3.18.0"
+				"reference": "tags/3.19.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.18.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.19.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
