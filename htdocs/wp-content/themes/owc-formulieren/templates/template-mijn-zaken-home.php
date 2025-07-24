@@ -27,19 +27,33 @@ $home_config = load_config('home.php');
 				    'eidas_provider' => $home_config['eidas_provider'],
 				]); ?>
 			</div>
+			<?php if (isset($home_config['has_wide_editing']) && $home_config['has_wide_editing']): ?>
+				<div class="my-4">
+					<?php the_content(); ?>
+				</div>
+			<?php endif; ?>
 		</div>
 		<div class="container pt-md-5">
 			<div class="row">
 				<div class="col-lg-7">
 					<div class="page-main__content | shadow bg-white border p-3 p-md-4 normalize-child-margin">
-					<?php the_content(); ?>
+						<?php if (isset($home_config['has_wide_editing']) && $home_config['has_wide_editing']): ?>
+							<h2 class="wp-block-heading">Dit vindt u in de Mijn-omgeving:</h2>
+							<ul class="wp-block-list is-style-arrows">
+								<li>Uw lopende en afgeronde zaken</li>
+								<li>Uw persoonlijke berichten van de gemeente</li>
+								<li>Uw gegevens en voorkeuren</li>
+								<li>Nieuws en evenementen bij u in de buurt</li>
+							</ul>
+						<?php else: ?>
+							<?php the_content(); ?>
+						<?php endif; ?>
 					</div>
 				</div>
 			</div>
-
 		</div>
 
-		<?php if(has_post_thumbnail()): ?>
+		<?php if (has_post_thumbnail()): ?>
 			<?php the_post_thumbnail('full', ['class' => 'w-100 h-400px object-fit-cover']); ?>
 		<?php endif; ?>
     </main>
