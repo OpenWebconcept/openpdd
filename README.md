@@ -2,20 +2,22 @@
 
 WordPress project for the [Portaal Digitale Diensten](https://openwebconcept.nl/bouwblokken/).
 
-## 🚨 In progress
-
-This branch is currently being developed on - for the stable version check out the [master](https://github.com/OpenWebconcept/openpdd/blob/master/) branch.
+> [!IMPORTANT]  
+> Please read this README carefully, as it contains important information about the OpenPDD project and how to set it up.
 
 ## 👋 Introduction
 
-This repository outlines the required and optional plugins which when used together form what is called the OpenPDD.
+This repository defines the required and optional plugins that together constitute the OpenPDD project
 The idea behind this is that every individual organization *must* use the required plugins but can for themselves decide what optional plugins they need.
 
-This means you can use your own WordPress setup but must use at least use the required plugins to establish the OpenPDD.
+This branch serves solely as a *demo*. You are encouraged to use your own WordPress setup; however, to implement OpenPDD, you must include all the required plugins listed here.
 
 ### Required plugins
 
 See this projects wiki: [Required plugins](https://github.com/OpenWebconcept/openpdd/wiki/Required-plugins).
+
+> [!NOTE]  
+> Please note that packages prefixed with `ypackagist` are paid, and you should provide your own source for them. E.g. GravityForms.
 
 ### Optional plugins
 
@@ -38,7 +40,3 @@ lando start
 ```
 
 The wp-admin can be accessed at https://openpdd-new.lndo.site/wp/wp-admin
-
-##
-
-Please note that packages prefixed with `ypackagist` are paid, and you should provide your own source for them.
