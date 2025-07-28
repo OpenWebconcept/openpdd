@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "2cd1db4618533b01d1f6cea66aec82c5",
+	"content-hash": "7cc28e4b2d0ce936375494f1e78efc73",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3559,16 +3559,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.0.10",
+			"version": "v0.1.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "5ed30b174e55ec27e01923daa0ab47731fe1fc6d"
+				"reference": "755c9de3ad46e0aa1e7ea21b6876419eed913c10"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/5ed30b174e55ec27e01923daa0ab47731fe1fc6d",
-				"reference": "5ed30b174e55ec27e01923daa0ab47731fe1fc6d",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/755c9de3ad46e0aa1e7ea21b6876419eed913c10",
+				"reference": "755c9de3ad46e0aa1e7ea21b6876419eed913c10",
 				"shasum": ""
 			},
 			"require": {
@@ -3612,10 +3612,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.0.10",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.0",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2025-05-20T10:57:33+00:00"
+			"time": "2025-07-28T08:52:54+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
@@ -4036,16 +4036,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.4.2",
+			"version": "v2.5.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "8ec79144f10393d955091b51e3844e1ebec5d33b"
+				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/8ec79144f10393d955091b51e3844e1ebec5d33b",
-				"reference": "8ec79144f10393d955091b51e3844e1ebec5d33b",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/00ac31e167f44c08d52ba2bd32fee41bda57834d",
+				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d",
 				"shasum": ""
 			},
 			"require": {
@@ -4094,10 +4094,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.4.2",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.5.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-07-16T14:10:43+00:00"
+			"time": "2025-07-28T11:34:34+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -7193,15 +7193,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/user-switching",
-			"version": "1.9.2",
+			"version": "1.10.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/user-switching/",
-				"reference": "tags/1.9.2"
+				"reference": "tags/1.10.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/user-switching.1.9.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/user-switching.1.10.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7724,11 +7724,11 @@
 		},
 		{
 			"name": "ypackagist/gravity-pdf",
-			"version": "6.12.6",
+			"version": "6.13.0",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.12.6",
-				"shasum": "e36d7ad4a5a0f7fd93f684b9dc62c5c0354011c3"
+				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.13.0",
+				"shasum": "535343eb1788bd481c6611de08c8558a16cf9a9a"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7743,11 +7743,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.13",
+			"version": "2.9.14.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.13",
-				"shasum": "ff227c113f76ca9796028bb556c87a6609f3c3a3"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.14.1",
+				"shasum": "b699e1fe7600d0d1d0f3e6806b60e833e00a3434"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7762,11 +7762,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms-encryption",
-			"version": "1.6.0",
+			"version": "1.6.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms-encryption/1.6.0",
-				"shasum": "6524f626a5315b0a0460ec2dc4a23d23526fbffd"
+				"url": "https://packagist.yard.nl/satispress/gravityforms-encryption/1.6.1",
+				"shasum": "836dfa2254b816407c4297e7cbbe81ab47e592b8"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8941,16 +8941,16 @@
 		},
 		{
 			"name": "nikic/php-parser",
-			"version": "v5.5.0",
+			"version": "v5.6.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/nikic/PHP-Parser.git",
-				"reference": "ae59794362fe85e051a58ad36b289443f57be7a9"
+				"reference": "221b0d0fdf1369c71047ad1d18bb5880017bbc56"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/ae59794362fe85e051a58ad36b289443f57be7a9",
-				"reference": "ae59794362fe85e051a58ad36b289443f57be7a9",
+				"url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/221b0d0fdf1369c71047ad1d18bb5880017bbc56",
+				"reference": "221b0d0fdf1369c71047ad1d18bb5880017bbc56",
 				"shasum": ""
 			},
 			"require": {
@@ -8993,9 +8993,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/nikic/PHP-Parser/issues",
-				"source": "https://github.com/nikic/PHP-Parser/tree/v5.5.0"
+				"source": "https://github.com/nikic/PHP-Parser/tree/v5.6.0"
 			},
-			"time": "2025-05-31T08:24:38+00:00"
+			"time": "2025-07-27T20:03:57+00:00"
 		},
 		{
 			"name": "phar-io/manifest",
