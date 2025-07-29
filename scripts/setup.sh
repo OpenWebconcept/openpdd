@@ -45,12 +45,11 @@ composer config repositories.gravityforms-csp-fixer vcs git@github.com:yardinter
 composer config repositories.prefill-gravity-forms vcs git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git
 composer config repositories.owc-mijn-services vcs git@github.com:OpenWebconcept/plugin-owc-mijn-services.git
 composer config repositories.owc-gravityforms-zgw vcs git@github.com:OpenWebconcept/plugin-owc-gravityforms-zgw.git
-composer config repositories.owc-openpdd-sanitizer vcs git@github.com:OpenWebconcept/plugin-owc-openpdd-sanitizer.git
 composer config repositories.idp-userdata vcs git@github.com:OpenWebconcept/idp-userdata.git
 composer config repositories.wp-packagist composer https://wpackagist.org
 
 # Require the plugins
-composer require plugin/owc-mijn-services plugin/owc-gravityforms-zgw plugin/owc-openpdd-sanitizer plugin/prefill-gravity-forms ypackagist/gravityforms wpackagist-plugin/cmb2
+composer require plugin/gravityforms-csp-fixer plugin/prefill-gravity-forms plugin/owc-mijn-services plugin/owc-gravityforms-zgw ypackagist/gravityforms wpackagist-plugin/cmb2
 
 # Create theme (e.g. for Acorn support and pretty error reporting)
 cd web/app/themes && \
