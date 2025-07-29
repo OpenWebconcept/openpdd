@@ -66,12 +66,12 @@ echo "Bedrock and plugins have been installed successfully."
 lando start
 
 # Install WordPress via wp-cli
-lando wp core install --url="https://openpdd-new.lndo.site" --title="OpenPDD" --admin_user="admin" --admin_password="password" --admin_email="admin@example.com" --path=bedrock/web/wp
+lando wp core install --url="https://openpdd-new.lndo.site" --title="OpenPDD" --admin_user="admin" --admin_password="password" --admin_email="admin@example.com" --path=web/wp
 
 # Activate all plugins
-lando wp plugin activate --all --path=bedrock/web/wp
+lando wp plugin activate --all --path=web/wp
 
 # Activate the theme
-lando wp theme activate owc --path=bedrock/web/wp
+lando wp theme activate owc --path=web/wp
 
 echo "Environment has been configured."
