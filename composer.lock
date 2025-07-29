@@ -4260,16 +4260,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.7",
+			"version": "v1.7.8",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "e0de8d5c616d1c41f7612d1c901e9045bbffd136"
+				"reference": "467dab9372f4eb37a994421c8222de37aa59c710"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/e0de8d5c616d1c41f7612d1c901e9045bbffd136",
-				"reference": "e0de8d5c616d1c41f7612d1c901e9045bbffd136",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/467dab9372f4eb37a994421c8222de37aa59c710",
+				"reference": "467dab9372f4eb37a994421c8222de37aa59c710",
 				"shasum": ""
 			},
 			"require": {
@@ -4316,10 +4316,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.7",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.8",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-06-12T11:01:44+00:00"
+			"time": "2025-07-29T08:58:23+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
