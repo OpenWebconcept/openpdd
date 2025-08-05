@@ -61,6 +61,9 @@ cd ../../../../
 
 echo "Bedrock and plugins have been installed successfully."
 
+# Add .htaccess file for WordPress
+cp ../scripts/.htaccess.example web/.htaccess
+
 # Start Lando
 lando start
 
