@@ -4,31 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-	"content-hash": "7cc28e4b2d0ce936375494f1e78efc73",
-=======
-	"content-hash": "ca452b2a1ae4319b3f738c74f90f568b",
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-	"content-hash": "fff42cd088679e3d36877ea747c872d9",
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
-	"content-hash": "9f4e47bc8eb66e99d26a3eca5534646f",
->>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
-=======
-	"content-hash": "4209db56cc29dd3360dbf6711e10a2c2",
->>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
-=======
-	"content-hash": "66347d9f896180f3ecdd31c390e755d3",
->>>>>>> 228df06 ((chore): update deps)
-=======
-	"content-hash": "9f76b649a4902e421cca6d08939b6399",
->>>>>>> 8281f3c ((chore): update deps)
+	"content-hash": "bf4aaef1cb5f95e02fb1de7275f27ad4",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -161,52 +137,7 @@
 		},
 		{
 			"name": "acato/openkaarten-frontend-plugin",
-<<<<<<< HEAD
 			"version": "0.2.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-<<<<<<< HEAD
-				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89"
-=======
-				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/f8f62159f96fc6d6936ed3298215088340d2a31a",
-				"reference": "f8f62159f96fc6d6936ed3298215088340d2a31a",
-=======
-			"name": "acato/openkaarten-frontend-plugin",
-			"version": "dev-develop",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58"
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-			},
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
-				"reference": "aa0c8dfeaf9e8b5625268627907f7f2a65a1bbac",
-<<<<<<< HEAD
-=======
->>>>>>> e4c3d7e ((chore): update deps)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/bb895e1eefc15d16afe549e305bb642127fc7091",
-				"reference": "bb895e1eefc15d16afe549e305bb642127fc7091",
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/7f2ca7693119ca632372394571f2dea24c2cfa58",
-				"reference": "7f2ca7693119ca632372394571f2dea24c2cfa58",
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
-			"version": "dev-main",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
@@ -216,7 +147,6 @@
 				"type": "zip",
 				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/87e7a5701a8499d5cf58b1a2215f808be63c7b89",
 				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89",
->>>>>>> 228df06 ((chore): update deps)
 				"shasum": ""
 			},
 			"require": {
@@ -227,49 +157,13 @@
 				"bjornjohansen/wp-pre-commit-hook": "*",
 				"phpcompatibility/phpcompatibility-wp": "*"
 			},
-			"default-branch": true,
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.0",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
-			"time": "2025-07-11T13:58:50+00:00"
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
-			"time": "2025-07-11T13:58:50+00:00"
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/main",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
-			"time": "2025-03-13T11:08:30+00:00"
->>>>>>> e4c3d7e ((chore): update deps)
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/develop",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
-<<<<<<< HEAD
-			"time": "2025-05-12T13:30:57+00:00"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-=======
-			"time": "2025-06-20T12:55:02+00:00"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
 				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
 			"time": "2025-07-15T12:49:26+00:00"
->>>>>>> 228df06 ((chore): update deps)
 		},
 		{
 			"name": "aura/session",
@@ -911,33 +805,32 @@
 		},
 		{
 			"name": "doctrine/inflector",
-			"version": "2.0.10",
+			"version": "2.1.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/doctrine/inflector.git",
-				"reference": "5817d0659c5b50c9b950feb9af7b9668e2c436bc"
+				"reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/doctrine/inflector/zipball/5817d0659c5b50c9b950feb9af7b9668e2c436bc",
-				"reference": "5817d0659c5b50c9b950feb9af7b9668e2c436bc",
+				"url": "https://api.github.com/repos/doctrine/inflector/zipball/6d6c96277ea252fc1304627204c3d5e6e15faa3b",
+				"reference": "6d6c96277ea252fc1304627204c3d5e6e15faa3b",
 				"shasum": ""
 			},
 			"require": {
 				"php": "^7.2 || ^8.0"
 			},
 			"require-dev": {
-				"doctrine/coding-standard": "^11.0",
-				"phpstan/phpstan": "^1.8",
-				"phpstan/phpstan-phpunit": "^1.1",
-				"phpstan/phpstan-strict-rules": "^1.3",
-				"phpunit/phpunit": "^8.5 || ^9.5",
-				"vimeo/psalm": "^4.25 || ^5.4"
+				"doctrine/coding-standard": "^12.0 || ^13.0",
+				"phpstan/phpstan": "^1.12 || ^2.0",
+				"phpstan/phpstan-phpunit": "^1.4 || ^2.0",
+				"phpstan/phpstan-strict-rules": "^1.6 || ^2.0",
+				"phpunit/phpunit": "^8.5 || ^12.2"
 			},
 			"type": "library",
 			"autoload": {
 				"psr-4": {
-					"Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+					"Doctrine\\Inflector\\": "src"
 				}
 			},
 			"notification-url": "https://packagist.org/downloads/",
@@ -982,7 +875,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/doctrine/inflector/issues",
-				"source": "https://github.com/doctrine/inflector/tree/2.0.10"
+				"source": "https://github.com/doctrine/inflector/tree/2.1.0"
 			},
 			"funding": [
 				{
@@ -998,7 +891,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-02-18T20:23:39+00:00"
+			"time": "2025-08-10T19:31:58+00:00"
 		},
 		{
 			"name": "doctrine/lexer",
@@ -1635,22 +1528,22 @@
 		},
 		{
 			"name": "guzzlehttp/guzzle",
-			"version": "7.9.3",
+			"version": "7.10.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/guzzle.git",
-				"reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77"
+				"reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/guzzle/zipball/7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
-				"reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
+				"url": "https://api.github.com/repos/guzzle/guzzle/zipball/b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+				"reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
 				"shasum": ""
 			},
 			"require": {
 				"ext-json": "*",
-				"guzzlehttp/promises": "^1.5.3 || ^2.0.3",
-				"guzzlehttp/psr7": "^2.7.0",
+				"guzzlehttp/promises": "^2.3",
+				"guzzlehttp/psr7": "^2.8",
 				"php": "^7.2.5 || ^8.0",
 				"psr/http-client": "^1.0",
 				"symfony/deprecation-contracts": "^2.2 || ^3.0"
@@ -1741,7 +1634,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/guzzle/issues",
-				"source": "https://github.com/guzzle/guzzle/tree/7.9.3"
+				"source": "https://github.com/guzzle/guzzle/tree/7.10.0"
 			},
 			"funding": [
 				{
@@ -1757,20 +1650,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-03-27T13:37:11+00:00"
+			"time": "2025-08-23T22:36:01+00:00"
 		},
 		{
 			"name": "guzzlehttp/promises",
-			"version": "2.2.0",
+			"version": "2.3.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/promises.git",
-				"reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c"
+				"reference": "481557b130ef3790cf82b713667b43030dc9c957"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/promises/zipball/7c69f28996b0a6920945dd20b3857e499d9ca96c",
-				"reference": "7c69f28996b0a6920945dd20b3857e499d9ca96c",
+				"url": "https://api.github.com/repos/guzzle/promises/zipball/481557b130ef3790cf82b713667b43030dc9c957",
+				"reference": "481557b130ef3790cf82b713667b43030dc9c957",
 				"shasum": ""
 			},
 			"require": {
@@ -1778,7 +1671,7 @@
 			},
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
-				"phpunit/phpunit": "^8.5.39 || ^9.6.20"
+				"phpunit/phpunit": "^8.5.44 || ^9.6.25"
 			},
 			"type": "library",
 			"extra": {
@@ -1824,7 +1717,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/promises/issues",
-				"source": "https://github.com/guzzle/promises/tree/2.2.0"
+				"source": "https://github.com/guzzle/promises/tree/2.3.0"
 			},
 			"funding": [
 				{
@@ -1840,20 +1733,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-03-27T13:27:01+00:00"
+			"time": "2025-08-22T14:34:08+00:00"
 		},
 		{
 			"name": "guzzlehttp/psr7",
-			"version": "2.7.1",
+			"version": "2.8.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/psr7.git",
-				"reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16"
+				"reference": "21dc724a0583619cd1652f673303492272778051"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
-				"reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
+				"url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
+				"reference": "21dc724a0583619cd1652f673303492272778051",
 				"shasum": ""
 			},
 			"require": {
@@ -1869,7 +1762,7 @@
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
 				"http-interop/http-factory-tests": "0.9.0",
-				"phpunit/phpunit": "^8.5.39 || ^9.6.20"
+				"phpunit/phpunit": "^8.5.44 || ^9.6.25"
 			},
 			"suggest": {
 				"laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -1940,7 +1833,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/psr7/issues",
-				"source": "https://github.com/guzzle/psr7/tree/2.7.1"
+				"source": "https://github.com/guzzle/psr7/tree/2.8.0"
 			},
 			"funding": [
 				{
@@ -1956,7 +1849,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-03-27T12:30:47+00:00"
+			"time": "2025-08-23T21:21:41+00:00"
 		},
 		{
 			"name": "http-interop/http-factory-guzzle",
@@ -3405,16 +3298,16 @@
 		},
 		{
 			"name": "phpoption/phpoption",
-			"version": "1.9.3",
+			"version": "1.9.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/schmittjoh/php-option.git",
-				"reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54"
+				"reference": "638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/schmittjoh/php-option/zipball/e3fac8b24f56113f7cb96af14958c0dd16330f54",
-				"reference": "e3fac8b24f56113f7cb96af14958c0dd16330f54",
+				"url": "https://api.github.com/repos/schmittjoh/php-option/zipball/638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d",
+				"reference": "638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d",
 				"shasum": ""
 			},
 			"require": {
@@ -3422,7 +3315,7 @@
 			},
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
-				"phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+				"phpunit/phpunit": "^8.5.44 || ^9.6.25 || ^10.5.53 || ^11.5.34"
 			},
 			"type": "library",
 			"extra": {
@@ -3464,7 +3357,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/schmittjoh/php-option/issues",
-				"source": "https://github.com/schmittjoh/php-option/tree/1.9.3"
+				"source": "https://github.com/schmittjoh/php-option/tree/1.9.4"
 			},
 			"funding": [
 				{
@@ -3476,7 +3369,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-20T21:41:07+00:00"
+			"time": "2025-08-21T11:53:16+00:00"
 		},
 		{
 			"name": "plugin/config-expander",
@@ -4082,12 +3975,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "1930a92f3bbc669986e85f084fdea374e0a35b07"
+				"reference": "7fe06f58e48022c3bab4f88aa7f276092b53230e"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1930a92f3bbc669986e85f084fdea374e0a35b07",
-				"reference": "1930a92f3bbc669986e85f084fdea374e0a35b07",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/7fe06f58e48022c3bab4f88aa7f276092b53230e",
+				"reference": "7fe06f58e48022c3bab4f88aa7f276092b53230e",
 				"shasum": ""
 			},
 			"require": {
@@ -4133,7 +4026,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-07-14T09:25:52+00:00"
+			"time": "2025-08-27T08:31:55+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -4201,43 +4094,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.5.0",
+			"version": "dev-feat/implement-mozart-client-plus-extras",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d"
+				"reference": "9003fc0e591010db749eb538749217cb21530d6e"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/00ac31e167f44c08d52ba2bd32fee41bda57834d",
-				"reference": "00ac31e167f44c08d52ba2bd32fee41bda57834d",
-=======
-				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
-				"reference": "deeecb6ec15058aa91fc84f2ba10d5a5b5cf0210",
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
-				"reference": "1d4b4272d231e4c5d7020b19ee71e2c8c9597c20",
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
-				"reference": "dd53ebcd6dc69ddcd51751c9430b9965e8da5620"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/dd53ebcd6dc69ddcd51751c9430b9965e8da5620",
-				"reference": "dd53ebcd6dc69ddcd51751c9430b9965e8da5620",
->>>>>>> 228df06 ((chore): update deps)
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/9003fc0e591010db749eb538749217cb21530d6e",
+				"reference": "9003fc0e591010db749eb538749217cb21530d6e",
 				"shasum": ""
 			},
 			"require": {
@@ -4286,22 +4152,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.5.0",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/implement-mozart-client-plus-extras",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"time": "2025-07-28T11:34:34+00:00"
-=======
-			"time": "2025-06-17T07:58:57+00:00"
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-			"time": "2025-06-20T10:49:15+00:00"
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
-			"time": "2025-07-17T06:29:46+00:00"
->>>>>>> 228df06 ((chore): update deps)
+			"time": "2025-08-27T13:13:02+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4399,80 +4253,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-			"version": "v1.1.2",
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"version": "v1.1.1",
+			"version": "v1.2.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "9a2cf1d2727607e3cb003e2c92514be128e272a3"
-			},
->>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/dda5ee21680c06432116e51f54075c75f506ec31",
-				"reference": "dda5ee21680c06432116e51f54075c75f506ec31",
-=======
->>>>>>> 228df06 ((chore): update deps)
-			"version": "dev-feat/selectable-idp-scope",
-			"source": {
-				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "aecb3c6674305c2198e75b82c9f61ea7e13c2e95"
+				"reference": "24ac689edfbe929b26622cffe1e755b27fc9e0ce"
 			},
 			"dist": {
 				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/78b13fa38947fa4e49dc2da38282bceabe87b530",
-				"reference": "78b13fa38947fa4e49dc2da38282bceabe87b530",
-<<<<<<< HEAD
-=======
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/3c65bd868eb5c10f4d8e8721a687e418cde0633d",
-				"reference": "3c65bd868eb5c10f4d8e8721a687e418cde0633d",
->>>>>>> bfdea29 ((chore): update deps)
-<<<<<<< HEAD
->>>>>>> 62d4820 ((chore): update deps)
-=======
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
-				"reference": "09a0c95a06d04cf4407b59ef69c95b999c07aeb6",
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-<<<<<<< HEAD
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
-				"reference": "8bd3e2e96f71cd43f0044c9c265260ab233ede4f",
->>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
-<<<<<<< HEAD
->>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
-=======
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/029878fe615c1347da6ab2296c5a1f9c67c418d5",
-				"reference": "029878fe615c1347da6ab2296c5a1f9c67c418d5",
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
->>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/a6188077a677186207ba1f751a5dc2e194b9e5c3",
-				"reference": "a6188077a677186207ba1f751a5dc2e194b9e5c3",
->>>>>>> 228df06 ((chore): update deps)
-=======
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/aecb3c6674305c2198e75b82c9f61ea7e13c2e95",
-				"reference": "aecb3c6674305c2198e75b82c9f61ea7e13c2e95",
->>>>>>> 8281f3c ((chore): update deps)
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/24ac689edfbe929b26622cffe1e755b27fc9e0ce",
+				"reference": "24ac689edfbe929b26622cffe1e755b27fc9e0ce",
 				"shasum": ""
 			},
 			"require": {
@@ -4521,129 +4311,26 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.2",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.2.0",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-07-18T08:04:40+00:00"
-=======
-=======
->>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
-=======
->>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
-<<<<<<< HEAD
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.1.1",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-08T08:44:44+00:00"
-=======
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"time": "2025-05-13T14:47:24+00:00"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-=======
-			"time": "2025-05-28T11:52:57+00:00"
->>>>>>> bfdea29 ((chore): update deps)
-<<<<<<< HEAD
->>>>>>> 62d4820 ((chore): update deps)
-=======
-=======
-			"time": "2025-06-03T11:19:36+00:00"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-<<<<<<< HEAD
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-=======
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.0.1",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-01T06:55:14+00:00"
->>>>>>> fd4c12e ((chore): update owc-signicat-openid plugin)
-<<<<<<< HEAD
->>>>>>> efdf466 ((chore): update owc-signicat-openid plugin)
-=======
-=======
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/fix/broken-upload-fields",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-08T06:43:56+00:00"
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
->>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
+			"time": "2025-08-27T09:51:41+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.8",
+			"version": "v1.7.9",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "467dab9372f4eb37a994421c8222de37aa59c710"
+				"reference": "d13943908d97914b71f8c0d0a0a8adca45b7657b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/467dab9372f4eb37a994421c8222de37aa59c710",
-				"reference": "467dab9372f4eb37a994421c8222de37aa59c710",
-=======
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/feat/selectable-idp-scope",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
-			},
-			"time": "2025-07-24T11:27:26+00:00"
-		},
-		{
-			"name": "plugin/prefill-gravity-forms",
->>>>>>> 228df06 ((chore): update deps)
-			"version": "dev-feat/pink-v2-implementation",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe"
-			},
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
-				"reference": "b9bcfb2b0b5dd989c5281e78f6d1d18e694b5b79",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f363b8fcaeae18b1af95c884679773107de799fe",
-				"reference": "f363b8fcaeae18b1af95c884679773107de799fe",
-<<<<<<< HEAD
-=======
->>>>>>> 5d9f412 ((chore): update deps)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/140ecab542fccba9127ab0937ef4215c316084e2",
-				"reference": "140ecab542fccba9127ab0937ef4215c316084e2",
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-<<<<<<< HEAD
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
-				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
-				"reference": "2e4b3183a3f7190e22a144d05a77c14c926e2cfe",
->>>>>>> 228df06 ((chore): update deps)
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d13943908d97914b71f8c0d0a0a8adca45b7657b",
+				"reference": "d13943908d97914b71f8c0d0a0a8adca45b7657b",
 				"shasum": ""
 			},
 			"require": {
-				"cmdisp/monolog-microsoft-teams": "^1.3|^2.0",
 				"owc/idp-userdata": "^1.0",
 				"php": ">=7.0",
 				"php-di/php-di": "^6.0"
@@ -4687,17 +4374,25 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-<<<<<<< HEAD
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.7",
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
->>>>>>> 228df06 ((chore): update deps)
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.9",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-06-19T14:44:08+00:00"
+			"time": "2025-08-08T15:05:41+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
+			"version": "dev-elastic-bug-workaround",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-official-publications.git",
+				"reference": "eee3e9164548e194f0530a08b75fbc0779656074"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/eee3e9164548e194f0530a08b75fbc0779656074",
+				"reference": "eee3e9164548e194f0530a08b75fbc0779656074",
+				"shasum": ""
+			},
 			"require": {
 				"elastic/transport": "dev-handle-package-not-found@dev",
 				"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
@@ -4725,111 +4420,6 @@
 				}
 			},
 			"scripts": {
-<<<<<<< HEAD
-				"post-install-cmd": [ "composer dump-autoload" ],
-				"post-update-cmd": [ "composer dump-autoload" ],
-				"format": [ " ./vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-				"test:coverage": [
-					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
-				]
-			},
-			"description": "This plugin stores official governmental publications in ElasticSearch",
-			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
-				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
-			},
-			"time": "2025-07-15T08:55:56+00:00"
-=======
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
-				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
-			},
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"time": "2025-04-18T06:02:44+00:00"
->>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
-=======
-			"time": "2025-05-07T12:11:43+00:00"
->>>>>>> 5d9f412 ((chore): update deps)
-<<<<<<< HEAD
->>>>>>> 9f535cb ((chore): update deps)
-=======
-=======
-			"time": "2025-06-03T12:08:18+00:00"
-=======
-			"time": "2025-06-19T14:44:08+00:00"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
-		},
-		{
-			"name": "plugin/yard-official-publications",
-			"version": "v1.0.0",
-			"source": {
-				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "33f324b2e6676b54bdf93112626a5383b2e6cc2b"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/33f324b2e6676b54bdf93112626a5383b2e6cc2b",
-				"reference": "33f324b2e6676b54bdf93112626a5383b2e6cc2b",
-				"shasum": ""
-			},
-			"require": {
-				"elasticsearch/elasticsearch": "^7.0",
-				"jmikola/geojson": "^1.2",
-				"php": "7.4.* || 8.1.* || 8.2.*",
-				"yard/elasticsearch-schema": "^1.0",
-				"yard/geocode-pdok": "^1.0",
-				"yard/logger": "^1.0",
-				"yard/xml-scraper": "^1.0"
-			},
-			"require-dev": {
-				"brianhenryie/strauss": "^0.21.1",
-				"friendsofphp/php-cs-fixer": "^3.0",
-				"pestphp/pest": "^1.0",
-				"yard/php-cs-fixer-rules": "^1.0"
-			},
-			"type": "wordpress-plugin",
-			"extra": {
-				"strauss": {
-					"target_directory": "vendor-prefixed",
-					"namespace_prefix": "YOP\\Vendor_Prefixed\\",
-					"classmap_prefix": "YOP_Vendor_Prefixed_",
-					"constant_prefix": "YOP_VENDOR_",
-					"packages": [],
-					"update_call_sites": true,
-					"override_autoload": [],
-					"exclude_from_copy": {
-						"packages": [],
-						"namespaces": [],
-						"file_patterns": []
-					},
-					"exclude_from_prefix": {
-						"packages": [],
-						"namespaces": [],
-						"file_patterns": []
-					},
-					"namespace_replacement_patterns": [],
-					"delete_vendor_packages": false,
-					"delete_vendor_files": false,
-					"delete_vendor_directories": true
-				}
-			},
-			"autoload": {
-				"psr-4": {
-					"Yard\\OfficialPublications\\": "./src"
-				}
-			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\OfficialPublications\\Tests\\": "./tests"
-				}
-			},
-			"scripts": {
-=======
->>>>>>> 228df06 ((chore): update deps)
 				"post-install-cmd": [
 					"composer dump-autoload"
 				],
@@ -4852,13 +4442,7 @@
 				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
-<<<<<<< HEAD
-			"time": "2025-04-10T14:50:31+00:00"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
 			"time": "2025-07-15T08:55:56+00:00"
->>>>>>> 228df06 ((chore): update deps)
 		},
 		{
 			"name": "privacybydesign/irma-wp",
@@ -6103,7 +5687,7 @@
 		},
 		{
 			"name": "symfony/polyfill-ctype",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-ctype.git",
@@ -6162,7 +5746,7 @@
 				"portable"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-ctype/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-ctype/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -6174,6 +5758,10 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
@@ -6182,7 +5770,7 @@
 		},
 		{
 			"name": "symfony/polyfill-mbstring",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -6243,7 +5831,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-mbstring/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -6255,6 +5843,10 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
@@ -6263,7 +5855,7 @@
 		},
 		{
 			"name": "symfony/polyfill-php73",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php73.git",
@@ -6319,7 +5911,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php73/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-php73/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -6331,6 +5923,10 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
@@ -6339,7 +5935,7 @@
 		},
 		{
 			"name": "symfony/polyfill-php80",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php80.git",
@@ -6399,7 +5995,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php80/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -6411,6 +6007,10 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
@@ -6419,7 +6019,7 @@
 		},
 		{
 			"name": "symfony/polyfill-php81",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php81.git",
@@ -6475,7 +6075,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php81/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-php81/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -6487,6 +6087,10 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
@@ -6495,7 +6099,7 @@
 		},
 		{
 			"name": "symfony/polyfill-php82",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php82.git",
@@ -6551,7 +6155,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php82/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-php82/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -6560,6 +6164,10 @@
 				},
 				{
 					"url": "https://github.com/fabpot",
+					"type": "github"
+				},
+				{
+					"url": "https://github.com/nicolas-grekas",
 					"type": "github"
 				},
 				{
@@ -7595,15 +7203,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/google-analytics-for-wordpress",
-			"version": "9.6.1",
+			"version": "9.7.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-				"reference": "tags/9.6.1"
+				"reference": "tags/9.7.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.6.1.zip"
+				"url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.7.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7685,15 +7293,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wordfence",
-			"version": "8.0.5",
+			"version": "8.1.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wordfence/",
-				"reference": "tags/8.0.5"
+				"reference": "tags/8.1.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wordfence.8.0.5.zip"
+				"url": "https://downloads.wordpress.org/plugin/wordfence.8.1.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7720,14 +7328,6 @@
 			"homepage": "https://wordpress.org/plugins/wordpress-importer/"
 		},
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
->>>>>>> 228df06 ((chore): update deps)
 			"name": "wpackagist-plugin/wp-sentry-integration",
 			"version": "8.5.0",
 			"source": {
@@ -7756,44 +7356,6 @@
 			"dist": {
 				"type": "zip",
 				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.9.0.2.zip"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-			"name": "wpackagist-plugin/wp-seopress",
-			"version": "8.9.0.2",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/wp-seopress/",
-				"reference": "tags/8.9.0.2"
-			},
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.1.zip"
->>>>>>> 9c41a2e ((chore): update deps)
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.7.0.2.zip"
->>>>>>> aa0561c ((feat): prefill plugin with mapping options from theme dir)
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.8.1.zip"
->>>>>>> bfdea29 ((chore): update deps)
-<<<<<<< HEAD
->>>>>>> 62d4820 ((chore): update deps)
-=======
-=======
-				"url": "https://downloads.wordpress.org/plugin/wp-seopress.8.9.0.2.zip"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
->>>>>>> 228df06 ((chore): update deps)
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8031,82 +7593,6 @@
 				"url": "git@github.com:yardinternet/xml-scraper.git",
 				"reference": "3215bb76fadad7621f4416f3090f369566a49083"
 			},
-<<<<<<< HEAD
-<<<<<<< HEAD
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
-				"reference": "3215bb76fadad7621f4416f3090f369566a49083",
-				"shasum": ""
-			},
-			"require": {
-				"ext-dom": "*",
-				"guzzlehttp/guzzle": "^6.0 || ^7.0",
-				"php": ">=7.4"
-			},
-			"require-dev": {
-				"colinodell/psr-testlogger": "^1.0",
-				"friendsofphp/php-cs-fixer": "^3.0",
-				"pestphp/pest": "^1.0",
-				"phpstan/phpstan": "^2.0",
-				"yard/php-cs-fixer-rules": "^1.0"
-			},
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Yard\\XmlScraper\\": "./src/XmlScraper"
-				}
-			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\XmlScraper\\Tests\\": "./tests"
-				}
-			},
-			"scripts": {
-				"all": [ "@test", "@analyse", "@format" ],
-				"analyse": [
-					"vendor/bin/phpstan analyse --debug --memory-limit 1G"
-				],
-				"format": [ "vendor/bin/php-cs-fixer fix" ],
-				"test": [ "vendor/bin/pest" ],
-				"test:coverage": [
-					"XDEBUG_MODE=coverage vendor/bin/pest --coverage"
-				]
-			},
-			"license": [ "MIT" ],
-			"description": "Yard XML Scraper",
-			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/xml-scraper/tree/v1.0.0",
-				"issues": "https://github.com/yardinternet/xml-scraper/issues"
-			},
-			"time": "2025-04-09T10:24:07+00:00"
-		},
-		{
-			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.3",
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.3",
-				"shasum": "b366b82373b424c111f49e095c6150936ad63486"
-=======
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
-				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
-=======
-			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.1",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.1",
-				"shasum": "a9080125ee03b12e383ffb8aa8963255f0211f7f"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-=======
-=======
->>>>>>> 228df06 ((chore): update deps)
 			"dist": {
 				"type": "zip",
 				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
@@ -8168,21 +7654,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.4.3",
+			"version": "6.5.0.1",
 			"dist": {
 				"type": "zip",
-<<<<<<< HEAD
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.2",
-				"shasum": "56494883704f3c7165559296ead6497ac7373e42"
-<<<<<<< HEAD
->>>>>>> 55b37b5 ((chore): update composer dependencies)
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
->>>>>>> 228df06 ((chore): update deps)
-=======
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.4.3",
-				"shasum": "b366b82373b424c111f49e095c6150936ad63486"
->>>>>>> 8281f3c ((chore): update deps)
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.5.0.1",
+				"shasum": "93001100b15443d820965bc924f44f3b12673196"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8330,11 +7806,11 @@
 		},
 		{
 			"name": "ypackagist/gravity-pdf",
-			"version": "6.13.0",
+			"version": "6.13.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.13.0",
-				"shasum": "535343eb1788bd481c6611de08c8558a16cf9a9a"
+				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.13.1",
+				"shasum": "3e54d079ed4c4f0c77a696a4fcb272f74fe2022a"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8349,51 +7825,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.14.1",
+			"version": "2.9.15",
 			"dist": {
 				"type": "zip",
-<<<<<<< HEAD
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.14.1",
-				"shasum": "b699e1fe7600d0d1d0f3e6806b60e833e00a3434"
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.13",
-				"shasum": "ff227c113f76ca9796028bb556c87a6609f3c3a3"
-<<<<<<< HEAD
-=======
-			"name": "ypackagist/gravityforms",
-			"version": "2.9.11",
-			"dist": {
-				"type": "zip",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.8",
-				"shasum": "a04d49c0309f13fd5593c357a4c40130a1d63841"
->>>>>>> faa341d ((chore): update deps + Acato plugins)
-<<<<<<< HEAD
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.9",
-				"shasum": "38c1cdab039841068e66087fce70e3ea88b761ca"
->>>>>>> 55b37b5 ((chore): update composer dependencies)
-<<<<<<< HEAD
->>>>>>> ba51863 ((chore): update composer dependencies)
-=======
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.10",
-				"shasum": "7d2c4b4a43ac4aceac74ce20f9acf1da87e36d29"
->>>>>>> 13de62b ((feat): update deps + GF submission encryption plugin)
-<<<<<<< HEAD
->>>>>>> 4e20aa6 ((feat): update deps + GF submission encryption plugin)
-=======
-=======
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.11",
-				"shasum": "77e514c8e3d0120e68478f6540f9d6e1e13c41f4"
->>>>>>> 3cfff6c ((chore): update owc-signicat-openid plugin)
->>>>>>> f4e5bbd ((chore): update owc-signicat-openid plugin)
-=======
->>>>>>> 228df06 ((chore): update deps)
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.15",
+				"shasum": "5a5c196226c0771c93ad47bc5ffba7b7b0f860f3"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8589,16 +8025,16 @@
 		},
 		{
 			"name": "antecedent/patchwork",
-			"version": "2.2.1",
+			"version": "2.2.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/antecedent/patchwork.git",
-				"reference": "1bf183a3e1bd094f231a2128b9ecc5363c269245"
+				"reference": "724f03c777ddcc436ec2c8ecd4c97cdbceef8ab9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/antecedent/patchwork/zipball/1bf183a3e1bd094f231a2128b9ecc5363c269245",
-				"reference": "1bf183a3e1bd094f231a2128b9ecc5363c269245",
+				"url": "https://api.github.com/repos/antecedent/patchwork/zipball/724f03c777ddcc436ec2c8ecd4c97cdbceef8ab9",
+				"reference": "724f03c777ddcc436ec2c8ecd4c97cdbceef8ab9",
 				"shasum": ""
 			},
 			"require": {
@@ -8631,9 +8067,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/antecedent/patchwork/issues",
-				"source": "https://github.com/antecedent/patchwork/tree/2.2.1"
+				"source": "https://github.com/antecedent/patchwork/tree/2.2.2"
 			},
-			"time": "2024-12-11T10:19:54+00:00"
+			"time": "2025-08-12T16:59:40+00:00"
 		},
 		{
 			"name": "clue/ndjson-react",
@@ -8780,16 +8216,16 @@
 		},
 		{
 			"name": "composer/semver",
-			"version": "3.4.3",
+			"version": "3.4.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/composer/semver.git",
-				"reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12"
+				"reference": "198166618906cb2de69b95d7d47e5fa8aa1b2b95"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/composer/semver/zipball/4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
-				"reference": "4313d26ada5e0c4edfbd1dc481a92ff7bff91f12",
+				"url": "https://api.github.com/repos/composer/semver/zipball/198166618906cb2de69b95d7d47e5fa8aa1b2b95",
+				"reference": "198166618906cb2de69b95d7d47e5fa8aa1b2b95",
 				"shasum": ""
 			},
 			"require": {
@@ -8841,7 +8277,7 @@
 			"support": {
 				"irc": "ircs://irc.libera.chat:6697/composer",
 				"issues": "https://github.com/composer/semver/issues",
-				"source": "https://github.com/composer/semver/tree/3.4.3"
+				"source": "https://github.com/composer/semver/tree/3.4.4"
 			},
 			"funding": [
 				{
@@ -8851,13 +8287,9 @@
 				{
 					"url": "https://github.com/composer",
 					"type": "github"
-				},
-				{
-					"url": "https://tidelift.com/funding/github/packagist/composer/composer",
-					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-19T14:15:21+00:00"
+			"time": "2025-08-20T19:15:30+00:00"
 		},
 		{
 			"name": "composer/xdebug-handler",
@@ -9227,16 +8659,16 @@
 		},
 		{
 			"name": "fidry/cpu-core-counter",
-			"version": "1.2.0",
+			"version": "1.3.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/theofidry/cpu-core-counter.git",
-				"reference": "8520451a140d3f46ac33042715115e290cf5785f"
+				"reference": "db9508f7b1474469d9d3c53b86f817e344732678"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/theofidry/cpu-core-counter/zipball/8520451a140d3f46ac33042715115e290cf5785f",
-				"reference": "8520451a140d3f46ac33042715115e290cf5785f",
+				"url": "https://api.github.com/repos/theofidry/cpu-core-counter/zipball/db9508f7b1474469d9d3c53b86f817e344732678",
+				"reference": "db9508f7b1474469d9d3c53b86f817e344732678",
 				"shasum": ""
 			},
 			"require": {
@@ -9246,10 +8678,10 @@
 				"fidry/makefile": "^0.2.0",
 				"fidry/php-cs-fixer-config": "^1.1.2",
 				"phpstan/extension-installer": "^1.2.0",
-				"phpstan/phpstan": "^1.9.2",
-				"phpstan/phpstan-deprecation-rules": "^1.0.0",
-				"phpstan/phpstan-phpunit": "^1.2.2",
-				"phpstan/phpstan-strict-rules": "^1.4.4",
+				"phpstan/phpstan": "^2.0",
+				"phpstan/phpstan-deprecation-rules": "^2.0.0",
+				"phpstan/phpstan-phpunit": "^2.0",
+				"phpstan/phpstan-strict-rules": "^2.0",
 				"phpunit/phpunit": "^8.5.31 || ^9.5.26",
 				"webmozarts/strict-phpunit": "^7.5"
 			},
@@ -9276,7 +8708,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/theofidry/cpu-core-counter/issues",
-				"source": "https://github.com/theofidry/cpu-core-counter/tree/1.2.0"
+				"source": "https://github.com/theofidry/cpu-core-counter/tree/1.3.0"
 			},
 			"funding": [
 				{
@@ -9284,24 +8716,24 @@
 					"type": "github"
 				}
 			],
-			"time": "2024-08-06T10:04:20+00:00"
+			"time": "2025-08-14T07:29:31+00:00"
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.84.0",
+			"version": "v3.86.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "38dad0767bf2a9b516b976852200ae722fe984ca"
+				"reference": "4a952bd19dc97879b0620f495552ef09b55f7d36"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/38dad0767bf2a9b516b976852200ae722fe984ca",
-				"reference": "38dad0767bf2a9b516b976852200ae722fe984ca",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/4a952bd19dc97879b0620f495552ef09b55f7d36",
+				"reference": "4a952bd19dc97879b0620f495552ef09b55f7d36",
 				"shasum": ""
 			},
 			"require": {
-				"clue/ndjson-react": "^1.0",
+				"clue/ndjson-react": "^1.3",
 				"composer/semver": "^3.4",
 				"composer/xdebug-handler": "^3.0.5",
 				"ext-filter": "*",
@@ -9311,12 +8743,12 @@
 				"fidry/cpu-core-counter": "^1.2",
 				"php": "^7.4 || ^8.0",
 				"react/child-process": "^0.6.6",
-				"react/event-loop": "^1.0",
-				"react/promise": "^2.11 || ^3.0",
-				"react/socket": "^1.0",
-				"react/stream": "^1.0",
+				"react/event-loop": "^1.5",
+				"react/promise": "^3.2",
+				"react/socket": "^1.16",
+				"react/stream": "^1.4",
 				"sebastian/diff": "^4.0.6 || ^5.1.1 || ^6.0.2 || ^7.0",
-				"symfony/console": "^5.4.45 || ^6.4.13 || ^7.0",
+				"symfony/console": "^5.4.47 || ^6.4.13 || ^7.0",
 				"symfony/event-dispatcher": "^5.4.45 || ^6.4.13 || ^7.0",
 				"symfony/filesystem": "^5.4.45 || ^6.4.13 || ^7.0",
 				"symfony/finder": "^5.4.45 || ^6.4.17 || ^7.0",
@@ -9381,7 +8813,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.84.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.86.0"
 			},
 			"funding": [
 				{
@@ -9389,7 +8821,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-07-15T18:21:57+00:00"
+			"time": "2025-08-13T22:36:21+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -9527,16 +8959,16 @@
 		},
 		{
 			"name": "myclabs/deep-copy",
-			"version": "1.13.3",
+			"version": "1.13.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/myclabs/DeepCopy.git",
-				"reference": "faed855a7b5f4d4637717c2b3863e277116beb36"
+				"reference": "07d290f0c47959fd5eed98c95ee5602db07e0b6a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/faed855a7b5f4d4637717c2b3863e277116beb36",
-				"reference": "faed855a7b5f4d4637717c2b3863e277116beb36",
+				"url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/07d290f0c47959fd5eed98c95ee5602db07e0b6a",
+				"reference": "07d290f0c47959fd5eed98c95ee5602db07e0b6a",
 				"shasum": ""
 			},
 			"require": {
@@ -9575,7 +9007,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/myclabs/DeepCopy/issues",
-				"source": "https://github.com/myclabs/DeepCopy/tree/1.13.3"
+				"source": "https://github.com/myclabs/DeepCopy/tree/1.13.4"
 			},
 			"funding": [
 				{
@@ -9583,20 +9015,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-07-05T12:25:42+00:00"
+			"time": "2025-08-01T08:46:24+00:00"
 		},
 		{
 			"name": "nikic/php-parser",
-			"version": "v5.6.0",
+			"version": "v5.6.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/nikic/PHP-Parser.git",
-				"reference": "221b0d0fdf1369c71047ad1d18bb5880017bbc56"
+				"reference": "f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/221b0d0fdf1369c71047ad1d18bb5880017bbc56",
-				"reference": "221b0d0fdf1369c71047ad1d18bb5880017bbc56",
+				"url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2",
+				"reference": "f103601b29efebd7ff4a1ca7b3eeea9e3336a2a2",
 				"shasum": ""
 			},
 			"require": {
@@ -9615,7 +9047,7 @@
 			"type": "library",
 			"extra": {
 				"branch-alias": {
-					"dev-master": "5.0-dev"
+					"dev-master": "5.x-dev"
 				}
 			},
 			"autoload": {
@@ -9639,9 +9071,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/nikic/PHP-Parser/issues",
-				"source": "https://github.com/nikic/PHP-Parser/tree/v5.6.0"
+				"source": "https://github.com/nikic/PHP-Parser/tree/v5.6.1"
 			},
-			"time": "2025-07-27T20:03:57+00:00"
+			"time": "2025-08-13T20:13:15+00:00"
 		},
 		{
 			"name": "phar-io/manifest",
@@ -10082,16 +9514,16 @@
 		},
 		{
 			"name": "phpunit/phpunit",
-			"version": "9.6.23",
+			"version": "9.6.25",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/phpunit.git",
-				"reference": "43d2cb18d0675c38bd44982a5d1d88f6d53d8d95"
+				"reference": "049c011e01be805202d8eebedef49f769a8ec7b7"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/43d2cb18d0675c38bd44982a5d1d88f6d53d8d95",
-				"reference": "43d2cb18d0675c38bd44982a5d1d88f6d53d8d95",
+				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/049c011e01be805202d8eebedef49f769a8ec7b7",
+				"reference": "049c011e01be805202d8eebedef49f769a8ec7b7",
 				"shasum": ""
 			},
 			"require": {
@@ -10102,7 +9534,7 @@
 				"ext-mbstring": "*",
 				"ext-xml": "*",
 				"ext-xmlwriter": "*",
-				"myclabs/deep-copy": "^1.13.1",
+				"myclabs/deep-copy": "^1.13.4",
 				"phar-io/manifest": "^2.0.4",
 				"phar-io/version": "^3.2.1",
 				"php": ">=7.3",
@@ -10113,11 +9545,11 @@
 				"phpunit/php-timer": "^5.0.3",
 				"sebastian/cli-parser": "^1.0.2",
 				"sebastian/code-unit": "^1.0.8",
-				"sebastian/comparator": "^4.0.8",
+				"sebastian/comparator": "^4.0.9",
 				"sebastian/diff": "^4.0.6",
 				"sebastian/environment": "^5.1.5",
 				"sebastian/exporter": "^4.0.6",
-				"sebastian/global-state": "^5.0.7",
+				"sebastian/global-state": "^5.0.8",
 				"sebastian/object-enumerator": "^4.0.4",
 				"sebastian/resource-operations": "^3.0.4",
 				"sebastian/type": "^3.2.1",
@@ -10165,7 +9597,7 @@
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/phpunit/issues",
 				"security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.23"
+				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.25"
 			},
 			"funding": [
 				{
@@ -10189,7 +9621,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-05-02T06:40:34+00:00"
+			"time": "2025-08-20T14:38:31+00:00"
 		},
 		{
 			"name": "pimple/pimple",
@@ -10591,23 +10023,23 @@
 		},
 		{
 			"name": "react/promise",
-			"version": "v3.2.0",
+			"version": "v3.3.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/reactphp/promise.git",
-				"reference": "8a164643313c71354582dc850b42b33fa12a4b63"
+				"reference": "23444f53a813a3296c1368bb104793ce8d88f04a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/reactphp/promise/zipball/8a164643313c71354582dc850b42b33fa12a4b63",
-				"reference": "8a164643313c71354582dc850b42b33fa12a4b63",
+				"url": "https://api.github.com/repos/reactphp/promise/zipball/23444f53a813a3296c1368bb104793ce8d88f04a",
+				"reference": "23444f53a813a3296c1368bb104793ce8d88f04a",
 				"shasum": ""
 			},
 			"require": {
 				"php": ">=7.1.0"
 			},
 			"require-dev": {
-				"phpstan/phpstan": "1.10.39 || 1.4.10",
+				"phpstan/phpstan": "1.12.28 || 1.4.10",
 				"phpunit/phpunit": "^9.6 || ^7.5"
 			},
 			"type": "library",
@@ -10652,7 +10084,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/reactphp/promise/issues",
-				"source": "https://github.com/reactphp/promise/tree/v3.2.0"
+				"source": "https://github.com/reactphp/promise/tree/v3.3.0"
 			},
 			"funding": [
 				{
@@ -10660,7 +10092,7 @@
 					"type": "open_collective"
 				}
 			],
-			"time": "2024-05-24T10:39:05+00:00"
+			"time": "2025-08-19T18:57:03+00:00"
 		},
 		{
 			"name": "react/socket",
@@ -10989,16 +10421,16 @@
 		},
 		{
 			"name": "sebastian/comparator",
-			"version": "4.0.8",
+			"version": "4.0.9",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/comparator.git",
-				"reference": "fa0f136dd2334583309d32b62544682ee972b51a"
+				"reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/fa0f136dd2334583309d32b62544682ee972b51a",
-				"reference": "fa0f136dd2334583309d32b62544682ee972b51a",
+				"url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
+				"reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
 				"shasum": ""
 			},
 			"require": {
@@ -11051,15 +10483,27 @@
 			],
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/comparator/issues",
-				"source": "https://github.com/sebastianbergmann/comparator/tree/4.0.8"
+				"source": "https://github.com/sebastianbergmann/comparator/tree/4.0.9"
 			},
 			"funding": [
 				{
 					"url": "https://github.com/sebastianbergmann",
 					"type": "github"
+				},
+				{
+					"url": "https://liberapay.com/sebastianbergmann",
+					"type": "liberapay"
+				},
+				{
+					"url": "https://thanks.dev/u/gh/sebastianbergmann",
+					"type": "thanks_dev"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/sebastian/comparator",
+					"type": "tidelift"
 				}
 			],
-			"time": "2022-09-14T12:41:17+00:00"
+			"time": "2025-08-10T06:51:50+00:00"
 		},
 		{
 			"name": "sebastian/complexity",
@@ -11326,16 +10770,16 @@
 		},
 		{
 			"name": "sebastian/global-state",
-			"version": "5.0.7",
+			"version": "5.0.8",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/global-state.git",
-				"reference": "bca7df1f32ee6fe93b4d4a9abbf69e13a4ada2c9"
+				"reference": "b6781316bdcd28260904e7cc18ec983d0d2ef4f6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/bca7df1f32ee6fe93b4d4a9abbf69e13a4ada2c9",
-				"reference": "bca7df1f32ee6fe93b4d4a9abbf69e13a4ada2c9",
+				"url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/b6781316bdcd28260904e7cc18ec983d0d2ef4f6",
+				"reference": "b6781316bdcd28260904e7cc18ec983d0d2ef4f6",
 				"shasum": ""
 			},
 			"require": {
@@ -11378,15 +10822,27 @@
 			],
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/global-state/issues",
-				"source": "https://github.com/sebastianbergmann/global-state/tree/5.0.7"
+				"source": "https://github.com/sebastianbergmann/global-state/tree/5.0.8"
 			},
 			"funding": [
 				{
 					"url": "https://github.com/sebastianbergmann",
 					"type": "github"
+				},
+				{
+					"url": "https://liberapay.com/sebastianbergmann",
+					"type": "liberapay"
+				},
+				{
+					"url": "https://thanks.dev/u/gh/sebastianbergmann",
+					"type": "thanks_dev"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/sebastian/global-state",
+					"type": "tidelift"
 				}
 			],
-			"time": "2024-03-02T06:35:11+00:00"
+			"time": "2025-08-10T07:10:35+00:00"
 		},
 		{
 			"name": "sebastian/lines-of-code",
@@ -11559,16 +11015,16 @@
 		},
 		{
 			"name": "sebastian/recursion-context",
-			"version": "4.0.5",
+			"version": "4.0.6",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/recursion-context.git",
-				"reference": "e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1"
+				"reference": "539c6691e0623af6dc6f9c20384c120f963465a0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1",
-				"reference": "e75bd0f07204fec2a0af9b0f3cfe97d05f92efc1",
+				"url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/539c6691e0623af6dc6f9c20384c120f963465a0",
+				"reference": "539c6691e0623af6dc6f9c20384c120f963465a0",
 				"shasum": ""
 			},
 			"require": {
@@ -11610,15 +11066,27 @@
 			"homepage": "https://github.com/sebastianbergmann/recursion-context",
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/recursion-context/issues",
-				"source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.5"
+				"source": "https://github.com/sebastianbergmann/recursion-context/tree/4.0.6"
 			},
 			"funding": [
 				{
 					"url": "https://github.com/sebastianbergmann",
 					"type": "github"
+				},
+				{
+					"url": "https://liberapay.com/sebastianbergmann",
+					"type": "liberapay"
+				},
+				{
+					"url": "https://thanks.dev/u/gh/sebastianbergmann",
+					"type": "thanks_dev"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/sebastian/recursion-context",
+					"type": "tidelift"
 				}
 			],
-			"time": "2023-02-03T06:07:39+00:00"
+			"time": "2025-08-10T06:57:39+00:00"
 		},
 		{
 			"name": "sebastian/resource-operations",
@@ -12247,16 +11715,16 @@
 		},
 		{
 			"name": "symfony/polyfill-intl-grapheme",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-				"reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe"
+				"reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
-				"reference": "b9123926e3b7bc2f98c02ad54f6a4b02b91a8abe",
+				"url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/380872130d3a5dd3ace2f4010d95125fde5d5c70",
+				"reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70",
 				"shasum": ""
 			},
 			"require": {
@@ -12305,7 +11773,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -12317,15 +11785,19 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-09T11:45:10+00:00"
+			"time": "2025-06-27T09:58:17+00:00"
 		},
 		{
 			"name": "symfony/polyfill-intl-normalizer",
-			"version": "v1.32.0",
+			"version": "v1.33.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -12386,7 +11858,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.32.0"
+				"source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.33.0"
 			},
 			"funding": [
 				{
@@ -12395,6 +11867,10 @@
 				},
 				{
 					"url": "https://github.com/fabpot",
+					"type": "github"
+				},
+				{
+					"url": "https://github.com/nicolas-grekas",
 					"type": "github"
 				},
 				{
@@ -12869,45 +12345,21 @@
 	"minimum-stability": "stable",
 	"stability-flags": {
 		"acato-plugins/cmb2-flexible-content": 20,
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"acato/openkaarten-base": 20,
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"acato/openkaarten-base": 20,
-=======
->>>>>>> 67a849b ((fix): add OpenKaarten development packages as explicit dependencies)
-=======
-		"acato/openkaarten-base": 20,
->>>>>>> faa341d ((chore): update deps + Acato plugins)
->>>>>>> 727f2c4 ((chore): update deps + Acato plugins)
-=======
-		"acato/openkaarten-base": 20,
->>>>>>> 228df06 ((chore): update deps)
 		"acato/openkaarten-base-functions": 20,
-		"acato/openkaarten-frontend-plugin": 20,
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
 		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-<<<<<<< HEAD
-		"plugin/owc-gravityforms-kvk-prefill": 20,
-		"plugin/owc-gravityforms-zaaksysteem": 20
-=======
 		"plugin/owc-gravityforms-zaaksysteem": 20,
-		"plugin/owc-signicat-openid": 20,
-		"plugin/prefill-gravity-forms": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
->>>>>>> 58e4665 ((feat): prefill plugin with mapping options from theme dir)
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
-		"php": "7.4.*"
+		"php": "<8.0"
 	},
 	"platform-dev": {},
 	"platform-overrides": {

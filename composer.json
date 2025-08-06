@@ -207,7 +207,7 @@
 		" Constraints last verified: 09-2024                                 "
 	],
 	"require": {
-		"php": "7.4.*",
+		"php": "<8.0",
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
 		"acato/openkaarten-base": "^0.2",
 		"acato/openkaarten-base-functions": "dev-master",
@@ -235,11 +235,11 @@
 		"plugin/owc-gravityforms-eidas": "^1.0.2",
 		"plugin/owc-gravityforms-jcc-appointments": "dev-feat/configurable-activity-numbers",
 		"plugin/owc-gravityforms-kvk-prefill": "^2.0",
-		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/mijn-taken",
+		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/implement-mozart-client-plus-extras",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/owc-signicat-openid": "dev-feat/selectable-idp-scope",
-		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
+		"plugin/owc-signicat-openid": "^1.2.0",
+		"plugin/prefill-gravity-forms": "^1.7.9",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",
