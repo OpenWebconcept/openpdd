@@ -58,7 +58,7 @@
 		"commander": "^11.0.0",
 		"copy-webpack-plugin": "^11.0.0",
 		"husky": "^4.2.5",
-		"inquirer": "^8.2.6",
+		"inquirer": "^8.2.7",
 		"lint-staged": "^10.2.11",
 		"mini-css-extract-plugin": "^2.7.6",
 		"minimist": "^1.2.8",
