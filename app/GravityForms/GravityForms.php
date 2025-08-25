@@ -172,7 +172,7 @@ class GravityForms
      * Displays the euro sign before the amount rather than behind
      * @see https://docs.gravityforms.com/gform_currencies/#h-1-update-euro
      */
-    protected function changeCurrencyInputDisplay(array $currencies): array
+    public function changeCurrencyInputDisplay(array $currencies): array
     {
         $currencies['EUR']['symbol_left'] = '€';
         $currencies['EUR']['symbol_right'] = '';
