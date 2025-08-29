@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "bf4aaef1cb5f95e02fb1de7275f27ad4",
+	"content-hash": "8ae44055900da976f7a16aa331a3fbed",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4094,16 +4094,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "dev-feat/implement-mozart-client-plus-extras",
+			"version": "v2.7.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "9003fc0e591010db749eb538749217cb21530d6e"
+				"reference": "4915e45fbb5b41b953588dd26d1bd961efc18daa"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/9003fc0e591010db749eb538749217cb21530d6e",
-				"reference": "9003fc0e591010db749eb538749217cb21530d6e",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4915e45fbb5b41b953588dd26d1bd961efc18daa",
+				"reference": "4915e45fbb5b41b953588dd26d1bd961efc18daa",
 				"shasum": ""
 			},
 			"require": {
@@ -4152,10 +4152,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/implement-mozart-client-plus-extras",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.7.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-08-27T13:13:02+00:00"
+			"time": "2025-08-29T05:24:19+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4253,16 +4253,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "v1.2.0",
+			"version": "v1.2.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "24ac689edfbe929b26622cffe1e755b27fc9e0ce"
+				"reference": "0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/24ac689edfbe929b26622cffe1e755b27fc9e0ce",
-				"reference": "24ac689edfbe929b26622cffe1e755b27fc9e0ce",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8",
+				"reference": "0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8",
 				"shasum": ""
 			},
 			"require": {
@@ -4311,10 +4311,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.2.0",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.2.1",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-08-27T09:51:41+00:00"
+			"time": "2025-08-28T13:42:39+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -12351,7 +12351,6 @@
 		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"plugin/owc-gravityforms-zaaksysteem": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
