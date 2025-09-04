@@ -239,7 +239,7 @@
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "^1.2.0",
-		"plugin/prefill-gravity-forms": "^1.7.9",
+		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"privacybydesign/irma-wp": "@dev",
 		"richardkorthuis/geophp": "dev-development",

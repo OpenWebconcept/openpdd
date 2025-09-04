@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "8ae44055900da976f7a16aa331a3fbed",
+	"content-hash": "5faa1c9e67f0452685d1b4e3889aaece",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -2937,16 +2937,16 @@
 		},
 		{
 			"name": "php-di/invoker",
-			"version": "2.3.6",
+			"version": "2.3.7",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-DI/Invoker.git",
-				"reference": "59f15608528d8a8838d69b422a919fd6b16aa576"
+				"reference": "3c1ddfdef181431fbc4be83378f6d036d59e81e1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/59f15608528d8a8838d69b422a919fd6b16aa576",
-				"reference": "59f15608528d8a8838d69b422a919fd6b16aa576",
+				"url": "https://api.github.com/repos/PHP-DI/Invoker/zipball/3c1ddfdef181431fbc4be83378f6d036d59e81e1",
+				"reference": "3c1ddfdef181431fbc4be83378f6d036d59e81e1",
 				"shasum": ""
 			},
 			"require": {
@@ -2956,7 +2956,7 @@
 			"require-dev": {
 				"athletic/athletic": "~0.1.8",
 				"mnapoli/hard-mode": "~0.3.0",
-				"phpunit/phpunit": "^9.0"
+				"phpunit/phpunit": "^9.0 || ^10 || ^11 || ^12"
 			},
 			"type": "library",
 			"autoload": {
@@ -2980,7 +2980,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-DI/Invoker/issues",
-				"source": "https://github.com/PHP-DI/Invoker/tree/2.3.6"
+				"source": "https://github.com/PHP-DI/Invoker/tree/2.3.7"
 			},
 			"funding": [
 				{
@@ -2988,7 +2988,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-01-17T12:49:27+00:00"
+			"time": "2025-08-30T10:22:22+00:00"
 		},
 		{
 			"name": "php-di/php-di",
@@ -4094,16 +4094,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.7.0",
+			"version": "v2.7.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "4915e45fbb5b41b953588dd26d1bd961efc18daa"
+				"reference": "b9daee51f1a69e40b02462b3280af55aeb7c81bd"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4915e45fbb5b41b953588dd26d1bd961efc18daa",
-				"reference": "4915e45fbb5b41b953588dd26d1bd961efc18daa",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/b9daee51f1a69e40b02462b3280af55aeb7c81bd",
+				"reference": "b9daee51f1a69e40b02462b3280af55aeb7c81bd",
 				"shasum": ""
 			},
 			"require": {
@@ -4152,10 +4152,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.7.0",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.7.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-08-29T05:24:19+00:00"
+			"time": "2025-09-03T12:33:17+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4256,7 +4256,7 @@
 			"version": "v1.2.1",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git",
+				"url": "https://github.com/yardinternet/plugin-owc-signicat-openid.git",
 				"reference": "0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8"
 			},
 			"dist": {
@@ -4318,19 +4318,20 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.9",
+			"version": "dev-feat/pink-v2-implementation",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "d13943908d97914b71f8c0d0a0a8adca45b7657b"
+				"reference": "1f9a6d14774b01ca8bd957a51f8e6428e12373d1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/d13943908d97914b71f8c0d0a0a8adca45b7657b",
-				"reference": "d13943908d97914b71f8c0d0a0a8adca45b7657b",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/1f9a6d14774b01ca8bd957a51f8e6428e12373d1",
+				"reference": "1f9a6d14774b01ca8bd957a51f8e6428e12373d1",
 				"shasum": ""
 			},
 			"require": {
+				"cmdisp/monolog-microsoft-teams": "^1.3|^2.0",
 				"owc/idp-userdata": "^1.0",
 				"php": ">=7.0",
 				"php-di/php-di": "^6.0"
@@ -4374,10 +4375,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.9",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/pink-v2-implementation",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-08-08T15:05:41+00:00"
+			"time": "2025-09-04T10:51:37+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
@@ -7806,11 +7807,11 @@
 		},
 		{
 			"name": "ypackagist/gravity-pdf",
-			"version": "6.13.1",
+			"version": "6.13.2",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.13.1",
-				"shasum": "3e54d079ed4c4f0c77a696a4fcb272f74fe2022a"
+				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.13.2",
+				"shasum": "318eb8af6c2df69e01329180e283a4b5aad44543"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7825,11 +7826,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.15",
+			"version": "2.9.16.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.15",
-				"shasum": "5a5c196226c0771c93ad47bc5ffba7b7b0f860f3"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.16.1",
+				"shasum": "53e4d0b2a845bb3e3f19161552bbcb1deaa16f7b"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8720,16 +8721,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.86.0",
+			"version": "v3.87.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "4a952bd19dc97879b0620f495552ef09b55f7d36"
+				"reference": "2f5170365e2a422d0c5421f9c8818b2c078105f6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/4a952bd19dc97879b0620f495552ef09b55f7d36",
-				"reference": "4a952bd19dc97879b0620f495552ef09b55f7d36",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2f5170365e2a422d0c5421f9c8818b2c078105f6",
+				"reference": "2f5170365e2a422d0c5421f9c8818b2c078105f6",
 				"shasum": ""
 			},
 			"require": {
@@ -8740,39 +8741,38 @@
 				"ext-hash": "*",
 				"ext-json": "*",
 				"ext-tokenizer": "*",
-				"fidry/cpu-core-counter": "^1.2",
+				"fidry/cpu-core-counter": "^1.3",
 				"php": "^7.4 || ^8.0",
 				"react/child-process": "^0.6.6",
 				"react/event-loop": "^1.5",
-				"react/promise": "^3.2",
+				"react/promise": "^3.3",
 				"react/socket": "^1.16",
 				"react/stream": "^1.4",
 				"sebastian/diff": "^4.0.6 || ^5.1.1 || ^6.0.2 || ^7.0",
-				"symfony/console": "^5.4.47 || ^6.4.13 || ^7.0",
-				"symfony/event-dispatcher": "^5.4.45 || ^6.4.13 || ^7.0",
-				"symfony/filesystem": "^5.4.45 || ^6.4.13 || ^7.0",
-				"symfony/finder": "^5.4.45 || ^6.4.17 || ^7.0",
-				"symfony/options-resolver": "^5.4.45 || ^6.4.16 || ^7.0",
-				"symfony/polyfill-mbstring": "^1.32",
-				"symfony/polyfill-php80": "^1.32",
-				"symfony/polyfill-php81": "^1.32",
-				"symfony/process": "^5.4.47 || ^6.4.20 || ^7.2",
-				"symfony/stopwatch": "^5.4.45 || ^6.4.19 || ^7.0"
+				"symfony/console": "^5.4.47 || ^6.4.24 || ^7.0",
+				"symfony/event-dispatcher": "^5.4.45 || ^6.4.24 || ^7.0",
+				"symfony/filesystem": "^5.4.45 || ^6.4.24 || ^7.0",
+				"symfony/finder": "^5.4.45 || ^6.4.24 || ^7.0",
+				"symfony/options-resolver": "^5.4.45 || ^6.4.24 || ^7.0",
+				"symfony/polyfill-mbstring": "^1.33",
+				"symfony/polyfill-php80": "^1.33",
+				"symfony/polyfill-php81": "^1.33",
+				"symfony/process": "^5.4.47 || ^6.4.24 || ^7.2",
+				"symfony/stopwatch": "^5.4.45 || ^6.4.24 || ^7.0"
 			},
 			"require-dev": {
-				"facile-it/paraunit": "^1.3.1 || ^2.6",
+				"facile-it/paraunit": "^1.3.1 || ^2.7",
 				"infection/infection": "^0.29.14",
-				"justinrainbow/json-schema": "^5.3 || ^6.4",
+				"justinrainbow/json-schema": "^6.5",
 				"keradus/cli-executor": "^2.2",
 				"mikey179/vfsstream": "^1.6.12",
 				"php-coveralls/php-coveralls": "^2.8",
-				"php-cs-fixer/accessible-object": "^1.1",
 				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
 				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
-				"phpunit/phpunit": "^9.6.23 || ^10.5.47 || ^11.5.25",
-				"symfony/polyfill-php84": "^1.32",
-				"symfony/var-dumper": "^5.4.48 || ^6.4.23 || ^7.3.1",
-				"symfony/yaml": "^5.4.45 || ^6.4.23 || ^7.3.1"
+				"phpunit/phpunit": "^9.6.25 || ^10.5.53 || ^11.5.34",
+				"symfony/polyfill-php84": "^1.33",
+				"symfony/var-dumper": "^5.4.48 || ^6.4.24 || ^7.3.2",
+				"symfony/yaml": "^5.4.45 || ^6.4.24 || ^7.3.2"
 			},
 			"suggest": {
 				"ext-dom": "For handling output formats in XML",
@@ -8813,7 +8813,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.86.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.87.1"
 			},
 			"funding": [
 				{
@@ -8821,7 +8821,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-08-13T22:36:21+00:00"
+			"time": "2025-09-02T15:27:36+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -12351,6 +12351,7 @@
 		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
+		"plugin/prefill-gravity-forms": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
