@@ -3373,16 +3373,16 @@
 		},
 		{
 			"name": "plugin/config-expander",
-			"version": "v2.0.31",
+			"version": "v2.1.0",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/config-expander.git",
-				"reference": "7335b55df0f67e3618e91f012f7dba221207ca06"
+				"reference": "5fd504829992caf3461ef2cd6515efbe5cb23db9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/config-expander/zipball/7335b55df0f67e3618e91f012f7dba221207ca06",
-				"reference": "7335b55df0f67e3618e91f012f7dba221207ca06",
+				"url": "https://api.github.com/repos/yardinternet/config-expander/zipball/5fd504829992caf3461ef2cd6515efbe5cb23db9",
+				"reference": "5fd504829992caf3461ef2cd6515efbe5cb23db9",
 				"shasum": ""
 			},
 			"require": {
@@ -3458,10 +3458,10 @@
 			"description": "Config Expander for WordPress",
 			"homepage": "https://www.yard.nl",
 			"support": {
-				"source": "https://github.com/yardinternet/config-expander/tree/v2.0.31",
+				"source": "https://github.com/yardinternet/config-expander/tree/v2.1.0",
 				"issues": "https://github.com/yardinternet/config-expander/issues"
 			},
-			"time": "2025-04-23T15:06:42+00:00"
+			"time": "2025-09-05T05:20:53+00:00"
 		},
 		{
 			"name": "plugin/formio-wordpress",
@@ -4094,16 +4094,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.7.1",
+			"version": "v2.7.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "b9daee51f1a69e40b02462b3280af55aeb7c81bd"
+				"reference": "88b5f0d940deb46c1acc62472cb191c6dec07040"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/b9daee51f1a69e40b02462b3280af55aeb7c81bd",
-				"reference": "b9daee51f1a69e40b02462b3280af55aeb7c81bd",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/88b5f0d940deb46c1acc62472cb191c6dec07040",
+				"reference": "88b5f0d940deb46c1acc62472cb191c6dec07040",
 				"shasum": ""
 			},
 			"require": {
@@ -4152,10 +4152,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.7.1",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.7.2",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-09-03T12:33:17+00:00"
+			"time": "2025-09-05T12:53:10+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
