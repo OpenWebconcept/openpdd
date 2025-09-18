@@ -47,7 +47,7 @@
 	$background,
 	$hover-background: darken( $background, 7% )
 ) {
-	background-color: $background;
+	background-color: $background !important;
 	color: color-yiq( $background );
 
 	@include hover-focus-active {
