@@ -2,6 +2,10 @@ h1 {
 	color: $green;
 }
 
-.wp-block-heading {
-	margin-top: 2rem;
+h2,
+h3,
+h4 {
+	&.wp-block-heading {
+		margin-top: 2rem;
+	}
 }
