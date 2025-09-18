@@ -41,3 +41,7 @@
 	height: 100px;
 	object-fit: cover;
 }
+
+.sr-only-focusable {
+	position: absolute !important;
+}
