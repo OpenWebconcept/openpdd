@@ -499,6 +499,7 @@ return [
             'self' => true,
             'unsafe-inline' => false,
             'report-sample' => true,
+            'unsafe-hashes' => true,
             'hashes' => [
                 'sha256' => [
                     '3UuDF/6R+P/jCtXN3hvX+5N9NBeKFWeT5sOSrYB9KZs=', // Gravity Forms inline style
