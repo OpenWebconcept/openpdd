@@ -238,7 +238,7 @@
 		"plugin/owc-gravityforms-zaaksysteem": "^2.7",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
-		"plugin/owc-signicat-openid": "^1.2.0",
+		"plugin/owc-signicat-openid": "dev-feat/signicat-update",
 		"plugin/prefill-gravity-forms": "dev-feat/pink-v2-implementation",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"privacybydesign/irma-wp": "@dev",
