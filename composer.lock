@@ -50,22 +50,22 @@
 		},
 		{
 			"name": "acato/openkaarten-base",
-			"version": "0.2.0",
+			"version": "0.2.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
-				"reference": "e90bd0c4e630632eef4d5981360ade2399fecc62"
+				"reference": "b768a7bcade59baa277df358080d70ee9b6d66dc"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/e90bd0c4e630632eef4d5981360ade2399fecc62",
-				"reference": "e90bd0c4e630632eef4d5981360ade2399fecc62",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/b768a7bcade59baa277df358080d70ee9b6d66dc",
+				"reference": "b768a7bcade59baa277df358080d70ee9b6d66dc",
 				"shasum": ""
 			},
 			"require": {
 				"acato-plugins/cmb2-flexible-content": "dev-master",
 				"acato/openkaarten-base-functions": "dev-master",
-				"composer/installers": "~1.0",
+				"composer/installers": "^1.0 || ^2.0",
 				"richardkorthuis/geophp": "dev-development",
 				"wpackagist-plugin/cmb2": "*"
 			},
@@ -85,10 +85,10 @@
 			],
 			"description": "Adds OpenKaarten to your WordPress website.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.0",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
 			},
-			"time": "2025-07-15T12:47:42+00:00"
+			"time": "2025-09-16T09:35:14+00:00"
 		},
 		{
 			"name": "acato/openkaarten-base-functions",
@@ -96,16 +96,16 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
-				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824"
+				"reference": "ccbb201403f6a28d79a668d55c22f564c688d6f4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/ba41e30cbc6beccc6e501f1824664cc6bc44c824",
-				"reference": "ba41e30cbc6beccc6e501f1824664cc6bc44c824",
+				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/ccbb201403f6a28d79a668d55c22f564c688d6f4",
+				"reference": "ccbb201403f6a28d79a668d55c22f564c688d6f4",
 				"shasum": ""
 			},
 			"require": {
-				"composer/installers": "~1.0"
+				"composer/installers": "^1.0 || ^2.0"
 			},
 			"require-dev": {
 				"acato/wp-pre-commit-hook": "*",
@@ -130,27 +130,27 @@
 			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
 			"homepage": "https://www.acato.nl",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.0",
+				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.1",
 				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
 			},
-			"time": "2024-12-05T11:21:46+00:00"
+			"time": "2025-09-22T08:07:54+00:00"
 		},
 		{
 			"name": "acato/openkaarten-frontend-plugin",
-			"version": "0.2.0",
+			"version": "0.2.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89"
+				"reference": "a52528ba4ec46416ec79a5a1e1145262586f3242"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/87e7a5701a8499d5cf58b1a2215f808be63c7b89",
-				"reference": "87e7a5701a8499d5cf58b1a2215f808be63c7b89",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/a52528ba4ec46416ec79a5a1e1145262586f3242",
+				"reference": "a52528ba4ec46416ec79a5a1e1145262586f3242",
 				"shasum": ""
 			},
 			"require": {
-				"composer/installers": "~1.0"
+				"composer/installers": "^1.0 || ^2.0"
 			},
 			"require-dev": {
 				"acato/wp-pre-commit-hook": "*",
@@ -160,10 +160,10 @@
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.0",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.1",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2025-07-15T12:49:26+00:00"
+			"time": "2025-09-22T08:09:56+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -3618,16 +3618,16 @@
 		},
 		{
 			"name": "plugin/owc-datab",
-			"version": "v1.2.1",
+			"version": "v1.2.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-datab.git",
-				"reference": "c584b799294c4810ecae585c62963e3fe662cd59"
+				"reference": "d978207081cf2b26dfab70e6d6f0064286cfc00a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/c584b799294c4810ecae585c62963e3fe662cd59",
-				"reference": "c584b799294c4810ecae585c62963e3fe662cd59",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/d978207081cf2b26dfab70e6d6f0064286cfc00a",
+				"reference": "d978207081cf2b26dfab70e6d6f0064286cfc00a",
 				"shasum": ""
 			},
 			"require": {
@@ -3675,10 +3675,10 @@
 			],
 			"description": "Retrieve personal documents via DataB for logged in users by DigiD",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.2.1",
+				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.2.2",
 				"issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
 			},
-			"time": "2025-02-10T11:13:56+00:00"
+			"time": "2025-09-26T09:30:33+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
@@ -7144,15 +7144,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/google-analytics-for-wordpress",
-			"version": "9.7.0",
+			"version": "9.8.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-				"reference": "tags/9.7.0"
+				"reference": "tags/9.8.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.7.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.8.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7270,15 +7270,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.5.0",
+			"version": "8.8.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.5.0"
+				"reference": "tags/8.8.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.5.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.8.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7595,11 +7595,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.5.0.1",
+			"version": "6.5.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.5.0.1",
-				"shasum": "93001100b15443d820965bc924f44f3b12673196"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.5.1",
+				"shasum": "e7e37f4ec65a6565211b8c60d41af21752e81ade"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7766,11 +7766,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.16.1",
+			"version": "2.9.18.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.16.1",
-				"shasum": "53e4d0b2a845bb3e3f19161552bbcb1deaa16f7b"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.18.1",
+				"shasum": "39c0e8e500245bd00b5610eafc37006063fd0ae0"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7899,11 +7899,11 @@
 		},
 		{
 			"name": "ypackagist/wp-migrate-db-pro",
-			"version": "2.7.4",
+			"version": "2.7.5",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/wp-migrate-db-pro/2.7.4",
-				"shasum": "160156334837978cb1d185f228b7ca474968cf42"
+				"url": "https://packagist.yard.nl/satispress/wp-migrate-db-pro/2.7.5",
+				"shasum": "2a9408566b680edf347996100e893a4b4e53b193"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7966,16 +7966,16 @@
 		},
 		{
 			"name": "antecedent/patchwork",
-			"version": "2.2.2",
+			"version": "2.2.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/antecedent/patchwork.git",
-				"reference": "724f03c777ddcc436ec2c8ecd4c97cdbceef8ab9"
+				"reference": "8b6b235f405af175259c8f56aea5fc23ab9f03ce"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/antecedent/patchwork/zipball/724f03c777ddcc436ec2c8ecd4c97cdbceef8ab9",
-				"reference": "724f03c777ddcc436ec2c8ecd4c97cdbceef8ab9",
+				"url": "https://api.github.com/repos/antecedent/patchwork/zipball/8b6b235f405af175259c8f56aea5fc23ab9f03ce",
+				"reference": "8b6b235f405af175259c8f56aea5fc23ab9f03ce",
 				"shasum": ""
 			},
 			"require": {
@@ -8008,9 +8008,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/antecedent/patchwork/issues",
-				"source": "https://github.com/antecedent/patchwork/tree/2.2.2"
+				"source": "https://github.com/antecedent/patchwork/tree/2.2.3"
 			},
-			"time": "2025-08-12T16:59:40+00:00"
+			"time": "2025-09-17T09:00:56+00:00"
 		},
 		{
 			"name": "clue/ndjson-react",
@@ -8661,16 +8661,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.87.1",
+			"version": "v3.88.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "2f5170365e2a422d0c5421f9c8818b2c078105f6"
+				"reference": "f23469674ae50d40e398bfff8018911a2a2b0dbe"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/2f5170365e2a422d0c5421f9c8818b2c078105f6",
-				"reference": "2f5170365e2a422d0c5421f9c8818b2c078105f6",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/f23469674ae50d40e398bfff8018911a2a2b0dbe",
+				"reference": "f23469674ae50d40e398bfff8018911a2a2b0dbe",
 				"shasum": ""
 			},
 			"require": {
@@ -8697,12 +8697,13 @@
 				"symfony/polyfill-mbstring": "^1.33",
 				"symfony/polyfill-php80": "^1.33",
 				"symfony/polyfill-php81": "^1.33",
+				"symfony/polyfill-php84": "^1.33",
 				"symfony/process": "^5.4.47 || ^6.4.24 || ^7.2",
 				"symfony/stopwatch": "^5.4.45 || ^6.4.24 || ^7.0"
 			},
 			"require-dev": {
 				"facile-it/paraunit": "^1.3.1 || ^2.7",
-				"infection/infection": "^0.29.14",
+				"infection/infection": "^0.31.0",
 				"justinrainbow/json-schema": "^6.5",
 				"keradus/cli-executor": "^2.2",
 				"mikey179/vfsstream": "^1.6.12",
@@ -8710,7 +8711,6 @@
 				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
 				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
 				"phpunit/phpunit": "^9.6.25 || ^10.5.53 || ^11.5.34",
-				"symfony/polyfill-php84": "^1.33",
 				"symfony/var-dumper": "^5.4.48 || ^6.4.24 || ^7.3.2",
 				"symfony/yaml": "^5.4.45 || ^6.4.24 || ^7.3.2"
 			},
@@ -8753,7 +8753,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.87.1"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.88.0"
 			},
 			"funding": [
 				{
@@ -8761,7 +8761,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-09-02T15:27:36+00:00"
+			"time": "2025-09-24T21:31:42+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -9454,16 +9454,16 @@
 		},
 		{
 			"name": "phpunit/phpunit",
-			"version": "9.6.25",
+			"version": "9.6.29",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/phpunit.git",
-				"reference": "049c011e01be805202d8eebedef49f769a8ec7b7"
+				"reference": "9ecfec57835a5581bc888ea7e13b51eb55ab9dd3"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/049c011e01be805202d8eebedef49f769a8ec7b7",
-				"reference": "049c011e01be805202d8eebedef49f769a8ec7b7",
+				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/9ecfec57835a5581bc888ea7e13b51eb55ab9dd3",
+				"reference": "9ecfec57835a5581bc888ea7e13b51eb55ab9dd3",
 				"shasum": ""
 			},
 			"require": {
@@ -9488,7 +9488,7 @@
 				"sebastian/comparator": "^4.0.9",
 				"sebastian/diff": "^4.0.6",
 				"sebastian/environment": "^5.1.5",
-				"sebastian/exporter": "^4.0.6",
+				"sebastian/exporter": "^4.0.8",
 				"sebastian/global-state": "^5.0.8",
 				"sebastian/object-enumerator": "^4.0.4",
 				"sebastian/resource-operations": "^3.0.4",
@@ -9537,7 +9537,7 @@
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/phpunit/issues",
 				"security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.25"
+				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.29"
 			},
 			"funding": [
 				{
@@ -9561,7 +9561,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-20T14:38:31+00:00"
+			"time": "2025-09-24T06:29:11+00:00"
 		},
 		{
 			"name": "pimple/pimple",
@@ -10633,16 +10633,16 @@
 		},
 		{
 			"name": "sebastian/exporter",
-			"version": "4.0.6",
+			"version": "4.0.8",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/exporter.git",
-				"reference": "78c00df8f170e02473b682df15bfcdacc3d32d72"
+				"reference": "14c6ba52f95a36c3d27c835d65efc7123c446e8c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/78c00df8f170e02473b682df15bfcdacc3d32d72",
-				"reference": "78c00df8f170e02473b682df15bfcdacc3d32d72",
+				"url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/14c6ba52f95a36c3d27c835d65efc7123c446e8c",
+				"reference": "14c6ba52f95a36c3d27c835d65efc7123c446e8c",
 				"shasum": ""
 			},
 			"require": {
@@ -10698,15 +10698,27 @@
 			],
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/exporter/issues",
-				"source": "https://github.com/sebastianbergmann/exporter/tree/4.0.6"
+				"source": "https://github.com/sebastianbergmann/exporter/tree/4.0.8"
 			},
 			"funding": [
 				{
 					"url": "https://github.com/sebastianbergmann",
 					"type": "github"
+				},
+				{
+					"url": "https://liberapay.com/sebastianbergmann",
+					"type": "liberapay"
+				},
+				{
+					"url": "https://thanks.dev/u/gh/sebastianbergmann",
+					"type": "thanks_dev"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/sebastian/exporter",
+					"type": "tidelift"
 				}
 			],
-			"time": "2024-03-02T06:33:00+00:00"
+			"time": "2025-09-24T06:03:27+00:00"
 		},
 		{
 			"name": "sebastian/global-state",
@@ -11819,6 +11831,86 @@
 				}
 			],
 			"time": "2024-09-09T11:45:10+00:00"
+		},
+		{
+			"name": "symfony/polyfill-php84",
+			"version": "v1.33.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/symfony/polyfill-php84.git",
+				"reference": "d8ced4d875142b6a7426000426b8abc631d6b191"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/symfony/polyfill-php84/zipball/d8ced4d875142b6a7426000426b8abc631d6b191",
+				"reference": "d8ced4d875142b6a7426000426b8abc631d6b191",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.2"
+			},
+			"type": "library",
+			"extra": {
+				"thanks": {
+					"url": "https://github.com/symfony/polyfill",
+					"name": "symfony/polyfill"
+				}
+			},
+			"autoload": {
+				"files": [
+					"bootstrap.php"
+				],
+				"psr-4": {
+					"Symfony\\Polyfill\\Php84\\": ""
+				},
+				"classmap": [
+					"Resources/stubs"
+				]
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Nicolas Grekas",
+					"email": "p@tchwork.com"
+				},
+				{
+					"name": "Symfony Community",
+					"homepage": "https://symfony.com/contributors"
+				}
+			],
+			"description": "Symfony polyfill backporting some PHP 8.4+ features to lower PHP versions",
+			"homepage": "https://symfony.com",
+			"keywords": [
+				"compatibility",
+				"polyfill",
+				"portable",
+				"shim"
+			],
+			"support": {
+				"source": "https://github.com/symfony/polyfill-php84/tree/v1.33.0"
+			},
+			"funding": [
+				{
+					"url": "https://symfony.com/sponsor",
+					"type": "custom"
+				},
+				{
+					"url": "https://github.com/fabpot",
+					"type": "github"
+				},
+				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+					"type": "tidelift"
+				}
+			],
+			"time": "2025-06-24T13:30:11+00:00"
 		},
 		{
 			"name": "symfony/process",
