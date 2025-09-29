@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "f35ac837b9a6dc0e386ea941a9e1a56b",
+	"content-hash": "b8b1ce5006b1dfe121316318dc6f9425",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3970,6 +3970,65 @@
 			"time": "2024-12-24T14:32:38+00:00"
 		},
 		{
+			"name": "plugin/owc-gravityforms-jcc-appointments",
+			"version": "dev-feat/configurable-activity-numbers",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
+				"reference": "7fe06f58e48022c3bab4f88aa7f276092b53230e"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/7fe06f58e48022c3bab4f88aa7f276092b53230e",
+				"reference": "7fe06f58e48022c3bab4f88aa7f276092b53230e",
+				"shasum": ""
+			},
+			"require": {
+				"php": "^7.4|^8.0"
+			},
+			"require-dev": {
+				"10up/wp_mock": "^0.5.0",
+				"friendsofphp/php-cs-fixer": "^3.0",
+				"phpunit/phpunit": "^9.0",
+				"symfony/var-dumper": "^5.1"
+			},
+			"type": "wordpress-plugin",
+			"autoload": {
+				"psr-4": {
+					"OWC\\Appointments\\": "./src/Appointments"
+				}
+			},
+			"autoload-dev": {
+				"psr-4": {
+					"OWC\\Appointments\\Tests\\": "./tests"
+				}
+			},
+			"scripts": {
+				"phpunit": [
+					"./vendor/bin/phpunit"
+				],
+				"test": [
+					"phpunit --testdox --colors=always --bootstrap='./tests/bootstrap.php' tests "
+				],
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				]
+			},
+			"authors": [
+				{
+					"name": "Yard | Digital Agency",
+					"email": "info@yard.nl",
+					"homepage": "https://www.yard.nl"
+				}
+			],
+			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
+			"support": {
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
+				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
+			},
+			"time": "2025-08-27T08:31:55+00:00"
+		},
+		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
 			"version": "v2.0.0",
 			"source": {
@@ -4194,16 +4253,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "v1.2.1",
+			"version": "v1.3.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8"
+				"reference": "cbae5cfab8999e37160d4d9bf1ddb865d554f651"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8",
-				"reference": "0f03ec4201e4fc9f47f0a6ab0efde18ad0b25df8",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/cbae5cfab8999e37160d4d9bf1ddb865d554f651",
+				"reference": "cbae5cfab8999e37160d4d9bf1ddb865d554f651",
 				"shasum": ""
 			},
 			"require": {
@@ -4252,10 +4311,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.2.1",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.3.0",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-08-28T13:42:39+00:00"
+			"time": "2025-09-29T10:42:47+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -8661,16 +8720,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.88.0",
+			"version": "v3.88.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "f23469674ae50d40e398bfff8018911a2a2b0dbe"
+				"reference": "a8d15584bafb0f0d9d938827840060fd4a3ebc99"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/f23469674ae50d40e398bfff8018911a2a2b0dbe",
-				"reference": "f23469674ae50d40e398bfff8018911a2a2b0dbe",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a8d15584bafb0f0d9d938827840060fd4a3ebc99",
+				"reference": "a8d15584bafb0f0d9d938827840060fd4a3ebc99",
 				"shasum": ""
 			},
 			"require": {
@@ -8753,7 +8812,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.88.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.88.2"
 			},
 			"funding": [
 				{
@@ -8761,7 +8820,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-09-24T21:31:42+00:00"
+			"time": "2025-09-27T00:24:15+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -12382,6 +12441,7 @@
 		"elastic/transport": 20,
 		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
+		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/yard-official-publications": 20,
 		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
