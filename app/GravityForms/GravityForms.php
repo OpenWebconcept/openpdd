@@ -11,6 +11,7 @@ class GravityForms
 
     public function register(): void
     {
+        add_filter('gform_field_content', [$this, 'disableReadSpeakerHiddenField'], 10, 5);
         add_action('pre_get_posts', [$this, 'handleLegacyForms']);
         add_filter('gform_form_theme_slug', [$this, 'setFormThemeSlug'], 10, 2);
         add_filter('gform_incomplete_submissions_expiration_days', fn () => self::INCOMPLETE_SUBMISSIONS_EXPIRATION_DAYS);
@@ -22,6 +23,19 @@ class GravityForms
 
         // Remove the encryption filter for merge tags so the data can be used in emails.
         remove_filter('gform_merge_tag_filter', 'gf_encryption_gform_merge_tag_filter', 10, 4);
+
+    }
+
+    /**
+     * Disable ReadSpeaker for hidden fields
+     */
+    public function disableReadSpeakerHiddenField(string $content, GF_Field $field, $value, int $lead_id, int $form_id): string
+    {
+        if ('hidden' === $field->type) {
+            $content = str_replace('<input', '<input class="rs_skip"', $content);
+        }
+
+        return $content;
     }
 
     /**
