@@ -11,7 +11,7 @@ class GravityForms
 
     public function register(): void
     {
-        add_filter('gform_field_content', [$this, 'disableReadSpeakerHiddenField'], 10, 5);
+        add_filter('gform_get_form_filter', [$this, 'disableReadSpeakerHiddenField'], 10, 2);
         add_action('pre_get_posts', [$this, 'handleLegacyForms']);
         add_filter('gform_form_theme_slug', [$this, 'setFormThemeSlug'], 10, 2);
         add_filter('gform_incomplete_submissions_expiration_days', fn () => self::INCOMPLETE_SUBMISSIONS_EXPIRATION_DAYS);
@@ -29,13 +29,13 @@ class GravityForms
     /**
      * Disable ReadSpeaker for hidden fields
      */
-    public function disableReadSpeakerHiddenField(string $content, GF_Field $field, $value, int $lead_id, int $form_id): string
+    public function disableReadSpeakerHiddenField(string $formString, array $form): string
     {
-        if ('hidden' === $field->type) {
-            $content = str_replace('<input', '<input class="rs_skip"', $content);
-        }
+        $formString = str_replace('gfield--type-hidden', 'gfield--type-hidden rs_skip', $formString);
+        $formString = str_replace('d-none', 'd-none rs_skip', $formString);
+        $formString = str_replace('gfield--type-honeypot', 'gfield--type-honeypot rs_skip', $formString);
 
-        return $content;
+        return $formString;
     }
 
     /**
