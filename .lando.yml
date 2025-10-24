@@ -25,6 +25,7 @@ proxy:
         - mijnportaal.gouda.lndo.site
         - mijn.defryskemarren.lndo.site
         - mijn.gorinchem.lndo.site
+        - mijn.noordwijk.lndo.site
     mailhog:
         - mail.openpdd.lndo.site
     pma:
