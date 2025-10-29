@@ -54,6 +54,9 @@ define('BLOG_ID_CURRENT_SITE', 1);
 # Sentry
 define('WP_SENTRY_PHP_DSN', env('WP_SENTRY_PHP_DSN'));
 
+# Prefill Gravity Forms Cache Encryption Key
+define('PG_CACHE_ENCRYPTION_KEY', env('PG_CACHE_ENCRYPTION_KEY', ''));
+
 # Gravity Forms
 define('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', env('CROSSPEAK_GRAVITYFORMS_ENCRYPTION_KEY', ''));
 
