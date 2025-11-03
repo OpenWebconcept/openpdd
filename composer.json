@@ -195,7 +195,7 @@
 		"plugin/owc-gravityforms-eidas": "^1.0.2",
 		"plugin/owc-gravityforms-jcc-appointments": "dev-feat/configurable-activity-numbers",
 		"plugin/owc-gravityforms-kvk-prefill": "^2.0",
-		"plugin/owc-gravityforms-zaaksysteem": "^2.7",
+		"plugin/owc-gravityforms-zaaksysteem": "^2.9",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.3.*",

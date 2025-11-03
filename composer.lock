@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "b8b1ce5006b1dfe121316318dc6f9425",
+	"content-hash": "bfd7a2691b895a35f6a4e38982e39694",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -3976,12 +3976,12 @@
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-				"reference": "7fe06f58e48022c3bab4f88aa7f276092b53230e"
+				"reference": "1f8dfd3f92ae98859cdddf496ce89e3bb9c5f1bd"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/7fe06f58e48022c3bab4f88aa7f276092b53230e",
-				"reference": "7fe06f58e48022c3bab4f88aa7f276092b53230e",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1f8dfd3f92ae98859cdddf496ce89e3bb9c5f1bd",
+				"reference": "1f8dfd3f92ae98859cdddf496ce89e3bb9c5f1bd",
 				"shasum": ""
 			},
 			"require": {
@@ -4027,7 +4027,7 @@
 				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
 			},
-			"time": "2025-08-27T08:31:55+00:00"
+			"time": "2025-10-29T12:16:00+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
@@ -4095,16 +4095,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "v2.8.0",
+			"version": "v2.9.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "4a3690427f1ac0d44706d0a0faf8b23994e2d27c"
+				"reference": "2310c84d9477b0d3e49d1af42b9f138009af4d7d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/4a3690427f1ac0d44706d0a0faf8b23994e2d27c",
-				"reference": "4a3690427f1ac0d44706d0a0faf8b23994e2d27c",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/2310c84d9477b0d3e49d1af42b9f138009af4d7d",
+				"reference": "2310c84d9477b0d3e49d1af42b9f138009af4d7d",
 				"shasum": ""
 			},
 			"require": {
@@ -4153,10 +4153,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.8.0",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.9.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-10-23T09:05:26+00:00"
+			"time": "2025-11-03T09:45:59+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4254,16 +4254,16 @@
 		},
 		{
 			"name": "plugin/owc-signicat-openid",
-			"version": "v1.3.0",
+			"version": "v1.3.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/plugin-owc-signicat-openid.git",
-				"reference": "cbae5cfab8999e37160d4d9bf1ddb865d554f651"
+				"reference": "de67355d9bb9eabb07f64dc9e4ca83ff32b152b8"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/cbae5cfab8999e37160d4d9bf1ddb865d554f651",
-				"reference": "cbae5cfab8999e37160d4d9bf1ddb865d554f651",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-signicat-openid/zipball/de67355d9bb9eabb07f64dc9e4ca83ff32b152b8",
+				"reference": "de67355d9bb9eabb07f64dc9e4ca83ff32b152b8",
 				"shasum": ""
 			},
 			"require": {
@@ -4312,10 +4312,10 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.3.0",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.3.2",
 				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
 			},
-			"time": "2025-09-29T10:42:47+00:00"
+			"time": "2025-10-30T12:48:32+00:00"
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
@@ -7168,15 +7168,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.19.3",
+			"version": "6.19.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.19.3"
+				"reference": "tags/6.19.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.3.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7826,11 +7826,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.19",
+			"version": "2.9.20.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.19",
-				"shasum": "b6076d5ca4b43ad18f28d7bf49d658a44be014ae"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.20.1",
+				"shasum": "8b265793c45bebcc220e8f0a30422307dc87b93d"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8721,16 +8721,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.89.0",
+			"version": "v3.89.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "4dd6768cb7558440d27d18f54909eee417317ce9"
+				"reference": "f34967da2866ace090a2b447de1f357356474573"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/4dd6768cb7558440d27d18f54909eee417317ce9",
-				"reference": "4dd6768cb7558440d27d18f54909eee417317ce9",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/f34967da2866ace090a2b447de1f357356474573",
+				"reference": "f34967da2866ace090a2b447de1f357356474573",
 				"shasum": ""
 			},
 			"require": {
@@ -8812,7 +8812,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.89.0"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.89.1"
 			},
 			"funding": [
 				{
@@ -8820,7 +8820,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-10-18T19:30:16+00:00"
+			"time": "2025-10-24T12:05:10+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
