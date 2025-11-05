@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "bfd7a2691b895a35f6a4e38982e39694",
+	"content-hash": "1cd161fb7287af26e1aca88015e6bd6f",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -4319,16 +4319,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.7.10",
+			"version": "v1.8.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "2f4882a0c0d7e5cb901de42335bf8d248a0adb95"
+				"reference": "9fae22c37a3a56177e5ea9feb01b938a80093471"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/2f4882a0c0d7e5cb901de42335bf8d248a0adb95",
-				"reference": "2f4882a0c0d7e5cb901de42335bf8d248a0adb95",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/9fae22c37a3a56177e5ea9feb01b938a80093471",
+				"reference": "9fae22c37a3a56177e5ea9feb01b938a80093471",
 				"shasum": ""
 			},
 			"require": {
@@ -4375,10 +4375,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.7.10",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.8.0",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-09-08T11:52:35+00:00"
+			"time": "2025-11-05T13:54:06+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
