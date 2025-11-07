@@ -4,9 +4,10 @@ $block: 'digid';
 	display: flex;
 	flex-wrap: nowrap;
 	align-items: center;
+	padding: 0.5rem;
 	border-radius: 14px;
 	border-bottom: 0 !important;
-	gap: 1.5rem;
+	gap: 1rem;
 	text-decoration: none;
 
 	@include hover-focus-active {
@@ -22,10 +23,17 @@ $block: 'digid';
 	}
 
 	&__text {
+		padding-left: 0 !important;
 		color: $body-color;
 	}
 
 	&__title {
 		font-weight: $font-weight-bold;
+		line-height: $line-height-sm;
+	}
+
+	&__subtitle {
+		font-size: $small-font-size;
+		line-height: $line-height-sm;
 	}
 }
