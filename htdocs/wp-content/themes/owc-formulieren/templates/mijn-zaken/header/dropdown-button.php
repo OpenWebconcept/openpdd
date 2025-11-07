@@ -6,7 +6,7 @@ $home_config = load_config('home.php');
 
 if (method_exists('OWC\PrefillGravityForms\Helpers', 'currentUserHasBSN') && OWC\PrefillGravityForms\Helpers::currentUserHasBSN()) : ?>
     <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle white-space-nowrap" aria-expanded="false" aria-haspopup="true">
+        <button class="btn btn-primary dropdown-toggle white-space-nowrap d-flex align-items-center justify-content-between gap-1" aria-expanded="false" aria-haspopup="true">
 			<?php if (is_active_sidebar('dropdown-header-menu-widget')) : ?>
 				<?php dynamic_sidebar('dropdown-header-menu-widget'); ?>
 			<?php endif; ?>
