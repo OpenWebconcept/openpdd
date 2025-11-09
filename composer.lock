@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1cd161fb7287af26e1aca88015e6bd6f",
+    "content-hash": "b0d09b9832a63d180689cab68f710242",
     "packages": [
         {
             "name": "acato-plugins/cmb2-flexible-content",
@@ -3755,16 +3755,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-digid",
-            "version": "v1.7.0",
+            "version": "v1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yardinternet/owc-gravityforms-digid.git",
-                "reference": "2aa0852202e7e802c036ece87eea551da4de25d1"
+                "reference": "0925adecb376d3846cba74e73d2722a0108fa565"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/2aa0852202e7e802c036ece87eea551da4de25d1",
-                "reference": "2aa0852202e7e802c036ece87eea551da4de25d1",
+                "url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/0925adecb376d3846cba74e73d2722a0108fa565",
+                "reference": "0925adecb376d3846cba74e73d2722a0108fa565",
                 "shasum": ""
             },
             "require": {
@@ -3821,10 +3821,10 @@
             ],
             "description": "Add a DigiD login field to GravityForms",
             "support": {
-                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.7.0",
+                "source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.7.1",
                 "issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
             },
-            "time": "2025-02-27T10:04:14+00:00"
+            "time": "2025-11-07T13:07:01+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-eherkenning",
@@ -12437,21 +12437,21 @@
     "stability-flags": {
         "acato-plugins/cmb2-flexible-content": 20,
         "acato/openkaarten-base-functions": 20,
-        "deployer/recipes": 20,
         "elastic/transport": 20,
         "elasticsearch/elasticsearch": 20,
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-jcc-appointments": 20,
         "plugin/yard-official-publications": 20,
         "privacybydesign/irma-wp": 20,
-        "richardkorthuis/geophp": 20
+        "richardkorthuis/geophp": 20,
+        "deployer/recipes": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "<8.0"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "7.4"
     },
