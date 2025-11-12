@@ -3,10 +3,6 @@ get_header();
 
 ?>
 <main class="page-main">
-	<div class="container">
-		<h2>Storing DigiD</h2>
-		<p>Er is momenteel een storing bij DigiD waardoor inloggen met DigiD niet mogelijk is. Onze excuses voor het ongemak. Probeer het later nogmaals.</p>
-	</div>
     <div class="page-container | container bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
         <?php while (have_posts()) : the_post(); ?>
         <header class="page-header | d-flex flex-column pb-3">
