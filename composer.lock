@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0d09b9832a63d180689cab68f710242",
+    "content-hash": "cb655edeb463461a6efe32a6dd546ac0",
     "packages": [
         {
             "name": "acato-plugins/cmb2-flexible-content",
@@ -3976,12 +3976,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-                "reference": "1f8dfd3f92ae98859cdddf496ce89e3bb9c5f1bd"
+                "reference": "9ff951f1e6b6606244dcdb9dab82c10f6a5e9054"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/1f8dfd3f92ae98859cdddf496ce89e3bb9c5f1bd",
-                "reference": "1f8dfd3f92ae98859cdddf496ce89e3bb9c5f1bd",
+                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/9ff951f1e6b6606244dcdb9dab82c10f6a5e9054",
+                "reference": "9ff951f1e6b6606244dcdb9dab82c10f6a5e9054",
                 "shasum": ""
             },
             "require": {
@@ -4012,7 +4012,7 @@
                     "phpunit --testdox --colors=always --bootstrap='./tests/bootstrap.php' tests "
                 ],
                 "format": [
-                    "vendor/bin/php-cs-fixer fix"
+                    "vendor/bin/php-cs-fixer fix --allow-risky=yes"
                 ]
             },
             "authors": [
@@ -4027,7 +4027,7 @@
                 "source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
                 "issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
             },
-            "time": "2025-10-29T12:16:00+00:00"
+            "time": "2025-11-04T15:22:45+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
@@ -5612,16 +5612,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.4.48",
+            "version": "v5.4.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "3f38b8af283b830e1363acd79e5bc3412d055341"
+                "reference": "1a0706e8b8041046052ea2695eb8aeee04f97609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3f38b8af283b830e1363acd79e5bc3412d055341",
-                "reference": "3f38b8af283b830e1363acd79e5bc3412d055341",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1a0706e8b8041046052ea2695eb8aeee04f97609",
+                "reference": "1a0706e8b8041046052ea2695eb8aeee04f97609",
                 "shasum": ""
             },
             "require": {
@@ -5668,7 +5668,7 @@
             "description": "Defines an object-oriented layer for the HTTP specification",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-foundation/tree/v5.4.48"
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.50"
             },
             "funding": [
                 {
@@ -5680,11 +5680,15 @@
                     "type": "github"
                 },
                 {
+                    "url": "https://github.com/nicolas-grekas",
+                    "type": "github"
+                },
+                {
                     "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-13T18:58:02+00:00"
+            "time": "2025-11-03T12:58:48+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -7294,15 +7298,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "8.1.1",
+            "version": "8.1.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/8.1.1"
+                "reference": "tags/8.1.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.8.1.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordfence.8.1.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7330,15 +7334,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-sentry-integration",
-            "version": "8.9.0",
+            "version": "8.10.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-                "reference": "tags/8.9.0"
+                "reference": "tags/8.10.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.9.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.10.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7826,11 +7830,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.9.20.1",
+            "version": "2.9.21.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.9.20.1",
-                "shasum": "8b265793c45bebcc220e8f0a30422307dc87b93d"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.9.21.1",
+                "shasum": "a212e995b8eb58f5ee3951b82dfee84c3cdb3773"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -9624,16 +9628,16 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.5.0",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
+                "reference": "a70f552d338f9266eec6606c1f0b324da5514c96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
-                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a70f552d338f9266eec6606c1f0b324da5514c96",
+                "reference": "a70f552d338f9266eec6606c1f0b324da5514c96",
                 "shasum": ""
             },
             "require": {
@@ -9641,7 +9645,7 @@
                 "psr/container": "^1.1 || ^2.0"
             },
             "require-dev": {
-                "symfony/phpunit-bridge": "^5.4@dev"
+                "phpunit/phpunit": "*"
             },
             "type": "library",
             "extra": {
@@ -9671,9 +9675,9 @@
                 "dependency injection"
             ],
             "support": {
-                "source": "https://github.com/silexphp/Pimple/tree/v3.5.0"
+                "source": "https://github.com/silexphp/Pimple/tree/v3.6.0"
             },
-            "time": "2021-10-28T11:13:42+00:00"
+            "time": "2025-11-12T12:31:38+00:00"
         },
         {
             "name": "psr/event-dispatcher",
@@ -12437,21 +12441,21 @@
     "stability-flags": {
         "acato-plugins/cmb2-flexible-content": 20,
         "acato/openkaarten-base-functions": 20,
+        "deployer/recipes": 20,
         "elastic/transport": 20,
         "elasticsearch/elasticsearch": 20,
         "plugin/formio-wordpress": 20,
         "plugin/owc-gravityforms-jcc-appointments": 20,
         "plugin/yard-official-publications": 20,
         "privacybydesign/irma-wp": 20,
-        "richardkorthuis/geophp": 20,
-        "deployer/recipes": 20
+        "richardkorthuis/geophp": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
         "php": "<8.0"
     },
-    "platform-dev": [],
+    "platform-dev": {},
     "platform-overrides": {
         "php": "7.4"
     },
