@@ -84,6 +84,10 @@ class Sidebar
 
     private function getMenuItemIcon($item): ?array
     {
+		if(! function_exists('get_field')) {
+			return null;
+		}
+
         $fieldIcon = get_field(self::ACF_FIELD_FONTAWESOME_ICON, $item);
         if (! empty($fieldIcon)) {
             return ['type' => self::ICON_TYPE_FONTAWESOME, 'icon' => esc_attr($fieldIcon)];
