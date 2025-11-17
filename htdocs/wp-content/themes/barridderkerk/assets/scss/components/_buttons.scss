@@ -15,3 +15,7 @@
 	@include button;
 	@include button-color( theme-color( 'secondary' ) );
 }
+
+.owc-signicat-openid__button {
+	@include button-color( theme-color( 'secondary' ) );
+}
