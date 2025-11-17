@@ -1,3 +1,8 @@
 $navbar-height: 110px;
 $navbar-height-desktop: 110px;
-$navbar-shadow: $box-shadow;
+$navbar-shadow:
+	0 1px 1px 0 rgba( 40, 44, 53, 0.08 ),
+	0 2px 2px 0 rgba( 40, 44, 53, 0.05 );
+
+$mijn-zaken-footer-bg-color: #fff;
+$mijn-zaken-footer-color: #000;

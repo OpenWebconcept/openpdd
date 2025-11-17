@@ -1,0 +1,17 @@
+.wp-block-button__link {
+	@include button;
+	@include button-color( theme-color( 'secondary' ) );
+
+	&.has-primary-background-color {
+		@include button-color( theme-color( 'secondary' ) );
+	}
+
+	&.has-secondary-background-color {
+		@include button-color( theme-color( 'secondary' ) );
+	}
+}
+
+.btn.btn-primary {
+	@include button;
+	@include button-color( theme-color( 'secondary' ) );
+}

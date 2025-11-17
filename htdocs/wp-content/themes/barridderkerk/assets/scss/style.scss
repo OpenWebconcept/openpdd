@@ -13,9 +13,13 @@
 /*--------------------------------------------------------------
   Components
 --------------------------------------------------------------*/
+@import 'components/custom-logo';
+@import 'components/buttons';
+@import 'components/footer';
 @import 'components/navbar';
 
 /*--------------------------------------------------------------
   Generic
 --------------------------------------------------------------*/
 @import 'generic/typography';
+@import 'generic/headings';

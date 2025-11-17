@@ -1,0 +1,12 @@
+/* Custom logo is defined by WordPress */
+.custom-logo {
+	max-width: 175px;
+	max-height: 130px;
+	margin-bottom: -2.5rem;
+
+	@include media-breakpoint-up( lg ) {
+		max-width: 260px;
+		max-height: 130px;
+		margin-bottom: -2.5rem;
+	}
+}

@@ -3,7 +3,7 @@
 /*--------------------------------------------------------------
   Fonts
 --------------------------------------------------------------*/
-$font-size-base: 1.063rem; // 17px
+$font-size-base: 1rem;
 $font-family-sans-serif:
 	-apple-system,
 	BlinkMacSystemFont,
@@ -15,7 +15,7 @@ $font-family-sans-serif:
 	'Apple Color Emoji',
 	'Segoe UI Emoji',
 	'Segoe UI Symbol';
-$font-family-base: 'Lato', $font-family-sans-serif;
+$font-family-base: 'Open Sans', $font-family-sans-serif;
 $font-weight-base: 400;
 $line-height-base: 1.7;
 $enable-responsive-font-sizes: true;
@@ -52,6 +52,7 @@ $h5-font-size: $font-size-base * 1.1;
 $h6-font-size: $font-size-base;
 
 $headings-color: theme-color( 'primary' );
+$headings-font-family: 'Jost';
 $headings-margin-bottom: 0.6rem;
 $headings-font-weight: 700;
 
@@ -67,7 +68,7 @@ $border-radius-lg: 0;
 $btn-padding-y: 0.7rem;
 $btn-padding-x: 1.2rem;
 $btn-border-width: 0;
-$btn-border-radius: $border-radius;
+$btn-border-radius: 5px;
 $btn-font-weight: 700;
 $btn-box-shadow: none;
 
