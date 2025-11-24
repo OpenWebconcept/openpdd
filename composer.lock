@@ -96,12 +96,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
-                "reference": "ccbb201403f6a28d79a668d55c22f564c688d6f4"
+                "reference": "83f3dbf51f8891efd7b77d536d6f371b7bd368d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/ccbb201403f6a28d79a668d55c22f564c688d6f4",
-                "reference": "ccbb201403f6a28d79a668d55c22f564c688d6f4",
+                "url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/83f3dbf51f8891efd7b77d536d6f371b7bd368d6",
+                "reference": "83f3dbf51f8891efd7b77d536d6f371b7bd368d6",
                 "shasum": ""
             },
             "require": {
@@ -130,10 +130,10 @@
             "description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
             "homepage": "https://www.acato.nl",
             "support": {
-                "source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.1",
+                "source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.2",
                 "issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
             },
-            "time": "2025-09-22T08:07:54+00:00"
+            "time": "2025-11-21T11:57:06+00:00"
         },
         {
             "name": "acato/openkaarten-frontend-plugin",
@@ -3976,12 +3976,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git",
-                "reference": "77c2492f88fe9231ccf3c63204ee08ea765cd6ff"
+                "reference": "99dade5fb68342dee6c6ee8da922f84881d410f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/77c2492f88fe9231ccf3c63204ee08ea765cd6ff",
-                "reference": "77c2492f88fe9231ccf3c63204ee08ea765cd6ff",
+                "url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-jcc-appointments/zipball/99dade5fb68342dee6c6ee8da922f84881d410f8",
+                "reference": "99dade5fb68342dee6c6ee8da922f84881d410f8",
                 "shasum": ""
             },
             "require": {
@@ -4027,7 +4027,7 @@
                 "source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
                 "issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
             },
-            "time": "2025-11-21T06:57:01+00:00"
+            "time": "2025-11-26T13:12:46+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-kvk-prefill",
@@ -7659,11 +7659,11 @@
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
-            "version": "6.5.1",
+            "version": "6.6.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.5.1",
-                "shasum": "e7e37f4ec65a6565211b8c60d41af21752e81ade"
+                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.6.2",
+                "shasum": "f8e28462f27c109ccd80af960e63560aaa0545fd"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7830,11 +7830,11 @@
         },
         {
             "name": "ypackagist/gravityforms",
-            "version": "2.9.21.1",
+            "version": "2.9.23",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravityforms/2.9.21.1",
-                "shasum": "a212e995b8eb58f5ee3951b82dfee84c3cdb3773"
+                "url": "https://packagist.yard.nl/satispress/gravityforms/2.9.23",
+                "shasum": "5058eb1b40b8fbca40667908df91b0700ee8f150"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
