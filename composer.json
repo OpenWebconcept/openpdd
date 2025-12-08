@@ -235,7 +235,7 @@
 		"plugin/owc-gravityforms-eidas": "^1.0.2",
 		"plugin/owc-gravityforms-jcc-appointments": "dev-refactor/support-conditional-logic",
 		"plugin/owc-gravityforms-kvk-prefill": "^2.0",
-		"plugin/owc-gravityforms-zaaksysteem": "dev-temp/openwave-temp-solutions-for-testing",
+		"plugin/owc-gravityforms-zaaksysteem": "dev-feat/implement-kvk-usage",
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "^1.3",
