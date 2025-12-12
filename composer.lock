@@ -3559,16 +3559,16 @@
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
-            "version": "v0.1.0",
+            "version": "v0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
-                "reference": "755c9de3ad46e0aa1e7ea21b6876419eed913c10"
+                "reference": "33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/755c9de3ad46e0aa1e7ea21b6876419eed913c10",
-                "reference": "755c9de3ad46e0aa1e7ea21b6876419eed913c10",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555",
+                "reference": "33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555",
                 "shasum": ""
             },
             "require": {
@@ -3603,6 +3603,9 @@
                     "./vendor/bin/phpstan analyse"
                 ]
             },
+            "license": [
+                "EUPL-1.2"
+            ],
             "authors": [
                 {
                     "name": "Yard | Digital Agency",
@@ -3612,10 +3615,10 @@
             ],
             "description": "Fixes GravityForms plugin so it is CSP compliant.",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.0",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.1",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
             },
-            "time": "2025-07-28T08:52:54+00:00"
+            "time": "2025-12-12T13:02:54+00:00"
         },
         {
             "name": "plugin/owc-datab",
@@ -5180,16 +5183,16 @@
         },
         {
             "name": "robrichards/xmlseclibs",
-            "version": "3.1.3",
+            "version": "3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robrichards/xmlseclibs.git",
-                "reference": "2bdfd742624d739dfadbd415f00181b4a77aaf07"
+                "reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/2bdfd742624d739dfadbd415f00181b4a77aaf07",
-                "reference": "2bdfd742624d739dfadbd415f00181b4a77aaf07",
+                "url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/bc87389224c6de95802b505e5265b0ec2c5bcdbd",
+                "reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd",
                 "shasum": ""
             },
             "require": {
@@ -5216,9 +5219,9 @@
             ],
             "support": {
                 "issues": "https://github.com/robrichards/xmlseclibs/issues",
-                "source": "https://github.com/robrichards/xmlseclibs/tree/3.1.3"
+                "source": "https://github.com/robrichards/xmlseclibs/tree/3.1.4"
             },
-            "time": "2024-11-20T21:13:56+00:00"
+            "time": "2025-12-08T11:57:53+00:00"
         },
         {
             "name": "spomky-labs/base64url",
@@ -7208,15 +7211,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "9.10.0",
+            "version": "9.10.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/9.10.0"
+                "reference": "tags/9.10.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.10.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.10.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7234,7 +7237,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/onelogin-saml-sso.zip?timestamp=1644012546"
+                "url": "https://downloads.wordpress.org/plugin/onelogin-saml-sso.zip?timestamp=1765320934"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7280,15 +7283,15 @@
         },
         {
             "name": "wpackagist-plugin/user-switching",
-            "version": "1.11.0",
+            "version": "1.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/user-switching/",
-                "reference": "tags/1.11.0"
+                "reference": "tags/1.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/user-switching.1.11.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.11.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7298,15 +7301,15 @@
         },
         {
             "name": "wpackagist-plugin/wordfence",
-            "version": "8.1.2",
+            "version": "8.1.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordfence/",
-                "reference": "tags/8.1.2"
+                "reference": "tags/8.1.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordfence.8.1.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordfence.8.1.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7659,11 +7662,11 @@
         },
         {
             "name": "ypackagist/advanced-custom-fields-pro",
-            "version": "6.6.2",
+            "version": "6.7.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.6.2",
-                "shasum": "f8e28462f27c109ccd80af960e63560aaa0545fd"
+                "url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.7.0",
+                "shasum": "2184d60f681dcea462c3cad9416f55edcf3d88aa"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -7811,11 +7814,11 @@
         },
         {
             "name": "ypackagist/gravity-pdf",
-            "version": "6.13.4",
+            "version": "6.14.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gravity-pdf/6.13.4",
-                "shasum": "0940ac66325501e40ed96b0cd46fb61df5191a29"
+                "url": "https://packagist.yard.nl/satispress/gravity-pdf/6.14.0",
+                "shasum": "e8fa49409fff5c512d3a708e71b9b3d75011c98d"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8725,16 +8728,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.91.2",
+            "version": "v3.92.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "f171dc216bc8a4192d5a0876a899cce6f9e379d6"
+                "reference": "5646c2cd99b7cb4b658ff681fe27069ba86c7280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/f171dc216bc8a4192d5a0876a899cce6f9e379d6",
-                "reference": "f171dc216bc8a4192d5a0876a899cce6f9e379d6",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/5646c2cd99b7cb4b658ff681fe27069ba86c7280",
+                "reference": "5646c2cd99b7cb4b658ff681fe27069ba86c7280",
                 "shasum": ""
             },
             "require": {
@@ -8816,7 +8819,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.91.2"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.92.0"
             },
             "funding": [
                 {
@@ -8824,7 +8827,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-12-01T20:56:13+00:00"
+            "time": "2025-12-12T10:29:19+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9022,16 +9025,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.6.2",
+            "version": "v5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "3a454ca033b9e06b63282ce19562e892747449bb"
+                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/3a454ca033b9e06b63282ce19562e892747449bb",
-                "reference": "3a454ca033b9e06b63282ce19562e892747449bb",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/dca41cd15c2ac9d055ad70dbfd011130757d1f82",
+                "reference": "dca41cd15c2ac9d055ad70dbfd011130757d1f82",
                 "shasum": ""
             },
             "require": {
@@ -9074,9 +9077,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.6.2"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.7.0"
             },
-            "time": "2025-10-21T19:32:17+00:00"
+            "time": "2025-12-06T11:56:16+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -9517,16 +9520,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.6.30",
+            "version": "9.6.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "b69489b312503bf8fa6d75a76916919d7d2fa6d4"
+                "reference": "945d0b7f346a084ce5549e95289962972c4272e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b69489b312503bf8fa6d75a76916919d7d2fa6d4",
-                "reference": "b69489b312503bf8fa6d75a76916919d7d2fa6d4",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/945d0b7f346a084ce5549e95289962972c4272e5",
+                "reference": "945d0b7f346a084ce5549e95289962972c4272e5",
                 "shasum": ""
             },
             "require": {
@@ -9600,7 +9603,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.30"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.31"
             },
             "funding": [
                 {
@@ -9624,7 +9627,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-12-01T07:35:08+00:00"
+            "time": "2025-12-06T07:45:52+00:00"
         },
         {
             "name": "pimple/pimple",
@@ -12401,15 +12404,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.20.0",
+            "version": "3.20.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.20.0"
+                "reference": "tags/3.20.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
