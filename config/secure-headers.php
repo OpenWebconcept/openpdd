@@ -503,6 +503,8 @@ return [
             'hashes' => [
                 'sha256' => [
                     'a4ayc/80/OGda4BO/1o/V0etpOqiLx1JwB5S3beHW0s=', // Gravity Forms inline style
+                    'f2T28NtjZ1kuK7KSVCYjKYSAJ1iSgNPLi/DvGUS7CjU=', // Gravity Forms inline style
+                    'X+zrZv/IbzjZUnhsbWlsecLbwjndTpG0ZynXOif7V+k=', // Gravity Forms inline style
                 ],
             ],
         ],
