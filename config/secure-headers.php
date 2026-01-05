@@ -502,7 +502,7 @@ return [
             'unsafe-hashes' => true,
             'hashes' => [
                 'sha256' => [
-                    '3UuDF/6R+P/jCtXN3hvX+5N9NBeKFWeT5sOSrYB9KZs=', // Gravity Forms inline style
+                    'a4ayc/80/OGda4BO/1o/V0etpOqiLx1JwB5S3beHW0s=', // Gravity Forms inline style
                 ],
             ],
         ],
