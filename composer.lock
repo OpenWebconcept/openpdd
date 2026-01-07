@@ -4098,16 +4098,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "v2.9.0",
+            "version": "v2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "2310c84d9477b0d3e49d1af42b9f138009af4d7d"
+                "reference": "2f7728ef3e6a232c1360f52b4a434d51829fc923"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/2310c84d9477b0d3e49d1af42b9f138009af4d7d",
-                "reference": "2310c84d9477b0d3e49d1af42b9f138009af4d7d",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/2f7728ef3e6a232c1360f52b4a434d51829fc923",
+                "reference": "2f7728ef3e6a232c1360f52b4a434d51829fc923",
                 "shasum": ""
             },
             "require": {
@@ -4156,10 +4156,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.9.0",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.9.1",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2025-11-03T09:45:59+00:00"
+            "time": "2026-01-07T09:22:30+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -7211,15 +7211,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "9.11.0",
+            "version": "9.11.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "tags/9.11.0"
+                "reference": "tags/9.11.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.11.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.11.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -12463,5 +12463,5 @@
     "platform-overrides": {
         "php": "7.4"
     },
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }
