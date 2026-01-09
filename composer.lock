@@ -50,16 +50,16 @@
         },
         {
             "name": "acato/openkaarten-base",
-            "version": "0.2.4",
+            "version": "0.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
-                "reference": "bc541ffdf8999dcfb6bf99ba676898797bf03bf2"
+                "reference": "85cfc203dc2b4df2dcac5b6df0ee780e67fbd21e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/bc541ffdf8999dcfb6bf99ba676898797bf03bf2",
-                "reference": "bc541ffdf8999dcfb6bf99ba676898797bf03bf2",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/85cfc203dc2b4df2dcac5b6df0ee780e67fbd21e",
+                "reference": "85cfc203dc2b4df2dcac5b6df0ee780e67fbd21e",
                 "shasum": ""
             },
             "require": {
@@ -85,10 +85,10 @@
             ],
             "description": "Adds OpenKaarten to your WordPress website.",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.4",
+                "source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.6",
                 "issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
             },
-            "time": "2025-11-18T11:22:09+00:00"
+            "time": "2026-01-08T14:28:59+00:00"
         },
         {
             "name": "acato/openkaarten-base-functions",
@@ -137,16 +137,16 @@
         },
         {
             "name": "acato/openkaarten-frontend-plugin",
-            "version": "0.2.4",
+            "version": "0.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-                "reference": "531b51ce858122c6d42dc1f343ea41641ee7463e"
+                "reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/531b51ce858122c6d42dc1f343ea41641ee7463e",
-                "reference": "531b51ce858122c6d42dc1f343ea41641ee7463e",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/3d52c02daae816177dbfc3dafb2870e6652c8d80",
+                "reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80",
                 "shasum": ""
             },
             "require": {
@@ -160,10 +160,10 @@
             "type": "wordpress-plugin",
             "description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.4",
+                "source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.5",
                 "issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
             },
-            "time": "2026-01-05T11:35:50+00:00"
+            "time": "2026-01-08T14:06:01+00:00"
         },
         {
             "name": "aura/session",
@@ -4098,16 +4098,16 @@
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem",
-            "version": "v2.9.1",
+            "version": "v2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-                "reference": "2f7728ef3e6a232c1360f52b4a434d51829fc923"
+                "reference": "cd20f76e93131c757d6e0110f3f962bd7527bf13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/2f7728ef3e6a232c1360f52b4a434d51829fc923",
-                "reference": "2f7728ef3e6a232c1360f52b4a434d51829fc923",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/cd20f76e93131c757d6e0110f3f962bd7527bf13",
+                "reference": "cd20f76e93131c757d6e0110f3f962bd7527bf13",
                 "shasum": ""
             },
             "require": {
@@ -4156,10 +4156,10 @@
             ],
             "description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.9.1",
+                "source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.10.0",
                 "issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
             },
-            "time": "2026-01-07T09:22:30+00:00"
+            "time": "2026-01-09T05:58:09+00:00"
         },
         {
             "name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -7700,11 +7700,11 @@
         },
         {
             "name": "ypackagist/gf-entries-in-excel",
-            "version": "2.4.0",
+            "version": "2.4.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.0",
-                "shasum": "6338c4795cea10855cdd0292c4e24569b6e590d1"
+                "url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.2",
+                "shasum": "9ecd23f98d4e9320a7063f64b60b95fe625c37e3"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -8728,16 +8728,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.92.4",
+            "version": "v3.92.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "9e7488b19403423e02e8403cc1eb596baf4673b0"
+                "reference": "260cc8c4a1d2f6d2f22cd4f9c70aa72e55ebac58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/9e7488b19403423e02e8403cc1eb596baf4673b0",
-                "reference": "9e7488b19403423e02e8403cc1eb596baf4673b0",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/260cc8c4a1d2f6d2f22cd4f9c70aa72e55ebac58",
+                "reference": "260cc8c4a1d2f6d2f22cd4f9c70aa72e55ebac58",
                 "shasum": ""
             },
             "require": {
@@ -8820,7 +8820,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.92.4"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.92.5"
             },
             "funding": [
                 {
@@ -8828,7 +8828,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-01-04T00:38:52+00:00"
+            "time": "2026-01-08T21:57:37+00:00"
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -9632,16 +9632,16 @@
         },
         {
             "name": "pimple/pimple",
-            "version": "v3.6.0",
+            "version": "v3.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silexphp/Pimple.git",
-                "reference": "a70f552d338f9266eec6606c1f0b324da5514c96"
+                "reference": "020029849cc55ad360066844df8ed880fb20c5bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a70f552d338f9266eec6606c1f0b324da5514c96",
-                "reference": "a70f552d338f9266eec6606c1f0b324da5514c96",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/020029849cc55ad360066844df8ed880fb20c5bb",
+                "reference": "020029849cc55ad360066844df8ed880fb20c5bb",
                 "shasum": ""
             },
             "require": {
@@ -9679,9 +9679,9 @@
                 "dependency injection"
             ],
             "support": {
-                "source": "https://github.com/silexphp/Pimple/tree/v3.6.0"
+                "source": "https://github.com/silexphp/Pimple/tree/v3.6.1"
             },
-            "time": "2025-11-12T12:31:38+00:00"
+            "time": "2025-12-31T08:24:29+00:00"
         },
         {
             "name": "psr/event-dispatcher",
