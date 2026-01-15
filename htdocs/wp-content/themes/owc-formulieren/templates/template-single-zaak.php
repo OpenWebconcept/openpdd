@@ -15,7 +15,7 @@ get_template_part('templates/mijn-zaken/header');
         <article class="page-main__content">
 			<?php if ($zaak) : ?>
 			<div class="zaak-header">
-				<img src="<?php echo get_template_directory_uri() . "/assets/img/zaak-header.jpg"; ?>" alt="" class="zaak-header-image" />
+				<img src="<?php echo get_theme_file_uri('/assets/img/zaak-header.jpg'); ?>" alt="" class="zaak-header-image" />
 				<h1 class="zaak-header-title"><?php echo $zaak->title(); ?></h1>
 			</div>
 			<div class="zaak-details">

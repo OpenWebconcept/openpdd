@@ -1,0 +1,12 @@
+body .zaak-header {
+	border-radius: 0 0 0 20px;
+	background-color: theme-color( 'primary' );
+
+	&-image {
+		display: none;
+	}
+
+	&-title {
+		border-radius: 0 0 10px;
+	}
+}

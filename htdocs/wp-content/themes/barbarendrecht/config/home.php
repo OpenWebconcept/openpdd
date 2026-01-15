@@ -7,4 +7,5 @@ return [
     'eherkenning_provider' => 'owc-signicat-openid',
     'eidas_is_active' => true,
     'eidas_provider' => 'owc-signicat-openid',
+    'has_wide_editing' => true,
 ];
