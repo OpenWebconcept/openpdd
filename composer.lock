@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "16cb7b7c5d29ddcf2c95b4d65ad319ea",
+	"content-hash": "11ec11b40881c226f90a540e67c80138",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -50,16 +50,16 @@
 		},
 		{
 			"name": "acato/openkaarten-base",
-			"version": "0.2.4",
+			"version": "0.2.6",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
-				"reference": "bc541ffdf8999dcfb6bf99ba676898797bf03bf2"
+				"reference": "85cfc203dc2b4df2dcac5b6df0ee780e67fbd21e"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/bc541ffdf8999dcfb6bf99ba676898797bf03bf2",
-				"reference": "bc541ffdf8999dcfb6bf99ba676898797bf03bf2",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/85cfc203dc2b4df2dcac5b6df0ee780e67fbd21e",
+				"reference": "85cfc203dc2b4df2dcac5b6df0ee780e67fbd21e",
 				"shasum": ""
 			},
 			"require": {
@@ -85,10 +85,10 @@
 			],
 			"description": "Adds OpenKaarten to your WordPress website.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.4",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.6",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
 			},
-			"time": "2025-11-18T11:22:09+00:00"
+			"time": "2026-01-08T14:28:59+00:00"
 		},
 		{
 			"name": "acato/openkaarten-base-functions",
@@ -96,12 +96,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
-				"reference": "83f3dbf51f8891efd7b77d536d6f371b7bd368d6"
+				"reference": "9922306c84fef73100a3ece916b9fa7970ab813c"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/83f3dbf51f8891efd7b77d536d6f371b7bd368d6",
-				"reference": "83f3dbf51f8891efd7b77d536d6f371b7bd368d6",
+				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/9922306c84fef73100a3ece916b9fa7970ab813c",
+				"reference": "9922306c84fef73100a3ece916b9fa7970ab813c",
 				"shasum": ""
 			},
 			"require": {
@@ -130,23 +130,23 @@
 			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
 			"homepage": "https://www.acato.nl",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.2",
+				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/master",
 				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
 			},
-			"time": "2025-11-21T11:57:06+00:00"
+			"time": "2026-01-13T12:05:44+00:00"
 		},
 		{
 			"name": "acato/openkaarten-frontend-plugin",
-			"version": "0.2.3",
+			"version": "0.2.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "6485003fde12d5895e731c6f86c898e7b4449cf0"
+				"reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/6485003fde12d5895e731c6f86c898e7b4449cf0",
-				"reference": "6485003fde12d5895e731c6f86c898e7b4449cf0",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/3d52c02daae816177dbfc3dafb2870e6652c8d80",
+				"reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80",
 				"shasum": ""
 			},
 			"require": {
@@ -160,10 +160,10 @@
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.3",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.5",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2025-11-18T10:51:18+00:00"
+			"time": "2026-01-08T14:06:01+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -1467,24 +1467,24 @@
 		},
 		{
 			"name": "graham-campbell/result-type",
-			"version": "v1.1.3",
+			"version": "v1.1.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/GrahamCampbell/Result-Type.git",
-				"reference": "3ba905c11371512af9d9bdd27d99b782216b6945"
+				"reference": "e01f4a821471308ba86aa202fed6698b6b695e3b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/3ba905c11371512af9d9bdd27d99b782216b6945",
-				"reference": "3ba905c11371512af9d9bdd27d99b782216b6945",
+				"url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/e01f4a821471308ba86aa202fed6698b6b695e3b",
+				"reference": "e01f4a821471308ba86aa202fed6698b6b695e3b",
 				"shasum": ""
 			},
 			"require": {
 				"php": "^7.2.5 || ^8.0",
-				"phpoption/phpoption": "^1.9.3"
+				"phpoption/phpoption": "^1.9.5"
 			},
 			"require-dev": {
-				"phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
+				"phpunit/phpunit": "^8.5.41 || ^9.6.22 || ^10.5.45 || ^11.5.7"
 			},
 			"type": "library",
 			"autoload": {
@@ -1513,7 +1513,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/GrahamCampbell/Result-Type/issues",
-				"source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.3"
+				"source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.4"
 			},
 			"funding": [
 				{
@@ -1525,7 +1525,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-07-20T21:45:45+00:00"
+			"time": "2025-12-27T19:43:20+00:00"
 		},
 		{
 			"name": "guzzlehttp/guzzle",
@@ -1854,16 +1854,16 @@
 		},
 		{
 			"name": "http-interop/http-factory-guzzle",
-			"version": "1.2.0",
+			"version": "1.2.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/http-interop/http-factory-guzzle.git",
-				"reference": "8f06e92b95405216b237521cc64c804dd44c4a81"
+				"reference": "c2c859ceb05c3f42e710b60555f4c35b6a4a3995"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/http-interop/http-factory-guzzle/zipball/8f06e92b95405216b237521cc64c804dd44c4a81",
-				"reference": "8f06e92b95405216b237521cc64c804dd44c4a81",
+				"url": "https://api.github.com/repos/http-interop/http-factory-guzzle/zipball/c2c859ceb05c3f42e710b60555f4c35b6a4a3995",
+				"reference": "c2c859ceb05c3f42e710b60555f4c35b6a4a3995",
 				"shasum": ""
 			},
 			"require": {
@@ -1906,9 +1906,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/http-interop/http-factory-guzzle/issues",
-				"source": "https://github.com/http-interop/http-factory-guzzle/tree/1.2.0"
+				"source": "https://github.com/http-interop/http-factory-guzzle/tree/1.2.1"
 			},
-			"time": "2021-07-21T13:50:14+00:00"
+			"time": "2025-12-15T11:28:16+00:00"
 		},
 		{
 			"name": "illuminate/collections",
@@ -2514,16 +2514,16 @@
 		},
 		{
 			"name": "monolog/monolog",
-			"version": "2.10.0",
+			"version": "2.11.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/Seldaek/monolog.git",
-				"reference": "5cf826f2991858b54d5c3809bee745560a1042a7"
+				"reference": "37308608e599f34a1a4845b16440047ec98a172a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/Seldaek/monolog/zipball/5cf826f2991858b54d5c3809bee745560a1042a7",
-				"reference": "5cf826f2991858b54d5c3809bee745560a1042a7",
+				"url": "https://api.github.com/repos/Seldaek/monolog/zipball/37308608e599f34a1a4845b16440047ec98a172a",
+				"reference": "37308608e599f34a1a4845b16440047ec98a172a",
 				"shasum": ""
 			},
 			"require": {
@@ -2541,7 +2541,7 @@
 				"graylog2/gelf-php": "^1.4.2 || ^2@dev",
 				"guzzlehttp/guzzle": "^7.4",
 				"guzzlehttp/psr7": "^2.2",
-				"mongodb/mongodb": "^1.8",
+				"mongodb/mongodb": "^1.8 || ^2.0",
 				"php-amqplib/php-amqplib": "~2.4 || ^3",
 				"phpspec/prophecy": "^1.15",
 				"phpstan/phpstan": "^1.10",
@@ -2600,7 +2600,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/Seldaek/monolog/issues",
-				"source": "https://github.com/Seldaek/monolog/tree/2.10.0"
+				"source": "https://github.com/Seldaek/monolog/tree/2.11.0"
 			},
 			"funding": [
 				{
@@ -2612,7 +2612,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-12T12:43:37+00:00"
+			"time": "2026-01-01T13:05:00+00:00"
 		},
 		{
 			"name": "nesbot/carbon",
@@ -3299,16 +3299,16 @@
 		},
 		{
 			"name": "phpoption/phpoption",
-			"version": "1.9.4",
+			"version": "1.9.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/schmittjoh/php-option.git",
-				"reference": "638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d"
+				"reference": "75365b91986c2405cf5e1e012c5595cd487a98be"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/schmittjoh/php-option/zipball/638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d",
-				"reference": "638a154f8d4ee6a5cfa96d6a34dfbe0cffa9566d",
+				"url": "https://api.github.com/repos/schmittjoh/php-option/zipball/75365b91986c2405cf5e1e012c5595cd487a98be",
+				"reference": "75365b91986c2405cf5e1e012c5595cd487a98be",
 				"shasum": ""
 			},
 			"require": {
@@ -3358,7 +3358,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/schmittjoh/php-option/issues",
-				"source": "https://github.com/schmittjoh/php-option/tree/1.9.4"
+				"source": "https://github.com/schmittjoh/php-option/tree/1.9.5"
 			},
 			"funding": [
 				{
@@ -3370,7 +3370,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-21T11:53:16+00:00"
+			"time": "2025-12-27T19:41:33+00:00"
 		},
 		{
 			"name": "plugin/config-expander",
@@ -3559,16 +3559,16 @@
 		},
 		{
 			"name": "plugin/gravityforms-csp-fixer",
-			"version": "v0.1.0",
+			"version": "v0.1.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
-				"reference": "755c9de3ad46e0aa1e7ea21b6876419eed913c10"
+				"reference": "33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/755c9de3ad46e0aa1e7ea21b6876419eed913c10",
-				"reference": "755c9de3ad46e0aa1e7ea21b6876419eed913c10",
+				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555",
+				"reference": "33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555",
 				"shasum": ""
 			},
 			"require": {
@@ -3603,6 +3603,9 @@
 					"./vendor/bin/phpstan analyse"
 				]
 			},
+			"license": [
+				"EUPL-1.2"
+			],
 			"authors": [
 				{
 					"name": "Yard | Digital Agency",
@@ -3612,10 +3615,10 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.0",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.1",
 				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
 			},
-			"time": "2025-07-28T08:52:54+00:00"
+			"time": "2025-12-12T13:02:54+00:00"
 		},
 		{
 			"name": "plugin/owc-datab",
@@ -4095,16 +4098,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
-			"version": "dev-feat/implement-kvk-usage",
+			"version": "v2.11.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git",
-				"reference": "c528cec9cc2f91fb410480b9463def237225bece"
+				"reference": "3a41ff614fe1092fcb9456f98610730ff6fa04ae"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/c528cec9cc2f91fb410480b9463def237225bece",
-				"reference": "c528cec9cc2f91fb410480b9463def237225bece",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/zipball/3a41ff614fe1092fcb9456f98610730ff6fa04ae",
+				"reference": "3a41ff614fe1092fcb9456f98610730ff6fa04ae",
 				"shasum": ""
 			},
 			"require": {
@@ -4153,10 +4156,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/feat/implement-kvk-usage",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.11.2",
 				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
 			},
-			"time": "2025-11-05T13:29:09+00:00"
+			"time": "2026-01-30T11:57:03+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
@@ -4319,16 +4322,16 @@
 		},
 		{
 			"name": "plugin/prefill-gravity-forms",
-			"version": "v1.8.0",
+			"version": "dev-feat/supplement-embedded-data",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-				"reference": "9fae22c37a3a56177e5ea9feb01b938a80093471"
+				"reference": "3828cc605f4b63212179ef9ee0a10e02b8aea8fd"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/9fae22c37a3a56177e5ea9feb01b938a80093471",
-				"reference": "9fae22c37a3a56177e5ea9feb01b938a80093471",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/3828cc605f4b63212179ef9ee0a10e02b8aea8fd",
+				"reference": "3828cc605f4b63212179ef9ee0a10e02b8aea8fd",
 				"shasum": ""
 			},
 			"require": {
@@ -4375,10 +4378,10 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.8.0",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/feat/supplement-embedded-data",
 				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
 			},
-			"time": "2025-11-05T13:54:06+00:00"
+			"time": "2026-01-15T13:51:11+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
@@ -4444,60 +4447,6 @@
 				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
 			},
 			"time": "2025-10-23T14:35:31+00:00"
-		},
-		{
-			"name": "privacybydesign/irma-wp",
-			"version": "dev-master",
-			"source": {
-				"type": "git",
-				"url": "git@bitbucket.org:openwebconcept/irma-wp.git",
-				"reference": "3577c54d088d47e5f5754118b126d75017405da9"
-			},
-			"require": {
-				"php": ">=7.0"
-			},
-			"require-dev": {
-				"10up/wp_mock": "dev-master",
-				"mockery/mockery": "1.0.*",
-				"phpunit/phpunit": "~7.0",
-				"squizlabs/php_codesniffer": "^3.0.2"
-			},
-			"default-branch": true,
-			"type": "wordpress-plugin",
-			"autoload": {
-				"psr-4": {
-					"IRMA\\WP\\": "./src/WP"
-				}
-			},
-			"autoload-dev": {
-				"psr-4": {
-					"IRMA\\WP\\Tests\\": "./tests"
-				}
-			},
-			"scripts": {
-				"unit": [
-					"clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
-				],
-				"unit-coverage": [
-					"clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always --coverage-html ./tests/coverage"
-				],
-				"integration": [
-					"clear && ./vendor/bin/phpunit  --testsuite 'Integration Test Suite' --colors=always"
-				],
-				"test": [
-					"@unit",
-					"@integration"
-				],
-				"cs": [
-					"./vendor/bin/phpcs"
-				],
-				"csfix": [
-					"./vendor/bin/phpcbf"
-				]
-			},
-			"description": "Integration with IRMA for WordPress",
-			"homepage": "https://privacybydesign.foundation/",
-			"time": "2019-09-25T08:23:38+00:00"
 		},
 		{
 			"name": "psr/cache",
@@ -5180,16 +5129,16 @@
 		},
 		{
 			"name": "robrichards/xmlseclibs",
-			"version": "3.1.3",
+			"version": "3.1.4",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/robrichards/xmlseclibs.git",
-				"reference": "2bdfd742624d739dfadbd415f00181b4a77aaf07"
+				"reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/2bdfd742624d739dfadbd415f00181b4a77aaf07",
-				"reference": "2bdfd742624d739dfadbd415f00181b4a77aaf07",
+				"url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/bc87389224c6de95802b505e5265b0ec2c5bcdbd",
+				"reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd",
 				"shasum": ""
 			},
 			"require": {
@@ -5216,9 +5165,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/robrichards/xmlseclibs/issues",
-				"source": "https://github.com/robrichards/xmlseclibs/tree/3.1.3"
+				"source": "https://github.com/robrichards/xmlseclibs/tree/3.1.4"
 			},
-			"time": "2024-11-20T21:13:56+00:00"
+			"time": "2025-12-08T11:57:53+00:00"
 		},
 		{
 			"name": "spomky-labs/base64url",
@@ -6522,26 +6471,26 @@
 		},
 		{
 			"name": "vlucas/phpdotenv",
-			"version": "v5.6.2",
+			"version": "v5.6.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/vlucas/phpdotenv.git",
-				"reference": "24ac4c74f91ee2c193fa1aaa5c249cb0822809af"
+				"reference": "955e7815d677a3eaa7075231212f2110983adecc"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/24ac4c74f91ee2c193fa1aaa5c249cb0822809af",
-				"reference": "24ac4c74f91ee2c193fa1aaa5c249cb0822809af",
+				"url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/955e7815d677a3eaa7075231212f2110983adecc",
+				"reference": "955e7815d677a3eaa7075231212f2110983adecc",
 				"shasum": ""
 			},
 			"require": {
 				"ext-pcre": "*",
-				"graham-campbell/result-type": "^1.1.3",
+				"graham-campbell/result-type": "^1.1.4",
 				"php": "^7.2.5 || ^8.0",
-				"phpoption/phpoption": "^1.9.3",
-				"symfony/polyfill-ctype": "^1.24",
-				"symfony/polyfill-mbstring": "^1.24",
-				"symfony/polyfill-php80": "^1.24"
+				"phpoption/phpoption": "^1.9.5",
+				"symfony/polyfill-ctype": "^1.26",
+				"symfony/polyfill-mbstring": "^1.26",
+				"symfony/polyfill-php80": "^1.26"
 			},
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
@@ -6590,7 +6539,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/vlucas/phpdotenv/issues",
-				"source": "https://github.com/vlucas/phpdotenv/tree/v5.6.2"
+				"source": "https://github.com/vlucas/phpdotenv/tree/v5.6.3"
 			},
 			"funding": [
 				{
@@ -6602,7 +6551,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-04-30T23:37:27+00:00"
+			"time": "2025-12-27T19:49:13+00:00"
 		},
 		{
 			"name": "voku/portable-ascii",
@@ -7172,15 +7121,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.19.5",
+			"version": "6.19.7",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.19.5"
+				"reference": "tags/6.19.7"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.5.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.7.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7208,15 +7157,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/google-analytics-for-wordpress",
-			"version": "9.10.0",
+			"version": "9.11.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-				"reference": "tags/9.10.0"
+				"reference": "tags/9.11.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.10.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/google-analytics-for-wordpress.9.11.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7234,7 +7183,7 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/onelogin-saml-sso.zip?timestamp=1644012546"
+				"url": "https://downloads.wordpress.org/plugin/onelogin-saml-sso.zip?timestamp=1765320934"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7298,15 +7247,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wordfence",
-			"version": "8.1.3",
+			"version": "8.1.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wordfence/",
-				"reference": "tags/8.1.3"
+				"reference": "tags/8.1.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wordfence.8.1.3.zip"
+				"url": "https://downloads.wordpress.org/plugin/wordfence.8.1.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7659,11 +7608,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.7.0",
+			"version": "6.7.0.2",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.7.0",
-				"shasum": "2184d60f681dcea462c3cad9416f55edcf3d88aa"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.7.0.2",
+				"shasum": "2591e2703ef6765e93194277f8f6251c0a81b97f"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7697,11 +7646,11 @@
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.4.0",
+			"version": "2.4.2",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.0",
-				"shasum": "6338c4795cea10855cdd0292c4e24569b6e590d1"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.2",
+				"shasum": "9ecd23f98d4e9320a7063f64b60b95fe625c37e3"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7830,11 +7779,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.23",
+			"version": "2.9.26",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.23",
-				"shasum": "5058eb1b40b8fbca40667908df91b0700ee8f150"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.26",
+				"shasum": "e7bd37dfb3b778997daf3897d58ff93b54fad473"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7849,11 +7798,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms-encryption",
-			"version": "1.6.2",
+			"version": "1.7.0",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms-encryption/1.6.2",
-				"shasum": "46093954c40f2f58c9a27ad3e968deced284ede4"
+				"url": "https://packagist.yard.nl/satispress/gravityforms-encryption/1.7.0",
+				"shasum": "6282ffe17d0c62c385565a9db398eb36a006a4eb"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8725,16 +8674,16 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.91.3",
+			"version": "v3.93.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "9f10aa6390cea91da175ea608880e942d7c0226e"
+				"reference": "b3546ab487c0762c39f308dc1ec0ea2c461fc21a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/9f10aa6390cea91da175ea608880e942d7c0226e",
-				"reference": "9f10aa6390cea91da175ea608880e942d7c0226e",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/b3546ab487c0762c39f308dc1ec0ea2c461fc21a",
+				"reference": "b3546ab487c0762c39f308dc1ec0ea2c461fc21a",
 				"shasum": ""
 			},
 			"require": {
@@ -8766,16 +8715,17 @@
 			},
 			"require-dev": {
 				"facile-it/paraunit": "^1.3.1 || ^2.7",
-				"infection/infection": "^0.31.0",
-				"justinrainbow/json-schema": "^6.5",
-				"keradus/cli-executor": "^2.2",
+				"infection/infection": "^0.32",
+				"justinrainbow/json-schema": "^6.6",
+				"keradus/cli-executor": "^2.3",
 				"mikey179/vfsstream": "^1.6.12",
 				"php-coveralls/php-coveralls": "^2.9",
 				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.6",
 				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.6",
-				"phpunit/phpunit": "^9.6.25 || ^10.5.53 || ^11.5.34",
-				"symfony/var-dumper": "^5.4.48 || ^6.4.24 || ^7.3.2 || ^8.0",
-				"symfony/yaml": "^5.4.45 || ^6.4.24 || ^7.3.2 || ^8.0"
+				"phpunit/phpunit": "^9.6.31 || ^10.5.60 || ^11.5.48",
+				"symfony/polyfill-php85": "^1.33",
+				"symfony/var-dumper": "^5.4.48 || ^6.4.26 || ^7.4.0 || ^8.0",
+				"symfony/yaml": "^5.4.45 || ^6.4.30 || ^7.4.1 || ^8.0"
 			},
 			"suggest": {
 				"ext-dom": "For handling output formats in XML",
@@ -8816,7 +8766,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.91.3"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.93.1"
 			},
 			"funding": [
 				{
@@ -8824,7 +8774,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2025-12-05T19:45:37+00:00"
+			"time": "2026-01-28T23:50:50+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -9517,16 +9467,16 @@
 		},
 		{
 			"name": "phpunit/phpunit",
-			"version": "9.6.31",
+			"version": "9.6.34",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/phpunit.git",
-				"reference": "945d0b7f346a084ce5549e95289962972c4272e5"
+				"reference": "b36f02317466907a230d3aa1d34467041271ef4a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/945d0b7f346a084ce5549e95289962972c4272e5",
-				"reference": "945d0b7f346a084ce5549e95289962972c4272e5",
+				"url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b36f02317466907a230d3aa1d34467041271ef4a",
+				"reference": "b36f02317466907a230d3aa1d34467041271ef4a",
 				"shasum": ""
 			},
 			"require": {
@@ -9548,7 +9498,7 @@
 				"phpunit/php-timer": "^5.0.3",
 				"sebastian/cli-parser": "^1.0.2",
 				"sebastian/code-unit": "^1.0.8",
-				"sebastian/comparator": "^4.0.9",
+				"sebastian/comparator": "^4.0.10",
 				"sebastian/diff": "^4.0.6",
 				"sebastian/environment": "^5.1.5",
 				"sebastian/exporter": "^4.0.8",
@@ -9600,7 +9550,7 @@
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/phpunit/issues",
 				"security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.31"
+				"source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.34"
 			},
 			"funding": [
 				{
@@ -9624,20 +9574,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-12-06T07:45:52+00:00"
+			"time": "2026-01-27T05:45:00+00:00"
 		},
 		{
 			"name": "pimple/pimple",
-			"version": "v3.6.0",
+			"version": "v3.6.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/silexphp/Pimple.git",
-				"reference": "a70f552d338f9266eec6606c1f0b324da5514c96"
+				"reference": "020029849cc55ad360066844df8ed880fb20c5bb"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/silexphp/Pimple/zipball/a70f552d338f9266eec6606c1f0b324da5514c96",
-				"reference": "a70f552d338f9266eec6606c1f0b324da5514c96",
+				"url": "https://api.github.com/repos/silexphp/Pimple/zipball/020029849cc55ad360066844df8ed880fb20c5bb",
+				"reference": "020029849cc55ad360066844df8ed880fb20c5bb",
 				"shasum": ""
 			},
 			"require": {
@@ -9675,9 +9625,9 @@
 				"dependency injection"
 			],
 			"support": {
-				"source": "https://github.com/silexphp/Pimple/tree/v3.6.0"
+				"source": "https://github.com/silexphp/Pimple/tree/v3.6.1"
 			},
-			"time": "2025-11-12T12:31:38+00:00"
+			"time": "2025-12-31T08:24:29+00:00"
 		},
 		{
 			"name": "psr/event-dispatcher",
@@ -9803,16 +9753,16 @@
 		},
 		{
 			"name": "react/child-process",
-			"version": "v0.6.6",
+			"version": "v0.6.7",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/reactphp/child-process.git",
-				"reference": "1721e2b93d89b745664353b9cfc8f155ba8a6159"
+				"reference": "970f0e71945556422ee4570ccbabaedc3cf04ad3"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/reactphp/child-process/zipball/1721e2b93d89b745664353b9cfc8f155ba8a6159",
-				"reference": "1721e2b93d89b745664353b9cfc8f155ba8a6159",
+				"url": "https://api.github.com/repos/reactphp/child-process/zipball/970f0e71945556422ee4570ccbabaedc3cf04ad3",
+				"reference": "970f0e71945556422ee4570ccbabaedc3cf04ad3",
 				"shasum": ""
 			},
 			"require": {
@@ -9866,7 +9816,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/reactphp/child-process/issues",
-				"source": "https://github.com/reactphp/child-process/tree/v0.6.6"
+				"source": "https://github.com/reactphp/child-process/tree/v0.6.7"
 			},
 			"funding": [
 				{
@@ -9874,7 +9824,7 @@
 					"type": "open_collective"
 				}
 			],
-			"time": "2025-01-01T16:37:48+00:00"
+			"time": "2025-12-23T15:25:20+00:00"
 		},
 		{
 			"name": "react/dns",
@@ -10424,16 +10374,16 @@
 		},
 		{
 			"name": "sebastian/comparator",
-			"version": "4.0.9",
+			"version": "4.0.10",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/sebastianbergmann/comparator.git",
-				"reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5"
+				"reference": "e4df00b9b3571187db2831ae9aada2c6efbd715d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
-				"reference": "67a2df3a62639eab2cc5906065e9805d4fd5dfc5",
+				"url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/e4df00b9b3571187db2831ae9aada2c6efbd715d",
+				"reference": "e4df00b9b3571187db2831ae9aada2c6efbd715d",
 				"shasum": ""
 			},
 			"require": {
@@ -10486,7 +10436,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/sebastianbergmann/comparator/issues",
-				"source": "https://github.com/sebastianbergmann/comparator/tree/4.0.9"
+				"source": "https://github.com/sebastianbergmann/comparator/tree/4.0.10"
 			},
 			"funding": [
 				{
@@ -10506,7 +10456,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-10T06:51:50+00:00"
+			"time": "2026-01-24T09:22:56+00:00"
 		},
 		{
 			"name": "sebastian/complexity",
@@ -11977,16 +11927,16 @@
 		},
 		{
 			"name": "symfony/process",
-			"version": "v5.4.47",
+			"version": "v5.4.51",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/process.git",
-				"reference": "5d1662fb32ebc94f17ddb8d635454a776066733d"
+				"reference": "467bfc56f18f5ef6d5ccb09324d7e988c1c0a98f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/process/zipball/5d1662fb32ebc94f17ddb8d635454a776066733d",
-				"reference": "5d1662fb32ebc94f17ddb8d635454a776066733d",
+				"url": "https://api.github.com/repos/symfony/process/zipball/467bfc56f18f5ef6d5ccb09324d7e988c1c0a98f",
+				"reference": "467bfc56f18f5ef6d5ccb09324d7e988c1c0a98f",
 				"shasum": ""
 			},
 			"require": {
@@ -12019,7 +11969,7 @@
 			"description": "Executes commands in sub-processes",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/process/tree/v5.4.47"
+				"source": "https://github.com/symfony/process/tree/v5.4.51"
 			},
 			"funding": [
 				{
@@ -12031,11 +11981,15 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-06T11:36:42+00:00"
+			"time": "2026-01-26T15:53:37+00:00"
 		},
 		{
 			"name": "symfony/stopwatch",
@@ -12401,15 +12355,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/query-monitor",
-			"version": "3.20.0",
+			"version": "3.20.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/query-monitor/",
-				"reference": "tags/3.20.0"
+				"reference": "tags/3.20.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -12446,9 +12400,8 @@
 		"elasticsearch/elasticsearch": 20,
 		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"plugin/owc-gravityforms-zaaksysteem": 20,
+		"plugin/prefill-gravity-forms": 20,
 		"plugin/yard-official-publications": 20,
-		"privacybydesign/irma-wp": 20,
 		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
@@ -12460,5 +12413,5 @@
 	"platform-overrides": {
 		"php": "7.4"
 	},
-	"plugin-api-version": "2.6.0"
+	"plugin-api-version": "2.9.0"
 }
