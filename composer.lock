@@ -3559,16 +3559,16 @@
         },
         {
             "name": "plugin/gravityforms-csp-fixer",
-            "version": "v0.1.1",
+            "version": "v0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer.git",
-                "reference": "33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555"
+                "reference": "6e99bf42c024a9144e35ae801dfe2c5326bacc4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555",
-                "reference": "33e8ca58b9236e9e16ddf6cc4b3bfaaa53c7c555",
+                "url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-csp-fixer/zipball/6e99bf42c024a9144e35ae801dfe2c5326bacc4f",
+                "reference": "6e99bf42c024a9144e35ae801dfe2c5326bacc4f",
                 "shasum": ""
             },
             "require": {
@@ -3615,10 +3615,10 @@
             ],
             "description": "Fixes GravityForms plugin so it is CSP compliant.",
             "support": {
-                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.1",
+                "source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.2",
                 "issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
             },
-            "time": "2025-12-12T13:02:54+00:00"
+            "time": "2026-02-02T13:59:57+00:00"
         },
         {
             "name": "plugin/owc-datab",
@@ -4322,16 +4322,16 @@
         },
         {
             "name": "plugin/prefill-gravity-forms",
-            "version": "v1.8.0",
+            "version": "v1.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms.git",
-                "reference": "9fae22c37a3a56177e5ea9feb01b938a80093471"
+                "reference": "f4eb2158ab65bcb9017a723791b4280f8955cdcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/9fae22c37a3a56177e5ea9feb01b938a80093471",
-                "reference": "9fae22c37a3a56177e5ea9feb01b938a80093471",
+                "url": "https://api.github.com/repos/OpenWebconcept/plugin-prefill-gravity-forms/zipball/f4eb2158ab65bcb9017a723791b4280f8955cdcd",
+                "reference": "f4eb2158ab65bcb9017a723791b4280f8955cdcd",
                 "shasum": ""
             },
             "require": {
@@ -4378,10 +4378,10 @@
             ],
             "description": "Prefill GravityForms Plugin",
             "support": {
-                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.8.0",
+                "source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.8.1",
                 "issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
             },
-            "time": "2025-11-05T13:54:06+00:00"
+            "time": "2026-02-06T08:22:30+00:00"
         },
         {
             "name": "plugin/yard-official-publications",
