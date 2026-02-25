@@ -4,6 +4,11 @@
 	"version": "1.0.0",
 	"type": "project",
 	"config": {
+		"audit": {
+			"ignore": [
+				"PKSA-y2cr-5h3j-g3ys"
+			]
+		},
 		"preferred-install": "dist",
 		"optimize-autoloader": true,
 		"sort-packages": true,
@@ -195,7 +200,7 @@
 		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.3.*",
-		"plugin/prefill-gravity-forms": "^1.8",
+		"plugin/prefill-gravity-forms": "^1.9",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",
@@ -237,8 +242,7 @@
 		"mockery/mockery": "^1.0",
 		"phpunit/phpunit": "^8.0 | ^9.0",
 		"symfony/var-dumper": "^5.0",
-		"wpackagist-plugin/query-monitor": "*",
-		"wpackagist-plugin/wa11y": "*"
+		"wpackagist-plugin/query-monitor": "*"
 	},
 	"scripts": {
 		"format": "vendor/bin/php-cs-fixer fix",
