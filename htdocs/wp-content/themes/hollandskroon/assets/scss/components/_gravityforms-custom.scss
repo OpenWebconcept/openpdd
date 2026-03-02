@@ -1,0 +1,31 @@
+.gform_wrapper .gform_body {
+	.ginput_container_bag_address {
+		$gap: 0.5rem;
+
+		@include media-breakpoint-up( sm ) {
+			// Zip
+			span:nth-child( 1 ) {
+				flex-basis: calc( 25% - #{$gap} );
+			}
+
+			// Number & addition
+			span:nth-child( 2 ),
+			span:nth-child( 3 ) {
+				flex-basis: calc( 25% - #{$gap} );
+			}
+
+			.bag-search-button {
+				padding-block: 0.6rem;
+			}
+		}
+
+		// Search button wrapper
+		span:nth-child( 4 ) {
+			padding-left: 0 !important;
+
+			@include media-breakpoint-up( sm ) {
+				flex-basis: calc( 25% - #{$gap} );
+			}
+		}
+	}
+}
