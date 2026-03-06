@@ -4037,16 +4037,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-kvk-prefill",
-			"version": "v2.0.0",
+			"version": "v2.0.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git",
-				"reference": "b22eb6e1e9026243875caaf81534b4f9a6ea3f9a"
+				"reference": "069fb80605901af48ca55e138c3e2a6c98c4f39a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/b22eb6e1e9026243875caaf81534b4f9a6ea3f9a",
-				"reference": "b22eb6e1e9026243875caaf81534b4f9a6ea3f9a",
+				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/069fb80605901af48ca55e138c3e2a6c98c4f39a",
+				"reference": "069fb80605901af48ca55e138c3e2a6c98c4f39a",
 				"shasum": ""
 			},
 			"require": {
@@ -4094,10 +4094,10 @@
 			],
 			"description": "Yard | KVK Prefill GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v2.0.0",
+				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v2.0.1",
 				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
 			},
-			"time": "2025-04-08T16:14:03+00:00"
+			"time": "2026-03-06T13:47:30+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -7124,15 +7124,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.19.8",
+			"version": "6.19.9",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.19.8"
+				"reference": "tags/6.19.9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.8.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.9.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7782,11 +7782,11 @@
 		},
 		{
 			"name": "ypackagist/gravityforms",
-			"version": "2.9.26",
+			"version": "2.9.28.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.26",
-				"shasum": "e7bd37dfb3b778997daf3897d58ff93b54fad473"
+				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.28.1",
+				"shasum": "01f38c772f45938d947da90f2e35181386289a10"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
