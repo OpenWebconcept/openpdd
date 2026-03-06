@@ -3689,16 +3689,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
-			"version": "v1.1.6",
+			"version": "v1.1.7",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address.git",
-				"reference": "6ca06336ea6b6d4109a999b4b3626ee83c212622"
+				"reference": "8a1a4d7b6e23afb3f3aa2e442ddc98a7c057ff45"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-gravityforms-bag-address/zipball/6ca06336ea6b6d4109a999b4b3626ee83c212622",
-				"reference": "6ca06336ea6b6d4109a999b4b3626ee83c212622",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-gravityforms-bag-address/zipball/8a1a4d7b6e23afb3f3aa2e442ddc98a7c057ff45",
+				"reference": "8a1a4d7b6e23afb3f3aa2e442ddc98a7c057ff45",
 				"shasum": ""
 			},
 			"require": {
@@ -3754,10 +3754,10 @@
 			],
 			"description": "Add a BAG address field to GravityForms",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.6",
+				"source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.7",
 				"issues": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/issues"
 			},
-			"time": "2026-03-02T14:13:54+00:00"
+			"time": "2026-03-20T13:00:03+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
