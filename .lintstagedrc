@@ -1,0 +1,7 @@
+{
+	"**/assets/js/src/**/*.{js,ts}": [
+		"npm run format:js --fix",
+		"npm run lint:js"
+	],
+	"**/assets/scss/**/*.scss": [ "npm run lint:scss", "npm run format:scss" ]
+}
