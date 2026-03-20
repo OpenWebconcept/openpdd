@@ -4,14 +4,14 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "f25ed911ce4e10432a4fc7f7cd9718d8",
+	"content-hash": "1334b5fa6fded5e4e23452de404b30a1",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
 			"version": "dev-master",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/acato-plugins/cmb2-flexible-content.git",
+				"url": "git@github.com:acato-plugins/cmb2-flexible-content.git",
 				"reference": "aa1ea795665cd3521570a4698032898561afa799"
 			},
 			"dist": {
@@ -43,8 +43,7 @@
 			"description": "A flexible content field for CMB2.",
 			"homepage": "https://github.com/acato-plugins/cmb2-flexible-content",
 			"support": {
-				"issues": "https://github.com/acato-plugins/cmb2-flexible-content",
-				"source": "https://github.com/acato-plugins/cmb2-flexible-content/tree/master"
+				"issues": "https://github.com/acato-plugins/cmb2-flexible-content"
 			},
 			"time": "2024-10-10T13:28:46+00:00"
 		},
@@ -53,7 +52,7 @@
 			"version": "0.2.7",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
+				"url": "git@github.com:OpenWebconcept/plugin-openkaarten-base.git",
 				"reference": "96210a628f589e48dbe6196b4cf35e53f3aaa05c"
 			},
 			"dist": {
@@ -84,10 +83,6 @@
 				}
 			],
 			"description": "Adds OpenKaarten to your WordPress website.",
-			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.7",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
-			},
 			"time": "2026-02-19T12:58:38+00:00"
 		},
 		{
@@ -95,7 +90,7 @@
 			"version": "dev-master",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
+				"url": "git@github.com:OpenWebconcept/package-owc-openkaarten-functions.git",
 				"reference": "1956006006da4f15bda3750389c443fec0c628f3"
 			},
 			"dist": {
@@ -129,10 +124,6 @@
 			],
 			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
 			"homepage": "https://www.acato.nl",
-			"support": {
-				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.3",
-				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
-			},
 			"time": "2026-02-19T12:55:21+00:00"
 		},
 		{
@@ -140,7 +131,7 @@
 			"version": "0.2.5",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+				"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
 				"reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80"
 			},
 			"dist": {
@@ -159,10 +150,6 @@
 			},
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
-			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.5",
-				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
-			},
 			"time": "2026-01-08T14:06:01+00:00"
 		},
 		{
@@ -439,6 +426,65 @@
 			"time": "2023-12-11T17:09:12+00:00"
 		},
 		{
+			"name": "cmb2/cmb2",
+			"version": "v2.11.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/CMB2/CMB2.git",
+				"reference": "2847828b5cce1b48d09427ee13e6f7c752704468"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/CMB2/CMB2/zipball/2847828b5cce1b48d09427ee13e6f7c752704468",
+				"reference": "2847828b5cce1b48d09427ee13e6f7c752704468",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">7.4"
+			},
+			"require-dev": {
+				"apigen/apigen": "4.1.2",
+				"awesomemotive/am-cli-tools": ">=1.3.7",
+				"nette/utils": "2.5.3",
+				"phpunit/phpunit": "^6.5",
+				"yoast/phpunit-polyfills": "^1.1"
+			},
+			"suggest": {
+				"composer/installers": "~1.0"
+			},
+			"type": "wordpress-plugin",
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Justin Sternberg",
+					"email": "justin@dsgnwrks.pro",
+					"homepage": "https://dsgnwrks.pro",
+					"role": "Developer"
+				},
+				{
+					"name": "WebDevStudios",
+					"email": "contact@webdevstudios.com",
+					"homepage": "https://github.com/WebDevStudios",
+					"role": "Developer"
+				}
+			],
+			"description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
+			"homepage": "https://github.com/CMB2/CMB2",
+			"keywords": [
+				"metabox",
+				"plugin",
+				"wordpress"
+			],
+			"support": {
+				"issues": "https://github.com/CMB2/CMB2/issues",
+				"source": "http://wordpress.org/support/plugin/cmb2"
+			},
+			"time": "2024-04-02T19:30:07+00:00"
+		},
+		{
 			"name": "cmdisp/monolog-microsoft-teams",
 			"version": "1.3.0",
 			"source": {
@@ -632,6 +678,79 @@
 			"time": "2021-09-13T08:19:44+00:00"
 		},
 		{
+			"name": "composer/package-versions-deprecated",
+			"version": "1.11.99.5",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/composer/package-versions-deprecated.git",
+				"reference": "b4f54f74ef3453349c24a845d22392cd31e65f1d"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/composer/package-versions-deprecated/zipball/b4f54f74ef3453349c24a845d22392cd31e65f1d",
+				"reference": "b4f54f74ef3453349c24a845d22392cd31e65f1d",
+				"shasum": ""
+			},
+			"require": {
+				"composer-plugin-api": "^1.1.0 || ^2.0",
+				"php": "^7 || ^8"
+			},
+			"replace": {
+				"ocramius/package-versions": "1.11.99"
+			},
+			"require-dev": {
+				"composer/composer": "^1.9.3 || ^2.0@dev",
+				"ext-zip": "^1.13",
+				"phpunit/phpunit": "^6.5 || ^7"
+			},
+			"type": "composer-plugin",
+			"extra": {
+				"class": "PackageVersions\\Installer",
+				"branch-alias": {
+					"dev-master": "1.x-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"PackageVersions\\": "src/PackageVersions"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Marco Pivetta",
+					"email": "ocramius@gmail.com"
+				},
+				{
+					"name": "Jordi Boggiano",
+					"email": "j.boggiano@seld.be"
+				}
+			],
+			"description": "Composer plugin that provides efficient querying for installed package versions (no runtime IO)",
+			"support": {
+				"issues": "https://github.com/composer/package-versions-deprecated/issues",
+				"source": "https://github.com/composer/package-versions-deprecated/tree/1.11.99.5"
+			},
+			"funding": [
+				{
+					"url": "https://packagist.com",
+					"type": "custom"
+				},
+				{
+					"url": "https://github.com/composer",
+					"type": "github"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/composer/composer",
+					"type": "tidelift"
+				}
+			],
+			"time": "2022-01-17T14:14:24+00:00"
+		},
+		{
 			"name": "cweagans/composer-patches",
 			"version": "1.7.3",
 			"source": {
@@ -678,6 +797,19 @@
 				"source": "https://github.com/cweagans/composer-patches/tree/1.7.3"
 			},
 			"time": "2022-12-20T22:53:13+00:00"
+		},
+		{
+			"name": "deliciousbrains-plugin/wp-migrate-db-pro",
+			"version": "2.7.7",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/deliciousbrains-plugin/wp-migrate-db-pro/deliciousbrains-plugin-wp-migrate-db-pro-2.7.7.zip",
+				"shasum": "dd44ea743a7167d0be91f5353b7777c0306cfe11"
+			},
+			"require": {
+				"composer/installers": "~1.0 || ~2.0"
+			},
+			"type": "wordpress-plugin"
 		},
 		{
 			"name": "doctrine/annotations",
@@ -974,16 +1106,16 @@
 		},
 		{
 			"name": "elastic/transport",
-			"version": "dev-handle-package-not-found",
+			"version": "v8.11.0",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/dtakken/elastic-transport-php.git",
-				"reference": "69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63"
+				"url": "https://github.com/elastic/elastic-transport-php.git",
+				"reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/dtakken/elastic-transport-php/zipball/69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63",
-				"reference": "69c5729b52b2af4e69de8bbc1b9bb9f2e4fa7b63",
+				"url": "https://api.github.com/repos/elastic/elastic-transport-php/zipball/1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
+				"reference": "1d476af5dc0b74530d59b67d5dd96ee39768d5a4",
 				"shasum": ""
 			},
 			"require": {
@@ -1011,52 +1143,41 @@
 					"Elastic\\Transport\\": "src/"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"Elastic\\Transport\\Test\\": "tests/"
-				}
-			},
-			"scripts": {
-				"test": [
-					"vendor/bin/phpunit --testdox"
-				],
-				"phpstan": [
-					"vendor/bin/phpstan analyse"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"MIT"
 			],
 			"description": "HTTP transport PHP library for Elastic products",
 			"keywords": [
-				"PSR-18",
-				"PSR-7",
 				"PSR_17",
 				"elastic",
 				"http",
+				"psr-18",
+				"psr-7",
 				"transport"
 			],
 			"support": {
-				"source": "https://github.com/dtakken/elastic-transport-php/tree/handle-package-not-found"
+				"issues": "https://github.com/elastic/elastic-transport-php/issues",
+				"source": "https://github.com/elastic/elastic-transport-php/tree/v8.11.0"
 			},
-			"time": "2025-07-10T10:33:17+00:00"
+			"time": "2025-04-02T08:20:33+00:00"
 		},
 		{
 			"name": "elasticsearch/elasticsearch",
-			"version": "dev-handle-package-not-found",
+			"version": "v8.19.0",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/dtakken/elasticsearch-php.git",
-				"reference": "b84ed64f3551fffea0e0765295dae46c779e0505"
+				"url": "https://github.com/elastic/elasticsearch-php.git",
+				"reference": "1771284cb43a7b653634d418b6f5f0ec84ff8a6d"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/dtakken/elasticsearch-php/zipball/b84ed64f3551fffea0e0765295dae46c779e0505",
-				"reference": "b84ed64f3551fffea0e0765295dae46c779e0505",
+				"url": "https://api.github.com/repos/elastic/elasticsearch-php/zipball/1771284cb43a7b653634d418b6f5f0ec84ff8a6d",
+				"reference": "1771284cb43a7b653634d418b6f5f0ec84ff8a6d",
 				"shasum": ""
 			},
 			"require": {
-				"elastic/transport": "dev-handle-package-not-found@dev",
+				"elastic/transport": "^8.11",
 				"guzzlehttp/guzzle": "^7.0",
 				"php": "^7.4 || ^8.0",
 				"psr/http-client": "^1.0",
@@ -1068,9 +1189,8 @@
 				"ext-zip": "*",
 				"mockery/mockery": "^1.5",
 				"nyholm/psr7": "^1.5",
-				"php-http/message-factory": "^1.0",
 				"php-http/mock-client": "^1.5",
-				"phpstan/phpstan": "^1.4",
+				"phpstan/phpstan": "^2.1",
 				"phpunit/phpunit": "^9.5",
 				"psr/http-factory": "^1.0",
 				"symfony/finder": "~4.0",
@@ -1082,26 +1202,7 @@
 					"Elastic\\Elasticsearch\\": "src/"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"Elastic\\Elasticsearch\\Tests\\": "tests/",
-					"Elastic\\Elasticsearch\\Util\\": "util/"
-				}
-			},
-			"scripts": {
-				"test": [
-					"vendor/bin/phpunit --testdox"
-				],
-				"integration-test": [
-					"vendor/bin/phpunit --testdox -c phpunit-integration-tests.xml"
-				],
-				"cloud-test": [
-					"vendor/bin/phpunit --testdox -c phpunit-integration-cloud-tests.xml"
-				],
-				"phpstan": [
-					"phpstan analyse src --level 2 --no-progress --memory-limit 256M"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"MIT"
 			],
@@ -1113,9 +1214,10 @@
 				"search"
 			],
 			"support": {
-				"source": "https://github.com/dtakken/elasticsearch-php/tree/handle-package-not-found"
+				"issues": "https://github.com/elastic/elasticsearch-php/issues",
+				"source": "https://github.com/elastic/elasticsearch-php/tree/v8.19.0"
 			},
-			"time": "2025-07-11T12:27:16+00:00"
+			"time": "2025-08-06T16:58:06+00:00"
 		},
 		{
 			"name": "facile-it/php-jose-verifier",
@@ -1528,6 +1630,310 @@
 			"time": "2025-12-27T19:43:20+00:00"
 		},
 		{
+			"name": "gravity/gravityforms",
+			"version": "2.9.30",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravity/gravityforms/gravity-gravityforms-2.9.30.zip",
+				"shasum": "7a08e3b6db0d705db8f6e623e8d163f28fe2bae1"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin"
+		},
+		{
+			"name": "gravity/gravityformssurvey",
+			"version": "4.2.1",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravity/gravityformssurvey/gravity-gravityformssurvey-4.2.1.zip",
+				"shasum": "f5e3b7af0d157f02a08a41894ffa2a8bd2598e31"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin"
+		},
+		{
+			"name": "gravity/gravityformswebhooks",
+			"version": "1.7.0",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravity/gravityformswebhooks/gravity-gravityformswebhooks-1.7.0.zip",
+				"shasum": "23cfe8d0c0250d6a6c4bc71ae9e6d978cd4cf8e2"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin"
+		},
+		{
+			"name": "gravity/gravityformszapier",
+			"version": "4.5.1",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravity/gravityformszapier/gravity-gravityformszapier-4.5.1.zip",
+				"shasum": "b4b73cf2a129212c51d22cbbe30a236b7fd2264a"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin"
+		},
+		{
+			"name": "gravitypdf/gravity-pdf",
+			"version": "6.14.1",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitypdf/gravity-pdf/gravitypdf-gravity-pdf-6.14.1-7e644e59b83f3155765f8e0963299104.zip",
+				"shasum": "f73d40e286797f212bf0c4a6237a85e86d2c3ee3"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"ext-ctype": "*",
+				"ext-dom": "*",
+				"ext-gd": "*",
+				"ext-json": "*",
+				"ext-mbstring": "*",
+				"php": ">=7.3.0"
+			},
+			"replace": {
+				"wpackagist-plugin/gravity-forms-pdf-extended": ">=6.4.12"
+			},
+			"suggest": {
+				"gravitypdf/gravity-pdf-bulk-generator": "Easily bulk export Gravity PDF documents from Gravity Forms entries in just a few clicks. Get a license: gpdf.us/blkgn",
+				"gravitypdf/gravity-pdf-core-booster": "Unlock more settings for Core and Universal Gravity PDF templates. Get a license: gpdf.us/crbstr",
+				"gravitypdf/gravity-pdf-enhanced-download": "Display a smart loading indicator when users download Gravity PDF-generated documents. Get a license: gpdf.us/enhanced",
+				"gravitypdf/gravity-pdf-previewer": "Generated on-screen PDF previews of Gravity PDF documents before a Gravity Form is submitted. Get a license: gpdf.us/prvwr",
+				"gravitypdf/gravity-pdf-reports-for-gfchart": "Get greater insight into your Gravity Forms data with professional PDF reports. Get a license: gpdf.us/rpgf",
+				"gravitypdf/gravity-pdf-watermark": "Easily add text or image watermarks to your Gravity PDF-generated documents. Get a license: gpdf.us/wtrmrk",
+				"gravitypdf/pdf-for-gravityview": "Generate and email highly customizable PDFs of GravityView Single Entry Layouts. Get a license: gpdf.us/pdf4gv"
+			},
+			"type": "wordpress-plugin",
+			"notification-url": "https://gravitypdf.com/wp-json/edd-composer/v1/telemetry",
+			"authors": [
+				{
+					"name": "Blue Liquid Designs",
+					"homepage": "https://blueliquiddesigns.com.au"
+				}
+			],
+			"homepage": "https://gravitypdf.com",
+			"support": {
+				"issues": "https://gravitypdf.com/support/"
+			},
+			"time": "2026-01-12T10:00:39+00:00"
+		},
+		{
+			"name": "gravitywiz/gp-advanced-select",
+			"version": "1.1.19",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/gp-advanced-select/gravitywiz-gp-advanced-select-1.1.19.zip",
+				"shasum": "09990cf050dc8f98f9eef3bfccb65e7bd736330c"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"gravitywiz/spellbook": ">=3.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Modern Drop Down and Multi Select fields with search and powerful integrations.",
+			"homepage": "https://gravitywiz.com/downloads/gp-advanced-select/",
+			"support": {
+				"docs": "https://gravitywiz.com/documentation/gravity-forms-advanced-select/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2025-08-27T10:43:14+00:00"
+		},
+		{
+			"name": "gravitywiz/gp-limit-dates",
+			"version": "1.1.35",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/gp-limit-dates/gravitywiz-gp-limit-dates-1.1.35.zip",
+				"shasum": "3d2611175c41c1e538b863b3cba8c639af37112a"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"gravitywiz/spellbook": ">=3.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Limit which days are selectable for your Gravity Forms Date Picker fields.",
+			"homepage": "https://gravitywiz.com/downloads/gp-limit-dates/",
+			"support": {
+				"docs": "https://gravitywiz.com/documentation/gravity-forms-limit-dates/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2025-11-12T15:11:18+00:00"
+		},
+		{
+			"name": "gravitywiz/gp-limit-submissions",
+			"version": "1.1.24",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/gp-limit-submissions/gravitywiz-gp-limit-submissions-1.1.24.zip",
+				"shasum": "0091d4ff321829fa2009c71d47f3667c34d4eb12"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"gravitywiz/spellbook": ">=3.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Limit the number of entries that can be submitted by almost anything (e.g. user, role, IP, field value).",
+			"homepage": "https://gravitywiz.com/downloads/gp-limit-submissions/",
+			"support": {
+				"docs": "https://gravitywiz.com/documentation/gravity-forms-limit-submissions/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2025-10-09T13:59:42+00:00"
+		},
+		{
+			"name": "gravitywiz/gp-preview-submission",
+			"version": "1.3.24",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/gp-preview-submission/gravitywiz-gp-preview-submission-1.3.24.zip",
+				"shasum": "42f768559b744ba1a92f0921a30f52e5c3f71040"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"gravitywiz/spellbook": ">=3.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Add a simple submission preview to allow users to confirm their submission is correct before submitting the form.",
+			"homepage": "https://gravitywiz.com/downloads/gp-preview-submission/",
+			"support": {
+				"docs": "https://gravitywiz.com/documentation/gravity-forms-preview-submission/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2025-05-14T11:48:19+00:00"
+		},
+		{
+			"name": "gravitywiz/gravityperks",
+			"version": "2.3.17",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/gravityperks/gravitywiz-gravityperks-2.3.17.zip",
+				"shasum": "6cc424e5fe971aea2edc2eea56552a4046daa1fb"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"gravitywiz/spellbook": ">=3.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Effortlessly install and manage small functionality enhancements (aka \"perks\") for Gravity Forms.",
+			"homepage": "https://gravitywiz.com/downloads/gravity-perks/",
+			"support": {
+				"docs": "https://gravitywiz.com/documentation/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2025-06-11T09:51:47+00:00"
+		},
+		{
+			"name": "gravitywiz/gwlimitchoices",
+			"version": "1.7.16",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/gwlimitchoices/gravitywiz-gwlimitchoices-1.7.16.zip",
+				"shasum": "d86d1e442a65127a74a58040f7369df4e6f96801"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"gravitywiz/spellbook": ">=3.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Limit how many times a choice may be selected for multi-choice fields (e.g. Radio Buttons, Drop Downs, Checkboxes, etc).",
+			"homepage": "https://gravitywiz.com/downloads/gp-limit-choices/",
+			"support": {
+				"docs": "https://gravitywiz.com/documentation/gravity-forms-limit-choices/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2025-02-19T15:33:36+00:00"
+		},
+		{
+			"name": "gravitywiz/spellbook",
+			"version": "3.0.20",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/gravitywiz/spellbook/gravitywiz-spellbook-3.0.20.zip",
+				"shasum": "3ebf782678ad5a10387663908fe567451891888d"
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0"
+			},
+			"type": "wordpress-plugin",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Gravity Wiz",
+					"homepage": "https://gravitywiz.com"
+				}
+			],
+			"description": "Spellbook will allow you to install and update all other Gravity Wiz plugins directly from your WordPress admin. It feels like magic. ✨",
+			"homepage": "https://gravitywiz.com/downloads/spellbook/",
+			"support": {
+				"docs": "https://gravitywiz.com/gravity-wiz-weekly-302/",
+				"issues": "https://gravitywiz.com/support/"
+			},
+			"time": "2026-02-25T11:47:54+00:00"
+		},
+		{
 			"name": "guzzlehttp/guzzle",
 			"version": "7.10.0",
 			"source": {
@@ -1738,16 +2144,16 @@
 		},
 		{
 			"name": "guzzlehttp/psr7",
-			"version": "2.8.0",
+			"version": "2.9.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/psr7.git",
-				"reference": "21dc724a0583619cd1652f673303492272778051"
+				"reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-				"reference": "21dc724a0583619cd1652f673303492272778051",
+				"url": "https://api.github.com/repos/guzzle/psr7/zipball/7d0ed42f28e42d61352a7a79de682e5e67fec884",
+				"reference": "7d0ed42f28e42d61352a7a79de682e5e67fec884",
 				"shasum": ""
 			},
 			"require": {
@@ -1763,6 +2169,7 @@
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
 				"http-interop/http-factory-tests": "0.9.0",
+				"jshttp/mime-db": "1.54.0.1",
 				"phpunit/phpunit": "^8.5.44 || ^9.6.25"
 			},
 			"suggest": {
@@ -1834,7 +2241,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/psr7/issues",
-				"source": "https://github.com/guzzle/psr7/tree/2.8.0"
+				"source": "https://github.com/guzzle/psr7/tree/2.9.0"
 			},
 			"funding": [
 				{
@@ -1850,7 +2257,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-23T21:21:41+00:00"
+			"time": "2026-03-10T16:41:02+00:00"
 		},
 		{
 			"name": "http-interop/http-factory-guzzle",
@@ -2178,6 +2585,61 @@
 			"time": "2022-09-21T21:30:03+00:00"
 		},
 		{
+			"name": "jean85/pretty-package-versions",
+			"version": "1.6.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/Jean85/pretty-package-versions.git",
+				"reference": "1e0104b46f045868f11942aea058cd7186d6c303"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/Jean85/pretty-package-versions/zipball/1e0104b46f045868f11942aea058cd7186d6c303",
+				"reference": "1e0104b46f045868f11942aea058cd7186d6c303",
+				"shasum": ""
+			},
+			"require": {
+				"composer/package-versions-deprecated": "^1.8.0",
+				"php": "^7.0|^8.0"
+			},
+			"require-dev": {
+				"phpunit/phpunit": "^6.0|^8.5|^9.2"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "1.x-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"Jean85\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Alessandro Lai",
+					"email": "alessandro.lai85@gmail.com"
+				}
+			],
+			"description": "A wrapper for ocramius/package-versions to get pretty versions strings",
+			"keywords": [
+				"composer",
+				"package",
+				"release",
+				"versions"
+			],
+			"support": {
+				"issues": "https://github.com/Jean85/pretty-package-versions/issues",
+				"source": "https://github.com/Jean85/pretty-package-versions/tree/1.6.0"
+			},
+			"time": "2021-02-04T16:20:16+00:00"
+		},
+		{
 			"name": "jmikola/geojson",
 			"version": "1.2.0",
 			"source": {
@@ -2238,20 +2700,20 @@
 		},
 		{
 			"name": "johnpbloch/wordpress",
-			"version": "6.8.3",
+			"version": "6.8.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/johnpbloch/wordpress.git",
-				"reference": "1edda09c44b2e185b21941ae92e7ddfce09c31b8"
+				"reference": "4a3673283239155b4bf357f02b94a27a08999c95"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/1edda09c44b2e185b21941ae92e7ddfce09c31b8",
-				"reference": "1edda09c44b2e185b21941ae92e7ddfce09c31b8",
+				"url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4a3673283239155b4bf357f02b94a27a08999c95",
+				"reference": "4a3673283239155b4bf357f02b94a27a08999c95",
 				"shasum": ""
 			},
 			"require": {
-				"johnpbloch/wordpress-core": "6.8.3",
+				"johnpbloch/wordpress-core": "6.8.5",
 				"johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
 				"php": ">=7.0.0"
 			},
@@ -2280,20 +2742,20 @@
 				"issues": "https://core.trac.wordpress.org/",
 				"source": "https://core.trac.wordpress.org/browser"
 			},
-			"time": "2025-09-30T18:14:25+00:00"
+			"time": "2026-03-11T03:20:41+00:00"
 		},
 		{
 			"name": "johnpbloch/wordpress-core",
-			"version": "6.8.3",
+			"version": "6.8.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/johnpbloch/wordpress-core.git",
-				"reference": "0641ab5518c94c1ab094ad4ccdc46aa9c4657fc1"
+				"reference": "7329024100ca5109cbf728130acfad1990e7ae0b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/0641ab5518c94c1ab094ad4ccdc46aa9c4657fc1",
-				"reference": "0641ab5518c94c1ab094ad4ccdc46aa9c4657fc1",
+				"url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/7329024100ca5109cbf728130acfad1990e7ae0b",
+				"reference": "7329024100ca5109cbf728130acfad1990e7ae0b",
 				"shasum": ""
 			},
 			"require": {
@@ -2301,7 +2763,7 @@
 				"php": ">=7.2.24"
 			},
 			"provide": {
-				"wordpress/core-implementation": "6.8.3"
+				"wordpress/core-implementation": "6.8.5"
 			},
 			"type": "wordpress-core",
 			"notification-url": "https://packagist.org/downloads/",
@@ -2328,7 +2790,7 @@
 				"source": "https://core.trac.wordpress.org/browser",
 				"wiki": "https://codex.wordpress.org/"
 			},
-			"time": "2025-09-30T18:14:19+00:00"
+			"time": "2026-03-11T03:20:38+00:00"
 		},
 		{
 			"name": "johnpbloch/wordpress-core-installer",
@@ -2383,73 +2845,6 @@
 				"source": "https://github.com/johnpbloch/wordpress-core-installer/tree/master"
 			},
 			"time": "2020-04-16T21:44:57+00:00"
-		},
-		{
-			"name": "koodimonni-language/core-nl_nl",
-			"version": "6.8.3",
-			"dist": {
-				"type": "zip",
-				"url": "https://downloads.wordpress.org/translation/core/6.8.3/nl_NL.zip"
-			},
-			"require": {
-				"koodimonni/composer-dropin-installer": ">=0.2.3"
-			},
-			"type": "wordpress-language",
-			"description": "WordPress core translations for Dutch - nl_nl",
-			"keywords": [
-				"Translation",
-				"WordPress",
-				"core",
-				"nl_nl"
-			]
-		},
-		{
-			"name": "koodimonni/composer-dropin-installer",
-			"version": "1.4",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-				"reference": "9596ef8f50cbba2cdc707ca3b1f5e4a0e9fa7e7e"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/9596ef8f50cbba2cdc707ca3b1f5e4a0e9fa7e7e",
-				"reference": "9596ef8f50cbba2cdc707ca3b1f5e4a0e9fa7e7e",
-				"shasum": ""
-			},
-			"require": {
-				"composer-plugin-api": "^1.0 | ^2.0",
-				"php": ">=5.3.2"
-			},
-			"require-dev": {
-				"phpunit/phpunit": "^5.7"
-			},
-			"type": "composer-plugin",
-			"extra": {
-				"class": "Koodimonni\\Composer\\Dropin"
-			},
-			"autoload": {
-				"psr-4": {
-					"Koodimonni\\Composer\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"WTFPL"
-			],
-			"authors": [
-				{
-					"name": "Onni Hakala",
-					"email": "onni@keksi.io",
-					"role": "Developer"
-				}
-			],
-			"description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
-			"support": {
-				"issues": "https://github.com/Koodimonni/Composer-Dropin-Installer/issues",
-				"source": "https://github.com/Koodimonni/Composer-Dropin-Installer/tree/1.4"
-			},
-			"time": "2022-02-02T11:42:57+00:00"
 		},
 		{
 			"name": "laravel/serializable-closure",
@@ -2905,7 +3300,7 @@
 			"version": "v1.1.0",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/OpenWebconcept/idp-userdata.git",
+				"url": "git@github.com:OpenWebconcept/idp-userdata.git",
 				"reference": "a95986c390ab59356922fd12b995c26dc9e88bf9"
 			},
 			"dist": {
@@ -2930,11 +3325,7 @@
 				}
 			],
 			"description": "Common interfaces for IDP userdata (DigiD, eHerkenning)",
-			"support": {
-				"source": "https://github.com/OpenWebconcept/idp-userdata/tree/v1.1.0",
-				"issues": "https://github.com/OpenWebconcept/idp-userdata/issues"
-			},
-			"time": "2024-11-06T10:20:58+00:00"
+			"time": "2024-11-04T10:49:42+00:00"
 		},
 		{
 			"name": "php-di/invoker",
@@ -3382,9 +3773,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/config-expander/zipball/b9eb08cfa6d556c749bb28d4fce926144ffbf7f1",
+				"url": "https://satis.yard.nl/dist/plugin/config-expander/plugin-config-expander-b9eb08cfa6d556c749bb28d4fce926144ffbf7f1-zip-89bf67.zip",
 				"reference": "b9eb08cfa6d556c749bb28d4fce926144ffbf7f1",
-				"shasum": ""
+				"shasum": "0ed0fc355e702f33d86f699d11bc0f414e656452"
 			},
 			"require": {
 				"illuminate/container": "^6.0 | ^7.0 | ^8.0",
@@ -3461,34 +3852,7 @@
 			],
 			"description": "Config Expander for WordPress",
 			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/config-expander/tree/v2.2.0",
-				"issues": "https://github.com/yardinternet/config-expander/issues"
-			},
 			"time": "2026-02-20T17:17:58+00:00"
-		},
-		{
-			"name": "plugin/formio-wordpress",
-			"version": "dev-main",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/ConductionNL/formio-wordpress.git",
-				"reference": "63f43ffa5de7233380f872b7825fb51feebff00c"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/ConductionNL/formio-wordpress/zipball/63f43ffa5de7233380f872b7825fb51feebff00c",
-				"reference": "63f43ffa5de7233380f872b7825fb51feebff00c",
-				"shasum": ""
-			},
-			"default-branch": true,
-			"type": "wordpress-plugin",
-			"description": "Formio Wordpress",
-			"support": {
-				"source": "https://github.com/ConductionNL/formio-wordpress/tree/main",
-				"issues": "https://github.com/ConductionNL/formio-wordpress/issues"
-			},
-			"time": "2022-04-21T14:07:54+00:00"
 		},
 		{
 			"name": "plugin/gravityforms-amp-booking",
@@ -3500,9 +3864,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-gravityforms-amp-booking/zipball/7f7eae7dd3eaee46f24d7b4c6310988e012c0f20",
+				"url": "https://satis.yard.nl/dist/plugin/gravityforms-amp-booking/plugin-gravityforms-amp-booking-7f7eae7dd3eaee46f24d7b4c6310988e012c0f20-zip-67e126.zip",
 				"reference": "7f7eae7dd3eaee46f24d7b4c6310988e012c0f20",
-				"shasum": ""
+				"shasum": "7bde268d1aef4e31d19a68d53620becd8c516959"
 			},
 			"require": {
 				"aura/session": "^2.1",
@@ -3554,10 +3918,6 @@
 				}
 			],
 			"description": "GravityForms AMP Booking",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/tree/v1.5.5",
-				"issues": "https://github.com/yardinternet/plugin-gravityforms-amp-booking/issues"
-			},
 			"time": "2025-01-03T12:37:50+00:00"
 		},
 		{
@@ -3590,22 +3950,7 @@
 					"Yard\\CSP\\": "./src/CSP"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\CSP\\Tests\\Unit\\": "./tests/Unit"
-				}
-			},
-			"scripts": {
-				"test": [
-					"clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
-				],
-				"format": [
-					"vendor/bin/php-cs-fixer fix"
-				],
-				"phpstan": [
-					"./vendor/bin/phpstan analyse"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"EUPL-1.2"
 			],
@@ -3618,8 +3963,8 @@
 			],
 			"description": "Fixes GravityForms plugin so it is CSP compliant.",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.3",
-				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues"
+				"issues": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/issues",
+				"source": "https://github.com/yardinternet/plugin-gravityforms-csp-fixer/tree/v0.1.3"
 			},
 			"time": "2026-02-18T07:46:40+00:00"
 		},
@@ -3633,9 +3978,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-datab/zipball/d978207081cf2b26dfab70e6d6f0064286cfc00a",
+				"url": "https://satis.yard.nl/dist/plugin/owc-datab/plugin-owc-datab-d978207081cf2b26dfab70e6d6f0064286cfc00a-zip-561994.zip",
 				"reference": "d978207081cf2b26dfab70e6d6f0064286cfc00a",
-				"shasum": ""
+				"shasum": "9165b323d8999c77b89577294a2e20e9e865dfd1"
 			},
 			"require": {
 				"cmdisp/monolog-microsoft-teams": "^1.3",
@@ -3681,10 +4026,6 @@
 				}
 			],
 			"description": "Retrieve personal documents via DataB for logged in users by DigiD",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-datab/tree/v1.2.2",
-				"issues": "https://github.com/yardinternet/plugin-owc-datab/issues"
-			},
 			"time": "2025-09-26T09:30:33+00:00"
 		},
 		{
@@ -3719,32 +4060,7 @@
 					"Yard\\BAG\\": "./src/BAG"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"Yard\\BAG\\Tests\\": "./tests/Unit"
-				}
-			},
-			"scripts": {
-				"format": [
-					"./vendor/bin/php-cs-fixer fix"
-				],
-				"phpstan": [
-					"./vendor/bin/phpstan analyse --no-progress"
-				],
-				"unit": [
-					"clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
-				],
-				"unit-coverage": [
-					"clear && ./vendor/bin/phpunit --stderr --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
-				],
-				"integration": [
-					"clear && ./vendor/bin/phpunit --stderr --testsuite 'Integration Test Suite' --colors=always"
-				],
-				"test": [
-					"@unit",
-					"@integration"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"authors": [
 				{
 					"name": "Yard | Digital Agency",
@@ -3754,8 +4070,8 @@
 			],
 			"description": "Add a BAG address field to GravityForms",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.7",
-				"issues": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/issues"
+				"issues": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/issues",
+				"source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.7"
 			},
 			"time": "2026-03-20T13:00:03+00:00"
 		},
@@ -3796,28 +4112,7 @@
 					"Yard\\DigiD\\": "./src/DigiD"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"Tests\\Yard\\DigiD\\": "./tests/Unit"
-				}
-			},
-			"scripts": {
-				"format": [
-					"./vendor/bin/php-cs-fixer fix"
-				],
-				"phpstan": [
-					"./vendor/bin/phpstan analyse"
-				],
-				"unit": [
-					"clear && ./vendor/bin/phpunit --testdox --stderr --testsuite 'Unit Test Suite' --colors=always"
-				],
-				"unit-coverage": [
-					"clear && XDEBUG_MODE=coverage ./vendor/bin/phpunit --stderr --testdox --testsuite 'Unit Test Suite' --prepend tests/xdebug-filter.php --colors=always --coverage-html ./tests/coverage"
-				],
-				"test": [
-					"@unit"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"authors": [
 				{
 					"name": "Yard | Digital Agency",
@@ -3827,8 +4122,8 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.7.1",
-				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
+				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.7.1"
 			},
 			"time": "2025-11-07T13:07:01+00:00"
 		},
@@ -3842,9 +4137,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eherkenning/zipball/0234d34fe3d6670a2e61c6b769d440db2dea86e9",
+				"url": "https://satis.yard.nl/dist/plugin/owc-gravityforms-eherkenning/plugin-owc-gravityforms-eherkenning-0234d34fe3d6670a2e61c6b769d440db2dea86e9-zip-9257ea.zip",
 				"reference": "0234d34fe3d6670a2e61c6b769d440db2dea86e9",
-				"shasum": ""
+				"shasum": "59632b147b786a1fbdf0d9b165e70019aa91ce4c"
 			},
 			"require": {
 				"aura/session": "^2.1",
@@ -3898,10 +4193,6 @@
 			},
 			"description": "Add a eHerkenning login field to GravityForms",
 			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-eherkenning/tree/v1.3.1",
-				"issues": "https://github.com/yardinternet/owc-gravityforms-eherkenning/issues"
-			},
 			"time": "2024-12-24T14:27:21+00:00"
 		},
 		{
@@ -3914,9 +4205,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-eidas/zipball/445ddfd8994407cfdc1b486eff52d6ffeb2dcb79",
+				"url": "https://satis.yard.nl/dist/plugin/owc-gravityforms-eidas/plugin-owc-gravityforms-eidas-445ddfd8994407cfdc1b486eff52d6ffeb2dcb79-zip-1cc68b.zip",
 				"reference": "445ddfd8994407cfdc1b486eff52d6ffeb2dcb79",
-				"shasum": ""
+				"shasum": "20a8428036cc08b257939ca7dd6ecee035f192ce"
 			},
 			"require": {
 				"aura/session": "^2.1",
@@ -3970,10 +4261,6 @@
 			},
 			"description": "Add a eIDAS login field to GravityForms",
 			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-eidas/tree/v1.1.2",
-				"issues": "https://github.com/yardinternet/owc-gravityforms-eidas/issues"
-			},
 			"time": "2024-12-24T14:32:38+00:00"
 		},
 		{
@@ -4029,10 +4316,6 @@
 				}
 			],
 			"description": "Assign content owners to WordPress pages, allowing them to mark pages as 'verified' and receive automated review reminders based on user-defined dates.",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/tree/feat/configurable-activity-numbers",
-				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-jcc-appointments/issues"
-			},
 			"time": "2025-11-28T12:56:59+00:00"
 		},
 		{
@@ -4045,9 +4328,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-owc-gravityforms-kvk-prefill/zipball/069fb80605901af48ca55e138c3e2a6c98c4f39a",
+				"url": "https://satis.yard.nl/dist/plugin/owc-gravityforms-kvk-prefill/plugin-owc-gravityforms-kvk-prefill-069fb80605901af48ca55e138c3e2a6c98c4f39a-zip-54a0bc.zip",
 				"reference": "069fb80605901af48ca55e138c3e2a6c98c4f39a",
-				"shasum": ""
+				"shasum": "3517792611afa03fb2116ba93b28622a6279d669"
 			},
 			"require": {
 				"cmdisp/monolog-microsoft-teams": "^1.3",
@@ -4093,11 +4376,7 @@
 				}
 			],
 			"description": "Yard | KVK Prefill GravityForms",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/tree/v2.0.1",
-				"issues": "https://github.com/yardinternet/plugin-owc-gravityforms-kvk-prefill/issues"
-			},
-			"time": "2026-03-06T13:47:30+00:00"
+			"time": "2026-03-06T13:45:54+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem",
@@ -4134,22 +4413,7 @@
 					"OWC\\Zaaksysteem\\": "./src"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"OWC\\Zaaksysteem\\Tests\\": "./tests/Unit"
-				}
-			},
-			"scripts": {
-				"test": [
-					"clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
-				],
-				"format": [
-					"vendor/bin/php-cs-fixer fix"
-				],
-				"phpstan": [
-					"./vendor/bin/phpstan analyse -c phpstan.neon --memory-limit 1g"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"authors": [
 				{
 					"name": "Yard | Digital Agency",
@@ -4159,8 +4423,8 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.11.2",
-				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues"
+				"issues": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/issues",
+				"source": "https://github.com/OpenWebconcept/plugin-owc-gravityforms-zaaksysteem/tree/v2.11.2"
 			},
 			"time": "2026-01-30T11:57:03+00:00"
 		},
@@ -4174,9 +4438,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/988cc08f3bac62c85b35f0e18da55d220cd32602",
+				"url": "https://satis.yard.nl/dist/plugin/owc-gravityforms-zaaksysteem-enable-u/plugin-owc-gravityforms-zaaksysteem-enable-u-988cc08f3bac62c85b35f0e18da55d220cd32602-zip-aecaf9.zip",
 				"reference": "988cc08f3bac62c85b35f0e18da55d220cd32602",
-				"shasum": ""
+				"shasum": "798e0ab4f41a856187f4b3e4a1d1c3dc5438aa34"
 			},
 			"require": {
 				"cmdisp/monolog-microsoft-teams": "1.3.0",
@@ -4224,10 +4488,6 @@
 				}
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
-			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.6",
-				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
-			},
 			"time": "2025-07-24T13:52:03+00:00"
 		},
 		{
@@ -4248,13 +4508,14 @@
 				"composer/installers": "^1.0 | ^2.0"
 			},
 			"type": "wordpress-muplugin",
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"GPL-2.0+"
 			],
 			"description": "WordPress must-use plugin for doing stuff",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/tree/v1.0.0",
-				"issues": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/issues"
+				"issues": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/issues",
+				"source": "https://github.com/yardinternet/plugin-owc-shared-aura-session-instance/tree/v1.0.0"
 			},
 			"time": "2024-01-05T15:03:23+00:00"
 		},
@@ -4298,17 +4559,7 @@
 					"OWCSignicatOpenID\\": "src/"
 				}
 			},
-			"scripts": {
-				"phpcs": [
-					"phpcs"
-				],
-				"phpcbf": [
-					"phpcbf"
-				],
-				"post-package-install": [
-					"phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"authors": [
 				{
 					"name": "Yard | Digital Agency",
@@ -4318,8 +4569,8 @@
 			],
 			"description": "Log into the Signicat Broker with OpenID",
 			"support": {
-				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.3.2",
-				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues"
+				"issues": "https://github.com/yardinternet/plugin-owc-signicat-openid/issues",
+				"source": "https://github.com/yardinternet/plugin-owc-signicat-openid/tree/v1.3.2"
 			},
 			"time": "2025-10-30T12:48:32+00:00"
 		},
@@ -4356,22 +4607,7 @@
 					"OWC\\PrefillGravityForms\\": "./src/PrefillGravityForms"
 				}
 			},
-			"autoload-dev": {
-				"psr-4": {
-					"OWC\\PrefillGravityForms\\Tests\\": "./tests/Unit"
-				}
-			},
-			"scripts": {
-				"test": [
-					"clear && ./vendor/bin/phpunit  --testsuite 'Unit Test Suite' --colors=always"
-				],
-				"format": [
-					"vendor/bin/php-cs-fixer fix"
-				],
-				"phpstan": [
-					"./vendor/bin/phpstan analyse"
-				]
-			},
+			"notification-url": "https://packagist.org/downloads/",
 			"authors": [
 				{
 					"name": "Yard | Digital Agency",
@@ -4381,28 +4617,27 @@
 			],
 			"description": "Prefill GravityForms Plugin",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.9.1",
-				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues"
+				"issues": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/issues",
+				"source": "https://github.com/OpenWebconcept/plugin-prefill-gravity-forms/tree/v1.9.1"
 			},
 			"time": "2026-03-03T17:15:21+00:00"
 		},
 		{
 			"name": "plugin/yard-official-publications",
-			"version": "dev-elastic-bug-workaround",
+			"version": "v2.1.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/plugin-official-publications.git",
-				"reference": "85703a68660c2fffc03a29314ddadad7d62a8252"
+				"reference": "1e786df757b8c9dd28c63cd62bd8031db81990a4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/plugin-official-publications/zipball/85703a68660c2fffc03a29314ddadad7d62a8252",
-				"reference": "85703a68660c2fffc03a29314ddadad7d62a8252",
-				"shasum": ""
+				"url": "https://satis.yard.nl/dist/plugin/yard-official-publications/plugin-yard-official-publications-1e786df757b8c9dd28c63cd62bd8031db81990a4-zip-0bc13f.zip",
+				"reference": "1e786df757b8c9dd28c63cd62bd8031db81990a4",
+				"shasum": "093e9bb53014c34893c0078a67952d736326fde2"
 			},
 			"require": {
-				"elastic/transport": "dev-handle-package-not-found@dev",
-				"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
+				"elasticsearch/elasticsearch": "^8.0",
 				"jmikola/geojson": "^1.2",
 				"php": "7.4.* || 8.1.* || 8.2.*",
 				"yard/elasticsearch-schema": "^1.0",
@@ -4445,11 +4680,7 @@
 			},
 			"description": "This plugin stores official governmental publications in ElasticSearch",
 			"homepage": "https://www.yard.nl",
-			"support": {
-				"source": "https://github.com/yardinternet/plugin-official-publications/tree/elastic-bug-workaround",
-				"issues": "https://github.com/yardinternet/plugin-official-publications/issues"
-			},
-			"time": "2025-10-23T14:35:31+00:00"
+			"time": "2025-12-23T12:15:51+00:00"
 		},
 		{
 			"name": "psr/cache",
@@ -5019,7 +5250,7 @@
 			"version": "dev-development",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/richardkorthuis/geoPHP.git",
+				"url": "git@github.com:richardkorthuis/geoPHP.git",
 				"reference": "eeb62860346aa76e00a0c6f8520ea6c44c7c2363"
 			},
 			"dist": {
@@ -5125,23 +5356,20 @@
 				"wkb",
 				"wkt"
 			],
-			"support": {
-				"source": "https://github.com/richardkorthuis/geoPHP/tree/development"
-			},
 			"time": "2025-07-15T12:03:09+00:00"
 		},
 		{
 			"name": "robrichards/xmlseclibs",
-			"version": "3.1.4",
+			"version": "3.1.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/robrichards/xmlseclibs.git",
-				"reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd"
+				"reference": "03062be78178cbb5e8f605cd255dc32a14981f92"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/bc87389224c6de95802b505e5265b0ec2c5bcdbd",
-				"reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd",
+				"url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/03062be78178cbb5e8f605cd255dc32a14981f92",
+				"reference": "03062be78178cbb5e8f605cd255dc32a14981f92",
 				"shasum": ""
 			},
 			"require": {
@@ -5168,9 +5396,100 @@
 			],
 			"support": {
 				"issues": "https://github.com/robrichards/xmlseclibs/issues",
-				"source": "https://github.com/robrichards/xmlseclibs/tree/3.1.4"
+				"source": "https://github.com/robrichards/xmlseclibs/tree/3.1.5"
 			},
-			"time": "2025-12-08T11:57:53+00:00"
+			"time": "2026-03-13T10:31:56+00:00"
+		},
+		{
+			"name": "sentry/sentry",
+			"version": "4.22.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/getsentry/sentry-php.git",
+				"reference": "ce6ab95a7021f976a27b4628a4072e481c8acf60"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/getsentry/sentry-php/zipball/ce6ab95a7021f976a27b4628a4072e481c8acf60",
+				"reference": "ce6ab95a7021f976a27b4628a4072e481c8acf60",
+				"shasum": ""
+			},
+			"require": {
+				"ext-curl": "*",
+				"ext-json": "*",
+				"ext-mbstring": "*",
+				"guzzlehttp/psr7": "^1.8.4|^2.1.1",
+				"jean85/pretty-package-versions": "^1.5|^2.0.4",
+				"php": "^7.2|^8.0",
+				"psr/log": "^1.0|^2.0|^3.0",
+				"symfony/options-resolver": "^4.4.30|^5.0.11|^6.0|^7.0|^8.0"
+			},
+			"conflict": {
+				"raven/raven": "*"
+			},
+			"require-dev": {
+				"friendsofphp/php-cs-fixer": "^3.4",
+				"guzzlehttp/promises": "^2.0.3",
+				"guzzlehttp/psr7": "^1.8.4|^2.1.1",
+				"monolog/monolog": "^1.6|^2.0|^3.0",
+				"nyholm/psr7": "^1.8",
+				"phpbench/phpbench": "^1.0",
+				"phpstan/phpstan": "^1.3",
+				"phpunit/phpunit": "^8.5.52|^9.6.34",
+				"spiral/roadrunner-http": "^3.6",
+				"spiral/roadrunner-worker": "^3.6",
+				"vimeo/psalm": "^4.17"
+			},
+			"suggest": {
+				"monolog/monolog": "Allow sending log messages to Sentry by using the included Monolog handler."
+			},
+			"type": "library",
+			"autoload": {
+				"files": [
+					"src/functions.php"
+				],
+				"psr-4": {
+					"Sentry\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Sentry",
+					"email": "accounts@sentry.io"
+				}
+			],
+			"description": "PHP SDK for Sentry (http://sentry.io)",
+			"homepage": "http://sentry.io",
+			"keywords": [
+				"crash-reporting",
+				"crash-reports",
+				"error-handler",
+				"error-monitoring",
+				"log",
+				"logging",
+				"profiling",
+				"sentry",
+				"tracing"
+			],
+			"support": {
+				"issues": "https://github.com/getsentry/sentry-php/issues",
+				"source": "https://github.com/getsentry/sentry-php/tree/4.22.0"
+			},
+			"funding": [
+				{
+					"url": "https://sentry.io/",
+					"type": "custom"
+				},
+				{
+					"url": "https://sentry.io/pricing/",
+					"type": "custom"
+				}
+			],
+			"time": "2026-03-16T13:03:46+00:00"
 		},
 		{
 			"name": "spomky-labs/base64url",
@@ -5236,6 +5555,66 @@
 				}
 			],
 			"time": "2020-11-03T09:10:25+00:00"
+		},
+		{
+			"name": "stayallive/wp-sentry",
+			"version": "v8.10.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/stayallive/wp-sentry.git",
+				"reference": "259eb9dda09581c0e86ccbe05e4aba115f1c460b"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/stayallive/wp-sentry/zipball/259eb9dda09581c0e86ccbe05e4aba115f1c460b",
+				"reference": "259eb9dda09581c0e86ccbe05e4aba115f1c460b",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "^1.0 || ^2.0",
+				"jean85/pretty-package-versions": "^1.5",
+				"php": "^7.2.5 || ^8.0",
+				"sentry/sentry": "^4.18.1"
+			},
+			"type": "wordpress-plugin",
+			"autoload": {
+				"classmap": [
+					"src/"
+				]
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Alex Bouma",
+					"email": "alex@bouma.me",
+					"homepage": "https://alex.bouma.blog"
+				}
+			],
+			"description": "A (unofficial) WordPress plugin to report PHP and JavaScript errors to Sentry.",
+			"homepage": "https://github.com/stayallive/wp-sentry",
+			"keywords": [
+				"crash-reporting",
+				"error-monitoring",
+				"logging",
+				"sentry",
+				"wordpress"
+			],
+			"support": {
+				"docs": "https://github.com/stayallive/wp-sentry#readme",
+				"forum": "https://github.com/stayallive/wp-sentry/discussions",
+				"issues": "https://github.com/stayallive/wp-sentry/issues",
+				"source": "https://github.com/stayallive/wp-sentry/tree/v8.10.0"
+			},
+			"funding": [
+				{
+					"url": "https://github.com/stayallive",
+					"type": "github"
+				}
+			],
+			"time": "2025-11-12T16:48:28+00:00"
 		},
 		{
 			"name": "symfony/dependency-injection",
@@ -5641,6 +6020,75 @@
 				}
 			],
 			"time": "2025-11-03T12:58:48+00:00"
+		},
+		{
+			"name": "symfony/options-resolver",
+			"version": "v5.4.45",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/symfony/options-resolver.git",
+				"reference": "74e5b6f0db3e8589e6cfd5efb317a1fc2bb52fb6"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/symfony/options-resolver/zipball/74e5b6f0db3e8589e6cfd5efb317a1fc2bb52fb6",
+				"reference": "74e5b6f0db3e8589e6cfd5efb317a1fc2bb52fb6",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.2.5",
+				"symfony/deprecation-contracts": "^2.1|^3",
+				"symfony/polyfill-php73": "~1.0",
+				"symfony/polyfill-php80": "^1.16"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Symfony\\Component\\OptionsResolver\\": ""
+				},
+				"exclude-from-classmap": [
+					"/Tests/"
+				]
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Fabien Potencier",
+					"email": "fabien@symfony.com"
+				},
+				{
+					"name": "Symfony Community",
+					"homepage": "https://symfony.com/contributors"
+				}
+			],
+			"description": "Provides an improved replacement for the array_replace PHP function",
+			"homepage": "https://symfony.com",
+			"keywords": [
+				"config",
+				"configuration",
+				"options"
+			],
+			"support": {
+				"source": "https://github.com/symfony/options-resolver/tree/v5.4.45"
+			},
+			"funding": [
+				{
+					"url": "https://symfony.com/sponsor",
+					"type": "custom"
+				},
+				{
+					"url": "https://github.com/fabpot",
+					"type": "github"
+				},
+				{
+					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+					"type": "tidelift"
+				}
+			],
+			"time": "2024-09-25T14:11:13+00:00"
 		},
 		{
 			"name": "symfony/polyfill-ctype",
@@ -7141,24 +7589,6 @@
 			"homepage": "https://wordpress.org/plugins/coming-soon/"
 		},
 		{
-			"name": "wpackagist-plugin/duplicate-post",
-			"version": "4.5",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/duplicate-post/",
-				"reference": "tags/4.5"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/duplicate-post.4.5.zip"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"homepage": "https://wordpress.org/plugins/duplicate-post/"
-		},
-		{
 			"name": "wpackagist-plugin/google-analytics-for-wordpress",
 			"version": "9.11.1",
 			"source": {
@@ -7285,24 +7715,6 @@
 			"homepage": "https://wordpress.org/plugins/wordpress-importer/"
 		},
 		{
-			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.10.0",
-			"source": {
-				"type": "svn",
-				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.10.0"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.10.0.zip"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"homepage": "https://wordpress.org/plugins/wp-sentry-integration/"
-		},
-		{
 			"name": "wpackagist-plugin/wp-seopress",
 			"version": "8.9.0.2",
 			"source": {
@@ -7321,18 +7733,35 @@
 			"homepage": "https://wordpress.org/plugins/wp-seopress/"
 		},
 		{
+			"name": "wpengine/advanced-custom-fields-pro",
+			"version": "6.7.1",
+			"dist": {
+				"type": "zip",
+				"url": "https://satis.yard.nl/dist/wpengine/advanced-custom-fields-pro/wpengine-advanced-custom-fields-pro-6.7.1.zip",
+				"shasum": "a65f1a33b459740e3f41474139d4fbc12879f899"
+			},
+			"require": {
+				"composer/installers": "~1.0 || ~2.0"
+			},
+			"replace": {
+				"wpackagist-plugin/advanced-custom-fields": "self.version",
+				"wpengine/advanced-custom-fields": "self.version"
+			},
+			"type": "wordpress-plugin"
+		},
+		{
 			"name": "yard/elasticsearch-schema",
-			"version": "v1.0.0",
+			"version": "v1.0.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/elasticsearch-schema.git",
-				"reference": "767a0e48c87703f51eb95f38a789d94598edaa89"
+				"reference": "7ee5a8751782717ac732bf08749e0e24d305913b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/elasticsearch-schema/zipball/767a0e48c87703f51eb95f38a789d94598edaa89",
-				"reference": "767a0e48c87703f51eb95f38a789d94598edaa89",
-				"shasum": ""
+				"url": "https://satis.yard.nl/dist/yard/elasticsearch-schema/yard-elasticsearch-schema-7ee5a8751782717ac732bf08749e0e24d305913b-zip-14d0d9.zip",
+				"reference": "7ee5a8751782717ac732bf08749e0e24d305913b",
+				"shasum": "fecba786c16e3038bcb0c5732ac4d2f3857bc2db"
 			},
 			"require": {
 				"php": "7.4.* || 8.1.* || 8.2.*"
@@ -7377,11 +7806,7 @@
 				"MIT"
 			],
 			"description": "Mapping and document template for building ElasticSearch indexes",
-			"support": {
-				"source": "https://github.com/yardinternet/elasticsearch-schema/tree/v1.0.0",
-				"issues": "https://github.com/yardinternet/elasticsearch-schema/issues"
-			},
-			"time": "2025-04-09T15:22:04+00:00"
+			"time": "2026-03-06T13:42:10+00:00"
 		},
 		{
 			"name": "yard/geocode-pdok",
@@ -7393,9 +7818,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/geocode-pdok/zipball/607fb7fac8cac10271d33e93af16165a6f15d994",
+				"url": "https://satis.yard.nl/dist/yard/geocode-pdok/yard-geocode-pdok-607fb7fac8cac10271d33e93af16165a6f15d994-zip-2ef9e1.zip",
 				"reference": "607fb7fac8cac10271d33e93af16165a6f15d994",
-				"shasum": ""
+				"shasum": "5aca4980f69cb9e44aedfa83ad955aca29463481"
 			},
 			"require": {
 				"ext-json": "*",
@@ -7442,10 +7867,6 @@
 				"MIT"
 			],
 			"description": "Library for geocoding address data using the PDOK location service",
-			"support": {
-				"source": "https://github.com/yardinternet/geocode-pdok/tree/v1.0.0",
-				"issues": "https://github.com/yardinternet/geocode-pdok/issues"
-			},
 			"time": "2025-03-27T09:57:15+00:00"
 		},
 		{
@@ -7516,6 +7937,7 @@
 					"GoGentoOSS\\SAMLBase": "src/"
 				}
 			},
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"OSL-3.0"
 			],
@@ -7530,15 +7952,14 @@
 			"description": "Library for SAML2 Service Providers in PHP",
 			"homepage": "https://github.com/GoGentoOSS/SAMLBase",
 			"keywords": [
-				"PHP",
 				"SAML2",
 				"SAMLBase",
 				"SSO",
-				"saml2"
+				"php"
 			],
 			"support": {
-				"source": "https://github.com/yardinternet/samlbase/tree/v1.7.0",
-				"issues": "https://github.com/yardinternet/samlbase/issues"
+				"issues": "https://github.com/yardinternet/samlbase/issues",
+				"source": "https://github.com/yardinternet/samlbase/tree/v1.7.0"
 			},
 			"time": "2025-02-27T09:51:56+00:00"
 		},
@@ -7552,9 +7973,9 @@
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/xml-scraper/zipball/3215bb76fadad7621f4416f3090f369566a49083",
+				"url": "https://satis.yard.nl/dist/yard/xml-scraper/yard-xml-scraper-3215bb76fadad7621f4416f3090f369566a49083-zip-ecbce3.zip",
 				"reference": "3215bb76fadad7621f4416f3090f369566a49083",
-				"shasum": ""
+				"shasum": "f51719865cc3c29ef35bc0b2ec10affeeeb59bf9"
 			},
 			"require": {
 				"ext-dom": "*",
@@ -7603,57 +8024,89 @@
 			],
 			"description": "Yard XML Scraper",
 			"homepage": "https://www.yard.nl",
+			"time": "2024-12-05T15:53:07+00:00"
+		},
+		{
+			"name": "yoast/duplicate-post",
+			"version": "4.6",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/Yoast-dist/duplicate-post.git",
+				"reference": "db85005366144846cac3b07632488a6da92876f5"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/Yoast-dist/duplicate-post/zipball/db85005366144846cac3b07632488a6da92876f5",
+				"reference": "db85005366144846cac3b07632488a6da92876f5",
+				"shasum": ""
+			},
+			"require": {
+				"composer/installers": "^1.12.0 || ^2.0",
+				"php": "^7.4 || ^8.0"
+			},
+			"require-dev": {
+				"yoast/wp-test-utils": "^1.2.1",
+				"yoast/yoastcs": "^3.3.0"
+			},
+			"type": "wordpress-plugin",
+			"autoload": {
+				"classmap": [
+					"src/"
+				]
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"GPL-2.0-or-later"
+			],
+			"authors": [
+				{
+					"name": "Enrico Battocchi & Team Yoast",
+					"email": "support@yoast.com",
+					"homepage": "https://yoast.com"
+				}
+			],
+			"description": "The go-to tool for cloning posts and pages, including the powerful Rewrite & Republish feature.",
+			"homepage": "https://wordpress.org/plugins/duplicate-post/",
+			"keywords": [
+				"clone",
+				"copy",
+				"post",
+				"wordpress"
+			],
 			"support": {
-				"source": "https://github.com/yardinternet/xml-scraper/tree/v1.0.0",
-				"issues": "https://github.com/yardinternet/xml-scraper/issues"
+				"forum": "https://wordpress.org/support/plugin/duplicate-post",
+				"issues": "https://github.com/Yoast/duplicate-post/issues",
+				"security": "https://yoast.com/security-program/",
+				"source": "https://github.com/Yoast/duplicate-post"
 			},
-			"time": "2025-04-09T10:24:07+00:00"
+			"time": "2026-03-09T10:26:52+00:00"
 		},
 		{
-			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.7.0.2",
+			"name": "ypackagist/formio-wordpress",
+			"version": "1.0.10",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.7.0.2",
-				"shasum": "2591e2703ef6765e93194277f8f6251c0a81b97f"
+				"url": "https://packagist.yard.nl/satispress/formio-wordpress/1.0.10",
+				"shasum": "cb6838d2029b61fd21bdce8cbed7b096d1f7223a"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
 			},
 			"type": "wordpress-plugin",
 			"authors": {
-				"name": "WP Engine",
-				"homepage": "https://wpengine.com/?utm_source=wordpress.org&#038;utm_medium=referral&#038;utm_campaign=plugin_directory&#038;utm_content=advanced_custom_fields"
+				"name": "Conduction",
+				"homepage": "https://conduction.nl"
 			},
-			"description": "Customize WordPress with powerful, professional and intuitive fields.",
-			"homepage": "https://www.advancedcustomfields.com"
-		},
-		{
-			"name": "ypackagist/cmb2",
-			"version": "2.11.0",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/cmb2/2.11.0",
-				"shasum": "bc823b306f246df9b9dbeb010ebfbec0de3dd21c"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "CMB2 team",
-				"homepage": "https://cmb2.io"
-			},
-			"description": "CMB2 will create metaboxes and forms with custom fields that will blow your mind.",
-			"homepage": "https://github.com/CMB2/CMB2"
+			"description": "De formio plugin",
+			"homepage": "https://conduction.nl/formio"
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.4.2",
+			"version": "2.5.0",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.2",
-				"shasum": "9ecd23f98d4e9320a7063f64b60b95fe625c37e3"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.5.0",
+				"shasum": "31627dd1f9d3ffd56cda44485e3267afe6aea103"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7665,82 +8118,6 @@
 			},
 			"description": "Export all Gravity Forms entries to Excel (.xlsx) or CSV via a secret shareable URL.",
 			"homepage": "https://gfexcel.com"
-		},
-		{
-			"name": "ypackagist/gp-advanced-select",
-			"version": "1.1.19",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-advanced-select/1.1.19",
-				"shasum": "6b2787a63884f66f089a58d9a36da4dd2058d269"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Wiz",
-				"homepage": "https://gravitywiz.com/"
-			},
-			"description": "Modern Drop Down and Multi Select fields with search and powerful integrations.",
-			"homepage": "https://gravitywiz.com/documentation/gravity-forms-advanced-select/"
-		},
-		{
-			"name": "ypackagist/gp-limit-dates",
-			"version": "1.1.31",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-limit-dates/1.1.31",
-				"shasum": "d33f1ac6d4a03e4fcc6e45768f0666519612d993"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Wiz",
-				"homepage": "http://gravitywiz.com/"
-			},
-			"description": "Limit which days are selectable for your Gravity Forms Date Picker fields.",
-			"homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-dates/"
-		},
-		{
-			"name": "ypackagist/gp-limit-submissions",
-			"version": "1.1.23",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-limit-submissions/1.1.23",
-				"shasum": "97314278b247d6c92d8189d0d202cc6244a39680"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Wiz",
-				"homepage": "http://gravitywiz.com"
-			},
-			"description": "Limit the number of entries that can be submitted by almost anything (e.g. user, role, IP, field value).",
-			"homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-submissions/"
-		},
-		{
-			"name": "ypackagist/gp-preview-submission",
-			"version": "1.3.24",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gp-preview-submission/1.3.24",
-				"shasum": "bdd08b97edb7a4fcf751dfd34a877448d6e17f95"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Wiz",
-				"homepage": "http://gravitywiz.com"
-			},
-			"description": "Add a simple submission preview to allow users to confirm their submission is correct before submitting the form.",
-			"homepage": "https://gravitywiz.com/documentation/gravity-forms-preview-submission/"
 		},
 		{
 			"name": "ypackagist/gravity-forms-power-automate",
@@ -7762,44 +8139,6 @@
 			"homepage": "https://reenhanced.com/products/gravity-forms-power-automate"
 		},
 		{
-			"name": "ypackagist/gravity-pdf",
-			"version": "6.14.0",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.14.0",
-				"shasum": "e8fa49409fff5c512d3a708e71b9b3d75011c98d"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Blue Liquid Designs",
-				"homepage": "https://blueliquiddesigns.com.au"
-			},
-			"description": "Automatically generate highly-customizable PDF documents using Gravity Forms and WordPress (canonical)",
-			"homepage": "https://gravitypdf.com"
-		},
-		{
-			"name": "ypackagist/gravityforms",
-			"version": "2.9.28.1",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityforms/2.9.28.1",
-				"shasum": "01f38c772f45938d947da90f2e35181386289a10"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Forms",
-				"homepage": "https://gravityforms.com"
-			},
-			"description": "Easily create web forms and manage form entries within the WordPress admin.",
-			"homepage": "https://gravityforms.com"
-		},
-		{
 			"name": "ypackagist/gravityforms-encryption",
 			"version": "1.7.0",
 			"dist": {
@@ -7817,120 +8156,6 @@
 			},
 			"description": "Adds an option to the Gravity Forms text fields to allow the values to be encrypted in the database.",
 			"homepage": "https://www.crosspeaksoftware.com/downloads/gravity-forms-encryption/"
-		},
-		{
-			"name": "ypackagist/gravityformssurvey",
-			"version": "3.8",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityformssurvey/3.8",
-				"shasum": "b324147e9fc3ebdedbf9589751aefd77dec86bfa"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Forms",
-				"homepage": "https://gravityforms.com"
-			},
-			"description": "Allows you to quickly and easily deploy Surveys on your web site using the power of Gravity Forms.",
-			"homepage": "https://gravityforms.com"
-		},
-		{
-			"name": "ypackagist/gravityformswebhooks",
-			"version": "1.7.0",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityformswebhooks/1.7.0",
-				"shasum": "6d122f1a9be3dcdf6f689ec62a0c26723b08328a"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Forms",
-				"homepage": "https://gravityforms.com"
-			},
-			"description": "Integrates Gravity Forms with third party services using custom webhooks.",
-			"homepage": "https://gravityforms.com"
-		},
-		{
-			"name": "ypackagist/gravityformszapier",
-			"version": "4.4.0",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityformszapier/4.4.0",
-				"shasum": "cb6c819ba16b1fd8b7341306e2d55aa0183d472f"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Forms",
-				"homepage": "https://gravityforms.com"
-			},
-			"description": "Integrates Gravity Forms with Zapier, allowing form submissions to be automatically sent to your configured Zaps.",
-			"homepage": "https://gravityforms.com"
-		},
-		{
-			"name": "ypackagist/gravityperks",
-			"version": "2.3.17",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravityperks/2.3.17",
-				"shasum": "426ba5b0e1e447d663fb594a6b42be7ef5976e09"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Wiz",
-				"homepage": "https://gravitywiz.com/"
-			},
-			"description": "Effortlessly enhance Gravity Forms with powerful add-ons (“perks”) for smarter, more flexible forms—all backed by legendary support.",
-			"homepage": "https://gravitywiz.com/"
-		},
-		{
-			"name": "ypackagist/gwlimitchoices",
-			"version": "1.7.16",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gwlimitchoices/1.7.16",
-				"shasum": "ab37dcea767b1376028dcfb307a20165f3d5b3bf"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "Gravity Wiz",
-				"homepage": "http://gravitywiz.com/"
-			},
-			"description": "Limit how many times a choice may be selected for Radio Button, Drop Down and Checkbox fields.",
-			"homepage": "https://gravitywiz.com/documentation/gravity-forms-limit-choices/"
-		},
-		{
-			"name": "ypackagist/wp-migrate-db-pro",
-			"version": "2.7.6",
-			"dist": {
-				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/wp-migrate-db-pro/2.7.6",
-				"shasum": "bea6bf2cb9138ae6ec118cb203d3fbd4ac577c6b"
-			},
-			"require": {
-				"composer/installers": "^1.0 || ^2.0"
-			},
-			"type": "wordpress-plugin",
-			"authors": {
-				"name": "WP Engine",
-				"homepage": "https://deliciousbrains.com"
-			},
-			"description": "Migrate between any two environments. Push, pull, and export full sites. Find and replace content including serialized data. Import and back up the database.",
-			"homepage": "https://deliciousbrains.com/wp-migrate-db-pro/"
 		}
 	],
 	"packages-dev": [
@@ -11613,75 +11838,6 @@
 			"time": "2024-09-28T13:32:08+00:00"
 		},
 		{
-			"name": "symfony/options-resolver",
-			"version": "v5.4.45",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/symfony/options-resolver.git",
-				"reference": "74e5b6f0db3e8589e6cfd5efb317a1fc2bb52fb6"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/options-resolver/zipball/74e5b6f0db3e8589e6cfd5efb317a1fc2bb52fb6",
-				"reference": "74e5b6f0db3e8589e6cfd5efb317a1fc2bb52fb6",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=7.2.5",
-				"symfony/deprecation-contracts": "^2.1|^3",
-				"symfony/polyfill-php73": "~1.0",
-				"symfony/polyfill-php80": "^1.16"
-			},
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Symfony\\Component\\OptionsResolver\\": ""
-				},
-				"exclude-from-classmap": [
-					"/Tests/"
-				]
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Fabien Potencier",
-					"email": "fabien@symfony.com"
-				},
-				{
-					"name": "Symfony Community",
-					"homepage": "https://symfony.com/contributors"
-				}
-			],
-			"description": "Provides an improved replacement for the array_replace PHP function",
-			"homepage": "https://symfony.com",
-			"keywords": [
-				"config",
-				"configuration",
-				"options"
-			],
-			"support": {
-				"source": "https://github.com/symfony/options-resolver/tree/v5.4.45"
-			},
-			"funding": [
-				{
-					"url": "https://symfony.com/sponsor",
-					"type": "custom"
-				},
-				{
-					"url": "https://github.com/fabpot",
-					"type": "github"
-				},
-				{
-					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-					"type": "tidelift"
-				}
-			],
-			"time": "2024-09-25T14:11:13+00:00"
-		},
-		{
 			"name": "symfony/polyfill-intl-grapheme",
 			"version": "v1.33.0",
 			"source": {
@@ -12358,15 +12514,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/query-monitor",
-			"version": "3.20.2",
+			"version": "3.20.4",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/query-monitor/",
-				"reference": "tags/3.20.2"
+				"reference": "tags/3.20.4"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.4.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -12381,21 +12537,14 @@
 		"acato-plugins/cmb2-flexible-content": 20,
 		"acato/openkaarten-base-functions": 20,
 		"deployer/recipes": 20,
-		"elastic/transport": 20,
-		"elasticsearch/elasticsearch": 20,
-		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"plugin/yard-official-publications": 20,
 		"richardkorthuis/geophp": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,
 	"platform": {
-		"php": "<8.0"
+		"php": "^7.4"
 	},
 	"platform-dev": {},
-	"platform-overrides": {
-		"php": "7.4"
-	},
 	"plugin-api-version": "2.9.0"
 }

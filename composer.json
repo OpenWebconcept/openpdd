@@ -18,9 +18,6 @@
 			"koodimonni/composer-dropin-installer": true,
 			"php-http/discovery": true,
 			"cweagans/composer-patches": true
-		},
-		"platform": {
-			"php": "7.4"
 		}
 	},
 	"authors": [
@@ -31,132 +28,25 @@
 	],
 	"repositories": [
 		{
+			"name": "satispress",
 			"type": "composer",
-			"url": "https://packagist.yard.nl/satispress"
+			"url": "https://packagist.yard.nl/satispress",
+			"only": [
+				"ypackagist/*"
+			]
 		},
 		{
+			"name": "wpackagist",
 			"type": "composer",
-			"url": "https://wpackagist.org"
+			"url": "https://wpackagist.org",
+			"only": [
+				"wpackagist-plugin/*"
+			]
 		},
 		{
+			"name": "satis",
 			"type": "composer",
-			"url": "https://wp-languages.github.io"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-gravityforms-bag-address.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/owc-gravityforms-digid.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/owc-gravityforms-eherkenning.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/owc-gravityforms-eidas.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/config-expander.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-gravityforms-amp-booking.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-gravityforms-csp-fixer.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-gravityforms-kvk-prefill.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-prefill-gravity-forms.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-owc-gravityforms-zaaksysteem.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-datab.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:ConductionNL/formio-wordpress.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-shared-aura-session-instance.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/samlbase.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-signicat-openid.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/idp-userdata.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/plugin-openkaarten-base.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-official-publications.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/elasticsearch-schema.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/geocode-pdok.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/xml-scraper.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:OpenWebconcept/package-owc-openkaarten-functions.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:acato-plugins/cmb2-flexible-content.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:richardkorthuis/geoPHP.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:dtakken/elasticsearch-php.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:dtakken/elastic-transport-php.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git"
+			"url": "https://satis.yard.nl"
 		}
 	],
 	"_comment": [
@@ -168,7 +58,7 @@
 		" Constraints last verified: 09-2024                                 "
 	],
 	"require": {
-		"php": "<8.0",
+		"php": "^7.4",
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
 		"acato/openkaarten-base": "^0.2",
 		"acato/openkaarten-base-functions": "dev-master",
@@ -177,16 +67,15 @@
 		"cmdisp/monolog-microsoft-teams": "^1.3",
 		"composer/installers": "^1.0",
 		"cweagans/composer-patches": "^1.7.0",
-		"elastic/transport": "dev-handle-package-not-found@dev",
-		"elasticsearch/elasticsearch": "dev-handle-package-not-found@dev",
+		"elastic/transport": "^8.11",
+		"elasticsearch/elasticsearch": "^8.19",
 		"illuminate/support": "^8.83",
 		"johnpbloch/wordpress": "6.8.*",
 		"johnpbloch/wordpress-core": "6.8.*",
-		"koodimonni-language/core-nl_nl": "6.8.*",
 		"monolog/monolog": "^2.0",
 		"php-di/php-di": "^6.0",
 		"plugin/config-expander": "^2.0",
-		"plugin/formio-wordpress": "dev-main",
+		"ypackagist/formio-wordpress": "^1.0",
 		"plugin/gravityforms-amp-booking": "^1.4",
 		"plugin/gravityforms-csp-fixer": "^0.1.0",
 		"plugin/owc-datab": "^1.2.0",
@@ -201,12 +90,12 @@
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.3.*",
 		"plugin/prefill-gravity-forms": "^1.9",
-		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
+		"plugin/yard-official-publications": "^2.0",
 		"richardkorthuis/geophp": "dev-development",
 		"vlucas/phpdotenv": "^5.0",
 		"wpackagist-plugin/block-visibility": "^3.7",
 		"wpackagist-plugin/coming-soon": "^6.0",
-		"wpackagist-plugin/duplicate-post": "^4.0",
+		"yoast/duplicate-post": "^4.0",
 		"wpackagist-plugin/google-analytics-for-wordpress": "^9.6",
 		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
 		"wpackagist-plugin/pronamic-ideal": "9.5.*",
@@ -214,25 +103,25 @@
 		"wpackagist-plugin/user-switching": "^1.0",
 		"wpackagist-plugin/wordfence": "^8.0",
 		"wpackagist-plugin/wordpress-importer": "^0.8",
-		"wpackagist-plugin/wp-sentry-integration": "^8.3",
+		"stayallive/wp-sentry": "^8.3",
 		"wpackagist-plugin/wp-seopress": "^8.0",
-		"ypackagist/advanced-custom-fields-pro": "^6.3",
-		"ypackagist/cmb2": "^2.11",
+		"wpengine/advanced-custom-fields-pro": "^6.3",
+		"cmb2/cmb2": "^2.11",
 		"ypackagist/gf-entries-in-excel": "^2.2",
-		"ypackagist/gp-advanced-select": "^1.0.1",
-		"ypackagist/gp-limit-dates": "^1.1.25",
-		"ypackagist/gp-limit-submissions": "^1.1.12",
-		"ypackagist/gp-preview-submission": "^1.3.15",
+		"gravitywiz/gp-advanced-select": "^1.0.1",
+		"gravitywiz/gp-limit-dates": "^1.1.25",
+		"gravitywiz/gp-limit-submissions": "^1.1.12",
+		"gravitywiz/gp-preview-submission": "^1.3.15",
 		"ypackagist/gravity-forms-power-automate": "^1.5.1",
-		"ypackagist/gravity-pdf": "^6.12",
-		"ypackagist/gravityforms": "^2.8",
+		"gravitypdf/gravity-pdf": "^6.12",
+		"gravity/gravityforms": "^2.8",
 		"ypackagist/gravityforms-encryption": "^1.6",
-		"ypackagist/gravityformssurvey": "^3.8",
-		"ypackagist/gravityformswebhooks": "^1.5",
-		"ypackagist/gravityformszapier": "^4.2.1",
-		"ypackagist/gravityperks": "^2.3.4",
-		"ypackagist/gwlimitchoices": "^1.7.13",
-		"ypackagist/wp-migrate-db-pro": "^2.6.10"
+		"gravity/gravityformssurvey": "^4.0",
+		"gravity/gravityformswebhooks": "^1.5",
+		"gravity/gravityformszapier": "^4.2.1",
+		"gravitywiz/gravityperks": "^2.3.4",
+		"gravitywiz/gwlimitchoices": "^1.7.13",
+		"deliciousbrains-plugin/wp-migrate-db-pro": "^2.6.10"
 	},
 	"require-dev": {
 		"10up/wp_mock": "~0.5",
