@@ -7,13 +7,13 @@
  * @author Paul van Impelen <paul@acato.nl>
  */
 ?>
-<?php if(has_nav_menu('mijn-zaken-sidebar')) : ?>
+<?php if (has_nav_menu('mijn-zaken-sidebar')) : ?>
 	<?php get_template_part('templates/mijn-zaken/sidebar/sidebar-menu'); ?>
 <?php else : ?>
 <nav class="denhaag-sidenav">
     <ul class="denhaag-sidenav__list">
         <li class="denhaag-sidenav__item">
-            <a href="<?php echo home_url("overzicht"); ?>" <?php echo is_page('overzicht') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('overzicht') ? ' denhaag-sidenav__link--current' : '' ?>">
+            <a href="<?php echo home_url('overzicht'); ?>" <?php echo is_page('overzicht') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('overzicht') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -25,7 +25,7 @@
             </a>
         </li>
         <li class="denhaag-sidenav__item">
-			<a href="<?php echo home_url("mijn-zaken"); ?>" <?php echo is_page('mijn-zaken') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-zaken') ? ' denhaag-sidenav__link--current' : '' ?>">
+			<a href="<?php echo home_url('mijn-zaken'); ?>" <?php echo is_page('mijn-zaken') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-zaken') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -37,7 +37,7 @@
             </a>
         </li>
 		<li class="denhaag-sidenav__item">
-			<a href="<?php echo home_url("formulieren"); ?>" <?php echo is_page('formulieren') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('formulieren') ? ' denhaag-sidenav__link--current' : '' ?>">
+			<a href="<?php echo home_url('formulieren'); ?>" <?php echo is_page('formulieren') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('formulieren') ? ' denhaag-sidenav__link--current' : '' ?>">
 				<svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">
@@ -50,7 +50,7 @@
     <hr class="denhaag-divider" role="presentation">
     <ul class="denhaag-sidenav__list">
         <li class="denhaag-sidenav__item">
-			<a href="<?php echo home_url("mijn-gegevens"); ?>" <?php echo is_page('mijn-gegevens') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-gegevens') ? ' denhaag-sidenav__link--current' : '' ?>">
+			<a href="<?php echo home_url('mijn-gegevens'); ?>" <?php echo is_page('mijn-gegevens') ? ' aria-current="page"' : '' ?> class="denhaag-sidenav__link<?php echo is_page('mijn-gegevens') ? ' denhaag-sidenav__link--current' : '' ?>">
                 <svg
                     width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="denhaag-icon" focusable="false" aria-hidden="true" shape-rendering="auto">

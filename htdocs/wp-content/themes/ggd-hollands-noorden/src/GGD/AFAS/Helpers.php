@@ -1,13 +1,15 @@
 <?php
 
+declare(strict_types=1);
+
 namespace GGD\AFAS\Helpers;
 
 function resolve($container, $arguments = [])
 {
-    return \GGD\AFAS\SOAP\SOAPContainer::getInstance()->getContainer()->get($container, $arguments);
+	return \GGD\AFAS\SOAP\SOAPContainer::getInstance()->getContainer()->get($container, $arguments);
 }
 
 function view(string $template, array $vars = []): string
 {
-    return resolve(\GGD\AFAS\SOAP\View::class)->render($template, $vars);
+	return resolve(\GGD\AFAS\SOAP\View::class)->render($template, $vars);
 }

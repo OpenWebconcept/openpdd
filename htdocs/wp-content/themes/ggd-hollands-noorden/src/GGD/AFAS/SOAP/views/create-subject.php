@@ -29,7 +29,7 @@
                             <Element>
                                 <Fields Action="insert">
                                     <U80829968453EF4E4AA0F93B1283C587A><?php echo date('Y-m-d') ?></U80829968453EF4E4AA0F93B1283C587A>
-                                    <UA3E3ED1F49B6FF686C834184C5AE4E87><?php echo date("Y-m-d", strtotime("+6 week")) ?></UA3E3ED1F49B6FF686C834184C5AE4E87>
+                                    <UA3E3ED1F49B6FF686C834184C5AE4E87><?php echo date('Y-m-d', strtotime('+6 week')) ?></UA3E3ED1F49B6FF686C834184C5AE4E87>
                                     <UD9EA11CE45679BAC443173A657E0A2B2>{{complaint}}</UD9EA11CE45679BAC443173A657E0A2B2>
                                 </Fields>
                             </Element>

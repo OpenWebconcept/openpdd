@@ -9,6 +9,7 @@ _ide_helper.php
 .php-cs-fixer.cache
 .phpunit.result.cache
 deploy.php
+deploy-old.php
 htdocs/wp-content/db.php
 htdocs/wp-content/debug.log
 htdocs/wp-content/languages

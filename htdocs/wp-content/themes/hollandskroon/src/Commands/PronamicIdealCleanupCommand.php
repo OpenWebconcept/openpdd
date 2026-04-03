@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace HK\Commands;
 
 use WP_CLI;
@@ -16,14 +18,14 @@ class PronamicIdealCleanupCommand
 		do {
 			// Fetch fulfilled payments older than 5 days in batches
 			$payments = new WP_Query([
-				'post_type'      => 'pronamic_payment',
-				'post_status'    => 'payment_completed',
+				'post_type' => 'pronamic_payment',
+				'post_status' => 'payment_completed',
 				'posts_per_page' => $postsPerPage,
-				'paged'          => $paged,
-				'date_query'     => [
+				'paged' => $paged,
+				'date_query' => [
 					'before' => '5 days ago',
 				],
-				'fields'         => 'ids', // Fetch only IDs to reduce memory usage
+				'fields' => 'ids', // Fetch only IDs to reduce memory usage
 			]);
 
 			foreach ($payments->posts as $paymentId) {
@@ -44,7 +46,7 @@ class PronamicIdealCleanupCommand
 	 */
 	private function deletePayment(int $paymentId): bool
 	{
-		if (!wp_delete_post($paymentId, true)) {
+		if (! wp_delete_post($paymentId, true)) {
 			WP_CLI::warning('Failed to delete post with ID: ' . $paymentId);
 
 			return false;
