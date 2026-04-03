@@ -14,10 +14,10 @@ $linkText = $parentID ? get_the_title($parentID) : 'Overzicht';
 
 <div class="d-none d-md-block">
     <?php
-    wp_nav_menu([
-        'theme_location' => 'mijn-zaken-sidebar',
-        'depth' => 3,
-        'menu_class' => 'sidebar',
-    ]);
+	wp_nav_menu([
+		'theme_location' => 'mijn-zaken-sidebar',
+		'depth' => 3,
+		'menu_class' => 'sidebar',
+	]);
 ?>
 </div>

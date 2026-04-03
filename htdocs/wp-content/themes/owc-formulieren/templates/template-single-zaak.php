@@ -15,7 +15,7 @@ get_template_part('templates/mijn-zaken/header');
         <article class="page-main__content">
 			<?php if ($zaak) : ?>
 			<div class="zaak-header">
-				<img src="<?php echo get_template_directory_uri() . "/assets/img/zaak-header.jpg"; ?>" alt="" class="zaak-header-image" />
+				<img src="<?php echo get_template_directory_uri() . '/assets/img/zaak-header.jpg'; ?>" alt="" class="zaak-header-image" />
 				<h1 class="zaak-header-title"><?php echo $zaak->title(); ?></h1>
 			</div>
 			<div class="zaak-details">
@@ -98,17 +98,17 @@ get_template_part('templates/mijn-zaken/header');
 					<ol class="zaak-process-steps">
 						<?php foreach ($zaak->steps() as $step) : ?>
 							<?php
-                            if (! empty($zaak->statusHistory())) {
-                                $statusUpdate = $zaak->statusHistory()->filter(function ($status) use ($step) {
-                                    return $status->statustype->url === $step->url;
-                                })->first();
-                            }
-						    $isPastIcon = '<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+							if (! empty($zaak->statusHistory())) {
+								$statusUpdate = $zaak->statusHistory()->filter(function ($status) use ($step) {
+									return $status->statustype->url === $step->url;
+								})->first();
+							}
+							$isPastIcon = '<svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 								<path d="M17.2203 4.37701C17.5643 4.68277 17.5953 5.2095 17.2895 5.55348L8.40063 15.5535C8.24249 15.7314 8.01582 15.8332 7.77779 15.8332C7.53975 15.8332 7.31309 15.7314 7.15495 15.5535L2.7105 10.5535C2.40474 10.2095 2.43572 9.68277 2.77971 9.37701C3.12369 9.07124 3.65042 9.10222 3.95618 9.44621L7.77779 13.7455L16.0438 4.44621C16.3496 4.10222 16.8763 4.07124 17.2203 4.37701Z" fill="currentColor"/>
 								<path d="M17.2203 4.37701C17.5643 4.68277 17.5953 5.2095 17.2895 5.55348L8.40063 15.5535C8.24249 15.7314 8.01582 15.8332 7.77779 15.8332C7.53975 15.8332 7.31309 15.7314 7.15495 15.5535L2.7105 10.5535C2.40474 10.2095 2.43572 9.68277 2.77971 9.37701C3.12369 9.07124 3.65042 9.10222 3.95618 9.44621L7.77779 13.7455L16.0438 4.44621C16.3496 4.10222 16.8763 4.07124 17.2203 4.37701Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
 								</svg>
 							';
-						    ?>
+							?>
 
 							<li class="zaak-process-steps__step <?= $step->isCurrent() ? 'zaak-process-steps__step--current' : ''; ?><?= $step->isPast() ? 'zaak-process-steps__step--past' : ''; ?>" aria-current="">
 								<span class="zaak-process-steps__step-marker">

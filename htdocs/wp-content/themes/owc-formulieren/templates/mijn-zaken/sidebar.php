@@ -7,7 +7,7 @@
  * @author Paul van Impelen <paul@acato.nl>
  */
 ?>
-<?php if(has_nav_menu('mijn-zaken-sidebar')) : ?>
+<?php if (has_nav_menu('mijn-zaken-sidebar')) : ?>
 	<?php get_template_part('templates/mijn-zaken/sidebar/sidebar-menu'); ?>
 <?php else : ?>
 <nav class="denhaag-sidenav">

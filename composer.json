@@ -46,6 +46,14 @@
 			"name": "satis",
 			"type": "composer",
 			"url": "https://satis.yard.nl"
+		},
+		{
+			"name": "richardkorthuis/geophp",
+			"type": "vcs",
+			"url": "git@github.com:richardkorthuis/geoPHP.git",
+			"only": [
+				"richardkorthuis/geophp"
+			]
 		}
 	],
 	"_comment": [
@@ -124,13 +132,12 @@
 	},
 	"require-dev": {
 		"10up/wp_mock": "~0.5",
-		"deployer/deployer": "^6.0",
-		"deployer/recipes": "dev-master",
-		"friendsofphp/php-cs-fixer": "^3.14",
 		"mockery/mockery": "^1.0",
 		"phpunit/phpunit": "^8.0 | ^9.0",
 		"symfony/var-dumper": "^5.0",
-		"wpackagist-plugin/query-monitor": "*"
+		"wpackagist-plugin/query-monitor": "*",
+		"yard/php-cs-fixer-rules": "^1.0",
+		"yard/wp-deployer": "dev-feat/openpdd"
 	},
 	"scripts": {
 		"format": "vendor/bin/php-cs-fixer fix",

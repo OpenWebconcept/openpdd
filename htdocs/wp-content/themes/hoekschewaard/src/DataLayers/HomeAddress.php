@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace HW\DataLayers;
 
 use GeoJson\Feature\FeatureCollection;
@@ -18,11 +20,16 @@ class HomeAddress
 			self::API_NAMESPACE,
 			'geojson',
 			[
-				'methods'             => \WP_REST_Server::READABLE,
-				'callback'            => function () {return self::getGeoJson();},
-				'permission_callback' => function () {return true;},
-				'args'                => [],
-			]);
+				'methods' => \WP_REST_Server::READABLE,
+				'callback' => function () {
+					return self::getGeoJson();
+				},
+				'permission_callback' => function () {
+					return true;
+				},
+				'args' => [],
+			]
+		);
 	}
 
 	public static function getGeoJson(): array
@@ -39,11 +46,11 @@ class HomeAddress
 		$point = new \GeoJson\Geometry\Point([$location->lon, $location->lat]);
 
 		$featureProperties = [
-			"type" => "brp-address",
-			"address" => $address,
+			'type' => 'brp-address',
+			'address' => $address,
 		];
 
-		$location = new \GeoJson\Feature\Feature($point, $featureProperties, "brphome");
+		$location = new \GeoJson\Feature\Feature($point, $featureProperties, 'brphome');
 		$collection = new FeatureCollection([$location]);
 
 		return $collection->jsonSerialize();
@@ -55,14 +62,14 @@ class HomeAddress
 		$data = $controller->get();
 
 		if (count($data) === 0) {
-			throw new \Exception("BRP data is empty.");
+			throw new \Exception('BRP data is empty.');
 		}
 
-		if (!isset($data['verblijfplaats']['postcode'])) {
+		if (! isset($data['verblijfplaats']['postcode'])) {
 			throw new \Exception('ERROR: Failed to find address postcode: '.var_export($data, true));
 		}
 
-		if (!isset($data['verblijfplaats']['huisnummer'])) {
+		if (! isset($data['verblijfplaats']['huisnummer'])) {
 			throw new \Exception('ERROR: Failed to find address street number: '.var_export($data, true));
 		}
 
@@ -72,6 +79,7 @@ class HomeAddress
 	public static function geoCode(string $address): LonLat
 	{
 		$coder = new GeoCoder(Log::getLogger());
+
 		return $coder->geocode($address);
 	}
 }

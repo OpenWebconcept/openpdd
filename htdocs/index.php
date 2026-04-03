@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 // WordPress bootstrap
 define('WP_USE_THEMES', true);

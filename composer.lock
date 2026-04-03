@@ -4,14 +4,14 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "18a16f4453d23e763e96bea4ba2cd219",
+	"content-hash": "603c8af17980034eac8ce8c6596dc5cf",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
 			"version": "dev-master",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:acato-plugins/cmb2-flexible-content.git",
+				"url": "https://github.com/acato-plugins/cmb2-flexible-content.git",
 				"reference": "2abd91068992c954dd9a78d5c2ac501b76d2ec80"
 			},
 			"dist": {
@@ -25,6 +25,7 @@
 			},
 			"default-branch": true,
 			"type": "wordpress-plugin",
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"GPL-2.0"
 			],
@@ -43,7 +44,8 @@
 			"description": "A flexible content field for CMB2.",
 			"homepage": "https://github.com/acato-plugins/cmb2-flexible-content",
 			"support": {
-				"issues": "https://github.com/acato-plugins/cmb2-flexible-content"
+				"issues": "https://github.com/acato-plugins/cmb2-flexible-content",
+				"source": "https://github.com/acato-plugins/cmb2-flexible-content/tree/1.0.0"
 			},
 			"time": "2026-03-25T09:16:37+00:00"
 		},
@@ -121,7 +123,7 @@
 			"version": "0.2.9",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:OpenWebconcept/plugin-openkaarten-base.git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
 				"reference": "ee12f9d57db83bd9929f224c0aca07e7e006625b"
 			},
 			"dist": {
@@ -143,6 +145,7 @@
 				"phpcompatibility/phpcompatibility-wp": "*"
 			},
 			"type": "wordpress-plugin",
+			"notification-url": "https://packagist.org/downloads/",
 			"authors": [
 				{
 					"name": "Eyal Beker",
@@ -152,6 +155,10 @@
 				}
 			],
 			"description": "Adds OpenKaarten to your WordPress website.",
+			"support": {
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.9"
+			},
 			"time": "2026-03-31T07:21:21+00:00"
 		},
 		{
@@ -159,7 +166,7 @@
 			"version": "dev-master",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:OpenWebconcept/package-owc-openkaarten-functions.git",
+				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
 				"reference": "561d444a17d307cd29d8c7696798d36e997eff54"
 			},
 			"dist": {
@@ -182,6 +189,7 @@
 					"Openkaarten_Base_Functions\\": "src/"
 				}
 			},
+			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"MIT"
 			],
@@ -193,6 +201,10 @@
 			],
 			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
 			"homepage": "https://www.acato.nl",
+			"support": {
+				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues",
+				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/master"
+			},
 			"time": "2026-03-31T07:36:07+00:00"
 		},
 		{
@@ -200,7 +212,7 @@
 			"version": "0.2.6",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
 				"reference": "ea95ad2094933a43639f874a8a218e7d47258894"
 			},
 			"dist": {
@@ -218,7 +230,12 @@
 				"phpcompatibility/phpcompatibility-wp": "*"
 			},
 			"type": "wordpress-plugin",
+			"notification-url": "https://packagist.org/downloads/",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
+			"support": {
+				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.6"
+			},
 			"time": "2026-03-31T07:38:25+00:00"
 		},
 		{
@@ -5319,7 +5336,7 @@
 			"version": "dev-development",
 			"source": {
 				"type": "git",
-				"url": "git@github.com:richardkorthuis/geoPHP.git",
+				"url": "https://github.com/richardkorthuis/geoPHP.git",
 				"reference": "eeb62860346aa76e00a0c6f8520ea6c44c7c2363"
 			},
 			"dist": {
@@ -5425,6 +5442,9 @@
 				"wkb",
 				"wkt"
 			],
+			"support": {
+				"source": "https://github.com/richardkorthuis/geoPHP/tree/development"
+			},
 			"time": "2025-07-15T12:03:09+00:00"
 		},
 		{
@@ -8325,6 +8345,49 @@
 			"time": "2025-09-17T09:00:56+00:00"
 		},
 		{
+			"name": "ckr/arraymerger",
+			"version": "3.0.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/ckressibucher/array_merger.git",
+				"reference": "e9ac57360ca8c3002a674fdca9fd0b527dd5b651"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/ckressibucher/array_merger/zipball/e9ac57360ca8c3002a674fdca9fd0b527dd5b651",
+				"reference": "e9ac57360ca8c3002a674fdca9fd0b527dd5b651",
+				"shasum": ""
+			},
+			"require": {
+				"php": ">=7.0"
+			},
+			"require-dev": {
+				"phpspec/phpspec": "~7.2"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"Ckr\\Util\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Claudio Kressibucher",
+					"email": "ckressibucher@graphicworks.ch"
+				}
+			],
+			"description": "Provides functionality to merge arrays recursively",
+			"support": {
+				"issues": "https://github.com/ckressibucher/array_merger/issues",
+				"source": "https://github.com/ckressibucher/array_merger/tree/3.0.0"
+			},
+			"time": "2022-04-23T20:26:40+00:00"
+		},
+		{
 			"name": "clue/ndjson-react",
 			"version": "v1.3.0",
 			"source": {
@@ -8612,42 +8675,33 @@
 		},
 		{
 			"name": "deployer/deployer",
-			"version": "v6.9.0",
+			"version": "v7.5.12",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/deployphp/deployer.git",
-				"reference": "c4380effdc9f6d9c6ae549bb76f0a22bcb1d31d2"
+				"reference": "efc71dac9ccc86b3f9946e75d50cb106b775aae2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/deployphp/deployer/zipball/c4380effdc9f6d9c6ae549bb76f0a22bcb1d31d2",
-				"reference": "c4380effdc9f6d9c6ae549bb76f0a22bcb1d31d2",
+				"url": "https://api.github.com/repos/deployphp/deployer/zipball/efc71dac9ccc86b3f9946e75d50cb106b775aae2",
+				"reference": "efc71dac9ccc86b3f9946e75d50cb106b775aae2",
 				"shasum": ""
 			},
 			"require": {
-				"deployer/phar-update": "~2.2",
-				"php": "^7.2 || ^8.0",
-				"pimple/pimple": "~3.0",
-				"symfony/console": "~2.7|~3.0|~4.0|~5.0",
-				"symfony/process": "~2.7|~3.0|~4.0|~5.0",
-				"symfony/yaml": "~2.7|~3.0|~4.0|~5.0"
+				"ext-json": "*",
+				"php": "^8.0|^7.3"
 			},
 			"require-dev": {
-				"phpunit/phpunit": "^8"
+				"friendsofphp/php-cs-fixer": "^3.64",
+				"pestphp/pest": "^3.3",
+				"phpstan/phpstan": "^1.4",
+				"phpunit/php-code-coverage": "^11.0",
+				"phpunit/phpunit": "^11.4"
 			},
 			"bin": [
 				"bin/dep"
 			],
 			"type": "library",
-			"autoload": {
-				"files": [
-					"src/Support/helpers.php",
-					"src/functions.php"
-				],
-				"psr-4": {
-					"Deployer\\": "src/"
-				}
-			},
 			"notification-url": "https://packagist.org/downloads/",
 			"license": [
 				"MIT"
@@ -8667,131 +8721,11 @@
 			},
 			"funding": [
 				{
-					"url": "https://github.com/antonmedv",
+					"url": "https://github.com/sponsors/antonmedv",
 					"type": "github"
 				}
 			],
-			"time": "2022-08-03T18:09:01+00:00"
-		},
-		{
-			"name": "deployer/phar-update",
-			"version": "v2.2.0",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/deployphp/phar-update.git",
-				"reference": "9ad07422f2cd43a1382ee8e134bdcd3a374848e3"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/deployphp/phar-update/zipball/9ad07422f2cd43a1382ee8e134bdcd3a374848e3",
-				"reference": "9ad07422f2cd43a1382ee8e134bdcd3a374848e3",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=5.3.3",
-				"symfony/console": "~2.7|~3.0|~4.0|~5.0"
-			},
-			"require-dev": {
-				"mikey179/vfsstream": "1.1.0",
-				"phpunit/phpunit": "3.7.*",
-				"symfony/process": "~2.7|~3.0|~4.0|~5.0"
-			},
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Deployer\\Component\\PHPUnit\\": "src/PHPUnit/",
-					"Deployer\\Component\\Version\\": "src/Version/",
-					"Deployer\\Component\\PharUpdate\\": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Kevin Herrera",
-					"email": "kevin@herrera.io",
-					"homepage": "http://kevin.herrera.io"
-				},
-				{
-					"name": "Anton Medvedev",
-					"email": "anton@medv.io",
-					"homepage": "https://medv.io"
-				}
-			],
-			"description": "Integrates Phar Update to Symfony Console.",
-			"homepage": "https://github.com/deployphp/phar-update",
-			"keywords": [
-				"console",
-				"phar",
-				"update"
-			],
-			"support": {
-				"issues": "https://github.com/deployphp/phar-update/issues",
-				"source": "https://github.com/deployphp/phar-update/tree/v2.2.0"
-			},
-			"abandoned": true,
-			"time": "2019-12-12T13:45:57+00:00"
-		},
-		{
-			"name": "deployer/recipes",
-			"version": "dev-master",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/deployphp/recipes.git",
-				"reference": "29d0aa2a33d9daf217a324fa3903f93e75158b2d"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/deployphp/recipes/zipball/29d0aa2a33d9daf217a324fa3903f93e75158b2d",
-				"reference": "29d0aa2a33d9daf217a324fa3903f93e75158b2d",
-				"shasum": ""
-			},
-			"require": {
-				"php": "~7.0"
-			},
-			"require-dev": {
-				"deployer/deployer": "^6.3"
-			},
-			"type": "library",
-			"autoload": {
-				"files": [
-					"autoload.php"
-				]
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Anton Medvedev",
-					"email": "anton@medv.io"
-				}
-			],
-			"description": "3rd party deployer recipes",
-			"homepage": "https://github.com/deployphp/recipes",
-			"keywords": [
-				"cachetool",
-				"cloudflare",
-				"deploy",
-				"deployer",
-				"deployment",
-				"hipchat",
-				"newrelic",
-				"rabbit",
-				"recipes",
-				"sentry",
-				"slack",
-				"yarn"
-			],
-			"support": {
-				"issues": "https://github.com/deployphp/recipes/issues",
-				"source": "https://github.com/deployphp/recipes"
-			},
-			"abandoned": true,
-			"time": "2020-04-25T20:01:56+00:00"
+			"time": "2025-02-19T16:45:27+00:00"
 		},
 		{
 			"name": "doctrine/instantiator",
@@ -9874,59 +9808,6 @@
 				}
 			],
 			"time": "2026-01-27T05:45:00+00:00"
-		},
-		{
-			"name": "pimple/pimple",
-			"version": "v3.6.2",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/silexphp/Pimple.git",
-				"reference": "8cfe7f74ac22a433d303914eba9ea4c2a834edce"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/silexphp/Pimple/zipball/8cfe7f74ac22a433d303914eba9ea4c2a834edce",
-				"reference": "8cfe7f74ac22a433d303914eba9ea4c2a834edce",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=7.2.5",
-				"psr/container": "^1.1 || ^2.0"
-			},
-			"require-dev": {
-				"phpunit/phpunit": "*"
-			},
-			"type": "library",
-			"extra": {
-				"branch-alias": {
-					"dev-master": "3.x-dev"
-				}
-			},
-			"autoload": {
-				"psr-0": {
-					"Pimple": "src/"
-				}
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Fabien Potencier",
-					"email": "fabien@symfony.com"
-				}
-			],
-			"description": "Pimple, a simple Dependency Injection Container",
-			"homepage": "https://pimple.symfony.com",
-			"keywords": [
-				"container",
-				"dependency injection"
-			],
-			"support": {
-				"source": "https://github.com/silexphp/Pimple/tree/v3.6.2"
-			},
-			"time": "2026-02-26T08:23:44+00:00"
 		},
 		{
 			"name": "psr/event-dispatcher",
@@ -11516,6 +11397,96 @@
 			"time": "2020-09-28T06:39:44+00:00"
 		},
 		{
+			"name": "sourcebroker/deployer-extended",
+			"version": "24.1.2",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/sourcebroker/deployer-extended.git",
+				"reference": "5f1829b351e278c9f56aa4cec454676fad1a93b9"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/sourcebroker/deployer-extended/zipball/5f1829b351e278c9f56aa4cec454676fad1a93b9",
+				"reference": "5f1829b351e278c9f56aa4cec454676fad1a93b9",
+				"shasum": ""
+			},
+			"require": {
+				"deployer/deployer": "^7.0.0"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"SourceBroker\\DeployerExtended\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Krystian Szymukowicz",
+					"email": "k.szymukowicz@gmail.com"
+				},
+				{
+					"name": "Krystian Liński",
+					"email": "krystian.linski@gmail.com"
+				}
+			],
+			"description": "Library with some additional tasks for deployer (deployer.org).",
+			"keywords": [
+				"deployer"
+			],
+			"support": {
+				"issues": "https://github.com/sourcebroker/deployer-extended/issues",
+				"source": "https://github.com/sourcebroker/deployer-extended/tree/24.1.2"
+			},
+			"time": "2025-11-23T11:34:19+00:00"
+		},
+		{
+			"name": "sourcebroker/deployer-loader",
+			"version": "5.1.1",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/sourcebroker/deployer-loader.git",
+				"reference": "59af4b929da4939cd23f47d6e67425f3cd924445"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/sourcebroker/deployer-loader/zipball/59af4b929da4939cd23f47d6e67425f3cd924445",
+				"reference": "59af4b929da4939cd23f47d6e67425f3cd924445",
+				"shasum": ""
+			},
+			"require": {
+				"ext-json": "*"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"SourceBroker\\DeployerLoader\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Krystian Szymukowicz",
+					"email": "k.szymukowicz@gmail.com"
+				}
+			],
+			"description": "Load deployer tasks and settings from packages, path files.",
+			"keywords": [
+				"deployer"
+			],
+			"support": {
+				"issues": "https://github.com/sourcebroker/deployer-loader/issues",
+				"source": "https://github.com/sourcebroker/deployer-loader/tree/5.1.1"
+			},
+			"time": "2025-08-15T20:15:26+00:00"
+		},
+		{
 			"name": "symfony/console",
 			"version": "v5.4.47",
 			"source": {
@@ -12459,81 +12430,6 @@
 			"time": "2024-11-08T15:21:10+00:00"
 		},
 		{
-			"name": "symfony/yaml",
-			"version": "v5.4.45",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/symfony/yaml.git",
-				"reference": "a454d47278cc16a5db371fe73ae66a78a633371e"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/yaml/zipball/a454d47278cc16a5db371fe73ae66a78a633371e",
-				"reference": "a454d47278cc16a5db371fe73ae66a78a633371e",
-				"shasum": ""
-			},
-			"require": {
-				"php": ">=7.2.5",
-				"symfony/deprecation-contracts": "^2.1|^3",
-				"symfony/polyfill-ctype": "^1.8"
-			},
-			"conflict": {
-				"symfony/console": "<5.3"
-			},
-			"require-dev": {
-				"symfony/console": "^5.3|^6.0"
-			},
-			"suggest": {
-				"symfony/console": "For validating YAML files using the lint command"
-			},
-			"bin": [
-				"Resources/bin/yaml-lint"
-			],
-			"type": "library",
-			"autoload": {
-				"psr-4": {
-					"Symfony\\Component\\Yaml\\": ""
-				},
-				"exclude-from-classmap": [
-					"/Tests/"
-				]
-			},
-			"notification-url": "https://packagist.org/downloads/",
-			"license": [
-				"MIT"
-			],
-			"authors": [
-				{
-					"name": "Fabien Potencier",
-					"email": "fabien@symfony.com"
-				},
-				{
-					"name": "Symfony Community",
-					"homepage": "https://symfony.com/contributors"
-				}
-			],
-			"description": "Loads and dumps YAML files",
-			"homepage": "https://symfony.com",
-			"support": {
-				"source": "https://github.com/symfony/yaml/tree/v5.4.45"
-			},
-			"funding": [
-				{
-					"url": "https://symfony.com/sponsor",
-					"type": "custom"
-				},
-				{
-					"url": "https://github.com/fabpot",
-					"type": "github"
-				},
-				{
-					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-					"type": "tidelift"
-				}
-			],
-			"time": "2024-09-25T14:11:13+00:00"
-		},
-		{
 			"name": "theseer/tokenizer",
 			"version": "1.3.1",
 			"source": {
@@ -12584,6 +12480,64 @@
 			"time": "2025-11-17T20:03:58+00:00"
 		},
 		{
+			"name": "webmozart/assert",
+			"version": "1.12.1",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/webmozarts/assert.git",
+				"reference": "9be6926d8b485f55b9229203f962b51ed377ba68"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/webmozarts/assert/zipball/9be6926d8b485f55b9229203f962b51ed377ba68",
+				"reference": "9be6926d8b485f55b9229203f962b51ed377ba68",
+				"shasum": ""
+			},
+			"require": {
+				"ext-ctype": "*",
+				"ext-date": "*",
+				"ext-filter": "*",
+				"php": "^7.2 || ^8.0"
+			},
+			"suggest": {
+				"ext-intl": "",
+				"ext-simplexml": "",
+				"ext-spl": ""
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-master": "1.10-dev"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"Webmozart\\Assert\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Bernhard Schussek",
+					"email": "bschussek@gmail.com"
+				}
+			],
+			"description": "Assertions to validate method input/output with nice error messages.",
+			"keywords": [
+				"assert",
+				"check",
+				"validate"
+			],
+			"support": {
+				"issues": "https://github.com/webmozarts/assert/issues",
+				"source": "https://github.com/webmozarts/assert/tree/1.12.1"
+			},
+			"time": "2025-10-29T15:56:20+00:00"
+		},
+		{
 			"name": "wpackagist-plugin/query-monitor",
 			"version": "3.20.4",
 			"source": {
@@ -12600,6 +12554,93 @@
 			},
 			"type": "wordpress-plugin",
 			"homepage": "https://wordpress.org/plugins/query-monitor/"
+		},
+		{
+			"name": "yard/php-cs-fixer-rules",
+			"version": "v1.0.5",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/yardinternet/php-cs-fixer-rules.git",
+				"reference": "32d91d38e08e7cc75df82467467670a446429330"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/php-cs-fixer-rules/zipball/32d91d38e08e7cc75df82467467670a446429330",
+				"reference": "32d91d38e08e7cc75df82467467670a446429330",
+				"shasum": ""
+			},
+			"require": {
+				"ckr/arraymerger": "^3.0",
+				"friendsofphp/php-cs-fixer": "^3.88",
+				"php": ">=7.4",
+				"webmozart/assert": "^1.11"
+			},
+			"require-dev": {
+				"pestphp/pest": "^2.36",
+				"phpstan/phpstan": "^2.1"
+			},
+			"type": "package",
+			"autoload": {
+				"psr-4": {
+					"Yard\\PhpCsFixerRules\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"description": "Yard PHP CS Fixer rules",
+			"keywords": [
+				"static analysis"
+			],
+			"support": {
+				"issues": "https://github.com/yardinternet/php-cs-fixer-rules/issues",
+				"source": "https://github.com/yardinternet/php-cs-fixer-rules/tree/v1.0.5"
+			},
+			"time": "2025-10-17T15:41:39+00:00"
+		},
+		{
+			"name": "yard/wp-deployer",
+			"version": "dev-feat/openpdd",
+			"source": {
+				"type": "git",
+				"url": "git@github.com:yardinternet/wp-deployer.git",
+				"reference": "d576df827197d49d70f920f022075858849edcaf"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/yardinternet/wp-deployer/zipball/d576df827197d49d70f920f022075858849edcaf",
+				"reference": "d576df827197d49d70f920f022075858849edcaf",
+				"shasum": ""
+			},
+			"require": {
+				"deployer/deployer": "^7.4",
+				"php": "^7.4|^8.1",
+				"sourcebroker/deployer-extended": "^24.1",
+				"sourcebroker/deployer-loader": "^5.0"
+			},
+			"require-dev": {
+				"yard/php-cs-fixer-rules": "^1.0"
+			},
+			"type": "package",
+			"autoload": {
+				"psr-4": {
+					"Yard\\Deployer\\": "src/"
+				}
+			},
+			"scripts": {
+				"format": [
+					"vendor/bin/php-cs-fixer fix"
+				]
+			},
+			"license": [
+				"MIT"
+			],
+			"description": "A package for deploying WordPress sites",
+			"keywords": [
+				"dev"
+			],
+			"time": "2026-04-03T08:14:11+00:00"
 		}
 	],
 	"aliases": [],
@@ -12607,9 +12648,9 @@
 	"stability-flags": {
 		"acato-plugins/cmb2-flexible-content": 20,
 		"acato/openkaarten-base-functions": 20,
-		"deployer/recipes": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
-		"richardkorthuis/geophp": 20
+		"richardkorthuis/geophp": 20,
+		"yard/wp-deployer": 20
 	},
 	"prefer-stable": false,
 	"prefer-lowest": false,

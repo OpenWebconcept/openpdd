@@ -2,13 +2,12 @@
 /**
  * Template Name: Veilig thuis style
  */
-
 get_template_part('templates/veilig-thuis-header');
 ?>
 <main class="page-main">
     <div class="container | bg-white p-3 p-md-4 p-lg-5 my-5 shadow">
         <?php while (have_posts()) :
-            the_post(); ?>
+        	the_post(); ?>
 
         <header class="section__header pb-3">
             <h1 class="section__title">

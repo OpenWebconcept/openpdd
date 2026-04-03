@@ -20,14 +20,14 @@ declare(strict_types=1); ?>
         <div class="container">
             <div class="flex-wrap d-flex justify-content-between">
                 <?php
-                if (has_nav_menu('footer-bottom')) {
-                    wp_nav_menu([
-                        'theme_location' => 'footer-bottom',
-                        'menu_class' => 'footer-bottom-menu list-unstyled mb-0',
-                        'container' => false,
-                        'depth' => 1,
-                    ]);
-                }
+				if (has_nav_menu('footer-bottom')) {
+					wp_nav_menu([
+						'theme_location' => 'footer-bottom',
+						'menu_class' => 'footer-bottom-menu list-unstyled mb-0',
+						'container' => false,
+						'depth' => 1,
+					]);
+				}
 ?>
                 <span class="footer-bottom-copy">&copy; <?php echo bloginfo('name'); ?> - <?php echo date('Y'); ?></span>
             </div>
