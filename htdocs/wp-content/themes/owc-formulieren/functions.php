@@ -59,7 +59,7 @@ add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer
  * Add CSP to admin-ajax and initialize nonces for resources.
  */
 add_action('init', function () {
-    if ( defined( 'WP_CLI' ) && WP_CLI ) {
+    if (defined('WP_CLI') && WP_CLI) {
         return;
     }
 
@@ -80,7 +80,7 @@ add_action('init', function () {
 
     // Inject nonce into WebPack to make its style loader work.
     // See https://webpack.js.org/loaders/style-loader/
-    add_action( 'wp_head', function () use ($nonceScript, $nonceStyle) {
+    add_action('wp_head', function () use ($nonceScript, $nonceStyle) {
         ?>
         <script>
             window.__webpack_nonce__ = '<?php echo $nonceStyle; ?>';
@@ -147,3 +147,16 @@ function load_config($config_file)
 
     return [];
 }
+
+/**
+ * @see https://wiki.openstreetmap.org/wiki/Blocked_tiles#Referer_is_required
+ */
+add_action('send_headers', function () {
+    if (is_singular()) {
+        global $post;
+
+        if ($post && has_block('owc-openkaarten/streetmap', $post)) {
+            header('Referrer-Policy: strict-origin-when-cross-origin');
+        }
+    }
+});
