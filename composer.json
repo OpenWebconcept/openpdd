@@ -6,7 +6,28 @@
 	"config": {
 		"audit": {
 			"ignore": [
-				"PKSA-y2cr-5h3j-g3ys"
+				"PKSA-y2cr-5h3j-g3ys",
+				"PKSA-fbvq-z33h-r2np",
+				"PKSA-g9zw-qxh8-pq8w",
+				"PKSA-yd6k-t2gh-1m43",
+				"PKSA-1tmc-rt7x-12w6",
+				"PKSA-xx6c-6d96-db2w",
+				"PKSA-sjvz-tbbr-vwth",
+				"PKSA-h8hf-ytnd-5t9q",
+				"PKSA-wwb1-81rc-pd65",
+				"PKSA-kvv6-36cr-fkzb",
+				"PKSA-n14z-jjjg-g8vd",
+				"PKSA-3mcc-k66d-pydb",
+				"PKSA-gw7n-z4yx-7xjt",
+				"PKSA-dpx1-78wg-1kqs",
+				"PKSA-21g2-dzjv-sky5",
+				"PKSA-5k7f-wvjj-jrgw",
+				"PKSA-hgmw-wn4d-hpcy",
+				"PKSA-v3kg-5xkr-pykw",
+				"PKSA-yhcn-xrg3-68b1",
+				"PKSA-2wrf-1xmk-1pky",
+				"PKSA-6319-ffpf-gx66",
+				"PKSA-n7sg-8f52-pqtf"
 			]
 		},
 		"preferred-install": "dist",
@@ -89,10 +110,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:ConductionNL/formio-wordpress.git"
 		},
 		{
 			"type": "vcs",
@@ -186,7 +203,6 @@
 		"monolog/monolog": "^2.0",
 		"php-di/php-di": "^6.0",
 		"plugin/config-expander": "^2.0",
-		"plugin/formio-wordpress": "dev-main",
 		"plugin/gravityforms-amp-booking": "^1.4",
 		"plugin/gravityforms-csp-fixer": "^0.1.0",
 		"plugin/owc-datab": "^1.2.0",
@@ -203,6 +219,7 @@
 		"plugin/prefill-gravity-forms": "^1.9",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"richardkorthuis/geophp": "dev-development",
+		"twig/twig": "3.11.3",
 		"vlucas/phpdotenv": "^5.0",
 		"wpackagist-plugin/block-visibility": "^3.7",
 		"wpackagist-plugin/coming-soon": "^6.0",

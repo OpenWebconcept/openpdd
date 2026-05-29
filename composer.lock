@@ -4,7 +4,7 @@
 		"Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
 		"This file is @generated automatically"
 	],
-	"content-hash": "f25ed911ce4e10432a4fc7f7cd9718d8",
+	"content-hash": "6bb75b4083bc0105a00f05fba129abd5",
 	"packages": [
 		{
 			"name": "acato-plugins/cmb2-flexible-content",
@@ -12,12 +12,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/acato-plugins/cmb2-flexible-content.git",
-				"reference": "aa1ea795665cd3521570a4698032898561afa799"
+				"reference": "2abd91068992c954dd9a78d5c2ac501b76d2ec80"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/acato-plugins/cmb2-flexible-content/zipball/aa1ea795665cd3521570a4698032898561afa799",
-				"reference": "aa1ea795665cd3521570a4698032898561afa799",
+				"url": "https://api.github.com/repos/acato-plugins/cmb2-flexible-content/zipball/2abd91068992c954dd9a78d5c2ac501b76d2ec80",
+				"reference": "2abd91068992c954dd9a78d5c2ac501b76d2ec80",
 				"shasum": ""
 			},
 			"require": {
@@ -44,29 +44,98 @@
 			"homepage": "https://github.com/acato-plugins/cmb2-flexible-content",
 			"support": {
 				"issues": "https://github.com/acato-plugins/cmb2-flexible-content",
-				"source": "https://github.com/acato-plugins/cmb2-flexible-content/tree/master"
+				"source": "https://github.com/acato-plugins/cmb2-flexible-content/tree/1.0.0"
 			},
-			"time": "2024-10-10T13:28:46+00:00"
+			"time": "2026-03-25T09:16:37+00:00"
 		},
 		{
-			"name": "acato/openkaarten-base",
-			"version": "0.2.7",
+			"name": "acato-plugins/geophp",
+			"version": "2.0.4",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
-				"reference": "96210a628f589e48dbe6196b4cf35e53f3aaa05c"
+				"url": "https://github.com/acato-plugins/geoPHP.git",
+				"reference": "ce004c556e37be87ac52ab02e40d5f8dd08861e9"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/96210a628f589e48dbe6196b4cf35e53f3aaa05c",
-				"reference": "96210a628f589e48dbe6196b4cf35e53f3aaa05c",
+				"url": "https://api.github.com/repos/acato-plugins/geoPHP/zipball/ce004c556e37be87ac52ab02e40d5f8dd08861e9",
+				"reference": "ce004c556e37be87ac52ab02e40d5f8dd08861e9",
 				"shasum": ""
 			},
 			"require": {
-				"acato-plugins/cmb2-flexible-content": "dev-master",
-				"acato/openkaarten-base-functions": "dev-master",
+				"php": "^7.1|^8.0"
+			},
+			"require-dev": {
+				"php-coveralls/php-coveralls": "2.*",
+				"phpbench/phpbench": "^1.0",
+				"phpstan/phpstan": "^1.4.0",
+				"phpunit/phpunit": "^8.0|^9.0",
+				"squizlabs/php_codesniffer": "3.*"
+			},
+			"suggest": {
+				"ext-geos": "GEOS allows more advanced operations"
+			},
+			"type": "library",
+			"autoload": {
+				"psr-4": {
+					"geoPHP\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"GPL-2.0-or-later",
+				"BSD-3-Clause"
+			],
+			"authors": [
+				{
+					"name": "Patrick Hayes",
+					"role": "Original creator"
+				},
+				{
+					"name": "Péter Báthory",
+					"role": "Developer"
+				}
+			],
+			"description": "Open-source native PHP library for doing geometry operations. Can read and write a wide variety of formats: (E)WKT, (E)WKB, TWKB, GeoJSON, KML, GPX, GeoRSS. Works with all Simple-Feature geometries (Point, LineString, Polygon...) and can be used to get centroids, bounding-boxes, area, etc.",
+			"homepage": "https://github.com/funiq/geoPHP",
+			"keywords": [
+				"Polygon",
+				"converter",
+				"geoPHP",
+				"geojson",
+				"geometry",
+				"gis",
+				"gpx",
+				"kml",
+				"linestring",
+				"twkb",
+				"wkb",
+				"wkt"
+			],
+			"support": {
+				"source": "https://github.com/acato-plugins/geoPHP/tree/2.0.4"
+			},
+			"time": "2026-03-25T09:25:31+00:00"
+		},
+		{
+			"name": "acato/openkaarten-base",
+			"version": "0.2.9",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-base.git",
+				"reference": "ee12f9d57db83bd9929f224c0aca07e7e006625b"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-base/zipball/ee12f9d57db83bd9929f224c0aca07e7e006625b",
+				"reference": "ee12f9d57db83bd9929f224c0aca07e7e006625b",
+				"shasum": ""
+			},
+			"require": {
+				"acato-plugins/cmb2-flexible-content": "*",
+				"acato-plugins/geophp": "*",
+				"acato/openkaarten-base-functions": "*",
 				"composer/installers": "^1.0 || ^2.0",
-				"richardkorthuis/geophp": "dev-development",
 				"wpackagist-plugin/cmb2": "*"
 			},
 			"require-dev": {
@@ -85,10 +154,10 @@
 			],
 			"description": "Adds OpenKaarten to your WordPress website.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.7",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-base/tree/0.2.9",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-base/issues"
 			},
-			"time": "2026-02-19T12:58:38+00:00"
+			"time": "2026-03-31T07:21:21+00:00"
 		},
 		{
 			"name": "acato/openkaarten-base-functions",
@@ -96,12 +165,12 @@
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions.git",
-				"reference": "1956006006da4f15bda3750389c443fec0c628f3"
+				"reference": "561d444a17d307cd29d8c7696798d36e997eff54"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/1956006006da4f15bda3750389c443fec0c628f3",
-				"reference": "1956006006da4f15bda3750389c443fec0c628f3",
+				"url": "https://api.github.com/repos/OpenWebconcept/package-owc-openkaarten-functions/zipball/561d444a17d307cd29d8c7696798d36e997eff54",
+				"reference": "561d444a17d307cd29d8c7696798d36e997eff54",
 				"shasum": ""
 			},
 			"require": {
@@ -130,23 +199,23 @@
 			"description": "Adds global functions for OpenKaarten Base and OpenKaarten add-on plugins.",
 			"homepage": "https://www.acato.nl",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.3",
+				"source": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/tree/0.1.4",
 				"issues": "https://github.com/OpenWebconcept/package-owc-openkaarten-functions/issues"
 			},
-			"time": "2026-02-19T12:55:21+00:00"
+			"time": "2026-03-31T07:36:07+00:00"
 		},
 		{
 			"name": "acato/openkaarten-frontend-plugin",
-			"version": "0.2.5",
+			"version": "0.2.6",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin.git",
-				"reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80"
+				"reference": "ea95ad2094933a43639f874a8a218e7d47258894"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/3d52c02daae816177dbfc3dafb2870e6652c8d80",
-				"reference": "3d52c02daae816177dbfc3dafb2870e6652c8d80",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-openkaarten-frontend-plugin/zipball/ea95ad2094933a43639f874a8a218e7d47258894",
+				"reference": "ea95ad2094933a43639f874a8a218e7d47258894",
 				"shasum": ""
 			},
 			"require": {
@@ -160,10 +229,10 @@
 			"type": "wordpress-plugin",
 			"description": "Adds OpenKaarten Blocks with an Openstreetmap block to the Gutenberg editor.",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.5",
+				"source": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/tree/0.2.6",
 				"issues": "https://github.com/OpenWebconcept/plugin-openkaarten-frontend-plugin/issues"
 			},
-			"time": "2026-01-08T14:06:01+00:00"
+			"time": "2026-03-31T07:38:25+00:00"
 		},
 		{
 			"name": "aura/session",
@@ -1407,12 +1476,12 @@
 			"version": "v6.10.0",
 			"source": {
 				"type": "git",
-				"url": "https://github.com/firebase/php-jwt.git",
+				"url": "https://github.com/googleapis/php-jwt.git",
 				"reference": "a49db6f0a5033aef5143295342f1c95521b075ff"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/firebase/php-jwt/zipball/a49db6f0a5033aef5143295342f1c95521b075ff",
+				"url": "https://api.github.com/repos/googleapis/php-jwt/zipball/a49db6f0a5033aef5143295342f1c95521b075ff",
 				"reference": "a49db6f0a5033aef5143295342f1c95521b075ff",
 				"shasum": ""
 			},
@@ -1460,8 +1529,8 @@
 				"php"
 			],
 			"support": {
-				"issues": "https://github.com/firebase/php-jwt/issues",
-				"source": "https://github.com/firebase/php-jwt/tree/v6.10.0"
+				"issues": "https://github.com/googleapis/php-jwt/issues",
+				"source": "https://github.com/googleapis/php-jwt/tree/v6.10.0"
 			},
 			"time": "2023-12-01T16:26:39+00:00"
 		},
@@ -1529,16 +1598,16 @@
 		},
 		{
 			"name": "guzzlehttp/guzzle",
-			"version": "7.10.0",
+			"version": "7.10.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/guzzle.git",
-				"reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4"
+				"reference": "7c8d84b39e680315f687e8662a9d6fb0865c5148"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/guzzle/zipball/b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
-				"reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+				"url": "https://api.github.com/repos/guzzle/guzzle/zipball/7c8d84b39e680315f687e8662a9d6fb0865c5148",
+				"reference": "7c8d84b39e680315f687e8662a9d6fb0865c5148",
 				"shasum": ""
 			},
 			"require": {
@@ -1556,8 +1625,9 @@
 				"bamarni/composer-bin-plugin": "^1.8.2",
 				"ext-curl": "*",
 				"guzzle/client-integration-tests": "3.0.2",
+				"guzzlehttp/test-server": "^0.4",
 				"php-http/message-factory": "^1.1",
-				"phpunit/phpunit": "^8.5.39 || ^9.6.20",
+				"phpunit/phpunit": "^8.5.52 || ^9.6.34",
 				"psr/log": "^1.1 || ^2.0 || ^3.0"
 			},
 			"suggest": {
@@ -1635,7 +1705,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/guzzle/issues",
-				"source": "https://github.com/guzzle/guzzle/tree/7.10.0"
+				"source": "https://github.com/guzzle/guzzle/tree/7.10.5"
 			},
 			"funding": [
 				{
@@ -1651,20 +1721,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-23T22:36:01+00:00"
+			"time": "2026-05-27T11:53:46+00:00"
 		},
 		{
 			"name": "guzzlehttp/promises",
-			"version": "2.3.0",
+			"version": "2.4.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/promises.git",
-				"reference": "481557b130ef3790cf82b713667b43030dc9c957"
+				"reference": "09e8a212562fb1fb6a512c4156ed71525969d6c2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/promises/zipball/481557b130ef3790cf82b713667b43030dc9c957",
-				"reference": "481557b130ef3790cf82b713667b43030dc9c957",
+				"url": "https://api.github.com/repos/guzzle/promises/zipball/09e8a212562fb1fb6a512c4156ed71525969d6c2",
+				"reference": "09e8a212562fb1fb6a512c4156ed71525969d6c2",
 				"shasum": ""
 			},
 			"require": {
@@ -1672,7 +1742,7 @@
 			},
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
-				"phpunit/phpunit": "^8.5.44 || ^9.6.25"
+				"phpunit/phpunit": "^8.5.52 || ^9.6.34"
 			},
 			"type": "library",
 			"extra": {
@@ -1718,7 +1788,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/promises/issues",
-				"source": "https://github.com/guzzle/promises/tree/2.3.0"
+				"source": "https://github.com/guzzle/promises/tree/2.4.1"
 			},
 			"funding": [
 				{
@@ -1734,20 +1804,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-22T14:34:08+00:00"
+			"time": "2026-05-20T22:57:30+00:00"
 		},
 		{
 			"name": "guzzlehttp/psr7",
-			"version": "2.8.0",
+			"version": "2.10.3",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/guzzle/psr7.git",
-				"reference": "21dc724a0583619cd1652f673303492272778051"
+				"reference": "7c1472269227dc6f18930bd903d7a88fe6c52130"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
-				"reference": "21dc724a0583619cd1652f673303492272778051",
+				"url": "https://api.github.com/repos/guzzle/psr7/zipball/7c1472269227dc6f18930bd903d7a88fe6c52130",
+				"reference": "7c1472269227dc6f18930bd903d7a88fe6c52130",
 				"shasum": ""
 			},
 			"require": {
@@ -1762,8 +1832,9 @@
 			},
 			"require-dev": {
 				"bamarni/composer-bin-plugin": "^1.8.2",
-				"http-interop/http-factory-tests": "0.9.0",
-				"phpunit/phpunit": "^8.5.44 || ^9.6.25"
+				"http-interop/http-factory-tests": "1.1.0",
+				"jshttp/mime-db": "1.54.0.1",
+				"phpunit/phpunit": "^8.5.52 || ^9.6.34"
 			},
 			"suggest": {
 				"laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -1834,7 +1905,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/guzzle/psr7/issues",
-				"source": "https://github.com/guzzle/psr7/tree/2.8.0"
+				"source": "https://github.com/guzzle/psr7/tree/2.10.3"
 			},
 			"funding": [
 				{
@@ -1850,7 +1921,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-08-23T21:21:41+00:00"
+			"time": "2026-05-27T11:48:20+00:00"
 		},
 		{
 			"name": "http-interop/http-factory-guzzle",
@@ -2238,20 +2309,20 @@
 		},
 		{
 			"name": "johnpbloch/wordpress",
-			"version": "6.8.3",
+			"version": "6.8.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/johnpbloch/wordpress.git",
-				"reference": "1edda09c44b2e185b21941ae92e7ddfce09c31b8"
+				"reference": "4a3673283239155b4bf357f02b94a27a08999c95"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/1edda09c44b2e185b21941ae92e7ddfce09c31b8",
-				"reference": "1edda09c44b2e185b21941ae92e7ddfce09c31b8",
+				"url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/4a3673283239155b4bf357f02b94a27a08999c95",
+				"reference": "4a3673283239155b4bf357f02b94a27a08999c95",
 				"shasum": ""
 			},
 			"require": {
-				"johnpbloch/wordpress-core": "6.8.3",
+				"johnpbloch/wordpress-core": "6.8.5",
 				"johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
 				"php": ">=7.0.0"
 			},
@@ -2280,20 +2351,20 @@
 				"issues": "https://core.trac.wordpress.org/",
 				"source": "https://core.trac.wordpress.org/browser"
 			},
-			"time": "2025-09-30T18:14:25+00:00"
+			"time": "2026-03-11T03:20:41+00:00"
 		},
 		{
 			"name": "johnpbloch/wordpress-core",
-			"version": "6.8.3",
+			"version": "6.8.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/johnpbloch/wordpress-core.git",
-				"reference": "0641ab5518c94c1ab094ad4ccdc46aa9c4657fc1"
+				"reference": "7329024100ca5109cbf728130acfad1990e7ae0b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/0641ab5518c94c1ab094ad4ccdc46aa9c4657fc1",
-				"reference": "0641ab5518c94c1ab094ad4ccdc46aa9c4657fc1",
+				"url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/7329024100ca5109cbf728130acfad1990e7ae0b",
+				"reference": "7329024100ca5109cbf728130acfad1990e7ae0b",
 				"shasum": ""
 			},
 			"require": {
@@ -2301,7 +2372,7 @@
 				"php": ">=7.2.24"
 			},
 			"provide": {
-				"wordpress/core-implementation": "6.8.3"
+				"wordpress/core-implementation": "6.8.5"
 			},
 			"type": "wordpress-core",
 			"notification-url": "https://packagist.org/downloads/",
@@ -2328,7 +2399,7 @@
 				"source": "https://core.trac.wordpress.org/browser",
 				"wiki": "https://codex.wordpress.org/"
 			},
-			"time": "2025-09-30T18:14:19+00:00"
+			"time": "2026-03-11T03:20:38+00:00"
 		},
 		{
 			"name": "johnpbloch/wordpress-core-installer",
@@ -2386,10 +2457,10 @@
 		},
 		{
 			"name": "koodimonni-language/core-nl_nl",
-			"version": "6.8.3",
+			"version": "6.8.5",
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/translation/core/6.8.3/nl_NL.zip"
+				"url": "https://downloads.wordpress.org/translation/core/6.8.5/nl_NL.zip"
 			},
 			"require": {
 				"koodimonni/composer-dropin-installer": ">=0.2.3"
@@ -2902,16 +2973,16 @@
 		},
 		{
 			"name": "owc/idp-userdata",
-			"version": "v1.1.0",
+			"version": "v1.2.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/idp-userdata.git",
-				"reference": "a95986c390ab59356922fd12b995c26dc9e88bf9"
+				"reference": "6080feecc724ba39e0f7ca0261a18b4ca4c3e5a2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/idp-userdata/zipball/a95986c390ab59356922fd12b995c26dc9e88bf9",
-				"reference": "a95986c390ab59356922fd12b995c26dc9e88bf9",
+				"url": "https://api.github.com/repos/OpenWebconcept/idp-userdata/zipball/6080feecc724ba39e0f7ca0261a18b4ca4c3e5a2",
+				"reference": "6080feecc724ba39e0f7ca0261a18b4ca4c3e5a2",
 				"shasum": ""
 			},
 			"require": {
@@ -2931,10 +3002,10 @@
 			],
 			"description": "Common interfaces for IDP userdata (DigiD, eHerkenning)",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/idp-userdata/tree/v1.1.0",
+				"source": "https://github.com/OpenWebconcept/idp-userdata/tree/v1.2.0",
 				"issues": "https://github.com/OpenWebconcept/idp-userdata/issues"
 			},
-			"time": "2024-11-06T10:20:58+00:00"
+			"time": "2026-03-27T05:13:53+00:00"
 		},
 		{
 			"name": "php-di/invoker",
@@ -3468,29 +3539,6 @@
 			"time": "2026-02-20T17:17:58+00:00"
 		},
 		{
-			"name": "plugin/formio-wordpress",
-			"version": "dev-main",
-			"source": {
-				"type": "git",
-				"url": "https://github.com/ConductionNL/formio-wordpress.git",
-				"reference": "63f43ffa5de7233380f872b7825fb51feebff00c"
-			},
-			"dist": {
-				"type": "zip",
-				"url": "https://api.github.com/repos/ConductionNL/formio-wordpress/zipball/63f43ffa5de7233380f872b7825fb51feebff00c",
-				"reference": "63f43ffa5de7233380f872b7825fb51feebff00c",
-				"shasum": ""
-			},
-			"default-branch": true,
-			"type": "wordpress-plugin",
-			"description": "Formio Wordpress",
-			"support": {
-				"source": "https://github.com/ConductionNL/formio-wordpress/tree/main",
-				"issues": "https://github.com/ConductionNL/formio-wordpress/issues"
-			},
-			"time": "2022-04-21T14:07:54+00:00"
-		},
-		{
 			"name": "plugin/gravityforms-amp-booking",
 			"version": "v1.5.5",
 			"source": {
@@ -3689,16 +3737,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-bag-address",
-			"version": "v1.1.6",
+			"version": "v1.1.7",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address.git",
-				"reference": "6ca06336ea6b6d4109a999b4b3626ee83c212622"
+				"reference": "8a1a4d7b6e23afb3f3aa2e442ddc98a7c057ff45"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/OpenWebconcept/plugin-gravityforms-bag-address/zipball/6ca06336ea6b6d4109a999b4b3626ee83c212622",
-				"reference": "6ca06336ea6b6d4109a999b4b3626ee83c212622",
+				"url": "https://api.github.com/repos/OpenWebconcept/plugin-gravityforms-bag-address/zipball/8a1a4d7b6e23afb3f3aa2e442ddc98a7c057ff45",
+				"reference": "8a1a4d7b6e23afb3f3aa2e442ddc98a7c057ff45",
 				"shasum": ""
 			},
 			"require": {
@@ -3754,32 +3802,32 @@
 			],
 			"description": "Add a BAG address field to GravityForms",
 			"support": {
-				"source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.6",
+				"source": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/tree/v1.1.7",
 				"issues": "https://github.com/OpenWebconcept/plugin-gravityforms-bag-address/issues"
 			},
-			"time": "2026-03-02T14:13:54+00:00"
+			"time": "2026-03-20T13:00:03+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-digid",
-			"version": "v1.7.1",
+			"version": "v1.8.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/yardinternet/owc-gravityforms-digid.git",
-				"reference": "0925adecb376d3846cba74e73d2722a0108fa565"
+				"reference": "c755da8be832bd1a233d1ff68194959d3796e7dc"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/0925adecb376d3846cba74e73d2722a0108fa565",
-				"reference": "0925adecb376d3846cba74e73d2722a0108fa565",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-digid/zipball/c755da8be832bd1a233d1ff68194959d3796e7dc",
+				"reference": "c755da8be832bd1a233d1ff68194959d3796e7dc",
 				"shasum": ""
 			},
 			"require": {
 				"aura/session": "^2.1",
 				"cmdisp/monolog-microsoft-teams": "^1.3|^2.0",
 				"owc/idp-userdata": "^1.0",
-				"php": ">=7.4|^8.1",
+				"php": ">=7.4|>=8.2",
 				"php-di/php-di": "^6.0",
-				"symfony/http-foundation": "^5.4|^6.0",
+				"symfony/http-foundation": "^5.4",
 				"vlucas/phpdotenv": "^5.0",
 				"yard/samlbase": "^1.7"
 			},
@@ -3827,10 +3875,10 @@
 			],
 			"description": "Add a DigiD login field to GravityForms",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.7.1",
+				"source": "https://github.com/yardinternet/owc-gravityforms-digid/tree/v1.8.0",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-digid/issues"
 			},
-			"time": "2025-11-07T13:07:01+00:00"
+			"time": "2026-04-13T12:47:06+00:00"
 		},
 		{
 			"name": "plugin/owc-gravityforms-eherkenning",
@@ -4166,16 +4214,16 @@
 		},
 		{
 			"name": "plugin/owc-gravityforms-zaaksysteem-enable-u",
-			"version": "v2.4.6",
+			"version": "v2.4.7",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git",
-				"reference": "988cc08f3bac62c85b35f0e18da55d220cd32602"
+				"reference": "eb60cfa708f4ac7a8d2eb52e7bfdac73e1a7b745"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/988cc08f3bac62c85b35f0e18da55d220cd32602",
-				"reference": "988cc08f3bac62c85b35f0e18da55d220cd32602",
+				"url": "https://api.github.com/repos/yardinternet/owc-gravityforms-zaaksysteem-enable-u/zipball/eb60cfa708f4ac7a8d2eb52e7bfdac73e1a7b745",
+				"reference": "eb60cfa708f4ac7a8d2eb52e7bfdac73e1a7b745",
 				"shasum": ""
 			},
 			"require": {
@@ -4225,10 +4273,10 @@
 			],
 			"description": "Combine one or more 'zaaksystemen' with Gravity Forms and WordPress",
 			"support": {
-				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.6",
+				"source": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/tree/v2.4.7",
 				"issues": "https://github.com/yardinternet/owc-gravityforms-zaaksysteem-enable-u/issues"
 			},
-			"time": "2025-07-24T13:52:03+00:00"
+			"time": "2026-05-11T13:13:12+00:00"
 		},
 		{
 			"name": "plugin/owc-shared-aura-session-instance",
@@ -5132,16 +5180,16 @@
 		},
 		{
 			"name": "robrichards/xmlseclibs",
-			"version": "3.1.4",
+			"version": "3.1.5",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/robrichards/xmlseclibs.git",
-				"reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd"
+				"reference": "03062be78178cbb5e8f605cd255dc32a14981f92"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/bc87389224c6de95802b505e5265b0ec2c5bcdbd",
-				"reference": "bc87389224c6de95802b505e5265b0ec2c5bcdbd",
+				"url": "https://api.github.com/repos/robrichards/xmlseclibs/zipball/03062be78178cbb5e8f605cd255dc32a14981f92",
+				"reference": "03062be78178cbb5e8f605cd255dc32a14981f92",
 				"shasum": ""
 			},
 			"require": {
@@ -5168,9 +5216,9 @@
 			],
 			"support": {
 				"issues": "https://github.com/robrichards/xmlseclibs/issues",
-				"source": "https://github.com/robrichards/xmlseclibs/tree/3.1.4"
+				"source": "https://github.com/robrichards/xmlseclibs/tree/3.1.5"
 			},
-			"time": "2025-12-08T11:57:53+00:00"
+			"time": "2026-03-13T10:31:56+00:00"
 		},
 		{
 			"name": "spomky-labs/base64url",
@@ -5395,16 +5443,16 @@
 		},
 		{
 			"name": "symfony/http-client",
-			"version": "v5.4.49",
+			"version": "v5.4.53",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/http-client.git",
-				"reference": "d77d8e212cde7b5c4a64142bf431522f19487c28"
+				"reference": "b9bb0c36216de55c64c4cc904fab1c3e8765a996"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/http-client/zipball/d77d8e212cde7b5c4a64142bf431522f19487c28",
-				"reference": "d77d8e212cde7b5c4a64142bf431522f19487c28",
+				"url": "https://api.github.com/repos/symfony/http-client/zipball/b9bb0c36216de55c64c4cc904fab1c3e8765a996",
+				"reference": "b9bb0c36216de55c64c4cc904fab1c3e8765a996",
 				"shasum": ""
 			},
 			"require": {
@@ -5466,7 +5514,7 @@
 				"http"
 			],
 			"support": {
-				"source": "https://github.com/symfony/http-client/tree/v5.4.49"
+				"source": "https://github.com/symfony/http-client/tree/v5.4.53"
 			},
 			"funding": [
 				{
@@ -5478,11 +5526,15 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-11-28T08:37:04+00:00"
+			"time": "2026-05-22T10:25:12+00:00"
 		},
 		{
 			"name": "symfony/http-client-contracts",
@@ -5644,16 +5696,16 @@
 		},
 		{
 			"name": "symfony/polyfill-ctype",
-			"version": "v1.33.0",
+			"version": "v1.37.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-ctype.git",
-				"reference": "a3cc8b044a6ea513310cbd48ef7333b384945638"
+				"reference": "141046a8f9477948ff284fa65be2095baafb94f2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/a3cc8b044a6ea513310cbd48ef7333b384945638",
-				"reference": "a3cc8b044a6ea513310cbd48ef7333b384945638",
+				"url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/141046a8f9477948ff284fa65be2095baafb94f2",
+				"reference": "141046a8f9477948ff284fa65be2095baafb94f2",
 				"shasum": ""
 			},
 			"require": {
@@ -5703,7 +5755,7 @@
 				"portable"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-ctype/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-ctype/tree/v1.37.0"
 			},
 			"funding": [
 				{
@@ -5723,20 +5775,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-09T11:45:10+00:00"
+			"time": "2026-04-10T16:19:22+00:00"
 		},
 		{
 			"name": "symfony/polyfill-mbstring",
-			"version": "v1.33.0",
+			"version": "v1.38.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-mbstring.git",
-				"reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493"
+				"reference": "14c5439eec4ccff081ac14eca2dc57feb2a66d92"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6d857f4d76bd4b343eac26d6b539585d2bc56493",
-				"reference": "6d857f4d76bd4b343eac26d6b539585d2bc56493",
+				"url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/14c5439eec4ccff081ac14eca2dc57feb2a66d92",
+				"reference": "14c5439eec4ccff081ac14eca2dc57feb2a66d92",
 				"shasum": ""
 			},
 			"require": {
@@ -5788,7 +5840,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-mbstring/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-mbstring/tree/v1.38.1"
 			},
 			"funding": [
 				{
@@ -5808,11 +5860,11 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-12-23T08:48:59+00:00"
+			"time": "2026-05-26T12:51:13+00:00"
 		},
 		{
 			"name": "symfony/polyfill-php73",
-			"version": "v1.33.0",
+			"version": "v1.37.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php73.git",
@@ -5868,7 +5920,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php73/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-php73/tree/v1.37.0"
 			},
 			"funding": [
 				{
@@ -5892,16 +5944,16 @@
 		},
 		{
 			"name": "symfony/polyfill-php80",
-			"version": "v1.33.0",
+			"version": "v1.37.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php80.git",
-				"reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608"
+				"reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
-				"reference": "0cc9dd0f17f61d8131e7df6b84bd344899fe2608",
+				"url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+				"reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
 				"shasum": ""
 			},
 			"require": {
@@ -5952,7 +6004,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php80/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-php80/tree/v1.37.0"
 			},
 			"funding": [
 				{
@@ -5972,20 +6024,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-01-02T08:10:11+00:00"
+			"time": "2026-04-10T16:19:22+00:00"
 		},
 		{
 			"name": "symfony/polyfill-php81",
-			"version": "v1.33.0",
+			"version": "v1.38.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php81.git",
-				"reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c"
+				"reference": "6bfb9c766cacffbc8e118cb87217d08ed84e5cd7"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
-				"reference": "4a4cfc2d253c21a5ad0e53071df248ed48c6ce5c",
+				"url": "https://api.github.com/repos/symfony/polyfill-php81/zipball/6bfb9c766cacffbc8e118cb87217d08ed84e5cd7",
+				"reference": "6bfb9c766cacffbc8e118cb87217d08ed84e5cd7",
 				"shasum": ""
 			},
 			"require": {
@@ -6032,7 +6084,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php81/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-php81/tree/v1.38.1"
 			},
 			"funding": [
 				{
@@ -6052,20 +6104,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-09T11:45:10+00:00"
+			"time": "2026-05-26T12:45:58+00:00"
 		},
 		{
 			"name": "symfony/polyfill-php82",
-			"version": "v1.33.0",
+			"version": "v1.38.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php82.git",
-				"reference": "5d2ed36f7734637dacc025f179698031951b1692"
+				"reference": "002dc0cfe5fd4ed6033d48f27d4f19a486c4b04b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/5d2ed36f7734637dacc025f179698031951b1692",
-				"reference": "5d2ed36f7734637dacc025f179698031951b1692",
+				"url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/002dc0cfe5fd4ed6033d48f27d4f19a486c4b04b",
+				"reference": "002dc0cfe5fd4ed6033d48f27d4f19a486c4b04b",
 				"shasum": ""
 			},
 			"require": {
@@ -6112,7 +6164,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php82/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-php82/tree/v1.38.1"
 			},
 			"funding": [
 				{
@@ -6132,7 +6184,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-09T11:45:10+00:00"
+			"time": "2026-05-26T12:45:58+00:00"
 		},
 		{
 			"name": "symfony/service-contracts",
@@ -7124,15 +7176,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/coming-soon",
-			"version": "6.19.9",
+			"version": "6.20.1",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/coming-soon/",
-				"reference": "tags/6.19.9"
+				"reference": "tags/6.20.1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.19.9.zip"
+				"url": "https://downloads.wordpress.org/plugin/coming-soon.6.20.1.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7142,15 +7194,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/duplicate-post",
-			"version": "4.5",
+			"version": "4.6",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/duplicate-post/",
-				"reference": "tags/4.5"
+				"reference": "tags/4.6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/duplicate-post.4.5.zip"
+				"url": "https://downloads.wordpress.org/plugin/duplicate-post.4.6.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7214,15 +7266,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/stream",
-			"version": "4.1.2",
+			"version": "4.2.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/stream/",
-				"reference": "tags/4.1.2"
+				"reference": "tags/4.2.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/stream.4.1.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/stream.4.2.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7232,15 +7284,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/user-switching",
-			"version": "1.11.2",
+			"version": "1.12.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/user-switching/",
-				"reference": "tags/1.11.2"
+				"reference": "tags/1.12.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/user-switching.1.11.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/user-switching.1.12.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7250,15 +7302,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wordfence",
-			"version": "8.1.4",
+			"version": "8.2.2",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wordfence/",
-				"reference": "tags/8.1.4"
+				"reference": "tags/8.2.2"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wordfence.8.1.4.zip"
+				"url": "https://downloads.wordpress.org/plugin/wordfence.8.2.2.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7286,15 +7338,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/wp-sentry-integration",
-			"version": "8.10.0",
+			"version": "8.11.0",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/wp-sentry-integration/",
-				"reference": "tags/8.10.0"
+				"reference": "tags/8.11.0"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.10.0.zip"
+				"url": "https://downloads.wordpress.org/plugin/wp-sentry-integration.8.11.0.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7322,20 +7374,20 @@
 		},
 		{
 			"name": "yard/elasticsearch-schema",
-			"version": "v1.0.0",
+			"version": "v1.0.2",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/elasticsearch-schema.git",
-				"reference": "767a0e48c87703f51eb95f38a789d94598edaa89"
+				"reference": "a15a10f8ce44edf8fc9b8316a33f8dcf2f75b26a"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/elasticsearch-schema/zipball/767a0e48c87703f51eb95f38a789d94598edaa89",
-				"reference": "767a0e48c87703f51eb95f38a789d94598edaa89",
+				"url": "https://api.github.com/repos/yardinternet/elasticsearch-schema/zipball/a15a10f8ce44edf8fc9b8316a33f8dcf2f75b26a",
+				"reference": "a15a10f8ce44edf8fc9b8316a33f8dcf2f75b26a",
 				"shasum": ""
 			},
 			"require": {
-				"php": "7.4.* || 8.1.* || 8.2.*"
+				"php": "7.4.* || 8.1.* || 8.2.* || 8.3.* || 8.4.* || 8.5.*"
 			},
 			"require-dev": {
 				"friendsofphp/php-cs-fixer": "^3.0",
@@ -7378,29 +7430,29 @@
 			],
 			"description": "Mapping and document template for building ElasticSearch indexes",
 			"support": {
-				"source": "https://github.com/yardinternet/elasticsearch-schema/tree/v1.0.0",
+				"source": "https://github.com/yardinternet/elasticsearch-schema/tree/v1.0.2",
 				"issues": "https://github.com/yardinternet/elasticsearch-schema/issues"
 			},
-			"time": "2025-04-09T15:22:04+00:00"
+			"time": "2026-04-21T12:17:00+00:00"
 		},
 		{
 			"name": "yard/geocode-pdok",
-			"version": "v1.0.0",
+			"version": "v1.0.1",
 			"source": {
 				"type": "git",
 				"url": "git@github.com:yardinternet/geocode-pdok.git",
-				"reference": "607fb7fac8cac10271d33e93af16165a6f15d994"
+				"reference": "f9a609aa99c104571992bd720dbfc89b8511113f"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/yardinternet/geocode-pdok/zipball/607fb7fac8cac10271d33e93af16165a6f15d994",
-				"reference": "607fb7fac8cac10271d33e93af16165a6f15d994",
+				"url": "https://api.github.com/repos/yardinternet/geocode-pdok/zipball/f9a609aa99c104571992bd720dbfc89b8511113f",
+				"reference": "f9a609aa99c104571992bd720dbfc89b8511113f",
 				"shasum": ""
 			},
 			"require": {
 				"ext-json": "*",
 				"guzzlehttp/guzzle": "^6.0 || ^7.0",
-				"php": "7.4.* || 8.1.* || 8.2.*"
+				"php": "7.4.* || 8.1.* || 8.2.* || 8.3.* || 8.4.* || 8.5.*"
 			},
 			"require-dev": {
 				"friendsofphp/php-cs-fixer": "^3.0",
@@ -7443,10 +7495,10 @@
 			],
 			"description": "Library for geocoding address data using the PDOK location service",
 			"support": {
-				"source": "https://github.com/yardinternet/geocode-pdok/tree/v1.0.0",
+				"source": "https://github.com/yardinternet/geocode-pdok/tree/v1.0.1",
 				"issues": "https://github.com/yardinternet/geocode-pdok/issues"
 			},
-			"time": "2025-03-27T09:57:15+00:00"
+			"time": "2026-04-21T12:02:39+00:00"
 		},
 		{
 			"name": "yard/logger",
@@ -7611,11 +7663,11 @@
 		},
 		{
 			"name": "ypackagist/advanced-custom-fields-pro",
-			"version": "6.7.0.2",
+			"version": "6.8.0.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.7.0.2",
-				"shasum": "2591e2703ef6765e93194277f8f6251c0a81b97f"
+				"url": "https://packagist.yard.nl/satispress/advanced-custom-fields-pro/6.8.0.1",
+				"shasum": "8ff1f480fe9499057d30e26f363665da1dc845c6"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7649,11 +7701,11 @@
 		},
 		{
 			"name": "ypackagist/gf-entries-in-excel",
-			"version": "2.4.2",
+			"version": "2.6.0",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.4.2",
-				"shasum": "9ecd23f98d4e9320a7063f64b60b95fe625c37e3"
+				"url": "https://packagist.yard.nl/satispress/gf-entries-in-excel/2.6.0",
+				"shasum": "ac2b17d6de4b28266b3ba184a49d1801301b4406"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -7763,11 +7815,11 @@
 		},
 		{
 			"name": "ypackagist/gravity-pdf",
-			"version": "6.14.0",
+			"version": "6.14.1",
 			"dist": {
 				"type": "zip",
-				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.14.0",
-				"shasum": "e8fa49409fff5c512d3a708e71b9b3d75011c98d"
+				"url": "https://packagist.yard.nl/satispress/gravity-pdf/6.14.1",
+				"shasum": "2c90562af0377d9fee043c8d3a75f7fb9b9f82bf"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -8568,6 +8620,75 @@
 			"time": "2022-12-30T00:15:36+00:00"
 		},
 		{
+			"name": "ergebnis/agent-detector",
+			"version": "1.2.0",
+			"source": {
+				"type": "git",
+				"url": "https://github.com/ergebnis/agent-detector.git",
+				"reference": "e211f17928c8b95a51e06040792d57f5462fb271"
+			},
+			"dist": {
+				"type": "zip",
+				"url": "https://api.github.com/repos/ergebnis/agent-detector/zipball/e211f17928c8b95a51e06040792d57f5462fb271",
+				"reference": "e211f17928c8b95a51e06040792d57f5462fb271",
+				"shasum": ""
+			},
+			"require": {
+				"php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0 || ~8.6.0"
+			},
+			"require-dev": {
+				"ergebnis/composer-normalize": "^2.51.0",
+				"ergebnis/license": "^2.7.0",
+				"ergebnis/php-cs-fixer-config": "^6.60.2",
+				"ergebnis/phpstan-rules": "^2.13.1",
+				"ergebnis/phpunit-slow-test-detector": "^2.24.0",
+				"ergebnis/rector-rules": "^1.18.1",
+				"fakerphp/faker": "^1.24.1",
+				"infection/infection": "^0.26.6",
+				"phpstan/extension-installer": "^1.4.3",
+				"phpstan/phpstan": "^2.1.54",
+				"phpstan/phpstan-deprecation-rules": "^2.0.4",
+				"phpstan/phpstan-phpunit": "^2.0.16",
+				"phpstan/phpstan-strict-rules": "^2.0.10",
+				"phpunit/phpunit": "^9.6.34",
+				"rector/rector": "^2.4.2"
+			},
+			"type": "library",
+			"extra": {
+				"branch-alias": {
+					"dev-main": "1.2-dev"
+				},
+				"composer-normalize": {
+					"indent-size": 2,
+					"indent-style": "space"
+				}
+			},
+			"autoload": {
+				"psr-4": {
+					"Ergebnis\\AgentDetector\\": "src/"
+				}
+			},
+			"notification-url": "https://packagist.org/downloads/",
+			"license": [
+				"MIT"
+			],
+			"authors": [
+				{
+					"name": "Andreas Möller",
+					"email": "am@localheinz.com",
+					"homepage": "https://localheinz.com"
+				}
+			],
+			"description": "Provides a detector for detecting the presence of an agent.",
+			"homepage": "https://github.com/ergebnis/agent-detector",
+			"support": {
+				"issues": "https://github.com/ergebnis/agent-detector/issues",
+				"security": "https://github.com/ergebnis/agent-detector/blob/main/.github/SECURITY.md",
+				"source": "https://github.com/ergebnis/agent-detector"
+			},
+			"time": "2026-05-07T08:19:07+00:00"
+		},
+		{
 			"name": "evenement/evenement",
 			"version": "v3.0.2",
 			"source": {
@@ -8677,22 +8798,23 @@
 		},
 		{
 			"name": "friendsofphp/php-cs-fixer",
-			"version": "v3.94.2",
+			"version": "v3.95.2",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-				"reference": "7787ceff91365ba7d623ec410b8f429cdebb4f63"
+				"reference": "a28d88a5e172b27e78d0816992b15a9df3da20f1"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7787ceff91365ba7d623ec410b8f429cdebb4f63",
-				"reference": "7787ceff91365ba7d623ec410b8f429cdebb4f63",
+				"url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/a28d88a5e172b27e78d0816992b15a9df3da20f1",
+				"reference": "a28d88a5e172b27e78d0816992b15a9df3da20f1",
 				"shasum": ""
 			},
 			"require": {
 				"clue/ndjson-react": "^1.3",
 				"composer/semver": "^3.4",
 				"composer/xdebug-handler": "^3.0.5",
+				"ergebnis/agent-detector": "^1.1.1",
 				"ext-filter": "*",
 				"ext-hash": "*",
 				"ext-json": "*",
@@ -8717,18 +8839,18 @@
 				"symfony/stopwatch": "^5.4.45 || ^6.4.24 || ^7.0 || ^8.0"
 			},
 			"require-dev": {
-				"facile-it/paraunit": "^1.3.1 || ^2.7.1",
-				"infection/infection": "^0.32.3",
-				"justinrainbow/json-schema": "^6.6.4",
+				"facile-it/paraunit": "^1.3.1 || ^2.11.0",
+				"infection/infection": "^0.32.7",
+				"justinrainbow/json-schema": "^6.8.0",
 				"keradus/cli-executor": "^2.3",
 				"mikey179/vfsstream": "^1.6.12",
 				"php-coveralls/php-coveralls": "^2.9.1",
-				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.7",
-				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.7",
-				"phpunit/phpunit": "^9.6.34 || ^10.5.63 || ^11.5.51",
+				"php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.8",
+				"php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.8",
+				"phpunit/phpunit": "^9.6.34 || ^10.5.63 || ^11.5.55",
 				"symfony/polyfill-php85": "^1.33",
-				"symfony/var-dumper": "^5.4.48 || ^6.4.32 || ^7.4.4 || ^8.0.4",
-				"symfony/yaml": "^5.4.45 || ^6.4.30 || ^7.4.1 || ^8.0.1"
+				"symfony/var-dumper": "^5.4.48 || ^6.4.32 || ^7.4.4 || ^8.0.8",
+				"symfony/yaml": "^5.4.45 || ^6.4.30 || ^7.4.1 || ^8.0.8"
 			},
 			"suggest": {
 				"ext-dom": "For handling output formats in XML",
@@ -8769,7 +8891,7 @@
 			],
 			"support": {
 				"issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.94.2"
+				"source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.95.2"
 			},
 			"funding": [
 				{
@@ -8777,7 +8899,7 @@
 					"type": "github"
 				}
 			],
-			"time": "2026-02-20T16:13:53+00:00"
+			"time": "2026-05-15T09:20:44+00:00"
 		},
 		{
 			"name": "hamcrest/hamcrest-php",
@@ -11683,16 +11805,16 @@
 		},
 		{
 			"name": "symfony/polyfill-intl-grapheme",
-			"version": "v1.33.0",
+			"version": "v1.38.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-				"reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70"
+				"reference": "e9247d281d694a5120554d9afaf54e070e88a603"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/380872130d3a5dd3ace2f4010d95125fde5d5c70",
-				"reference": "380872130d3a5dd3ace2f4010d95125fde5d5c70",
+				"url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/e9247d281d694a5120554d9afaf54e070e88a603",
+				"reference": "e9247d281d694a5120554d9afaf54e070e88a603",
 				"shasum": ""
 			},
 			"require": {
@@ -11741,7 +11863,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.38.1"
 			},
 			"funding": [
 				{
@@ -11761,20 +11883,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-06-27T09:58:17+00:00"
+			"time": "2026-05-26T05:58:03+00:00"
 		},
 		{
 			"name": "symfony/polyfill-intl-normalizer",
-			"version": "v1.33.0",
+			"version": "v1.38.0",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-				"reference": "3833d7255cc303546435cb650316bff708a1c75c"
+				"reference": "2d446c214bdbe5b71bde5011b060a05fece3ae6b"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/3833d7255cc303546435cb650316bff708a1c75c",
-				"reference": "3833d7255cc303546435cb650316bff708a1c75c",
+				"url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/2d446c214bdbe5b71bde5011b060a05fece3ae6b",
+				"reference": "2d446c214bdbe5b71bde5011b060a05fece3ae6b",
 				"shasum": ""
 			},
 			"require": {
@@ -11826,7 +11948,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.38.0"
 			},
 			"funding": [
 				{
@@ -11846,20 +11968,20 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-09T11:45:10+00:00"
+			"time": "2026-05-25T13:48:31+00:00"
 		},
 		{
 			"name": "symfony/polyfill-php84",
-			"version": "v1.33.0",
+			"version": "v1.38.1",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/polyfill-php84.git",
-				"reference": "d8ced4d875142b6a7426000426b8abc631d6b191"
+				"reference": "f4e1dfaee5b74aba5964fe1fd4dfc7ba5e3085fa"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/polyfill-php84/zipball/d8ced4d875142b6a7426000426b8abc631d6b191",
-				"reference": "d8ced4d875142b6a7426000426b8abc631d6b191",
+				"url": "https://api.github.com/repos/symfony/polyfill-php84/zipball/f4e1dfaee5b74aba5964fe1fd4dfc7ba5e3085fa",
+				"reference": "f4e1dfaee5b74aba5964fe1fd4dfc7ba5e3085fa",
 				"shasum": ""
 			},
 			"require": {
@@ -11906,7 +12028,7 @@
 				"shim"
 			],
 			"support": {
-				"source": "https://github.com/symfony/polyfill-php84/tree/v1.33.0"
+				"source": "https://github.com/symfony/polyfill-php84/tree/v1.38.1"
 			},
 			"funding": [
 				{
@@ -11926,7 +12048,7 @@
 					"type": "tidelift"
 				}
 			],
-			"time": "2025-06-24T13:30:11+00:00"
+			"time": "2026-05-26T12:51:13+00:00"
 		},
 		{
 			"name": "symfony/process",
@@ -12233,16 +12355,16 @@
 		},
 		{
 			"name": "symfony/yaml",
-			"version": "v5.4.45",
+			"version": "v5.4.53",
 			"source": {
 				"type": "git",
 				"url": "https://github.com/symfony/yaml.git",
-				"reference": "a454d47278cc16a5db371fe73ae66a78a633371e"
+				"reference": "ae0bbb46f77ff56591d0a0259c7f458f4b3e1f77"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://api.github.com/repos/symfony/yaml/zipball/a454d47278cc16a5db371fe73ae66a78a633371e",
-				"reference": "a454d47278cc16a5db371fe73ae66a78a633371e",
+				"url": "https://api.github.com/repos/symfony/yaml/zipball/ae0bbb46f77ff56591d0a0259c7f458f4b3e1f77",
+				"reference": "ae0bbb46f77ff56591d0a0259c7f458f4b3e1f77",
 				"shasum": ""
 			},
 			"require": {
@@ -12288,7 +12410,7 @@
 			"description": "Loads and dumps YAML files",
 			"homepage": "https://symfony.com",
 			"support": {
-				"source": "https://github.com/symfony/yaml/tree/v5.4.45"
+				"source": "https://github.com/symfony/yaml/tree/v5.4.53"
 			},
 			"funding": [
 				{
@@ -12300,11 +12422,15 @@
 					"type": "github"
 				},
 				{
+					"url": "https://github.com/nicolas-grekas",
+					"type": "github"
+				},
+				{
 					"url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
 					"type": "tidelift"
 				}
 			],
-			"time": "2024-09-25T14:11:13+00:00"
+			"time": "2026-05-20T17:13:41+00:00"
 		},
 		{
 			"name": "theseer/tokenizer",
@@ -12358,15 +12484,15 @@
 		},
 		{
 			"name": "wpackagist-plugin/query-monitor",
-			"version": "3.20.2",
+			"version": "4.0.6",
 			"source": {
 				"type": "svn",
 				"url": "https://plugins.svn.wordpress.org/query-monitor/",
-				"reference": "tags/3.20.2"
+				"reference": "tags/4.0.6"
 			},
 			"dist": {
 				"type": "zip",
-				"url": "https://downloads.wordpress.org/plugin/query-monitor.3.20.2.zip"
+				"url": "https://downloads.wordpress.org/plugin/query-monitor.4.0.6.zip"
 			},
 			"require": {
 				"composer/installers": "^1.0 || ^2.0"
@@ -12383,7 +12509,6 @@
 		"deployer/recipes": 20,
 		"elastic/transport": 20,
 		"elasticsearch/elasticsearch": 20,
-		"plugin/formio-wordpress": 20,
 		"plugin/owc-gravityforms-jcc-appointments": 20,
 		"plugin/yard-official-publications": 20,
 		"richardkorthuis/geophp": 20
