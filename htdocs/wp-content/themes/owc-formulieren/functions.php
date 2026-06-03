@@ -50,7 +50,7 @@ add_filter('automatic_updates_is_vcs_checkout', '__return_false', 10, 2);
 add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer) {
     if (in_array(env('APP_ENV'), ['production'])) {
         $phpmailer->isSMTP();
-        $phpmailer->Host = 'form01.yard.nl';
+        $phpmailer->Host = 'localhost';
         $phpmailer->Port = 25;
     }
 });
@@ -59,7 +59,7 @@ add_action('phpmailer_init', function (\PHPMailer\PHPMailer\PHPMailer $phpmailer
  * Add CSP to admin-ajax and initialize nonces for resources.
  */
 add_action('init', function () {
-    if ( defined( 'WP_CLI' ) && WP_CLI ) {
+    if (defined('WP_CLI') && WP_CLI) {
         return;
     }
 
@@ -80,7 +80,7 @@ add_action('init', function () {
 
     // Inject nonce into WebPack to make its style loader work.
     // See https://webpack.js.org/loaders/style-loader/
-    add_action( 'wp_head', function () use ($nonceScript, $nonceStyle) {
+    add_action('wp_head', function () use ($nonceScript, $nonceStyle) {
         ?>
         <script>
             window.__webpack_nonce__ = '<?php echo $nonceStyle; ?>';
