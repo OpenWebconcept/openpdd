@@ -6,28 +6,7 @@
 	"config": {
 		"audit": {
 			"ignore": [
-				"PKSA-y2cr-5h3j-g3ys",
-				"PKSA-fbvq-z33h-r2np",
-				"PKSA-g9zw-qxh8-pq8w",
-				"PKSA-yd6k-t2gh-1m43",
-				"PKSA-1tmc-rt7x-12w6",
-				"PKSA-xx6c-6d96-db2w",
-				"PKSA-sjvz-tbbr-vwth",
-				"PKSA-h8hf-ytnd-5t9q",
-				"PKSA-wwb1-81rc-pd65",
-				"PKSA-kvv6-36cr-fkzb",
-				"PKSA-n14z-jjjg-g8vd",
-				"PKSA-3mcc-k66d-pydb",
-				"PKSA-gw7n-z4yx-7xjt",
-				"PKSA-dpx1-78wg-1kqs",
-				"PKSA-21g2-dzjv-sky5",
-				"PKSA-5k7f-wvjj-jrgw",
-				"PKSA-hgmw-wn4d-hpcy",
-				"PKSA-v3kg-5xkr-pykw",
-				"PKSA-yhcn-xrg3-68b1",
-				"PKSA-2wrf-1xmk-1pky",
-				"PKSA-6319-ffpf-gx66",
-				"PKSA-n7sg-8f52-pqtf"
+				"PKSA-y2cr-5h3j-g3ys"
 			]
 		},
 		"preferred-install": "dist",
@@ -41,7 +20,7 @@
 			"cweagans/composer-patches": true
 		},
 		"platform": {
-			"php": "7.4"
+			"php": "8.2"
 		}
 	},
 	"authors": [
@@ -54,6 +33,11 @@
 		{
 			"type": "composer",
 			"url": "https://packagist.yard.nl/satispress"
+		},
+		{
+			"name": "wp-packages",
+			"type": "composer",
+			"url": "https://repo.wp-packages.org"
 		},
 		{
 			"type": "composer",
@@ -106,10 +90,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:yardinternet/plugin-owc-datab.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/owc-gravityforms-zaaksysteem-enable-u.git"
 		},
 		{
 			"type": "vcs",
@@ -170,10 +150,6 @@
 		{
 			"type": "vcs",
 			"url": "git@github.com:dtakken/elastic-transport-php.git"
-		},
-		{
-			"type": "vcs",
-			"url": "git@github.com:yardinternet/plugin-owc-gravityforms-jcc-appointments.git"
 		}
 	],
 	"_comment": [
@@ -185,7 +161,7 @@
 		" Constraints last verified: 09-2024                                 "
 	],
 	"require": {
-		"php": "<8.0",
+		"php": ">=8.2",
 		"acato-plugins/cmb2-flexible-content": "dev-master@dev",
 		"acato/openkaarten-base": "^0.2",
 		"acato/openkaarten-base-functions": "dev-master",
@@ -210,29 +186,25 @@
 		"plugin/owc-gravityforms-digid": "^1.7",
 		"plugin/owc-gravityforms-eherkenning": "^1.3.0",
 		"plugin/owc-gravityforms-eidas": "^1.0.2",
-		"plugin/owc-gravityforms-jcc-appointments": "dev-feat/configurable-activity-numbers",
 		"plugin/owc-gravityforms-kvk-prefill": "^2.0",
 		"plugin/owc-gravityforms-zaaksysteem": "^2.11",
-		"plugin/owc-gravityforms-zaaksysteem-enable-u": "^2.4.6",
 		"plugin/owc-shared-aura-session-instance": "^1.0.0",
 		"plugin/owc-signicat-openid": "1.3.*",
 		"plugin/prefill-gravity-forms": "^1.9",
 		"plugin/yard-official-publications": "dev-elastic-bug-workaround@dev",
 		"richardkorthuis/geophp": "dev-development",
-		"twig/twig": "3.11.3",
 		"vlucas/phpdotenv": "^5.0",
-		"wpackagist-plugin/block-visibility": "^3.7",
-		"wpackagist-plugin/coming-soon": "^6.0",
-		"wpackagist-plugin/duplicate-post": "^4.0",
-		"wpackagist-plugin/google-analytics-for-wordpress": "^9.6",
 		"wpackagist-plugin/onelogin-saml-sso": "^3.4",
-		"wpackagist-plugin/pronamic-ideal": "9.5.*",
-		"wpackagist-plugin/stream": "^4.0",
-		"wpackagist-plugin/user-switching": "^1.0",
-		"wpackagist-plugin/wordfence": "^8.0",
-		"wpackagist-plugin/wordpress-importer": "^0.8",
-		"wpackagist-plugin/wp-sentry-integration": "^8.3",
-		"wpackagist-plugin/wp-seopress": "^8.0",
+		"wp-plugin/block-visibility": "^3.7",
+		"wp-plugin/coming-soon": "^6.0",
+		"wp-plugin/duplicate-post": "^4.0",
+		"wp-plugin/google-analytics-for-wordpress": "^9.6",
+		"wp-plugin/pronamic-ideal": "9.5.*",
+		"wp-plugin/stream": "^4.0",
+		"wp-plugin/user-switching": "^1.0",
+		"wp-plugin/wordpress-importer": "^0.8",
+		"wp-plugin/wp-sentry-integration": "^8.3",
+		"wp-plugin/wp-seopress": "^10.0",
 		"ypackagist/advanced-custom-fields-pro": "^6.3",
 		"ypackagist/cmb2": "^2.11",
 		"ypackagist/gf-entries-in-excel": "^2.2",
@@ -254,7 +226,6 @@
 	"require-dev": {
 		"10up/wp_mock": "~0.5",
 		"deployer/deployer": "^6.0",
-		"deployer/recipes": "dev-master",
 		"friendsofphp/php-cs-fixer": "^3.14",
 		"mockery/mockery": "^1.0",
 		"phpunit/phpunit": "^8.0 | ^9.0",
@@ -281,7 +252,7 @@
 	},
 	"extra": {
 		"patches": {
-			"wpackagist-plugin/pronamic-ideal": {
+			"wp-plugin/pronamic-ideal": {
 				"Fix missing order_id": "dev/patches/missing_order_id.patch"
 			}
 		},

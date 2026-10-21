@@ -27,7 +27,7 @@ class TeamsLogger
     /**
      * Add a log record and send to Teams.
      */
-    public function addRecord(string $method = 'info', string $title, array $context): void
+    public function addRecord(string $method, string $title, array $context): void
     {
         if (!$this->isValid($method)) {
             return;
